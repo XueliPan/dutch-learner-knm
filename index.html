@@ -1,0 +1,245 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Chinese-first KNM study app for learning Dutch society topics and practicing exam-style questions."
+    />
+    <title>KNM 通关练习 | 中文学习助手</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@400;500;700;800&family=Inter:wght@500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="topbar">
+      <a class="brand" href="#dashboard" aria-label="KNM 通关练习首页">
+        <span class="brand-mark">NL</span>
+        <span>
+          <strong>KNM 通关练习</strong>
+          <small>中文学习助手</small>
+        </span>
+      </a>
+      <nav class="tabs" aria-label="主要页面">
+        <button class="tab is-active" data-view="dashboard" type="button">总览</button>
+        <button class="tab" data-view="lessons" type="button">主题</button>
+        <button class="tab" data-view="practice" type="button">刷题</button>
+        <button class="tab" data-view="mock" type="button">模拟</button>
+        <button class="tab" data-view="words" type="button">词卡</button>
+      </nav>
+    </header>
+
+    <main>
+      <section id="dashboard" class="view is-visible" aria-labelledby="dashboard-title">
+        <div class="hero">
+          <img src="assets/knm-study-hero.png" alt="Chinese learner studying Dutch society topics" />
+          <div class="hero-panel">
+            <p class="eyebrow">Kennis van de Nederlandse Maatschappij</p>
+            <h1 id="dashboard-title">用中文理解荷兰社会，用荷兰语通过 KNM。</h1>
+            <p class="hero-copy">
+              按主题学习常见生活场景，记住核心荷兰语关键词，并用考试风格选择题训练判断速度。
+            </p>
+            <div class="hero-actions">
+              <button class="primary-action" data-start="practice" type="button">开始刷题</button>
+              <button class="secondary-action" data-start="lessons" type="button">先学主题</button>
+            </div>
+          </div>
+        </div>
+
+        <section class="stats-grid" aria-label="学习进度">
+          <article class="stat-block">
+            <span>已答题</span>
+            <strong id="answeredCount">0</strong>
+            <small>本浏览器自动保存</small>
+          </article>
+          <article class="stat-block">
+            <span>正确率</span>
+            <strong id="accuracyRate">0%</strong>
+            <small>包含刷题和模拟</small>
+          </article>
+          <article class="stat-block">
+            <span>连续学习</span>
+            <strong id="streakDays">1 天</strong>
+            <small>每天打开即可延续</small>
+          </article>
+          <article class="stat-block accent">
+            <span>下一步</span>
+            <strong id="nextTopic">Wonen</strong>
+            <small>优先补最弱主题</small>
+          </article>
+        </section>
+
+        <section class="split-layout">
+          <div class="panel">
+            <div class="section-heading">
+              <div>
+                <p class="eyebrow">Study Path</p>
+                <h2>今日学习路线</h2>
+              </div>
+            </div>
+            <ol class="study-path">
+              <li>
+                <span>1</span>
+                <div>
+                  <strong>10 分钟看主题</strong>
+                  <p>先读中文解释，再读荷兰语关键词，建立场景感。</p>
+                </div>
+              </li>
+              <li>
+                <span>2</span>
+                <div>
+                  <strong>15 分钟刷题</strong>
+                  <p>每题看解析，错题会进入弱项记录。</p>
+                </div>
+              </li>
+              <li>
+                <span>3</span>
+                <div>
+                  <strong>5 分钟词卡复习</strong>
+                  <p>把关键词读出声，训练考试时快速识别。</p>
+                </div>
+              </li>
+            </ol>
+          </div>
+
+          <div class="panel">
+            <div class="section-heading">
+              <div>
+                <p class="eyebrow">Official Context</p>
+                <h2>考试提醒</h2>
+              </div>
+            </div>
+            <div class="exam-note">
+              <p>
+                DUO 说明：KNM 是电脑考试，题目围绕多个社会主题，例如 <strong>wonen</strong> 和
+                <strong>werk en inkomen</strong>，考试时间为 <strong>45 分钟</strong>。
+              </p>
+              <p>
+                本应用的题目是原创练习，不是官方题库。考前请务必做 DUO 官方 oefenexamen。
+              </p>
+              <a href="https://www.inburgeren.nl/examen-doen/oefenen.jsp" target="_blank" rel="noreferrer">
+                打开 DUO 官方练习
+              </a>
+            </div>
+          </div>
+        </section>
+
+        <section class="panel review-panel" id="reviewPlanPanel" hidden>
+          <div class="section-heading">
+            <div>
+              <p class="eyebrow">7-Day Plan</p>
+              <h2>7 天复习计划</h2>
+            </div>
+          </div>
+          <div class="review-grid" id="reviewPlanGrid"></div>
+        </section>
+      </section>
+
+      <section id="lessons" class="view" aria-labelledby="lessons-title">
+        <div class="page-heading">
+          <div>
+            <p class="eyebrow">Themes</p>
+            <h1 id="lessons-title">KNM 主题课</h1>
+          </div>
+          <div class="filter-row" id="lessonFilters" aria-label="主题筛选"></div>
+        </div>
+        <div class="lesson-grid" id="lessonGrid"></div>
+      </section>
+
+      <section id="practice" class="view" aria-labelledby="practice-title">
+        <div class="page-heading">
+          <div>
+            <p class="eyebrow">Practice</p>
+            <h1 id="practice-title">按主题刷题</h1>
+          </div>
+          <select id="topicSelect" aria-label="选择练习主题"></select>
+        </div>
+        <div class="quiz-shell">
+          <aside class="quiz-side">
+            <span class="pill" id="practiceTopicPill">Wonen</span>
+            <h2 id="practiceProgress">第 1 题</h2>
+            <p id="practiceHint">选择一个答案后查看中文解析。</p>
+            <div class="meter" aria-label="本轮进度">
+              <span id="practiceMeter"></span>
+            </div>
+            <button class="secondary-action full" id="resetPractice" type="button">重开本主题</button>
+          </aside>
+          <section class="question-card" aria-live="polite">
+            <p class="scenario" id="practiceScenario"></p>
+            <div class="question-head">
+              <h2 id="practiceQuestion"></h2>
+              <button class="listen-button" id="speakPracticeQuestion" type="button" aria-label="播放本题荷兰语发音">
+                <span aria-hidden="true">Luister</span>
+              </button>
+            </div>
+            <div class="answers" id="practiceAnswers"></div>
+            <div class="feedback" id="practiceFeedback" hidden></div>
+            <div class="card-actions">
+              <button class="secondary-action" id="nextPractice" type="button" disabled>下一题</button>
+            </div>
+          </section>
+        </div>
+      </section>
+
+      <section id="mock" class="view" aria-labelledby="mock-title">
+        <div class="page-heading">
+          <div>
+            <p class="eyebrow">Mock Exam</p>
+            <h1 id="mock-title">45 分钟模拟模式</h1>
+          </div>
+          <button class="primary-action" id="startMock" type="button">开始模拟</button>
+        </div>
+        <div class="mock-layout">
+          <aside class="panel mock-status">
+            <span class="pill">KNM Mock</span>
+            <strong id="mockTimer">45:00</strong>
+            <p id="mockCount">准备开始</p>
+            <div class="meter">
+              <span id="mockMeter"></span>
+            </div>
+          </aside>
+          <section class="question-card">
+            <p class="scenario" id="mockScenario">点击开始后，将随机抽取 20 道题。</p>
+            <div class="question-head">
+              <h2 id="mockQuestion">模拟模式会隐藏每题解析，结束后统一看结果。</h2>
+              <button class="listen-button" id="speakMockQuestion" type="button" aria-label="播放本题荷兰语发音" disabled>
+                <span aria-hidden="true">Luister</span>
+              </button>
+            </div>
+            <div class="answers" id="mockAnswers"></div>
+            <div class="feedback" id="mockFeedback" hidden></div>
+            <div class="card-actions">
+              <button class="secondary-action" id="prevMock" type="button" disabled>上一题</button>
+              <button class="secondary-action" id="nextMock" type="button" disabled>下一题</button>
+              <button class="primary-action" id="finishMock" type="button" disabled>交卷</button>
+            </div>
+          </section>
+        </div>
+      </section>
+
+      <section id="words" class="view" aria-labelledby="words-title">
+        <div class="page-heading">
+          <div>
+            <p class="eyebrow">Words</p>
+            <h1 id="words-title">高频词卡</h1>
+          </div>
+          <button class="secondary-action" id="shuffleWords" type="button">换一组</button>
+        </div>
+        <div class="word-grid" id="wordGrid"></div>
+      </section>
+    </main>
+
+    <footer>
+      <span>Made for Chinese KNM learners.</span>
+      <span>请用官方 DUO 材料确认最新考试要求。</span>
+    </footer>
+
+    <script src="content-data.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>
