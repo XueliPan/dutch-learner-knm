@@ -1,4 +1,6 @@
-const importedContent = window.KNM_CONTENT || {};
+import { KNM_CONTENT } from "./content-data.js";
+
+const importedContent = KNM_CONTENT || {};
 
 const fallbackTopics = [
   {

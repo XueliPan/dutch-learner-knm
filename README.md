@@ -4,7 +4,7 @@ A lightweight browser app for Chinese speakers preparing for the Dutch KNM exam.
 
 ## Run
 
-Open `index.html` directly, or start a local server:
+Start a local server:
 
 ```bash
 python3 -m http.server 4173

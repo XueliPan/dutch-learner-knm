@@ -227,7 +227,7 @@ const questions = parseQuestions(practice, lessonByChapter);
 const words = topics.flatMap((topic) => topic.vocabulary);
 const reviewPlan = parseReviewPlan(notes);
 
-const output = `window.KNM_CONTENT = ${JSON.stringify({ topics, questions, words, reviewPlan }, null, 2)};\n`;
+const output = `export const KNM_CONTENT = ${JSON.stringify({ topics, questions, words, reviewPlan }, null, 2)};\n`;
 fs.writeFileSync(outputPath, output);
 
 console.log(`Imported ${topics.length} topics, ${questions.length} questions, ${words.length} vocabulary items.`);

@@ -1,4 +1,4 @@
-window.KNM_CONTENT = {
+export const KNM_CONTENT = {
   "topics": [
     {
       "id": "nederland-leren-kennen",
