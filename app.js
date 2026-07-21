@@ -688,8 +688,8 @@ function renderFullStudy(study) {
     <section class="full-study-panel">
       <div class="section-heading">
         <div>
-          <p class="eyebrow">Pilot Full Chapter</p>
-          <h3>第 1 章完整学习页</h3>
+          <p class="eyebrow">Full Chapter</p>
+          <h3>第 ${study.chapter} 章完整学习页</h3>
           <p>${units.length} 个知识单元，${study.imageCount} 张图片引用，${study.vocabulary.length} 个核心词。</p>
         </div>
       </div>
@@ -701,6 +701,7 @@ function renderFullStudy(study) {
       <div class="full-study-parts">
         ${study.parts.map((part, index) => renderFullStudyPart(part, index)).join("")}
       </div>
+      ${renderFullStudyExtraSections(study)}
       ${renderFullStudyVocabulary(study)}
       ${renderCommonMistakes(study)}
       ${renderChapterCheatSheet(study)}
@@ -763,6 +764,22 @@ function renderStudyBlock(block) {
   return "";
 }
 
+function renderFullStudyExtraSections(study) {
+  if (!study.extraSections?.length) return "";
+  return study.extraSections
+    .map(
+      (section) => `
+        <details class="full-study-extra">
+          <summary>${renderText(section.title)} <span>${section.blocks.length} 组内容</span></summary>
+          <div class="unit-content">
+            ${section.blocks.map(renderStudyBlock).join("")}
+          </div>
+        </details>
+      `,
+    )
+    .join("");
+}
+
 function renderFullStudyVocabulary(study) {
   if (!study.vocabulary?.length) return "";
   return `
@@ -801,7 +818,7 @@ function renderChapterCheatSheet(study) {
   if (!study.cheatSheet?.length) return "";
   return `
     <details class="full-study-extra">
-      <summary>第 1 章一页速记 <span>${study.cheatSheet.reduce((total, section) => total + section.items.length, 0)} 条</span></summary>
+      <summary>第 ${study.chapter} 章一页速记 <span>${study.cheatSheet.reduce((total, section) => total + section.items.length, 0)} 条</span></summary>
       <div class="chapter-cheat-grid">
         ${study.cheatSheet
           .map(

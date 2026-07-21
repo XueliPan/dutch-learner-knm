@@ -1996,6 +1996,7 @@ export const KNM_CONTENT = {
             ]
           }
         ],
+        "extraSections": [],
         "vocabulary": [
           {
             "word": "liggen",
@@ -2555,7 +2556,934 @@ export const KNM_CONTENT = {
         "gecondoleerd → 节哀",
         "op je beurt wachten → 等轮到你"
       ],
-      "fullStudy": null,
+      "fullStudy": {
+        "title": "KNM 学习手册：Hoofdstuk 2 - De mensen in Nederland",
+        "chapter": 2,
+        "goals": [
+          "荷兰的重要节日、日期和庆祝方式。",
+          "生日、婚礼、孩子出生、考试通过和葬礼时应说什么。",
+          "荷兰人拜访别人、送礼物和预约的基本习惯。",
+          "正式与非正式称呼的区别。",
+          "握手、贴面礼、眼神交流和“直接表达”的文化特点。",
+          "排队、取号和公共交通中的行为规则。"
+        ],
+        "parts": [
+          {
+            "title": "第一部分：重要节日与特殊日子",
+            "units": [
+              {
+                "number": 1,
+                "title": "节日总表",
+                "blocks": [
+                  {
+                    "type": "table",
+                    "headers": [
+                      "荷兰语",
+                      "日期",
+                      "主要含义",
+                      "常见活动",
+                      "基督教节日？"
+                    ],
+                    "rows": [
+                      [
+                        "Valentijnsdag",
+                        "14 februari",
+                        "爱情、情侣",
+                        "寄卡片、送礼物",
+                        "否"
+                      ],
+                      [
+                        "Carnaval",
+                        "通常从周六到周二，共约4天",
+                        "斋戒前的狂欢，南部尤其常见",
+                        "穿夸张服装、跳舞",
+                        "现在通常不作为正式基督教节日理解；历史上与宗教有关"
+                      ],
+                      [
+                        "Pasen",
+                        "3月或4月的星期日和星期一",
+                        "复活节；纪念耶稣复活，也有春季节日元素",
+                        "吃鸡蛋",
+                        "是"
+                      ],
+                      [
+                        "Koningsdag",
+                        "27 april",
+                        "国王生日",
+                        "市集、挂国旗、穿橙色衣服",
+                        "否"
+                      ],
+                      [
+                        "Dodenherdenking",
+                        "4 mei",
+                        "纪念战争死难者",
+                        "20:00 默哀2分钟",
+                        "否"
+                      ],
+                      [
+                        "Bevrijdingsdag",
+                        "5 mei",
+                        "庆祝荷兰在1945年获得解放",
+                        "庆祝活动、音乐节",
+                        "否"
+                      ],
+                      [
+                        "Moederdag",
+                        "5月第二个星期日",
+                        "母亲节",
+                        "给母亲礼物",
+                        "否"
+                      ],
+                      [
+                        "Hemelvaartsdag",
+                        "5月的星期四，日期每年变化",
+                        "耶稣升天",
+                        "有些人去教堂",
+                        "是"
+                      ],
+                      [
+                        "Pinksteren",
+                        "升天节后10天",
+                        "圣灵降临节",
+                        "有些人去教堂",
+                        "是"
+                      ],
+                      [
+                        "Vaderdag",
+                        "6月第三个星期日",
+                        "父亲节",
+                        "给父亲礼物",
+                        "否"
+                      ],
+                      [
+                        "Sinterklaasavond",
+                        "5 december",
+                        "圣尼古拉节传统",
+                        "孩子收礼物和糖果",
+                        "文化节日；教材归为非基督教节日"
+                      ],
+                      [
+                        "Kerstmis",
+                        "25 en 26 december",
+                        "圣诞节，纪念耶稣诞生",
+                        "圣诞树、聚餐、寄卡片、去教堂",
+                        "是"
+                      ],
+                      [
+                        "Oud en Nieuw",
+                        "31 december en 1 januari",
+                        "除夕与新年",
+                        "烟花、聚会；部分商店关闭",
+                        "否"
+                      ]
+                    ]
+                  },
+                  {
+                    "type": "subheading",
+                    "level": 3,
+                    "text": "高频记忆"
+                  },
+                  {
+                    "type": "list",
+                    "items": [
+                      "4 mei = herdenken（纪念）",
+                      "5 mei = vieren（庆祝解放）",
+                      "27 april = Koningsdag",
+                      "5 december = Sinterklaas",
+                      "25 en 26 december = Kerstmis"
+                    ]
+                  }
+                ]
+              },
+              {
+                "number": 2,
+                "title": "Sinterklaas",
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "Sinterklaas komt volgens de traditie uit Spanje naar Nederland. 按照传统说法，Sinterklaas 从西班牙来到荷兰。"
+                  },
+                  {
+                    "type": "list",
+                    "items": [
+                      "Pieten helpen Sinterklaas.：Pieten 帮助 Sinterklaas。",
+                      "Kinderen krijgen snoep of cadeaus.：孩子会得到糖果或礼物。",
+                      "Kinderen zetten soms hun schoen.：孩子有时会把鞋放好，期待收到礼物。",
+                      "关于 Piet 的形象，荷兰社会近年存在讨论，现代庆祝方式并不完全相同。"
+                    ]
+                  }
+                ]
+              },
+              {
+                "number": 3,
+                "title": "Kerstmis",
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "Kerstmis is een christelijk feest. Christenen vieren de geboorte van Jezus. 圣诞节是基督教节日，基督徒纪念耶稣诞生。"
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "常见活动："
+                  },
+                  {
+                    "type": "list",
+                    "items": [
+                      "naar de kerk gaan：去教堂",
+                      "elkaar een kaart sturen：互寄卡片",
+                      "een kerstboom in huis zetten：家里放圣诞树",
+                      "met familie eten：与家人聚餐"
+                    ]
+                  }
+                ]
+              },
+              {
+                "number": 4,
+                "title": "Oranje",
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "Oranje is een nationale kleur van Nederland. 橙色是荷兰的重要代表色。"
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "常见场合："
+                  },
+                  {
+                    "type": "list",
+                    "items": [
+                      "Koningsdag：国王节",
+                      "voetbalwedstrijden：足球比赛",
+                      "het Huis van Oranje-Nassau：奥兰治-拿骚王室"
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "title": "第二部分：人生中的重要时刻",
+            "units": [
+              {
+                "number": 5,
+                "title": "Verjaardag：生日",
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "生日时常见习惯："
+                  },
+                  {
+                    "type": "list",
+                    "items": [
+                      "een cadeau geven：送礼物",
+                      "taart met kaarsjes：带蜡烛的蛋糕",
+                      "Lang zal hij/zij leven zingen：唱生日歌",
+                      "trakteren op school of op het werk：在学校或工作场所请大家吃东西",
+                      "familie en vrienden komen op bezoek：家人和朋友来做客",
+                      "kinderen geven soms een feestje，例如去 zwembad 或看电影"
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "应说：Gefeliciteerd!（祝贺/生日快乐）"
+                  }
+                ]
+              },
+              {
+                "number": 6,
+                "title": "Trouwen en samenwonen：结婚与同居",
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "Een bruiloft is een feest voor een huwelijk. 婚礼是庆祝结婚的活动。"
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "常见流程："
+                  },
+                  {
+                    "type": "orderedList",
+                    "items": [
+                      "Het paar stuurt uitnodigingen.：新人寄邀请函。",
+                      "De vrouw draagt vaak een jurk en de man een pak.：女性常穿礼服，男性常穿西装。",
+                      "Trouwen gebeurt officieel bij de gemeente；有些人也在教堂举行宗教仪式。",
+                      "Daarna kan er een receptie en een feest zijn.：之后可能有招待会和晚宴。",
+                      "Na de bruiloft gaan sommige paren op huwelijksreis.：有些新人去度蜜月。"
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "荷兰也允许："
+                  },
+                  {
+                    "type": "list",
+                    "items": [
+                      "samenwonen zonder te trouwen：不结婚而同居",
+                      "twee mannen of twee vrouwen kunnen trouwen：同性伴侣可以结婚"
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "应说：Gefeliciteerd met jullie huwelijk!"
+                  }
+                ]
+              },
+              {
+                "number": 7,
+                "title": "Geboorte van een baby：孩子出生",
+                "blocks": [
+                  {
+                    "type": "list",
+                    "items": [
+                      "Een baby kan thuis of in het ziekenhuis geboren worden.：孩子可以在家或医院出生。",
+                      "Ouders sturen vaak geboortekaartjes.：父母常寄出生通知卡。",
+                      "Bezoek maakt eerst een afspraak en blijft meestal niet te lang.：访客先预约，通常不久留。",
+                      "Bezoek krijgt vaak beschuit met muisjes，颜色常为蓝色或粉色。"
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "应说：Gefeliciteerd met de geboorte!"
+                  }
+                ]
+              },
+              {
+                "number": 8,
+                "title": "Geslaagd voor een examen：考试通过",
+                "blocks": [
+                  {
+                    "type": "list",
+                    "items": [
+                      "je krijgt een diploma：取得文凭",
+                      "een vlag met een schooltas buiten hangen：把国旗和书包挂在屋外",
+                      "soms een feest geven：有时举办庆祝会"
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "应说：Gefeliciteerd!"
+                  }
+                ]
+              },
+              {
+                "number": 9,
+                "title": "Overlijden：去世",
+                "blocks": [
+                  {
+                    "type": "list",
+                    "items": [
+                      "overlijden = doodgaan 的较正式说法",
+                      "familie stuurt een rouwkaart：家属发送讣告卡",
+                      "op de kaart staat informatie over begrafenis of crematie：卡片上写葬礼或火化安排",
+                      "mensen dragen vaak donkere kleding：人们常穿深色衣服",
+                      "na afloop spreek je de familie：仪式后向家属慰问"
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "应说："
+                  },
+                  {
+                    "type": "list",
+                    "items": [
+                      "Gecondoleerd.：请节哀。",
+                      "Veel sterkte.：请保重/祝你坚强度过。"
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "有人生病时写：Beterschap!（早日康复）"
+                  },
+                  {
+                    "type": "subheading",
+                    "level": 3,
+                    "text": "情景用语表"
+                  },
+                  {
+                    "type": "table",
+                    "headers": [
+                      "情景",
+                      "荷兰语"
+                    ],
+                    "rows": [
+                      [
+                        "生日、结婚、孩子出生、考试通过",
+                        "Gefeliciteerd!"
+                      ],
+                      [
+                        "有人去世",
+                        "Gecondoleerd. / Veel sterkte."
+                      ],
+                      [
+                        "有人生病",
+                        "Beterschap!"
+                      ]
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "title": "第三部分：家庭、朋友、邻居与预约",
+            "units": [
+              {
+                "number": 10,
+                "title": "Familie, vrienden en buren",
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "教材强调："
+                  },
+                  {
+                    "type": "list",
+                    "items": [
+                      "兄弟姐妹可能不会频繁见面，有时只在生日等场合见面。",
+                      "对许多荷兰人来说，朋友和家人都很重要。",
+                      "邻居之间常在小事上互相帮助。",
+                      "有新邻居时，可以去 kennismaken（认识、打招呼）。"
+                    ]
+                  },
+                  {
+                    "type": "quote",
+                    "text": "原句“familie is in Nederland niet zo belangrijk”过于绝对。更容易理解的说法是：荷兰人通常重视独立生活，成年人与父母或兄弟姐妹未必经常见面，但家庭仍然重要。"
+                  }
+                ]
+              },
+              {
+                "number": 11,
+                "title": "Afspraak：预约、约定",
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "Bij een officiële afspraak moet je op tijd komen. 正式预约必须准时，例如医院预约或求职面试。"
+                  },
+                  {
+                    "type": "list",
+                    "items": [
+                      "Kun je niet komen? Bel dan op tijd.：不能来要及时打电话。",
+                      "Ben je te laat? Laat het weten.：迟到时要通知对方。",
+                      "Schrijf de afspraak in je agenda.：把预约写进日程本。"
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "title": "第四部分：拜访与送礼",
+            "units": [
+              {
+                "number": 12,
+                "title": "Op bezoek gaan",
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "荷兰人通常先预约再拜访："
+                  },
+                  {
+                    "type": "list",
+                    "items": [
+                      "een afspraak maken：约好时间",
+                      "een beetje te laat is soms niet erg, maar heel laat is onbeleefd：稍迟有时可以，但迟到很久不礼貌",
+                      "koffie of thee met taart of een koekje：咖啡或茶，配蛋糕或饼干",
+                      "een paar uur blijven：待几个小时",
+                      "vooraf afspreken of je blijft eten：是否留下吃饭通常需要提前说好"
+                    ]
+                  }
+                ]
+              },
+              {
+                "number": 13,
+                "title": "Cadeaus",
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "拜访、生日、婚礼、孩子出生或认识新邻居时，可以带："
+                  },
+                  {
+                    "type": "list",
+                    "items": [
+                      "een cadeau：礼物",
+                      "bloemen：鲜花",
+                      "een cadeaubon：礼品卡",
+                      "soms geld：某些私人庆祝场合可能送钱"
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "荷兰习惯："
+                  },
+                  {
+                    "type": "list",
+                    "items": [
+                      "礼物不必昂贵。",
+                      "收到礼物后常当场打开。",
+                      "在正式关系中，例如医生或公务人员，不应送钱或贵重礼物。"
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "title": "第五部分：正式与非正式交流",
+            "units": [
+              {
+                "number": 14,
+                "title": "Formeel en informeel",
+                "blocks": [
+                  {
+                    "type": "table",
+                    "headers": [
+                      "正式对象",
+                      "常用表达",
+                      "非正式对象",
+                      "常用表达"
+                    ],
+                    "rows": [
+                      [
+                        "dokter/arts、baas、ouderen、onbekenden",
+                        "u, meneer, mevrouw",
+                        "kinderen、familie、vrienden、熟悉的邻居",
+                        "je/jij, voornaam"
+                      ],
+                      [
+                        "Goedemorgen, Goedendag",
+                        "正式问候",
+                        "Hoi, Hallo, Hé",
+                        "非正式问候"
+                      ],
+                      [
+                        "Tot ziens, Fijne dag",
+                        "正式告别",
+                        "Doei, Dag, Houdoe",
+                        "非正式告别"
+                      ]
+                    ]
+                  },
+                  {
+                    "type": "quote",
+                    "text": "现实中荷兰人越来越常使用 je/jij，即使在工作中也可能如此；不确定时，先用 u 比较礼貌，等对方邀请你用 je。"
+                  }
+                ]
+              },
+              {
+                "number": 15,
+                "title": "Een hand of drie zoenen?",
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "教材中的文化规则："
+                  },
+                  {
+                    "type": "list",
+                    "items": [
+                      "不熟悉、正式场合：握手并说名字。",
+                      "朋友或家人：有时用三次贴面礼祝贺或问候。",
+                      "很久没见时也可能贴面礼。"
+                    ]
+                  },
+                  {
+                    "type": "quote",
+                    "text": "三次贴面礼不是强制规则，年龄、地区、个人习惯和社会变化都会影响做法。考试中重点是理解：陌生/正式 → 握手；熟人 → 可能贴面礼。"
+                  }
+                ]
+              },
+              {
+                "number": 16,
+                "title": "Oogcontact en directheid",
+                "blocks": [
+                  {
+                    "type": "list",
+                    "items": [
+                      "Nederlanders kijken elkaar vaak aan tijdens een gesprek.：谈话时常看着对方。",
+                      "Nederlanders worden vaak als direct beschreven.：荷兰人常被认为表达直接。",
+                      "有意见时应 rustig en vriendelijk（平静、友好）地说。",
+                      "即使生气也要保持冷静。",
+                      "举办派对前最好提前告诉邻居。",
+                      "邻居噪音问题先沟通；无法解决时再联系有关部门。"
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "title": "第六部分：排队与公共交通",
+            "units": [
+              {
+                "number": 17,
+                "title": "Op je beurt wachten",
+                "blocks": [
+                  {
+                    "type": "table",
+                    "headers": [
+                      "场景",
+                      "做法"
+                    ],
+                    "rows": [
+                      [
+                        "wachtkamer bij de dokter",
+                        "坐着等医生叫名字"
+                      ],
+                      [
+                        "kassa",
+                        "排队等候"
+                      ],
+                      [
+                        "winkel、apotheek、gemeentehuis",
+                        "可能需要取号码，等叫号"
+                      ]
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "词汇："
+                  },
+                  {
+                    "type": "list",
+                    "items": [
+                      "op je beurt wachten：等轮到你",
+                      "in de rij staan：排队",
+                      "een nummertje trekken：取号",
+                      "geroepen worden：被叫到"
+                    ]
+                  }
+                ]
+              },
+              {
+                "number": 18,
+                "title": "Openbaar vervoer",
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "乘火车、公交或地铁时："
+                  },
+                  {
+                    "type": "list",
+                    "items": [
+                      "je hebt een geldig vervoerbewijs nodig：需要有效车票",
+                      "inchecken bij het begin：开始行程时刷卡/签到",
+                      "uitchecken bij het einde：结束行程时刷卡/签出",
+                      "zonder geldig kaartje reizen = zwartreizen：无票乘车/逃票",
+                      "zwartreizen kan een boete opleveren：可能被罚款"
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "其他规则："
+                  },
+                  {
+                    "type": "list",
+                    "items": [
+                      "在安静车厢 stiltecoupé 不应说话或打电话。",
+                      "不把脚放在座位上。",
+                      "音乐不要打扰别人。",
+                      "可以给老人让座。",
+                      "先让乘客下车，再上车。",
+                      "教材提到身份证件年龄规则；现实执法细节以官方规定为准。",
+                      "车站禁烟区域吸烟可能被罚款。"
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "title": "第七部分：不同人群与生活环境",
+            "units": [
+              {
+                "number": 19,
+                "title": "Verschillende mensen",
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "荷兰社会中的交往方式会受到多种因素影响："
+                  },
+                  {
+                    "type": "list",
+                    "items": [
+                      "oude en jonge mensen：与老人交谈时可能先用 u，年轻人之间更常用 jij。",
+                      "verschillende culturen：不同文化中的家庭联系、拜访和礼貌习惯可能不同。",
+                      "stad of dorp：教材认为村庄居民通常与邻居联系更多，城市生活可能更匿名；这只是概括，不适用于所有人。",
+                      "hoge of lage opleiding：教育经历会影响职业机会和收入，但“高学历一定有大房子、低学历一定收入低”不是绝对规则。"
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "KNM 的核心不是给人群贴标签，而是理解：荷兰社会多元，应尊重不同年龄、文化、教育背景和生活方式。"
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "extraSections": [],
+        "vocabulary": [
+          {
+            "word": "de feestdag",
+            "meaning": "节日",
+            "example": ""
+          },
+          {
+            "word": "vieren",
+            "meaning": "庆祝",
+            "example": ""
+          },
+          {
+            "word": "herdenken",
+            "meaning": "纪念",
+            "example": ""
+          },
+          {
+            "word": "de stilte",
+            "meaning": "安静、默哀",
+            "example": ""
+          },
+          {
+            "word": "de verjaardag",
+            "meaning": "生日",
+            "example": ""
+          },
+          {
+            "word": "trakteren",
+            "meaning": "请别人吃东西",
+            "example": ""
+          },
+          {
+            "word": "de bruiloft",
+            "meaning": "婚礼",
+            "example": ""
+          },
+          {
+            "word": "de uitnodiging",
+            "meaning": "邀请函",
+            "example": ""
+          },
+          {
+            "word": "samenwonen",
+            "meaning": "同居",
+            "example": ""
+          },
+          {
+            "word": "de geboorte",
+            "meaning": "出生",
+            "example": ""
+          },
+          {
+            "word": "het geboortekaartje",
+            "meaning": "出生通知卡",
+            "example": ""
+          },
+          {
+            "word": "beschuit met muisjes",
+            "meaning": "荷兰庆祝新生儿的甜点",
+            "example": ""
+          },
+          {
+            "word": "slagen",
+            "meaning": "通过考试",
+            "example": ""
+          },
+          {
+            "word": "overlijden",
+            "meaning": "去世",
+            "example": ""
+          },
+          {
+            "word": "de begrafenis",
+            "meaning": "土葬葬礼",
+            "example": ""
+          },
+          {
+            "word": "de crematie",
+            "meaning": "火化",
+            "example": ""
+          },
+          {
+            "word": "gecondoleerd",
+            "meaning": "请节哀",
+            "example": ""
+          },
+          {
+            "word": "beterschap",
+            "meaning": "早日康复",
+            "example": ""
+          },
+          {
+            "word": "kennismaken",
+            "meaning": "认识、初次见面",
+            "example": ""
+          },
+          {
+            "word": "de afspraak",
+            "meaning": "预约、约定",
+            "example": ""
+          },
+          {
+            "word": "de agenda",
+            "meaning": "日程本",
+            "example": ""
+          },
+          {
+            "word": "op bezoek gaan",
+            "meaning": "去做客",
+            "example": ""
+          },
+          {
+            "word": "meenemen",
+            "meaning": "带去",
+            "example": ""
+          },
+          {
+            "word": "formeel",
+            "meaning": "正式的",
+            "example": ""
+          },
+          {
+            "word": "informeel",
+            "meaning": "非正式的",
+            "example": ""
+          },
+          {
+            "word": "onbekend",
+            "meaning": "不认识的、陌生的",
+            "example": ""
+          },
+          {
+            "word": "oogcontact",
+            "meaning": "眼神交流",
+            "example": ""
+          },
+          {
+            "word": "direct",
+            "meaning": "直接的",
+            "example": ""
+          },
+          {
+            "word": "rustig",
+            "meaning": "冷静的",
+            "example": ""
+          },
+          {
+            "word": "vriendelijk",
+            "meaning": "友好的",
+            "example": ""
+          },
+          {
+            "word": "in de rij staan",
+            "meaning": "排队",
+            "example": ""
+          },
+          {
+            "word": "een nummertje trekken",
+            "meaning": "取号",
+            "example": ""
+          },
+          {
+            "word": "het vervoerbewijs",
+            "meaning": "乘车凭证",
+            "example": ""
+          },
+          {
+            "word": "inchecken",
+            "meaning": "刷入、签到",
+            "example": ""
+          },
+          {
+            "word": "uitchecken",
+            "meaning": "刷出、签出",
+            "example": ""
+          },
+          {
+            "word": "zwartreizen",
+            "meaning": "逃票",
+            "example": ""
+          },
+          {
+            "word": "de boete",
+            "meaning": "罚款",
+            "example": ""
+          },
+          {
+            "word": "de stiltecoupé",
+            "meaning": "安静车厢",
+            "example": ""
+          },
+          {
+            "word": "instappen",
+            "meaning": "上车",
+            "example": ""
+          },
+          {
+            "word": "uitstappen",
+            "meaning": "下车",
+            "example": ""
+          }
+        ],
+        "commonMistakes": [
+          {
+            "original": "Van Oranje-Naussau",
+            "corrected": "Van Oranje-Nassau",
+            "meaning": ""
+          },
+          {
+            "original": "receptive",
+            "corrected": "receptie",
+            "meaning": ""
+          },
+          {
+            "original": "als je de laat komt",
+            "corrected": "als je te laat komt",
+            "meaning": ""
+          },
+          {
+            "original": "cadeau maken ze meteen open",
+            "corrected": "Ze maken het cadeau vaak meteen open.",
+            "meaning": ""
+          },
+          {
+            "original": "drie zoenen是所有人固定规则",
+            "corrected": "这是教材中的传统概括，并非每个人都这样做",
+            "meaning": ""
+          },
+          {
+            "original": "familie在荷兰不重要",
+            "corrected": "荷兰社会强调独立，但家庭仍然重要",
+            "meaning": ""
+          },
+          {
+            "original": "4 mei = einde WOII",
+            "corrected": "4 mei 是纪念日；5 mei 才是解放日",
+            "meaning": ""
+          }
+        ],
+        "cheatSheet": [
+          {
+            "title": "速记重点",
+            "items": [
+              "14 februari = Valentijnsdag",
+              "27 april = Koningsdag",
+              "4 mei 20:00 = Dodenherdenking, 2 minuten stilte",
+              "5 mei = Bevrijdingsdag",
+              "5 december = Sinterklaas",
+              "25 en 26 december = Kerstmis",
+              "verjaardag / huwelijk / geboorte / diploma → Gefeliciteerd",
+              "overlijden → Gecondoleerd / Veel sterkte",
+              "ziek → Beterschap",
+              "officieel → op tijd komen, u, meneer/mevrouw",
+              "vrienden/familie → je/jij, voornaam",
+              "bezoek → eerst afspraak maken",
+              "OV → geldig vervoerbewijs, inchecken én uitchecken",
+              "stiltecoupé → niet praten of bellen",
+              "eerst uitstappen, daarna instappen"
+            ]
+          }
+        ],
+        "imageCount": 0,
+        "missingImageCount": 0
+      },
       "keywords": [
         "de afspraak",
         "formeel",
@@ -2737,7 +3665,995 @@ export const KNM_CONTENT = {
         "doorverwijzen → 转诊",
         "de zorgverzekering → 医疗保险"
       ],
-      "fullStudy": null,
+      "fullStudy": {
+        "title": "KNM 学习手册：Hoofdstuk 3 - Gezondheid en gezondheidszorg in Nederland",
+        "chapter": 3,
+        "goals": [
+          "理解家庭医生、专科医生、医院、牙医和理疗师的分工。",
+          "学会预约、取消预约以及看病时要携带的资料。",
+          "理解处方、药房、药品标签和说明书。",
+          "区分普通医疗问题、夜间值班、急诊与112。",
+          "理解基础医疗保险、附加保险、自付额和医疗补贴。",
+          "掌握健康饮食、戒烟、运动和安全性行为的基础词汇。"
+        ],
+        "parts": [
+          {
+            "title": "第一部分：预约与家庭医生",
+            "units": [
+              {
+                "number": 1,
+                "title": "Gezondheidszorg",
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "Gezondheidszorg 指医疗保健体系以及从事健康相关工作的人，例如："
+                  },
+                  {
+                    "type": "list",
+                    "items": [
+                      "huisarts：家庭医生",
+                      "specialist：专科医生",
+                      "tandarts：牙医",
+                      "fysiotherapeut：理疗师"
+                    ]
+                  }
+                ]
+              },
+              {
+                "number": 2,
+                "title": "Een afspraak maken",
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "看医生一般先预约。打电话给 assistente 时，通常需要："
+                  },
+                  {
+                    "type": "orderedList",
+                    "items": [
+                      "je achternaam spellen：拼写姓氏",
+                      "je geboortedatum noemen：说出出生日期",
+                      "datum en tijd opschrijven：记下日期和时间",
+                      "plaats en naam van de dokter opschrijven：记下地点和医生姓名"
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "Je moet op tijd komen. 你必须准时。"
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "不能去时："
+                  },
+                  {
+                    "type": "list",
+                    "items": [
+                      "提前打电话取消。",
+                      "教材以“至少提前24小时”为记忆规则。",
+                      "不取消可能仍会收到 rekening（账单）。"
+                    ]
+                  }
+                ]
+              },
+              {
+                "number": 3,
+                "title": "Taalhulp",
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "荷兰语不熟练时，可以："
+                  },
+                  {
+                    "type": "list",
+                    "items": [
+                      "iemand meenemen die goed Nederlands spreekt：带一位会荷兰语的人",
+                      "vragen naar een tolk：询问口译员",
+                      "gebruikmaken van telefonische tolkdiensten：使用电话口译"
+                    ]
+                  }
+                ]
+              },
+              {
+                "number": 4,
+                "title": "De huisarts",
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "有一般健康问题时，通常先找家庭医生。"
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "Met een gezondheidsklacht ga je eerst naar de huisarts. 有健康问题通常先去家庭医生。"
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "流程："
+                  },
+                  {
+                    "type": "orderedList",
+                    "items": [
+                      "aanmelden bij de praktijk：在诊所登记",
+                      "afspraak via de assistente：通过助理预约",
+                      "huisarts luistert naar de klacht：医生听症状",
+                      "huisarts stelt vragen：提问",
+                      "huisarts doet soms onderzoek：有时检查",
+                      "huisarts geeft advies of behandeling：给建议或治疗"
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "医生可能判断："
+                  },
+                  {
+                    "type": "list",
+                    "items": [
+                      "de klacht gaat vanzelf over：症状会自行好转",
+                      "behandeling of medicijnen zijn nodig：需要治疗或药物",
+                      "doorverwijzing naar een specialist：转诊专科"
+                    ]
+                  },
+                  {
+                    "type": "subheading",
+                    "level": 3,
+                    "text": "Verwijsbrief"
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "De huisarts kan je met een verwijsbrief doorverwijzen. 家庭医生可以用转诊信把你转给专科医生。"
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "普通情况下，你不能完全绕过家庭医生自己决定去哪个医院专科；但不同医疗项目规则可能不同。"
+                  }
+                ]
+              },
+              {
+                "number": 5,
+                "title": "Huisbezoek en telefonisch spreekuur",
+                "blocks": [
+                  {
+                    "type": "list",
+                    "items": [
+                      "huisbezoek：病人确实无法去诊所时，家庭医生可能上门。",
+                      "telefonisch spreekuur：通过电话向医生询问较短的问题。"
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "title": "第二部分：药物与药房",
+            "units": [
+              {
+                "number": 6,
+                "title": "Recept en apotheek",
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "基本流程："
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "De huisarts schrijft een recept. Met het recept haal je medicijnen bij de apotheek. 医生开处方，你凭处方在药房取药。"
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "注意："
+                  },
+                  {
+                    "type": "list",
+                    "items": [
+                      "处方药只给被开药的人使用。",
+                      "不同药物不一定能同时服用。",
+                      "按医生、药师和说明书指导使用。"
+                    ]
+                  }
+                ]
+              },
+              {
+                "number": 7,
+                "title": "Etiket en bijsluiter",
+                "blocks": [
+                  {
+                    "type": "table",
+                    "headers": [
+                      "荷兰语",
+                      "中文",
+                      "用途"
+                    ],
+                    "rows": [
+                      [
+                        "het etiket",
+                        "标签",
+                        "写明用量、次数和保存方法"
+                      ],
+                      [
+                        "het doosje",
+                        "药盒",
+                        "药品包装"
+                      ],
+                      [
+                        "het flesje",
+                        "药瓶",
+                        "液体药品包装"
+                      ],
+                      [
+                        "de bijsluiter",
+                        "药品说明书",
+                        "副作用、使用方法和注意事项"
+                      ]
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "有些药会影响驾驶能力，标签或说明书会注明。"
+                  }
+                ]
+              },
+              {
+                "number": 8,
+                "title": "Medicijnen zonder recept",
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "有些药，例如 paracetamol，可以在药房、drogist 或部分商店无需处方购买。"
+                  },
+                  {
+                    "type": "list",
+                    "items": [
+                      "zonder recept = 无需处方",
+                      "非处方药通常自己付款",
+                      "药物应放在儿童接触不到的地方",
+                      "按标签要求冷藏或在有效期内使用",
+                      "旧药物可以交回药房处理"
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "教材强调：荷兰医生不一定很快开药，有些轻微症状会先观察身体能否自行恢复。"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "title": "第三部分：医院、专科、理疗和牙医",
+            "units": [
+              {
+                "number": 9,
+                "title": "Ziekenhuis en specialist",
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "常见专科："
+                  },
+                  {
+                    "type": "list",
+                    "items": [
+                      "oogarts：眼科医生",
+                      "gynaecoloog：妇科医生",
+                      "kinderarts：儿科医生"
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "可能遇到："
+                  },
+                  {
+                    "type": "list",
+                    "items": [
+                      "wachtlijst：候诊名单",
+                      "polikliniek：门诊科室",
+                      "onderzoek：检查",
+                      "behandeling：治疗",
+                      "operatie：手术",
+                      "opname：住院"
+                    ]
+                  }
+                ]
+              },
+              {
+                "number": 10,
+                "title": "Naar het ziekenhuis",
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "医院预约时常需："
+                  },
+                  {
+                    "type": "list",
+                    "items": [
+                      "weten bij welke specialist je moet zijn：知道看哪个专科",
+                      "verzekeringsgegevens：保险资料",
+                      "identiteitsbewijs：身份证件",
+                      "verwijsbrief：转诊信",
+                      "patiëntenpas 或医院登记：首次就诊可能需要办理",
+                      "melden bij de balie：到科室后向前台报到",
+                      "bordjes volgen：按照指示牌找路"
+                    ]
+                  }
+                ]
+              },
+              {
+                "number": 11,
+                "title": "Fysiotherapeut",
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "理疗师帮助处理活动和肌肉骨骼问题，例如："
+                  },
+                  {
+                    "type": "list",
+                    "items": [
+                      "lopen：行走",
+                      "arm：手臂",
+                      "nek：颈部",
+                      "rug：背部"
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "家庭医生可以转诊，有些情况下也可以直接联系理疗师。保险是否报销取决于保险方案。"
+                  }
+                ]
+              },
+              {
+                "number": 12,
+                "title": "Tandarts",
+                "blocks": [
+                  {
+                    "type": "list",
+                    "items": [
+                      "可以自己选择牙医。",
+                      "牙痛时预约牙医。",
+                      "教材建议每年检查两次。",
+                      "发现问题时需要治疗。"
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "title": "第四部分：紧急情况、夜间和周末",
+            "units": [
+              {
+                "number": 13,
+                "title": "Wanneer bel je 112?",
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "112 用于生命危险或需要警察、消防、救护车立即处理的紧急情况，例如："
+                  },
+                  {
+                    "type": "list",
+                    "items": [
+                      "ernstige pijn op de borst：严重胸痛",
+                      "iemand is bewusteloos：有人失去意识",
+                      "brand：火灾",
+                      "ernstig ongeluk：严重事故"
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "拨打时说明："
+                  },
+                  {
+                    "type": "list",
+                    "items": [
+                      "wat er is gebeurd：发生了什么",
+                      "waar hulp nodig is：在哪里需要帮助",
+                      "hoeveel mensen betrokken zijn：有多少人涉及"
+                    ]
+                  },
+                  {
+                    "type": "quote",
+                    "text": "教材写“救护车15分钟到达”，这不是对所有情况的保证。考试重点是：生命危险 → 112。"
+                  }
+                ]
+              },
+              {
+                "number": 14,
+                "title": "Avond, nacht en weekend",
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "非工作时间出现急性但不一定危及生命的问题时："
+                  },
+                  {
+                    "type": "list",
+                    "items": [
+                      "先打自己家庭医生诊所的号码。",
+                      "录音或工作人员会提供 huisartsenpost 的联系方式。",
+                      "通常必须先打电话说明情况。",
+                      "准备好保险和个人信息。"
+                    ]
+                  }
+                ]
+              },
+              {
+                "number": 15,
+                "title": "SEH",
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "SEH = Spoedeisende Hulp，医院急诊科。"
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "教材场景："
+                  },
+                  {
+                    "type": "list",
+                    "items": [
+                      "gebroken arm：手臂骨折",
+                      "vinger tussen de deur：手指被门夹住",
+                      "snel medische hulp nodig：需要快速医疗处理"
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "急诊可能等待较久，因为按紧急程度排序。"
+                  },
+                  {
+                    "type": "quote",
+                    "text": "现实中不应把“无需预约”理解为任何小问题都可以直接去急诊；应先联系 huisarts/huisartsenpost，生命危险则拨112。"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "title": "第五部分：医疗保险",
+            "units": [
+              {
+                "number": 16,
+                "title": "Zorgverzekering",
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "在荷兰居住或工作的人通常必须有医疗保险。"
+                  },
+                  {
+                    "type": "list",
+                    "items": [
+                      "volwassenen betalen premie：成年人支付保费",
+                      "kinderen onder 18 betalen通常不单独缴纳基础保险保费",
+                      "je kiest zelf een zorgverzekeraar：自己选择保险公司"
+                    ]
+                  }
+                ]
+              },
+              {
+                "number": 17,
+                "title": "Drie soorten dekking",
+                "blocks": [
+                  {
+                    "type": "subheading",
+                    "level": 3,
+                    "text": "Basisverzekering"
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "基础保险是强制性的，教材列出："
+                  },
+                  {
+                    "type": "list",
+                    "items": [
+                      "huisarts",
+                      "ziekenhuis",
+                      "controles",
+                      "bepaalde medicijnen"
+                    ]
+                  },
+                  {
+                    "type": "subheading",
+                    "level": 3,
+                    "text": "Aanvullende verzekering"
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "附加保险通常非强制，可覆盖部分："
+                  },
+                  {
+                    "type": "list",
+                    "items": [
+                      "fysiotherapie",
+                      "bril",
+                      "contactlenzen"
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "保费更高。"
+                  },
+                  {
+                    "type": "subheading",
+                    "level": 3,
+                    "text": "Tandartsverzekering"
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "成人牙科保险通常需要另选；儿童牙科通常在基础保险规则内，但并非所有治疗都相同。"
+                  }
+                ]
+              },
+              {
+                "number": 18,
+                "title": "Eigen risico en eigen bijdrage",
+                "blocks": [
+                  {
+                    "type": "list",
+                    "items": [
+                      "eigen risico：达到规定范围的医疗费用先由本人承担一部分。",
+                      "verplicht eigen risico：法定自付额。",
+                      "选择更高自付额时，月保费可能较低，但使用医疗服务时可能自付更多。",
+                      "eigen bijdrage：某些项目除自付额外，还需支付固定部分。"
+                    ]
+                  },
+                  {
+                    "type": "quote",
+                    "text": "教材中的 €385 和 €885 是特定年份的示例，金额会随年份和政策变化。"
+                  }
+                ]
+              },
+              {
+                "number": 19,
+                "title": "Declareren en contact opnemen",
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "如果不确定保险是否报销治疗或药物，应先联系保险公司。"
+                  },
+                  {
+                    "type": "list",
+                    "items": [
+                      "soms betaalt de zorgverzekeraar direct：保险公司直接付款",
+                      "soms betaal je eerst zelf：有时先自付",
+                      "daarna declareer je de kosten：之后申请报销"
+                    ]
+                  }
+                ]
+              },
+              {
+                "number": 20,
+                "title": "Zorgtoeslag",
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "Zorgtoeslag 是面向符合收入条件人群的医疗保险补贴，由 Belastingdienst 负责。"
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "教材记忆："
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "Hoe lager het inkomen, hoe groter de kans op zorgtoeslag. 收入越低，越可能获得补贴；具体金额和条件按当年规定。"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "title": "第六部分：健康生活方式",
+            "units": [
+              {
+                "number": 21,
+                "title": "Levensverwachting in het lesmateriaal",
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "教材给出的平均寿命示例："
+                  },
+                  {
+                    "type": "list",
+                    "items": [
+                      "vrouwen gemiddeld 83 jaar",
+                      "mannen gemiddeld 80 jaar"
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "这些数字会随年份和统计方法变化。KNM重点是：健康生活、医疗保健和社会条件会影响寿命。"
+                  }
+                ]
+              },
+              {
+                "number": 22,
+                "title": "Gezond eten",
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "教材建议："
+                  },
+                  {
+                    "type": "list",
+                    "items": [
+                      "drie maaltijden per dag：每天三餐",
+                      "ontbijt is belangrijk：早餐重要",
+                      "gevarieerd eten：饮食多样",
+                      "voldoende drinken：充足饮水，教材示例1.5升",
+                      "niet te veel vet、suiker en zout：少油、少糖、少盐",
+                      "groente、fruit、volkorenbrood：蔬菜、水果、全麦面包",
+                      "houdbaarheidsdatum controleren：检查保质期",
+                      "eten goed bewaren en gaar maken：正确保存并充分加热"
+                    ]
+                  }
+                ]
+              },
+              {
+                "number": 23,
+                "title": "Roken en alcohol",
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "吸烟："
+                  },
+                  {
+                    "type": "list",
+                    "items": [
+                      "slecht voor hart en longen",
+                      "kan longkanker veroorzaken",
+                      "verslavend",
+                      "meeroken is ook ongezond",
+                      "许多公共室内场所禁烟"
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "酒精："
+                  },
+                  {
+                    "type": "list",
+                    "items": [
+                      "veel alcohol drinken is ongezond",
+                      "alcohol kan verslavend zijn"
+                    ]
+                  }
+                ]
+              },
+              {
+                "number": 24,
+                "title": "Veilige seks",
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "教材词汇："
+                  },
+                  {
+                    "type": "list",
+                    "items": [
+                      "de pil slikken：服用避孕药",
+                      "het condoom：安全套",
+                      "SOA：性传播感染，例如 hiv/aids"
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "安全套不仅用于避孕，也可降低多种性传播感染风险。"
+                  }
+                ]
+              },
+              {
+                "number": 25,
+                "title": "Sport en vrije tijd",
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "教材建议每天约半小时活动，例如："
+                  },
+                  {
+                    "type": "list",
+                    "items": [
+                      "hardlopen：跑步",
+                      "wandelen：散步",
+                      "fietsen：骑车",
+                      "traplopen：爬楼梯",
+                      "sporten bij een club：参加体育俱乐部"
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "参加 vereniging 或课程还可以："
+                  },
+                  {
+                    "type": "list",
+                    "items": [
+                      "nieuwe mensen leren kennen",
+                      "Nederlands oefenen",
+                      "nieuwe vaardigheden leren",
+                      "mensen ontmoeten in buurthuis、kerk 或 moskee"
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "通常需要："
+                  },
+                  {
+                    "type": "list",
+                    "items": [
+                      "inschrijven：报名",
+                      "contributie/abonnement betalen：支付会费或订阅费"
+                    ]
+                  }
+                ]
+              },
+              {
+                "number": 26,
+                "title": "Bibliotheek",
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "图书馆可以："
+                  },
+                  {
+                    "type": "list",
+                    "items": [
+                      "boeken en films lenen",
+                      "kranten lezen",
+                      "computers gebruiken"
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "教材称儿童免费，成人需成为会员并支付年费；具体规定因城市而异。"
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "extraSections": [],
+        "vocabulary": [
+          {
+            "word": "de gezondheidszorg",
+            "meaning": "医疗保健体系",
+            "example": ""
+          },
+          {
+            "word": "de huisarts",
+            "meaning": "家庭医生",
+            "example": ""
+          },
+          {
+            "word": "de specialist",
+            "meaning": "专科医生",
+            "example": ""
+          },
+          {
+            "word": "de assistente",
+            "meaning": "医疗助理/前台",
+            "example": ""
+          },
+          {
+            "word": "de klacht",
+            "meaning": "症状、健康问题",
+            "example": ""
+          },
+          {
+            "word": "de behandeling",
+            "meaning": "治疗",
+            "example": ""
+          },
+          {
+            "word": "doorverwijzen",
+            "meaning": "转诊",
+            "example": ""
+          },
+          {
+            "word": "de verwijsbrief",
+            "meaning": "转诊信",
+            "example": ""
+          },
+          {
+            "word": "het huisbezoek",
+            "meaning": "上门就诊",
+            "example": ""
+          },
+          {
+            "word": "het spreekuur",
+            "meaning": "门诊时间/问诊时段",
+            "example": ""
+          },
+          {
+            "word": "het recept",
+            "meaning": "处方",
+            "example": ""
+          },
+          {
+            "word": "de apotheek",
+            "meaning": "药房",
+            "example": ""
+          },
+          {
+            "word": "de drogist",
+            "meaning": "日化药妆店",
+            "example": ""
+          },
+          {
+            "word": "het etiket",
+            "meaning": "标签",
+            "example": ""
+          },
+          {
+            "word": "de bijsluiter",
+            "meaning": "药品说明书",
+            "example": ""
+          },
+          {
+            "word": "bewaren",
+            "meaning": "保存",
+            "example": ""
+          },
+          {
+            "word": "de wachtlijst",
+            "meaning": "等候名单",
+            "example": ""
+          },
+          {
+            "word": "de polikliniek",
+            "meaning": "医院门诊科室",
+            "example": ""
+          },
+          {
+            "word": "de opname",
+            "meaning": "住院",
+            "example": ""
+          },
+          {
+            "word": "de fysiotherapeut",
+            "meaning": "理疗师",
+            "example": ""
+          },
+          {
+            "word": "de tandarts",
+            "meaning": "牙医",
+            "example": ""
+          },
+          {
+            "word": "de huisartsenpost",
+            "meaning": "夜间/周末家庭医生值班点",
+            "example": ""
+          },
+          {
+            "word": "de SEH",
+            "meaning": "急诊科",
+            "example": ""
+          },
+          {
+            "word": "de zorgverzekering",
+            "meaning": "医疗保险",
+            "example": ""
+          },
+          {
+            "word": "de premie",
+            "meaning": "保费",
+            "example": ""
+          },
+          {
+            "word": "de basisverzekering",
+            "meaning": "基础保险",
+            "example": ""
+          },
+          {
+            "word": "de aanvullende verzekering",
+            "meaning": "附加保险",
+            "example": ""
+          },
+          {
+            "word": "het eigen risico",
+            "meaning": "自付额",
+            "example": ""
+          },
+          {
+            "word": "de eigen bijdrage",
+            "meaning": "个人分担费用",
+            "example": ""
+          },
+          {
+            "word": "declareren",
+            "meaning": "申请报销",
+            "example": ""
+          },
+          {
+            "word": "de zorgtoeslag",
+            "meaning": "医疗保险补贴",
+            "example": ""
+          },
+          {
+            "word": "verslaafd",
+            "meaning": "上瘾的",
+            "example": ""
+          },
+          {
+            "word": "meeroken",
+            "meaning": "被动吸烟",
+            "example": ""
+          },
+          {
+            "word": "de SOA",
+            "meaning": "性传播感染",
+            "example": ""
+          },
+          {
+            "word": "de vereniging",
+            "meaning": "协会、俱乐部",
+            "example": ""
+          },
+          {
+            "word": "inschrijven",
+            "meaning": "报名、注册",
+            "example": ""
+          },
+          {
+            "word": "de bibliotheek",
+            "meaning": "图书馆",
+            "example": ""
+          }
+        ],
+        "commonMistakes": [
+          {
+            "original": "Gezondheidszorg = iedereen die...",
+            "corrected": "gezondheidszorg 是整个医疗保健体系，不只是工作人员",
+            "meaning": ""
+          },
+          {
+            "original": "Kan jij NIET zelf!",
+            "corrected": "通常先由 huisarts 转诊，但不同项目可能有不同规则",
+            "meaning": ""
+          },
+          {
+            "original": "SEH 可以任何时候直接去",
+            "corrected": "小问题先联系 huisarts/huisartsenpost；生命危险拨112",
+            "meaning": ""
+          },
+          {
+            "original": "救护车一定15分钟到",
+            "corrected": "到达时间取决于情况和地点",
+            "meaning": ""
+          },
+          {
+            "original": "eigen risico 固定永远€385",
+            "corrected": "金额会按年份变化",
+            "meaning": ""
+          },
+          {
+            "original": "kinderen tot 18 jaar zijn gratis",
+            "corrected": "更准确：通常不单独支付基础保险保费；具体治疗范围仍有规则",
+            "meaning": ""
+          },
+          {
+            "original": "medicijnen lang gebruiken is slecht",
+            "corrected": "是否长期用药由疾病和医生判断，不能自行停药",
+            "meaning": ""
+          }
+        ],
+        "cheatSheet": [
+          {
+            "title": "速记重点",
+            "items": [
+              "gewone klacht → huisarts",
+              "huisarts → advies / medicijnen / verwijzing",
+              "recept → apotheek",
+              "etiket + bijsluiter lezen",
+              "specialist → vaak via verwijsbrief",
+              "tandpijn → tandarts",
+              "bewegingsprobleem → fysiotherapeut",
+              "avond/weekend → eerst huisartsenpost bellen",
+              "levensgevaar → 112",
+              "acute ziekenhuiszorg → SEH",
+              "basisverzekering = verplicht",
+              "aanvullende verzekering = vrijwillig",
+              "eigen risico ≠ eigen bijdrage",
+              "laag inkomen → mogelijk zorgtoeslag",
+              "gezond: gevarieerd eten, bewegen, niet roken, weinig alcohol"
+            ]
+          }
+        ],
+        "imageCount": 0,
+        "missingImageCount": 0
+      },
       "keywords": [
         "de huisarts",
         "de klacht",
@@ -2916,7 +4832,875 @@ export const KNM_CONTENT = {
         "de verhuurder → 房东",
         "de huurtoeslag → 租房补贴"
       ],
-      "fullStudy": null,
+      "fullStudy": {
+        "title": "KNM 学习手册：Hoofdstuk 4 - Wonen in Nederland",
+        "chapter": 4,
+        "goals": [
+          "区分荷兰常见住宅类型。",
+          "理解买房流程：按揭、房产中介、公证人和维修责任。",
+          "区分社会租房与自由市场租房。",
+          "理解租赁合同、租金补贴、房东和租金委员会。",
+          "掌握市政税、许可证、垃圾分类、能源水费和保险。"
+        ],
+        "parts": [
+          {
+            "title": "第一部分：住宅类型",
+            "units": [
+              {
+                "number": 1,
+                "title": "Verschillende soorten woningen",
+                "blocks": [
+                  {
+                    "type": "table",
+                    "headers": [
+                      "荷兰语",
+                      "中文",
+                      "教材解释"
+                    ],
+                    "rows": [
+                      [
+                        "de flat / het appartement",
+                        "公寓",
+                        "城市中常见，一栋楼有很多住宅"
+                      ],
+                      [
+                        "de eengezinswoning",
+                        "独栋或联排家庭住宅",
+                        "供一个家庭居住，常见于城镇"
+                      ],
+                      [
+                        "het vrijstaande huis",
+                        "独立住宅",
+                        "四周通常不与其他房屋相连，往往较贵"
+                      ],
+                      [
+                        "het studentenhuis",
+                        "学生合租房",
+                        "学生租房间或一层，与别人共用设施"
+                      ],
+                      [
+                        "het verzorgingstehuis",
+                        "老年照护住所",
+                        "老人无法独立在家生活时可能入住"
+                      ]
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "教材强调：荷兰天气冷且多雨，人们很多时间在室内，因此重视 gezelligheid（舒适温馨）和空间。"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "title": "第二部分：买房",
+            "units": [
+              {
+                "number": 2,
+                "title": "Hypotheek：按揭贷款",
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "买房通常需要从银行或金融机构借钱，这叫："
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "de hypotheek = 房屋按揭贷款"
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "贷款金额取决于："
+                  },
+                  {
+                    "type": "list",
+                    "items": [
+                      "inkomen / salaris：收入",
+                      "arbeidscontract：工作合同",
+                      "financiële situatie：财务状况"
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "贷款需要支付："
+                  },
+                  {
+                    "type": "list",
+                    "items": [
+                      "rente：利息",
+                      "aflossing：偿还本金"
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "教材提到部分按揭利息可能通过税务获得优惠；具体规则会变化。"
+                  }
+                ]
+              },
+              {
+                "number": 3,
+                "title": "Makelaar、verkoper、notaris",
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "买房流程："
+                  },
+                  {
+                    "type": "orderedList",
+                    "items": [
+                      "woningen zoeken，例如在房产网站查看",
+                      "afspraak maken met een makelaar：和中介预约看房",
+                      "bezichtigen：看房",
+                      "bieden / onderhandelen over de prijs：出价和谈价",
+                      "prijs afspreken：达成价格协议",
+                      "naar de notaris gaan：去公证人处",
+                      "koopcontract en hypotheekakte tekenen：签署购房合同和按揭文件"
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "角色："
+                  },
+                  {
+                    "type": "list",
+                    "items": [
+                      "makelaar：帮助买卖或租赁房屋的房产中介",
+                      "verkoper：卖家",
+                      "notaris：负责正式法律文件和产权转让的公证人"
+                    ]
+                  }
+                ]
+              },
+              {
+                "number": 4,
+                "title": "Onderhoud van een koophuis",
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "买房后，业主通常自己负责："
+                  },
+                  {
+                    "type": "list",
+                    "items": [
+                      "reparaties：维修",
+                      "onderhoud：维护",
+                      "tuin、vloer、schilderwerk：花园、地板、油漆等"
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "Onderhoud betekent dat je ervoor zorgt dat het huis goed en netjes blijft. 维护是让房屋保持良好、整洁和安全。"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "title": "第三部分：租房",
+            "units": [
+              {
+                "number": 5,
+                "title": "Sociale huurwoning",
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "社会租房通常面向符合收入和家庭条件的人，租金受监管。"
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "需要："
+                  },
+                  {
+                    "type": "list",
+                    "items": [
+                      "inschrijven bij een woningcorporatie of woonruimteverdeelsysteem",
+                      "reageren op woningen",
+                      "soms lang wachten"
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "是否适合某套房会看："
+                  },
+                  {
+                    "type": "list",
+                    "items": [
+                      "inkomen",
+                      "aantal personen in het huishouden",
+                      "leeftijd或特殊目标人群",
+                      "inschrijfduur：登记时间"
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "通常登记时间更长的人机会更大，但具体分配也可能使用抽签、优先政策或其他规则。"
+                  }
+                ]
+              },
+              {
+                "number": 6,
+                "title": "Urgentieverklaring",
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "急需住房时，有些人可以向 gemeente 申请 urgentieverklaring（紧急住房优先证明）。"
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "教材例子："
+                  },
+                  {
+                    "type": "list",
+                    "items": [
+                      "scheiding met kinderen",
+                      "ernstige gezondheidsproblemen"
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "申请条件严格，并非所有人都能获得。"
+                  }
+                ]
+              },
+              {
+                "number": 7,
+                "title": "Vrije sector",
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "自由市场租赁："
+                  },
+                  {
+                    "type": "list",
+                    "items": [
+                      "huur is meestal hoger",
+                      "bredere doelgroep",
+                      "via advertenties、internet、familie/vrienden 或 makelaar 找房"
+                    ]
+                  }
+                ]
+              },
+              {
+                "number": 8,
+                "title": "Huurcontract",
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "租房会签 huurcontract，其中包括："
+                  },
+                  {
+                    "type": "list",
+                    "items": [
+                      "maandelijkse huur：月租",
+                      "servicekosten：服务费",
+                      "reparatie- en onderhoudsverdeling：维修责任",
+                      "opzegtermijn：解约通知期",
+                      "regels van de verhuurder：房东规则"
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "想搬走时，要按照合同规定提前通知，教材示例是两个月，但现实以合同和法律为准。"
+                  }
+                ]
+              },
+              {
+                "number": 9,
+                "title": "Verhuurder en huurder",
+                "blocks": [
+                  {
+                    "type": "list",
+                    "items": [
+                      "verhuurder / huisbaas：房东",
+                      "huurder：租客"
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "一般来说："
+                  },
+                  {
+                    "type": "list",
+                    "items": [
+                      "大型维修和建筑主体维护由房东负责。",
+                      "日常小维修和合理使用由租客负责。",
+                      "具体责任写在合同和法律规则中。"
+                    ]
+                  }
+                ]
+              },
+              {
+                "number": 10,
+                "title": "Huurtoeslag",
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "收入较低、租金和住房条件符合要求时，可以向 Belastingdienst 申请 huurtoeslag（租金补贴）。"
+                  }
+                ]
+              },
+              {
+                "number": 11,
+                "title": "Huurcommissie",
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "与房东在租金、维修或服务费方面发生争议时，可咨询或申请 Huurcommissie 处理符合范围的争议。"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "title": "第四部分：搬家和市政税",
+            "units": [
+              {
+                "number": 12,
+                "title": "Verhuizen",
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "搬家需要处理："
+                  },
+                  {
+                    "type": "list",
+                    "items": [
+                      "nieuw adres doorgeven aan de gemeente",
+                      "adres aanpassen bij bank、保险、雇主等",
+                      "post laten doorsturen",
+                      "gas、water、elektriciteit regelen"
+                    ]
+                  }
+                ]
+              },
+              {
+                "number": 13,
+                "title": "Gemeentelijke belastingen",
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "教材列出："
+                  },
+                  {
+                    "type": "table",
+                    "headers": [
+                      "税费",
+                      "中文"
+                    ],
+                    "rows": [
+                      [
+                        "afvalstoffenheffing",
+                        "垃圾处理税"
+                      ],
+                      [
+                        "rioolheffing",
+                        "排污/下水道税"
+                      ],
+                      [
+                        "OZB / onroerendezaakbelasting",
+                        "房产税，主要针对房屋所有者"
+                      ]
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "低收入者在符合条件时可能申请 kwijtschelding（减免）。"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "title": "第五部分：许可证、房屋整洁和垃圾分类",
+            "units": [
+              {
+                "number": 14,
+                "title": "Vergunning",
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "Een vergunning is officiële toestemming van de gemeente. 许可证是市政府给予的正式许可。"
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "教材例子："
+                  },
+                  {
+                    "type": "list",
+                    "items": [
+                      "een boom verwijderen",
+                      "een huis bouwen",
+                      "een huis verbouwen"
+                    ]
+                  }
+                ]
+              },
+              {
+                "number": 15,
+                "title": "Huis en tuin netjes houden",
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "常见要求："
+                  },
+                  {
+                    "type": "list",
+                    "items": [
+                      "huis en ramen schoonhouden",
+                      "afval in de juiste container doen",
+                      "tuin onderhouden",
+                      "schilderwerk op tijd bijhouden"
+                    ]
+                  }
+                ]
+              },
+              {
+                "number": 16,
+                "title": "Afval scheiden",
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "教材分类："
+                  },
+                  {
+                    "type": "list",
+                    "items": [
+                      "GFT：groente、fruit、tuinafval",
+                      "restafval：其他生活垃圾",
+                      "plastic：按当地规定放入指定袋或容器",
+                      "glas：glasbak",
+                      "grofvuil：大型家具等",
+                      "chemisch afval：电池和危险废物"
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "垃圾在固定日期收集。错误时间放在街上或乱扔垃圾可能被罚款。"
+                  },
+                  {
+                    "type": "quote",
+                    "text": "垃圾颜色、塑料收集方式和日期因 gemeente 不同，应查看当地 afvalkalender。"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "title": "第六部分：能源、水和通信",
+            "units": [
+              {
+                "number": 17,
+                "title": "Energie",
+                "blocks": [
+                  {
+                    "type": "list",
+                    "items": [
+                      "自己选择 energiebedrijf。",
+                      "定期支付预付款。",
+                      "每年可能提供 meterstand（表数）。",
+                      "收到 jaarafrekening：年度结算，多退少补。",
+                      "不付款可能导致催收，严重时可能停止服务。",
+                      "有些租金包含能源费，称 inclusief。"
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "节能方法："
+                  },
+                  {
+                    "type": "list",
+                    "items": [
+                      "energiezuinige producten kiezen",
+                      "verwarming lager of uitzetten",
+                      "lampen uitdoen",
+                      "volle wasmachine gebruiken",
+                      "niet onnodig heet wassen"
+                    ]
+                  }
+                ]
+              },
+              {
+                "number": 18,
+                "title": "Water",
+                "blocks": [
+                  {
+                    "type": "list",
+                    "items": [
+                      "由地区水务公司供应。",
+                      "可能需要提交水表读数。",
+                      "每月预付，年度结算。",
+                      "节约水和能源既省钱，也有利于环境。"
+                    ]
+                  }
+                ]
+              },
+              {
+                "number": 19,
+                "title": "Stroomstoring en praktische controle",
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "家里突然没有电时，教材建议先检查："
+                  },
+                  {
+                    "type": "orderedList",
+                    "items": [
+                      "hebben de buren of andere huizen in de straat ook geen stroom?",
+                      "is alleen jouw woning getroffen?",
+                      "controleer de meterkast / zekeringen indien veilig",
+                      "neem zo nodig contact op met netbeheerder、verhuurder 或电工"
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "这样可以判断是整个街区停电，还是自己房屋内部的问题。"
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "急需住房但没有获得 urgentieverklaring 时，也可以在 particuliere/vrije sector 找房，但租金往往较高。"
+                  }
+                ]
+              },
+              {
+                "number": 20,
+                "title": "Telefoon、internet en televisie",
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "可以选择 provider 和 abonnement，通常按月付款。"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "title": "第七部分：保险与损失",
+            "units": [
+              {
+                "number": 21,
+                "title": "Verzekeringen",
+                "blocks": [
+                  {
+                    "type": "table",
+                    "headers": [
+                      "保险",
+                      "作用"
+                    ],
+                    "rows": [
+                      [
+                        "aansprakelijkheidsverzekering",
+                        "你无意损坏他人物品或造成他人损失时的责任保险"
+                      ],
+                      [
+                        "inboedelverzekering",
+                        "保障房屋内部的个人物品，例如火灾、水损或盗窃"
+                      ],
+                      [
+                        "opstalverzekering / woonhuisverzekering",
+                        "保障自有房屋建筑本身；贷款机构常要求房主购买"
+                      ],
+                      [
+                        "WA-autoverzekering",
+                        "汽车/摩托车的法定第三者责任保险"
+                      ],
+                      [
+                        "zorgverzekering",
+                        "医疗保险，基础保险通常强制"
+                      ]
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "每份保险有 polis（保险合同）。"
+                  }
+                ]
+              },
+              {
+                "number": 22,
+                "title": "Schade melden",
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "发生损失时："
+                  },
+                  {
+                    "type": "orderedList",
+                    "items": [
+                      "snel contact opnemen met verzekeraar",
+                      "uitleggen wat er is gebeurd",
+                      "formulier invullen",
+                      "bewijs of foto's bewaren",
+                      "bij grote schade kan een expert komen kijken"
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "保险通常不赔偿故意造成的损失。"
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "extraSections": [],
+        "vocabulary": [
+          {
+            "word": "de woning",
+            "meaning": "住宅",
+            "example": ""
+          },
+          {
+            "word": "de flat",
+            "meaning": "公寓楼",
+            "example": ""
+          },
+          {
+            "word": "de eengezinswoning",
+            "meaning": "家庭住宅",
+            "example": ""
+          },
+          {
+            "word": "vrijstaand",
+            "meaning": "独立的",
+            "example": ""
+          },
+          {
+            "word": "het verzorgingstehuis",
+            "meaning": "老年照护住所",
+            "example": ""
+          },
+          {
+            "word": "de hypotheek",
+            "meaning": "房贷",
+            "example": ""
+          },
+          {
+            "word": "de rente",
+            "meaning": "利息",
+            "example": ""
+          },
+          {
+            "word": "de makelaar",
+            "meaning": "房产中介",
+            "example": ""
+          },
+          {
+            "word": "de bezichtiging",
+            "meaning": "看房",
+            "example": ""
+          },
+          {
+            "word": "bieden",
+            "meaning": "出价",
+            "example": ""
+          },
+          {
+            "word": "de notaris",
+            "meaning": "公证人",
+            "example": ""
+          },
+          {
+            "word": "het onderhoud",
+            "meaning": "维护",
+            "example": ""
+          },
+          {
+            "word": "huren",
+            "meaning": "租赁",
+            "example": ""
+          },
+          {
+            "word": "de sociale huurwoning",
+            "meaning": "社会租房",
+            "example": ""
+          },
+          {
+            "word": "de vrije sector",
+            "meaning": "自由市场租房",
+            "example": ""
+          },
+          {
+            "word": "inschrijven",
+            "meaning": "登记",
+            "example": ""
+          },
+          {
+            "word": "reageren op een woning",
+            "meaning": "申请/回应一套住房",
+            "example": ""
+          },
+          {
+            "word": "de urgentieverklaring",
+            "meaning": "紧急住房优先证明",
+            "example": ""
+          },
+          {
+            "word": "het huurcontract",
+            "meaning": "租赁合同",
+            "example": ""
+          },
+          {
+            "word": "de verhuurder",
+            "meaning": "房东",
+            "example": ""
+          },
+          {
+            "word": "de huurder",
+            "meaning": "租客",
+            "example": ""
+          },
+          {
+            "word": "de servicekosten",
+            "meaning": "服务费",
+            "example": ""
+          },
+          {
+            "word": "de opzegtermijn",
+            "meaning": "解约通知期",
+            "example": ""
+          },
+          {
+            "word": "de huurtoeslag",
+            "meaning": "租金补贴",
+            "example": ""
+          },
+          {
+            "word": "de Huurcommissie",
+            "meaning": "租金委员会",
+            "example": ""
+          },
+          {
+            "word": "verhuizen",
+            "meaning": "搬家",
+            "example": ""
+          },
+          {
+            "word": "de afvalstoffenheffing",
+            "meaning": "垃圾处理税",
+            "example": ""
+          },
+          {
+            "word": "de rioolheffing",
+            "meaning": "排污税",
+            "example": ""
+          },
+          {
+            "word": "de kwijtschelding",
+            "meaning": "税费减免",
+            "example": ""
+          },
+          {
+            "word": "de vergunning",
+            "meaning": "许可证",
+            "example": ""
+          },
+          {
+            "word": "afval scheiden",
+            "meaning": "垃圾分类",
+            "example": ""
+          },
+          {
+            "word": "het grofvuil",
+            "meaning": "大件垃圾",
+            "example": ""
+          },
+          {
+            "word": "de meterstand",
+            "meaning": "表数",
+            "example": ""
+          },
+          {
+            "word": "de jaarafrekening",
+            "meaning": "年度结算单",
+            "example": ""
+          },
+          {
+            "word": "zuinig",
+            "meaning": "节约的",
+            "example": ""
+          },
+          {
+            "word": "het abonnement",
+            "meaning": "订阅/套餐",
+            "example": ""
+          },
+          {
+            "word": "de verzekering",
+            "meaning": "保险",
+            "example": ""
+          },
+          {
+            "word": "de premie",
+            "meaning": "保费",
+            "example": ""
+          },
+          {
+            "word": "de polis",
+            "meaning": "保单",
+            "example": ""
+          },
+          {
+            "word": "de schade",
+            "meaning": "损失",
+            "example": ""
+          }
+        ],
+        "commonMistakes": [
+          {
+            "original": "只有固定工作才可能获得 hypotheek",
+            "corrected": "贷款机构综合评估收入、合同和财务情况，并非绝对只接受固定合同",
+            "meaning": ""
+          },
+          {
+            "original": "谁登记最久谁一定得到房子",
+            "corrected": "常见分配方式之一，实际还可能看优先、抽签或地方规则",
+            "meaning": ""
+          },
+          {
+            "original": "房东负责所有水龙头",
+            "corrected": "大小维修责任要看法律、合同及损坏原因",
+            "meaning": ""
+          },
+          {
+            "original": "垃圾容器颜色全国统一",
+            "corrected": "各 gemeente 规则不同",
+            "meaning": ""
+          },
+          {
+            "original": "每月能源固定€50",
+            "corrected": "只是教材示例，实际差别很大",
+            "meaning": ""
+          },
+          {
+            "original": "opstalverzekering 对所有人强制",
+            "corrected": "对有按揭的房主常被贷款机构要求；租客通常不买建筑保险",
+            "meaning": ""
+          }
+        ],
+        "cheatSheet": [
+          {
+            "title": "速记重点",
+            "items": [
+              "huis kopen → hypotheek + makelaar + notaris",
+              "koophuis → eigenaar betaalt onderhoud",
+              "sociale huur → gereguleerde huur + inkomen/registratie",
+              "vrije sector → meestal hogere huur",
+              "huurcontract → huur、servicekosten、onderhoud、opzegtermijn",
+              "laag inkomen → mogelijk huurtoeslag",
+              "conflict over huur → Huurcommissie",
+              "vergunning → officiële toestemming gemeente",
+              "afval op vaste dag + juiste container",
+              "meterstand → jaarafrekening",
+              "aansprakelijkheid = schade aan anderen",
+              "inboedel = spullen in huis",
+              "opstal = gebouw van koophuis",
+              "WA auto = verplicht"
+            ]
+          }
+        ],
+        "imageCount": 0,
+        "missingImageCount": 0
+      },
       "keywords": [
         "de hypotheek",
         "de makelaar",
@@ -3106,7 +5890,901 @@ export const KNM_CONTENT = {
         "de belastingaangifte → 报税",
         "DigiD → 政府网站登录身份"
       ],
-      "fullStudy": null,
+      "fullStudy": {
+        "title": "KNM 学习手册：Hoofdstuk 5 - Dienstverlening in Nederland",
+        "chapter": 5,
+        "goals": [
+          "知道警察、市政府、税务局、银行和 IND 的职责。",
+          "理解报案、身份证件、BSN、DigiD 和补贴。",
+          "理解自动扣款、银行卡被盗后的处理。",
+          "理解居留许可、入籍和融入考试的基本概念。",
+          "了解青少年服务、居家照护、律师和法律咨询。"
+        ],
+        "parts": [
+          {
+            "title": "第一部分：Politie",
+            "units": [
+              {
+                "number": 1,
+                "title": "Identiteitsbewijs",
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "有效身份证件教材列出："
+                  },
+                  {
+                    "type": "list",
+                    "items": [
+                      "paspoort",
+                      "identiteitskaart",
+                      "rijbewijs（在荷兰境内常可作为身份证明，但旅行证件规则不同）",
+                      "verblijfsdocument"
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "教材记忆：14岁及以上应能出示身份证件；公共交通检查中可能有额外规则。"
+                  }
+                ]
+              },
+              {
+                "number": 2,
+                "title": "Aangifte doen",
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "Aangifte doen = 正式向警察报案并记录事件。"
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "可报案的场景："
+                  },
+                  {
+                    "type": "list",
+                    "items": [
+                      "diefstal：物品被盗",
+                      "verlies van paspoort：护照遗失",
+                      "geweld：遭到暴力",
+                      "bedreiging：受到威胁",
+                      "inbraak：入室盗窃"
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "报案原因："
+                  },
+                  {
+                    "type": "list",
+                    "items": [
+                      "让警察调查嫌疑人",
+                      "尝试找回物品",
+                      "向保险公司索赔",
+                      "申请新证件时需要证明"
+                    ]
+                  }
+                ]
+              },
+              {
+                "number": 3,
+                "title": "Alarmnummer en niet-spoed",
+                "blocks": [
+                  {
+                    "type": "list",
+                    "items": [
+                      "112：生命危险、暴力正在发生、严重事故、火灾等紧急情况",
+                      "教材列出 0900-8844 作为警方非紧急号码，例如非正在发生的噪音或入室盗窃后报案"
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "必须配合警察合理指示，例如停车、出示身份证件，否则可能被罚款。"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "title": "第二部分：Gemeente",
+            "units": [
+              {
+                "number": 4,
+                "title": "Ingeschreven staan",
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "在荷兰居住的人需要在 gemeente 的人口登记中注册。"
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "应通知 gemeente 的重要变化："
+                  },
+                  {
+                    "type": "list",
+                    "items": [
+                      "geboorte van een kind：孩子出生，教材强调尽快/数日内申报",
+                      "huwelijk、geregistreerd partnerschap 或 scheiding",
+                      "overlijden",
+                      "verhuizing",
+                      "vertrek naar het buitenland"
+                    ]
+                  }
+                ]
+              },
+              {
+                "number": 5,
+                "title": "Documenten aanvragen",
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "在 gemeente 可办理："
+                  },
+                  {
+                    "type": "list",
+                    "items": [
+                      "rijbewijs",
+                      "paspoort",
+                      "identiteitskaart",
+                      "uittreksel uit de BRP",
+                      "vergunning"
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "教材用旧称 GBA；现代名称通常是 BRP（Basisregistratie Personen）。"
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "办理证件通常需要："
+                  },
+                  {
+                    "type": "list",
+                    "items": [
+                      "geldig identiteitsbewijs",
+                      "pasfoto volgens regels",
+                      "aanvraagkosten betalen",
+                      "wachten tot het document klaar is"
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "title": "第三部分：Belastingdienst、BSN 和 DigiD",
+            "units": [
+              {
+                "number": 6,
+                "title": "BSN",
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "BSN = burgerservicenummer，是个人在政府和许多公共服务中的识别号码，通常由9位数字组成。"
+                  }
+                ]
+              },
+              {
+                "number": 7,
+                "title": "Belasting betalen",
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "教材列出："
+                  },
+                  {
+                    "type": "list",
+                    "items": [
+                      "inkomstenbelasting：所得税",
+                      "gemeentelijke belastingen：市政税",
+                      "BTW：增值税"
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "税收用于公共设施和服务，例如："
+                  },
+                  {
+                    "type": "list",
+                    "items": [
+                      "wegen",
+                      "scholen",
+                      "ziekenhuizen",
+                      "politie"
+                    ]
+                  }
+                ]
+              },
+              {
+                "number": 8,
+                "title": "Belastingaangifte",
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "每年申报上一年度的收入和可申报项目。"
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "结果可能是："
+                  },
+                  {
+                    "type": "list",
+                    "items": [
+                      "extra betalen",
+                      "geld terugkrijgen"
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "如果不同意决定，可 bezwaar maken。有支付困难时可询问 in termijnen betalen（分期支付）。"
+                  }
+                ]
+              },
+              {
+                "number": 9,
+                "title": "Toeslagen",
+                "blocks": [
+                  {
+                    "type": "table",
+                    "headers": [
+                      "补贴",
+                      "用途"
+                    ],
+                    "rows": [
+                      [
+                        "huurtoeslag",
+                        "租房费用"
+                      ],
+                      [
+                        "zorgtoeslag",
+                        "医疗保险保费"
+                      ],
+                      [
+                        "kinderopvangtoeslag",
+                        "儿童托管费用"
+                      ],
+                      [
+                        "kindgebonden budget",
+                        "面向符合收入条件、有孩子的家庭"
+                      ]
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "低收入者还可能向 gemeente 申请某些地方税的 kwijtschelding。"
+                  }
+                ]
+              },
+              {
+                "number": 10,
+                "title": "DigiD",
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "DigiD 是使用政府在线服务的数字身份登录方式，不只是一个简单密码。"
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "可用于："
+                  },
+                  {
+                    "type": "list",
+                    "items": [
+                      "Belastingdienst",
+                      "gemeente",
+                      "toeslagen",
+                      "UWV",
+                      "SVB",
+                      "DUO"
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "必须保护登录信息，不应交给陌生人。"
+                  }
+                ]
+              },
+              {
+                "number": 11,
+                "title": "Kinderbijslag",
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "Kinderbijslag 是由 SVB 发放的儿童津贴。孩子出生并完成市政登记后，通常会收到相关信息。"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "title": "第四部分：Bank",
+            "units": [
+              {
+                "number": 12,
+                "title": "Bankrekening en pinpas",
+                "blocks": [
+                  {
+                    "type": "list",
+                    "items": [
+                      "bankrekening：银行账户",
+                      "rekeningnummer / IBAN：账号",
+                      "pinpas：银行卡",
+                      "rood staan：账户余额为负",
+                      "contactloos betalen：非接触支付"
+                    ]
+                  }
+                ]
+              },
+              {
+                "number": 13,
+                "title": "Betalen",
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "教材介绍："
+                  },
+                  {
+                    "type": "list",
+                    "items": [
+                      "automatische incasso：授权公司自动扣款，适合房租等定期账单",
+                      "machtiging：扣款授权",
+                      "internetbankieren：网上银行",
+                      "acceptgiro：旧式纸质缴费方式，现已基本退出使用"
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "银行卡被盗："
+                  },
+                  {
+                    "type": "orderedList",
+                    "items": [
+                      "kaart en rekening zo snel mogelijk blokkeren",
+                      "bank bellen",
+                      "bij diefstal aangifte doen bij politie"
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "title": "第五部分：IND、居留和入籍",
+            "units": [
+              {
+                "number": 14,
+                "title": "IND",
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "IND = Immigratie- en Naturalisatiedienst，处理："
+                  },
+                  {
+                    "type": "list",
+                    "items": [
+                      "verblijfsvergunningen",
+                      "asielaanvragen",
+                      "naturalisatieprocedures"
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "欧盟公民与非欧盟公民适用的规则不同。"
+                  }
+                ]
+              },
+              {
+                "number": 15,
+                "title": "MVV en verblijfsvergunning",
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "教材概念："
+                  },
+                  {
+                    "type": "list",
+                    "items": [
+                      "MVV：某些非欧盟公民进入荷兰并长期居留前所需的长期入境签证",
+                      "verblijfsvergunning voor bepaalde tijd：有期限居留许可",
+                      "verblijfsvergunning voor onbepaalde tijd：长期/永久居留许可",
+                      "verlengen：延期",
+                      "W-document：部分等待庇护决定者的身份证明"
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "到达后通常需要："
+                  },
+                  {
+                    "type": "list",
+                    "items": [
+                      "verblijfspas ophalen",
+                      "inschrijven bij de gemeente"
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "具体期限和条件依申请类型而不同。"
+                  }
+                ]
+              },
+              {
+                "number": 16,
+                "title": "Naturalisatie",
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "入籍后获得荷兰国籍，并可申请荷兰护照、参加国家议会选举等。"
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "教材列出常见基本条件："
+                  },
+                  {
+                    "type": "list",
+                    "items": [
+                      "meerderjarig",
+                      "gedurende一定年限合法居住",
+                      "voldoen aan inburgerings- en taalvoorwaarden",
+                      "aanvraag doen bij gemeente",
+                      "kosten betalen"
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "双重国籍和放弃原国籍规则有许多例外，不应只按教材列出的国家判断。"
+                  }
+                ]
+              },
+              {
+                "number": 17,
+                "title": "Inburgering",
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "融入通常包括："
+                  },
+                  {
+                    "type": "list",
+                    "items": [
+                      "Nederlands spreken",
+                      "lezen",
+                      "luisteren",
+                      "schrijven",
+                      "kennis van de Nederlandse maatschappij"
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "教材中的 A2、3年期限、DUO 贷款和豁免规则属于旧版或简化资料。现代要求取决于适用的融入制度和个人情况。"
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "关键词："
+                  },
+                  {
+                    "type": "list",
+                    "items": [
+                      "slagen：通过",
+                      "zakken：不及格",
+                      "vrijstelling：豁免",
+                      "ontheffing：免除义务"
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "title": "第六部分：Jeugdzorg、thuiszorg 和 opname",
+            "units": [
+              {
+                "number": 18,
+                "title": "Jeugdzorg",
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "遇到育儿或孩子行为、发展、心理问题时，可以寻求青少年服务。"
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "可能提供："
+                  },
+                  {
+                    "type": "list",
+                    "items": [
+                      "advies",
+                      "gesprekken",
+                      "begeleiding",
+                      "therapie"
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "“Bureau Jeugdzorg”是教材旧称或简化概念；现实中地方青少年服务组织名称可能不同。"
+                  }
+                ]
+              },
+              {
+                "number": 19,
+                "title": "Thuiszorg",
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "适合："
+                  },
+                  {
+                    "type": "list",
+                    "items": [
+                      "产后家庭",
+                      "长期患病者",
+                      "老年人",
+                      "需要洗澡、穿衣、吃饭或家务帮助的人"
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "可向 gemeente 或相关照护机构申请评估。"
+                  }
+                ]
+              },
+              {
+                "number": 20,
+                "title": "Opname en CIZ",
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "当居家照护不足时，可能需要入住："
+                  },
+                  {
+                    "type": "list",
+                    "items": [
+                      "verpleeghuis：护理院",
+                      "zorginstelling：照护机构"
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "教材提到长期照护入住需经过 CIZ 评估。"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "title": "第七部分：法律帮助与心理社会支持",
+            "units": [
+              {
+                "number": 21,
+                "title": "Advocaat",
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "律师可以帮助处理："
+                  },
+                  {
+                    "type": "list",
+                    "items": [
+                      "verblijfsrechtelijke problemen",
+                      "scheiding",
+                      "ontslagconflict",
+                      "consumentenconflict",
+                      "strafzaak",
+                      "geschil met overheid"
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "低收入者可能获得补贴法律援助，但通常仍需自付部分费用。"
+                  }
+                ]
+              },
+              {
+                "number": 22,
+                "title": "Juridisch Loket en sociaal raadslieden",
+                "blocks": [
+                  {
+                    "type": "list",
+                    "items": [
+                      "Juridisch Loket：初步法律信息和建议",
+                      "sociaal raadslieden：帮助理解政府信件、填写表格、申请福利等，不是律师"
+                    ]
+                  }
+                ]
+              },
+              {
+                "number": 23,
+                "title": "Psychische klachten",
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "长期头痛、疲倦、没有兴趣、经常害怕等情况，可先联系 huisarts。"
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "可能转介："
+                  },
+                  {
+                    "type": "list",
+                    "items": [
+                      "maatschappelijk werk",
+                      "GGZ",
+                      "therapeut"
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "关键词："
+                  },
+                  {
+                    "type": "list",
+                    "items": [
+                      "depressief：抑郁的",
+                      "therapie：心理治疗",
+                      "doorverwijzen：转介"
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "extraSections": [],
+        "vocabulary": [
+          {
+            "word": "de dienstverlening",
+            "meaning": "公共/专业服务",
+            "example": ""
+          },
+          {
+            "word": "het identiteitsbewijs",
+            "meaning": "身份证件",
+            "example": ""
+          },
+          {
+            "word": "aangifte doen",
+            "meaning": "报案",
+            "example": ""
+          },
+          {
+            "word": "de diefstal",
+            "meaning": "盗窃",
+            "example": ""
+          },
+          {
+            "word": "de bedreiging",
+            "meaning": "威胁",
+            "example": ""
+          },
+          {
+            "word": "de inbraak",
+            "meaning": "入室盗窃",
+            "example": ""
+          },
+          {
+            "word": "de bekeuring",
+            "meaning": "罚单",
+            "example": ""
+          },
+          {
+            "word": "inschrijven",
+            "meaning": "登记",
+            "example": ""
+          },
+          {
+            "word": "het uittreksel",
+            "meaning": "摘录证明",
+            "example": ""
+          },
+          {
+            "word": "de BRP",
+            "meaning": "人口基本登记",
+            "example": ""
+          },
+          {
+            "word": "het BSN",
+            "meaning": "公民服务号码",
+            "example": ""
+          },
+          {
+            "word": "de belastingaangifte",
+            "meaning": "税务申报",
+            "example": ""
+          },
+          {
+            "word": "bezwaar maken",
+            "meaning": "提出异议",
+            "example": ""
+          },
+          {
+            "word": "in termijnen betalen",
+            "meaning": "分期支付",
+            "example": ""
+          },
+          {
+            "word": "de toeslag",
+            "meaning": "补贴",
+            "example": ""
+          },
+          {
+            "word": "de DigiD",
+            "meaning": "数字政府身份",
+            "example": ""
+          },
+          {
+            "word": "de kinderbijslag",
+            "meaning": "儿童津贴",
+            "example": ""
+          },
+          {
+            "word": "de bankrekening",
+            "meaning": "银行账户",
+            "example": ""
+          },
+          {
+            "word": "rood staan",
+            "meaning": "账户透支",
+            "example": ""
+          },
+          {
+            "word": "de incasso",
+            "meaning": "自动扣款",
+            "example": ""
+          },
+          {
+            "word": "de machtiging",
+            "meaning": "授权",
+            "example": ""
+          },
+          {
+            "word": "blokkeren",
+            "meaning": "冻结、停用",
+            "example": ""
+          },
+          {
+            "word": "de IND",
+            "meaning": "荷兰移民归化局",
+            "example": ""
+          },
+          {
+            "word": "de MVV",
+            "meaning": "长期入境签证",
+            "example": ""
+          },
+          {
+            "word": "de verblijfsvergunning",
+            "meaning": "居留许可",
+            "example": ""
+          },
+          {
+            "word": "verlengen",
+            "meaning": "延期",
+            "example": ""
+          },
+          {
+            "word": "naturalisatie",
+            "meaning": "入籍",
+            "example": ""
+          },
+          {
+            "word": "de nationaliteit",
+            "meaning": "国籍",
+            "example": ""
+          },
+          {
+            "word": "inburgeren",
+            "meaning": "融入",
+            "example": ""
+          },
+          {
+            "word": "de vrijstelling",
+            "meaning": "豁免",
+            "example": ""
+          },
+          {
+            "word": "de thuiszorg",
+            "meaning": "居家照护",
+            "example": ""
+          },
+          {
+            "word": "het verpleeghuis",
+            "meaning": "护理院",
+            "example": ""
+          },
+          {
+            "word": "de advocaat",
+            "meaning": "律师",
+            "example": ""
+          },
+          {
+            "word": "de rechtszaak",
+            "meaning": "诉讼",
+            "example": ""
+          },
+          {
+            "word": "de rechter",
+            "meaning": "法官",
+            "example": ""
+          },
+          {
+            "word": "het Juridisch Loket",
+            "meaning": "法律咨询机构",
+            "example": ""
+          },
+          {
+            "word": "maatschappelijk werk",
+            "meaning": "社会工作服务",
+            "example": ""
+          },
+          {
+            "word": "de GGZ",
+            "meaning": "心理健康服务",
+            "example": ""
+          }
+        ],
+        "commonMistakes": [
+          {
+            "original": "GBA",
+            "corrected": "现代通常称 BRP",
+            "meaning": ""
+          },
+          {
+            "original": "DigiD code = wachtwoord",
+            "corrected": "DigiD 是数字身份系统，登录可能包含多重验证",
+            "meaning": ""
+          },
+          {
+            "original": "Acceptgiro",
+            "corrected": "旧支付方式，现已基本停用",
+            "meaning": ""
+          },
+          {
+            "original": "所有人3年内A2融入",
+            "corrected": "取决于适用制度和个人情况，教材可能过时",
+            "meaning": ""
+          },
+          {
+            "original": "65岁以上自动免融入",
+            "corrected": "现实豁免条件需按官方规则判断",
+            "meaning": ""
+          },
+          {
+            "original": "双重国籍只看国家名单",
+            "corrected": "规则复杂，取决于法律例外和个人情况",
+            "meaning": ""
+          },
+          {
+            "original": "入籍固定€900",
+            "corrected": "费用会变化",
+            "meaning": ""
+          },
+          {
+            "original": "非紧急入室盗窃警察一定马上来",
+            "corrected": "处理优先级取决于风险与现场情况",
+            "meaning": ""
+          }
+        ],
+        "cheatSheet": [
+          {
+            "title": "速记重点",
+            "items": [
+              "spoed / levensgevaar → 112",
+              "geen spoed politie → 0900-8844（教材号码）",
+              "gestolen → aangifte + bankpas blokkeren",
+              "gemeente → inschrijving、paspoort、rijbewijs、BRP-uittreksel",
+              "BSN = persoonlijk overheidsnummer",
+              "DigiD = online overheid",
+              "belastingaangifte = vorig jaar inkomen doorgeven",
+              "laag inkomen → mogelijk toeslagen/kwijtschelding",
+              "automatische incasso = bedrijf haalt periodiek geld af",
+              "IND = verblijfsvergunning en naturalisatie",
+              "MVV = toegang voor langdurig verblijf in bepaalde gevallen",
+              "juridische vraag → Juridisch Loket / advocaat",
+              "psychische klachten → eerst huisarts"
+            ]
+          }
+        ],
+        "imageCount": 0,
+        "missingImageCount": 0
+      },
       "keywords": [
         "het identiteitsbewijs",
         "aangifte doen",
@@ -3288,7 +6966,853 @@ export const KNM_CONTENT = {
         "de kinderbijslag → 儿童津贴",
         "de leerplicht → 义务教育"
       ],
-      "fullStudy": null,
+      "fullStudy": {
+        "title": "KNM 学习手册：Hoofdstuk 6 - Opvoeding en onderwijs in Nederland",
+        "chapter": 6,
+        "goals": [
+          "认识儿童成长阶段和孕产照护。",
+          "理解 consultatiebureau、托儿所和课后托管。",
+          "理解儿童津贴、育儿补贴和父母责任。",
+          "掌握义务教育、学校类型和小学流程。",
+          "区分 VMBO、HAVO、VWO、MBO、HBO 和大学。"
+        ],
+        "parts": [
+          {
+            "title": "第一部分：儿童成长阶段",
+            "units": [
+              {
+                "number": 1,
+                "title": "Leeftijdsgroepen",
+                "blocks": [
+                  {
+                    "type": "table",
+                    "headers": [
+                      "荷兰语",
+                      "年龄",
+                      "中文"
+                    ],
+                    "rows": [
+                      [
+                        "baby",
+                        "0-1 jaar",
+                        "婴儿"
+                      ],
+                      [
+                        "peuter",
+                        "1-4 jaar",
+                        "幼儿"
+                      ],
+                      [
+                        "kleuter",
+                        "4-6 jaar",
+                        "学龄前儿童"
+                      ],
+                      [
+                        "schoolkind",
+                        "6-12 jaar",
+                        "小学生年龄儿童"
+                      ],
+                      [
+                        "puber",
+                        "12-18 jaar",
+                        "青少年"
+                      ],
+                      [
+                        "volwassene",
+                        "vanaf 18 jaar",
+                        "成年人"
+                      ]
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "title": "第二部分：怀孕、分娩与婴幼儿照护",
+            "units": [
+              {
+                "number": 2,
+                "title": "Verloskundige",
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "孕妇通常联系 verloskundige（助产士），负责："
+                  },
+                  {
+                    "type": "list",
+                    "items": [
+                      "zwangerschapscontroles",
+                      "advies",
+                      "begeleiding bij de bevalling"
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "没有特殊风险时，可以选择在家或医院分娩；出现医疗问题时由妇产科医生处理。"
+                  }
+                ]
+              },
+              {
+                "number": 3,
+                "title": "Kraamzorg en verlof",
+                "blocks": [
+                  {
+                    "type": "list",
+                    "items": [
+                      "kraamzorg：产后在家帮助照顾母亲和新生儿",
+                      "ouders moeten kraamzorg tijdig regelen：需提前安排",
+                      "zorgverzekering vergoedt vaak een deel volgens voorwaarden",
+                      "zwangerschaps- en bevallingsverlof：孕产假"
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "教材以总计16周、产前4周和产后12周作为简化记忆。现实起止可根据预产期和法律规则变化。"
+                  }
+                ]
+              },
+              {
+                "number": 4,
+                "title": "Consultatiebureau",
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "主要面向 0-4 岁儿童："
+                  },
+                  {
+                    "type": "list",
+                    "items": [
+                      "meten en wegen",
+                      "zien en horen controleren",
+                      "ontwikkeling volgen",
+                      "advies over voeding、slapen、spelen",
+                      "vaccinaties aanbieden",
+                      "afspraken记录在 groeiboekje 或数字系统中"
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "title": "第三部分：儿童托管与补贴",
+            "units": [
+              {
+                "number": 5,
+                "title": "Kinderopvang",
+                "blocks": [
+                  {
+                    "type": "subheading",
+                    "level": 3,
+                    "text": "Oppas"
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "保姆到家，或孩子去保姆/亲友家。"
+                  },
+                  {
+                    "type": "subheading",
+                    "level": 3,
+                    "text": "Gastouder"
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "注册的家庭式托育人员在家中照顾孩子。"
+                  },
+                  {
+                    "type": "subheading",
+                    "level": 3,
+                    "text": "Kinderdagverblijf"
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "日间托儿所，孩子可："
+                  },
+                  {
+                    "type": "list",
+                    "items": [
+                      "spelen",
+                      "eten",
+                      "slapen",
+                      "omgaan met andere kinderen"
+                    ]
+                  },
+                  {
+                    "type": "subheading",
+                    "level": 3,
+                    "text": "Buitenschoolse opvang (BSO)"
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "为4-12岁儿童提供放学前后或假期托管。"
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "申请时："
+                  },
+                  {
+                    "type": "list",
+                    "items": [
+                      "informatie vergelijken",
+                      "formulier invullen",
+                      "vroeg inschrijven",
+                      "soms al tijdens zwangerschap inschrijven"
+                    ]
+                  }
+                ]
+              },
+              {
+                "number": 6,
+                "title": "Kinderopvangtoeslag",
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "符合工作、学习、托管机构和收入等条件时，可向 Belastingdienst 申请部分托育费用补贴。"
+                  }
+                ]
+              },
+              {
+                "number": 7,
+                "title": "Geld voor gezinnen",
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "教材列出："
+                  },
+                  {
+                    "type": "list",
+                    "items": [
+                      "zorgtoeslag",
+                      "huurtoeslag",
+                      "kinderopvangtoeslag",
+                      "kindgebonden budget",
+                      "kinderbijslag via SVB"
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "Kinderbijslag 通常按季度支付，金额和孩子年龄有关。"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "title": "第四部分：Opvoeding 和儿童发展",
+            "units": [
+              {
+                "number": 8,
+                "title": "Opvoeden",
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "Opvoeden 是父母教孩子："
+                  },
+                  {
+                    "type": "list",
+                    "items": [
+                      "praten en communiceren",
+                      "wat wel en niet mag",
+                      "zelfstandig worden",
+                      "omgaan met anderen"
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "遇到问题可与："
+                  },
+                  {
+                    "type": "list",
+                    "items": [
+                      "huisarts",
+                      "consultatiebureau",
+                      "school",
+                      "jeugdhulp"
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "交流。"
+                  }
+                ]
+              },
+              {
+                "number": 9,
+                "title": "Kindermishandeling",
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "父母不可以殴打孩子。怀疑孩子遭到虐待时，应寻求专业帮助或报告。"
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "教材旧称 Advies- en Meldpunt Kindermishandeling；现代常通过 Veilig Thuis 寻求建议或报告家庭暴力与儿童虐待。"
+                  }
+                ]
+              },
+              {
+                "number": 10,
+                "title": "Ontwikkeling",
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "对发展重要："
+                  },
+                  {
+                    "type": "list",
+                    "items": [
+                      "spelen",
+                      "contact met andere kinderen",
+                      "bewegen en buiten spelen",
+                      "sporten",
+                      "voorlezen en lezen",
+                      "gezond eten en ontbijt"
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "孩子可免费或低成本加入图书馆，具体按当地政策。"
+                  }
+                ]
+              },
+              {
+                "number": 11,
+                "title": "Verantwoordelijkheid van ouders",
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "教材强调：未成年孩子造成损坏时，父母在一定条件下可能承担责任。具体法律责任与年龄、行为和父母监督有关。"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "title": "第五部分：教育自由与义务教育",
+            "units": [
+              {
+                "number": 12,
+                "title": "Vrijheid van onderwijs",
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "荷兰允许不同类型学校："
+                  },
+                  {
+                    "type": "list",
+                    "items": [
+                      "openbare school：公共学校，不以某一宗教为基础",
+                      "christelijke of islamitische school：宗教学校",
+                      "scholen met een eigen onderwijsmethode：不同教学理念学校"
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "政府会监督教育质量。"
+                  }
+                ]
+              },
+              {
+                "number": 13,
+                "title": "Leerplicht",
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "教材核心："
+                  },
+                  {
+                    "type": "list",
+                    "items": [
+                      "veel kinderen beginnen op 4-jarige leeftijd",
+                      "vanaf 5 jaar geldt leerplicht",
+                      "tot 16 jaar volledig leerplichtig",
+                      "16-17岁若没有基础资格，通常仍需继续学习",
+                      "不能为了普通度假随意缺课",
+                      "生病时早上通知学校"
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "title": "第六部分：幼儿教育和小学",
+            "units": [
+              {
+                "number": 14,
+                "title": "Peuterspeelzaal en voorschool",
+                "blocks": [
+                  {
+                    "type": "subheading",
+                    "level": 3,
+                    "text": "Peuteropvang / peuterspeelzaal"
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "2-4岁儿童，每周参加若干次活动，学习与人相处和基本技能，通常不强制。"
+                  },
+                  {
+                    "type": "subheading",
+                    "level": 3,
+                    "text": "Voorschool"
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "为需要额外语言或发展支持的2-4岁儿童提供学前教育，例如家中不说荷兰语或语言发展较慢。"
+                  }
+                ]
+              },
+              {
+                "number": 15,
+                "title": "Basisschool",
+                "blocks": [
+                  {
+                    "type": "list",
+                    "items": [
+                      "通常4岁进入 groep 1",
+                      "5岁起义务教育",
+                      "注册时可能有 wachtlijst",
+                      "可预约参观学校"
+                    ]
+                  },
+                  {
+                    "type": "subheading",
+                    "level": 3,
+                    "text": "Groep 1 en 2"
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "学习："
+                  },
+                  {
+                    "type": "list",
+                    "items": [
+                      "samen spelen",
+                      "luisteren",
+                      "liedjes zingen",
+                      "tekenen",
+                      "tellen",
+                      "Nederlands spreken"
+                    ]
+                  },
+                  {
+                    "type": "subheading",
+                    "level": 3,
+                    "text": "Groep 3 t/m 8"
+                  },
+                  {
+                    "type": "list",
+                    "items": [
+                      "groep 3：开始系统阅读、写作、算术",
+                      "也学习体育、音乐、绘画",
+                      "高年级学习历史和英语等",
+                      "大多数孩子在 groep 8 约12岁"
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "学校沟通："
+                  },
+                  {
+                    "type": "list",
+                    "items": [
+                      "rapport",
+                      "ouderavond",
+                      "tienminutengesprek",
+                      "extra hulp/les"
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "在 groep 8，学校根据长期表现和测试给出中学层次建议。教材称 Cito-toets；现代为 doorstroomtoets 等形式。"
+                  }
+                ]
+              },
+              {
+                "number": 16,
+                "title": "Schooldag en overblijven",
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "教材给出传统示例时间 08:30-12:00、13:30-15:30。现实学校时间各不相同。"
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "overblijven = 午间留校并由学校或托管组织看护，可能需要额外费用。"
+                  }
+                ]
+              },
+              {
+                "number": 17,
+                "title": "Speciaal onderwijs",
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "为有身体、感官、学习或行为支持需求的孩子提供特殊教育。是否进入特殊教育通常经过评估和支持流程。"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "title": "第七部分：中学和后续教育",
+            "units": [
+              {
+                "number": 18,
+                "title": "Middelbare school",
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "约12岁进入中学，第一年常称 brugklas。"
+                  },
+                  {
+                    "type": "table",
+                    "headers": [
+                      "路径",
+                      "学制",
+                      "常见后续"
+                    ],
+                    "rows": [
+                      [
+                        "VMBO",
+                        "4 jaar",
+                        "MBO"
+                      ],
+                      [
+                        "HAVO",
+                        "5 jaar",
+                        "HBO"
+                      ],
+                      [
+                        "VWO",
+                        "6 jaar",
+                        "universiteit / WO"
+                      ]
+                    ]
+                  },
+                  {
+                    "type": "quote",
+                    "text": "“VMBO孩子不能学习”是错误理解。VMBO 更偏职业和实践方向，但也包含多个层次和理论课程。"
+                  }
+                ]
+              },
+              {
+                "number": 19,
+                "title": "Kosten",
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "教材列出："
+                  },
+                  {
+                    "type": "list",
+                    "items": [
+                      "ouderbijdrage：用于旅行或活动的自愿家长缴费，不能因不交而排除孩子参加必需教育",
+                      "schoolboeken：中小学教材安排由学校和制度决定",
+                      "lesgeld：18岁以上某些教育可能需缴费",
+                      "DUO：为继续教育提供学生金融服务或贷款，条件因学习类型而异"
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "title": "第八部分：平等和学校文化",
+            "units": [
+              {
+                "number": 8,
+                "title": "本部分重点",
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "教材强调："
+                  },
+                  {
+                    "type": "list",
+                    "items": [
+                      "jongens en meisjes leren samen",
+                      "kinderen dragen meestal geen schooluniform",
+                      "leren via boeken、computer en groepswerk",
+                      "kinderen krijgen一定自主空间"
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "extraSections": [],
+        "vocabulary": [
+          {
+            "word": "opvoeden",
+            "meaning": "抚养、教育孩子",
+            "example": ""
+          },
+          {
+            "word": "de opvoeding",
+            "meaning": "育儿、家庭教育",
+            "example": ""
+          },
+          {
+            "word": "zwanger",
+            "meaning": "怀孕的",
+            "example": ""
+          },
+          {
+            "word": "de verloskundige",
+            "meaning": "助产士",
+            "example": ""
+          },
+          {
+            "word": "bevallen",
+            "meaning": "分娩",
+            "example": ""
+          },
+          {
+            "word": "de bevalling",
+            "meaning": "分娩",
+            "example": ""
+          },
+          {
+            "word": "de kraamzorg",
+            "meaning": "产后居家照护",
+            "example": ""
+          },
+          {
+            "word": "het zwangerschapsverlof",
+            "meaning": "孕产假",
+            "example": ""
+          },
+          {
+            "word": "het consultatiebureau",
+            "meaning": "婴幼儿健康中心",
+            "example": ""
+          },
+          {
+            "word": "de ontwikkeling",
+            "meaning": "发展",
+            "example": ""
+          },
+          {
+            "word": "de vaccinatie",
+            "meaning": "疫苗接种",
+            "example": ""
+          },
+          {
+            "word": "de kinderopvang",
+            "meaning": "儿童托管",
+            "example": ""
+          },
+          {
+            "word": "de oppas",
+            "meaning": "保姆",
+            "example": ""
+          },
+          {
+            "word": "de gastouder",
+            "meaning": "家庭托育人员",
+            "example": ""
+          },
+          {
+            "word": "het kinderdagverblijf",
+            "meaning": "日托中心",
+            "example": ""
+          },
+          {
+            "word": "de buitenschoolse opvang",
+            "meaning": "课外托管",
+            "example": ""
+          },
+          {
+            "word": "de kinderopvangtoeslag",
+            "meaning": "托儿补贴",
+            "example": ""
+          },
+          {
+            "word": "de kinderbijslag",
+            "meaning": "儿童津贴",
+            "example": ""
+          },
+          {
+            "word": "het kindgebonden budget",
+            "meaning": "儿童相关收入补贴",
+            "example": ""
+          },
+          {
+            "word": "de jeugdhulp",
+            "meaning": "青少年帮助",
+            "example": ""
+          },
+          {
+            "word": "de kindermishandeling",
+            "meaning": "儿童虐待",
+            "example": ""
+          },
+          {
+            "word": "de leerplicht",
+            "meaning": "义务教育",
+            "example": ""
+          },
+          {
+            "word": "de basisschool",
+            "meaning": "小学",
+            "example": ""
+          },
+          {
+            "word": "de peuteropvang",
+            "meaning": "幼儿活动/托育",
+            "example": ""
+          },
+          {
+            "word": "de voorschool",
+            "meaning": "学前语言与发展支持",
+            "example": ""
+          },
+          {
+            "word": "de wachtlijst",
+            "meaning": "等候名单",
+            "example": ""
+          },
+          {
+            "word": "het rapport",
+            "meaning": "成绩报告",
+            "example": ""
+          },
+          {
+            "word": "de ouderavond",
+            "meaning": "家长会",
+            "example": ""
+          },
+          {
+            "word": "de doorstroomtoets",
+            "meaning": "小学毕业升学测试",
+            "example": ""
+          },
+          {
+            "word": "overblijven",
+            "meaning": "午间留校",
+            "example": ""
+          },
+          {
+            "word": "het speciaal onderwijs",
+            "meaning": "特殊教育",
+            "example": ""
+          },
+          {
+            "word": "de middelbare school",
+            "meaning": "中学",
+            "example": ""
+          },
+          {
+            "word": "de brugklas",
+            "meaning": "中学第一年/过渡班",
+            "example": ""
+          },
+          {
+            "word": "het VMBO",
+            "meaning": "中等职业预备教育",
+            "example": ""
+          },
+          {
+            "word": "de HAVO",
+            "meaning": "高级普通中等教育",
+            "example": ""
+          },
+          {
+            "word": "het VWO",
+            "meaning": "大学预科教育",
+            "example": ""
+          },
+          {
+            "word": "het MBO",
+            "meaning": "中等职业教育",
+            "example": ""
+          },
+          {
+            "word": "het HBO",
+            "meaning": "应用科学高等教育",
+            "example": ""
+          },
+          {
+            "word": "de universiteit",
+            "meaning": "研究型大学",
+            "example": ""
+          },
+          {
+            "word": "de ouderbijdrage",
+            "meaning": "家长自愿缴费",
+            "example": ""
+          }
+        ],
+        "commonMistakes": [
+          {
+            "original": "gynaecoloog = dokter voor bevallingen",
+            "corrected": "妇产科医生处理妇科和孕产医疗问题",
+            "meaning": ""
+          },
+          {
+            "original": "固定4周产前+12周产后",
+            "corrected": "总时长有最低规定，具体分配可不同",
+            "meaning": ""
+          },
+          {
+            "original": "Consultatiebureau“必须”每个孩子去",
+            "corrected": "强烈建议并广泛使用，但服务参与方式需按实际规定",
+            "meaning": ""
+          },
+          {
+            "original": "父母对16岁以下所有损坏都自动全责",
+            "corrected": "责任取决于孩子年龄和具体情况",
+            "meaning": ""
+          },
+          {
+            "original": "Cito-toets是唯一升学依据",
+            "corrected": "学校建议基于多年表现和升学测试",
+            "meaning": ""
+          },
+          {
+            "original": "VMBO = 不能学习",
+            "corrected": "错误；VMBO 是不同类型的教育路径",
+            "meaning": ""
+          },
+          {
+            "original": "schooltijden 全国统一",
+            "corrected": "各学校不同",
+            "meaning": ""
+          },
+          {
+            "original": "Bureau Jeugdzorg / AMK",
+            "corrected": "教材旧称，现代常见 jeugdhulp 和 Veilig Thuis",
+            "meaning": ""
+          }
+        ],
+        "cheatSheet": [
+          {
+            "title": "速记重点",
+            "items": [
+              "zwanger → verloskundige",
+              "problemen bij zwangerschap → gynaecoloog",
+              "na geboorte → kraamzorg",
+              "0-4 jaar → consultatiebureau",
+              "kinderopvang → oppas / gastouder / kinderdagverblijf / BSO",
+              "kosten kinderopvang → mogelijk kinderopvangtoeslag",
+              "kinderbijslag → SVB",
+              "kind nooit slaan",
+              "4 jaar vaak naar basisschool; 5 jaar leerplicht",
+              "groep 1-2 = spelen en ontwikkeling",
+              "groep 3 = lezen、schrijven、rekenen",
+              "groep 8 → schooladvies + doorstroomtoets",
+              "VMBO → MBO",
+              "HAVO → HBO",
+              "VWO → universiteit"
+            ]
+          }
+        ],
+        "imageCount": 0,
+        "missingImageCount": 0
+      },
       "keywords": [
         "de verloskundige",
         "het consultatiebureau",
@@ -3470,7 +7994,1108 @@ export const KNM_CONTENT = {
         "het contract → 合同",
         "de proeftijd → 试用期"
       ],
-      "fullStudy": null,
+      "fullStudy": {
+        "title": "KNM 学习手册：Hoofdstuk 7 - Werken in Nederland",
+        "chapter": 7,
+        "goals": [
+          "区分志愿工作、临时工作、固定工作、兼职和全职。",
+          "理解雇主、雇员、求职和职位广告。",
+          "掌握 CV、求职信、面试和劳动合同流程。",
+          "理解 UWV、WW、WIA、bijstand 和再就业支持。",
+          "理解 bruto/netto、工资单、CAO、工会和工作安全。",
+          "了解创业和商会。"
+        ],
+        "parts": [
+          {
+            "title": "第一部分：工作类型",
+            "units": [
+              {
+                "number": 1,
+                "title": "Waarom werken mensen?",
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "工作可以："
+                  },
+                  {
+                    "type": "list",
+                    "items": [
+                      "geld verdienen",
+                      "mensen ontmoeten",
+                      "ervaring opdoen",
+                      "nieuwe dingen leren",
+                      "Nederlands oefenen"
+                    ]
+                  }
+                ]
+              },
+              {
+                "number": 2,
+                "title": "Soorten werk",
+                "blocks": [
+                  {
+                    "type": "table",
+                    "headers": [
+                      "荷兰语",
+                      "中文"
+                    ],
+                    "rows": [
+                      [
+                        "vrijwilligerswerk",
+                        "志愿工作，无工资但可积累经验"
+                      ],
+                      [
+                        "tijdelijk werk",
+                        "临时工作"
+                      ],
+                      [
+                        "vast werk",
+                        "固定/长期工作"
+                      ],
+                      [
+                        "flexwerk",
+                        "灵活用工，工作时间或合同不固定"
+                      ],
+                      [
+                        "uitzendwerk",
+                        "通过派遣公司工作"
+                      ],
+                      [
+                        "zelfstandig werk",
+                        "自雇、自己经营"
+                      ],
+                      [
+                        "zwart werk",
+                        "不申报收入、不缴税的非法工作"
+                      ],
+                      [
+                        "parttime",
+                        "兼职、非全周工作"
+                      ],
+                      [
+                        "fulltime",
+                        "全职"
+                      ],
+                      [
+                        "regelmatige werktijden",
+                        "固定规律工时"
+                      ],
+                      [
+                        "onregelmatige werktijden",
+                        "早晚班、夜班等不规律工时"
+                      ]
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "角色："
+                  },
+                  {
+                    "type": "list",
+                    "items": [
+                      "werkgever：雇主",
+                      "werknemer：雇员"
+                    ]
+                  }
+                ]
+              },
+              {
+                "number": 3,
+                "title": "Sectoren",
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "教材列举："
+                  },
+                  {
+                    "type": "list",
+                    "items": [
+                      "zorg en welzijn：医疗、儿童照护、老人照护",
+                      "techniek：汽车维修等技术工作",
+                      "bouw：油漆工、木工、抹灰工",
+                      "horeca：餐厅、咖啡馆、酒店餐饮",
+                      "handel en vervoer：商店、司机、运输",
+                      "administratie en beveiliging：行政、保安",
+                      "groene sector：园艺、农业"
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "title": "第二部分：能力、学历和培训",
+            "units": [
+              {
+                "number": 4,
+                "title": "Diploma en waardering",
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "许多工作需要 diploma。外国学历可以申请评估，以了解对应的荷兰教育水平和职业用途。"
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "不要求学历的工作称 ongeschoold werk，例如部分清洁工作；通常较容易进入，但工资和发展空间可能较低。"
+                  }
+                ]
+              },
+              {
+                "number": 5,
+                "title": "Opleiding、cursus en stage",
+                "blocks": [
+                  {
+                    "type": "list",
+                    "items": [
+                      "opleiding / studie：学历教育",
+                      "cursus / scholing：课程培训",
+                      "stage lopen：实习",
+                      "bijscholing：学习新知识、提升技能",
+                      "nascholing：复习或更新已有专业知识"
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "参加课程通常需要 inschrijven。有时由雇主或政府项目承担部分费用。"
+                  }
+                ]
+              },
+              {
+                "number": 6,
+                "title": "Kwaliteiten en motivatie",
+                "blocks": [
+                  {
+                    "type": "list",
+                    "items": [
+                      "kwaliteiten：个人优点和能力，例如 betrouwbaar、flexibel、creatief",
+                      "motivatie：为什么想做这份工作",
+                      "ervaring：工作经验"
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "面试时应能解释自己的能力、经验和求职动机。"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "title": "第三部分：失业、UWV 和福利",
+            "units": [
+              {
+                "number": 7,
+                "title": "Werkzoekend en werkloos",
+                "blocks": [
+                  {
+                    "type": "list",
+                    "items": [
+                      "werkzoekende：正在找工作的人",
+                      "werkloos：没有工作"
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "教材强调失业后应尽快向 UWV 登记和申请相关服务。"
+                  }
+                ]
+              },
+              {
+                "number": 8,
+                "title": "UWV 和 reintegratie",
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "UWV 可提供："
+                  },
+                  {
+                    "type": "list",
+                    "items": [
+                      "uitkering beoordelen",
+                      "werkcoach",
+                      "hulp bij solliciteren",
+                      "verwijzing naar re-integratiebedrijf",
+                      "cursus of stage voor werkervaring"
+                    ]
+                  }
+                ]
+              },
+              {
+                "number": 9,
+                "title": "Uitkeringen",
+                "blocks": [
+                  {
+                    "type": "table",
+                    "headers": [
+                      "荷兰语",
+                      "适用概念"
+                    ],
+                    "rows": [
+                      [
+                        "WW-uitkering",
+                        "符合工作历史条件后失业，可申请失业保险待遇"
+                      ],
+                      [
+                        "WIA-uitkering",
+                        "因长期疾病或劳动能力下降无法正常工作"
+                      ],
+                      [
+                        "bijstand",
+                        "没有其他足够收入或福利时的最低生活保障，由 gemeente 执行"
+                      ]
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "领取福利通常伴随义务，例如找工作、参加面试、报告收入或参加培训。"
+                  },
+                  {
+                    "type": "quote",
+                    "text": "教材中的“工作半年即可WW”和“2天内登记”等是简化或旧规则，现实条件由 UWV 根据工作历史判断。"
+                  }
+                ]
+              },
+              {
+                "number": 10,
+                "title": "Uitzendbureau",
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "派遣公司帮助找通常为临时的工作，工资可能由派遣公司支付。"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "title": "第四部分：求职流程",
+            "units": [
+              {
+                "number": 11,
+                "title": "Vacature",
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "职位广告通常包含："
+                  },
+                  {
+                    "type": "list",
+                    "items": [
+                      "functie",
+                      "taken",
+                      "functie-eisen",
+                      "diploma en ervaring",
+                      "werktijden",
+                      "uren en werkdagen",
+                      "bedrijfsgegevens",
+                      "sluitingsdatum",
+                      "soms salaris"
+                    ]
+                  }
+                ]
+              },
+              {
+                "number": 12,
+                "title": "CV、sollicitatiebrief 和 gesprek",
+                "blocks": [
+                  {
+                    "type": "subheading",
+                    "level": 3,
+                    "text": "CV"
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "个人信息、学历和工作经验的概览。"
+                  },
+                  {
+                    "type": "subheading",
+                    "level": 3,
+                    "text": "Sollicitatiebrief"
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "说明为什么申请、你能带来什么，并附 CV。"
+                  },
+                  {
+                    "type": "subheading",
+                    "level": 3,
+                    "text": "Sollicitatiegesprek"
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "面试注意："
+                  },
+                  {
+                    "type": "list",
+                    "items": [
+                      "op tijd komen",
+                      "nette kleding dragen",
+                      "jezelf voorstellen",
+                      "oogcontact maken",
+                      "rechtop zitten",
+                      "vragen voorbereiden"
+                    ]
+                  }
+                ]
+              },
+              {
+                "number": 13,
+                "title": "Volgorde van solliciteren",
+                "blocks": [
+                  {
+                    "type": "orderedList",
+                    "items": [
+                      "vacatures zoeken",
+                      "bedrijf onderzoeken",
+                      "CV en brief sturen",
+                      "sollicitatiegesprek voeren",
+                      "aanbod ontvangen",
+                      "contract tekenen",
+                      "beginnen met werken"
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "title": "第五部分：劳动合同与工作条件",
+            "units": [
+              {
+                "number": 14,
+                "title": "Arbeidscontract",
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "合同中通常写："
+                  },
+                  {
+                    "type": "list",
+                    "items": [
+                      "aantal uren",
+                      "salaris",
+                      "startdatum",
+                      "vakantiedagen",
+                      "contractduur",
+                      "proeftijd",
+                      "functie en werkplek"
+                    ]
+                  }
+                ]
+              },
+              {
+                "number": 15,
+                "title": "Proeftijd",
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "试用期内，雇主或雇员通常可以较容易终止合同，但试用期必须符合法律条件并写入合同。"
+                  },
+                  {
+                    "type": "list",
+                    "items": [
+                      "ontslag nemen：主动辞职",
+                      "ontslag krijgen：被解雇"
+                    ]
+                  }
+                ]
+              },
+              {
+                "number": 16,
+                "title": "CAO",
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "CAO = collectieve arbeidsovereenkomst，是某一行业或企业中雇主与雇员代表达成的集体劳动协议，可能规定："
+                  },
+                  {
+                    "type": "list",
+                    "items": [
+                      "minimumsalaris",
+                      "werktijden",
+                      "vakantie",
+                      "toeslagen",
+                      "pensioen"
+                    ]
+                  }
+                ]
+              },
+              {
+                "number": 17,
+                "title": "Rechten en plichten",
+                "blocks": [
+                  {
+                    "type": "list",
+                    "items": [
+                      "rechten：雇员应获得的权利",
+                      "plichten：雇员必须履行的义务"
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "例如：按时上班、遵守安全规定、完成工作；雇主支付工资并提供安全工作环境。"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "title": "第六部分：创业",
+            "units": [
+              {
+                "number": 18,
+                "title": "Zelfstandig ondernemer",
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "自己经营企业意味着："
+                  },
+                  {
+                    "type": "list",
+                    "items": [
+                      "zelf baas zijn",
+                      "zelf klanten zoeken",
+                      "inkomsten en belasting regelen",
+                      "ziekte和假期可能没有工资"
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "通常需要："
+                  },
+                  {
+                    "type": "list",
+                    "items": [
+                      "kennis和技能",
+                      "startkapitaal",
+                      "ondernemingsplan",
+                      "financiële planning"
+                    ]
+                  }
+                ]
+              },
+              {
+                "number": 19,
+                "title": "Kamer van Koophandel",
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "企业通常要在 KvK 注册。商会提供企业登记和信息服务。"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "title": "第七部分：工资、税和社会保险",
+            "units": [
+              {
+                "number": 20,
+                "title": "Bruto en netto",
+                "blocks": [
+                  {
+                    "type": "list",
+                    "items": [
+                      "bruto salaris：扣税和保费前的总工资",
+                      "netto salaris：实际进入银行账户的工资",
+                      "loonstrook：每个工资期的工资明细",
+                      "jaaropgave：全年收入和扣缴汇总，用于税务"
+                    ]
+                  }
+                ]
+              },
+              {
+                "number": 21,
+                "title": "Belastingen en premies",
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "工资中可能扣除："
+                  },
+                  {
+                    "type": "list",
+                    "items": [
+                      "loonheffing / belasting",
+                      "sociale premies",
+                      "pensioenbijdrage"
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "这些制度为失业、疾病、劳动能力丧失和退休等提供保障。"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "title": "第八部分：员工组织与安全",
+            "units": [
+              {
+                "number": 22,
+                "title": "Vakbond",
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "工会为会员："
+                  },
+                  {
+                    "type": "list",
+                    "items": [
+                      "讨论工资和 CAO",
+                      "提供劳动法律信息",
+                      "协助处理工作争议"
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "通常需缴纳会费。"
+                  }
+                ]
+              },
+              {
+                "number": 23,
+                "title": "Ondernemingsraad (OR)",
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "员工代表机构，讨论企业重要计划和工作条件。教材强调大型企业必须设 OR；现代法律常以至少50名员工为重要门槛。"
+                  }
+                ]
+              },
+              {
+                "number": 24,
+                "title": "Arbowet",
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "工作健康与安全法律。例子："
+                  },
+                  {
+                    "type": "list",
+                    "items": [
+                      "bouwhelm",
+                      "veiligheidsschoenen",
+                      "beschermende kleding",
+                      "ergonomische stoel",
+                      "veilige machines"
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "不安全时应向主管、preventiemedewerker、OR 或相关机构反映。"
+                  }
+                ]
+              },
+              {
+                "number": 25,
+                "title": "Samenwerken en werkoverleg",
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "与同事合作包括："
+                  },
+                  {
+                    "type": "list",
+                    "items": [
+                      "afspraken maken",
+                      "overleggen",
+                      "taken verdelen",
+                      "problemen rustig bespreken",
+                      "op tijd komen",
+                      "verantwoordelijkheid nemen"
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "title": "第九部分：在工作中合作、反馈与反歧视",
+            "units": [
+              {
+                "number": 26,
+                "title": "Collega's、chef en directeur",
+                "blocks": [
+                  {
+                    "type": "list",
+                    "items": [
+                      "collega：同事",
+                      "chef / leidinggevende：直接主管",
+                      "directeur：企业或组织的高级负责人",
+                      "afdeling：部门"
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "与主管说话可能比与熟悉同事更正式，但具体公司文化不同。"
+                  }
+                ]
+              },
+              {
+                "number": 27,
+                "title": "Werkoverleg en vergadering",
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "在工作会议中讨论："
+                  },
+                  {
+                    "type": "list",
+                    "items": [
+                      "taken en planning",
+                      "problemen",
+                      "verdeling van werk",
+                      "nieuwe ideeën"
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "同事应互相帮助、沟通和给予积极反馈。部分公司有 personeelsvereniging，组织聚餐、运动或其他员工活动。"
+                  }
+                ]
+              },
+              {
+                "number": 28,
+                "title": "Fouten、hulp en kritiek",
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "刚开始工作时犯错很正常。正确做法："
+                  },
+                  {
+                    "type": "list",
+                    "items": [
+                      "om hulp vragen",
+                      "uitleg vragen",
+                      "openstaan voor kritiek",
+                      "proberen het de volgende keer beter te doen",
+                      "problemen tijdig met chef bespreken"
+                    ]
+                  }
+                ]
+              },
+              {
+                "number": 29,
+                "title": "Functioneringsgesprek",
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "functioneringsgesprek 是员工和主管讨论工作表现与发展的谈话："
+                  },
+                  {
+                    "type": "list",
+                    "items": [
+                      "wat gaat goed?",
+                      "wat kan beter?",
+                      "welke ondersteuning of opleiding is nodig?",
+                      "wat zijn de doelen voor de komende periode?"
+                    ]
+                  }
+                ]
+              },
+              {
+                "number": 30,
+                "title": "Discriminatie op het werk",
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "歧视在工作场所被禁止。遇到因宗教、出身、性别等受到不公平待遇时："
+                  },
+                  {
+                    "type": "orderedList",
+                    "items": [
+                      "先在安全的情况下与相关同事沟通。",
+                      "若无改善，与 leidinggevende、HR 或 vertrouwenspersoon 交谈。",
+                      "可向反歧视机构、工会或法律咨询机构寻求帮助。",
+                      "涉及威胁、暴力或其他犯罪时可报警。"
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "不应把持续歧视简单视为“同事开玩笑”。"
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "extraSections": [],
+        "vocabulary": [
+          {
+            "word": "de baan",
+            "meaning": "工作岗位",
+            "example": ""
+          },
+          {
+            "word": "het vrijwilligerswerk",
+            "meaning": "志愿工作",
+            "example": ""
+          },
+          {
+            "word": "tijdelijk",
+            "meaning": "临时的",
+            "example": ""
+          },
+          {
+            "word": "vast",
+            "meaning": "固定的",
+            "example": ""
+          },
+          {
+            "word": "flexibel",
+            "meaning": "灵活的",
+            "example": ""
+          },
+          {
+            "word": "het uitzendbureau",
+            "meaning": "劳务派遣公司",
+            "example": ""
+          },
+          {
+            "word": "de zelfstandige",
+            "meaning": "自雇者",
+            "example": ""
+          },
+          {
+            "word": "zwart werken",
+            "meaning": "黑工/不报税工作",
+            "example": ""
+          },
+          {
+            "word": "parttime",
+            "meaning": "兼职",
+            "example": ""
+          },
+          {
+            "word": "fulltime",
+            "meaning": "全职",
+            "example": ""
+          },
+          {
+            "word": "de werkgever",
+            "meaning": "雇主",
+            "example": ""
+          },
+          {
+            "word": "de werknemer",
+            "meaning": "雇员",
+            "example": ""
+          },
+          {
+            "word": "solliciteren",
+            "meaning": "求职",
+            "example": ""
+          },
+          {
+            "word": "de dienstensector",
+            "meaning": "服务业",
+            "example": ""
+          },
+          {
+            "word": "het diploma",
+            "meaning": "文凭",
+            "example": ""
+          },
+          {
+            "word": "diploma waarderen",
+            "meaning": "学历评估",
+            "example": ""
+          },
+          {
+            "word": "ongeschoold werk",
+            "meaning": "无学历要求工作",
+            "example": ""
+          },
+          {
+            "word": "de opleiding",
+            "meaning": "教育/职业培训",
+            "example": ""
+          },
+          {
+            "word": "de cursus",
+            "meaning": "课程",
+            "example": ""
+          },
+          {
+            "word": "de stage",
+            "meaning": "实习",
+            "example": ""
+          },
+          {
+            "word": "de bijscholing",
+            "meaning": "进修",
+            "example": ""
+          },
+          {
+            "word": "de nascholing",
+            "meaning": "继续教育/复训",
+            "example": ""
+          },
+          {
+            "word": "de kwaliteit",
+            "meaning": "优点、能力",
+            "example": ""
+          },
+          {
+            "word": "de motivatie",
+            "meaning": "动机",
+            "example": ""
+          },
+          {
+            "word": "de ervaring",
+            "meaning": "经验",
+            "example": ""
+          },
+          {
+            "word": "werkzoekend",
+            "meaning": "求职中的",
+            "example": ""
+          },
+          {
+            "word": "werkloos",
+            "meaning": "失业的",
+            "example": ""
+          },
+          {
+            "word": "de uitkering",
+            "meaning": "福利待遇",
+            "example": ""
+          },
+          {
+            "word": "de werkcoach",
+            "meaning": "就业指导员",
+            "example": ""
+          },
+          {
+            "word": "de WW",
+            "meaning": "失业保险待遇",
+            "example": ""
+          },
+          {
+            "word": "de WIA",
+            "meaning": "劳动能力丧失待遇",
+            "example": ""
+          },
+          {
+            "word": "de bijstand",
+            "meaning": "最低生活保障",
+            "example": ""
+          },
+          {
+            "word": "de vacature",
+            "meaning": "职位空缺",
+            "example": ""
+          },
+          {
+            "word": "de functie-eis",
+            "meaning": "岗位要求",
+            "example": ""
+          },
+          {
+            "word": "het CV",
+            "meaning": "简历",
+            "example": ""
+          },
+          {
+            "word": "de sollicitatiebrief",
+            "meaning": "求职信",
+            "example": ""
+          },
+          {
+            "word": "het sollicitatiegesprek",
+            "meaning": "面试",
+            "example": ""
+          },
+          {
+            "word": "het contract",
+            "meaning": "合同",
+            "example": ""
+          },
+          {
+            "word": "de arbeidsvoorwaarden",
+            "meaning": "劳动条件",
+            "example": ""
+          },
+          {
+            "word": "de proeftijd",
+            "meaning": "试用期",
+            "example": ""
+          },
+          {
+            "word": "ontslag nemen",
+            "meaning": "辞职",
+            "example": ""
+          },
+          {
+            "word": "ontslag krijgen",
+            "meaning": "被解雇",
+            "example": ""
+          },
+          {
+            "word": "de CAO",
+            "meaning": "集体劳动协议",
+            "example": ""
+          },
+          {
+            "word": "de ondernemer",
+            "meaning": "企业家/自雇者",
+            "example": ""
+          },
+          {
+            "word": "het ondernemingsplan",
+            "meaning": "商业计划",
+            "example": ""
+          },
+          {
+            "word": "de Kamer van Koophandel",
+            "meaning": "商会",
+            "example": ""
+          },
+          {
+            "word": "de loonstrook",
+            "meaning": "工资单",
+            "example": ""
+          },
+          {
+            "word": "bruto",
+            "meaning": "税前",
+            "example": ""
+          },
+          {
+            "word": "netto",
+            "meaning": "税后",
+            "example": ""
+          },
+          {
+            "word": "de jaaropgave",
+            "meaning": "年度工资汇总",
+            "example": ""
+          },
+          {
+            "word": "de vakbond",
+            "meaning": "工会",
+            "example": ""
+          },
+          {
+            "word": "de ondernemingsraad",
+            "meaning": "企业职工委员会",
+            "example": ""
+          },
+          {
+            "word": "de Arbowet",
+            "meaning": "工作安全健康法",
+            "example": ""
+          },
+          {
+            "word": "de collega",
+            "meaning": "同事",
+            "example": ""
+          },
+          {
+            "word": "de afdeling",
+            "meaning": "部门",
+            "example": ""
+          },
+          {
+            "word": "de leidinggevende",
+            "meaning": "主管",
+            "example": ""
+          },
+          {
+            "word": "het werkoverleg",
+            "meaning": "工作会议",
+            "example": ""
+          },
+          {
+            "word": "de personeelsvereniging",
+            "meaning": "员工活动协会",
+            "example": ""
+          },
+          {
+            "word": "kritiek",
+            "meaning": "批评、反馈",
+            "example": ""
+          },
+          {
+            "word": "het functioneringsgesprek",
+            "meaning": "工作表现与发展谈话",
+            "example": ""
+          },
+          {
+            "word": "de vertrouwenspersoon",
+            "meaning": "保密/信任顾问",
+            "example": ""
+          },
+          {
+            "word": "discriminatie",
+            "meaning": "歧视",
+            "example": ""
+          }
+        ],
+        "commonMistakes": [
+          {
+            "original": "flexwerk 永远不会成为固定工作",
+            "corrected": "flexwerk 指合同/时间灵活，并不代表永远不能转正",
+            "meaning": ""
+          },
+          {
+            "original": "低技能工作一定容易获得",
+            "corrected": "取决于市场、语言和地区",
+            "meaning": ""
+          },
+          {
+            "original": "失业后2天内一定要登记",
+            "corrected": "应尽快联系 UWV，具体申请期限按规定",
+            "meaning": ""
+          },
+          {
+            "original": "工作半年一定有 WW",
+            "corrected": "权利取决于工作周数、失业原因等条件",
+            "meaning": ""
+          },
+          {
+            "original": "proeftijd 每天可随意解雇",
+            "corrected": "试用期须合法约定，也受反歧视等法律限制",
+            "meaning": ""
+          },
+          {
+            "original": "bruto 是“含税工资”",
+            "corrected": "更准确：扣税和保费前工资",
+            "meaning": ""
+          },
+          {
+            "original": "jaaropgave 固定3月1日使用",
+            "corrected": "税务申报期和截止日期按年度变化",
+            "meaning": ""
+          }
+        ],
+        "cheatSheet": [
+          {
+            "title": "速记重点",
+            "items": [
+              "werkgever betaalt werknemer salaris",
+              "zwart werk = verboden",
+              "vrijwilligerswerk = geen salaris, wel ervaring",
+              "vacature → CV + sollicitatiebrief → gesprek → contract",
+              "contract → uren、salaris、vakantie、proeftijd",
+              "bruto = vóór inhoudingen",
+              "netto = op bankrekening",
+              "werkloos → UWV",
+              "WW = werkloosheidsuitkering",
+              "WIA = arbeidsongeschiktheid",
+              "bijstand = laatste sociaal vangnet",
+              "zelfstandig ondernemer → KvK + ondernemingsplan",
+              "CAO = afspraken per sector",
+              "vakbond helpt werknemers",
+              "OR vertegenwoordigt werknemers",
+              "Arbowet = veilig en gezond werken"
+            ]
+          }
+        ],
+        "imageCount": 0,
+        "missingImageCount": 0
+      },
       "keywords": [
         "solliciteren",
         "de vacature",
@@ -3633,7 +9258,616 @@ export const KNM_CONTENT = {
         "discriminatie → 歧视",
         "geweld → 暴力"
       ],
-      "fullStudy": null,
+      "fullStudy": {
+        "title": "KNM 学习手册：Hoofdstuk 8 - Samenleven in Nederland",
+        "chapter": 8,
+        "goals": [
+          "认识荷兰常见家庭和居住形式。",
+          "理解伴侣选择、离婚、同性关系和性教育。",
+          "掌握男女平等、反歧视和个人自由。",
+          "了解暴力、强迫性行为、儿童虐待等被禁止的行为。",
+          "理解教材中关于堕胎和安乐死的基础社会知识。"
+        ],
+        "parts": [
+          {
+            "title": "第一部分：家庭和居住形式",
+            "units": [
+              {
+                "number": 1,
+                "title": "Alleen wonen",
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "教材称约17%的人独居，原因包括："
+                  },
+                  {
+                    "type": "list",
+                    "items": [
+                      "partner is overleden",
+                      "gescheiden",
+                      "jongere gaat zelfstandig wonen",
+                      "relatie hebben maar apart wonen"
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "数据会随年份变化，考试重点是理解荷兰社会有很多不同生活形式。"
+                  }
+                ]
+              },
+              {
+                "number": 2,
+                "title": "Samenwonen",
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "成年人可以："
+                  },
+                  {
+                    "type": "list",
+                    "items": [
+                      "getrouwd samenwonen zonder kinderen",
+                      "ongehuwd samenwonen",
+                      "als twee mannen of twee vrouwen samenwonen",
+                      "een relatie hebben zonder samen te wonen"
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "荷兰自2001年起允许同性婚姻。"
+                  }
+                ]
+              },
+              {
+                "number": 3,
+                "title": "Gezin",
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "家庭可能包括："
+                  },
+                  {
+                    "type": "list",
+                    "items": [
+                      "ouders met kinderen",
+                      "eenoudergezin",
+                      "samengesteld gezin：离婚后与新伴侣组成的家庭",
+                      "twee vaders of twee moeders met kinderen"
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "教材给出平均1.7个孩子和不同家庭比例，数据仅作为教材背景。"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "title": "第二部分：伴侣、青春期与性教育",
+            "units": [
+              {
+                "number": 4,
+                "title": "Partner kiezen",
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "荷兰人通常自己选择伴侣，也可能通过 internet 或 datingsite 认识。"
+                  }
+                ]
+              },
+              {
+                "number": 5,
+                "title": "Puberteit en seksuele voorlichting",
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "教材指出："
+                  },
+                  {
+                    "type": "list",
+                    "items": [
+                      "青少年进入青春期后，父母常讨论身体、关系和性。",
+                      "学校提供 seksuele voorlichting。",
+                      "信息也来自互联网、电视、阅读和朋友。"
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "重点是：年轻人应了解同意、避孕、性传播感染和尊重边界。"
+                  }
+                ]
+              },
+              {
+                "number": 6,
+                "title": "Homoseksualiteit",
+                "blocks": [
+                  {
+                    "type": "list",
+                    "items": [
+                      "man die op mannen valt = homo",
+                      "vrouw die op vrouwen valt = lesbisch",
+                      "seksuele oriëntatie 不是他人可以强迫改变的",
+                      "荷兰法律要求平等对待，但现实社会中仍可能存在不接受或歧视"
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "两名同性伴侣可以公开牵手或表达感情，应给予与异性伴侣相同的尊重。"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "title": "第三部分：穿着、公开表达与个人自由",
+            "units": [
+              {
+                "number": 7,
+                "title": "Kleding",
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "夏天人们可能穿露出手臂或腿部的衣服。这是普通穿着，不表示对他人发出性邀请。"
+                  }
+                ]
+              },
+              {
+                "number": 8,
+                "title": "Lichamelijk contact in het openbaar",
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "伴侣可能："
+                  },
+                  {
+                    "type": "list",
+                    "items": [
+                      "hand in hand lopen",
+                      "elkaar zoenen"
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "包括同性伴侣。个人应尊重他人的关系和边界。"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "title": "第四部分：平等与反歧视",
+            "units": [
+              {
+                "number": 9,
+                "title": "Gelijke rechten",
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "荷兰社会和法律强调："
+                  },
+                  {
+                    "type": "list",
+                    "items": [
+                      "mannen en vrouwen hebben dezelfde rechten",
+                      "jongens en meisjes kiezen zelf opleiding en relatie",
+                      "vrouwen kunnen blijven werken na de geboorte van kinderen",
+                      "huishouden en beslissingen kunnen共同承担"
+                    ]
+                  }
+                ]
+              },
+              {
+                "number": 10,
+                "title": "Discriminatie",
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "如果因为性别、出身、国籍、宗教、残障或性取向受到不平等待遇，可以："
+                  },
+                  {
+                    "type": "list",
+                    "items": [
+                      "klacht indienen",
+                      "advies vragen",
+                      "melding doen",
+                      "bij strafbare feiten aangifte doen bij politie"
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "例如，雇主仅因“不要外国人”而拒绝应聘者，可能构成歧视。"
+                  }
+                ]
+              },
+              {
+                "number": 11,
+                "title": "Respect",
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "应尊重不同："
+                  },
+                  {
+                    "type": "list",
+                    "items": [
+                      "geloof",
+                      "gewoonte",
+                      "leeftijd",
+                      "gezinsvorm",
+                      "levensstijl"
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "教材中“老人不比年轻人得到更多尊重”表达不佳。更准确是：所有人都应受到尊重，同时荷兰社会关系通常较平等、称呼较非正式。"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "title": "第五部分：禁止的行为",
+            "units": [
+              {
+                "number": 12,
+                "title": "Seksueel geweld en misbruik",
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "被禁止："
+                  },
+                  {
+                    "type": "list",
+                    "items": [
+                      "seks zonder toestemming",
+                      "verkrachting：强迫性行为",
+                      "seksueel contact tussen volwassene en minderjarige in法律禁止的情况",
+                      "incest：近亲性关系（具体法律定义复杂）"
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "核心词：toestemming / consent（同意）。"
+                  }
+                ]
+              },
+              {
+                "number": 13,
+                "title": "Geweld en mishandeling",
+                "blocks": [
+                  {
+                    "type": "list",
+                    "items": [
+                      "geweld：使用暴力使人受伤",
+                      "mishandeling：殴打或伤害他人",
+                      "家庭成员和孩子也不可以被打",
+                      "武器受到严格管制"
+                    ]
+                  }
+                ]
+              },
+              {
+                "number": 14,
+                "title": "Eergerelateerd geweld en vrouwelijke genitale verminking",
+                "blocks": [
+                  {
+                    "type": "list",
+                    "items": [
+                      "eerwraak：所谓“名誉”名义下的暴力或杀害，是严重犯罪",
+                      "vrouwelijke genitale verminking：女性生殖器切割，禁止"
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "需要帮助时："
+                  },
+                  {
+                    "type": "list",
+                    "items": [
+                      "huisarts",
+                      "Veilig Thuis",
+                      "politie",
+                      "112 bij direct gevaar"
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "title": "第六部分：教材中的合法医疗选择",
+            "units": [
+              {
+                "number": 15,
+                "title": "Abortus",
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "教材说明荷兰允许在严格医疗和法律条件下终止妊娠，并使用“最多24周”作为简化记忆。"
+                  },
+                  {
+                    "type": "quote",
+                    "text": "实际医疗可行性、法定期限、咨询和程序较复杂。遇到个人情况必须联系医生或官方医疗机构，不应只依赖 KNM 资料。"
+                  }
+                ]
+              },
+              {
+                "number": 16,
+                "title": "Euthanasie",
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "荷兰法律在非常严格条件下允许医生实施安乐死或协助死亡，例如："
+                  },
+                  {
+                    "type": "list",
+                    "items": [
+                      "患者本人自愿、经过慎重考虑提出请求",
+                      "痛苦难以忍受且没有改善希望",
+                      "医生遵守法定谨慎标准",
+                      "需要独立医生评估"
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "不是“只要想就可以”，也不是家属可以替患者决定。"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "title": "第七部分：社会观点可以不同",
+            "units": [
+              {
+                "number": 7,
+                "title": "本部分重点",
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "荷兰人也有不同意见，受年龄、宗教、地区和政治观点影响，例如："
+                  },
+                  {
+                    "type": "list",
+                    "items": [
+                      "vrouwen fulltime of parttime werken",
+                      "twee mannen een kind opvoeden",
+                      "abortus en euthanasie",
+                      "relaties en gezinsvormen"
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "民主社会允许观点不同，但必须遵守法律并尊重他人权利。"
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "extraSections": [],
+        "vocabulary": [
+          {
+            "word": "alleen wonen",
+            "meaning": "独居",
+            "example": ""
+          },
+          {
+            "word": "samenwonen",
+            "meaning": "同居",
+            "example": ""
+          },
+          {
+            "word": "scheiden",
+            "meaning": "离婚",
+            "example": ""
+          },
+          {
+            "word": "het huwelijk",
+            "meaning": "婚姻",
+            "example": ""
+          },
+          {
+            "word": "het eenoudergezin",
+            "meaning": "单亲家庭",
+            "example": ""
+          },
+          {
+            "word": "het samengestelde gezin",
+            "meaning": "重组家庭",
+            "example": ""
+          },
+          {
+            "word": "de partner",
+            "meaning": "伴侣",
+            "example": ""
+          },
+          {
+            "word": "de puberteit",
+            "meaning": "青春期",
+            "example": ""
+          },
+          {
+            "word": "seksuele voorlichting",
+            "meaning": "性教育",
+            "example": ""
+          },
+          {
+            "word": "homoseksueel",
+            "meaning": "同性恋的",
+            "example": ""
+          },
+          {
+            "word": "homo",
+            "meaning": "男同性恋者",
+            "example": ""
+          },
+          {
+            "word": "lesbisch",
+            "meaning": "女同性恋的",
+            "example": ""
+          },
+          {
+            "word": "accepteren",
+            "meaning": "接受",
+            "example": ""
+          },
+          {
+            "word": "bloot",
+            "meaning": "裸露的",
+            "example": ""
+          },
+          {
+            "word": "openbaar",
+            "meaning": "公共的",
+            "example": ""
+          },
+          {
+            "word": "dezelfde rechten",
+            "meaning": "相同权利",
+            "example": ""
+          },
+          {
+            "word": "gelijk",
+            "meaning": "平等的",
+            "example": ""
+          },
+          {
+            "word": "het huishouden",
+            "meaning": "家务",
+            "example": ""
+          },
+          {
+            "word": "discriminatie",
+            "meaning": "歧视",
+            "example": ""
+          },
+          {
+            "word": "een klacht indienen",
+            "meaning": "提交投诉",
+            "example": ""
+          },
+          {
+            "word": "aangifte doen",
+            "meaning": "报案",
+            "example": ""
+          },
+          {
+            "word": "respect",
+            "meaning": "尊重",
+            "example": ""
+          },
+          {
+            "word": "de toestemming",
+            "meaning": "同意",
+            "example": ""
+          },
+          {
+            "word": "verkrachting",
+            "meaning": "强奸",
+            "example": ""
+          },
+          {
+            "word": "incest",
+            "meaning": "乱伦/近亲性行为",
+            "example": ""
+          },
+          {
+            "word": "eerwraak",
+            "meaning": "名誉暴力/名誉杀人",
+            "example": ""
+          },
+          {
+            "word": "vrouwelijke genitale verminking",
+            "meaning": "女性生殖器切割",
+            "example": ""
+          },
+          {
+            "word": "geweld",
+            "meaning": "暴力",
+            "example": ""
+          },
+          {
+            "word": "mishandeling",
+            "meaning": "虐待、殴打",
+            "example": ""
+          },
+          {
+            "word": "abortus",
+            "meaning": "人工终止妊娠",
+            "example": ""
+          },
+          {
+            "word": "euthanasie",
+            "meaning": "安乐死",
+            "example": ""
+          },
+          {
+            "word": "de gevangenis",
+            "meaning": "监狱",
+            "example": ""
+          }
+        ],
+        "commonMistakes": [
+          {
+            "original": "homoseksualiteit 5-10%",
+            "corrected": "比例会因定义和调查变化，考试重点是平等和接受",
+            "meaning": ""
+          },
+          {
+            "original": "alle jongeren第一次性行为16-17岁",
+            "corrected": "只是教材平均描述，不代表个人必须如此",
+            "meaning": ""
+          },
+          {
+            "original": "ouderen krijgen niet meer respect",
+            "corrected": "所有人都应被尊重；社会称呼较平等",
+            "meaning": ""
+          },
+          {
+            "original": "成人与任何16岁以下的人一律同一法律结论",
+            "corrected": "年龄同意法和具体情况复杂，核心是保护未成年人和禁止滥用",
+            "meaning": ""
+          },
+          {
+            "original": "incest中的“表亲可以结婚”作为简单规则",
+            "corrected": "婚姻和近亲关系法律需按亲属程度具体判断",
+            "meaning": ""
+          },
+          {
+            "original": "abortus tot 24 weken 可自行决定",
+            "corrected": "需要医疗咨询并受具体医疗法律条件限制",
+            "meaning": ""
+          },
+          {
+            "original": "euthanasie = iemand wil doodgaan就可以",
+            "corrected": "必须符合严格法定谨慎标准",
+            "meaning": ""
+          }
+        ],
+        "cheatSheet": [
+          {
+            "title": "速记重点",
+            "items": [
+              "verschillende gezinsvormen zijn normaal",
+              "zelf partner kiezen",
+              "twee mannen/twee vrouwen kunnen trouwen",
+              "seksuele voorlichting op school",
+              "kleding is geen toestemming",
+              "mannen en vrouwen = gelijke rechten",
+              "discriminatie → klacht / melding / aangifte",
+              "kinderen nooit slaan",
+              "seks zonder toestemming = verboden",
+              "direct gevaar → 112",
+              "respect voor geloof、oriëntatie、gewoonten和家庭形式",
+              "abortus/euthanasie只有在法律医疗条件下进行"
+            ]
+          }
+        ],
+        "imageCount": 0,
+        "missingImageCount": 0
+      },
       "keywords": [
         "samenwonen",
         "scheiden",
@@ -3813,7 +10047,838 @@ export const KNM_CONTENT = {
         "onderduiken → 躲藏",
         "de grondwet → 宪法"
       ],
-      "fullStudy": null,
+      "fullStudy": {
+        "title": "KNM 学习手册：Hoofdstuk 9 - De geschiedenis van Nederland",
+        "chapter": 9,
+        "goals": [
+          "建立从罗马时代到现代荷兰的基本时间线。",
+          "理解八十年战争、Willem van Oranje 和荷兰独立。",
+          "理解黄金时代、VOC、贸易、艺术和殖民历史。",
+          "掌握工业化、选举权和义务教育的发展。",
+          "理解二战、Holocaust、Anne Frank、纪念日和解放日。",
+          "理解战后福利国家、欧洲合作、1953洪灾和外来劳工。"
+        ],
+        "parts": [
+          {
+            "title": "第一部分：早期历史",
+            "units": [
+              {
+                "number": 1,
+                "title": "Eeuw en jaartelling",
+                "blocks": [
+                  {
+                    "type": "list",
+                    "items": [
+                      "een eeuw = 100 jaar",
+                      "21e eeuw = 2001-2100",
+                      "na Christus = 公元后"
+                    ]
+                  },
+                  {
+                    "type": "quote",
+                    "text": "原资料写2000-2100，严格来说21世纪从2001年开始。"
+                  }
+                ]
+              },
+              {
+                "number": 2,
+                "title": "Romeinen",
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "大约公元纪年前后，罗马势力进入今天荷兰南部地区。"
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "教材记忆：Maastricht 和 Utrecht 等早期城市与罗马时代有关。"
+                  }
+                ]
+              },
+              {
+                "number": 3,
+                "title": "Middeleeuwen",
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "约500-1500年称 Middeleeuwen。"
+                  },
+                  {
+                    "type": "list",
+                    "items": [
+                      "低地地区由许多小领地组成，称 De Lage Landen。",
+                      "大多数人是农民，生活贫困。",
+                      "富人和领主修建城堡。",
+                      "城市卫生条件差，疾病多，平均寿命较低。"
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "title": "第二部分：宗教改革与八十年战争",
+            "units": [
+              {
+                "number": 4,
+                "title": "Katholiek en protestant",
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "中世纪后期，天主教会影响力很大。宗教改革后，部分人转为 protestant。"
+                  }
+                ]
+              },
+              {
+                "number": 5,
+                "title": "Tachtigjarige Oorlog (1568-1648)",
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "低地地区当时受西班牙哈布斯堡王室统治。宗教、税收和政治自治冲突导致起义。"
+                  },
+                  {
+                    "type": "list",
+                    "items": [
+                      "1568：战争通常以此年为起点",
+                      "1574：Leiden 获救；每年10月3日庆祝 Leidens Ontzet",
+                      "1648：西班牙正式承认荷兰共和国独立"
+                    ]
+                  }
+                ]
+              },
+              {
+                "number": 6,
+                "title": "Willem van Oranje",
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "Willem van Oranje 是荷兰起义的重要政治领袖。"
+                  },
+                  {
+                    "type": "list",
+                    "items": [
+                      "“Oranje”来自他拥有的法国 Orange 公国/领地称号",
+                      "倡导一定程度的宗教宽容",
+                      "1584年在 Delft 被枪杀",
+                      "Oranje 后来成为荷兰王室和国家象征色"
+                    ]
+                  }
+                ]
+              },
+              {
+                "number": 7,
+                "title": "Republiek der Zeven Verenigde Nederlanden",
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "1588年形成由七省联合的共和国，没有国王。"
+                  },
+                  {
+                    "type": "list",
+                    "items": [
+                      "北部以新教影响较强",
+                      "南部地区较长时间保持天主教传统",
+                      "1648年独立得到正式承认"
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "title": "第三部分：黄金时代",
+            "units": [
+              {
+                "number": 8,
+                "title": "De Gouden Eeuw",
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "17世纪荷兰通过国际贸易、航运和金融变得富裕。"
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "教材涉及："
+                  },
+                  {
+                    "type": "list",
+                    "items": [
+                      "goud en specerijen",
+                      "handel met Azië、Afrika、Amerika",
+                      "VOC",
+                      "kolonialisme en slavernij"
+                    ]
+                  },
+                  {
+                    "type": "quote",
+                    "text": "学习时应同时理解：黄金时代的财富也与殖民统治和奴隶贸易有关，并非所有荷兰人都富裕。"
+                  }
+                ]
+              },
+              {
+                "number": 9,
+                "title": "Grachten en kunst",
+                "blocks": [
+                  {
+                    "type": "list",
+                    "items": [
+                      "富商在城市运河边建造 grachtenhuizen。",
+                      "荷兰绘画兴盛。",
+                      "De Nachtwacht 是 Rembrandt 的著名作品。"
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "title": "第四部分：王国、宪法和民主",
+            "units": [
+              {
+                "number": 10,
+                "title": "Koninkrijk",
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "1814/1815年前后，荷兰成为君主制王国，Willem I 成为国王。"
+                  },
+                  {
+                    "type": "list",
+                    "items": [
+                      "1815：宪法和王国制度建立的重要年份",
+                      "1830：比利时革命并逐渐成为独立国家",
+                      "1848：宪法重大改革，议会民主和部长责任制得到加强"
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "title": "第五部分：工业化、教育和选举权",
+            "units": [
+              {
+                "number": 11,
+                "title": "Industrialisatie",
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "1850年后："
+                  },
+                  {
+                    "type": "list",
+                    "items": [
+                      "fabrieken en machines",
+                      "lange werkdagen",
+                      "lage lonen",
+                      "vrouwen en kinderen werkten ook",
+                      "politieke partijen en arbeidersbeweging ontstaan"
+                    ]
+                  }
+                ]
+              },
+              {
+                "number": 12,
+                "title": "Stemrecht",
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "教材时间线："
+                  },
+                  {
+                    "type": "list",
+                    "items": [
+                      "最初主要是富裕男性拥有选举权",
+                      "1917：男性普选权制度确立",
+                      "1919：女性获得主动选举权"
+                    ]
+                  }
+                ]
+              },
+              {
+                "number": 13,
+                "title": "Aletta Jacobs",
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "Aletta Jacobs 是荷兰第一位正式进入大学学习的女性之一，也是第一位女性医生和妇女权利活动家。教材写她1871年开始医学学习。"
+                  }
+                ]
+              },
+              {
+                "number": 14,
+                "title": "Kinderarbeid en leerplicht",
+                "blocks": [
+                  {
+                    "type": "list",
+                    "items": [
+                      "19世纪后期逐渐限制儿童劳动",
+                      "1901年义务教育法开始实施",
+                      "教材用6-12岁儿童必须上学帮助记忆"
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "title": "第六部分：两次世界大战与经济危机",
+            "units": [
+              {
+                "number": 15,
+                "title": "Eerste Wereldoorlog",
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "1914-1918年第一次世界大战期间，荷兰保持中立，没有作为交战国参战。"
+                  }
+                ]
+              },
+              {
+                "number": 16,
+                "title": "Crisis rond 1930",
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "经济危机造成："
+                  },
+                  {
+                    "type": "list",
+                    "items": [
+                      "werkloosheid",
+                      "armoede",
+                      "onzekerheid"
+                    ]
+                  }
+                ]
+              },
+              {
+                "number": 17,
+                "title": "Tweede Wereldoorlog",
+                "blocks": [
+                  {
+                    "type": "list",
+                    "items": [
+                      "1940年德国入侵并占领荷兰",
+                      "Rotterdam 遭轰炸，城市中心严重破坏",
+                      "荷兰政府和女王流亡英国",
+                      "荷兰纳粹合作组织是 NSB；Hitler 本人的德国政党是 NSDAP，原资料混淆了二者"
+                    ]
+                  }
+                ]
+              },
+              {
+                "number": 18,
+                "title": "Holocaust",
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "纳粹迫害和屠杀欧洲犹太人及其他群体："
+                  },
+                  {
+                    "type": "list",
+                    "items": [
+                      "rechten afnemen",
+                      "gevangennemen",
+                      "deporteren naar kampen",
+                      "gaskamers、honger和疾病造成死亡",
+                      "onderduiken：躲藏",
+                      "欧洲约600万犹太人在 Holocaust 中被杀害"
+                    ]
+                  }
+                ]
+              },
+              {
+                "number": 19,
+                "title": "Bevrijding",
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "盟军包括美国、加拿大、英国、苏联等国家。1945年德国战败，荷兰获得解放。"
+                  },
+                  {
+                    "type": "list",
+                    "items": [
+                      "4 mei = Dodenherdenking，20:00默哀2分钟",
+                      "5 mei = Bevrijdingsdag，庆祝自由与解放"
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "title": "第七部分：Anne Frank",
+            "units": [
+              {
+                "number": 20,
+                "title": "Anne Frank",
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "Anne Frank 是犹太女孩："
+                  },
+                  {
+                    "type": "list",
+                    "items": [
+                      "在 Amsterdam 躲藏",
+                      "在 Achterhuis 生活约两年",
+                      "写下日记",
+                      "被纳粹逮捕并在集中营中去世",
+                      "Anne Frank Huis 现在是 Amsterdam 的博物馆"
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "title": "第八部分：战后荷兰",
+            "units": [
+              {
+                "number": 21,
+                "title": "Wederopbouw en Willem Drees",
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "战后荷兰进行重建，并获得美国马歇尔计划支持。"
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "Willem Drees 是战后重要首相，与福利国家建设和老年保障制度有关。"
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "AOW：达到法定退休年龄后获得国家基本养老金。年龄会随年份变化，不能固定记作65或68。"
+                  }
+                ]
+              },
+              {
+                "number": 22,
+                "title": "Europese samenwerking en euro",
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "荷兰与欧洲国家合作，后来成为欧盟重要成员。"
+                  },
+                  {
+                    "type": "list",
+                    "items": [
+                      "economische samenwerking",
+                      "veiligheid en vrede",
+                      "sinds 2002 eurobankbiljetten en euromunten in gebruik"
+                    ]
+                  }
+                ]
+              },
+              {
+                "number": 23,
+                "title": "Watersnoodramp 1953 en Deltawerken",
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "1953年北海洪灾造成约1800多人死亡。"
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "随后建设："
+                  },
+                  {
+                    "type": "list",
+                    "items": [
+                      "dijken",
+                      "dammen",
+                      "Deltawerken / Deltaplan"
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "工程持续数十年，目的在于保护荷兰免受海水和洪水。"
+                  }
+                ]
+              },
+              {
+                "number": 24,
+                "title": "Gastarbeiders",
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "1960-1970年代经济发展和劳动力短缺，许多来自土耳其和摩洛哥的工人来到荷兰："
+                  },
+                  {
+                    "type": "list",
+                    "items": [
+                      "fabriek",
+                      "schoonmaak",
+                      "andere arbeidssectoren"
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "他们最初被称为 gastarbeiders，许多人后来长期定居并建立家庭。"
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "教材提到2007 Wet Inburgering，实际融入制度之后也多次改革。"
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "extraSections": [
+          {
+            "title": "第九部分：教材结尾判断题的修正",
+            "blocks": [
+              {
+                "type": "orderedList",
+                "items": [
+                  "荷兰南部天主教传统较强，与历史上西班牙统治和宗教发展有关。",
+                  "荷兰国家和足球代表色 Oranje 与 Oranje-Nassau 王室有关。",
+                  "Anne Frank Huis 可以参观 Anne Frank 曾藏身的地点。",
+                  "“grachtenhuizen 是二战后建造”错误：许多著名运河屋建于17世纪黄金时代。",
+                  "“Friesland 因为是 polder 所以城市和道路少”过度简化：Friesland 地广人稀、农业和水域较多，但不是整个省都只是 polder。",
+                  "Rotterdam 老建筑较少的重要原因之一是1940年轰炸。",
+                  "一些摩洛哥裔家庭与1960-70年代劳工移民历史有关。",
+                  "4 mei 20:00 应尊重全国默哀，保持安静。"
+                ]
+              }
+            ]
+          },
+          {
+            "title": "第十部分：重点时间线",
+            "blocks": [
+              {
+                "type": "table",
+                "headers": [
+                  "年代",
+                  "事件"
+                ],
+                "rows": [
+                  [
+                    "rond jaar 0",
+                    "罗马势力进入低地地区"
+                  ],
+                  [
+                    "500-1500",
+                    "中世纪"
+                  ],
+                  [
+                    "1568-1648",
+                    "八十年战争"
+                  ],
+                  [
+                    "1574",
+                    "Leiden 获救"
+                  ],
+                  [
+                    "1584",
+                    "Willem van Oranje 被刺杀"
+                  ],
+                  [
+                    "1588",
+                    "荷兰共和国形成"
+                  ],
+                  [
+                    "1648",
+                    "独立获正式承认"
+                  ],
+                  [
+                    "17e eeuw",
+                    "黄金时代"
+                  ],
+                  [
+                    "1814/1815",
+                    "荷兰王国和宪法制度"
+                  ],
+                  [
+                    "1830",
+                    "比利时革命/独立进程"
+                  ],
+                  [
+                    "1848",
+                    "宪法改革，议会民主加强"
+                  ],
+                  [
+                    "1901",
+                    "义务教育法实施"
+                  ],
+                  [
+                    "1914-1918",
+                    "一战，荷兰中立"
+                  ],
+                  [
+                    "1917/1919",
+                    "男性普选与女性选举权"
+                  ],
+                  [
+                    "1940-1945",
+                    "德国占领荷兰"
+                  ],
+                  [
+                    "4 mei",
+                    "纪念死难者"
+                  ],
+                  [
+                    "5 mei",
+                    "解放日"
+                  ],
+                  [
+                    "1953",
+                    "北海洪灾"
+                  ],
+                  [
+                    "1960-70年代",
+                    "外来劳工来到荷兰"
+                  ],
+                  [
+                    "2002",
+                    "欧元现金投入使用"
+                  ]
+                ]
+              }
+            ]
+          }
+        ],
+        "vocabulary": [
+          {
+            "word": "de eeuw",
+            "meaning": "世纪",
+            "example": ""
+          },
+          {
+            "word": "na Christus",
+            "meaning": "公元后",
+            "example": ""
+          },
+          {
+            "word": "de Romeinen",
+            "meaning": "罗马人",
+            "example": ""
+          },
+          {
+            "word": "de Middeleeuwen",
+            "meaning": "中世纪",
+            "example": ""
+          },
+          {
+            "word": "De Lage Landen",
+            "meaning": "低地国家地区",
+            "example": ""
+          },
+          {
+            "word": "de boer",
+            "meaning": "农民",
+            "example": ""
+          },
+          {
+            "word": "het kasteel",
+            "meaning": "城堡",
+            "example": ""
+          },
+          {
+            "word": "katholiek",
+            "meaning": "天主教的",
+            "example": ""
+          },
+          {
+            "word": "protestant",
+            "meaning": "新教的",
+            "example": ""
+          },
+          {
+            "word": "in verzet komen",
+            "meaning": "反抗",
+            "example": ""
+          },
+          {
+            "word": "de Tachtigjarige Oorlog",
+            "meaning": "八十年战争",
+            "example": ""
+          },
+          {
+            "word": "bevrijden",
+            "meaning": "解放",
+            "example": ""
+          },
+          {
+            "word": "de politieke leider",
+            "meaning": "政治领袖",
+            "example": ""
+          },
+          {
+            "word": "doodschieten",
+            "meaning": "枪杀",
+            "example": ""
+          },
+          {
+            "word": "de republiek",
+            "meaning": "共和国",
+            "example": ""
+          },
+          {
+            "word": "zelfstandig",
+            "meaning": "独立的",
+            "example": ""
+          },
+          {
+            "word": "de handel",
+            "meaning": "贸易",
+            "example": ""
+          },
+          {
+            "word": "de Gouden Eeuw",
+            "meaning": "黄金时代",
+            "example": ""
+          },
+          {
+            "word": "de specerij",
+            "meaning": "香料",
+            "example": ""
+          },
+          {
+            "word": "de slavernij",
+            "meaning": "奴隶制",
+            "example": ""
+          },
+          {
+            "word": "de VOC",
+            "meaning": "荷兰东印度公司",
+            "example": ""
+          },
+          {
+            "word": "de gracht",
+            "meaning": "运河",
+            "example": ""
+          },
+          {
+            "word": "het schilderij",
+            "meaning": "绘画",
+            "example": ""
+          },
+          {
+            "word": "het koninkrijk",
+            "meaning": "王国",
+            "example": ""
+          },
+          {
+            "word": "de grondwet",
+            "meaning": "宪法",
+            "example": ""
+          },
+          {
+            "word": "de fabriek",
+            "meaning": "工厂",
+            "example": ""
+          },
+          {
+            "word": "het stemrecht",
+            "meaning": "选举权",
+            "example": ""
+          },
+          {
+            "word": "de leerplicht",
+            "meaning": "义务教育",
+            "example": ""
+          },
+          {
+            "word": "de crisis",
+            "meaning": "危机",
+            "example": ""
+          },
+          {
+            "word": "de bezetting",
+            "meaning": "占领",
+            "example": ""
+          },
+          {
+            "word": "bombarderen",
+            "meaning": "轰炸",
+            "example": ""
+          },
+          {
+            "word": "de Jood",
+            "meaning": "犹太人",
+            "example": ""
+          },
+          {
+            "word": "het kamp",
+            "meaning": "集中营/营地",
+            "example": ""
+          },
+          {
+            "word": "onderduiken",
+            "meaning": "躲藏",
+            "example": ""
+          },
+          {
+            "word": "de Dodenherdenking",
+            "meaning": "死难者纪念日",
+            "example": ""
+          },
+          {
+            "word": "de Bevrijdingsdag",
+            "meaning": "解放日",
+            "example": ""
+          },
+          {
+            "word": "de wederopbouw",
+            "meaning": "战后重建",
+            "example": ""
+          },
+          {
+            "word": "de AOW",
+            "meaning": "国家基本养老金",
+            "example": ""
+          },
+          {
+            "word": "de overstroming",
+            "meaning": "洪水",
+            "example": ""
+          },
+          {
+            "word": "de Deltawerken",
+            "meaning": "三角洲工程",
+            "example": ""
+          },
+          {
+            "word": "de gastarbeider",
+            "meaning": "外来劳工",
+            "example": ""
+          },
+          {
+            "word": "het dagboek",
+            "meaning": "日记",
+            "example": ""
+          }
+        ],
+        "commonMistakes": [],
+        "cheatSheet": [
+          {
+            "title": "速记重点",
+            "items": [
+              "Romeinen → Maastricht/Utrecht",
+              "500-1500 → Middeleeuwen",
+              "1568-1648 → Tachtigjarige Oorlog",
+              "Willem van Oranje → leider + godsdienstvrijheid + Oranje",
+              "1588 → republiek",
+              "1648 → onafhankelijk",
+              "17e eeuw → handel、VOC、kunst、slavernij",
+              "1848 → democratische grondwetsherziening",
+              "1919 → vrouwen stemrecht",
+              "1940 → Duitse bezetting",
+              "Holocaust → 6 miljoen Joden vermoord",
+              "Anne Frank → Achterhuis + dagboek",
+              "4 mei → 2 minuten stilte",
+              "5 mei → Bevrijdingsdag",
+              "1953 → watersnood → Deltawerken",
+              "1970 → gastarbeiders"
+            ]
+          }
+        ],
+        "imageCount": 0,
+        "missingImageCount": 0
+      },
       "keywords": [
         "de eeuw",
         "de Middeleeuwen",
@@ -4009,7 +11074,1028 @@ export const KNM_CONTENT = {
         "de verkiezing → 选举",
         "de zetel → 席位"
       ],
-      "fullStudy": null,
+      "fullStudy": {
+        "title": "KNM 学习手册：Hoofdstuk 10 - Politiek in Nederland",
+        "chapter": 10,
+        "goals": [
+          "区分 regering、kabinet 和 parlement。",
+          "理解荷兰王国、国王和首相的作用。",
+          "理解 Tweede Kamer、Eerste Kamer 和法律形成流程。",
+          "区分国家、省、市镇、水务委员会和欧盟层级。",
+          "理解选举、政党、席位、执政联盟和反对党。",
+          "理解宪法、三权分立和抗议权。"
+        ],
+        "parts": [
+          {
+            "title": "第一部分：政府、内阁和王国",
+            "units": [
+              {
+                "number": 1,
+                "title": "Regering en kabinet",
+                "blocks": [
+                  {
+                    "type": "subheading",
+                    "level": 3,
+                    "text": "Regering"
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "荷兰宪法意义上的 regering 由："
+                  },
+                  {
+                    "type": "list",
+                    "items": [
+                      "de koning",
+                      "de ministers"
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "组成。"
+                  },
+                  {
+                    "type": "subheading",
+                    "level": 3,
+                    "text": "Kabinet"
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "kabinet 通常指："
+                  },
+                  {
+                    "type": "list",
+                    "items": [
+                      "minister-president",
+                      "ministers",
+                      "staatssecretarissen"
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "首相是部长团队的领导人。"
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "教材中的“Rutte”是旧例子，KNM应学习职位名称 minister-president，不必把某位现任人物当成永久答案。"
+                  }
+                ]
+              },
+              {
+                "number": 2,
+                "title": "Ministeries",
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "教材例子："
+                  },
+                  {
+                    "type": "list",
+                    "items": [
+                      "minister van Onderwijs：教育事务",
+                      "minister van Buitenlandse Zaken：外交事务",
+                      "minister van Financiën：财政事务"
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "并非每位部长固定只有一位国务秘书；政府部门设置会变化。"
+                  }
+                ]
+              },
+              {
+                "number": 3,
+                "title": "Koninkrijk der Nederlanden",
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "荷兰王国由四个国家组成："
+                  },
+                  {
+                    "type": "orderedList",
+                    "items": [
+                      "Nederland",
+                      "Aruba",
+                      "Curaçao",
+                      "Sint Maarten"
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "Willem-Alexander 是整个王国的国王。"
+                  }
+                ]
+              },
+              {
+                "number": 4,
+                "title": "De koning",
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "教材知识点："
+                  },
+                  {
+                    "type": "list",
+                    "items": [
+                      "荷兰没有总统，而有国王。",
+                      "国王是国家元首，但政治权力受宪法限制。",
+                      "国王与 Máxima 结婚，有三个女儿。",
+                      "Amalia 是王位第一顺位继承人。"
+                    ]
+                  }
+                ]
+              },
+              {
+                "number": 5,
+                "title": "Prinsjesdag en troonrede",
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "每年9月的 Prinsjesdag："
+                  },
+                  {
+                    "type": "list",
+                    "items": [
+                      "国王宣读 troonrede。",
+                      "内容是政府下一年度政策计划的概述。",
+                      "政府同时向议会提交预算文件。"
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "教材中的“gouden koets”是传统形象，实际使用车辆可能变化，考试重点是 Prinsjesdag 与 troonrede。"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "title": "第二部分：民主与议会",
+            "units": [
+              {
+                "number": 6,
+                "title": "Democratie en meerderheid",
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "Nederland is een parlementaire democratie en een constitutionele monarchie. 荷兰是议会民主制和君主立宪制国家。"
+                  },
+                  {
+                    "type": "list",
+                    "items": [
+                      "inwoners/burgers kiezen vertegenwoordigers",
+                      "meerderheid = meer dan de helft",
+                      "多数原则受宪法、少数权利和法治约束，不是多数可以做任何事"
+                    ]
+                  }
+                ]
+              },
+              {
+                "number": 7,
+                "title": "Tweede Kamer",
+                "blocks": [
+                  {
+                    "type": "list",
+                    "items": [
+                      "150 leden",
+                      "由选民直接选举",
+                      "讨论法律和政策",
+                      "控制政府",
+                      "可修改法律提案",
+                      "会议大多公开"
+                    ]
+                  }
+                ]
+              },
+              {
+                "number": 8,
+                "title": "Eerste Kamer",
+                "blocks": [
+                  {
+                    "type": "list",
+                    "items": [
+                      "75 leden",
+                      "不是由普通选民直接选出，而是由省议会成员选举",
+                      "审查已经由 Tweede Kamer 通过的法案",
+                      "通常只能接受或拒绝法案，不能像 Tweede Kamer 一样直接修改"
+                    ]
+                  }
+                ]
+              },
+              {
+                "number": 9,
+                "title": "Parlement",
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "Parlement = Tweede Kamer + Eerste Kamer."
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "议会："
+                  },
+                  {
+                    "type": "list",
+                    "items": [
+                      "controleert de regering",
+                      "bespreekt wetten",
+                      "vertegenwoordigt burgers"
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "title": "第三部分：法律如何形成",
+            "units": [
+              {
+                "number": 10,
+                "title": "Nieuwe wet",
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "简化流程："
+                  },
+                  {
+                    "type": "orderedList",
+                    "items": [
+                      "regering 或 Tweede Kamer 提出 wetsvoorstel",
+                      "Tweede Kamer bespreekt en stemt",
+                      "Eerste Kamer bespreekt en stemt",
+                      "beide Kamers nemen het voorstel aan",
+                      "koning en verantwoordelijke minister tekenen",
+                      "wet wordt gepubliceerd en treedt in werking"
+                    ]
+                  },
+                  {
+                    "type": "quote",
+                    "text": "原资料只说 ministers 提案；实际上 Tweede Kamer 议员也可以提出法案。"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "title": "第四部分：政府层级",
+            "units": [
+              {
+                "number": 11,
+                "title": "Overzicht",
+                "blocks": [
+                  {
+                    "type": "table",
+                    "headers": [
+                      "层级",
+                      "代表/行政领导",
+                      "民选代表机构",
+                      "主要事务"
+                    ],
+                    "rows": [
+                      [
+                        "Europese Unie",
+                        "无单一“欧洲领导人”",
+                        "Europees Parlement",
+                        "欧洲合作、法规、经济等"
+                      ],
+                      [
+                        "Nederland",
+                        "minister-president / kabinet",
+                        "Tweede en Eerste Kamer",
+                        "国家政策"
+                      ],
+                      [
+                        "provincie",
+                        "commissaris van de Koning",
+                        "Provinciale Staten",
+                        "区域规划、道路、自然环境"
+                      ],
+                      [
+                        "gemeente",
+                        "burgemeester + wethouders",
+                        "gemeenteraad",
+                        "住房、地方道路、社会服务等"
+                      ],
+                      [
+                        "waterschap",
+                        "dijkgraaf + dagelijks bestuur",
+                        "algemeen bestuur",
+                        "水管理、堤坝、水质"
+                      ]
+                    ]
+                  },
+                  {
+                    "type": "quote",
+                    "text": "burgemeester 是 gemeente 的重要行政领导，但 gemeenteraad 的主席角色与“领导议会做决定”不完全相同；市议会是民选决策机构。"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "title": "第五部分：选举",
+            "units": [
+              {
+                "number": 12,
+                "title": "Verkiezingen en termijnen",
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "教材记忆："
+                  },
+                  {
+                    "type": "list",
+                    "items": [
+                      "Tweede Kamer：通常每4年",
+                      "Provinciale Staten：每4年",
+                      "gemeenteraad：每4年",
+                      "waterschap：每4年",
+                      "Europees Parlement：每5年"
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "提前选举可能导致 Tweede Kamer 任期短于4年。"
+                  }
+                ]
+              },
+              {
+                "number": 13,
+                "title": "Kiesrecht",
+                "blocks": [
+                  {
+                    "type": "list",
+                    "items": [
+                      "actief kiesrecht：自己可以投票",
+                      "passief kiesrecht：可以成为候选人、让别人投票给你"
+                    ]
+                  }
+                ]
+              },
+              {
+                "number": 14,
+                "title": "Wie mag stemmen?",
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "规则取决于选举类型："
+                  },
+                  {
+                    "type": "list",
+                    "items": [
+                      "Tweede Kamer：通常要求荷兰国籍和18岁以上",
+                      "Provinciale Staten：通常要求荷兰国籍和18岁以上",
+                      "gemeenteraad：荷兰公民、欧盟公民及符合一定合法居住期限的非欧盟居民可能有权投票",
+                      "Europees Parlement：欧盟公民可在符合登记规则的欧盟国家投票",
+                      "waterschap：资格规则与地方选举不同"
+                    ]
+                  },
+                  {
+                    "type": "quote",
+                    "text": "原资料“未住满5年只能投市议会”不准确；国籍和选举类型才是核心。"
+                  }
+                ]
+              },
+              {
+                "number": 15,
+                "title": "Stemmen in het stemlokaal",
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "通常需要："
+                  },
+                  {
+                    "type": "list",
+                    "items": [
+                      "stempas",
+                      "geldig identiteitsbewijs"
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "投票："
+                  },
+                  {
+                    "type": "list",
+                    "items": [
+                      "stembiljet",
+                      "rood potlood",
+                      "vakje bij kandidaat inkleuren",
+                      "stemmen worden geteld",
+                      "uitslag wordt bekendgemaakt"
+                    ]
+                  }
+                ]
+              },
+              {
+                "number": 16,
+                "title": "Referendum",
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "referendum 是就具体问题投“赞成/反对”或“是/否”。荷兰是否举行全国或地方公投取决于当时法律和地方制度。"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "title": "第六部分：政党和政治方向",
+            "units": [
+              {
+                "number": 17,
+                "title": "Politieke partij",
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "政党由有相似政治理念的人组成。成员可能缴纳会费、制定党纲、选择候选人。"
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "教材列举的政党及简化主题："
+                  },
+                  {
+                    "type": "table",
+                    "headers": [
+                      "政党",
+                      "教材中的典型主题"
+                    ],
+                    "rows": [
+                      [
+                        "VVD",
+                        "自由、经济、就业、个人责任"
+                      ],
+                      [
+                        "PVV",
+                        "移民限制、对欧盟持批评态度"
+                      ],
+                      [
+                        "CDA",
+                        "基督教民主、家庭、社会责任"
+                      ],
+                      [
+                        "D66",
+                        "民主改革、教育、亲欧洲"
+                      ],
+                      [
+                        "GroenLinks",
+                        "环境、气候、平等机会"
+                      ],
+                      [
+                        "SP",
+                        "社会保障、收入平等、公共服务"
+                      ],
+                      [
+                        "PvdA",
+                        "劳工权益、教育、收入再分配"
+                      ],
+                      [
+                        "ChristenUnie",
+                        "基督教价值、家庭、社会照护"
+                      ],
+                      [
+                        "Partij voor de Dieren",
+                        "动物权益、环境"
+                      ],
+                      [
+                        "50PLUS",
+                        "老年人和养老金议题"
+                      ],
+                      [
+                        "SGP",
+                        "保守基督教政治"
+                      ],
+                      [
+                        "DENK",
+                        "平等、反歧视、多元社会"
+                      ]
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "政党立场会变化，教材概括不能代替当前党纲。"
+                  }
+                ]
+              },
+              {
+                "number": 18,
+                "title": "Links、rechts、progressief、conservatief",
+                "blocks": [
+                  {
+                    "type": "list",
+                    "items": [
+                      "links：常强调收入差距缩小、公共服务和社会保障",
+                      "rechts：常强调市场、较低税收和个人责任",
+                      "progressief：较支持社会变化和改革",
+                      "conservatief：较重视传统和渐进变化"
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "这些是光谱，不是绝对标签。"
+                  }
+                ]
+              },
+              {
+                "number": 19,
+                "title": "Lijsttrekker",
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "选举期间每个党有主要候选人，称 lijsttrekker。他们参加辩论并代表政党竞选。"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "title": "第七部分：选举之后",
+            "units": [
+              {
+                "number": 20,
+                "title": "Zetels",
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "Tweede Kamer 有150个席位。政党获得的席位大致按得票比例分配。"
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "例：20%选票约对应30席。"
+                  }
+                ]
+              },
+              {
+                "number": 21,
+                "title": "Coalitie en regeerakkoord",
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "通常没有单一政党获得76席，因此多个政党组成 coalitie。"
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "他们谈判形成："
+                  },
+                  {
+                    "type": "list",
+                    "items": [
+                      "coalitieakkoord / regeerakkoord",
+                      "ministersposten",
+                      "gezamenlijke plannen"
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "首相通常来自重要执政党，但“必然来自最大党”不是法律规则。"
+                  }
+                ]
+              },
+              {
+                "number": 22,
+                "title": "Oppositie",
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "未参加执政联盟的政党是 oppositie。它们："
+                  },
+                  {
+                    "type": "list",
+                    "items": [
+                      "controleren het kabinet",
+                      "stellen kritische vragen",
+                      "stemmen voor of tegen voorstellen"
+                    ]
+                  }
+                ]
+              },
+              {
+                "number": 23,
+                "title": "Kabinetscrisis",
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "执政党无法继续合作时，可能："
+                  },
+                  {
+                    "type": "list",
+                    "items": [
+                      "kabinet valt",
+                      "ministers bieden ontslag aan",
+                      "nieuwe verkiezingen volgen"
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "title": "第八部分：宪法、权利与权力分立",
+            "units": [
+              {
+                "number": 24,
+                "title": "Grondwet",
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "宪法保护和规定："
+                  },
+                  {
+                    "type": "list",
+                    "items": [
+                      "verbod op discriminatie",
+                      "vrijheid van godsdienst",
+                      "vrijheid van meningsuiting",
+                      "vrijheid van onderwijs",
+                      "inrichting van de staat"
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "法律适用于所有人，宗教组织不能替代国家法律作出公共权力决定。"
+                  }
+                ]
+              },
+              {
+                "number": 25,
+                "title": "Drie machten",
+                "blocks": [
+                  {
+                    "type": "table",
+                    "headers": [
+                      "权力",
+                      "荷兰语",
+                      "机构"
+                    ],
+                    "rows": [
+                      [
+                        "行政权",
+                        "uitvoerende macht",
+                        "regering/kabinet voeren beleid uit"
+                      ],
+                      [
+                        "立法权",
+                        "wetgevende macht",
+                        "regering en parlement maken wetten"
+                      ],
+                      [
+                        "司法权",
+                        "rechterlijke macht",
+                        "onafhankelijke rechters beslissen geschillen和刑事案件"
+                      ]
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "scheiding van machten：权力之间相互独立和制衡。"
+                  },
+                  {
+                    "type": "list",
+                    "items": [
+                      "regering mag rechter niet voorschrijven hoe te beslissen",
+                      "regering mag parlementariërs niet verplichten hoe te stemmen"
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "title": "第九部分：抗议与民主参与",
+            "units": [
+              {
+                "number": 26,
+                "title": "Protesteren",
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "人们不同意政府或 gemeente 决定时，可以依法表达反对："
+                  },
+                  {
+                    "type": "list",
+                    "items": [
+                      "petitie / handtekeningen ophalen：请愿、收集签名",
+                      "demonstratie：示威",
+                      "staking：罢工",
+                      "inspreken bij gemeente：在市政会议表达意见"
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "例子："
+                  },
+                  {
+                    "type": "list",
+                    "items": [
+                      "zwembad dreigt te sluiten → handtekeningen",
+                      "uitkeringen omlaag → demonstratie",
+                      "salarissen zorg/onderwijs → staking"
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "民主权利必须和平行使并遵守公共秩序规则。"
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "extraSections": [],
+        "vocabulary": [
+          {
+            "word": "de regering",
+            "meaning": "政府（国王和部长）",
+            "example": ""
+          },
+          {
+            "word": "het kabinet",
+            "meaning": "内阁（部长和国务秘书）",
+            "example": ""
+          },
+          {
+            "word": "de minister-president",
+            "meaning": "首相",
+            "example": ""
+          },
+          {
+            "word": "de minister",
+            "meaning": "部长",
+            "example": ""
+          },
+          {
+            "word": "de staatssecretaris",
+            "meaning": "国务秘书/副部长级官员",
+            "example": ""
+          },
+          {
+            "word": "het koninkrijk",
+            "meaning": "王国",
+            "example": ""
+          },
+          {
+            "word": "de koning",
+            "meaning": "国王",
+            "example": ""
+          },
+          {
+            "word": "de democratie",
+            "meaning": "民主",
+            "example": ""
+          },
+          {
+            "word": "de meerderheid",
+            "meaning": "多数",
+            "example": ""
+          },
+          {
+            "word": "het parlement",
+            "meaning": "议会",
+            "example": ""
+          },
+          {
+            "word": "de Tweede Kamer",
+            "meaning": "第二议院/众议院",
+            "example": ""
+          },
+          {
+            "word": "de Eerste Kamer",
+            "meaning": "第一议院/参议院",
+            "example": ""
+          },
+          {
+            "word": "het wetsvoorstel",
+            "meaning": "法案",
+            "example": ""
+          },
+          {
+            "word": "de handtekening",
+            "meaning": "签名",
+            "example": ""
+          },
+          {
+            "word": "de Prinsjesdag",
+            "meaning": "王子日/国会开幕日",
+            "example": ""
+          },
+          {
+            "word": "de troonrede",
+            "meaning": "王座演说",
+            "example": ""
+          },
+          {
+            "word": "de Provinciale Staten",
+            "meaning": "省议会",
+            "example": ""
+          },
+          {
+            "word": "de commissaris van de Koning",
+            "meaning": "国王专员",
+            "example": ""
+          },
+          {
+            "word": "de gemeente",
+            "meaning": "市镇政府",
+            "example": ""
+          },
+          {
+            "word": "de gemeenteraad",
+            "meaning": "市议会",
+            "example": ""
+          },
+          {
+            "word": "de burgemeester",
+            "meaning": "市长",
+            "example": ""
+          },
+          {
+            "word": "het waterschap",
+            "meaning": "水务委员会",
+            "example": ""
+          },
+          {
+            "word": "het Europees Parlement",
+            "meaning": "欧洲议会",
+            "example": ""
+          },
+          {
+            "word": "de verkiezing",
+            "meaning": "选举",
+            "example": ""
+          },
+          {
+            "word": "het kiesrecht",
+            "meaning": "选举权",
+            "example": ""
+          },
+          {
+            "word": "het stembiljet",
+            "meaning": "选票",
+            "example": ""
+          },
+          {
+            "word": "de stempas",
+            "meaning": "投票证",
+            "example": ""
+          },
+          {
+            "word": "de lijsttrekker",
+            "meaning": "政党头号候选人",
+            "example": ""
+          },
+          {
+            "word": "de uitslag",
+            "meaning": "结果",
+            "example": ""
+          },
+          {
+            "word": "de zetel",
+            "meaning": "议席",
+            "example": ""
+          },
+          {
+            "word": "de coalitie",
+            "meaning": "执政联盟",
+            "example": ""
+          },
+          {
+            "word": "het regeerakkoord",
+            "meaning": "执政协定",
+            "example": ""
+          },
+          {
+            "word": "de oppositie",
+            "meaning": "反对党",
+            "example": ""
+          },
+          {
+            "word": "de grondwet",
+            "meaning": "宪法",
+            "example": ""
+          },
+          {
+            "word": "de godsdienstvrijheid",
+            "meaning": "宗教自由",
+            "example": ""
+          },
+          {
+            "word": "de vrijheid van meningsuiting",
+            "meaning": "言论自由",
+            "example": ""
+          },
+          {
+            "word": "de scheiding van machten",
+            "meaning": "权力分立",
+            "example": ""
+          },
+          {
+            "word": "de rechter",
+            "meaning": "法官",
+            "example": ""
+          },
+          {
+            "word": "protesteren",
+            "meaning": "抗议",
+            "example": ""
+          },
+          {
+            "word": "de petitie",
+            "meaning": "请愿",
+            "example": ""
+          },
+          {
+            "word": "de demonstratie",
+            "meaning": "示威",
+            "example": ""
+          },
+          {
+            "word": "de staking",
+            "meaning": "罢工",
+            "example": ""
+          }
+        ],
+        "commonMistakes": [
+          {
+            "original": "regering = koning + premier + ministers",
+            "corrected": "宪法上 regering = koning + ministers；premier 是 ministers 之一",
+            "meaning": ""
+          },
+          {
+            "original": "每位部长有1位国务秘书",
+            "corrected": "数量和设置不固定",
+            "meaning": ""
+          },
+          {
+            "original": "minister-president = Rutte",
+            "corrected": "Rutte 是旧例子，职位会更换",
+            "meaning": ""
+          },
+          {
+            "original": "Eerste Kamer由普通选民直接选",
+            "corrected": "由 Provinciale Staten 等选举产生",
+            "meaning": ""
+          },
+          {
+            "original": "150 ministers in Tweede Kamer",
+            "corrected": "应为150名 Kamerleden",
+            "meaning": ""
+          },
+          {
+            "original": "burgemeester 是 gemeenteraad 的“领导者”",
+            "corrected": "市长主持会议，但市议会是独立民选机构",
+            "meaning": ""
+          },
+          {
+            "original": "所有选举除欧盟外固定4年",
+            "corrected": "提前选举和不同制度可能影响周期",
+            "meaning": ""
+          },
+          {
+            "original": "住满5年即可投所有市议会/只能投市议会",
+            "corrected": "资格取决于国籍、居留和选举类型",
+            "meaning": ""
+          },
+          {
+            "original": "minister-president 一定来自最大党",
+            "corrected": "常见但不是法律必然",
+            "meaning": ""
+          },
+          {
+            "original": "政府与议会一起做所有立法的简单三权对应",
+            "corrected": "荷兰权力分立是相互制衡，并非完全机械分开",
+            "meaning": ""
+          },
+          {
+            "original": "公投是固定制度",
+            "corrected": "是否有公投取决于现行法律或地方制度",
+            "meaning": ""
+          }
+        ],
+        "cheatSheet": [
+          {
+            "title": "速记重点",
+            "items": [
+              "Nederland = parlementaire democratie + constitutionele monarchie",
+              "regering = koning + ministers",
+              "kabinet = ministers + staatssecretarissen",
+              "parlement = Tweede Kamer 150 + Eerste Kamer 75",
+              "Tweede Kamer direct gekozen",
+              "wet → Tweede Kamer → Eerste Kamer → ondertekening/publicatie",
+              "provincie → Provinciale Staten + commissaris",
+              "gemeente → gemeenteraad + burgemeester/wethouders",
+              "waterschap → waterbeheer",
+              "EU verkiezing → elke 5 jaar",
+              "actief kiesrecht = zelf stemmen",
+              "passief kiesrecht = kandidaat zijn",
+              "150 zetels → meestal coalitie nodig",
+              "niet in regering → oppositie",
+              "Grondwet → vrijheid、gelijkheid、staatsinrichting",
+              "protest → petitie / demonstratie / staking"
+            ]
+          }
+        ],
+        "imageCount": 0,
+        "missingImageCount": 0
+      },
       "keywords": [
         "de regering",
         "het kabinet",
