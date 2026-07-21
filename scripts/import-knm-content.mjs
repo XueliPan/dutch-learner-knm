@@ -6,6 +6,8 @@ const notesPath =
   "/Users/sherrypan/Library/Mobile Documents/com~apple~CloudDocs/Dutch-A2/knm/KNM-study-notes.zh-CN.md";
 const questionsPath =
   "/Users/sherrypan/Library/Mobile Documents/com~apple~CloudDocs/Dutch-A2/knm/KNM-practice-questions.zh-CN.md";
+const duoQuestionsPath = path.join(root, "content", "duo-practice-questions.json");
+const generatedQuestionsPath = path.join(root, "content", "generated-mock-questions.json");
 const outputPath = path.join(root, "content-data.js");
 
 const notes = fs.readFileSync(notesPath, "utf8");
@@ -202,6 +204,15 @@ function parseReviewPlan(markdown) {
     .map((cells) => ({ day: cells[0], task: cells[1] }));
 }
 
+function readJsonArray(filePath) {
+  if (!fs.existsSync(filePath)) return [];
+  const data = JSON.parse(fs.readFileSync(filePath, "utf8"));
+  if (!Array.isArray(data)) {
+    throw new Error(`${filePath} must contain a JSON array.`);
+  }
+  return data;
+}
+
 const noteChapters = splitChapters(notes);
 const topics = noteChapters.map((chapter, index) => {
   const id = slugify(chapter.title);
@@ -223,11 +234,16 @@ const topics = noteChapters.map((chapter, index) => {
 });
 
 const lessonByChapter = new Map(topics.map((topic) => [topic.chapter, topic]));
-const questions = parseQuestions(practice, lessonByChapter);
+const studyQuestions = parseQuestions(practice, lessonByChapter);
+const duoQuestions = readJsonArray(duoQuestionsPath);
+const generatedQuestions = readJsonArray(generatedQuestionsPath);
+const questions = [...studyQuestions, ...duoQuestions, ...generatedQuestions];
 const words = topics.flatMap((topic) => topic.vocabulary);
 const reviewPlan = parseReviewPlan(notes);
 
 const output = `export const KNM_CONTENT = ${JSON.stringify({ topics, questions, words, reviewPlan }, null, 2)};\n`;
 fs.writeFileSync(outputPath, output);
 
-console.log(`Imported ${topics.length} topics, ${questions.length} questions, ${words.length} vocabulary items.`);
+console.log(
+  `Imported ${topics.length} topics, ${questions.length} questions (${studyQuestions.length} study, ${duoQuestions.length} DUO, ${generatedQuestions.length} generated), ${words.length} vocabulary items.`,
+);

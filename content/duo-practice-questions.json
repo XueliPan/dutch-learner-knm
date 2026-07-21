@@ -1,0 +1,1361 @@
+[
+  {
+    "id": "duo-1-1",
+    "topic": "de-geschiedenis-van-nederland",
+    "chapter": null,
+    "scenario": "DUO oefenexamen 1 - Vraag 1: 防洪工程",
+    "question": "Waarom zijn de Deltawerken gebouwd?",
+    "type": "choice",
+    "answers": [
+      "Om meer vis te kunnen vangen.",
+      "Om Nederland te beschermen tegen de zee.",
+      "Om nieuwe steden te kunnen bouwen."
+    ],
+    "correct": 1,
+    "explanation": "1953 年大洪水后，荷兰在西南部修建了世界闻名的防洪系统。",
+    "source": "DUO oefenexamen 1",
+    "isOfficialPractice": true
+  },
+  {
+    "id": "duo-1-2",
+    "topic": "dienstverlening-in-nederland",
+    "chapter": null,
+    "scenario": "DUO oefenexamen 1 - Vraag 2: 国际组织",
+    "question": "Nederland is lid van de VN (Verenigde Naties). Wat is het doel van de VN?",
+    "type": "choice",
+    "answers": [
+      "Bescherming van de natuur.",
+      "Beter onderwijs.",
+      "Vrede en veiligheid."
+    ],
+    "correct": 2,
+    "explanation": "联合国的主要任务是维护全球和平。",
+    "source": "DUO oefenexamen 1",
+    "isOfficialPractice": true
+  },
+  {
+    "id": "duo-1-3",
+    "topic": "nederland-leren-kennen",
+    "chapter": null,
+    "scenario": "DUO oefenexamen 1 - Vraag 3: 地理知识",
+    "question": "Waar ligt Amsterdam, de hoofdstad van Nederland?",
+    "type": "choice",
+    "answers": [
+      "In de provincie Noord-Holland.",
+      "In de provincie Utrecht.",
+      "In de provincie Zuid-Holland."
+    ],
+    "correct": 0,
+    "explanation": "荷兰有 12 个省，首都位于北荷兰省。",
+    "source": "DUO oefenexamen 1",
+    "isOfficialPractice": true
+  },
+  {
+    "id": "duo-1-4",
+    "topic": "de-geschiedenis-van-nederland",
+    "chapter": null,
+    "scenario": "DUO oefenexamen 1 - Vraag 4: 国家象征",
+    "question": "Wat is het Wilhelmus?",
+    "type": "choice",
+    "answers": [
+      "De Nederlandse grondwet.",
+      "Het Nederlandse voetbalteam.",
+      "Het Nederlandse volkslied."
+    ],
+    "correct": 2,
+    "explanation": "《威廉颂》是荷兰的国歌。",
+    "source": "DUO oefenexamen 1",
+    "isOfficialPractice": true
+  },
+  {
+    "id": "duo-1-5",
+    "topic": "de-geschiedenis-van-nederland",
+    "chapter": null,
+    "scenario": "DUO oefenexamen 1 - Vraag 5: 历史事件",
+    "question": "Wanneer was de Holocaust?",
+    "type": "choice",
+    "answers": [
+      "Tijdens de Eerste Wereldoorlog.",
+      "Tijdens de Koude Oorlog.",
+      "Tijdens de Tweede Wereldoorlog."
+    ],
+    "correct": 2,
+    "explanation": "大屠杀发生在二战期间，涉及纳粹对犹太人的迫害。",
+    "source": "DUO oefenexamen 1",
+    "isOfficialPractice": true
+  },
+  {
+    "id": "duo-1-6",
+    "topic": "wonen-in-nederland",
+    "chapter": null,
+    "scenario": "DUO oefenexamen 1 - Vraag 6: 环保回收",
+    "question": "Wouter heeft een leeg blikje met statiegeld. Waar kan hij dit blikje inleveren?",
+    "type": "choice",
+    "answers": [
+      "Bij de apotheek.",
+      "Bij de gemeente.",
+      "Bij een supermarkt."
+    ],
+    "correct": 2,
+    "explanation": "带押金标识的瓶罐应退回到超市的自动回收机。",
+    "source": "DUO oefenexamen 1",
+    "isOfficialPractice": true
+  },
+  {
+    "id": "duo-1-7",
+    "topic": "wonen-in-nederland",
+    "chapter": null,
+    "scenario": "DUO oefenexamen 1 - Vraag 7: 房屋买卖",
+    "question": "Job en Kelly willen een huis kopen. Wie kan ze daarbij helpen?",
+    "type": "choice",
+    "answers": [
+      "Een makelaar.",
+      "Een uitzendbureau.",
+      "Het UWV."
+    ],
+    "correct": 0,
+    "explanation": "在荷兰买房通常需要联系房产中介。",
+    "source": "DUO oefenexamen 1",
+    "isOfficialPractice": true
+  },
+  {
+    "id": "duo-1-8",
+    "topic": "wonen-in-nederland",
+    "chapter": null,
+    "scenario": "DUO oefenexamen 1 - Vraag 8: 社会租房",
+    "question": "Erik woont in een sociale huurwoning. Wat is dat?",
+    "type": "choice",
+    "answers": [
+      "Een woning met een maximum huurprijs.",
+      "Een woning voor een korte tijd.",
+      "Een woning zonder huurcontract."
+    ],
+    "correct": 0,
+    "explanation": "社会租房租金较低，受政府最高限价保护。",
+    "source": "DUO oefenexamen 1",
+    "isOfficialPractice": true
+  },
+  {
+    "id": "duo-1-9",
+    "topic": "politiek-in-nederland",
+    "chapter": null,
+    "scenario": "DUO oefenexamen 1 - Vraag 9: 选举权利",
+    "question": "Sam mag stemmen. Hij heeft kiesrecht. Hoe heet dit kiesrecht?",
+    "type": "choice",
+    "answers": [
+      "Actief kiesrecht.",
+      "Passief kiesrecht.",
+      "Verplicht kiesrecht."
+    ],
+    "correct": 0,
+    "explanation": "投票的权利叫主动选举权；被选举的权利叫被动选举权。",
+    "source": "DUO oefenexamen 1",
+    "isOfficialPractice": true
+  },
+  {
+    "id": "duo-1-10",
+    "topic": "politiek-in-nederland",
+    "chapter": null,
+    "scenario": "DUO oefenexamen 1 - Vraag 10: 欧盟工作",
+    "question": "Chris heeft een Nederlands paspoort. Voor zijn werk moet hij naar België, een land in de EU. Moet Chris een visum aanvragen?",
+    "type": "choice",
+    "answers": [
+      "Ja, dat moet.",
+      "Alleen als hij langer dan een week blijft.",
+      "Nee, dat hoeft niet."
+    ],
+    "correct": 2,
+    "explanation": "欧盟成员国公民在欧盟内工作无需签证。",
+    "source": "DUO oefenexamen 1",
+    "isOfficialPractice": true
+  },
+  {
+    "id": "duo-1-11",
+    "topic": "werken-in-nederland",
+    "chapter": null,
+    "scenario": "DUO oefenexamen 1 - Vraag 11: 男女平等",
+    "question": "Mogen vrouwen in Nederland hetzelfde werk doen als mannen?",
+    "type": "choice",
+    "answers": [
+      "Ja, dat mogen ze.",
+      "Alleen als ze nog geen kinderen hebben.",
+      "Nee, dat mogen ze niet."
+    ],
+    "correct": 0,
+    "explanation": "荷兰宪法规定男女平等，拥有同等就业权。",
+    "source": "DUO oefenexamen 1",
+    "isOfficialPractice": true
+  },
+  {
+    "id": "duo-1-12",
+    "topic": "politiek-in-nederland",
+    "chapter": null,
+    "scenario": "DUO oefenexamen 1 - Vraag 12: 立法权",
+    "question": "Wie mag nieuwe wetten aannemen in Nederland?",
+    "type": "choice",
+    "answers": [
+      "De gemeente.",
+      "De rechter.",
+      "Het parlement."
+    ],
+    "correct": 2,
+    "explanation": "议会负责通过新法。",
+    "source": "DUO oefenexamen 1",
+    "isOfficialPractice": true
+  },
+  {
+    "id": "duo-1-13",
+    "topic": "dienstverlening-in-nederland",
+    "chapter": null,
+    "scenario": "DUO oefenexamen 1 - Vraag 13: 处罚裁决",
+    "question": "Maura rijdt auto. Ze heeft geen rijbewijs. Wie bepaalt de straf van Maura?",
+    "type": "choice",
+    "answers": [
+      "De burgemeester.",
+      "De politie.",
+      "De rechter."
+    ],
+    "correct": 2,
+    "explanation": "法官负责在法庭上宣判处罚。",
+    "source": "DUO oefenexamen 1",
+    "isOfficialPractice": true
+  },
+  {
+    "id": "duo-1-14",
+    "topic": "werken-in-nederland",
+    "chapter": null,
+    "scenario": "DUO oefenexamen 1 - Vraag 14: 税前税后工资",
+    "question": "Zijn brutosalaris is €2.900. Wat krijgt hij op zijn bankrekening?",
+    "type": "choice",
+    "answers": [
+      "Minder dan € 2.900.",
+      "Precies € 2.900.",
+      "Meer dan € 2.900."
+    ],
+    "correct": 0,
+    "explanation": "到账金额总是少于税前，因为要扣除税收和社保。",
+    "source": "DUO oefenexamen 1",
+    "isOfficialPractice": true
+  },
+  {
+    "id": "duo-1-15",
+    "topic": "werken-in-nederland",
+    "chapter": null,
+    "scenario": "DUO oefenexamen 1 - Vraag 15: 求职附件",
+    "question": "Wat moet je vaak naar een bedrijf sturen als je solliciteert?",
+    "type": "choice",
+    "answers": [
+      "Brief en zorgpas.",
+      "Sollicitatiebrief en CV.",
+      "CV en zorgpas."
+    ],
+    "correct": 1,
+    "explanation": "申请工作最基础的文件是求职信和简历。",
+    "source": "DUO oefenexamen 1",
+    "isOfficialPractice": true
+  },
+  {
+    "id": "duo-1-16",
+    "topic": "dienstverlening-in-nederland",
+    "chapter": null,
+    "scenario": "DUO oefenexamen 1 - Vraag 16: 津贴变动",
+    "question": "Maartje gaat meer verdienen. Wat gebeurt er waarschijnlijk met haar kinderopvangtoeslag?",
+    "type": "choice",
+    "answers": [
+      "Haar kinderopvangtoeslag gaat omlaag.",
+      "Blijft gelijk.",
+      "Gaat omhoog."
+    ],
+    "correct": 0,
+    "explanation": "收入增加，政府提供的托儿补助通常会减少。",
+    "source": "DUO oefenexamen 1",
+    "isOfficialPractice": true
+  },
+  {
+    "id": "duo-1-17",
+    "topic": "werken-in-nederland",
+    "chapter": null,
+    "scenario": "DUO oefenexamen 1 - Vraag 17: 失业金申请",
+    "question": "Mark zijn contract eindigt op 31 mei. Hij heeft geen ander werk. Wanneer een uitkering aanvragen?",
+    "type": "choice",
+    "answers": [
+      "Vanaf 24 mei.",
+      "Vanaf 30 juni.",
+      "Gaat automatisch."
+    ],
+    "correct": 0,
+    "explanation": "应在失业前一周左右就开始申请，不会自动处理。",
+    "source": "DUO oefenexamen 1",
+    "isOfficialPractice": true
+  },
+  {
+    "id": "duo-1-18",
+    "topic": "de-mensen-in-nederland",
+    "chapter": null,
+    "scenario": "DUO oefenexamen 1 - Vraag 18: 兼职工作",
+    "question": "Eva wil graag een deeltijdbaan. Kan dat in Nederland?",
+    "type": "choice",
+    "answers": [
+      "Ja, dat kan.",
+      "Alleen met opleiding.",
+      "Nee, dat kan niet."
+    ],
+    "correct": 0,
+    "explanation": "荷兰拥有世界上最高比例的兼职就业人口。",
+    "source": "DUO oefenexamen 1",
+    "isOfficialPractice": true
+  },
+  {
+    "id": "duo-1-19",
+    "topic": "de-mensen-in-nederland",
+    "chapter": null,
+    "scenario": "DUO oefenexamen 1 - Vraag 19: 创业登记",
+    "question": "Ming wil een eigen schoenenwinkel beginnen. Wat moet zij doen?",
+    "type": "choice",
+    "answers": [
+      "Lid worden vakbond.",
+      "Veel reclame maken.",
+      "Inschrijven bij de Kamer van Koophandel."
+    ],
+    "correct": 2,
+    "explanation": "所有企业开业前必须在商会登记。",
+    "source": "DUO oefenexamen 1",
+    "isOfficialPractice": true
+  },
+  {
+    "id": "duo-1-20",
+    "topic": "werken-in-nederland",
+    "chapter": null,
+    "scenario": "DUO oefenexamen 1 - Vraag 20: 语言要求",
+    "question": "Mag een werkgever eisen dat je goed Nederlands kunt schrijven?",
+    "type": "choice",
+    "answers": [
+      "Ja, altijd.",
+      "Alleen als het nodig is voor de baan.",
+      "Nee, nooit."
+    ],
+    "correct": 1,
+    "explanation": "只要是工作职能所需，雇主可以提出语言要求。",
+    "source": "DUO oefenexamen 1",
+    "isOfficialPractice": true
+  },
+  {
+    "id": "duo-1-21",
+    "topic": "werken-in-nederland",
+    "chapter": null,
+    "scenario": "DUO oefenexamen 1 - Vraag 21: 合同类型",
+    "question": "Lotte heeft een contract zonder einddatum. Hoe noem je dat?",
+    "type": "choice",
+    "answers": [
+      "Nul-urencontract.",
+      "Tijdelijk contract.",
+      "Vast contract."
+    ],
+    "correct": 2,
+    "explanation": "没有截止日期的合同即为永久合同。",
+    "source": "DUO oefenexamen 1",
+    "isOfficialPractice": true
+  },
+  {
+    "id": "duo-1-22",
+    "topic": "dienstverlening-in-nederland",
+    "chapter": null,
+    "scenario": "DUO oefenexamen 1 - Vraag 22: DigiD 系统",
+    "question": "Wat kun je met een DigiD?",
+    "type": "choice",
+    "answers": [
+      "Geld overmaken.",
+      "Solliciteren.",
+      "Veilig inloggen op websites overheid."
+    ],
+    "correct": 2,
+    "explanation": "DigiD 是与政府打交道的电子身份证明。",
+    "source": "DUO oefenexamen 1",
+    "isOfficialPractice": true
+  },
+  {
+    "id": "duo-1-23",
+    "topic": "dienstverlening-in-nederland",
+    "chapter": null,
+    "scenario": "DUO oefenexamen 1 - Vraag 23: 个人状态变更",
+    "question": "Latisha en Koen zijn gescheiden. Waar doorgeven?",
+    "type": "choice",
+    "answers": [
+      "Bij de gemeente.",
+      "Bij de KvK.",
+      "Bij het NIBUD."
+    ],
+    "correct": 0,
+    "explanation": "户籍状态需告知居住地市政厅。",
+    "source": "DUO oefenexamen 1",
+    "isOfficialPractice": true
+  },
+  {
+    "id": "duo-1-24",
+    "topic": "dienstverlening-in-nederland",
+    "chapter": null,
+    "scenario": "DUO oefenexamen 1 - Vraag 24: 税款用途",
+    "question": "Wat wordt niet betaald met belastinggeld?",
+    "type": "choice",
+    "answers": [
+      "Salarissen bankmedewerkers.",
+      "Maken dijken.",
+      "WW-uitkeringen."
+    ],
+    "correct": 0,
+    "explanation": "商业银行员工由银行支付，而非政府。",
+    "source": "DUO oefenexamen 1",
+    "isOfficialPractice": true
+  },
+  {
+    "id": "duo-1-25",
+    "topic": "dienstverlening-in-nederland",
+    "chapter": null,
+    "scenario": "DUO oefenexamen 1 - Vraag 25: 身份证件",
+    "question": "Luuk is 15 en heeft iets gestolen. Moet hij zijn ID laten zien?",
+    "type": "choice",
+    "answers": [
+      "Ja, dat moet hij.",
+      "Alleen bij duur item.",
+      "Nee, nog geen 18."
+    ],
+    "correct": 0,
+    "explanation": "14 岁及以上在被警察要求时必须出示证件。",
+    "source": "DUO oefenexamen 1",
+    "isOfficialPractice": true
+  },
+  {
+    "id": "duo-1-26",
+    "topic": "de-mensen-in-nederland",
+    "chapter": null,
+    "scenario": "DUO oefenexamen 1 - Vraag 26: 儿童补贴",
+    "question": "Waar kun je kinderbijslag aanvragen?",
+    "type": "choice",
+    "answers": [
+      "Bij de Sociale Verzekeringsbank (SVB).",
+      "Bij DUO.",
+      "Bij zorgverzekering."
+    ],
+    "correct": 0,
+    "explanation": "SVB 负责发放儿童补贴。",
+    "source": "DUO oefenexamen 1",
+    "isOfficialPractice": true
+  },
+  {
+    "id": "duo-1-27",
+    "topic": "dienstverlening-in-nederland",
+    "chapter": null,
+    "scenario": "DUO oefenexamen 1 - Vraag 27: 证件申领",
+    "question": "Erik is geslaagd. Waar rijbewijs aanvragen?",
+    "type": "choice",
+    "answers": [
+      "Belastingdienst.",
+      "Gemeente.",
+      "Rijschool."
+    ],
+    "correct": 1,
+    "explanation": "证件制作和发放由市政厅负责。",
+    "source": "DUO oefenexamen 1",
+    "isOfficialPractice": true
+  },
+  {
+    "id": "duo-1-28",
+    "topic": "dienstverlening-in-nederland",
+    "chapter": null,
+    "scenario": "DUO oefenexamen 1 - Vraag 28: 报税责任",
+    "question": "Is belastingaangifte doen verplicht?",
+    "type": "choice",
+    "answers": [
+      "Ja, vaak verplicht.",
+      "Alleen bedrijven.",
+      "Nee, nooit."
+    ],
+    "correct": 0,
+    "explanation": "大多数居民都有义务进行年度税务申报。",
+    "source": "DUO oefenexamen 1",
+    "isOfficialPractice": true
+  },
+  {
+    "id": "duo-1-29",
+    "topic": "de-mensen-in-nederland",
+    "chapter": null,
+    "scenario": "DUO oefenexamen 1 - Vraag 29: 损失赔偿",
+    "question": "Charlie (12 jaar) laat telefoon vallen. Wie aansprakelijk?",
+    "type": "choice",
+    "answers": [
+      "Charlie.",
+      "Ouders van Charlie.",
+      "Eigenaar."
+    ],
+    "correct": 1,
+    "explanation": "14 岁以下儿童造成的损失由父母承担责任。",
+    "source": "DUO oefenexamen 1",
+    "isOfficialPractice": true
+  },
+  {
+    "id": "duo-1-30",
+    "topic": "opvoeding-en-onderwijs-in-nederland",
+    "chapter": null,
+    "scenario": "DUO oefenexamen 1 - Vraag 30: 升学路径",
+    "question": "Met vmbo-diploma meteen naar universiteit?",
+    "type": "choice",
+    "answers": [
+      "Ja.",
+      "Alleen met toestemming.",
+      "Nee, dat kan niet."
+    ],
+    "correct": 2,
+    "explanation": "荷兰教育分流，vmbo 需经过 havo 或 mbo 才能进大学。",
+    "source": "DUO oefenexamen 1",
+    "isOfficialPractice": true
+  },
+  {
+    "id": "duo-1-31",
+    "topic": "opvoeding-en-onderwijs-in-nederland",
+    "chapter": null,
+    "scenario": "DUO oefenexamen 1 - Vraag 31: 义务教育",
+    "question": "Vanaf welke leeftijd verplicht naar school?",
+    "type": "choice",
+    "answers": [
+      "4.",
+      "5.",
+      "6."
+    ],
+    "correct": 1,
+    "explanation": "荷兰法定强制上学起始年龄为 5 岁。",
+    "source": "DUO oefenexamen 1",
+    "isOfficialPractice": true
+  },
+  {
+    "id": "duo-1-32",
+    "topic": "de-mensen-in-nederland",
+    "chapter": null,
+    "scenario": "DUO oefenexamen 1 - Vraag 32: 圣诞假日",
+    "question": "Feestdag op 25 december?",
+    "type": "choice",
+    "answers": [
+      "Eerste Kerstdag.",
+      "Pasen.",
+      "Sinterklaas."
+    ],
+    "correct": 0,
+    "explanation": "12 月 25、26 日是荷兰的法定圣诞假期。",
+    "source": "DUO oefenexamen 1",
+    "isOfficialPractice": true
+  },
+  {
+    "id": "duo-1-33",
+    "topic": "samenleven-in-nederland",
+    "chapter": null,
+    "scenario": "DUO oefenexamen 1 - Vraag 33: 元旦传统",
+    "question": "Welk eten bij Oud en Nieuw?",
+    "type": "choice",
+    "answers": [
+      "Beschuit met muisjes.",
+      "Oliebollen.",
+      "Pepernoten."
+    ],
+    "correct": 1,
+    "explanation": "Oliebollen 是传统的元旦点心。",
+    "source": "DUO oefenexamen 1",
+    "isOfficialPractice": true
+  },
+  {
+    "id": "duo-1-34",
+    "topic": "samenleven-in-nederland",
+    "chapter": null,
+    "scenario": "DUO oefenexamen 1 - Vraag 34: 关系合法性",
+    "question": "William en Kyra niet getrouwd. Mogen ze samenwonen?",
+    "type": "choice",
+    "answers": [
+      "Ja, dat mag.",
+      "Alleen met contract.",
+      "Nee."
+    ],
+    "correct": 0,
+    "explanation": "在荷兰，法律允许非婚同居。",
+    "source": "DUO oefenexamen 1",
+    "isOfficialPractice": true
+  },
+  {
+    "id": "duo-1-35",
+    "topic": "de-mensen-in-nederland",
+    "chapter": null,
+    "scenario": "DUO oefenexamen 1 - Vraag 35: 药店领药",
+    "question": "Medicijnen hart halen. Wat nodig?",
+    "type": "choice",
+    "answers": [
+      "Recept van dokter.",
+      "DigiD.",
+      "Verzekering."
+    ],
+    "correct": 0,
+    "explanation": "处方药必须有医生开具的处方。",
+    "source": "DUO oefenexamen 1",
+    "isOfficialPractice": true
+  },
+  {
+    "id": "duo-1-36",
+    "topic": "gezondheid-en-gezondheidszorg-in-nederland",
+    "chapter": null,
+    "scenario": "DUO oefenexamen 1 - Vraag 36: 病历隐私",
+    "question": "Huisarts info geven aan nieuwe dokter?",
+    "type": "choice",
+    "answers": [
+      "Ja, meteen.",
+      "Alleen als Els toestemming geeft.",
+      "Nee, geheim."
+    ],
+    "correct": 1,
+    "explanation": "医疗隐私受法律保护，交换信息需本人同意。",
+    "source": "DUO oefenexamen 1",
+    "isOfficialPractice": true
+  },
+  {
+    "id": "duo-1-37",
+    "topic": "de-mensen-in-nederland",
+    "chapter": null,
+    "scenario": "DUO oefenexamen 1 - Vraag 37: 紧急服务",
+    "question": "Grote brand. Welk nummer?",
+    "type": "choice",
+    "answers": [
+      "112.",
+      "666.",
+      "779."
+    ],
+    "correct": 0,
+    "explanation": "112 是统一的紧急救援热线。",
+    "source": "DUO oefenexamen 1",
+    "isOfficialPractice": true
+  },
+  {
+    "id": "duo-1-38",
+    "topic": "gezondheid-en-gezondheidszorg-in-nederland",
+    "chapter": null,
+    "scenario": "DUO oefenexamen 1 - Vraag 38: 牙医选择",
+    "question": "Wie regelt nieuwe tandarts?",
+    "type": "choice",
+    "answers": [
+      "Gemeente.",
+      "Zorgverzekeraar.",
+      "Paul zelf."
+    ],
+    "correct": 2,
+    "explanation": "在荷兰，由个人负责注册并选择牙医和家庭医生。",
+    "source": "DUO oefenexamen 1",
+    "isOfficialPractice": true
+  },
+  {
+    "id": "duo-1-39",
+    "topic": "gezondheid-en-gezondheidszorg-in-nederland",
+    "chapter": null,
+    "scenario": "DUO oefenexamen 1 - Vraag 39: 医疗沟通",
+    "question": "Geen Nederlands bij huisarts?",
+    "type": "choice",
+    "answers": [
+      "Tolk regelen.",
+      "Naar ziekenhuis.",
+      "Nederlands praten."
+    ],
+    "correct": 0,
+    "explanation": "无法沟通时可使用专业的翻译电话服务。",
+    "source": "DUO oefenexamen 1",
+    "isOfficialPractice": true
+  },
+  {
+    "id": "duo-1-40",
+    "topic": "de-mensen-in-nederland",
+    "chapter": null,
+    "scenario": "DUO oefenexamen 1 - Vraag 40: 挂号流程",
+    "question": "Eli heeft hoofdpijn. Met wie bellen?",
+    "type": "choice",
+    "answers": [
+      "Apotheek.",
+      "Huisarts.",
+      "Ziekenhuis."
+    ],
+    "correct": 1,
+    "explanation": "生病的首选联系人永远是注册的家庭医生。",
+    "source": "DUO oefenexamen 1",
+    "isOfficialPractice": true
+  },
+  {
+    "id": "duo-2-1",
+    "topic": "gezondheid-en-gezondheidszorg-in-nederland",
+    "chapter": null,
+    "scenario": "DUO oefenexamen 2 - Vraag 1: 搬家后寻找全科医生",
+    "question": "Ramish is verhuisd. Hoe krijgt hij een huisarts in zijn nieuwe woonplaats?",
+    "type": "choice",
+    "answers": [
+      "De gemeente regelt een huisarts voor hem.",
+      "De huisarts in de wijk stuurt hem een bericht.",
+      "Ramish zoekt zelf een huisarts."
+    ],
+    "correct": 2,
+    "explanation": "DUO oefenexamen 2：正确答案是 3。",
+    "source": "DUO oefenexamen 2",
+    "isOfficialPractice": true
+  },
+  {
+    "id": "duo-2-2",
+    "topic": "de-mensen-in-nederland",
+    "chapter": null,
+    "scenario": "DUO oefenexamen 2 - Vraag 2: 普通感冒就诊",
+    "question": "Eline heeft erge keelpijn. Ze wil naar een dokter. Het is maandagochtend. Waar moet Eline een afspraak maken?",
+    "type": "choice",
+    "answers": [
+      "Bij de apotheek.",
+      "Bij de huisarts.",
+      "Bij de spoedeisende hulp."
+    ],
+    "correct": 1,
+    "explanation": "DUO oefenexamen 2：正确答案是 2。",
+    "source": "DUO oefenexamen 2",
+    "isOfficialPractice": true
+  },
+  {
+    "id": "duo-2-3",
+    "topic": "de-mensen-in-nederland",
+    "chapter": null,
+    "scenario": "DUO oefenexamen 2 - Vraag 3: 突发昏迷救助",
+    "question": "De collega van Evy ligt op de grond. Hij beweegt niet. Welk nummer moet zij bellen?",
+    "type": "choice",
+    "answers": [
+      "Het alarmnummer 112.",
+      "Het nummer van de huisarts.",
+      "Het nummer van het ziekenhuis."
+    ],
+    "correct": 0,
+    "explanation": "DUO oefenexamen 2：正确答案是 1。",
+    "source": "DUO oefenexamen 2",
+    "isOfficialPractice": true
+  },
+  {
+    "id": "duo-2-4",
+    "topic": "opvoeding-en-onderwijs-in-nederland",
+    "chapter": null,
+    "scenario": "DUO oefenexamen 2 - Vraag 4: 育儿保健站功能",
+    "question": "Nora heeft een baby gekregen. Wat doet het consultatiebureau voor Nora en haar baby?",
+    "type": "choice",
+    "answers": [
+      "De gezondheid van de baby controleren.",
+      "Een oppas regelen als Nora weg moet.",
+      "Helpen bij het huishouden."
+    ],
+    "correct": 0,
+    "explanation": "DUO oefenexamen 2：正确答案是 1。",
+    "source": "DUO oefenexamen 2",
+    "isOfficialPractice": true
+  },
+  {
+    "id": "duo-2-5",
+    "topic": "gezondheid-en-gezondheidszorg-in-nederland",
+    "chapter": null,
+    "scenario": "DUO oefenexamen 2 - Vraag 5: 医疗自付额 (Eigen risico)",
+    "question": "Peter krijgt een bloedonderzoek. Zijn verzekering zegt dat het bloedonderzoek onder zijn eigen risico valt. Wat betekent dat?",
+    "type": "choice",
+    "answers": [
+      "De overheid betaalt de kosten.",
+      "De verzekering betaalt de kosten.",
+      "Peter betaalt de kosten."
+    ],
+    "correct": 2,
+    "explanation": "DUO oefenexamen 2：正确答案是 3。",
+    "source": "DUO oefenexamen 2",
+    "isOfficialPractice": true
+  },
+  {
+    "id": "duo-2-6",
+    "topic": "samenleven-in-nederland",
+    "chapter": null,
+    "scenario": "DUO oefenexamen 2 - Vraag 6: 国旗与书包",
+    "question": "Uit een raam hangt een vlag met een tas. Wat betekent dit?",
+    "type": "choice",
+    "answers": [
+      "Iemand gaat verhuizen.",
+      "Iemand is geslaagd voor school.",
+      "Iemand is getrouwd."
+    ],
+    "correct": 1,
+    "explanation": "DUO oefenexamen 2：正确答案是 2。",
+    "source": "DUO oefenexamen 2",
+    "isOfficialPractice": true
+  },
+  {
+    "id": "duo-2-7",
+    "topic": "gezondheid-en-gezondheidszorg-in-nederland",
+    "chapter": null,
+    "scenario": "DUO oefenexamen 2 - Vraag 7: 医生预约迟到",
+    "question": "Alex heeft een afspraak bij de huisarts. Hij is zijn afspraak vergeten. Alex is een uur te laat. Wat kan Alex het beste doen?",
+    "type": "choice",
+    "answers": [
+      "De huisarts bellen.",
+      "In de wachtkamer wachten.",
+      "Wachten tot de huisarts naar Alex belt."
+    ],
+    "correct": 0,
+    "explanation": "DUO oefenexamen 2：正确答案是 1。",
+    "source": "DUO oefenexamen 2",
+    "isOfficialPractice": true
+  },
+  {
+    "id": "duo-2-8",
+    "topic": "politiek-in-nederland",
+    "chapter": null,
+    "scenario": "DUO oefenexamen 2 - Vraag 8: 同性婚姻",
+    "question": "Arno en Timo zijn twee mannen. Ze willen met elkaar trouwen. Wat staat hierover in de Nederlandse wet?",
+    "type": "choice",
+    "answers": [
+      "Dat mag.",
+      "Dat beslist de gemeente.",
+      "Dat mag niet."
+    ],
+    "correct": 0,
+    "explanation": "DUO oefenexamen 2：正确答案是 1。",
+    "source": "DUO oefenexamen 2",
+    "isOfficialPractice": true
+  },
+  {
+    "id": "duo-2-9",
+    "topic": "dienstverlening-in-nederland",
+    "chapter": null,
+    "scenario": "DUO oefenexamen 2 - Vraag 9: 托儿补贴申请",
+    "question": "Nancy zoekt informatie over de kinderopvangtoeslag. Naar welke website kan zij het beste gaan?",
+    "type": "choice",
+    "answers": [
+      "www.belastingdienst.nl",
+      "www.kvk.nl",
+      "www.uwv.nl"
+    ],
+    "correct": 0,
+    "explanation": "DUO oefenexamen 2：正确答案是 1。",
+    "source": "DUO oefenexamen 2",
+    "isOfficialPractice": true
+  },
+  {
+    "id": "duo-2-10",
+    "topic": "dienstverlening-in-nederland",
+    "chapter": null,
+    "scenario": "DUO oefenexamen 2 - Vraag 10: 同居申报",
+    "question": "Dave en Yara gaan samenwonen. Moeten ze dit melden aan de gemeente?",
+    "type": "choice",
+    "answers": [
+      "Ja, dat is verplicht.",
+      "Alleen als ze gaan trouwen.",
+      "Nee, dat gebeurt automatisch."
+    ],
+    "correct": 0,
+    "explanation": "DUO oefenexamen 2：正确答案是 1。",
+    "source": "DUO oefenexamen 2",
+    "isOfficialPractice": true
+  },
+  {
+    "id": "duo-2-11",
+    "topic": "dienstverlening-in-nederland",
+    "chapter": null,
+    "scenario": "DUO oefenexamen 2 - Vraag 11: 护照申请",
+    "question": "Kofi wil een Nederlands paspoort aanvragen. Waar kan hij dat doen?",
+    "type": "choice",
+    "answers": [
+      "Bij de Belastingdienst.",
+      "Bij de gemeente.",
+      "Bij het postkantoor."
+    ],
+    "correct": 1,
+    "explanation": "DUO oefenexamen 2：正确答案是 2。",
+    "source": "DUO oefenexamen 2",
+    "isOfficialPractice": true
+  },
+  {
+    "id": "duo-2-12",
+    "topic": "dienstverlening-in-nederland",
+    "chapter": null,
+    "scenario": "DUO oefenexamen 2 - Vraag 12: 登录系统 (DigiD)",
+    "question": "Mike wil inloggen op de website van het UWV. Wat heeft hij nodig?",
+    "type": "choice",
+    "answers": [
+      "Zijn BSN-nummer.",
+      "Zijn DigiD.",
+      "Zijn postcode en huisnummer."
+    ],
+    "correct": 1,
+    "explanation": "DUO oefenexamen 2：正确答案是 2。",
+    "source": "DUO oefenexamen 2",
+    "isOfficialPractice": true
+  },
+  {
+    "id": "duo-2-13",
+    "topic": "wonen-in-nederland",
+    "chapter": null,
+    "scenario": "DUO oefenexamen 2 - Vraag 13: 住房补贴申请",
+    "question": "Waar kun je in Nederland huurtoeslag aanvragen?",
+    "type": "choice",
+    "answers": [
+      "Bij de Belastingdienst.",
+      "Bij de gemeente.",
+      "Bij de woningbouwvereniging."
+    ],
+    "correct": 0,
+    "explanation": "DUO oefenexamen 2：正确答案是 1。",
+    "source": "DUO oefenexamen 2",
+    "isOfficialPractice": true
+  },
+  {
+    "id": "duo-2-14",
+    "topic": "werken-in-nederland",
+    "chapter": null,
+    "scenario": "DUO oefenexamen 2 - Vraag 14: 同居对津贴的影响",
+    "question": "Aisha heeft een uitkering. Ze gaat samenwonen met haar vriend. Verandert haar uitkering?",
+    "type": "choice",
+    "answers": [
+      "Ja, haar uitkering gaat omhoog.",
+      "Haar uitkering verandert misschien.",
+      "Nee, haar uitkering blijft zeker hetzelfde."
+    ],
+    "correct": 1,
+    "explanation": "DUO oefenexamen 2：正确答案是 2。",
+    "source": "DUO oefenexamen 2",
+    "isOfficialPractice": true
+  },
+  {
+    "id": "duo-2-15",
+    "topic": "dienstverlening-in-nederland",
+    "chapter": null,
+    "scenario": "DUO oefenexamen 2 - Vraag 15: 法律咨询处 (Juridisch Loket)",
+    "question": "Waarbij helpt het Juridisch Loket?",
+    "type": "choice",
+    "answers": [
+      "Bij het leren van Nederlands.",
+      "Bij het zoeken naar een woning.",
+      "Bij vragen over rechten en plichten."
+    ],
+    "correct": 2,
+    "explanation": "DUO oefenexamen 2：正确答案是 3。",
+    "source": "DUO oefenexamen 2",
+    "isOfficialPractice": true
+  },
+  {
+    "id": "duo-2-16",
+    "topic": "werken-in-nederland",
+    "chapter": null,
+    "scenario": "DUO oefenexamen 2 - Vraag 16: 商会注册 (KvK)",
+    "question": "Josef krijgt een vast contract bij een bedrijf. Moet hij zich inschrijven bij de Kamer van Koophandel (KvK)?",
+    "type": "choice",
+    "answers": [
+      "Ja, dat moet volgens de wet.",
+      "Alleen als hij vijf dagen per week werkt.",
+      "Nee, dat moeten alleen mensen met een eigen bedrijf."
+    ],
+    "correct": 2,
+    "explanation": "DUO oefenexamen 2：正确答案是 3。",
+    "source": "DUO oefenexamen 2",
+    "isOfficialPractice": true
+  },
+  {
+    "id": "duo-2-17",
+    "topic": "werken-in-nederland",
+    "chapter": null,
+    "scenario": "DUO oefenexamen 2 - Vraag 17: 入职谈话内容",
+    "question": "Werkgevers maken afspraken met nieuwe werknemers. Welke afspraken maken zij vaak?",
+    "type": "choice",
+    "answers": [
+      "Afspraken over hobby's en reiskosten.",
+      "Afspraken over hobby's en werktijden.",
+      "Afspraken over reiskosten en werktijden."
+    ],
+    "correct": 2,
+    "explanation": "DUO oefenexamen 2：正确答案是 3。",
+    "source": "DUO oefenexamen 2",
+    "isOfficialPractice": true
+  },
+  {
+    "id": "duo-2-18",
+    "topic": "werken-in-nederland",
+    "chapter": null,
+    "scenario": "DUO oefenexamen 2 - Vraag 18: 找工作协助",
+    "question": "Nadja krijgt een uitkering. Ze zoekt al lange tijd naar werk. Nadja wil een cursus doen om snel werk te vinden. Wie kan haar hiermee helpen?",
+    "type": "choice",
+    "answers": [
+      "De Belastingdienst.",
+      "Haar bank.",
+      "Het UWV."
+    ],
+    "correct": 2,
+    "explanation": "DUO oefenexamen 2：正确答案是 3。",
+    "source": "DUO oefenexamen 2",
+    "isOfficialPractice": true
+  },
+  {
+    "id": "duo-2-19",
+    "topic": "opvoeding-en-onderwijs-in-nederland",
+    "chapter": null,
+    "scenario": "DUO oefenexamen 2 - Vraag 19: 学历认证 (IDW)",
+    "question": "Carlos heeft een diploma uit Amerika. Hij wil zijn Amerikaanse diploma laten waarderen in Nederland. Waar kan dit?",
+    "type": "choice",
+    "answers": [
+      "Bij de bibliotheek.",
+      "Bij de IDW.",
+      "Bij een universiteit."
+    ],
+    "correct": 1,
+    "explanation": "DUO oefenexamen 2：正确答案是 2。",
+    "source": "DUO oefenexamen 2",
+    "isOfficialPractice": true
+  },
+  {
+    "id": "duo-2-20",
+    "topic": "werken-in-nederland",
+    "chapter": null,
+    "scenario": "DUO oefenexamen 2 - Vraag 20: 记录工时",
+    "question": "Abdel werkt bij een bedrijf. Hij schrijft elke dag op hoeveel uur hij heeft gewerkt. Dat moet van het bedrijf. Mag het bedrijf dat eisen?",
+    "type": "choice",
+    "answers": [
+      "Ja, dat mag.",
+      "Alleen als Abdel in deeltijd werkt.",
+      "Nee, want dat is persoonlijke informatie."
+    ],
+    "correct": 0,
+    "explanation": "DUO oefenexamen 2：正确答案是 1。",
+    "source": "DUO oefenexamen 2",
+    "isOfficialPractice": true
+  },
+  {
+    "id": "duo-2-21",
+    "topic": "dienstverlening-in-nederland",
+    "chapter": null,
+    "scenario": "DUO oefenexamen 2 - Vraag 21: 伤残保险 (AOV)",
+    "question": "Tami heeft een eigen bedrijf. Ze heeft een arbeidsongeschiktheidsverzekering (AOV). Wanneer krijgt Tami geld van deze verzekering?",
+    "type": "choice",
+    "answers": [
+      "Als er iets kapotgaat in haar bedrijf.",
+      "Als ze langere tijd ziek is.",
+      "Als ze vrije dagen wil."
+    ],
+    "correct": 1,
+    "explanation": "DUO oefenexamen 2：正确答案是 2。",
+    "source": "DUO oefenexamen 2",
+    "isOfficialPractice": true
+  },
+  {
+    "id": "duo-2-22",
+    "topic": "werken-in-nederland",
+    "chapter": null,
+    "scenario": "DUO oefenexamen 2 - Vraag 22: 临时合同定义",
+    "question": "Susanna werkt als schoonmaakster. Ze heeft een tijdelijk contract. Wat is dat?",
+    "type": "choice",
+    "answers": [
+      "Een contract met een einddatum.",
+      "Een contract voor deeltijdwerk.",
+      "Een contract zonder vaste werkdagen."
+    ],
+    "correct": 0,
+    "explanation": "DUO oefenexamen 2：正确答案是 1。",
+    "source": "DUO oefenexamen 2",
+    "isOfficialPractice": true
+  },
+  {
+    "id": "duo-2-23",
+    "topic": "de-mensen-in-nederland",
+    "chapter": null,
+    "scenario": "DUO oefenexamen 2 - Vraag 23: 员工协会",
+    "question": "Wat doet de personeelsvereniging van een bedrijf?",
+    "type": "choice",
+    "answers": [
+      "Activiteiten organiseren voor werknemers.",
+      "Nieuwe werknemers aannemen.",
+      "Regels maken over werk en werktijden."
+    ],
+    "correct": 0,
+    "explanation": "DUO oefenexamen 2：正确答案是 1。",
+    "source": "DUO oefenexamen 2",
+    "isOfficialPractice": true
+  },
+  {
+    "id": "duo-2-24",
+    "topic": "werken-in-nederland",
+    "chapter": null,
+    "scenario": "DUO oefenexamen 2 - Vraag 24: MAP 模块",
+    "question": "Said is aan het inburgeren. Hij bereidt zich voor op werk. Wat is verplicht?",
+    "type": "choice",
+    "answers": [
+      "De Module Arbeidsmarkt en Participatie (MAP).",
+      "Een cursus solliciteren.",
+      "Inschrijven bij een uitzendbureau."
+    ],
+    "correct": 0,
+    "explanation": "DUO oefenexamen 2：正确答案是 1。",
+    "source": "DUO oefenexamen 2",
+    "isOfficialPractice": true
+  },
+  {
+    "id": "duo-2-25",
+    "topic": "wonen-in-nederland",
+    "chapter": null,
+    "scenario": "DUO oefenexamen 2 - Vraag 25: 租房申请",
+    "question": "Alex zoekt een huurhuis. Waar kan hij zich inschrijven als woningzoekende?",
+    "type": "choice",
+    "answers": [
+      "Bij een uitzendbureau.",
+      "Bij een woningcorporatie."
+    ],
+    "correct": 1,
+    "explanation": "DUO oefenexamen 2：正确答案是 2。",
+    "source": "DUO oefenexamen 2",
+    "isOfficialPractice": true
+  },
+  {
+    "id": "duo-2-26",
+    "topic": "wonen-in-nederland",
+    "chapter": null,
+    "scenario": "DUO oefenexamen 2 - Vraag 26: 能源合同",
+    "question": "Jackie gaat verhuizen. Ze heeft nog geen contract voor energie. Wie regelt het energiecontract voor haar nieuwe woning?",
+    "type": "choice",
+    "answers": [
+      "De gemeente.",
+      "De woningcorporatie.",
+      "Jackie."
+    ],
+    "correct": 2,
+    "explanation": "DUO oefenexamen 2：正确答案是 3。",
+    "source": "DUO oefenexamen 2",
+    "isOfficialPractice": true
+  },
+  {
+    "id": "duo-2-27",
+    "topic": "wonen-in-nederland",
+    "chapter": null,
+    "scenario": "DUO oefenexamen 2 - Vraag 27: 燃气故障报修",
+    "question": "Amar wil koken. Hij merkt dat er geen gas is. Welk nummer moet Amar nu bellen?",
+    "type": "choice",
+    "answers": [
+      "Het Nationaal Storingsnummer.",
+      "Het nummer van de brandweer.",
+      "Het nummer van de gemeente."
+    ],
+    "correct": 0,
+    "explanation": "DUO oefenexamen 2：正确答案是 1。",
+    "source": "DUO oefenexamen 2",
+    "isOfficialPractice": true
+  },
+  {
+    "id": "duo-2-28",
+    "topic": "wonen-in-nederland",
+    "chapter": null,
+    "scenario": "DUO oefenexamen 2 - Vraag 28: 读取气表",
+    "question": "Dave moet zijn gasgebruik doorgeven. Dit is een foto van zijn gasmeter. Welk getal moet hij doorgeven?",
+    "type": "choice",
+    "answers": [
+      "03164",
+      "03335452",
+      "2275"
+    ],
+    "correct": 0,
+    "explanation": "DUO oefenexamen 2：正确答案是 1。",
+    "source": "DUO oefenexamen 2",
+    "isOfficialPractice": true
+  },
+  {
+    "id": "duo-2-29",
+    "topic": "opvoeding-en-onderwijs-in-nederland",
+    "chapter": null,
+    "scenario": "DUO oefenexamen 2 - Vraag 29: 义务教育年龄",
+    "question": "In Nederland moeten kinderen verplicht naar school. Tot en met welke leeftijd minimaal?",
+    "type": "choice",
+    "answers": [
+      "Tot en met 12 jaar.",
+      "Tot en met 14 jaar.",
+      "Tot en met 16 jaar."
+    ],
+    "correct": 2,
+    "explanation": "DUO oefenexamen 2：正确答案是 3。",
+    "source": "DUO oefenexamen 2",
+    "isOfficialPractice": true
+  },
+  {
+    "id": "duo-2-30",
+    "topic": "opvoeding-en-onderwijs-in-nederland",
+    "chapter": null,
+    "scenario": "DUO oefenexamen 2 - Vraag 30: 助学金申请 (DUO)",
+    "question": "Emma gaat studeren aan het hbo. Ze wil geld krijgen van de overheid om te studeren. Waar kan Emma dat geld aanvragen?",
+    "type": "choice",
+    "answers": [
+      "Bij DUO.",
+      "Bij het COA.",
+      "Bij het UWV."
+    ],
+    "correct": 0,
+    "explanation": "DUO oefenexamen 2：正确答案是 1。",
+    "source": "DUO oefenexamen 2",
+    "isOfficialPractice": true
+  },
+  {
+    "id": "duo-2-31",
+    "topic": "opvoeding-en-onderwijs-in-nederland",
+    "chapter": null,
+    "scenario": "DUO oefenexamen 2 - Vraag 31: 升学去向",
+    "question": "Jamal zit in groep 8 van de basisschool. Volgend jaar gaat Jamal naar het voortgezet onderwijs. Waar kan Jamal naartoe gaan?",
+    "type": "choice",
+    "answers": [
+      "Naar de havo.",
+      "Naar het hbo.",
+      "Naar het mbo."
+    ],
+    "correct": 0,
+    "explanation": "DUO oefenexamen 2：正确答案是 1。",
+    "source": "DUO oefenexamen 2",
+    "isOfficialPractice": true
+  },
+  {
+    "id": "duo-2-32",
+    "topic": "de-geschiedenis-van-nederland",
+    "chapter": null,
+    "scenario": "DUO oefenexamen 2 - Vraag 32: 解放日",
+    "question": "Wanneer is Bevrijdingsdag in Nederland?",
+    "type": "choice",
+    "answers": [
+      "27 april.",
+      "5 mei.",
+      "13 juni."
+    ],
+    "correct": 1,
+    "explanation": "DUO oefenexamen 2：正确答案是 2。",
+    "source": "DUO oefenexamen 2",
+    "isOfficialPractice": true
+  },
+  {
+    "id": "duo-2-33",
+    "topic": "de-geschiedenis-van-nederland",
+    "chapter": null,
+    "scenario": "DUO oefenexamen 2 - Vraag 33: 二战犹太人历史",
+    "question": "Wat gebeurde er met heel veel Joodse Nederlanders in de Tweede Wereldoorlog?",
+    "type": "choice",
+    "answers": [
+      "Ze moesten naar kampen en werden daar gedood.",
+      "Ze moesten verplicht naar Amerika.",
+      "Ze moesten voor het Duitse leger vechten."
+    ],
+    "correct": 0,
+    "explanation": "DUO oefenexamen 2：正确答案是 1。",
+    "source": "DUO oefenexamen 2",
+    "isOfficialPractice": true
+  },
+  {
+    "id": "duo-2-34",
+    "topic": "nederland-leren-kennen",
+    "chapter": null,
+    "scenario": "DUO oefenexamen 2 - Vraag 34: 省份位置",
+    "question": "Waar ligt de provincie Gelderland? ● 解析翻译： ○ 图 1：北荷兰省/南荷兰省区域。 ○ 图 2：林堡省区域。 ○ 图 3：海尔德兰省。 ● 正确答案： 3",
+    "type": "choice",
+    "answers": [
+      "北荷兰省/南荷兰省区域。",
+      "林堡省区域。",
+      "海尔德兰省。"
+    ],
+    "correct": 2,
+    "explanation": "DUO oefenexamen 2：正确答案是 3。",
+    "source": "DUO oefenexamen 2",
+    "isOfficialPractice": true
+  },
+  {
+    "id": "duo-2-35",
+    "topic": "de-geschiedenis-van-nederland",
+    "chapter": null,
+    "scenario": "DUO oefenexamen 2 - Vraag 35: 前殖民地",
+    "question": "Welk land was vroeger een kolonie van Nederland?",
+    "type": "choice",
+    "answers": [
+      "Argentinië",
+      "Suriname",
+      "Venezuela"
+    ],
+    "correct": 1,
+    "explanation": "DUO oefenexamen 2：正确答案是 2。",
+    "source": "DUO oefenexamen 2",
+    "isOfficialPractice": true
+  },
+  {
+    "id": "duo-2-36",
+    "topic": "politiek-in-nederland",
+    "chapter": null,
+    "scenario": "DUO oefenexamen 2 - Vraag 36: 投票义务",
+    "question": "In Nederland zijn er verschillende verkiezingen. Is stemmen verplicht in Nederland?",
+    "type": "choice",
+    "answers": [
+      "Ja, vanaf 18 jaar.",
+      "Alleen bij sommige verkiezingen.",
+      "Nee, dat is niet verplicht."
+    ],
+    "correct": 2,
+    "explanation": "DUO oefenexamen 2：正确答案是 3。",
+    "source": "DUO oefenexamen 2",
+    "isOfficialPractice": true
+  },
+  {
+    "id": "duo-2-37",
+    "topic": "politiek-in-nederland",
+    "chapter": null,
+    "scenario": "DUO oefenexamen 2 - Vraag 37: 宗教自由",
+    "question": "Mag je in Nederland je eigen religie kiezen?",
+    "type": "choice",
+    "answers": [
+      "Ja, dat mag.",
+      "Nee, iedereen moet het geloof van zijn ouders nemen.",
+      "Nee, je mag alleen christelijk of islamitisch zijn."
+    ],
+    "correct": 0,
+    "explanation": "DUO oefenexamen 2：正确答案是 1。",
+    "source": "DUO oefenexamen 2",
+    "isOfficialPractice": true
+  },
+  {
+    "id": "duo-2-38",
+    "topic": "politiek-in-nederland",
+    "chapter": null,
+    "scenario": "DUO oefenexamen 2 - Vraag 38: 国王的任务",
+    "question": "Wat is een taak van de koning van Nederland?",
+    "type": "choice",
+    "answers": [
+      "Belastingregels maken.",
+      "Officieel andere landen bezoeken.",
+      "Verkiezingen organiseren."
+    ],
+    "correct": 1,
+    "explanation": "DUO oefenexamen 2：正确答案是 2。",
+    "source": "DUO oefenexamen 2",
+    "isOfficialPractice": true
+  },
+  {
+    "id": "duo-2-39",
+    "topic": "politiek-in-nederland",
+    "chapter": null,
+    "scenario": "DUO oefenexamen 2 - Vraag 39: 荷兰首相",
+    "question": "Hoe heet de minister-president van Nederland?",
+    "type": "choice",
+    "answers": [
+      "Dick Schoof.",
+      "Geert Wilders.",
+      "Rob Jetten."
+    ],
+    "correct": 0,
+    "explanation": "DUO oefenexamen 2：正确答案是 1。",
+    "source": "DUO oefenexamen 2",
+    "isOfficialPractice": true
+  },
+  {
+    "id": "duo-2-40",
+    "topic": "politiek-in-nederland",
+    "chapter": null,
+    "scenario": "DUO oefenexamen 2 - Vraag 40: 外籍投票权",
+    "question": "Hannah heeft niet de Nederlandse nationaliteit. Wanneer mag ze bij de gemeenteraadsverkiezingen stemmen?",
+    "type": "choice",
+    "answers": [
+      "Als ze drie jaar in Nederland woont.",
+      "Als ze vier jaar in Nederland woont.",
+      "Als ze vijf jaar in Nederland woont."
+    ],
+    "correct": 2,
+    "explanation": "DUO oefenexamen 2：正确答案是 3。",
+    "source": "DUO oefenexamen 2",
+    "isOfficialPractice": true
+  }
+]

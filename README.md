@@ -22,7 +22,7 @@ node scripts/import-knm-content.mjs
 
 ## Notes
 
-- Practice questions are original study material, not official DUO exam questions.
-- The app links to DUO official practice exams for final exam familiarization.
+- The mock question bank includes the two provided DUO oefenexamen PDFs plus original expansion questions.
+- The mock exam mode draws 40 questions for a 45-minute session, matching the KNM practice rhythm.
 - Progress is stored locally in the browser with `localStorage`.
 - Dutch pronunciation audio uses the browser's built-in Web Speech API when available, with a Google Translate TTS audio fallback for browsers that do not expose native speech synthesis.
