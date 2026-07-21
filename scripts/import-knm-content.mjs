@@ -513,7 +513,7 @@ function mediaBlockFromMarkdown(line, markdownPath, chapterSlug) {
     return { type: "image", alt: stripMarkdown(match[1]), src: outputSrc, originalSrc, missing: false };
   }
 
-  return { type: "image", alt: stripMarkdown(match[1]), src: outputSrc, originalSrc, missing: true };
+  return { type: "skippedImage", originalSrc };
 }
 
 function parseRichMarkdownBlocks(section, markdownPath, chapterSlug) {
@@ -530,7 +530,9 @@ function parseRichMarkdownBlocks(section, markdownPath, chapterSlug) {
 
     const image = mediaBlockFromMarkdown(line, markdownPath, chapterSlug);
     if (image) {
-      blocks.push(image);
+      if (image.type !== "skippedImage") {
+        blocks.push(image);
+      }
       index += 1;
       continue;
     }

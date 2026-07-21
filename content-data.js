@@ -680,13 +680,6 @@ export const KNM_CONTENT = {
                   {
                     "type": "quote",
                     "text": "学习重点不是精确年龄，而是理解：荷兰水域多，因此游泳是一项重要的生活技能。"
-                  },
-                  {
-                    "type": "image",
-                    "alt": "荷兰水域与低地示意图",
-                    "src": "assets/lesson-media/hoofdstuk-1/kaart_waterland.png",
-                    "originalSrc": "KNM_Hoofdstuk_1_assets/kaart_waterland.png",
-                    "missing": true
                   }
                 ]
               },
@@ -2376,8 +2369,8 @@ export const KNM_CONTENT = {
             ]
           }
         ],
-        "imageCount": 4,
-        "missingImageCount": 1
+        "imageCount": 3,
+        "missingImageCount": 0
       },
       "keywords": [
         "de provincie",
