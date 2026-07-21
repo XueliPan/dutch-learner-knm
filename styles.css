@@ -965,35 +965,6 @@ select {
   font-weight: 800;
 }
 
-.review-panel {
-  margin-top: 18px;
-}
-
-.review-grid {
-  display: grid;
-  grid-template-columns: repeat(7, minmax(0, 1fr));
-  gap: 10px;
-}
-
-.review-item {
-  border: 1px solid var(--line);
-  border-radius: 8px;
-  padding: 12px;
-  background: #fff;
-}
-
-.review-item strong {
-  display: block;
-  color: var(--teal-dark);
-  margin-bottom: 6px;
-}
-
-.review-item p {
-  color: var(--muted);
-  font-size: 13px;
-  line-height: 1.5;
-}
-
 .mock-status strong {
   display: block;
   margin: 16px 0 8px;
@@ -1049,8 +1020,7 @@ footer {
   .grammar-layout,
   .grammar-grid,
   .topic-study-layout,
-  .chapter-cheat-grid,
-  .review-grid {
+  .chapter-cheat-grid {
     grid-template-columns: 1fr;
   }
 

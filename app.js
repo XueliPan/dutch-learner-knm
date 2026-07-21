@@ -359,7 +359,6 @@ const words = importedContent.words?.length
     meaning: keywordMeanings[word] || "KNM 高频词",
   })),
 );
-const reviewPlan = importedContent.reviewPlan || [];
 const grammar = importedContent.grammar || [];
 const cheatSheet = importedContent.cheatSheet || [];
 const MOCK_QUESTION_COUNT = 40;
@@ -543,21 +542,6 @@ function renderDashboard() {
   $("#accuracyRate").textContent = answered ? `${Math.round((correct / answered) * 100)}%` : "0%";
   $("#streakDays").textContent = `${streak || 1} 天`;
   $("#nextTopic").textContent = weakTopic.title;
-}
-
-function renderReviewPlan() {
-  if (!reviewPlan.length) return;
-  $("#reviewPlanPanel").hidden = false;
-  $("#reviewPlanGrid").innerHTML = reviewPlan
-    .map(
-      (item) => `
-        <article class="review-item">
-          <strong>${item.day}</strong>
-          <p>${item.task}</p>
-        </article>
-      `,
-    )
-    .join("");
 }
 
 function renderLessonFilters() {
@@ -1108,7 +1092,6 @@ function init() {
   renderWords();
   renderGrammarGuide();
   renderDashboard();
-  renderReviewPlan();
   bindEvents();
   showView(state.view);
 }

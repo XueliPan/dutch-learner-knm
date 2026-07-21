@@ -20595,36 +20595,6 @@ export const KNM_CONTENT = {
       "source": "KNM study guide comprehensive vocabulary"
     }
   ],
-  "reviewPlan": [
-    {
-      "day": "Day 1",
-      "task": "第 1-2 章：地理、节日、礼仪。背 Randstad、dijk、afspraak、feestdagen。"
-    },
-    {
-      "day": "Day 2",
-      "task": "第 3-4 章：医疗和住房。重点讲出 huisarts 流程、huur/kopen 流程。"
-    },
-    {
-      "day": "Day 3",
-      "task": "第 5 章：服务机构。用表格背 gemeente、Belastingdienst、IND、politie、bank。"
-    },
-    {
-      "day": "Day 4",
-      "task": "第 6 章：育儿教育。背 consultatiebureau、leerplicht、VMBO/HAVO/VWO。"
-    },
-    {
-      "day": "Day 5",
-      "task": "第 7-8 章：工作和社会生活。练习 sollicitatie、uitkering、gelijkheid、discriminatie。"
-    },
-    {
-      "day": "Day 6",
-      "task": "第 9-10 章：历史和政治。画时间线和政治结构图。"
-    },
-    {
-      "day": "Day 7",
-      "task": "做 `KNM-practice-questions.zh-CN.md` 全部题目，整理错题和不熟词汇。"
-    }
-  ],
   "grammar": [
     {
       "pattern": "als",

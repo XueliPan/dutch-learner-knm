@@ -235,19 +235,6 @@ function parseQuestions(markdown, lessonByChapter) {
   return allQuestions;
 }
 
-function parseReviewPlan(markdown) {
-  const start = markdown.indexOf("## 7 天复习计划");
-  const section = start === -1 ? "" : markdown.slice(start);
-  return section
-    .split("\n")
-    .map((line) => line.trim())
-    .filter((line) => line.startsWith("|") && !line.includes("---"))
-    .slice(1)
-    .map((line) => line.split("|").map((cell) => cell.trim()).filter(Boolean))
-    .filter((cells) => cells.length >= 2)
-    .map((cells) => ({ day: cells[0], task: cells[1] }));
-}
-
 function readJsonArray(filePath) {
   if (!fs.existsSync(filePath)) return [];
   const data = JSON.parse(fs.readFileSync(filePath, "utf8"));
@@ -812,11 +799,10 @@ const guideQuestions = [...guideChapterQuestions, ...guideMockQuestions];
 const questions = [...studyQuestions, ...duoQuestions, ...generatedQuestions, ...guideQuestions];
 const guideWords = [...parseGuideChapterWords(guide, lessonByChapter), ...parseGuideComprehensiveWords(guide)];
 const words = dedupeWords([...topics.flatMap((topic) => topic.vocabulary), ...guideWords]);
-const reviewPlan = parseReviewPlan(notes);
 const grammar = parseGuideGrammar(guide);
 const cheatSheet = parseGuideCheatSheet(guide);
 
-const output = `export const KNM_CONTENT = ${JSON.stringify({ topics, questions, words, reviewPlan, grammar, cheatSheet }, null, 2)};\n`;
+const output = `export const KNM_CONTENT = ${JSON.stringify({ topics, questions, words, grammar, cheatSheet }, null, 2)};\n`;
 fs.writeFileSync(outputPath, output);
 
 console.log(
