@@ -445,21 +445,66 @@ function parseGuideCheatSheet(markdown) {
     .map((line) => stripMarkdown(line.replace(/^- /, "")));
 }
 
+function parseGuidePointLines(section) {
+  return section
+    .split("\n")
+    .map((line) => line.trim())
+    .filter((line) => line && !line.includes("---") && !line.startsWith("| Nederlands") && !line.startsWith("| ---"))
+    .flatMap((line) => {
+      if (line.startsWith("- ")) return [stripMarkdown(line.replace(/^- /, ""))];
+      if (!line.startsWith("|")) return line.startsWith("#") ? [] : [stripMarkdown(line)];
+      const cells = line.split("|").map((cell) => stripMarkdown(cell)).filter(Boolean);
+      if (cells.length < 2) return [];
+      return [cells.join(" ｜ ")];
+    })
+    .filter(Boolean);
+}
+
+function parseGuideLessonExtras(markdown) {
+  const extras = new Map();
+  splitGuideChapters(markdown).forEach((chapter) => {
+    const contentEnd = chapter.body.search(/^### 高频词汇$/m);
+    const core = chapter.body.slice(0, contentEnd === -1 ? chapter.body.length : contentEnd);
+    const matches = [...core.matchAll(/^## \d+\.\s+(.+)$/gm)];
+    const guideSections = matches.map((match, index) => {
+      const start = match.index + match[0].length;
+      const end = matches[index + 1]?.index ?? core.length;
+      return {
+        title: stripMarkdown(match[1]),
+        points: parseGuidePointLines(core.slice(start, end)),
+      };
+    }).filter((section) => section.points.length);
+    const memoryHints = bullets(getSection(chapter.body, "看到关键词就联想")).map(stripMarkdown);
+    extras.set(chapter.number, {
+      guideTitle: chapter.title,
+      guideZhTitle: chapter.zhTitle,
+      guideSections,
+      memoryHints,
+    });
+  });
+  return extras;
+}
+
 const noteChapters = splitChapters(notes);
+const guideExtrasByChapter = parseGuideLessonExtras(guide);
 const topics = noteChapters.map((chapter, index) => {
   const id = slugify(chapter.title);
   const vocab = parseVocabulary(getSection(chapter.body, "词汇表"), id, chapter.title);
+  const guideExtra = guideExtrasByChapter.get(chapter.number) || {};
+  const memoryHints = guideExtra.memoryHints?.length ? guideExtra.memoryHints : vocab.slice(0, 6).map((item) => `${item.word} → ${item.meaning}`);
   return {
     id,
     chapter: chapter.number,
     title: chapter.title,
-    zhTitle: chapter.title,
+    zhTitle: guideExtra.guideZhTitle || chapter.title,
     color: colorSet[index % colorSet.length],
     summary: paragraphs(getSection(chapter.body, "中文解释"))[0] || "",
     explanation: paragraphs(getSection(chapter.body, "中文解释")),
     examPoints: bullets(getSection(chapter.body, "考试重点")),
     lifeTips: bullets(getSection(chapter.body, "荷兰生活常识")),
     confusing: bullets(getSection(chapter.body, "容易混淆")),
+    guideSections: guideExtra.guideSections || [],
+    memoryHints,
     keywords: vocab.map((item) => item.word).slice(0, 8),
     vocabulary: vocab,
   };

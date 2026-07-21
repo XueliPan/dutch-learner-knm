@@ -4,7 +4,7 @@ export const KNM_CONTENT = {
       "id": "nederland-leren-kennen",
       "chapter": 1,
       "title": "Nederland leren kennen",
-      "zhTitle": "Nederland leren kennen",
+      "zhTitle": "认识荷兰",
       "color": "#0f766e",
       "summary": "荷兰位于欧洲，靠近北海（`Noordzee`），邻国是德国（`Duitsland`）和比利时（`Belgie`）。荷兰面积小、人口密集，是一个低地国家（`laag land`），许多地方低于海平面（`zeespiegel`），所以堤坝（`dijk`）、沙丘（`duinen`）、水利工程非常重要。",
       "explanation": [
@@ -29,6 +29,58 @@ export const KNM_CONTENT = {
         "`gemeente`：市镇，办理居民登记、证件、搬家等。",
         "`regering`：政府，PDF 中解释为国王和部长。",
         "`parlement`：议会，代表人民检查政府、参与立法。"
+      ],
+      "guideSections": [
+        {
+          "title": "地理位置与邻国",
+          "points": [
+            "Nederland ligt in Europa, aan de Noordzee.｜荷兰位于欧洲，濒临北海。",
+            "Duitsland ligt ten oosten van Nederland.｜德国位于荷兰东部。",
+            "België ligt ten zuiden van Nederland.｜比利时位于荷兰南部。",
+            "荷兰有 12 provincies（12个省），每个省有自己的 hoofdstad（省会）。"
+          ]
+        },
+        {
+          "title": "Randstad 与四大城市",
+          "points": [
+            "城市 ｜ 荷兰语知识 ｜ 中文记忆",
+            "Amsterdam ｜ de hoofdstad van Nederland; Schiphol is een groot vliegveld ｜ 荷兰首都；史基浦机场",
+            "Rotterdam ｜ een zeer belangrijke haven / Europoort ｜ 重要港口城市；欧洲门户",
+            "Den Haag ｜ de regering en het parlement werken hier ｜ 中央政府与议会所在地",
+            "Utrecht ｜ de Domtoren ｜ 以大教堂塔闻名",
+            "De Randstad 是荷兰西部的大城市群。这里人口密集、工作机会多、公共交通方便，但也经常 in de file staan（堵车）。"
+          ]
+        },
+        {
+          "title": "水、堤坝与围海造地",
+          "points": [
+            "de Rijn｜莱茵河，流经荷兰。",
+            "de Maas｜默兹河。",
+            "het IJsselmeer｜艾瑟尔湖。",
+            "de Afsluitdijk｜拦海大坝，把海域与内陆水域分隔。",
+            "een polder｜原来是水域、后来排水形成的土地。",
+            "duinen en dijken beschermen Nederland tegen het water.｜沙丘和堤坝保护荷兰免受海水与洪水侵袭。"
+          ]
+        },
+        {
+          "title": "天气、人口、语言与国家形式",
+          "points": [
+            "wisselvallig weer｜天气多变。",
+            "lente / zomer / herfst / winter｜春 / 夏 / 秋 / 冬。",
+            "Nederland is dichtbevolkt.｜荷兰人口密集。",
+            "Nederlands 是主要语言；Fries 是弗里斯兰使用的重要地区语言。",
+            "荷兰是 een koninkrijk（王国），也是 een democratie（民主国家）。",
+            "荷兰属于 de Europese Unie (EU)，使用 de euro。"
+          ]
+        }
+      ],
+      "memoryHints": [
+        "Amsterdam → hoofdstad",
+        "Den Haag → regering / parlement",
+        "Rotterdam → haven",
+        "Schiphol → vliegveld",
+        "dijk / Deltawerken → beschermen tegen water",
+        "polder → land dat vroeger water was"
       ],
       "keywords": [
         "de provincie",
@@ -119,7 +171,7 @@ export const KNM_CONTENT = {
       "id": "de-mensen-in-nederland",
       "chapter": 2,
       "title": "De mensen in Nederland",
-      "zhTitle": "De mensen in Nederland",
+      "zhTitle": "荷兰人的生活与节日",
       "color": "#2d6cdf",
       "summary": "本章讲荷兰人的节日、社交礼仪和日常规则。重要节日包括 `Valentijn`、`Carnaval`、`Pasen`、`Koningsdag`、`Dodenherdenking`、`Bevrijdingsdag`、`Sinterklaas`、`Kerstmis`、`Oud en Nieuw`。其中 4 月 27 日是国王节，大家穿橙色；5 月 4 日晚上 20:00 是战争死难者纪念，默哀 2 分钟；5 月 5 日是解放日。",
       "explanation": [
@@ -143,6 +195,75 @@ export const KNM_CONTENT = {
         "`Gecondoleerd`：有人去世。",
         "`Beterschap`：祝病人早日康复。",
         "`Veel sterkte`：困难、疾病、丧事时表达支持。"
+      ],
+      "guideSections": [
+        {
+          "title": "重要节日",
+          "points": [
+            "节日 ｜ 日期/时间 ｜ 核心活动与意义",
+            "Valentijn ｜ 14 februari ｜ 情人节；kaart sturen / cadeau geven",
+            "Carnaval ｜ voor de vastentijd ｜ 狂欢、穿特别服装、跳舞；南部更常见",
+            "Pasen ｜ maart/april ｜ 复活节；基督教节日；eieren eten",
+            "Koningsdag ｜ 27 april ｜ 国王节；穿橙色、跳蚤市场、挂国旗",
+            "Dodenherdenking ｜ 4 mei, 20.00 uur ｜ 死难者纪念日；2 minuten stilte",
+            "Bevrijdingsdag ｜ 5 mei ｜ 庆祝荷兰在二战中获得解放",
+            "Hemelvaart ｜ donderdag, 40 dagen na Pasen ｜ 耶稣升天节；基督教节日",
+            "Pinksteren ｜ 10 dagen na Hemelvaart ｜ 圣灵降临节；基督教节日",
+            "Sinterklaasavond ｜ 5 december ｜ 儿童收礼物和糖果",
+            "Kerstmis ｜ 25 en 26 december ｜ 圣诞节；家庭、圣诞树、聚餐",
+            "Oud en Nieuw ｜ 31 december / 1 januari ｜ 跨年、烟花"
+          ]
+        },
+        {
+          "title": "人生事件与祝福语",
+          "points": [
+            "场景 ｜ 常用表达 ｜ 中文",
+            "生日、结婚、宝宝出生、考试通过 ｜ Gefeliciteerd! ｜ 恭喜！",
+            "有人生病 ｜ Beterschap! ｜ 早日康复！",
+            "有人去世 ｜ Gecondoleerd. ｜ 请节哀。",
+            "困难时期 ｜ Veel sterkte. ｜ 祝你坚强/保重。"
+          ]
+        },
+        {
+          "title": "做客与礼物",
+          "points": [
+            "荷兰人通常先 een afspraak maken（预约），不习惯突然长时间上门。",
+            "做客时可能得到咖啡或茶，配 taart / koekje（蛋糕/饼干）。",
+            "生日、婚礼、孩子出生时可以带 een cadeau, bloemen of een cadeaubon。",
+            "礼物一般不必很贵，收礼者常会当场打开。",
+            "对医生、公务人员等正式关系，不应送钱或贵重礼物。"
+          ]
+        },
+        {
+          "title": "正式与非正式交流",
+          "points": [
+            "Formeel｜正式 ｜ Informeel｜非正式",
+            "u, meneer, mevrouw ｜ je/jij, voornaam",
+            "Goedemorgen, Goedendag ｜ Hoi, Hallo, Hé",
+            "Tot ziens, Fijne dag ｜ Doei, Dag",
+            "医生、老板、陌生人、部分老年人 ｜ 家人、朋友、儿童、熟悉的邻居",
+            "不熟的人通常 een hand geven（握手）。熟人之间过去常见三次贴面礼，但现实习惯因人和场合而异；考试重点是区分正式与非正式关系。"
+          ]
+        },
+        {
+          "title": "排队与公共交通",
+          "points": [
+            "op je beurt wachten｜等轮到自己。",
+            "医生处在 de wachtkamer（候诊室） 等候。",
+            "商店、药房、市政厅可能需要 een nummertje trekken（取号）。",
+            "乘公共交通必须有有效 vervoerbewijs（乘车凭证），使用 OV-chipkaart 时要 inchecken en uitchecken。",
+            "zwart reizen 是逃票，会收到 een boete（罚款）。",
+            "stiltecoupé 内不要说话或打电话；先让乘客下车，再上车。"
+          ]
+        }
+      ],
+      "memoryHints": [
+        "de afspraak → 预约",
+        "formeel → 正式的",
+        "informeel → 非正式的",
+        "feliciteren → 祝贺",
+        "gecondoleerd → 节哀",
+        "op je beurt wachten → 等轮到你"
       ],
       "keywords": [
         "de afspraak",
@@ -233,7 +354,7 @@ export const KNM_CONTENT = {
       "id": "gezondheid-en-gezondheidszorg-in-nederland",
       "chapter": 3,
       "title": "Gezondheid en gezondheidszorg in Nederland",
-      "zhTitle": "Gezondheid en gezondheidszorg in Nederland",
+      "zhTitle": "健康与医疗",
       "color": "#c2413d",
       "summary": "荷兰医疗系统的入口通常是家庭医生（`huisarts`）。生病先打电话给助理（`assistente`）预约，说清楚姓名、出生日期、症状、时间地点。不能来要提前取消，否则可能仍要付费。",
       "explanation": [
@@ -258,6 +379,72 @@ export const KNM_CONTENT = {
         "`specialist`：专科医生，常在医院。",
         "`huisartsenpost`：夜间/周末家庭医生服务。",
         "`SEH`：急诊，紧急情况。"
+      ],
+      "guideSections": [
+        {
+          "title": "荷兰医疗流程",
+          "points": [
+            "一般身体不适时，先联系 de huisarts（家庭医生）。家庭医生判断是否需要治疗、药物或转诊。",
+            "标准流程：",
+            "1. een afspraak maken｜预约。",
+            "2. 向 de assistente 说明姓名、出生日期和症状。",
+            "3. op tijd komen｜准时到达；不能去时及时取消。",
+            "4. huisarts 听取 de klacht（症状/不适），提问并检查。",
+            "5. 如有需要，医生用 een verwijsbrief（转诊信） 转到 specialist。"
+          ]
+        },
+        {
+          "title": "药物与药房",
+          "points": [
+            "医生 schrijft een recept voor（开处方）。",
+            "拿处方到 de apotheek（药房）。",
+            "药盒上的 etiket（标签） 写明用法；bijsluiter（说明书） 提供详细信息。",
+            "部分药物如 paracetamol 可以 zonder recept（无处方） 购买。",
+            "药物要按说明保存，远离儿童；旧药可交回药房。"
+          ]
+        },
+        {
+          "title": "专科、医院与急救",
+          "points": [
+            "机构/人员 ｜ 作用 ｜ 考试关键词",
+            "huisarts ｜ 第一联系点、初步检查、转诊 ｜ eerst bellen / afspraak",
+            "specialist ｜ 医院专科医生 ｜ verwijsbrief",
+            "fysiotherapeut ｜ 处理运动、背部、颈部等问题 ｜ bewegen",
+            "tandarts ｜ 牙齿检查和治疗 ｜ tandpijn / kiespijn",
+            "huisartsenpost ｜ 夜间、周末的非生命危险紧急医疗 ｜ eerst bellen",
+            "SEH ｜ 医院急诊 ｜ spoedeisende hulp",
+            "112 ｜ 生命危险、火灾、严重事故 ｜ politie / brandweer / ambulance",
+            "> 考试原则：普通不适先 huisarts；晚上或周末先打 huisartsenpost；生命危险打 112。"
+          ]
+        },
+        {
+          "title": "医疗保险",
+          "points": [
+            "在荷兰居住或工作通常需要 zorgverzekering（医疗保险）。",
+            "basisverzekering 是基础保险；aanvullende verzekering 是可选附加保险。",
+            "成年人支付 premie（保费）；18岁以下儿童不支付基础保险保费。",
+            "eigen risico 是部分医疗费用先由本人承担的年度自付额。具体金额会变化，不应只背原文件数字。",
+            "低收入者可能申请 zorgtoeslag（医疗保险补贴）。",
+            "declareren｜先付款后向保险公司申请报销。"
+          ]
+        },
+        {
+          "title": "健康生活",
+          "points": [
+            "gezond eten, genoeg bewegen, niet roken, weinig alcohol。",
+            "多吃 groenten, fruit, volkorenproducten；少吃 suiker, zout en vet。",
+            "condoom 可降低性传播感染（SOA）的风险，也可用于避孕。",
+            "经常运动、参加 vereniging 或使用 bibliotheek 有助于健康与社会融入。"
+          ]
+        }
+      ],
+      "memoryHints": [
+        "de huisarts → 家庭医生",
+        "de klacht → 症状/不舒服",
+        "het recept → 处方",
+        "de apotheek → 药房",
+        "doorverwijzen → 转诊",
+        "de zorgverzekering → 医疗保险"
       ],
       "keywords": [
         "de huisarts",
@@ -348,7 +535,7 @@ export const KNM_CONTENT = {
       "id": "wonen-in-nederland",
       "chapter": 4,
       "title": "Wonen in Nederland",
-      "zhTitle": "Wonen in Nederland",
+      "zhTitle": "在荷兰居住",
       "color": "#e0a928",
       "summary": "荷兰住房分为买房（`een huis kopen`）和租房（`een huis huren`）。买房通常需要向银行贷款，叫 `hypotheek`，收入和固定工作会影响可贷金额。买房时可能通过房产中介（`makelaar`）看房、谈价，最后去公证人（`notaris`）签合同。",
       "explanation": [
@@ -373,6 +560,69 @@ export const KNM_CONTENT = {
         "`zorgtoeslag`：医疗保险补贴，Belastingdienst。",
         "`kwijtschelding`：地方税减免，通常找 gemeente。",
         "`borg`：押金，租房常见。"
+      ],
+      "guideSections": [
+        {
+          "title": "房屋类型",
+          "points": [
+            "flat / appartement ｜ 公寓 ｜ 大楼中的一套住宅",
+            "eengezinswoning ｜ 家庭住宅 ｜ 通常供一个家庭居住",
+            "vrijstaand huis ｜ 独栋住宅 ｜ 四周不与其他住宅相连",
+            "studentenhuis ｜ 学生合租房 ｜ 学生租房并共享空间",
+            "verzorgingshuis / verpleeghuis ｜ 养老照护机构 ｜ 需要照护的老年人居住"
+          ]
+        },
+        {
+          "title": "买房",
+          "points": [
+            "hypotheek｜住房贷款；银行根据收入和其他条件判断可借金额。",
+            "rente｜利息。",
+            "makelaar｜房产中介，协助寻找、购买或出售房屋。",
+            "notaris｜公证人，处理房屋产权和合同等正式文件。",
+            "买房后大多数维修和维护由房主自己承担。"
+          ]
+        },
+        {
+          "title": "租房",
+          "points": [
+            "sociale huurwoning｜社会住房，租金受到管理，通常面向符合收入等条件的人。",
+            "vrije sector｜自由租赁市场，租金通常较高。",
+            "huurcontract 写明租金、服务费、维修责任和解约期限。",
+            "verhuurder / huisbaas 负责合同规定的大型维修；租客负责部分小型维护。",
+            "与房东因租金或维修发生争议，可联系 de Huurcommissie。",
+            "低收入且符合条件者可能申请 huurtoeslag。"
+          ]
+        },
+        {
+          "title": "市政税、垃圾与能源",
+          "points": [
+            "afvalstoffenheffing｜垃圾处理税。",
+            "rioolheffing｜污水/下水道税。",
+            "房主可能支付 OZB。",
+            "经济困难者可能申请 kwijtschelding（减免）。",
+            "垃圾应 afval scheiden（分类）：GFT、纸、玻璃、塑料、其他垃圾等，具体规则由 gemeente 决定。",
+            "能源和水务公司会要求提供 meterstand（表数），并可能发送 jaarrekening（年度结算单）。"
+          ]
+        },
+        {
+          "title": "常见保险",
+          "points": [
+            "保险 ｜ 保护对象",
+            "aansprakelijkheidsverzekering ｜ 你不小心给他人造成的财物或人身损失",
+            "inboedelverzekering ｜ 住宅内的家具和个人物品",
+            "opstalverzekering ｜ 自有房屋建筑本身",
+            "WA-autoverzekering ｜ 车辆对他人造成的损害；机动车通常必须投保",
+            "zorgverzekering ｜ 医疗费用"
+          ]
+        }
+      ],
+      "memoryHints": [
+        "de hypotheek → 房贷",
+        "de makelaar → 房产中介",
+        "de sociale huurwoning → 社会住房",
+        "de vrije sector → 自由租赁市场",
+        "de verhuurder → 房东",
+        "de huurtoeslag → 租房补贴"
       ],
       "keywords": [
         "de hypotheek",
@@ -463,7 +713,7 @@ export const KNM_CONTENT = {
       "id": "dienstverlening-in-nederland",
       "chapter": 5,
       "title": "Dienstverlening in Nederland",
-      "zhTitle": "Dienstverlening in Nederland",
+      "zhTitle": "公共服务与办事机构",
       "color": "#6f5cc2",
       "summary": "`dienstverlening` 指帮助居民的机构，如警察（`politie`）、市镇（`gemeente`）、税务局（`Belastingdienst`）、银行（`bank`）、IND、法律援助、居家护理等。",
       "explanation": [
@@ -491,6 +741,77 @@ export const KNM_CONTENT = {
         "`toeslag`：补贴，不是工资。",
         "`uitkering`：福利/救济金，如 WW、WIA、bijstand。",
         "`vergunning`：许可文件，如建房许可、居留许可。"
+      ],
+      "guideSections": [
+        {
+          "title": "Politie｜警察",
+          "points": [
+            "aangifte doen｜正式报案，例如盗窃、暴力、威胁或证件遗失。",
+            "生命危险、正在发生的严重事故：bel 112。",
+            "非紧急警务问题可联系普通警察号码；考试重点是区分紧急与非紧急。",
+            "身份证件包括 paspoort、identiteitskaart、rijbewijs、verblijfsdocument。"
+          ]
+        },
+        {
+          "title": "Gemeente｜市政府",
+          "points": [
+            "常见事务：",
+            "登记住址和搬家：inschrijven / verhuizing doorgeven。",
+            "申领 paspoort、ID-kaart、rijbewijs。",
+            "登记出生、婚姻、离婚、死亡。",
+            "申请某些 vergunningen（许可）。",
+            "获取个人登记信息的证明。"
+          ]
+        },
+        {
+          "title": "Belastingdienst｜税务局",
+          "points": [
+            "belastingaangifte｜年度报税。",
+            "toeslagen｜符合收入和其他条件者可申请的补贴，例如 huurtoeslag、zorgtoeslag、kinderopvangtoeslag。",
+            "认为税务决定不正确时，可以 bezwaar maken（提出异议）。",
+            "DigiD 用于登录许多政府在线服务。",
+            "BSN 是个人在荷兰政府系统中的公民服务号码。"
+          ]
+        },
+        {
+          "title": "Bank｜银行",
+          "points": [
+            "bankrekening / rekeningnummer / pinpas｜银行账户、账号、银行卡。",
+            "contactloos betalen｜非接触支付。",
+            "automatische incasso｜自动扣款，需要授权。",
+            "银行卡丢失或被盗时应立即联系银行冻结，并在需要时报案。"
+          ]
+        },
+        {
+          "title": "IND、居留与入籍",
+          "points": [
+            "IND 决定居留申请和部分国籍事务。",
+            "verblijfsvergunning voor bepaalde tijd｜有期限居留许可。",
+            "verblijfsvergunning voor onbepaalde tijd｜长期/永久居留许可。",
+            "naturalisatie｜申请加入荷兰国籍。",
+            "居留和融入政策会更新，考试时以当期官方要求为准，不应死记旧资料中的费用或语言等级。"
+          ]
+        },
+        {
+          "title": "其他帮助机构",
+          "points": [
+            "机构 ｜ 作用",
+            "Juridisch Loket ｜ 初步法律信息与帮助",
+            "advocaat ｜ 律师，处理诉讼、居留、劳动、离婚等法律问题",
+            "thuiszorg ｜ 为在家生活但需要帮助的人提供照护支持",
+            "CIZ ｜ 评估部分长期照护需求",
+            "GGZ ｜ 心理健康服务",
+            "maatschappelijk werk ｜ 社会工作，帮助处理家庭、工作和生活问题"
+          ]
+        }
+      ],
+      "memoryHints": [
+        "het identiteitsbewijs → 身份证件",
+        "aangifte doen → 报案/申报",
+        "de gemeente → 市镇政府",
+        "het BSN → 公民服务号码",
+        "de belastingaangifte → 报税",
+        "DigiD → 政府网站登录身份"
       ],
       "keywords": [
         "het identiteitsbewijs",
@@ -581,7 +902,7 @@ export const KNM_CONTENT = {
       "id": "opvoeding-en-onderwijs-in-nederland",
       "chapter": 6,
       "title": "Opvoeding en onderwijs in Nederland",
-      "zhTitle": "Opvoeding en onderwijs in Nederland",
+      "zhTitle": "育儿与教育",
       "color": "#138a45",
       "summary": "本章讲育儿和教育。孩子年龄阶段：`baby` 0-1 岁，`peuter` 1-4 岁，`kleuter` 4-6 岁，`schoolkind` 6-12 岁，`puber` 12-18 岁。",
       "explanation": [
@@ -608,6 +929,70 @@ export const KNM_CONTENT = {
         "`kindgebonden budget`：低收入家庭额外补助，Belastingdienst。",
         "`kinderopvangtoeslag`：托儿费用补贴，Belastingdienst。",
         "`ouderbijdrage`：学校活动费用，通常不是强制。"
+      ],
+      "guideSections": [
+        {
+          "title": "年龄阶段",
+          "points": [
+            "baby ｜ 0–1 jaar ｜ 婴儿",
+            "peuter ｜ 1–4 jaar ｜ 幼儿",
+            "kleuter ｜ 4–6 jaar ｜ 学龄前/小学低龄儿童",
+            "schoolkind ｜ 6–12 jaar ｜ 学龄儿童",
+            "puber ｜ 12–18 jaar ｜ 青春期青少年"
+          ]
+        },
+        {
+          "title": "怀孕、生产与婴幼儿保健",
+          "points": [
+            "verloskundige｜助产士，进行孕期检查和分娩指导。",
+            "gynaecoloog｜妇科/产科专科医生，出现医疗问题时由医院处理。",
+            "kraamzorg｜产后母婴家庭护理。",
+            "consultatiebureau｜为0—4岁儿童提供生长发育检查、育儿建议和疫苗接种。"
+          ]
+        },
+        {
+          "title": "儿童照护",
+          "points": [
+            "形式 ｜ 说明",
+            "oppas / gastouder ｜ 保姆或家庭式托育",
+            "kinderdagverblijf ｜ 日间托儿所，通常服务0—4岁儿童",
+            "buitenschoolse opvang (BSO) ｜ 校外托管，通常在放学前后照护4—12岁儿童",
+            "kinderopvangtoeslag ｜ 符合条件的家庭可申请的托育补贴"
+          ]
+        },
+        {
+          "title": "教育制度",
+          "points": [
+            "leerplicht｜义务教育。孩子从5岁起必须上学；4岁通常已经开始 basisschool。",
+            "vrijheid van onderwijs｜家长可以在法律框架内选择不同类型学校。",
+            "男孩和女孩接受相同教育，通常同班上课。",
+            "basisschool 有 groep 1–8；groep 8 后进入 middelbare school。",
+            "中学类型 ｜ 一般年限 ｜ 常见升学方向",
+            "VMBO ｜ 4 jaar ｜ MBO",
+            "HAVO ｜ 5 jaar ｜ HBO",
+            "VWO ｜ 6 jaar ｜ universiteit",
+            "ouderbijdrage 通常是学校活动的自愿家长缴费，不等同于强制学费。",
+            "speciaal onderwijs 为有特殊教育需求的儿童提供支持。",
+            "生病不能上学时，家长应及时通知学校；不得随意为了旅行让孩子缺课。"
+          ]
+        },
+        {
+          "title": "抚养责任与儿童安全",
+          "points": [
+            "opvoeding｜养育和教育孩子。",
+            "家长不能殴打孩子；怀疑虐待应寻求专业帮助或报告。",
+            "家长对未成年孩子的安全、上学和部分损害责任负有义务。",
+            "亲子问题可向 school、huisarts、consultatiebureau 或 jeugdhulp 咨询。"
+          ]
+        }
+      ],
+      "memoryHints": [
+        "de verloskundige → 助产士",
+        "het consultatiebureau → 儿童保健中心",
+        "de ontwikkeling → 发育/发展",
+        "de kinderopvang → 托儿服务",
+        "de kinderbijslag → 儿童津贴",
+        "de leerplicht → 义务教育"
       ],
       "keywords": [
         "de verloskundige",
@@ -698,7 +1083,7 @@ export const KNM_CONTENT = {
       "id": "werken-in-nederland",
       "chapter": 7,
       "title": "Werken in Nederland",
-      "zhTitle": "Werken in Nederland",
+      "zhTitle": "在荷兰工作",
       "color": "#d25f27",
       "summary": "工作可以带来收入、社交、学习和语言练习。工作形式包括志愿工作（`vrijwilligerswerk`）、临时工作（`tijdelijk werk`）、固定工作（`vast werk`）、灵活工作（`flexwerk`）、自己创业（`zelfstandig ondernemer`）、黑工（`zwart werk`，违法）。",
       "explanation": [
@@ -724,6 +1109,71 @@ export const KNM_CONTENT = {
         "`ontslag krijgen`：被解雇。",
         "`werkloos`：没有工作。",
         "`werkzoekende`：正在找工作。"
+      ],
+      "guideSections": [
+        {
+          "title": "工作类型",
+          "points": [
+            "vrijwilligerswerk ｜ 志愿工作 ｜ 通常无工资，但可积累经验",
+            "tijdelijk werk ｜ 临时工作 ｜ 有固定结束日期或短期合同",
+            "vast werk ｜ 长期/固定工作 ｜ 合同稳定性较高",
+            "flexwerk ｜ 灵活用工 ｜ 工作时间或合同较灵活",
+            "parttime / deeltijd ｜ 兼职 ｜ 每周工作时间较少",
+            "fulltime / voltijd ｜ 全职 ｜ 每周工作时间较多",
+            "zelfstandig ondernemer ｜ 个体经营者/企业主 ｜ 为自己工作并承担经营风险",
+            "zwart werk ｜ 不申报收入的非法工作 ｜ 不缴税，属于违法行为"
+          ]
+        },
+        {
+          "title": "求职流程",
+          "points": [
+            "1. Zoek een vacature.｜寻找招聘信息。",
+            "2. Lees de functie-eisen.｜阅读职位要求。",
+            "3. Stuur CV en sollicitatiebrief.｜发送简历和求职信。",
+            "4. Ga naar een sollicitatiegesprek.｜参加面试。",
+            "5. Bij aanname teken je een arbeidscontract.｜录用后签合同。",
+            "面试时要准时、穿着整洁、礼貌握手、看着对方，并准备说明自己的 kwaliteiten（优势） 和 motivatie（动机）。"
+          ]
+        },
+        {
+          "title": "合同、工资与工作权利",
+          "points": [
+            "arbeidsvoorwaarden｜工作条件：工资、工时、假期、试用期等。",
+            "proeftijd｜试用期。",
+            "cao｜某行业雇主和雇员之间的集体劳动协议。",
+            "bruto salaris｜税前工资；netto salaris｜实际到账工资。",
+            "loonstrook｜工资单；jaaropgave｜年度收入证明。",
+            "vakbond｜工会，代表和帮助劳动者。",
+            "ondernemingsraad (OR)｜企业职工委员会，参与部分公司决策。",
+            "Arbowet｜工作健康与安全相关法律。"
+          ]
+        },
+        {
+          "title": "失业与社会保障",
+          "points": [
+            "UWV 帮助失业者和部分劳动能力受限者，并管理多种雇员保险给付。",
+            "WW-uitkering｜失业保险给付，需要满足工作经历等条件，并通常有求职义务。",
+            "WIA-uitkering｜因长期疾病或残障导致劳动能力下降时可能适用。",
+            "bijstand｜没有其他足够收入或给付时的最低生活援助，由 gemeente 管理。",
+            "uitzendbureau｜劳务派遣/招聘机构，常提供临时工作。"
+          ]
+        },
+        {
+          "title": "职场沟通与歧视",
+          "points": [
+            "员工有 rechten en plichten（权利和义务）。",
+            "与同事或上司有问题时，应先平静沟通，再向 chef、HR、OR 或其他机构求助。",
+            "discriminatie is verboden｜就业歧视被禁止。"
+          ]
+        }
+      ],
+      "memoryHints": [
+        "solliciteren → 求职",
+        "de vacature → 职位空缺",
+        "het CV → 简历",
+        "de sollicitatiebrief → 求职信",
+        "het contract → 合同",
+        "de proeftijd → 试用期"
       ],
       "keywords": [
         "solliciteren",
@@ -814,7 +1264,7 @@ export const KNM_CONTENT = {
       "id": "samenleven-in-nederland",
       "chapter": 8,
       "title": "Samenleven in Nederland",
-      "zhTitle": "Samenleven in Nederland",
+      "zhTitle": "共同生活与社会价值",
       "color": "#8b5d33",
       "summary": "荷兰有不同家庭形式：独居、同居、结婚、有孩子、单亲家庭、同性伴侣。人们通常自己选择伴侣，也可以未婚同居。自 2001 年起，同性婚姻在荷兰合法。",
       "explanation": [
@@ -839,6 +1289,53 @@ export const KNM_CONTENT = {
         "`vrijheid`：自由，但要在法律内。",
         "`discriminatie`：基于背景、性别、宗教、国籍等不公平对待。",
         "`mishandeling`：虐待/伤害他人，违法。"
+      ],
+      "guideSections": [
+        {
+          "title": "家庭与关系形式",
+          "points": [
+            "人可以独居、同居、结婚，也可以离婚后组成新的家庭。",
+            "成年人通常自己选择伴侣。",
+            "同性伴侣在荷兰可以结婚，法律上享有平等权利。",
+            "单亲家庭、重组家庭和没有孩子的家庭都很常见。"
+          ]
+        },
+        {
+          "title": "平等、尊重与个人自由",
+          "points": [
+            "mannen en vrouwen zijn gelijk｜男女平等。",
+            "女性和男性可以接受相同教育、从事相同工作并共同作出家庭决定。",
+            "homoseksualiteit 在法律上被接受；不得因性取向歧视他人。",
+            "人们可以有不同宗教、生活方式和观点，但必须遵守法律并尊重他人权利。",
+            "遭遇歧视时，可以提出投诉、寻求反歧视机构帮助，严重时向警方报案。"
+          ]
+        },
+        {
+          "title": "禁止的行为",
+          "points": [
+            "verkrachting｜强奸，强迫他人发生性行为。",
+            "mishandeling / geweld｜虐待、暴力。",
+            "对儿童的身体暴力。",
+            "女性生殖器切割。",
+            "eergerelateerd geweld｜所谓“荣誉”相关暴力，同样违法。",
+            "与未达到法定同意年龄的人发生性行为可能构成严重犯罪；考试重点是“儿童受到法律保护”。"
+          ]
+        },
+        {
+          "title": "自主医疗决定",
+          "points": [
+            "原资料提到 abortus 和 euthanasie。KNM 重点是：这些问题受到严格法律和医疗程序约束，个人观点可以不同，但必须尊重法律和个人自主。",
+            "具体期限、条件和程序属于可能变化的法律信息，不宜只根据旧讲义死记数字。"
+          ]
+        }
+      ],
+      "memoryHints": [
+        "samenwonen → 同居",
+        "scheiden → 离婚",
+        "homoseksueel → 同性恋的",
+        "de gelijkheid → 平等",
+        "discriminatie → 歧视",
+        "geweld → 暴力"
       ],
       "keywords": [
         "samenwonen",
@@ -929,7 +1426,7 @@ export const KNM_CONTENT = {
       "id": "de-geschiedenis-van-nederland",
       "chapter": 9,
       "title": "De geschiedenis van Nederland",
-      "zhTitle": "De geschiedenis van Nederland",
+      "zhTitle": "荷兰历史",
       "color": "#2f6f8f",
       "summary": "荷兰历史从罗马人、低地国家、中世纪开始。中世纪多数人是农民，城市卫生差，寿命短。1568-1648 是八十年战争（`Tachtigjarige Oorlog`），荷兰反抗西班牙统治和宗教压迫。Willem van Oranje 是重要政治领袖，主张宗教自由，1584 年被杀；橙色因此成为荷兰象征之一。",
       "explanation": [
@@ -956,6 +1453,68 @@ export const KNM_CONTENT = {
         "`Bevrijdingsdag`：5 月 5 日，庆祝解放。",
         "`Gouden Eeuw`：17 世纪商业和艺术强盛时期。",
         "`Deltaplan`：1953 洪水后的防洪工程。"
+      ],
+      "guideSections": [
+        {
+          "title": "时间线",
+          "points": [
+            "时期/年份 ｜ 荷兰语知识 ｜ 中文重点",
+            "rond jaar 0 ｜ Romeinen; vroege steden zoals Maastricht en Utrecht ｜ 罗马人来到低地地区，早期城市发展",
+            "500–1500 ｜ de Middeleeuwen / de Lage Landen ｜ 中世纪；低地诸邦",
+            "1568–1648 ｜ de Tachtigjarige Oorlog ｜ 反抗西班牙统治的八十年战争",
+            "1584 ｜ Willem van Oranje werd doodgeschoten ｜ 奥兰治威廉被刺杀",
+            "1588 ｜ de Republiek der Zeven Verenigde Nederlanden ｜ 荷兰共和国形成",
+            "1648 ｜ Nederland werd onafhankelijk van Spanje ｜ 荷兰独立获得国际承认",
+            "17e eeuw ｜ de Gouden Eeuw: handel, VOC, kunst ｜ 黄金时代；贸易、殖民扩张与艺术",
+            "1814/1815 ｜ koninkrijk en grondwet ｜ 荷兰王国与宪法",
+            "1848 ｜ belangrijke grondwetsherziening; parlementaire democratie ｜ 宪法改革和议会民主发展",
+            "1917/1919 ｜ algemeen mannenkiesrecht; vrouwenkiesrecht ｜ 普遍男性选举权；女性选举权",
+            "1940–1945 ｜ Duitse bezetting en Tweede Wereldoorlog ｜ 德国占领与二战",
+            "4 en 5 mei ｜ Dodenherdenking / Bevrijdingsdag ｜ 纪念战争死难者 / 庆祝解放",
+            "1953 ｜ Watersnoodramp en Deltawerken ｜ 大洪灾与三角洲防洪工程",
+            "jaren 1960–1970 ｜ gastarbeiders uit o.a. Turkije en Marokko ｜ 外来劳工来到荷兰",
+            "2002 ｜ invoering van eurobankbiljetten en euromunten ｜ 欧元现金正式使用"
+          ]
+        },
+        {
+          "title": "Willem van Oranje",
+          "points": [
+            "他是反抗西班牙统治的重要政治领袖。",
+            "他主张一定程度的宗教宽容。",
+            "Oranje 成为荷兰王室和国家文化的重要象征，因此体育比赛和国王节常见橙色。"
+          ]
+        },
+        {
+          "title": "Gouden Eeuw 的双重理解",
+          "points": [
+            "17世纪荷兰因海上贸易、VOC和金融发展而富裕，艺术繁荣，留下许多运河房屋与名画。但这段财富也与殖民主义、奴隶贸易和不平等有关。KNM 可能考“handel”和“kunst”，理解历史时也应记住其负面面向。"
+          ]
+        },
+        {
+          "title": "Tweede Wereldoorlog 与 Holocaust",
+          "points": [
+            "1940年德国占领荷兰，鹿特丹遭轰炸。",
+            "犹太人受到迫害、被捕和送往集中营，Holocaust 造成约六百万犹太人被杀害。",
+            "Anne Frank 是在阿姆斯特丹躲藏的犹太女孩，她的日记成为重要历史见证；Achterhuis 现在是博物馆。",
+            "4 mei 晚8点默哀两分钟；5 mei 庆祝解放。"
+          ]
+        },
+        {
+          "title": "战后社会",
+          "points": [
+            "战后重建和福利国家发展，AOW 为达到法定年龄者提供基础养老金。",
+            "荷兰加强与欧洲国家合作，后来成为欧盟成员并使用欧元。",
+            "1953年洪灾后建设 Deltawerken，提高防洪能力。"
+          ]
+        }
+      ],
+      "memoryHints": [
+        "de eeuw → 世纪",
+        "de Middeleeuwen → 中世纪",
+        "de oorlog → 战争",
+        "bevrijden → 解放",
+        "onderduiken → 躲藏",
+        "de grondwet → 宪法"
       ],
       "keywords": [
         "de eeuw",
@@ -1046,7 +1605,7 @@ export const KNM_CONTENT = {
       "id": "politiek-in-nederland",
       "chapter": 10,
       "title": "Politiek in Nederland",
-      "zhTitle": "Politiek in Nederland",
+      "zhTitle": "荷兰政治",
       "color": "#8a4f93",
       "summary": "荷兰是王国（`koninkrijk`）和民主国家（`democratie`）。荷兰王国包括荷兰、Aruba、Curacao、Sint Maarten。国王象征性强，实际政治权力有限；议会和部长决定政策。`Prinsjesdag` 是每年 9 月国王宣读 `troonrede` 的日子，说明政府计划。",
       "explanation": [
@@ -1073,6 +1632,84 @@ export const KNM_CONTENT = {
         "`Eerste Kamer`：75 人，审查法案。",
         "`kabinet`：部长和国务秘书。",
         "`parlement`：Eerste Kamer + Tweede Kamer。"
+      ],
+      "guideSections": [
+        {
+          "title": "国家制度与政府",
+          "points": [
+            "荷兰是 een constitutionele monarchie（君主立宪制） 和 een parlementaire democratie（议会民主制）。",
+            "de regering 由国王和部长组成。",
+            "het kabinet 由部长和国务秘书组成。",
+            "de minister-president 领导内阁的政治工作。现任人物会变化，重点记职能。",
+            "国王主要承担国家元首和礼仪性职责，政治决定由民选议会、政府及法律程序完成。"
+          ]
+        },
+        {
+          "title": "Parlement",
+          "points": [
+            "机构 ｜ 人数 ｜ 主要作用",
+            "Tweede Kamer ｜ 150 leden ｜ 直接选举；审议法律、修改提案、监督政府",
+            "Eerste Kamer ｜ 75 leden ｜ 间接选举；对已经通过的法案作最终审议，不能修改法案",
+            "Parlement ｜ Eerste + Tweede Kamer ｜ 立法与监督体系的重要组成部分",
+            "法律形成的简化流程： voorstel → Tweede Kamer → Eerste Kamer → bekrachtiging en publicatie。"
+          ]
+        },
+        {
+          "title": "地方与欧洲层级",
+          "points": [
+            "层级 ｜ 议会/代表机构 ｜ 行政负责人或机构",
+            "Gemeente ｜ gemeenteraad ｜ burgemeester en wethouders",
+            "Provincie ｜ Provinciale Staten ｜ Gedeputeerde Staten; commissaris van de Koning",
+            "Waterschap ｜ algemeen bestuur ｜ 负责水管理",
+            "Europese Unie ｜ Europees Parlement ｜ 欧盟层面多机构共同决策",
+            "选举周期和投票资格因选举类型而不同。常见考试记忆：Tweede Kamer、gemeenteraad、Provinciale Staten、waterschap 通常每4年；Europees Parlement 每5年。"
+          ]
+        },
+        {
+          "title": "选举概念",
+          "points": [
+            "actief kiesrecht｜自己投票的权利。",
+            "passief kiesrecht｜作为候选人被选举的权利。",
+            "stembiljet｜选票；stembureau｜投票站；uitslag｜选举结果。",
+            "lijsttrekker｜政党的首席候选人。",
+            "zetel｜议会席位。",
+            "多个政党通常通过谈判组成 coalitie（执政联盟），没有参加政府的党派构成 oppositie（反对党）。"
+          ]
+        },
+        {
+          "title": "左右、进步与保守",
+          "points": [
+            "links / rechts 常围绕财富分配、税收、政府责任和市场作用。",
+            "progressief / conservatief 常围绕社会文化变化、传统与个人自由。",
+            "政党立场会改变，考试更重视理解概念，而不是死记某党一条固定标签。"
+          ]
+        },
+        {
+          "title": "Grondwet 与三权分立",
+          "points": [
+            "grondwet 保护基本权利，例如平等、宗教自由、言论自由和教育自由。",
+            "discriminatie is verboden｜歧视被禁止。",
+            "uitvoerende macht｜行政权：政府执行法律。",
+            "wetgevende macht｜立法权：政府与议会共同参与制定法律。",
+            "rechterlijke macht｜司法权：独立法官依法裁判。",
+            "scheiding der machten 的核心是权力相互独立和制衡，政府不能命令法官如何判决。"
+          ]
+        },
+        {
+          "title": "民主参与",
+          "points": [
+            "公民可以投票、表达意见、请愿、和平示威和罢工，但必须遵守法律。",
+            "demonstreren｜示威；staken｜罢工；handtekeningen verzamelen｜收集签名。"
+          ]
+        }
+      ],
+      "memoryHints": [
+        "de regering → 政府",
+        "het kabinet → 内阁",
+        "het parlement → 议会",
+        "stemmen → 投票",
+        "de verkiezing → 选举",
+        "de zetel → 席位"
       ],
       "keywords": [
         "de regering",

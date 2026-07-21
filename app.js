@@ -576,7 +576,8 @@ function renderLessonFilters() {
 }
 
 function renderLessons() {
-  $$(".filter-chip").forEach((chip) => chip.classList.toggle("is-active", chip.dataset.topic === state.activeTopic));
+  $$("#lessonFilters .filter-chip").forEach((chip) => chip.classList.toggle("is-active", chip.dataset.topic === state.activeTopic));
+  renderTopicFocus(getTopic(state.activeTopic));
   const currentFirst = [getTopic(state.activeTopic), ...topics.filter((topic) => topic.id !== state.activeTopic)];
   $("#lessonGrid").innerHTML = currentFirst
     .map(
@@ -620,6 +621,60 @@ function renderLessons() {
       showView("practice");
     });
   });
+}
+
+function renderTopicFocus(topic) {
+  const guideSections = topic.guideSections || [];
+  const memoryHints = topic.memoryHints || [];
+  $("#topicFocus").innerHTML = `
+    <div class="topic-focus-head" style="--topic-color: ${topic.color}">
+      <div>
+        <p class="eyebrow">Hoofdstuk ${topic.chapter}</p>
+        <h2>${topic.title}</h2>
+        <p>${topic.zhTitle}</p>
+      </div>
+      <div class="topic-focus-actions">
+        <span class="pill">${topicQuestions(topic.id).length} 道题</span>
+        <span class="pill">${topicWords(topic.id).length} 个词</span>
+        <button class="primary-action" data-practice-topic="${topic.id}" type="button">练这个主题</button>
+      </div>
+    </div>
+    <div class="topic-study-layout">
+      <div class="topic-study-main">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow">Core Knowledge</p>
+            <h3>核心知识解析</h3>
+          </div>
+        </div>
+        <div class="study-section-list">
+          ${guideSections
+            .map(
+              (section, index) => `
+                <details class="study-section" ${index < 2 ? "open" : ""}>
+                  <summary>${section.title}</summary>
+                  <ul>
+                    ${section.points.map((point) => `<li>${point}</li>`).join("")}
+                  </ul>
+                </details>
+              `,
+            )
+            .join("")}
+        </div>
+      </div>
+      <aside class="topic-memory">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow">Memory Hooks</p>
+            <h3>看到关键词就联想</h3>
+          </div>
+        </div>
+        <ul>
+          ${memoryHints.map((item) => `<li>${item}</li>`).join("")}
+        </ul>
+      </aside>
+    </div>
+  `;
 }
 
 function renderTopicSelect() {

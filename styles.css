@@ -390,6 +390,7 @@ h3 {
 .study-path p,
 .exam-note p,
 .lesson-card p,
+.topic-focus p,
 .quiz-side p,
 .feedback p {
   color: var(--muted);
@@ -403,6 +404,81 @@ h3 {
 
 .lesson-grid {
   grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+.topic-focus {
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.94);
+  box-shadow: 0 12px 34px rgba(21, 40, 50, 0.06);
+  padding: clamp(18px, 3vw, 28px);
+}
+
+.topic-focus-head {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 18px;
+  border-bottom: 1px solid var(--line);
+  padding-bottom: 18px;
+}
+
+.topic-focus-head h2 {
+  margin-bottom: 6px;
+  color: var(--topic-color);
+  font-size: clamp(26px, 4vw, 40px);
+}
+
+.topic-focus-actions {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  gap: 10px;
+}
+
+.topic-study-layout {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(260px, 0.36fr);
+  gap: 18px;
+  margin-top: 20px;
+}
+
+.study-section-list {
+  display: grid;
+  gap: 10px;
+}
+
+.study-section {
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: #fff;
+  overflow: hidden;
+}
+
+.study-section summary {
+  cursor: pointer;
+  padding: 13px 14px;
+  color: var(--teal-dark);
+  font-weight: 800;
+}
+
+.study-section ul,
+.topic-memory ul {
+  display: grid;
+  gap: 8px;
+  margin: 0;
+  padding: 0 16px 16px 34px;
+  color: #344750;
+  line-height: 1.55;
+}
+
+.topic-memory {
+  border-left: 1px solid var(--line);
+  padding-left: 18px;
+}
+
+.topic-memory ul {
+  padding-left: 20px;
 }
 
 .lesson-card {
@@ -785,8 +861,24 @@ footer {
   .word-grid,
   .grammar-layout,
   .grammar-grid,
+  .topic-study-layout,
   .review-grid {
     grid-template-columns: 1fr;
+  }
+
+  .topic-focus-head {
+    display: grid;
+  }
+
+  .topic-focus-actions {
+    justify-content: flex-start;
+  }
+
+  .topic-memory {
+    border-left: 0;
+    border-top: 1px solid var(--line);
+    padding-left: 0;
+    padding-top: 18px;
   }
 
   .quiz-side {

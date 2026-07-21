@@ -21,6 +21,7 @@ node scripts/import-knm-content.mjs
 ```
 
 The importer also reads `/Users/sherrypan/Downloads/KNM_study_guide_CN_NL.md` when present, adding guide vocabulary, 80 guide questions, grammar cards, and the one-page pre-exam cheat sheet.
+The theme lesson page uses the guide chapters to show expanded core-knowledge sections and memory hooks for each KNM topic.
 
 ## Notes
 
