@@ -1218,12 +1218,12 @@ export const KNM_CONTENT = {
                   {
                     "type": "list",
                     "items": [
-                      "Er wonen ongeveer 17,5 miljoen mensen in Nederland."
+                      "Er wonen ongeveer 18,1 miljoen mensen in Nederland."
                     ]
                   },
                   {
                     "type": "paragraph",
-                    "text": "荷兰当前总人口约 1750 万人（基于 2026 年 CBS 实时人口计数器的预估数据；该数字会随时间变化）。"
+                    "text": "荷兰本土人口约 1814.1 万人（荷兰统计局 CBS，2026 年 3 月数据；该数字会随时间变化）。"
                   },
                   {
                     "type": "list",
