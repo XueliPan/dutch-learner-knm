@@ -22,6 +22,7 @@ node scripts/import-knm-content.mjs
 
 The importer also reads `/Users/sherrypan/Downloads/KNM_study_guide_CN_NL.md` when present, adding guide vocabulary, 80 guide questions, grammar cards, and the one-page pre-exam cheat sheet.
 The theme lesson page uses the guide chapters to show expanded core-knowledge sections and memory hooks for each KNM topic.
+The importer also supports the pilot full-study document `/Users/sherrypan/Downloads/KNM_Hoofdstuk_1_studieversie_CN_NL.md`, preserving all 22 knowledge units, tables, image references, vocabulary, common mistakes, and chapter cheat sheets for the `Nederland leren kennen` theme.
 
 ## Notes
 

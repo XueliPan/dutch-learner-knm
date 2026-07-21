@@ -498,6 +498,10 @@ function escapeHtml(value) {
     .replace(/"/g, "&quot;");
 }
 
+function renderText(value) {
+  return escapeHtml(value).replace(/\n/g, "<br>");
+}
+
 function checkQuestionAnswer(question, response) {
   if (question.type === "short") {
     const submitted = normalizeAnswer(response);
@@ -674,6 +678,143 @@ function renderTopicFocus(topic) {
         </ul>
       </aside>
     </div>
+    ${topic.fullStudy ? renderFullStudy(topic.fullStudy) : ""}
+  `;
+}
+
+function renderFullStudy(study) {
+  const units = study.parts.flatMap((part) => part.units);
+  return `
+    <section class="full-study-panel">
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow">Pilot Full Chapter</p>
+          <h3>第 1 章完整学习页</h3>
+          <p>${units.length} 个知识单元，${study.imageCount} 张图片引用，${study.vocabulary.length} 个核心词。</p>
+        </div>
+      </div>
+      ${
+        study.goals?.length
+          ? `<div class="learning-goals"><strong>本章学习目标</strong><ol>${study.goals.map((goal) => `<li>${renderText(goal)}</li>`).join("")}</ol></div>`
+          : ""
+      }
+      <div class="full-study-parts">
+        ${study.parts.map((part, index) => renderFullStudyPart(part, index)).join("")}
+      </div>
+      ${renderFullStudyVocabulary(study)}
+      ${renderCommonMistakes(study)}
+      ${renderChapterCheatSheet(study)}
+    </section>
+  `;
+}
+
+function renderFullStudyPart(part, index) {
+  return `
+    <details class="full-study-part" ${index === 0 ? "open" : ""}>
+      <summary>${renderText(part.title)} <span>${part.units.length} 个知识单元</span></summary>
+      <div class="full-study-units">
+        ${part.units.map((unit, unitIndex) => renderFullStudyUnit(unit, index === 0 && unitIndex === 0)).join("")}
+      </div>
+    </details>
+  `;
+}
+
+function renderFullStudyUnit(unit, open = false) {
+  return `
+    <details class="unit-card" ${open ? "open" : ""}>
+      <summary><span>${unit.number}</span>${renderText(unit.title)}</summary>
+      <div class="unit-content">
+        ${unit.blocks.map(renderStudyBlock).join("")}
+      </div>
+    </details>
+  `;
+}
+
+function renderStudyBlock(block) {
+  if (block.type === "subheading") return `<h4>${renderText(block.text)}</h4>`;
+  if (block.type === "paragraph") return `<p>${renderText(block.text)}</p>`;
+  if (block.type === "quote") return `<blockquote>${renderText(block.text)}</blockquote>`;
+  if (block.type === "list") return `<ul>${(block.items || []).map((item) => `<li>${renderText(item)}</li>`).join("")}</ul>`;
+  if (block.type === "orderedList") return `<ol>${(block.items || []).map((item) => `<li>${renderText(item)}</li>`).join("")}</ol>`;
+  if (block.type === "table") {
+    return `
+      <div class="study-table-wrap">
+        <table class="study-table">
+          <thead><tr>${(block.headers || []).map((header) => `<th>${renderText(header)}</th>`).join("")}</tr></thead>
+          <tbody>
+            ${(block.rows || []).map((row) => `<tr>${row.map((cell) => `<td>${renderText(cell)}</td>`).join("")}</tr>`).join("")}
+          </tbody>
+        </table>
+      </div>
+    `;
+  }
+  if (block.type === "image") {
+    return `
+      <figure class="study-image ${block.missing ? "is-missing" : ""}">
+        ${
+          block.missing
+            ? `<div class="image-placeholder"><strong>${renderText(block.alt || "图片")}</strong><span>${renderText(block.originalSrc)}</span></div>`
+            : `<img src="${renderText(block.src)}" alt="${renderText(block.alt)}" loading="lazy" />`
+        }
+        <figcaption>${renderText(block.alt || block.originalSrc)}</figcaption>
+      </figure>
+    `;
+  }
+  return "";
+}
+
+function renderFullStudyVocabulary(study) {
+  if (!study.vocabulary?.length) return "";
+  return `
+    <details class="full-study-extra">
+      <summary>本章核心词汇表 <span>${study.vocabulary.length} 个词</span></summary>
+      <div class="study-table-wrap">
+        <table class="study-table">
+          <thead><tr><th>荷兰语</th><th>中文</th><th>例句或记忆</th></tr></thead>
+          <tbody>
+            ${study.vocabulary.map((item) => `<tr><td>${renderText(item.word)}</td><td>${renderText(item.meaning)}</td><td>${renderText(item.example)}</td></tr>`).join("")}
+          </tbody>
+        </table>
+      </div>
+    </details>
+  `;
+}
+
+function renderCommonMistakes(study) {
+  if (!study.commonMistakes?.length) return "";
+  return `
+    <details class="full-study-extra">
+      <summary>容易出错的原句与正确表达 <span>${study.commonMistakes.length} 条</span></summary>
+      <div class="study-table-wrap">
+        <table class="study-table">
+          <thead><tr><th>原资料表达</th><th>建议表达</th><th>中文</th></tr></thead>
+          <tbody>
+            ${study.commonMistakes.map((item) => `<tr><td>${renderText(item.original)}</td><td>${renderText(item.corrected)}</td><td>${renderText(item.meaning)}</td></tr>`).join("")}
+          </tbody>
+        </table>
+      </div>
+    </details>
+  `;
+}
+
+function renderChapterCheatSheet(study) {
+  if (!study.cheatSheet?.length) return "";
+  return `
+    <details class="full-study-extra">
+      <summary>第 1 章一页速记 <span>${study.cheatSheet.reduce((total, section) => total + section.items.length, 0)} 条</span></summary>
+      <div class="chapter-cheat-grid">
+        ${study.cheatSheet
+          .map(
+            (section) => `
+              <article class="chapter-cheat-card">
+                <strong>${renderText(section.title)}</strong>
+                <ul>${section.items.map((item) => `<li>${renderText(item)}</li>`).join("")}</ul>
+              </article>
+            `,
+          )
+          .join("")}
+      </div>
+    </details>
   `;
 }
 

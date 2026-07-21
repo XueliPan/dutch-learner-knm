@@ -82,6 +82,2303 @@ export const KNM_CONTENT = {
         "dijk / Deltawerken → beschermen tegen water",
         "polder → land dat vroeger water was"
       ],
+      "fullStudy": {
+        "title": "KNM 学习手册：Hoofdstuk 1 - Nederland leren kennen",
+        "chapter": 1,
+        "goals": [
+          "荷兰位于哪里？有哪些邻国？",
+          "荷兰有多少个省？Randstad 指哪里？",
+          "Amsterdam、Rotterdam、Den Haag 和 Utrecht 各有什么特点？",
+          "为什么荷兰被称为低地国家和水之国？",
+          "荷兰的天气和四季有什么特点？",
+          "荷兰人口、移民和语言有哪些基本情况？",
+          "荷兰是君主制国家还是共和国？它的民主制度是什么？",
+          "荷兰的宗教、星期日习惯和欧盟成员身份有哪些基本知识？"
+        ],
+        "parts": [
+          {
+            "title": "第一部分：地理位置与国土大小",
+            "units": [
+              {
+                "number": 1,
+                "title": "Nederland ligt in Europa",
+                "blocks": [
+                  {
+                    "type": "subheading",
+                    "level": 3,
+                    "text": "原句"
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "Nederland ligt in Europa. Aan de Noordzee."
+                  },
+                  {
+                    "type": "subheading",
+                    "level": 3,
+                    "text": "中文"
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "荷兰位于欧洲，濒临北海。"
+                  },
+                  {
+                    "type": "subheading",
+                    "level": 3,
+                    "text": "重点词汇"
+                  },
+                  {
+                    "type": "table",
+                    "headers": [
+                      "荷兰语",
+                      "中文",
+                      "说明"
+                    ],
+                    "rows": [
+                      [
+                        "Nederland",
+                        "荷兰",
+                        "国家名称"
+                      ],
+                      [
+                        "liggen",
+                        "位于、坐落",
+                        "Nederland ligt... = 荷兰位于……"
+                      ],
+                      [
+                        "Europa",
+                        "欧洲",
+                        "in Europa = 在欧洲"
+                      ],
+                      [
+                        "de Noordzee",
+                        "北海",
+                        "aan de Noordzee = 位于北海沿岸"
+                      ]
+                    ]
+                  },
+                  {
+                    "type": "image",
+                    "alt": "荷兰在欧洲的位置",
+                    "src": "assets/lesson-media/hoofdstuk-1/kaart_nederland_in_europa.png",
+                    "originalSrc": "KNM_Hoofdstuk_1_assets/kaart_nederland_in_europa.png",
+                    "missing": true
+                  }
+                ]
+              },
+              {
+                "number": 2,
+                "title": "Buurlanden：荷兰的邻国",
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "Buurlanden: Duitsland (oosten), België (zuiden)."
+                  },
+                  {
+                    "type": "table",
+                    "headers": [
+                      "国家",
+                      "方向",
+                      "完整句子",
+                      "中文"
+                    ],
+                    "rows": [
+                      [
+                        "Duitsland",
+                        "oosten",
+                        "Duitsland ligt ten oosten van Nederland.",
+                        "德国位于荷兰东边。"
+                      ],
+                      [
+                        "België",
+                        "zuiden",
+                        "België ligt ten zuiden van Nederland.",
+                        "比利时位于荷兰南边。"
+                      ]
+                    ]
+                  },
+                  {
+                    "type": "subheading",
+                    "level": 3,
+                    "text": "记忆"
+                  },
+                  {
+                    "type": "list",
+                    "items": [
+                      "oost / oosten = 东 / 东边",
+                      "zuid / zuiden = 南 / 南边",
+                      "buurland = 邻国",
+                      "buurlanden = 邻国（复数）"
+                    ]
+                  }
+                ]
+              },
+              {
+                "number": 3,
+                "title": "荷兰的面积和长度",
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "根据教材："
+                  },
+                  {
+                    "type": "list",
+                    "items": [
+                      "Nederland is ongeveer 40.000 km² groot."
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "荷兰面积约 4 万平方公里，是一个小国。"
+                  },
+                  {
+                    "type": "list",
+                    "items": [
+                      "China is ongeveer 240 keer groter."
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "中国约为荷兰的 240 倍。"
+                  },
+                  {
+                    "type": "list",
+                    "items": [
+                      "Turkije is ongeveer 19 keer groter."
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "土耳其约为荷兰的 19 倍。"
+                  },
+                  {
+                    "type": "list",
+                    "items": [
+                      "Van noord naar zuid is Nederland ongeveer 300 kilometer lang."
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "荷兰从北到南约 300 公里。"
+                  },
+                  {
+                    "type": "list",
+                    "items": [
+                      "Van oost naar west is Nederland ongeveer 180 kilometer breed."
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "荷兰从东到西约 180 公里。"
+                  },
+                  {
+                    "type": "subheading",
+                    "level": 3,
+                    "text": "重点表达"
+                  },
+                  {
+                    "type": "table",
+                    "headers": [
+                      "表达",
+                      "中文"
+                    ],
+                    "rows": [
+                      [
+                        "40.000 km² groot",
+                        "面积为 4 万平方公里"
+                      ],
+                      [
+                        "een klein land",
+                        "一个小国"
+                      ],
+                      [
+                        "240 keer groter",
+                        "大 240 倍"
+                      ],
+                      [
+                        "van noord naar zuid",
+                        "从北向南"
+                      ],
+                      [
+                        "van oost naar west",
+                        "从东向西"
+                      ],
+                      [
+                        "kilometer lang",
+                        "长……公里"
+                      ],
+                      [
+                        "kilometer breed",
+                        "宽……公里"
+                      ]
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "title": "第二部分：省份与 Randstad",
+            "units": [
+              {
+                "number": 4,
+                "title": "Nederland heeft 12 provincies",
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "Nederland heeft 12 provincies."
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "荷兰有 12 个省。"
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "Iedere provincie heeft een eigen hoofdstad."
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "每个省都有自己的省会。"
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "教材中的例子："
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "De hoofdstad van Noord-Brabant is Den Bosch."
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "北布拉班特省的省会是 Den Bosch。"
+                  },
+                  {
+                    "type": "quote",
+                    "text": "hoofdstad 既可以表示国家首都，也可以表示省会。具体意思要根据上下文判断。"
+                  },
+                  {
+                    "type": "image",
+                    "alt": "荷兰12省地图",
+                    "src": "assets/lesson-media/hoofdstuk-1/kaart_12_provincies.png",
+                    "originalSrc": "KNM_Hoofdstuk_1_assets/kaart_12_provincies.png",
+                    "missing": true
+                  },
+                  {
+                    "type": "subheading",
+                    "level": 3,
+                    "text": "12 个省份名称"
+                  },
+                  {
+                    "type": "orderedList",
+                    "items": [
+                      "Groningen",
+                      "Friesland",
+                      "Drenthe",
+                      "Overijssel",
+                      "Flevoland",
+                      "Gelderland",
+                      "Utrecht",
+                      "Noord-Holland",
+                      "Zuid-Holland",
+                      "Zeeland",
+                      "Noord-Brabant",
+                      "Limburg"
+                    ]
+                  }
+                ]
+              },
+              {
+                "number": 5,
+                "title": "De Randstad：兰斯塔德城市群",
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "In het westen van Nederland liggen de vier grootste steden. Dit gebied heet de Randstad."
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "荷兰西部坐落着四个最大的城市，这一地区称为 Randstad（兰斯塔德城市群）。"
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "De Randstad is druk. Er wonen veel mensen."
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "Randstad 很繁忙，居住人口很多。"
+                  },
+                  {
+                    "type": "image",
+                    "alt": "Randstad地图",
+                    "src": "assets/lesson-media/hoofdstuk-1/kaart_randstad.png",
+                    "originalSrc": "KNM_Hoofdstuk_1_assets/kaart_randstad.png",
+                    "missing": true
+                  },
+                  {
+                    "type": "subheading",
+                    "level": 3,
+                    "text": "Randstad 的四大城市"
+                  },
+                  {
+                    "type": "table",
+                    "headers": [
+                      "城市",
+                      "教材知识点",
+                      "中文理解"
+                    ],
+                    "rows": [
+                      [
+                        "Amsterdam",
+                        "hoofdstad van Nederland",
+                        "荷兰首都"
+                      ],
+                      [
+                        "minder dan 1 miljoen inwoners",
+                        "教材表述：人口少于 100 万"
+                      ],
+                      [
+                        "Schiphol is het grootste vliegveld",
+                        "Schiphol 是最大的机场"
+                      ],
+                      [
+                        "Rotterdam",
+                        "de grootste haven van Europa",
+                        "欧洲最大的港口"
+                      ],
+                      [
+                        "Europoort = ingang van Europa",
+                        "Europoort 意为“欧洲的入口”"
+                      ],
+                      [
+                        "Den Haag",
+                        "de regering van Nederland",
+                        "荷兰政府所在地"
+                      ],
+                      [
+                        "Utrecht",
+                        "de Domtoren is meer dan 700 jaar oud",
+                        "Domtoren 有 700 多年历史"
+                      ],
+                      [
+                        "de Domtoren is 112 meter hoog",
+                        "Domtoren 高 112 米"
+                      ]
+                    ]
+                  },
+                  {
+                    "type": "subheading",
+                    "level": 3,
+                    "text": "高频词汇"
+                  },
+                  {
+                    "type": "table",
+                    "headers": [
+                      "荷兰语",
+                      "中文"
+                    ],
+                    "rows": [
+                      [
+                        "de hoofdstad",
+                        "首都、省会"
+                      ],
+                      [
+                        "het vliegveld",
+                        "机场"
+                      ],
+                      [
+                        "de haven",
+                        "港口"
+                      ],
+                      [
+                        "de regering",
+                        "政府"
+                      ],
+                      [
+                        "de Domtoren",
+                        "乌得勒支主教座堂塔"
+                      ],
+                      [
+                        "oud",
+                        "年老的、有……年历史"
+                      ],
+                      [
+                        "hoog",
+                        "高的"
+                      ],
+                      [
+                        "de ingang",
+                        "入口"
+                      ],
+                      [
+                        "de inwoner",
+                        "居民"
+                      ]
+                    ]
+                  }
+                ]
+              },
+              {
+                "number": 6,
+                "title": "Randstad 的生活特点",
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "教材概括的 Randstad 特点如下："
+                  },
+                  {
+                    "type": "subheading",
+                    "level": 3,
+                    "text": "工作与设施"
+                  },
+                  {
+                    "type": "list",
+                    "items": [
+                      "In de Randstad is het makkelijk om werk te vinden."
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "在 Randstad 比较容易找到工作。"
+                  },
+                  {
+                    "type": "list",
+                    "items": [
+                      "Er zijn altijd winkels, scholen en ziekenhuizen in de buurt."
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "附近通常有商店、学校和医院。"
+                  },
+                  {
+                    "type": "subheading",
+                    "level": 3,
+                    "text": "交通"
+                  },
+                  {
+                    "type": "list",
+                    "items": [
+                      "Je kunt makkelijk met de bus en de trein reizen."
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "可以方便地乘公交车和火车出行。"
+                  },
+                  {
+                    "type": "list",
+                    "items": [
+                      "Er zijn veel snelwegen."
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "有许多高速公路。"
+                  },
+                  {
+                    "type": "list",
+                    "items": [
+                      "Er zijn veel flats en veel auto's."
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "有很多公寓楼和汽车。"
+                  },
+                  {
+                    "type": "list",
+                    "items": [
+                      "Er staat vaak file."
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "经常堵车。"
+                  },
+                  {
+                    "type": "list",
+                    "items": [
+                      "Daarom gaan veel mensen met de fiets naar het werk."
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "因此很多人骑自行车上班。"
+                  },
+                  {
+                    "type": "subheading",
+                    "level": 3,
+                    "text": "重点词汇"
+                  },
+                  {
+                    "type": "table",
+                    "headers": [
+                      "荷兰语",
+                      "中文"
+                    ],
+                    "rows": [
+                      [
+                        "in de buurt",
+                        "在附近"
+                      ],
+                      [
+                        "makkelijk",
+                        "容易的、方便的"
+                      ],
+                      [
+                        "de snelweg",
+                        "高速公路"
+                      ],
+                      [
+                        "de flat",
+                        "公寓楼"
+                      ],
+                      [
+                        "de file",
+                        "交通堵塞"
+                      ],
+                      [
+                        "met de fiets",
+                        "骑自行车"
+                      ],
+                      [
+                        "naar het werk",
+                        "去上班"
+                      ]
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "title": "第三部分：荷兰是水之国与低地国家",
+            "units": [
+              {
+                "number": 7,
+                "title": "20% van Nederland is water",
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "教材知识点："
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "Ongeveer 20% van Nederland is water."
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "荷兰约有 20% 的面积是水域。"
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "Veel kinderen leren zwemmen als ze ongeveer vijf jaar oud zijn."
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "许多孩子大约五岁时开始学习游泳。"
+                  },
+                  {
+                    "type": "quote",
+                    "text": "学习重点不是精确年龄，而是理解：荷兰水域多，因此游泳是一项重要的生活技能。"
+                  },
+                  {
+                    "type": "image",
+                    "alt": "荷兰水域与低地示意图",
+                    "src": "assets/lesson-media/hoofdstuk-1/kaart_waterland.png",
+                    "originalSrc": "KNM_Hoofdstuk_1_assets/kaart_waterland.png",
+                    "missing": true
+                  }
+                ]
+              },
+              {
+                "number": 8,
+                "title": "Rivieren：主要河流",
+                "blocks": [
+                  {
+                    "type": "subheading",
+                    "level": 3,
+                    "text": "De Rijn"
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "De Rijn komt uit Zwitserland."
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "莱茵河来自瑞士。"
+                  },
+                  {
+                    "type": "subheading",
+                    "level": 3,
+                    "text": "De Maas"
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "De Maas komt uit Frankrijk."
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "马斯河来自法国。"
+                  },
+                  {
+                    "type": "table",
+                    "headers": [
+                      "荷兰语",
+                      "中文"
+                    ],
+                    "rows": [
+                      [
+                        "de rivier",
+                        "河流"
+                      ],
+                      [
+                        "de Rijn",
+                        "莱茵河"
+                      ],
+                      [
+                        "de Maas",
+                        "马斯河"
+                      ],
+                      [
+                        "komen uit",
+                        "来自、发源于"
+                      ],
+                      [
+                        "Zwitserland",
+                        "瑞士"
+                      ],
+                      [
+                        "Frankrijk",
+                        "法国"
+                      ]
+                    ]
+                  }
+                ]
+              },
+              {
+                "number": 9,
+                "title": "Het IJsselmeer en de Afsluitdijk",
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "教材解释："
+                  },
+                  {
+                    "type": "list",
+                    "items": [
+                      "这一片水域以前与海相连。",
+                      "建造 Afsluitdijk 后，海湾被封闭，形成了 IJsselmeer。",
+                      "Het IJsselmeer is het grootste meer van Nederland."
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "艾瑟尔湖是荷兰最大的湖。"
+                  },
+                  {
+                    "type": "subheading",
+                    "level": 3,
+                    "text": "重点词汇"
+                  },
+                  {
+                    "type": "table",
+                    "headers": [
+                      "荷兰语",
+                      "中文"
+                    ],
+                    "rows": [
+                      [
+                        "het meer",
+                        "湖"
+                      ],
+                      [
+                        "de zee",
+                        "海"
+                      ],
+                      [
+                        "de dijk",
+                        "堤坝"
+                      ],
+                      [
+                        "dichtmaken",
+                        "封闭、封起来"
+                      ],
+                      [
+                        "de Afsluitdijk",
+                        "拦海大坝"
+                      ],
+                      [
+                        "het IJsselmeer",
+                        "艾瑟尔湖"
+                      ],
+                      [
+                        "het grootste meer",
+                        "最大的湖"
+                      ]
+                    ]
+                  }
+                ]
+              },
+              {
+                "number": 10,
+                "title": "De Waddenzee en de Waddeneilanden",
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "De Waddenzee ligt in het noorden van Nederland."
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "瓦登海位于荷兰北部。"
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "瓦登群岛可以用口诀 TV TAS 记忆："
+                  },
+                  {
+                    "type": "table",
+                    "headers": [
+                      "字母",
+                      "岛屿"
+                    ],
+                    "rows": [
+                      [
+                        "T",
+                        "Texel"
+                      ],
+                      [
+                        "V",
+                        "Vlieland"
+                      ],
+                      [
+                        "T",
+                        "Terschelling"
+                      ],
+                      [
+                        "A",
+                        "Ameland"
+                      ],
+                      [
+                        "S",
+                        "Schiermonnikoog"
+                      ]
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "完整顺序："
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "Texel - Vlieland - Terschelling - Ameland - Schiermonnikoog"
+                  },
+                  {
+                    "type": "subheading",
+                    "level": 3,
+                    "text": "高频词汇"
+                  },
+                  {
+                    "type": "table",
+                    "headers": [
+                      "荷兰语",
+                      "中文"
+                    ],
+                    "rows": [
+                      [
+                        "het eiland",
+                        "岛"
+                      ],
+                      [
+                        "de eilanden",
+                        "岛屿"
+                      ],
+                      [
+                        "de Waddenzee",
+                        "瓦登海"
+                      ],
+                      [
+                        "de Waddeneilanden",
+                        "瓦登群岛"
+                      ]
+                    ]
+                  }
+                ]
+              },
+              {
+                "number": 11,
+                "title": "Polder：圩田、围海造地",
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "Een polder is land dat vroeger water was."
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "Polder 是以前为水域、后来通过排水和堤坝变成的陆地。"
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "教材例子："
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "Flevoland is een voorbeeld van een poldergebied."
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "Flevoland 是圩田地区的例子。"
+                  },
+                  {
+                    "type": "subheading",
+                    "level": 3,
+                    "text": "记忆"
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "polder 不等同于普通农田。它的核心含义是："
+                  },
+                  {
+                    "type": "quote",
+                    "text": "vroeger water, nu land 以前是水，现在是陆地。"
+                  }
+                ]
+              },
+              {
+                "number": 12,
+                "title": "Nederland is een laag land",
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "Nederland is een laag land."
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "荷兰是一个低地国家。"
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "教材知识点："
+                  },
+                  {
+                    "type": "list",
+                    "items": [
+                      "荷兰没有高山。",
+                      "最高点位于 Limburg，约 323 米。",
+                      "荷兰许多地方低于海平面。",
+                      "教材以 Rotterdam 为例，说明有些地区约低于海平面 7 米。",
+                      "Duinen en dijken beschermen Nederland tegen het water."
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "沙丘和堤坝保护荷兰免受海水和洪水侵袭。"
+                  },
+                  {
+                    "type": "subheading",
+                    "level": 3,
+                    "text": "重点词汇"
+                  },
+                  {
+                    "type": "table",
+                    "headers": [
+                      "荷兰语",
+                      "中文"
+                    ],
+                    "rows": [
+                      [
+                        "laag",
+                        "低的"
+                      ],
+                      [
+                        "hoog",
+                        "高的"
+                      ],
+                      [
+                        "de berg",
+                        "山"
+                      ],
+                      [
+                        "het hoogste punt",
+                        "最高点"
+                      ],
+                      [
+                        "de zeespiegel",
+                        "海平面"
+                      ],
+                      [
+                        "lager dan de zee",
+                        "低于海平面"
+                      ],
+                      [
+                        "de duinen",
+                        "沙丘"
+                      ],
+                      [
+                        "de dijken",
+                        "堤坝"
+                      ],
+                      [
+                        "beschermen tegen",
+                        "保护……免受……"
+                      ]
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "title": "第四部分：天气与四季",
+            "units": [
+              {
+                "number": 13,
+                "title": "Wisselvallig weer",
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "Het weer in Nederland is wisselvallig."
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "荷兰的天气多变。"
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "原资料中的表达："
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "Het is elke dag ander weer in Nederland."
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "荷兰每天的天气可能都不一样。"
+                  },
+                  {
+                    "type": "subheading",
+                    "level": 3,
+                    "text": "重点词汇"
+                  },
+                  {
+                    "type": "table",
+                    "headers": [
+                      "荷兰语",
+                      "中文"
+                    ],
+                    "rows": [
+                      [
+                        "het weer",
+                        "天气"
+                      ],
+                      [
+                        "wisselvallig",
+                        "多变的、变化无常的"
+                      ],
+                      [
+                        "ander",
+                        "不同的"
+                      ],
+                      [
+                        "elke dag",
+                        "每天"
+                      ]
+                    ]
+                  }
+                ]
+              },
+              {
+                "number": 14,
+                "title": "Vier seizoenen",
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "四季大约在每个月的 21 日左右开始。教材按以下时间记忆："
+                  },
+                  {
+                    "type": "table",
+                    "headers": [
+                      "季节",
+                      "时间",
+                      "荷兰语描述",
+                      "中文"
+                    ],
+                    "rows": [
+                      [
+                        "de lente",
+                        "maart tot juni",
+                        "bomen krijgen nieuwe bladeren; veel mooie bloemen",
+                        "树木长出新叶，有很多漂亮的花"
+                      ],
+                      [
+                        "de zomer",
+                        "juni tot september",
+                        "warm, soms kouder; wisselvallig weer; 's avonds lang licht",
+                        "温暖，有时较冷；天气多变；晚上天亮得久"
+                      ],
+                      [
+                        "de herfst",
+                        "september tot december",
+                        "bladeren vallen van de bomen; kouder; wind en regen",
+                        "树叶落下，天气变冷，多风多雨"
+                      ],
+                      [
+                        "de winter",
+                        "december tot maart",
+                        "vriezen; koud; ijs; schaatsen; 's avonds vroeg donker",
+                        "结冰、寒冷、有冰、可以滑冰；晚上很早天黑"
+                      ]
+                    ]
+                  },
+                  {
+                    "type": "subheading",
+                    "level": 3,
+                    "text": "四季词汇"
+                  },
+                  {
+                    "type": "table",
+                    "headers": [
+                      "荷兰语",
+                      "中文"
+                    ],
+                    "rows": [
+                      [
+                        "het seizoen",
+                        "季节"
+                      ],
+                      [
+                        "de lente",
+                        "春天"
+                      ],
+                      [
+                        "de zomer",
+                        "夏天"
+                      ],
+                      [
+                        "de herfst",
+                        "秋天"
+                      ],
+                      [
+                        "de winter",
+                        "冬天"
+                      ],
+                      [
+                        "het blad / de bladeren",
+                        "叶子 / 叶子们"
+                      ],
+                      [
+                        "de bloem",
+                        "花"
+                      ],
+                      [
+                        "warm",
+                        "温暖的"
+                      ],
+                      [
+                        "koud / kouder",
+                        "冷的 / 更冷"
+                      ],
+                      [
+                        "waaien",
+                        "刮风"
+                      ],
+                      [
+                        "de regen",
+                        "雨"
+                      ],
+                      [
+                        "vriezen",
+                        "结冰、气温低于零度"
+                      ],
+                      [
+                        "het ijs",
+                        "冰"
+                      ],
+                      [
+                        "schaatsen",
+                        "滑冰"
+                      ],
+                      [
+                        "licht",
+                        "明亮"
+                      ],
+                      [
+                        "donker",
+                        "黑暗"
+                      ]
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "title": "第五部分：人口、移民与语言",
+            "units": [
+              {
+                "number": 15,
+                "title": "Nederland is dichtbevolkt",
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "教材使用的数据："
+                  },
+                  {
+                    "type": "list",
+                    "items": [
+                      "Er wonen 17 miljoen mensen in Nederland."
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "荷兰居住着 1700 万人。"
+                  },
+                  {
+                    "type": "list",
+                    "items": [
+                      "Nederland is dichtbevolkt."
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "荷兰人口稠密。"
+                  },
+                  {
+                    "type": "list",
+                    "items": [
+                      "教材写“500 人/平方米”，这里明显应理解为约 每平方公里 500 人。",
+                      "教材称荷兰是欧洲人口最稠密的国家之一。"
+                    ]
+                  },
+                  {
+                    "type": "subheading",
+                    "level": 3,
+                    "text": "重点词汇"
+                  },
+                  {
+                    "type": "table",
+                    "headers": [
+                      "荷兰语",
+                      "中文"
+                    ],
+                    "rows": [
+                      [
+                        "wonen",
+                        "居住"
+                      ],
+                      [
+                        "de bevolking",
+                        "人口"
+                      ],
+                      [
+                        "dichtbevolkt",
+                        "人口稠密的"
+                      ],
+                      [
+                        "de vierkante kilometer",
+                        "平方公里"
+                      ],
+                      [
+                        "de meeste",
+                        "最多的、大多数的"
+                      ]
+                    ]
+                  }
+                ]
+              },
+              {
+                "number": 16,
+                "title": "Niet in Nederland geboren",
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "教材知识点："
+                  },
+                  {
+                    "type": "list",
+                    "items": [
+                      "1,8 miljoen mensen zijn niet in Nederland geboren."
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "约 180 万人不是在荷兰出生的。"
+                  },
+                  {
+                    "type": "list",
+                    "items": [
+                      "这超过人口的 10%。",
+                      "他们中的许多人拥有荷兰国籍，例如 Máxima。",
+                      "许多外国人居住在大城市。"
+                    ]
+                  },
+                  {
+                    "type": "subheading",
+                    "level": 3,
+                    "text": "重点词汇"
+                  },
+                  {
+                    "type": "table",
+                    "headers": [
+                      "荷兰语",
+                      "中文"
+                    ],
+                    "rows": [
+                      [
+                        "geboren zijn",
+                        "出生"
+                      ],
+                      [
+                        "de buitenlander",
+                        "外国人"
+                      ],
+                      [
+                        "de nationaliteit",
+                        "国籍"
+                      ],
+                      [
+                        "de Nederlandse nationaliteit",
+                        "荷兰国籍"
+                      ],
+                      [
+                        "de grote stad",
+                        "大城市"
+                      ]
+                    ]
+                  }
+                ]
+              },
+              {
+                "number": 17,
+                "title": "不同移民群体",
+                "blocks": [
+                  {
+                    "type": "subheading",
+                    "level": 3,
+                    "text": "1. Buitenlanders uit Europa"
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "Zij komen naar Nederland voor werk of vanwege een relatie met een Nederlander."
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "来自欧洲的外国人可能因为工作，或因为与荷兰人的伴侣关系来到荷兰。"
+                  },
+                  {
+                    "type": "subheading",
+                    "level": 3,
+                    "text": "2. Surinamers"
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "Suriname hoorde vroeger bij Nederland."
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "苏里南过去属于荷兰。"
+                  },
+                  {
+                    "type": "subheading",
+                    "level": 3,
+                    "text": "3. Turken en Marokkanen"
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "Rond 1970 kwamen veel Turken en Marokkanen als gastarbeiders naar Nederland."
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "大约在 1970 年，许多土耳其人和摩洛哥人作为外来劳工来到荷兰。"
+                  },
+                  {
+                    "type": "list",
+                    "items": [
+                      "他们来荷兰工作。",
+                      "他们的孩子中有许多在荷兰出生。"
+                    ]
+                  },
+                  {
+                    "type": "subheading",
+                    "level": 3,
+                    "text": "4. Vluchtelingen"
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "Tussen 1980 en 2000 kwamen veel vluchtelingen naar Nederland."
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "1980 至 2000 年间，许多难民来到荷兰。"
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "原因包括："
+                  },
+                  {
+                    "type": "list",
+                    "items": [
+                      "oorlog：战争",
+                      "problemen in het eigen land：本国的问题"
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "教材列出的来源国包括："
+                  },
+                  {
+                    "type": "list",
+                    "items": [
+                      "Vietnam",
+                      "Iran",
+                      "Irak",
+                      "Somalië"
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "Niet alle vluchtelingen hebben een verblijfsvergunning."
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "并不是所有难民都有居留许可。"
+                  },
+                  {
+                    "type": "subheading",
+                    "level": 3,
+                    "text": "移民主题词汇"
+                  },
+                  {
+                    "type": "table",
+                    "headers": [
+                      "荷兰语",
+                      "中文"
+                    ],
+                    "rows": [
+                      [
+                        "de gastarbeider",
+                        "外来劳工"
+                      ],
+                      [
+                        "de vluchteling",
+                        "难民"
+                      ],
+                      [
+                        "de oorlog",
+                        "战争"
+                      ],
+                      [
+                        "het eigen land",
+                        "自己的国家、本国"
+                      ],
+                      [
+                        "de verblijfsvergunning",
+                        "居留许可"
+                      ],
+                      [
+                        "vroeger",
+                        "过去、从前"
+                      ],
+                      [
+                        "horen bij",
+                        "属于"
+                      ],
+                      [
+                        "de relatie",
+                        "伴侣关系、关系"
+                      ]
+                    ]
+                  }
+                ]
+              },
+              {
+                "number": 18,
+                "title": "Taal：语言",
+                "blocks": [
+                  {
+                    "type": "subheading",
+                    "level": 3,
+                    "text": "Nederlands"
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "De taal van Nederland is Nederlands."
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "荷兰的主要语言是荷兰语。"
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "Er zijn verschillende dialecten."
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "荷兰有不同的方言。"
+                  },
+                  {
+                    "type": "subheading",
+                    "level": 3,
+                    "text": "Fries"
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "教材将 Fries 称为第二语言："
+                  },
+                  {
+                    "type": "list",
+                    "items": [
+                      "弗里斯兰地区的人使用 Fries。",
+                      "弗里斯兰的儿童在学校学习 Fries。"
+                    ]
+                  },
+                  {
+                    "type": "subheading",
+                    "level": 3,
+                    "text": "Buitenlanders leren Nederlands"
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "Buitenlanders moeten van de regering Nederlands leren."
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "根据教材，外国人需要学习荷兰语。"
+                  },
+                  {
+                    "type": "subheading",
+                    "level": 3,
+                    "text": "Wereldwijd"
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "Ongeveer 23 miljoen mensen in de wereld spreken Nederlands."
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "全世界约有 2300 万人说荷兰语，教材认为这个人数并不多。"
+                  },
+                  {
+                    "type": "subheading",
+                    "level": 3,
+                    "text": "重点词汇"
+                  },
+                  {
+                    "type": "table",
+                    "headers": [
+                      "荷兰语",
+                      "中文"
+                    ],
+                    "rows": [
+                      [
+                        "de taal",
+                        "语言"
+                      ],
+                      [
+                        "Nederlands",
+                        "荷兰语"
+                      ],
+                      [
+                        "Fries",
+                        "弗里斯语"
+                      ],
+                      [
+                        "het dialect",
+                        "方言"
+                      ],
+                      [
+                        "leren",
+                        "学习"
+                      ],
+                      [
+                        "spreken",
+                        "说、讲"
+                      ],
+                      [
+                        "in de wereld",
+                        "在全世界"
+                      ],
+                      [
+                        "verschillend",
+                        "不同的"
+                      ]
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "title": "第六部分：国王、民主与政治地点",
+            "units": [
+              {
+                "number": 19,
+                "title": "Nederland heeft een koning",
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "Nederland heeft geen president, maar een koning."
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "荷兰没有总统，而有国王。"
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "教材人物关系："
+                  },
+                  {
+                    "type": "list",
+                    "items": [
+                      "Willem-Alexander 是国王。",
+                      "他住在 Den Haag 附近。",
+                      "Prinses Beatrix 是他的母亲，也是前女王。",
+                      "Máxima 是他的妻子、荷兰王后。",
+                      "Willem-Alexander 和 Máxima 有三个孩子。"
+                    ]
+                  },
+                  {
+                    "type": "quote",
+                    "text": "原资料写 Beatrix 是“荷兰第一位女王”，这一表述并不准确。KNM 学习重点是：她是 Willem-Alexander 的母亲和前女王。"
+                  },
+                  {
+                    "type": "subheading",
+                    "level": 3,
+                    "text": "王室词汇"
+                  },
+                  {
+                    "type": "table",
+                    "headers": [
+                      "荷兰语",
+                      "中文"
+                    ],
+                    "rows": [
+                      [
+                        "de koning",
+                        "国王"
+                      ],
+                      [
+                        "de koningin",
+                        "女王、王后"
+                      ],
+                      [
+                        "de prinses",
+                        "公主"
+                      ],
+                      [
+                        "de president",
+                        "总统"
+                      ],
+                      [
+                        "de moeder",
+                        "母亲"
+                      ],
+                      [
+                        "de vrouw",
+                        "妻子、女性"
+                      ],
+                      [
+                        "het kind",
+                        "孩子"
+                      ],
+                      [
+                        "vlakbij",
+                        "在附近"
+                      ]
+                    ]
+                  }
+                ]
+              },
+              {
+                "number": 20,
+                "title": "Nederland is een democratie",
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "Nederland is een democratie."
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "荷兰是一个民主国家。"
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "教材解释："
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "Mensen mogen het parlement kiezen."
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "人们可以选举议会。"
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "Nederlanders mogen één keer in de vier jaar voor het parlement stemmen."
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "荷兰人每四年可以为议会投票一次。"
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "Het parlement praat over de plannen van de regering."
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "议会讨论政府的计划。"
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "教材在此处将政府简化为："
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "de regering = de koning + de ministers"
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "政府 = 国王 + 部长们。"
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "De regering en het parlement zijn in Den Haag."
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "政府和议会位于海牙。"
+                  },
+                  {
+                    "type": "subheading",
+                    "level": 3,
+                    "text": "政治词汇"
+                  },
+                  {
+                    "type": "table",
+                    "headers": [
+                      "荷兰语",
+                      "中文"
+                    ],
+                    "rows": [
+                      [
+                        "de democratie",
+                        "民主"
+                      ],
+                      [
+                        "kiezen",
+                        "选择、选举"
+                      ],
+                      [
+                        "stemmen",
+                        "投票"
+                      ],
+                      [
+                        "het parlement",
+                        "议会"
+                      ],
+                      [
+                        "de regering",
+                        "政府"
+                      ],
+                      [
+                        "de minister",
+                        "部长"
+                      ],
+                      [
+                        "het plan",
+                        "计划"
+                      ],
+                      [
+                        "één keer in de vier jaar",
+                        "每四年一次"
+                      ]
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "title": "第七部分：宗教、星期日与欧盟",
+            "units": [
+              {
+                "number": 21,
+                "title": "Geloof in Nederland",
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "教材数据："
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "Ongeveer 50% van de Nederlanders heeft een geloof."
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "大约 50% 的荷兰人有宗教信仰。"
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "教材称其中多数是："
+                  },
+                  {
+                    "type": "list",
+                    "items": [
+                      "christen：基督徒",
+                      "de Bijbel：圣经"
+                    ]
+                  },
+                  {
+                    "type": "subheading",
+                    "level": 3,
+                    "text": "Zondag"
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "星期日被视为一个特殊的日子："
+                  },
+                  {
+                    "type": "list",
+                    "items": [
+                      "一些人在星期日上午去教堂。",
+                      "有些商店星期日关闭。",
+                      "有时商店星期日营业，这称为 koopzondag。"
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "教材还提到："
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "Er wonen ongeveer één miljoen moslims in Nederland."
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "荷兰约有 100 万穆斯林。"
+                  },
+                  {
+                    "type": "subheading",
+                    "level": 3,
+                    "text": "宗教词汇"
+                  },
+                  {
+                    "type": "table",
+                    "headers": [
+                      "荷兰语",
+                      "中文"
+                    ],
+                    "rows": [
+                      [
+                        "het geloof",
+                        "宗教信仰"
+                      ],
+                      [
+                        "de christen",
+                        "基督徒"
+                      ],
+                      [
+                        "de moslim",
+                        "穆斯林"
+                      ],
+                      [
+                        "de Bijbel",
+                        "圣经"
+                      ],
+                      [
+                        "de kerk",
+                        "教堂"
+                      ],
+                      [
+                        "zondag",
+                        "星期日"
+                      ],
+                      [
+                        "'s ochtends",
+                        "在早上"
+                      ],
+                      [
+                        "dicht",
+                        "关闭的"
+                      ],
+                      [
+                        "open",
+                        "开放、营业"
+                      ],
+                      [
+                        "de koopzondag",
+                        "商店营业的星期日"
+                      ]
+                    ]
+                  }
+                ]
+              },
+              {
+                "number": 22,
+                "title": "De Europese Unie",
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "De Europese Unie bestaat uit landen in Europa die samenwerken."
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "欧盟由相互合作的欧洲国家组成。"
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "合作意味着："
+                  },
+                  {
+                    "type": "list",
+                    "items": [
+                      "samenwerken：合作",
+                      "afspraken maken：制定协议、作出约定"
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "教材知识点："
+                  },
+                  {
+                    "type": "list",
+                    "items": [
+                      "人们使用欧元付款。",
+                      "许多人认为荷兰的生活成本很高。",
+                      "与欧盟合作对荷兰经济有好处。"
+                    ]
+                  },
+                  {
+                    "type": "subheading",
+                    "level": 3,
+                    "text": "欧盟词汇"
+                  },
+                  {
+                    "type": "table",
+                    "headers": [
+                      "荷兰语",
+                      "中文"
+                    ],
+                    "rows": [
+                      [
+                        "de Europese Unie / de EU",
+                        "欧洲联盟、欧盟"
+                      ],
+                      [
+                        "samenwerken",
+                        "合作"
+                      ],
+                      [
+                        "de afspraak",
+                        "协议、约定"
+                      ],
+                      [
+                        "betalen",
+                        "付款"
+                      ],
+                      [
+                        "de euro",
+                        "欧元"
+                      ],
+                      [
+                        "duur",
+                        "昂贵的"
+                      ],
+                      [
+                        "het leven",
+                        "生活"
+                      ],
+                      [
+                        "de economie",
+                        "经济"
+                      ],
+                      [
+                        "goed voor",
+                        "对……有好处"
+                      ]
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "vocabulary": [
+          {
+            "word": "liggen",
+            "meaning": "位于",
+            "example": "Nederland ligt in Europa."
+          },
+          {
+            "word": "de Noordzee",
+            "meaning": "北海",
+            "example": "Nederland ligt aan de Noordzee."
+          },
+          {
+            "word": "het buurland",
+            "meaning": "邻国",
+            "example": "Duitsland is een buurland."
+          },
+          {
+            "word": "het oosten",
+            "meaning": "东部",
+            "example": "Duitsland ligt in het oosten."
+          },
+          {
+            "word": "het zuiden",
+            "meaning": "南部",
+            "example": "België ligt in het zuiden."
+          },
+          {
+            "word": "groot",
+            "meaning": "大的",
+            "example": "Nederland is 40.000 km² groot."
+          },
+          {
+            "word": "klein",
+            "meaning": "小的",
+            "example": "Nederland is een klein land."
+          },
+          {
+            "word": "de provincie",
+            "meaning": "省",
+            "example": "Nederland heeft 12 provincies."
+          },
+          {
+            "word": "de hoofdstad",
+            "meaning": "首都、省会",
+            "example": "Amsterdam is de hoofdstad."
+          },
+          {
+            "word": "de Randstad",
+            "meaning": "兰斯塔德城市群",
+            "example": "De Randstad ligt in het westen."
+          },
+          {
+            "word": "druk",
+            "meaning": "繁忙、拥挤",
+            "example": "De Randstad is druk."
+          },
+          {
+            "word": "de inwoner",
+            "meaning": "居民",
+            "example": "Er wonen veel inwoners."
+          },
+          {
+            "word": "het vliegveld",
+            "meaning": "机场",
+            "example": "Schiphol is een vliegveld."
+          },
+          {
+            "word": "de haven",
+            "meaning": "港口",
+            "example": "Rotterdam heeft een grote haven."
+          },
+          {
+            "word": "de regering",
+            "meaning": "政府",
+            "example": "De regering is in Den Haag."
+          },
+          {
+            "word": "de snelweg",
+            "meaning": "高速公路",
+            "example": "Er zijn veel snelwegen."
+          },
+          {
+            "word": "de flat",
+            "meaning": "公寓楼",
+            "example": "In steden staan veel flats."
+          },
+          {
+            "word": "de file",
+            "meaning": "堵车",
+            "example": "Er staat vaak file."
+          },
+          {
+            "word": "de fiets",
+            "meaning": "自行车",
+            "example": "Veel mensen gaan met de fiets."
+          },
+          {
+            "word": "het water",
+            "meaning": "水",
+            "example": "20% van Nederland is water."
+          },
+          {
+            "word": "zwemmen",
+            "meaning": "游泳",
+            "example": "Kinderen leren zwemmen."
+          },
+          {
+            "word": "de rivier",
+            "meaning": "河流",
+            "example": "De Rijn is een rivier."
+          },
+          {
+            "word": "het meer",
+            "meaning": "湖",
+            "example": "Het IJsselmeer is een meer."
+          },
+          {
+            "word": "de dijk",
+            "meaning": "堤坝",
+            "example": "Een dijk beschermt tegen water."
+          },
+          {
+            "word": "het eiland",
+            "meaning": "岛屿",
+            "example": "Texel is een eiland."
+          },
+          {
+            "word": "de polder",
+            "meaning": "圩田",
+            "example": "Een polder was vroeger water."
+          },
+          {
+            "word": "laag",
+            "meaning": "低的",
+            "example": "Nederland is een laag land."
+          },
+          {
+            "word": "het hoogste punt",
+            "meaning": "最高点",
+            "example": "Het hoogste punt ligt in Limburg."
+          },
+          {
+            "word": "het duin",
+            "meaning": "沙丘",
+            "example": "Duinen beschermen de kust."
+          },
+          {
+            "word": "beschermen",
+            "meaning": "保护",
+            "example": "Dijken beschermen Nederland."
+          },
+          {
+            "word": "wisselvallig",
+            "meaning": "多变的",
+            "example": "Het weer is wisselvallig."
+          },
+          {
+            "word": "het seizoen",
+            "meaning": "季节",
+            "example": "Nederland heeft vier seizoenen."
+          },
+          {
+            "word": "de lente",
+            "meaning": "春天",
+            "example": "In de lente groeien bladeren."
+          },
+          {
+            "word": "de zomer",
+            "meaning": "夏天",
+            "example": "In de zomer is het lang licht."
+          },
+          {
+            "word": "de herfst",
+            "meaning": "秋天",
+            "example": "In de herfst vallen bladeren."
+          },
+          {
+            "word": "de winter",
+            "meaning": "冬天",
+            "example": "In de winter kan het vriezen."
+          },
+          {
+            "word": "dichtbevolkt",
+            "meaning": "人口稠密",
+            "example": "Nederland is dichtbevolkt."
+          },
+          {
+            "word": "geboren",
+            "meaning": "出生的",
+            "example": "Niet iedereen is in Nederland geboren."
+          },
+          {
+            "word": "de buitenlander",
+            "meaning": "外国人",
+            "example": "Veel buitenlanders wonen in steden."
+          },
+          {
+            "word": "de nationaliteit",
+            "meaning": "国籍",
+            "example": "Zij heeft de Nederlandse nationaliteit."
+          },
+          {
+            "word": "de gastarbeider",
+            "meaning": "外来劳工",
+            "example": "Gastarbeiders kwamen om te werken."
+          },
+          {
+            "word": "de vluchteling",
+            "meaning": "难民",
+            "example": "Vluchtelingen verlaten hun land."
+          },
+          {
+            "word": "de verblijfsvergunning",
+            "meaning": "居留许可",
+            "example": "Niet iedereen heeft een verblijfsvergunning."
+          },
+          {
+            "word": "de taal",
+            "meaning": "语言",
+            "example": "Nederlands is de taal."
+          },
+          {
+            "word": "het dialect",
+            "meaning": "方言",
+            "example": "Er zijn verschillende dialecten."
+          },
+          {
+            "word": "de koning",
+            "meaning": "国王",
+            "example": "Nederland heeft een koning."
+          },
+          {
+            "word": "de democratie",
+            "meaning": "民主",
+            "example": "Nederland is een democratie."
+          },
+          {
+            "word": "het parlement",
+            "meaning": "议会",
+            "example": "Mensen kiezen het parlement."
+          },
+          {
+            "word": "stemmen",
+            "meaning": "投票",
+            "example": "Nederlanders stemmen om de vier jaar."
+          },
+          {
+            "word": "het geloof",
+            "meaning": "宗教信仰",
+            "example": "Sommige mensen hebben een geloof."
+          },
+          {
+            "word": "de kerk",
+            "meaning": "教堂",
+            "example": "Sommige mensen gaan naar de kerk."
+          },
+          {
+            "word": "de koopzondag",
+            "meaning": "周日营业日",
+            "example": "Winkels zijn open op koopzondag."
+          },
+          {
+            "word": "samenwerken",
+            "meaning": "合作",
+            "example": "EU-landen werken samen."
+          },
+          {
+            "word": "duur",
+            "meaning": "昂贵的",
+            "example": "Het leven in Nederland is duur."
+          },
+          {
+            "word": "de economie",
+            "meaning": "经济",
+            "example": "De EU is goed voor de economie."
+          }
+        ],
+        "commonMistakes": [
+          {
+            "original": "500 mensen op een vierkante meter",
+            "corrected": "500 mensen per vierkante kilometer",
+            "meaning": "每平方公里约 500 人"
+          },
+          {
+            "original": "23 miljoen mensen spreekt Nederlands",
+            "corrected": "23 miljoen mensen spreken Nederlands",
+            "meaning": "2300 万人说荷兰语"
+          },
+          {
+            "original": "Regering en parlement is in Den Haag",
+            "corrected": "De regering en het parlement zijn in Den Haag",
+            "meaning": "政府和议会位于海牙"
+          },
+          {
+            "original": "Nederlanders mogen voor het parlement",
+            "corrected": "Nederlanders mogen voor het parlement stemmen",
+            "meaning": "荷兰人可以为议会投票"
+          },
+          {
+            "original": "veel mensen leren zwemmen als ze 5 jaar zijn",
+            "corrected": "veel kinderen leren rond hun vijfde zwemmen",
+            "meaning": "很多孩子约五岁学习游泳"
+          },
+          {
+            "original": "het land ligt lager dan de zee",
+            "corrected": "veel delen van Nederland liggen onder zeeniveau",
+            "meaning": "荷兰许多地区低于海平面"
+          }
+        ],
+        "cheatSheet": [
+          {
+            "title": "地理",
+            "items": [
+              "Nederland ligt in Europa en aan de Noordzee.",
+              "Duitsland ligt in het oosten.",
+              "België ligt in het zuiden.",
+              "Nederland heeft 12 provincies.",
+              "Nederland is ongeveer 300 km lang en 180 km breed."
+            ]
+          },
+          {
+            "title": "Randstad",
+            "items": [
+              "Amsterdam = hoofdstad + Schiphol",
+              "Rotterdam = grote haven + Europoort",
+              "Den Haag = regering",
+              "Utrecht = Domtoren, meer dan 700 jaar oud, 112 meter hoog"
+            ]
+          },
+          {
+            "title": "水与低地",
+            "items": [
+              "20% water",
+              "Rijn uit Zwitserland",
+              "Maas uit Frankrijk",
+              "IJsselmeer + Afsluitdijk",
+              "Waddeneilanden = TV TAS",
+              "Polder = vroeger water, nu land",
+              "Hoogste punt = Limburg, 323 m",
+              "Duinen en dijken beschermen Nederland"
+            ]
+          },
+          {
+            "title": "天气",
+            "items": [
+              "wisselvallig weer",
+              "lente - zomer - herfst - winter"
+            ]
+          },
+          {
+            "title": "人口与语言",
+            "items": [
+              "dichtbevolkt",
+              "veel buitenlanders wonen in grote steden",
+              "Surinamers, gastarbeiders, vluchtelingen",
+              "Nederlands + dialecten",
+              "Fries in Friesland"
+            ]
+          },
+          {
+            "title": "国家与社会",
+            "items": [
+              "geen president, maar een koning",
+              "Willem-Alexander + Máxima",
+              "democratie",
+              "elke vier jaar stemmen",
+              "regering en parlement in Den Haag",
+              "christenen, moslims, koopzondag",
+              "Nederland hoort bij de Europese Unie",
+              "betalen met de euro"
+            ]
+          }
+        ],
+        "imageCount": 4,
+        "missingImageCount": 4
+      },
       "keywords": [
         "de provincie",
         "de hoofdstad",
@@ -265,6 +2562,7 @@ export const KNM_CONTENT = {
         "gecondoleerd → 节哀",
         "op je beurt wachten → 等轮到你"
       ],
+      "fullStudy": null,
       "keywords": [
         "de afspraak",
         "formeel",
@@ -446,6 +2744,7 @@ export const KNM_CONTENT = {
         "doorverwijzen → 转诊",
         "de zorgverzekering → 医疗保险"
       ],
+      "fullStudy": null,
       "keywords": [
         "de huisarts",
         "de klacht",
@@ -624,6 +2923,7 @@ export const KNM_CONTENT = {
         "de verhuurder → 房东",
         "de huurtoeslag → 租房补贴"
       ],
+      "fullStudy": null,
       "keywords": [
         "de hypotheek",
         "de makelaar",
@@ -813,6 +3113,7 @@ export const KNM_CONTENT = {
         "de belastingaangifte → 报税",
         "DigiD → 政府网站登录身份"
       ],
+      "fullStudy": null,
       "keywords": [
         "het identiteitsbewijs",
         "aangifte doen",
@@ -994,6 +3295,7 @@ export const KNM_CONTENT = {
         "de kinderbijslag → 儿童津贴",
         "de leerplicht → 义务教育"
       ],
+      "fullStudy": null,
       "keywords": [
         "de verloskundige",
         "het consultatiebureau",
@@ -1175,6 +3477,7 @@ export const KNM_CONTENT = {
         "het contract → 合同",
         "de proeftijd → 试用期"
       ],
+      "fullStudy": null,
       "keywords": [
         "solliciteren",
         "de vacature",
@@ -1337,6 +3640,7 @@ export const KNM_CONTENT = {
         "discriminatie → 歧视",
         "geweld → 暴力"
       ],
+      "fullStudy": null,
       "keywords": [
         "samenwonen",
         "scheiden",
@@ -1516,6 +3820,7 @@ export const KNM_CONTENT = {
         "onderduiken → 躲藏",
         "de grondwet → 宪法"
       ],
+      "fullStudy": null,
       "keywords": [
         "de eeuw",
         "de Middeleeuwen",
@@ -1711,6 +4016,7 @@ export const KNM_CONTENT = {
         "de verkiezing → 选举",
         "de zetel → 席位"
       ],
+      "fullStudy": null,
       "keywords": [
         "de regering",
         "het kabinet",

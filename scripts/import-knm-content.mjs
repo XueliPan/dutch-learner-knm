@@ -7,6 +7,7 @@ const notesPath =
 const questionsPath =
   "/Users/sherrypan/Library/Mobile Documents/com~apple~CloudDocs/Dutch-A2/knm/KNM-practice-questions.zh-CN.md";
 const guidePath = "/Users/sherrypan/Downloads/KNM_study_guide_CN_NL.md";
+const fullChapterOnePath = "/Users/sherrypan/Downloads/KNM_Hoofdstuk_1_studieversie_CN_NL.md";
 const duoQuestionsPath = path.join(root, "content", "duo-practice-questions.json");
 const generatedQuestionsPath = path.join(root, "content", "generated-mock-questions.json");
 const outputPath = path.join(root, "content-data.js");
@@ -14,6 +15,7 @@ const outputPath = path.join(root, "content-data.js");
 const notes = fs.readFileSync(notesPath, "utf8");
 const practice = fs.readFileSync(questionsPath, "utf8");
 const guide = fs.existsSync(guidePath) ? fs.readFileSync(guidePath, "utf8") : "";
+const fullChapterOne = fs.existsSync(fullChapterOnePath) ? fs.readFileSync(fullChapterOnePath, "utf8") : "";
 
 const colorSet = ["#0f766e", "#2d6cdf", "#c2413d", "#e0a928", "#6f5cc2", "#138a45", "#d25f27", "#8b5d33", "#2f6f8f", "#8a4f93"];
 
@@ -445,6 +447,187 @@ function parseGuideCheatSheet(markdown) {
     .map((line) => stripMarkdown(line.replace(/^- /, "")));
 }
 
+function isBlockStart(line) {
+  return /^#{1,4}\s+/.test(line) || /^!\[[^\]]*\]\([^)]+\)/.test(line) || line.startsWith("|") || /^[-*]\s+/.test(line) || /^\d+\.\s+/.test(line) || line.startsWith(">");
+}
+
+function parseTableLines(lines, start) {
+  const tableLines = [];
+  let index = start;
+  while (index < lines.length && lines[index].trim().startsWith("|")) {
+    tableLines.push(lines[index].trim());
+    index += 1;
+  }
+  const rows = tableLines
+    .filter((line) => !/^\|\s*-+/.test(line))
+    .map((line) => line.split("|").map((cell) => stripMarkdown(cell)).filter(Boolean));
+  return {
+    block: {
+      type: "table",
+      headers: rows[0] || [],
+      rows: rows.slice(1),
+    },
+    next: index,
+  };
+}
+
+function mediaBlockFromMarkdown(line, markdownPath, chapterSlug) {
+  const match = line.match(/^!\[([^\]]*)\]\(([^)]+)\)/);
+  if (!match) return null;
+  const originalSrc = match[2];
+  const sourcePath = path.resolve(path.dirname(markdownPath), originalSrc);
+  const fileName = path.basename(originalSrc);
+  const outputDir = path.join(root, "assets", "lesson-media", chapterSlug);
+  const outputSrc = `assets/lesson-media/${chapterSlug}/${fileName}`;
+
+  if (fs.existsSync(sourcePath)) {
+    fs.mkdirSync(outputDir, { recursive: true });
+    fs.copyFileSync(sourcePath, path.join(outputDir, fileName));
+    return { type: "image", alt: stripMarkdown(match[1]), src: outputSrc, originalSrc, missing: false };
+  }
+
+  return { type: "image", alt: stripMarkdown(match[1]), src: outputSrc, originalSrc, missing: true };
+}
+
+function parseRichMarkdownBlocks(section, markdownPath, chapterSlug) {
+  const lines = section.split("\n");
+  const blocks = [];
+  let index = 0;
+
+  while (index < lines.length) {
+    const line = lines[index].trim();
+    if (!line || line === "---") {
+      index += 1;
+      continue;
+    }
+
+    const image = mediaBlockFromMarkdown(line, markdownPath, chapterSlug);
+    if (image) {
+      blocks.push(image);
+      index += 1;
+      continue;
+    }
+
+    const heading = line.match(/^(#{3,4})\s+(.+)$/);
+    if (heading) {
+      blocks.push({ type: "subheading", level: heading[1].length, text: stripMarkdown(heading[2]) });
+      index += 1;
+      continue;
+    }
+
+    if (line.startsWith("|")) {
+      const parsed = parseTableLines(lines, index);
+      if (parsed.block.headers.length || parsed.block.rows.length) blocks.push(parsed.block);
+      index = parsed.next;
+      continue;
+    }
+
+    if (/^[-*]\s+/.test(line) || /^\d+\.\s+/.test(line)) {
+      const ordered = /^\d+\.\s+/.test(line);
+      const items = [];
+      while (index < lines.length) {
+        const itemLine = lines[index].trim();
+        const itemMatch = ordered ? itemLine.match(/^\d+\.\s+(.+)$/) : itemLine.match(/^[-*]\s+(.+)$/);
+        if (!itemMatch) break;
+        items.push(stripMarkdown(itemMatch[1]));
+        index += 1;
+      }
+      blocks.push({ type: ordered ? "orderedList" : "list", items });
+      continue;
+    }
+
+    if (line.startsWith(">")) {
+      const quotes = [];
+      while (index < lines.length && lines[index].trim().startsWith(">")) {
+        quotes.push(stripMarkdown(lines[index].trim().replace(/^>\s?/, "")));
+        index += 1;
+      }
+      blocks.push({ type: "quote", text: quotes.join(" ") });
+      continue;
+    }
+
+    const paragraph = [line];
+    index += 1;
+    while (index < lines.length) {
+      const nextLine = lines[index].trim();
+      if (!nextLine || nextLine === "---" || isBlockStart(nextLine)) break;
+      paragraph.push(nextLine);
+      index += 1;
+    }
+    blocks.push({ type: "paragraph", text: stripMarkdown(paragraph.join(" ")) });
+  }
+
+  return blocks;
+}
+
+function getSectionByHeading(markdown, headingPattern, nextPattern = null) {
+  const match = markdown.match(headingPattern);
+  if (!match || match.index == null) return "";
+  const start = match.index + match[0].length;
+  const rest = markdown.slice(start);
+  if (!nextPattern) return rest.trim();
+  const next = rest.search(nextPattern);
+  return (next === -1 ? rest : rest.slice(0, next)).trim();
+}
+
+function parseFullChapterStudy(markdown, markdownPath, chapterNumber) {
+  if (!markdown) return null;
+  const chapterSlug = `hoofdstuk-${chapterNumber}`;
+  const title = stripMarkdown(markdown.match(/^#\s+(.+)$/m)?.[1] || `Hoofdstuk ${chapterNumber}`);
+  const goalSection = getSectionByHeading(markdown, /^## 0\.\s+本章学习目标$/m, /^#\s+/m);
+  const goalBlocks = parseRichMarkdownBlocks(goalSection, markdownPath, chapterSlug);
+  const goals = goalBlocks.find((block) => block.type === "orderedList")?.items || [];
+
+  const partMatches = [...markdown.matchAll(/^# (第[一二三四五六七]部分：.+)$/gm)];
+  const parts = partMatches.map((partMatch, partIndex) => {
+    const partStart = partMatch.index + partMatch[0].length;
+    const partEnd = partMatches[partIndex + 1]?.index ?? markdown.search(/^# 第八部分：/m);
+    const partBody = markdown.slice(partStart, partEnd === -1 ? markdown.length : partEnd);
+    const unitMatches = [...partBody.matchAll(/^## (\d+)\.\s+(.+)$/gm)];
+    const units = unitMatches.map((unitMatch, unitIndex) => {
+      const unitStart = unitMatch.index + unitMatch[0].length;
+      const unitEnd = unitMatches[unitIndex + 1]?.index ?? partBody.length;
+      return {
+        number: Number(unitMatch[1]),
+        title: stripMarkdown(unitMatch[2]),
+        blocks: parseRichMarkdownBlocks(partBody.slice(unitStart, unitEnd), markdownPath, chapterSlug),
+      };
+    });
+    return {
+      title: stripMarkdown(partMatch[1]),
+      units,
+    };
+  });
+
+  const vocabularySection = getSectionByHeading(markdown, /^# 第八部分：本章核心词汇表$/m, /^# 第九部分：/m);
+  const vocabularyTable = parseRichMarkdownBlocks(vocabularySection, markdownPath, chapterSlug).find((block) => block.type === "table");
+  const mistakesSection = getSectionByHeading(markdown, /^# 第九部分：容易出错的原句与正确表达$/m, /^# 第十部分：/m);
+  const mistakesTable = parseRichMarkdownBlocks(mistakesSection, markdownPath, chapterSlug).find((block) => block.type === "table");
+  const cheatSection = getSectionByHeading(markdown, /^# 第十部分：一页速记$/m);
+  const cheatMatches = [...cheatSection.matchAll(/^## (.+)$/gm)];
+  const cheatSheet = cheatMatches.map((match, index) => {
+    const start = match.index + match[0].length;
+    const end = cheatMatches[index + 1]?.index ?? cheatSection.length;
+    const blocks = parseRichMarkdownBlocks(cheatSection.slice(start, end), markdownPath, chapterSlug);
+    return {
+      title: stripMarkdown(match[1]),
+      items: blocks.find((block) => block.type === "list")?.items || [],
+    };
+  });
+
+  return {
+    title,
+    chapter: chapterNumber,
+    goals,
+    parts,
+    vocabulary: (vocabularyTable?.rows || []).map((row) => ({ word: row[0] || "", meaning: row[1] || "", example: row[2] || "" })).filter((item) => item.word),
+    commonMistakes: (mistakesTable?.rows || []).map((row) => ({ original: row[0] || "", corrected: row[1] || "", meaning: row[2] || "" })).filter((item) => item.original),
+    cheatSheet,
+    imageCount: parts.flatMap((part) => part.units).flatMap((unit) => unit.blocks).filter((block) => block.type === "image").length,
+    missingImageCount: parts.flatMap((part) => part.units).flatMap((unit) => unit.blocks).filter((block) => block.type === "image" && block.missing).length,
+  };
+}
+
 function parseGuidePointLines(section) {
   return section
     .split("\n")
@@ -487,6 +670,7 @@ function parseGuideLessonExtras(markdown) {
 
 const noteChapters = splitChapters(notes);
 const guideExtrasByChapter = parseGuideLessonExtras(guide);
+const fullStudyByChapter = new Map([[1, parseFullChapterStudy(fullChapterOne, fullChapterOnePath, 1)]].filter(([, study]) => study));
 const topics = noteChapters.map((chapter, index) => {
   const id = slugify(chapter.title);
   const vocab = parseVocabulary(getSection(chapter.body, "词汇表"), id, chapter.title);
@@ -505,6 +689,7 @@ const topics = noteChapters.map((chapter, index) => {
     confusing: bullets(getSection(chapter.body, "容易混淆")),
     guideSections: guideExtra.guideSections || [],
     memoryHints,
+    fullStudy: fullStudyByChapter.get(chapter.number) || null,
     keywords: vocab.map((item) => item.word).slice(0, 8),
     vocabulary: vocab,
   };
@@ -528,5 +713,5 @@ const output = `export const KNM_CONTENT = ${JSON.stringify({ topics, questions,
 fs.writeFileSync(outputPath, output);
 
 console.log(
-  `Imported ${topics.length} topics, ${questions.length} questions (${studyQuestions.length} study, ${duoQuestions.length} DUO, ${generatedQuestions.length} generated, ${guideQuestions.length} guide), ${words.length} vocabulary items, ${grammar.length} grammar cards, ${cheatSheet.length} cheat-sheet notes.`,
+  `Imported ${topics.length} topics, ${questions.length} questions (${studyQuestions.length} study, ${duoQuestions.length} DUO, ${generatedQuestions.length} generated, ${guideQuestions.length} guide), ${words.length} vocabulary items, ${grammar.length} grammar cards, ${cheatSheet.length} cheat-sheet notes, ${fullStudyByChapter.size} full-study chapters.`,
 );
