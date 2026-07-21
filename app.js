@@ -367,6 +367,7 @@ const STORAGE_KEY = "knm-cn-progress-v1";
 const state = {
   view: "dashboard",
   activeTopic: topics[0]?.id || "wonen",
+  activeWordTopic: "all",
   practiceIndex: 0,
   practiceAnswered: false,
   mock: {
@@ -430,6 +431,10 @@ function getTopic(id) {
 
 function topicQuestions(topicId) {
   return questions.filter((question) => question.topic === topicId);
+}
+
+function topicWords(topicId) {
+  return topicId === "all" ? words : words.filter((word) => word.topicId === topicId);
 }
 
 function getDutchVoice() {
@@ -621,6 +626,25 @@ function renderTopicSelect() {
   select.value = state.activeTopic;
 }
 
+function renderWordTopicFilters() {
+  const container = $("#wordTopicFilters");
+  const filters = [{ id: "all", title: "全部" }, ...topics];
+  container.innerHTML = "";
+  filters.forEach((topic) => {
+    const count = topicWords(topic.id).length;
+    const button = document.createElement("button");
+    button.className = "filter-chip";
+    button.type = "button";
+    button.textContent = `${topic.title} ${count}`;
+    button.dataset.wordTopic = topic.id;
+    button.addEventListener("click", () => {
+      state.activeWordTopic = topic.id;
+      renderWords();
+    });
+    container.append(button);
+  });
+}
+
 function renderPractice() {
   renderTopicSelect();
   const topic = getTopic(state.activeTopic);
@@ -717,7 +741,13 @@ function nextPractice() {
 }
 
 function renderWords() {
-  const sample = shuffle(words).slice(0, 20);
+  $$("#wordTopicFilters .filter-chip").forEach((chip) => {
+    chip.classList.toggle("is-active", chip.dataset.wordTopic === state.activeWordTopic);
+  });
+  const list = topicWords(state.activeWordTopic);
+  const topic = state.activeWordTopic === "all" ? null : getTopic(state.activeWordTopic);
+  const sample = shuffle(list).slice(0, state.activeWordTopic === "all" ? 20 : list.length);
+  $("#wordTopicCount").textContent = topic ? `${topic.title} | 显示 ${sample.length} / ${list.length}` : `全部 | 显示 ${sample.length} / ${words.length}`;
   $("#wordGrid").innerHTML = sample
     .map(
       (item) => `
@@ -865,6 +895,7 @@ function init() {
   const hash = window.location.hash.replace("#", "");
   if (hash && $(`#${hash}`)) state.view = hash;
   renderLessonFilters();
+  renderWordTopicFilters();
   renderLessons();
   renderPractice();
   renderWords();
