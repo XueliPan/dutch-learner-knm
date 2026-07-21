@@ -1006,7 +1006,7 @@ select {
   display: grid;
   align-content: start;
   gap: 8px;
-  min-height: 150px;
+  min-height: 118px;
   padding: 16px;
 }
 

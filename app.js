@@ -1002,7 +1002,6 @@ function renderWords() {
             </button>
           </div>
           <span>${item.meaning}</span>
-          <span>${item.topic}</span>
         </article>
       `,
     )
