@@ -7,7 +7,11 @@ const notesPath =
 const questionsPath =
   "/Users/sherrypan/Library/Mobile Documents/com~apple~CloudDocs/Dutch-A2/knm/KNM-practice-questions.zh-CN.md";
 const guidePath = "/Users/sherrypan/Downloads/KNM_study_guide_CN_NL.md";
-const fullChapterOnePath = "/Users/sherrypan/Downloads/KNM_Hoofdstuk_1_studieversie_CN_NL.md";
+const fullChapterOneCandidates = [
+  "/Users/sherrypan/Downloads/KNM_Hoofdstuk_1_studiepakket/KNM_Hoofdstuk_1_studieversie_CN_NL.md",
+  "/Users/sherrypan/Downloads/KNM_Hoofdstuk_1_studieversie_CN_NL.md",
+];
+const fullChapterOnePath = fullChapterOneCandidates.find((filePath) => fs.existsSync(filePath)) || fullChapterOneCandidates[0];
 const duoQuestionsPath = path.join(root, "content", "duo-practice-questions.json");
 const generatedQuestionsPath = path.join(root, "content", "generated-mock-questions.json");
 const outputPath = path.join(root, "content-data.js");
@@ -471,16 +475,39 @@ function parseTableLines(lines, start) {
   };
 }
 
+function findMediaSource(markdownPath, originalSrc) {
+  const directPath = path.resolve(path.dirname(markdownPath), originalSrc);
+  if (fs.existsSync(directPath)) return directPath;
+
+  const parsed = path.parse(directPath);
+  const possibleDirs = [
+    parsed.dir,
+    path.join(path.dirname(markdownPath), "KNM_Hoofdstuk_1_assets"),
+    path.join(path.dirname(path.dirname(markdownPath)), "KNM_Hoofdstuk_1_assets"),
+    path.join(path.dirname(markdownPath), "KNM_Hoofdstuk_1_studiepakket", "KNM_Hoofdstuk_1_assets"),
+  ];
+  const extensions = [parsed.ext, ".png", ".jpg", ".jpeg", ".webp"].filter(Boolean);
+
+  for (const dir of possibleDirs) {
+    for (const ext of extensions) {
+      const candidate = path.join(dir, `${parsed.name}${ext}`);
+      if (fs.existsSync(candidate)) return candidate;
+    }
+  }
+
+  return null;
+}
+
 function mediaBlockFromMarkdown(line, markdownPath, chapterSlug) {
   const match = line.match(/^!\[([^\]]*)\]\(([^)]+)\)/);
   if (!match) return null;
   const originalSrc = match[2];
-  const sourcePath = path.resolve(path.dirname(markdownPath), originalSrc);
-  const fileName = path.basename(originalSrc);
+  const sourcePath = findMediaSource(markdownPath, originalSrc);
+  const fileName = sourcePath ? path.basename(sourcePath) : path.basename(originalSrc);
   const outputDir = path.join(root, "assets", "lesson-media", chapterSlug);
   const outputSrc = `assets/lesson-media/${chapterSlug}/${fileName}`;
 
-  if (fs.existsSync(sourcePath)) {
+  if (sourcePath) {
     fs.mkdirSync(outputDir, { recursive: true });
     fs.copyFileSync(sourcePath, path.join(outputDir, fileName));
     return { type: "image", alt: stripMarkdown(match[1]), src: outputSrc, originalSrc, missing: false };

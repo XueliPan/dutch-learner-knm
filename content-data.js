@@ -159,9 +159,9 @@ export const KNM_CONTENT = {
                   {
                     "type": "image",
                     "alt": "荷兰在欧洲的位置",
-                    "src": "assets/lesson-media/hoofdstuk-1/kaart_nederland_in_europa.png",
+                    "src": "assets/lesson-media/hoofdstuk-1/kaart_nederland_in_europa.webp",
                     "originalSrc": "KNM_Hoofdstuk_1_assets/kaart_nederland_in_europa.png",
-                    "missing": true
+                    "missing": false
                   }
                 ]
               },
@@ -360,7 +360,7 @@ export const KNM_CONTENT = {
                     "alt": "荷兰12省地图",
                     "src": "assets/lesson-media/hoofdstuk-1/kaart_12_provincies.png",
                     "originalSrc": "KNM_Hoofdstuk_1_assets/kaart_12_provincies.png",
-                    "missing": true
+                    "missing": false
                   },
                   {
                     "type": "subheading",
@@ -409,9 +409,9 @@ export const KNM_CONTENT = {
                   {
                     "type": "image",
                     "alt": "Randstad地图",
-                    "src": "assets/lesson-media/hoofdstuk-1/kaart_randstad.png",
+                    "src": "assets/lesson-media/hoofdstuk-1/kaart_randstad.jpg",
                     "originalSrc": "KNM_Hoofdstuk_1_assets/kaart_randstad.png",
-                    "missing": true
+                    "missing": false
                   },
                   {
                     "type": "subheading",
@@ -2377,7 +2377,7 @@ export const KNM_CONTENT = {
           }
         ],
         "imageCount": 4,
-        "missingImageCount": 4
+        "missingImageCount": 1
       },
       "keywords": [
         "de provincie",

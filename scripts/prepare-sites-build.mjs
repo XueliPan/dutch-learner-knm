@@ -10,6 +10,13 @@ fs.mkdirSync(serverDir, { recursive: true });
 fs.mkdirSync(openAiDir, { recursive: true });
 fs.copyFileSync(path.join(root, ".openai", "hosting.json"), path.join(openAiDir, "hosting.json"));
 
+const lessonMediaSource = path.join(root, "assets", "lesson-media");
+const lessonMediaTarget = path.join(distDir, "assets", "lesson-media");
+if (fs.existsSync(lessonMediaSource)) {
+  fs.rmSync(lessonMediaTarget, { recursive: true, force: true });
+  fs.cpSync(lessonMediaSource, lessonMediaTarget, { recursive: true });
+}
+
 const mimeTypes = {
   ".html": "text/html; charset=utf-8",
   ".css": "text/css; charset=utf-8",
@@ -17,6 +24,7 @@ const mimeTypes = {
   ".jpg": "image/jpeg",
   ".jpeg": "image/jpeg",
   ".png": "image/png",
+  ".webp": "image/webp",
   ".svg": "image/svg+xml",
   ".ico": "image/x-icon",
 };
