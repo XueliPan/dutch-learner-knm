@@ -1214,12 +1214,13 @@ export const KNM_CONTENT = {
       "scenario": "Hoofdstuk 1 - Nederland leren kennen",
       "question": "Hoe heet land dat vroeger water was en later droog is gemaakt?",
       "explanation": "polder。以前是水，后来排水造地。",
-      "type": "short",
-      "answers": [],
-      "correctText": "polder",
-      "accepted": [
-        "polder"
-      ]
+      "type": "choice",
+      "answers": [
+        "dijk",
+        "polder",
+        "provincie"
+      ],
+      "correct": 1
     },
     {
       "id": "nederland-leren-kennen-5",

@@ -139,6 +139,33 @@ function parseAnswers(section) {
   return answers;
 }
 
+function choiceQuestionFromShortAnswer(base, answer, lesson) {
+  const correctText = answer.shortAnswer || answer.text.split(/[。.!]/)[0].trim();
+  const topicDistractors = {
+    "nederland-leren-kennen": ["dijk", "provincie"],
+    "de-mensen-in-nederland": ["buurman", "collega"],
+    "wonen-in-nederland": ["huurcontract", "woningcorporatie"],
+    "werken-in-nederland": ["salaris", "vacature"],
+    "gezondheid-en-gezondheidszorg-in-nederland": ["huisarts", "apotheek"],
+    "opvoeding-en-onderwijs-in-nederland": ["basisschool", "diploma"],
+    "politiek-in-nederland": ["gemeenteraad", "parlement"],
+    "dienstverlening-in-nederland": ["DigiD", "gemeente"],
+    "samenleven-in-nederland": ["vrijwilliger", "vereniging"],
+    "de-geschiedenis-van-nederland": ["koning", "grondwet"],
+  };
+  const distractors = topicDistractors[lesson.id] || ["gemeente", "provincie"];
+  const incorrect = distractors.filter((item) => item.toLowerCase() !== correctText.toLowerCase()).slice(0, 2);
+  const correct = ([...base.id].reduce((total, char) => total + char.charCodeAt(0), 0) + 1) % 3;
+  const answers = [...incorrect];
+  answers.splice(correct, 0, correctText);
+  return {
+    ...base,
+    type: "choice",
+    answers,
+    correct,
+  };
+}
+
 function parseQuestions(markdown, lessonByChapter) {
   const chapters = splitChapters(markdown);
   const allQuestions = [];
@@ -177,13 +204,7 @@ function parseQuestions(markdown, lessonByChapter) {
           correct: answer.truth ? 0 : 1,
         });
       } else {
-        allQuestions.push({
-          ...base,
-          type: "short",
-          answers: [],
-          correctText: answer.shortAnswer,
-          accepted: answer.shortAnswer ? [answer.shortAnswer.toLowerCase()] : [],
-        });
+        allQuestions.push(choiceQuestionFromShortAnswer(base, answer, lesson));
       }
     }
   }
