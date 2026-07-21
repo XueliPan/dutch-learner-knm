@@ -360,6 +360,8 @@ const words = importedContent.words?.length
   })),
 );
 const reviewPlan = importedContent.reviewPlan || [];
+const grammar = importedContent.grammar || [];
+const cheatSheet = importedContent.cheatSheet || [];
 const MOCK_QUESTION_COUNT = 40;
 const MOCK_DURATION_MINUTES = 45;
 
@@ -766,6 +768,28 @@ function renderWords() {
     .join("");
 }
 
+function renderGrammarGuide() {
+  $("#grammarGrid").innerHTML = grammar
+    .map(
+      (item) => `
+        <article class="grammar-card">
+          <div>
+            <strong>${item.pattern}</strong>
+            <p>${item.meaning}</p>
+          </div>
+          <div class="grammar-example">
+            <span>${item.example}</span>
+            <button class="listen-button small" data-speak-grammar="${item.example}" type="button" aria-label="播放 ${item.pattern} 例句">
+              <span aria-hidden="true">Luister</span>
+            </button>
+          </div>
+        </article>
+      `,
+    )
+    .join("");
+  $("#cheatList").innerHTML = cheatSheet.map((item) => `<li>${item}</li>`).join("");
+}
+
 function startMock() {
   state.mock.active = true;
   const questionCount = Math.min(MOCK_QUESTION_COUNT, questions.length);
@@ -879,6 +903,10 @@ function bindEvents() {
     const button = event.target instanceof Element ? event.target.closest("[data-speak-word]") : null;
     if (button) speakDutch(button.dataset.speakWord);
   });
+  $("#grammarGrid").addEventListener("click", (event) => {
+    const button = event.target instanceof Element ? event.target.closest("[data-speak-grammar]") : null;
+    if (button) speakDutch(button.dataset.speakGrammar);
+  });
   $("#startMock").addEventListener("click", startMock);
   $("#prevMock").addEventListener("click", () => {
     state.mock.index = Math.max(0, state.mock.index - 1);
@@ -899,6 +927,7 @@ function init() {
   renderLessons();
   renderPractice();
   renderWords();
+  renderGrammarGuide();
   renderDashboard();
   renderReviewPlan();
   bindEvents();

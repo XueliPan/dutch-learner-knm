@@ -31,6 +31,7 @@
         <button class="tab" data-view="practice" type="button">刷题</button>
         <button class="tab" data-view="mock" type="button">模拟</button>
         <button class="tab" data-view="words" type="button">词卡</button>
+        <button class="tab" data-view="grammar" type="button">语法/速记</button>
       </nav>
     </header>
 
@@ -120,7 +121,7 @@
                 <strong>werk en inkomen</strong>，考试时间为 <strong>45 分钟</strong>，模拟时建议按 <strong>40 道题</strong> 训练。
               </p>
               <p>
-                题库已加入 2 套 DUO oefenexamen，并补充原创扩展题；正式考试前仍建议到 DUO 官网熟悉考试入口。
+                题库已加入 2 套 DUO oefenexamen、KNM 学习手册练习题和原创扩展题；正式考试前仍建议到 DUO 官网熟悉考试入口。
               </p>
               <a href="https://www.inburgeren.nl/examen-doen/oefenen.jsp" target="_blank" rel="noreferrer">
                 打开 DUO 官方练习
@@ -236,6 +237,35 @@
           <span class="pill" id="wordTopicCount">0 个词</span>
         </div>
         <div class="word-grid" id="wordGrid"></div>
+      </section>
+
+      <section id="grammar" class="view" aria-labelledby="grammar-title">
+        <div class="page-heading">
+          <div>
+            <p class="eyebrow">Grammar & Cheat Sheet</p>
+            <h1 id="grammar-title">语法 / 考前速记</h1>
+          </div>
+        </div>
+        <div class="grammar-layout">
+          <section class="grammar-block" aria-labelledby="grammar-patterns-title">
+            <div class="section-heading">
+              <div>
+                <p class="eyebrow">High Frequency</p>
+                <h2 id="grammar-patterns-title">高频语法</h2>
+              </div>
+            </div>
+            <div class="grammar-grid" id="grammarGrid"></div>
+          </section>
+          <section class="grammar-block" aria-labelledby="cheat-sheet-title">
+            <div class="section-heading">
+              <div>
+                <p class="eyebrow">Before Exam</p>
+                <h2 id="cheat-sheet-title">考前一页速记</h2>
+              </div>
+            </div>
+            <ol class="cheat-list" id="cheatList"></ol>
+          </section>
+        </div>
       </section>
     </main>
 

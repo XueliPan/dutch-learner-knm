@@ -4398,6 +4398,1286 @@ export const KNM_CONTENT = {
       "correct": 0,
       "explanation": "parlement 代表人民，检查 regering 并参与立法。",
       "source": "原创模拟题"
+    },
+    {
+      "id": "guide-h1-1",
+      "topic": "nederland-leren-kennen",
+      "chapter": 1,
+      "scenario": "KNM 学习手册 - Hoofdstuk 1: Nederland leren kennen",
+      "question": "Waar ligt Nederland?",
+      "type": "choice",
+      "answers": [
+        "In Azië",
+        "In Europa",
+        "In Afrika"
+      ],
+      "correct": 1,
+      "explanation": "B — Nederland ligt in Europa.",
+      "source": "KNM study guide chapter practice"
+    },
+    {
+      "id": "guide-h1-2",
+      "topic": "nederland-leren-kennen",
+      "chapter": 1,
+      "scenario": "KNM 学习手册 - Hoofdstuk 1: Nederland leren kennen",
+      "question": "Welke stad is de hoofdstad van Nederland?",
+      "type": "choice",
+      "answers": [
+        "Amsterdam",
+        "Rotterdam",
+        "Den Haag"
+      ],
+      "correct": 0,
+      "explanation": "A — Amsterdam 是首都；政府在 Den Haag。",
+      "source": "KNM study guide chapter practice"
+    },
+    {
+      "id": "guide-h1-3",
+      "topic": "nederland-leren-kennen",
+      "chapter": 1,
+      "scenario": "KNM 学习手册 - Hoofdstuk 1: Nederland leren kennen",
+      "question": "Waar werkt de Nederlandse regering vooral?",
+      "type": "choice",
+      "answers": [
+        "In Utrecht",
+        "In Den Haag",
+        "In Maastricht"
+      ],
+      "correct": 1,
+      "explanation": "B — 政府和议会所在地是 Den Haag。",
+      "source": "KNM study guide chapter practice"
+    },
+    {
+      "id": "guide-h1-4",
+      "topic": "nederland-leren-kennen",
+      "chapter": 1,
+      "scenario": "KNM 学习手册 - Hoofdstuk 1: Nederland leren kennen",
+      "question": "Wat is een polder?",
+      "type": "choice",
+      "answers": [
+        "Land dat vroeger water was",
+        "Een hoge berg",
+        "Een vliegveld"
+      ],
+      "correct": 0,
+      "explanation": "A — Polder 是排水后形成的土地。",
+      "source": "KNM study guide chapter practice"
+    },
+    {
+      "id": "guide-h1-5",
+      "topic": "nederland-leren-kennen",
+      "chapter": 1,
+      "scenario": "KNM 学习手册 - Hoofdstuk 1: Nederland leren kennen",
+      "question": "Waarom zijn dijken belangrijk?",
+      "type": "choice",
+      "answers": [
+        "Om meer vis te vangen",
+        "Om Nederland tegen water te beschermen",
+        "Om vliegtuigen te laten landen"
+      ],
+      "correct": 1,
+      "explanation": "B — 堤坝的核心功能是防洪。",
+      "source": "KNM study guide chapter practice"
+    },
+    {
+      "id": "guide-h2-1",
+      "topic": "de-mensen-in-nederland",
+      "chapter": 2,
+      "scenario": "KNM 学习手册 - Hoofdstuk 2: De mensen in Nederland",
+      "question": "Wat doen mensen op 4 mei om 20.00 uur?",
+      "type": "choice",
+      "answers": [
+        "Twee minuten stil zijn",
+        "Cadeaus geven",
+        "Stemmen"
+      ],
+      "correct": 0,
+      "explanation": "A — 4 mei 是 Dodenherdenking，晚8点默哀两分钟。",
+      "source": "KNM study guide chapter practice"
+    },
+    {
+      "id": "guide-h2-2",
+      "topic": "de-mensen-in-nederland",
+      "chapter": 2,
+      "scenario": "KNM 学习手册 - Hoofdstuk 2: De mensen in Nederland",
+      "question": "Wanneer is Koningsdag?",
+      "type": "choice",
+      "answers": [
+        "27 april",
+        "5 mei",
+        "5 december"
+      ],
+      "correct": 0,
+      "explanation": "A — Koningsdag = 27 april。",
+      "source": "KNM study guide chapter practice"
+    },
+    {
+      "id": "guide-h2-3",
+      "topic": "de-mensen-in-nederland",
+      "chapter": 2,
+      "scenario": "KNM 学习手册 - Hoofdstuk 2: De mensen in Nederland",
+      "question": "Wat schrijf je aan iemand die ziek is?",
+      "type": "choice",
+      "answers": [
+        "Gecondoleerd",
+        "Beterschap",
+        "Welkom"
+      ],
+      "correct": 1,
+      "explanation": "B — Beterschap 表示早日康复。",
+      "source": "KNM study guide chapter practice"
+    },
+    {
+      "id": "guide-h2-4",
+      "topic": "de-mensen-in-nederland",
+      "chapter": 2,
+      "scenario": "KNM 学习手册 - Hoofdstuk 2: De mensen in Nederland",
+      "question": "Tegen wie zeg je meestal “u”?",
+      "type": "choice",
+      "answers": [
+        "Een onbekende arts",
+        "Je beste vriend",
+        "Een kind"
+      ],
+      "correct": 0,
+      "explanation": "A — 正式关系通常使用 u。",
+      "source": "KNM study guide chapter practice"
+    },
+    {
+      "id": "guide-h2-5",
+      "topic": "de-mensen-in-nederland",
+      "chapter": 2,
+      "scenario": "KNM 学习手册 - Hoofdstuk 2: De mensen in Nederland",
+      "question": "Wat moet je doen met een OV-chipkaart?",
+      "type": "choice",
+      "answers": [
+        "Alleen inchecken",
+        "Inchecken en uitchecken",
+        "Alleen uitchecken"
+      ],
+      "correct": 1,
+      "explanation": "B — 进出站都要刷卡。",
+      "source": "KNM study guide chapter practice"
+    },
+    {
+      "id": "guide-h3-1",
+      "topic": "gezondheid-en-gezondheidszorg-in-nederland",
+      "chapter": 3,
+      "scenario": "KNM 学习手册 - Hoofdstuk 3: Gezondheid en gezondheidszorg in Nederland",
+      "question": "Waar ga je meestal eerst naartoe met een gezondheidsklacht?",
+      "type": "choice",
+      "answers": [
+        "Naar de huisarts",
+        "Naar de burgemeester",
+        "Naar de bank"
+      ],
+      "correct": 0,
+      "explanation": "A — 普通健康问题首先联系 huisarts。",
+      "source": "KNM study guide chapter practice"
+    },
+    {
+      "id": "guide-h3-2",
+      "topic": "gezondheid-en-gezondheidszorg-in-nederland",
+      "chapter": 3,
+      "scenario": "KNM 学习手册 - Hoofdstuk 3: Gezondheid en gezondheidszorg in Nederland",
+      "question": "Wat heb je meestal nodig om naar een specialist te gaan?",
+      "type": "choice",
+      "answers": [
+        "Een verwijsbrief",
+        "Een stembiljet",
+        "Een huurcontract"
+      ],
+      "correct": 0,
+      "explanation": "A — 专科通常需要家庭医生转诊。",
+      "source": "KNM study guide chapter practice"
+    },
+    {
+      "id": "guide-h3-3",
+      "topic": "gezondheid-en-gezondheidszorg-in-nederland",
+      "chapter": 3,
+      "scenario": "KNM 学习手册 - Hoofdstuk 3: Gezondheid en gezondheidszorg in Nederland",
+      "question": "Waar haal je voorgeschreven medicijnen?",
+      "type": "choice",
+      "answers": [
+        "Bij de apotheek",
+        "Bij de gemeente",
+        "Bij het UWV"
+      ],
+      "correct": 0,
+      "explanation": "A — 处方药在 apotheek 领取。",
+      "source": "KNM study guide chapter practice"
+    },
+    {
+      "id": "guide-h3-4",
+      "topic": "gezondheid-en-gezondheidszorg-in-nederland",
+      "chapter": 3,
+      "scenario": "KNM 学习手册 - Hoofdstuk 3: Gezondheid en gezondheidszorg in Nederland",
+      "question": "Wanneer bel je 112?",
+      "type": "choice",
+      "answers": [
+        "Voor een gewone verkoudheid",
+        "Bij levensgevaar",
+        "Voor een tandartscontrole"
+      ],
+      "correct": 1,
+      "explanation": "B — 112 用于生命危险或严重紧急情况。",
+      "source": "KNM study guide chapter practice"
+    },
+    {
+      "id": "guide-h3-5",
+      "topic": "gezondheid-en-gezondheidszorg-in-nederland",
+      "chapter": 3,
+      "scenario": "KNM 学习手册 - Hoofdstuk 3: Gezondheid en gezondheidszorg in Nederland",
+      "question": "Wat is zorgtoeslag?",
+      "type": "choice",
+      "answers": [
+        "Een boete",
+        "Een bijdrage voor de zorgpremie bij een lager inkomen",
+        "Een ziekenhuisafdeling"
+      ],
+      "correct": 1,
+      "explanation": "B — zorgtoeslag 是符合条件者的医疗保费补贴。",
+      "source": "KNM study guide chapter practice"
+    },
+    {
+      "id": "guide-h4-1",
+      "topic": "wonen-in-nederland",
+      "chapter": 4,
+      "scenario": "KNM 学习手册 - Hoofdstuk 4: Wonen in Nederland",
+      "question": "Wie helpt bij het kopen of verkopen van een huis?",
+      "type": "choice",
+      "answers": [
+        "Een makelaar",
+        "Een huisarts",
+        "Een conducteur"
+      ],
+      "correct": 0,
+      "explanation": "A — makelaar 是房产中介。",
+      "source": "KNM study guide chapter practice"
+    },
+    {
+      "id": "guide-h4-2",
+      "topic": "wonen-in-nederland",
+      "chapter": 4,
+      "scenario": "KNM 学习手册 - Hoofdstuk 4: Wonen in Nederland",
+      "question": "Wat is een sociale huurwoning?",
+      "type": "choice",
+      "answers": [
+        "Een gratis woning",
+        "Een gereguleerde huurwoning voor mensen die aan voorwaarden voldoen",
+        "Een vakantiehuis"
+      ],
+      "correct": 1,
+      "explanation": "B — 社会住房不是免费住房，租客仍需付租金。",
+      "source": "KNM study guide chapter practice"
+    },
+    {
+      "id": "guide-h4-3",
+      "topic": "wonen-in-nederland",
+      "chapter": 4,
+      "scenario": "KNM 学习手册 - Hoofdstuk 4: Wonen in Nederland",
+      "question": "Waar kun je terecht bij een ernstig huurgeschil?",
+      "type": "choice",
+      "answers": [
+        "Huurcommissie",
+        "Brandweer",
+        "Bibliotheek"
+      ],
+      "correct": 0,
+      "explanation": "A — Huurcommissie 处理部分租金与维护争议。",
+      "source": "KNM study guide chapter practice"
+    },
+    {
+      "id": "guide-h4-4",
+      "topic": "wonen-in-nederland",
+      "chapter": 4,
+      "scenario": "KNM 学习手册 - Hoofdstuk 4: Wonen in Nederland",
+      "question": "Waar gooi je glas meestal weg?",
+      "type": "choice",
+      "answers": [
+        "In de glasbak",
+        "Op straat",
+        "In de brievenbus"
+      ],
+      "correct": 0,
+      "explanation": "A — 玻璃通常投进 glasbak。",
+      "source": "KNM study guide chapter practice"
+    },
+    {
+      "id": "guide-h4-5",
+      "topic": "wonen-in-nederland",
+      "chapter": 4,
+      "scenario": "KNM 学习手册 - Hoofdstuk 4: Wonen in Nederland",
+      "question": "Welke verzekering helpt als je per ongeluk iets van een ander kapotmaakt?",
+      "type": "choice",
+      "answers": [
+        "Aansprakelijkheidsverzekering",
+        "Zorgverzekering",
+        "Tandartsverzekering"
+      ],
+      "correct": 0,
+      "explanation": "A — aansprakelijkheidsverzekering 处理对他人的损害。",
+      "source": "KNM study guide chapter practice"
+    },
+    {
+      "id": "guide-h5-1",
+      "topic": "dienstverlening-in-nederland",
+      "chapter": 5,
+      "scenario": "KNM 学习手册 - Hoofdstuk 5: Dienstverlening in Nederland",
+      "question": "Waar vraag je een nieuw rijbewijs aan?",
+      "type": "choice",
+      "answers": [
+        "Bij de gemeente",
+        "Bij de apotheek",
+        "Bij de werkgever"
+      ],
+      "correct": 0,
+      "explanation": "A — 驾驶证由 gemeente 办理。",
+      "source": "KNM study guide chapter practice"
+    },
+    {
+      "id": "guide-h5-2",
+      "topic": "dienstverlening-in-nederland",
+      "chapter": 5,
+      "scenario": "KNM 学习手册 - Hoofdstuk 5: Dienstverlening in Nederland",
+      "question": "Wat doe je als je portemonnee is gestolen?",
+      "type": "choice",
+      "answers": [
+        "Aangifte doen",
+        "Huurtoeslag aanvragen",
+        "Naar de tandarts gaan"
+      ],
+      "correct": 0,
+      "explanation": "A — 失窃应向警方报案。",
+      "source": "KNM study guide chapter practice"
+    },
+    {
+      "id": "guide-h5-3",
+      "topic": "dienstverlening-in-nederland",
+      "chapter": 5,
+      "scenario": "KNM 学习手册 - Hoofdstuk 5: Dienstverlening in Nederland",
+      "question": "Welke instantie beslist over verblijfsvergunningen?",
+      "type": "choice",
+      "answers": [
+        "IND",
+        "UWV",
+        "SVB"
+      ],
+      "correct": 0,
+      "explanation": "A — IND 处理居留相关申请。",
+      "source": "KNM study guide chapter practice"
+    },
+    {
+      "id": "guide-h5-4",
+      "topic": "dienstverlening-in-nederland",
+      "chapter": 5,
+      "scenario": "KNM 学习手册 - Hoofdstuk 5: Dienstverlening in Nederland",
+      "question": "Waarvoor gebruik je DigiD?",
+      "type": "choice",
+      "answers": [
+        "Voor online overheidsdiensten",
+        "Om met de trein te reizen",
+        "Om medicijnen te kopen"
+      ],
+      "correct": 0,
+      "explanation": "A — DigiD 是政府在线身份登录工具。",
+      "source": "KNM study guide chapter practice"
+    },
+    {
+      "id": "guide-h5-5",
+      "topic": "dienstverlening-in-nederland",
+      "chapter": 5,
+      "scenario": "KNM 学习手册 - Hoofdstuk 5: Dienstverlening in Nederland",
+      "question": "Wat doe je als je het niet eens bent met een belastingbesluit?",
+      "type": "choice",
+      "answers": [
+        "Bezwaar maken",
+        "Een cadeau geven",
+        "Zwart reizen"
+      ],
+      "correct": 0,
+      "explanation": "A — 可以依法提出 bezwaar。",
+      "source": "KNM study guide chapter practice"
+    },
+    {
+      "id": "guide-h6-1",
+      "topic": "opvoeding-en-onderwijs-in-nederland",
+      "chapter": 6,
+      "scenario": "KNM 学习手册 - Hoofdstuk 6: Opvoeding en onderwijs in Nederland",
+      "question": "Voor welke leeftijd is het consultatiebureau vooral?",
+      "type": "choice",
+      "answers": [
+        "0 tot 4 jaar",
+        "12 tot 18 jaar",
+        "Alleen volwassenen"
+      ],
+      "correct": 0,
+      "explanation": "A — consultatiebureau 主要服务0—4岁儿童。",
+      "source": "KNM study guide chapter practice"
+    },
+    {
+      "id": "guide-h6-2",
+      "topic": "opvoeding-en-onderwijs-in-nederland",
+      "chapter": 6,
+      "scenario": "KNM 学习手册 - Hoofdstuk 6: Opvoeding en onderwijs in Nederland",
+      "question": "Vanaf welke leeftijd geldt normaal de leerplicht?",
+      "type": "choice",
+      "answers": [
+        "Vanaf 3 jaar",
+        "Vanaf 5 jaar",
+        "Vanaf 18 jaar"
+      ],
+      "correct": 1,
+      "explanation": "B — 孩子5岁起必须上学。",
+      "source": "KNM study guide chapter practice"
+    },
+    {
+      "id": "guide-h6-3",
+      "topic": "opvoeding-en-onderwijs-in-nederland",
+      "chapter": 6,
+      "scenario": "KNM 学习手册 - Hoofdstuk 6: Opvoeding en onderwijs in Nederland",
+      "question": "Waar gaat een leerling na VMBO meestal naartoe?",
+      "type": "choice",
+      "answers": [
+        "MBO",
+        "Universiteit",
+        "Basisschool"
+      ],
+      "correct": 0,
+      "explanation": "A — VMBO 通常衔接 MBO。",
+      "source": "KNM study guide chapter practice"
+    },
+    {
+      "id": "guide-h6-4",
+      "topic": "opvoeding-en-onderwijs-in-nederland",
+      "chapter": 6,
+      "scenario": "KNM 学习手册 - Hoofdstuk 6: Opvoeding en onderwijs in Nederland",
+      "question": "Wat is BSO?",
+      "type": "choice",
+      "answers": [
+        "Buitenschoolse opvang",
+        "Een belastingdienst",
+        "Een ziekenhuisafdeling"
+      ],
+      "correct": 0,
+      "explanation": "A — BSO 是校外托管。",
+      "source": "KNM study guide chapter practice"
+    },
+    {
+      "id": "guide-h6-5",
+      "topic": "opvoeding-en-onderwijs-in-nederland",
+      "chapter": 6,
+      "scenario": "KNM 学习手册 - Hoofdstuk 6: Opvoeding en onderwijs in Nederland",
+      "question": "Mogen ouders hun kind slaan?",
+      "type": "choice",
+      "answers": [
+        "Ja, altijd",
+        "Nee",
+        "Alleen op school"
+      ],
+      "correct": 1,
+      "explanation": "B — 殴打儿童不被允许。",
+      "source": "KNM study guide chapter practice"
+    },
+    {
+      "id": "guide-h7-1",
+      "topic": "werken-in-nederland",
+      "chapter": 7,
+      "scenario": "KNM 学习手册 - Hoofdstuk 7: Werken in Nederland",
+      "question": "Wat is vrijwilligerswerk?",
+      "type": "choice",
+      "answers": [
+        "Werk zonder salaris",
+        "Verboden werk",
+        "Werk met altijd een vast contract"
+      ],
+      "correct": 0,
+      "explanation": "A — 志愿工作通常不领取工资。",
+      "source": "KNM study guide chapter practice"
+    },
+    {
+      "id": "guide-h7-2",
+      "topic": "werken-in-nederland",
+      "chapter": 7,
+      "scenario": "KNM 学习手册 - Hoofdstuk 7: Werken in Nederland",
+      "question": "Wat stuur je meestal bij een sollicitatie?",
+      "type": "choice",
+      "answers": [
+        "Een CV en sollicitatiebrief",
+        "Een huurcontract",
+        "Een recept"
+      ],
+      "correct": 0,
+      "explanation": "A — 求职通常提交CV和求职信。",
+      "source": "KNM study guide chapter practice"
+    },
+    {
+      "id": "guide-h7-3",
+      "topic": "werken-in-nederland",
+      "chapter": 7,
+      "scenario": "KNM 学习手册 - Hoofdstuk 7: Werken in Nederland",
+      "question": "Wat is bruto salaris?",
+      "type": "choice",
+      "answers": [
+        "Salaris vóór belasting en premies",
+        "Alleen vakantiegeld",
+        "Het bedrag na alle inhoudingen"
+      ],
+      "correct": 0,
+      "explanation": "A — bruto 是扣除税费前的工资。",
+      "source": "KNM study guide chapter practice"
+    },
+    {
+      "id": "guide-h7-4",
+      "topic": "werken-in-nederland",
+      "chapter": 7,
+      "scenario": "KNM 学习手册 - Hoofdstuk 7: Werken in Nederland",
+      "question": "Welke instantie helpt vaak bij werkloosheid?",
+      "type": "choice",
+      "answers": [
+        "UWV",
+        "IND",
+        "Apotheek"
+      ],
+      "correct": 0,
+      "explanation": "A — UWV 处理多种就业和雇员保险事务。",
+      "source": "KNM study guide chapter practice"
+    },
+    {
+      "id": "guide-h7-5",
+      "topic": "werken-in-nederland",
+      "chapter": 7,
+      "scenario": "KNM 学习手册 - Hoofdstuk 7: Werken in Nederland",
+      "question": "Wat betekent discriminatie op het werk?",
+      "type": "choice",
+      "answers": [
+        "Mensen ongelijk behandelen om verboden redenen",
+        "Iedereen hetzelfde loon geven",
+        "Een collega helpen"
+      ],
+      "correct": 0,
+      "explanation": "A — 基于受保护特征的不平等待遇属于歧视。",
+      "source": "KNM study guide chapter practice"
+    },
+    {
+      "id": "guide-h8-1",
+      "topic": "samenleven-in-nederland",
+      "chapter": 8,
+      "scenario": "KNM 学习手册 - Hoofdstuk 8: Samenleven in Nederland",
+      "question": "Mogen twee mannen in Nederland met elkaar trouwen?",
+      "type": "choice",
+      "answers": [
+        "Ja",
+        "Nee",
+        "Alleen in het buitenland"
+      ],
+      "correct": 0,
+      "explanation": "A — 同性婚姻在荷兰合法。",
+      "source": "KNM study guide chapter practice"
+    },
+    {
+      "id": "guide-h8-2",
+      "topic": "samenleven-in-nederland",
+      "chapter": 8,
+      "scenario": "KNM 学习手册 - Hoofdstuk 8: Samenleven in Nederland",
+      "question": "Mogen vrouwen hetzelfde werk doen als mannen?",
+      "type": "choice",
+      "answers": [
+        "Ja",
+        "Nee",
+        "Alleen parttime"
+      ],
+      "correct": 0,
+      "explanation": "A — 男女在教育和就业上具有平等权利。",
+      "source": "KNM study guide chapter practice"
+    },
+    {
+      "id": "guide-h8-3",
+      "topic": "samenleven-in-nederland",
+      "chapter": 8,
+      "scenario": "KNM 学习手册 - Hoofdstuk 8: Samenleven in Nederland",
+      "question": "Wat kun je doen bij discriminatie?",
+      "type": "choice",
+      "answers": [
+        "Een klacht indienen of hulp zoeken",
+        "Altijd zwijgen",
+        "Zelf geweld gebruiken"
+      ],
+      "correct": 0,
+      "explanation": "A — 应通过投诉、专业机构或警方依法处理。",
+      "source": "KNM study guide chapter practice"
+    },
+    {
+      "id": "guide-h8-4",
+      "topic": "samenleven-in-nederland",
+      "chapter": 8,
+      "scenario": "KNM 学习手册 - Hoofdstuk 8: Samenleven in Nederland",
+      "question": "Mogen ouders hun kinderen slaan?",
+      "type": "choice",
+      "answers": [
+        "Ja",
+        "Nee",
+        "Alleen als het kind niet luistert"
+      ],
+      "correct": 1,
+      "explanation": "B — 儿童不得受到暴力。",
+      "source": "KNM study guide chapter practice"
+    },
+    {
+      "id": "guide-h8-5",
+      "topic": "samenleven-in-nederland",
+      "chapter": 8,
+      "scenario": "KNM 学习手册 - Hoofdstuk 8: Samenleven in Nederland",
+      "question": "Wat is belangrijk in een diverse samenleving?",
+      "type": "choice",
+      "answers": [
+        "Respect voor anderen",
+        "Iedereen dwingen hetzelfde te denken",
+        "Discriminatie accepteren"
+      ],
+      "correct": 0,
+      "explanation": "A — 多元社会强调平等、尊重和守法。",
+      "source": "KNM study guide chapter practice"
+    },
+    {
+      "id": "guide-h9-1",
+      "topic": "de-geschiedenis-van-nederland",
+      "chapter": 9,
+      "scenario": "KNM 学习手册 - Hoofdstuk 9: De geschiedenis van Nederland",
+      "question": "Wanneer eindigde de Tachtigjarige Oorlog?",
+      "type": "choice",
+      "answers": [
+        "1648",
+        "1945",
+        "2002"
+      ],
+      "correct": 0,
+      "explanation": "A — 八十年战争结束于1648年。",
+      "source": "KNM study guide chapter practice"
+    },
+    {
+      "id": "guide-h9-2",
+      "topic": "de-geschiedenis-van-nederland",
+      "chapter": 9,
+      "scenario": "KNM 学习手册 - Hoofdstuk 9: De geschiedenis van Nederland",
+      "question": "Wie was Willem van Oranje?",
+      "type": "choice",
+      "answers": [
+        "Een belangrijke politieke leider",
+        "Een moderne voetballer",
+        "Een huisarts"
+      ],
+      "correct": 0,
+      "explanation": "A — 他是荷兰独立运动的重要领袖。",
+      "source": "KNM study guide chapter practice"
+    },
+    {
+      "id": "guide-h9-3",
+      "topic": "de-geschiedenis-van-nederland",
+      "chapter": 9,
+      "scenario": "KNM 学习手册 - Hoofdstuk 9: De geschiedenis van Nederland",
+      "question": "Waarom dragen Nederlanders vaak oranje bij voetbal?",
+      "type": "choice",
+      "answers": [
+        "Door het Huis van Oranje",
+        "Door de Noordzee",
+        "Door de euro"
+      ],
+      "correct": 0,
+      "explanation": "A — 橙色与奥兰治王室传统相关。",
+      "source": "KNM study guide chapter practice"
+    },
+    {
+      "id": "guide-h9-4",
+      "topic": "de-geschiedenis-van-nederland",
+      "chapter": 9,
+      "scenario": "KNM 学习手册 - Hoofdstuk 9: De geschiedenis van Nederland",
+      "question": "Wat gebeurt op 4 mei?",
+      "type": "choice",
+      "answers": [
+        "Dodenherdenking",
+        "Koningsdag",
+        "Sinterklaas"
+      ],
+      "correct": 0,
+      "explanation": "A — 5月4日纪念战争死难者。",
+      "source": "KNM study guide chapter practice"
+    },
+    {
+      "id": "guide-h9-5",
+      "topic": "de-geschiedenis-van-nederland",
+      "chapter": 9,
+      "scenario": "KNM 学习手册 - Hoofdstuk 9: De geschiedenis van Nederland",
+      "question": "Waarom werden de Deltawerken gebouwd?",
+      "type": "choice",
+      "answers": [
+        "Na de grote overstroming, voor bescherming tegen water",
+        "Voor een nieuw vliegveld",
+        "Voor de verkiezingen"
+      ],
+      "correct": 0,
+      "explanation": "A — 洪灾后加强海岸防护。",
+      "source": "KNM study guide chapter practice"
+    },
+    {
+      "id": "guide-h10-1",
+      "topic": "politiek-in-nederland",
+      "chapter": 10,
+      "scenario": "KNM 学习手册 - Hoofdstuk 10: Politiek in Nederland",
+      "question": "Hoeveel leden heeft de Tweede Kamer?",
+      "type": "choice",
+      "answers": [
+        "75",
+        "150",
+        "12"
+      ],
+      "correct": 1,
+      "explanation": "B — Tweede Kamer 有150个席位。",
+      "source": "KNM study guide chapter practice"
+    },
+    {
+      "id": "guide-h10-2",
+      "topic": "politiek-in-nederland",
+      "chapter": 10,
+      "scenario": "KNM 学习手册 - Hoofdstuk 10: Politiek in Nederland",
+      "question": "Wat is actief kiesrecht?",
+      "type": "choice",
+      "answers": [
+        "Het recht om zelf te stemmen",
+        "Het recht om rechter te zijn",
+        "Het recht om belasting te betalen"
+      ],
+      "correct": 0,
+      "explanation": "A — actief kiesrecht 是主动投票权。",
+      "source": "KNM study guide chapter practice"
+    },
+    {
+      "id": "guide-h10-3",
+      "topic": "politiek-in-nederland",
+      "chapter": 10,
+      "scenario": "KNM 学习手册 - Hoofdstuk 10: Politiek in Nederland",
+      "question": "Wie controleert de regering?",
+      "type": "choice",
+      "answers": [
+        "Het parlement",
+        "De apotheek",
+        "De makelaar"
+      ],
+      "correct": 0,
+      "explanation": "A — 议会监督政府。",
+      "source": "KNM study guide chapter practice"
+    },
+    {
+      "id": "guide-h10-4",
+      "topic": "politiek-in-nederland",
+      "chapter": 10,
+      "scenario": "KNM 学习手册 - Hoofdstuk 10: Politiek in Nederland",
+      "question": "Wat betekent oppositie?",
+      "type": "choice",
+      "answers": [
+        "Partijen die niet in de regering zitten",
+        "Alle ministers",
+        "De politie"
+      ],
+      "correct": 0,
+      "explanation": "A — 未参加执政联盟的政党属于反对党。",
+      "source": "KNM study guide chapter practice"
+    },
+    {
+      "id": "guide-h10-5",
+      "topic": "politiek-in-nederland",
+      "chapter": 10,
+      "scenario": "KNM 学习手册 - Hoofdstuk 10: Politiek in Nederland",
+      "question": "Mag de regering bepalen hoe een rechter moet beslissen?",
+      "type": "choice",
+      "answers": [
+        "Ja",
+        "Nee",
+        "Alleen bij verkiezingen"
+      ],
+      "correct": 1,
+      "explanation": "B — 司法独立是权力分立的重要原则。",
+      "source": "KNM study guide chapter practice"
+    },
+    {
+      "id": "guide-mock-1",
+      "topic": "nederland-leren-kennen",
+      "chapter": null,
+      "scenario": "KNM 学习手册 - 综合模拟题",
+      "question": "Wat is de hoofdstad van Nederland?",
+      "type": "choice",
+      "answers": [
+        "Amsterdam",
+        "Den Haag",
+        "Rotterdam"
+      ],
+      "correct": 0,
+      "explanation": "A — Amsterdam 是首都。",
+      "source": "KNM study guide mock"
+    },
+    {
+      "id": "guide-mock-2",
+      "topic": "nederland-leren-kennen",
+      "chapter": null,
+      "scenario": "KNM 学习手册 - 综合模拟题",
+      "question": "Waar zit de regering?",
+      "type": "choice",
+      "answers": [
+        "Den Haag",
+        "Utrecht",
+        "Eindhoven"
+      ],
+      "correct": 0,
+      "explanation": "A — 中央政府所在地是 Den Haag。",
+      "source": "KNM study guide mock"
+    },
+    {
+      "id": "guide-mock-3",
+      "topic": "nederland-leren-kennen",
+      "chapter": null,
+      "scenario": "KNM 学习手册 - 综合模拟题",
+      "question": "Wat beschermt Nederland tegen de zee?",
+      "type": "choice",
+      "answers": [
+        "Dijken en duinen",
+        "Bibliotheken",
+        "Treinen"
+      ],
+      "correct": 0,
+      "explanation": "A — 堤坝和沙丘用于防洪。",
+      "source": "KNM study guide mock"
+    },
+    {
+      "id": "guide-mock-4",
+      "topic": "nederland-leren-kennen",
+      "chapter": null,
+      "scenario": "KNM 学习手册 - 综合模拟题",
+      "question": "Wat is het doel van de Verenigde Naties?",
+      "type": "choice",
+      "answers": [
+        "Vrede en veiligheid",
+        "Een voetbalteam maken",
+        "Alleen onderwijs in Nederland"
+      ],
+      "correct": 0,
+      "explanation": "A — 联合国核心目标包括和平与安全。",
+      "source": "KNM study guide mock"
+    },
+    {
+      "id": "guide-mock-5",
+      "topic": "nederland-leren-kennen",
+      "chapter": null,
+      "scenario": "KNM 学习手册 - 综合模拟题",
+      "question": "Wat is het Wilhelmus?",
+      "type": "choice",
+      "answers": [
+        "Het Nederlandse volkslied",
+        "De grondwet",
+        "Een politieke partij"
+      ],
+      "correct": 0,
+      "explanation": "A — Wilhelmus 是荷兰国歌。",
+      "source": "KNM study guide mock"
+    },
+    {
+      "id": "guide-mock-6",
+      "topic": "gezondheid-en-gezondheidszorg-in-nederland",
+      "chapter": null,
+      "scenario": "KNM 学习手册 - 综合模拟题",
+      "question": "Waar lever je een blikje met statiegeld meestal in?",
+      "type": "choice",
+      "answers": [
+        "Bij een inleverpunt, vaak in een supermarkt",
+        "Bij de huisarts",
+        "Bij de rechtbank"
+      ],
+      "correct": 0,
+      "explanation": "A — 带押金的罐子可在回收点退还。",
+      "source": "KNM study guide mock"
+    },
+    {
+      "id": "guide-mock-7",
+      "topic": "wonen-in-nederland",
+      "chapter": null,
+      "scenario": "KNM 学习手册 - 综合模拟题",
+      "question": "Wie kan helpen bij het kopen van een huis?",
+      "type": "choice",
+      "answers": [
+        "Een makelaar",
+        "Een tandarts",
+        "Een leraar"
+      ],
+      "correct": 0,
+      "explanation": "A — makelaar 是房产中介。",
+      "source": "KNM study guide mock"
+    },
+    {
+      "id": "guide-mock-8",
+      "topic": "politiek-in-nederland",
+      "chapter": null,
+      "scenario": "KNM 学习手册 - 综合模拟题",
+      "question": "Wat is actief kiesrecht?",
+      "type": "choice",
+      "answers": [
+        "Zelf mogen stemmen",
+        "Door anderen gekozen mogen worden",
+        "Geen belasting betalen"
+      ],
+      "correct": 0,
+      "explanation": "A — 主动选举权是自己投票。",
+      "source": "KNM study guide mock"
+    },
+    {
+      "id": "guide-mock-9",
+      "topic": "nederland-leren-kennen",
+      "chapter": null,
+      "scenario": "KNM 学习手册 - 综合模拟题",
+      "question": "Heeft een Nederlandse EU-burger een visum nodig voor een korte reis naar België?",
+      "type": "choice",
+      "answers": [
+        "Normaal niet",
+        "Altijd wel",
+        "Alleen met een fiets"
+      ],
+      "correct": 0,
+      "explanation": "A — 欧盟公民在欧盟内部通常不需签证短期旅行。",
+      "source": "KNM study guide mock"
+    },
+    {
+      "id": "guide-mock-10",
+      "topic": "werken-in-nederland",
+      "chapter": null,
+      "scenario": "KNM 学习手册 - 综合模拟题",
+      "question": "Mogen vrouwen hetzelfde werk doen als mannen?",
+      "type": "choice",
+      "answers": [
+        "Ja",
+        "Nee",
+        "Alleen bij de overheid"
+      ],
+      "correct": 0,
+      "explanation": "A — 法律上男女平等。",
+      "source": "KNM study guide mock"
+    },
+    {
+      "id": "guide-mock-11",
+      "topic": "de-mensen-in-nederland",
+      "chapter": null,
+      "scenario": "KNM 学习手册 - 综合模拟题",
+      "question": "Wat schrijf je op een kaart aan iemand die ziek is?",
+      "type": "choice",
+      "answers": [
+        "Beterschap",
+        "Gecondoleerd",
+        "Gefeliciteerd met uw pensioen"
+      ],
+      "correct": 0,
+      "explanation": "A — Beterschap = 早日康复。",
+      "source": "KNM study guide mock"
+    },
+    {
+      "id": "guide-mock-12",
+      "topic": "gezondheid-en-gezondheidszorg-in-nederland",
+      "chapter": null,
+      "scenario": "KNM 学习手册 - 综合模拟题",
+      "question": "Wat moet je doen als je niet naar een doktersafspraak kunt?",
+      "type": "choice",
+      "answers": [
+        "Op tijd afbellen",
+        "Niets doen",
+        "112 bellen"
+      ],
+      "correct": 0,
+      "explanation": "A — 不能赴约应及时取消。",
+      "source": "KNM study guide mock"
+    },
+    {
+      "id": "guide-mock-13",
+      "topic": "gezondheid-en-gezondheidszorg-in-nederland",
+      "chapter": null,
+      "scenario": "KNM 学习手册 - 综合模拟题",
+      "question": "Wie kan je naar een specialist verwijzen?",
+      "type": "choice",
+      "answers": [
+        "De huisarts",
+        "De makelaar",
+        "De conducteur"
+      ],
+      "correct": 0,
+      "explanation": "A — 家庭医生负责转诊。",
+      "source": "KNM study guide mock"
+    },
+    {
+      "id": "guide-mock-14",
+      "topic": "gezondheid-en-gezondheidszorg-in-nederland",
+      "chapter": null,
+      "scenario": "KNM 学习手册 - 综合模拟题",
+      "question": "Wat is een recept?",
+      "type": "choice",
+      "answers": [
+        "Een voorschrift voor medicijnen",
+        "Een belastingformulier",
+        "Een treinkaartje"
+      ],
+      "correct": 0,
+      "explanation": "A — recept 是处方。",
+      "source": "KNM study guide mock"
+    },
+    {
+      "id": "guide-mock-15",
+      "topic": "gezondheid-en-gezondheidszorg-in-nederland",
+      "chapter": null,
+      "scenario": "KNM 学习手册 - 综合模拟题",
+      "question": "Wat is de basisverzekering?",
+      "type": "choice",
+      "answers": [
+        "De verplichte basiszorgverzekering",
+        "Een huurcontract",
+        "Een vrijwillige sportclub"
+      ],
+      "correct": 0,
+      "explanation": "A — 基础医疗保险是强制性保险。",
+      "source": "KNM study guide mock"
+    },
+    {
+      "id": "guide-mock-16",
+      "topic": "wonen-in-nederland",
+      "chapter": null,
+      "scenario": "KNM 学习手册 - 综合模拟题",
+      "question": "Waar vraag je huurtoeslag aan?",
+      "type": "choice",
+      "answers": [
+        "Bij de Belastingdienst",
+        "Bij de politie",
+        "Bij de apotheek"
+      ],
+      "correct": 0,
+      "explanation": "A — huurtoeslag 由税务局管理。",
+      "source": "KNM study guide mock"
+    },
+    {
+      "id": "guide-mock-17",
+      "topic": "wonen-in-nederland",
+      "chapter": null,
+      "scenario": "KNM 学习手册 - 综合模拟题",
+      "question": "Wat doe je met grofvuil?",
+      "type": "choice",
+      "answers": [
+        "Volgens gemeentelijke regels naar een afvalpunt brengen of laten ophalen",
+        "In de glasbak doen",
+        "Op straat laten liggen"
+      ],
+      "correct": 0,
+      "explanation": "A — 大型垃圾按市政规则处理。",
+      "source": "KNM study guide mock"
+    },
+    {
+      "id": "guide-mock-18",
+      "topic": "wonen-in-nederland",
+      "chapter": null,
+      "scenario": "KNM 学习手册 - 综合模拟题",
+      "question": "Wat betekent kwijtschelding?",
+      "type": "choice",
+      "answers": [
+        "Dat je een bedrag onder voorwaarden niet hoeft te betalen",
+        "Dat je extra belasting betaalt",
+        "Dat je verhuist"
+      ],
+      "correct": 0,
+      "explanation": "A — kwijtschelding 是符合条件下的减免。",
+      "source": "KNM study guide mock"
+    },
+    {
+      "id": "guide-mock-19",
+      "topic": "dienstverlening-in-nederland",
+      "chapter": null,
+      "scenario": "KNM 学习手册 - 综合模拟题",
+      "question": "Welke instantie beslist over verblijfsvergunningen?",
+      "type": "choice",
+      "answers": [
+        "IND",
+        "UWV",
+        "KvK"
+      ],
+      "correct": 0,
+      "explanation": "A — IND 处理居留许可。",
+      "source": "KNM study guide mock"
+    },
+    {
+      "id": "guide-mock-20",
+      "topic": "de-mensen-in-nederland",
+      "chapter": null,
+      "scenario": "KNM 学习手册 - 综合模拟题",
+      "question": "Waarvoor gebruik je een BSN?",
+      "type": "choice",
+      "answers": [
+        "Voor identificatie bij overheid en veel instanties",
+        "Alleen voor voetbal",
+        "Voor de OV-chipkaart als saldo"
+      ],
+      "correct": 0,
+      "explanation": "A — BSN 是个人政府服务号码。",
+      "source": "KNM study guide mock"
+    },
+    {
+      "id": "guide-mock-21",
+      "topic": "dienstverlening-in-nederland",
+      "chapter": null,
+      "scenario": "KNM 学习手册 - 综合模拟题",
+      "question": "Vanaf welke leeftijd moeten kinderen normaal naar school?",
+      "type": "choice",
+      "answers": [
+        "5 jaar",
+        "1 jaar",
+        "18 jaar"
+      ],
+      "correct": 0,
+      "explanation": "A — 义务教育从5岁开始。",
+      "source": "KNM study guide mock"
+    },
+    {
+      "id": "guide-mock-22",
+      "topic": "dienstverlening-in-nederland",
+      "chapter": null,
+      "scenario": "KNM 学习手册 - 综合模拟题",
+      "question": "Wat is kinderopvangtoeslag?",
+      "type": "choice",
+      "answers": [
+        "Een bijdrage in kinderopvangkosten",
+        "Een boete voor ouders",
+        "Een schooldiploma"
+      ],
+      "correct": 0,
+      "explanation": "A — 托育补贴帮助符合条件的家庭支付托育费用。",
+      "source": "KNM study guide mock"
+    },
+    {
+      "id": "guide-mock-23",
+      "topic": "wonen-in-nederland",
+      "chapter": null,
+      "scenario": "KNM 学习手册 - 综合模拟题",
+      "question": "Wat is een sollicitatiegesprek?",
+      "type": "choice",
+      "answers": [
+        "Een gesprek voor een baan",
+        "Een gesprek bij de tandarts",
+        "Een huurgeschil"
+      ],
+      "correct": 0,
+      "explanation": "A — sollicitatiegesprek 是求职面试。",
+      "source": "KNM study guide mock"
+    },
+    {
+      "id": "guide-mock-24",
+      "topic": "dienstverlening-in-nederland",
+      "chapter": null,
+      "scenario": "KNM 学习手册 - 综合模拟题",
+      "question": "Wat is nettosalaris?",
+      "type": "choice",
+      "answers": [
+        "Het bedrag dat na inhoudingen overblijft",
+        "Het salaris vóór belasting",
+        "Een uitkering van de gemeente"
+      ],
+      "correct": 0,
+      "explanation": "A — netto 是扣除税费后的到账金额。",
+      "source": "KNM study guide mock"
+    },
+    {
+      "id": "guide-mock-25",
+      "topic": "werken-in-nederland",
+      "chapter": null,
+      "scenario": "KNM 学习手册 - 综合模拟题",
+      "question": "Mogen twee vrouwen in Nederland trouwen?",
+      "type": "choice",
+      "answers": [
+        "Ja",
+        "Nee",
+        "Alleen als ze geen werk hebben"
+      ],
+      "correct": 0,
+      "explanation": "A — 同性婚姻合法。",
+      "source": "KNM study guide mock"
+    },
+    {
+      "id": "guide-mock-26",
+      "topic": "de-mensen-in-nederland",
+      "chapter": null,
+      "scenario": "KNM 学习手册 - 综合模拟题",
+      "question": "Wat gebeurt op 5 mei?",
+      "type": "choice",
+      "answers": [
+        "Bevrijdingsdag",
+        "Dodenherdenking",
+        "Koningsdag"
+      ],
+      "correct": 0,
+      "explanation": "A — 5月5日庆祝解放。",
+      "source": "KNM study guide mock"
+    },
+    {
+      "id": "guide-mock-27",
+      "topic": "politiek-in-nederland",
+      "chapter": null,
+      "scenario": "KNM 学习手册 - 综合模拟题",
+      "question": "Hoeveel zetels heeft de Tweede Kamer?",
+      "type": "choice",
+      "answers": [
+        "150",
+        "75",
+        "12"
+      ],
+      "correct": 0,
+      "explanation": "A — Tweede Kamer 有150席。",
+      "source": "KNM study guide mock"
+    },
+    {
+      "id": "guide-mock-28",
+      "topic": "politiek-in-nederland",
+      "chapter": null,
+      "scenario": "KNM 学习手册 - 综合模拟题",
+      "question": "Wat is de oppositie?",
+      "type": "choice",
+      "answers": [
+        "Politieke partijen die niet in de regering zitten",
+        "Alle rechters",
+        "De koning en zijn familie"
+      ],
+      "correct": 0,
+      "explanation": "A — 未参与执政的政党构成反对党。",
+      "source": "KNM study guide mock"
+    },
+    {
+      "id": "guide-mock-29",
+      "topic": "politiek-in-nederland",
+      "chapter": null,
+      "scenario": "KNM 学习手册 - 综合模拟题",
+      "question": "Wat beschermt de grondwet?",
+      "type": "choice",
+      "answers": [
+        "Grondrechten en staatsregels",
+        "Alleen winkelprijzen",
+        "Alleen sportclubs"
+      ],
+      "correct": 0,
+      "explanation": "A — 宪法规定国家结构和基本权利。",
+      "source": "KNM study guide mock"
+    },
+    {
+      "id": "guide-mock-30",
+      "topic": "politiek-in-nederland",
+      "chapter": null,
+      "scenario": "KNM 学习手册 - 综合模拟题",
+      "question": "Mogen ministers een rechter vertellen welke uitspraak hij moet doen?",
+      "type": "choice",
+      "answers": [
+        "Nee",
+        "Ja",
+        "Alleen op Prinsjesdag"
+      ],
+      "correct": 0,
+      "explanation": "A — 司法权必须独立。",
+      "source": "KNM study guide mock"
     }
   ],
   "words": [
@@ -5104,15 +6384,6 @@ export const KNM_CONTENT = {
       "topicId": "politiek-in-nederland"
     },
     {
-      "word": "de grondwet",
-      "meaning": "宪法",
-      "example": "Vrijheid staat in de grondwet.",
-      "note": "基本权利",
-      "importance": "高频",
-      "topic": "Politiek in Nederland",
-      "topicId": "politiek-in-nederland"
-    },
-    {
       "word": "de staking",
       "meaning": "罢工",
       "example": "Werknemers kunnen staken.",
@@ -5120,6 +6391,3186 @@ export const KNM_CONTENT = {
       "importance": "中高频",
       "topic": "Politiek in Nederland",
       "topicId": "politiek-in-nederland"
+    },
+    {
+      "word": "buurland",
+      "meaning": "邻国",
+      "example": "Duitsland en België zijn buurlanden.",
+      "note": "",
+      "importance": "",
+      "topic": "Nederland leren kennen",
+      "topicId": "nederland-leren-kennen",
+      "source": "KNM study guide chapter vocabulary"
+    },
+    {
+      "word": "haven",
+      "meaning": "港口",
+      "example": "Rotterdam heeft een belangrijke haven.",
+      "note": "",
+      "importance": "",
+      "topic": "Nederland leren kennen",
+      "topicId": "nederland-leren-kennen",
+      "source": "KNM study guide chapter vocabulary"
+    },
+    {
+      "word": "vliegveld",
+      "meaning": "机场",
+      "example": "Schiphol is een vliegveld.",
+      "note": "",
+      "importance": "",
+      "topic": "Nederland leren kennen",
+      "topicId": "nederland-leren-kennen",
+      "source": "KNM study guide chapter vocabulary"
+    },
+    {
+      "word": "feestdag",
+      "meaning": "节日",
+      "example": "een nationale feestdag",
+      "note": "",
+      "importance": "",
+      "topic": "De mensen in Nederland",
+      "topicId": "de-mensen-in-nederland",
+      "source": "KNM study guide chapter vocabulary"
+    },
+    {
+      "word": "herdenken",
+      "meaning": "纪念",
+      "example": "de slachtoffers herdenken",
+      "note": "",
+      "importance": "",
+      "topic": "De mensen in Nederland",
+      "topicId": "de-mensen-in-nederland",
+      "source": "KNM study guide chapter vocabulary"
+    },
+    {
+      "word": "bevrijding",
+      "meaning": "解放",
+      "example": "Bevrijdingsdag",
+      "note": "",
+      "importance": "",
+      "topic": "De mensen in Nederland",
+      "topicId": "de-mensen-in-nederland",
+      "source": "KNM study guide chapter vocabulary"
+    },
+    {
+      "word": "uitnodiging",
+      "meaning": "邀请函",
+      "example": "een uitnodiging sturen",
+      "note": "",
+      "importance": "",
+      "topic": "De mensen in Nederland",
+      "topicId": "de-mensen-in-nederland",
+      "source": "KNM study guide chapter vocabulary"
+    },
+    {
+      "word": "bruiloft",
+      "meaning": "婚礼",
+      "example": "een bruiloft vieren",
+      "note": "",
+      "importance": "",
+      "topic": "De mensen in Nederland",
+      "topicId": "de-mensen-in-nederland",
+      "source": "KNM study guide chapter vocabulary"
+    },
+    {
+      "word": "inchecken",
+      "meaning": "刷卡进站",
+      "example": "inchecken met de OV-chipkaart",
+      "note": "",
+      "importance": "",
+      "topic": "De mensen in Nederland",
+      "topicId": "de-mensen-in-nederland",
+      "source": "KNM study guide chapter vocabulary"
+    },
+    {
+      "word": "uitchecken",
+      "meaning": "刷卡出站",
+      "example": "niet vergeten uit te checken",
+      "note": "",
+      "importance": "",
+      "topic": "De mensen in Nederland",
+      "topicId": "de-mensen-in-nederland",
+      "source": "KNM study guide chapter vocabulary"
+    },
+    {
+      "word": "behandeling",
+      "meaning": "治疗",
+      "example": "De arts bespreekt de behandeling.",
+      "note": "",
+      "importance": "",
+      "topic": "Gezondheid en gezondheidszorg in Nederland",
+      "topicId": "gezondheid-en-gezondheidszorg-in-nederland",
+      "source": "KNM study guide chapter vocabulary"
+    },
+    {
+      "word": "bijsluiter",
+      "meaning": "药品说明书",
+      "example": "Lees de bijsluiter.",
+      "note": "",
+      "importance": "",
+      "topic": "Gezondheid en gezondheidszorg in Nederland",
+      "topicId": "gezondheid-en-gezondheidszorg-in-nederland",
+      "source": "KNM study guide chapter vocabulary"
+    },
+    {
+      "word": "wachtlijst",
+      "meaning": "等候名单",
+      "example": "Er is een wachtlijst.",
+      "note": "",
+      "importance": "",
+      "topic": "Gezondheid en gezondheidszorg in Nederland",
+      "topicId": "gezondheid-en-gezondheidszorg-in-nederland",
+      "source": "KNM study guide chapter vocabulary"
+    },
+    {
+      "word": "spoed",
+      "meaning": "紧急情况",
+      "example": "Bij spoed bel je eerst.",
+      "note": "",
+      "importance": "",
+      "topic": "Gezondheid en gezondheidszorg in Nederland",
+      "topicId": "gezondheid-en-gezondheidszorg-in-nederland",
+      "source": "KNM study guide chapter vocabulary"
+    },
+    {
+      "word": "huren",
+      "meaning": "租",
+      "example": "een woning huren",
+      "note": "",
+      "importance": "",
+      "topic": "Wonen in Nederland",
+      "topicId": "wonen-in-nederland",
+      "source": "KNM study guide chapter vocabulary"
+    },
+    {
+      "word": "kopen",
+      "meaning": "购买",
+      "example": "een huis kopen",
+      "note": "",
+      "importance": "",
+      "topic": "Wonen in Nederland",
+      "topicId": "wonen-in-nederland",
+      "source": "KNM study guide chapter vocabulary"
+    },
+    {
+      "word": "huurcontract",
+      "meaning": "租赁合同",
+      "example": "een huurcontract tekenen",
+      "note": "",
+      "importance": "",
+      "topic": "Wonen in Nederland",
+      "topicId": "wonen-in-nederland",
+      "source": "KNM study guide chapter vocabulary"
+    },
+    {
+      "word": "onderhoud",
+      "meaning": "维护保养",
+      "example": "groot onderhoud",
+      "note": "",
+      "importance": "",
+      "topic": "Wonen in Nederland",
+      "topicId": "wonen-in-nederland",
+      "source": "KNM study guide chapter vocabulary"
+    },
+    {
+      "word": "reparatie",
+      "meaning": "维修",
+      "example": "een reparatie uitvoeren",
+      "note": "",
+      "importance": "",
+      "topic": "Wonen in Nederland",
+      "topicId": "wonen-in-nederland",
+      "source": "KNM study guide chapter vocabulary"
+    },
+    {
+      "word": "vergunning",
+      "meaning": "许可",
+      "example": "een vergunning aanvragen",
+      "note": "",
+      "importance": "",
+      "topic": "Wonen in Nederland",
+      "topicId": "wonen-in-nederland",
+      "source": "KNM study guide chapter vocabulary"
+    },
+    {
+      "word": "schade",
+      "meaning": "损坏/损失",
+      "example": "schade melden",
+      "note": "",
+      "importance": "",
+      "topic": "Wonen in Nederland",
+      "topicId": "wonen-in-nederland",
+      "source": "KNM study guide chapter vocabulary"
+    },
+    {
+      "word": "instantie",
+      "meaning": "机构",
+      "example": "De gemeente is een instantie.",
+      "note": "",
+      "importance": "",
+      "topic": "Dienstverlening in Nederland",
+      "topicId": "dienstverlening-in-nederland",
+      "source": "KNM study guide chapter vocabulary"
+    },
+    {
+      "word": "aangifte",
+      "meaning": "报案/申报",
+      "example": "Ik doe aangifte bij de politie.",
+      "note": "",
+      "importance": "",
+      "topic": "Dienstverlening in Nederland",
+      "topicId": "dienstverlening-in-nederland",
+      "source": "KNM study guide chapter vocabulary"
+    },
+    {
+      "word": "bedreigen",
+      "meaning": "威胁",
+      "example": "Iemand heeft mij bedreigd.",
+      "note": "",
+      "importance": "",
+      "topic": "Dienstverlening in Nederland",
+      "topicId": "dienstverlening-in-nederland",
+      "source": "KNM study guide chapter vocabulary"
+    },
+    {
+      "word": "geldig",
+      "meaning": "有效的",
+      "example": "Neem een geldig identiteitsbewijs mee.",
+      "note": "",
+      "importance": "",
+      "topic": "Dienstverlening in Nederland",
+      "topicId": "dienstverlening-in-nederland",
+      "source": "KNM study guide chapter vocabulary"
+    },
+    {
+      "word": "doorgeven",
+      "meaning": "告知/申报变更",
+      "example": "Geef je nieuwe adres door.",
+      "note": "",
+      "importance": "",
+      "topic": "Dienstverlening in Nederland",
+      "topicId": "dienstverlening-in-nederland",
+      "source": "KNM study guide chapter vocabulary"
+    },
+    {
+      "word": "bezwaar",
+      "meaning": "异议",
+      "example": "Je kunt bezwaar maken.",
+      "note": "",
+      "importance": "",
+      "topic": "Dienstverlening in Nederland",
+      "topicId": "dienstverlening-in-nederland",
+      "source": "KNM study guide chapter vocabulary"
+    },
+    {
+      "word": "naturalisatie",
+      "meaning": "入籍",
+      "example": "Naturalisatie betekent Nederlander worden.",
+      "note": "",
+      "importance": "",
+      "topic": "Dienstverlening in Nederland",
+      "topicId": "dienstverlening-in-nederland",
+      "source": "KNM study guide chapter vocabulary"
+    },
+    {
+      "word": "machtiging",
+      "meaning": "授权",
+      "example": "Een machtiging voor automatische incasso.",
+      "note": "",
+      "importance": "",
+      "topic": "Dienstverlening in Nederland",
+      "topicId": "dienstverlening-in-nederland",
+      "source": "KNM study guide chapter vocabulary"
+    },
+    {
+      "word": "zwanger",
+      "meaning": "怀孕的",
+      "example": "Zij is zwanger.",
+      "note": "",
+      "importance": "",
+      "topic": "Opvoeding en onderwijs in Nederland",
+      "topicId": "opvoeding-en-onderwijs-in-nederland",
+      "source": "KNM study guide chapter vocabulary"
+    },
+    {
+      "word": "bevallen",
+      "meaning": "分娩",
+      "example": "Zij gaat in het ziekenhuis bevallen.",
+      "note": "",
+      "importance": "",
+      "topic": "Opvoeding en onderwijs in Nederland",
+      "topicId": "opvoeding-en-onderwijs-in-nederland",
+      "source": "KNM study guide chapter vocabulary"
+    },
+    {
+      "word": "vaccinatie",
+      "meaning": "疫苗接种",
+      "example": "Het kind krijgt een vaccinatie.",
+      "note": "",
+      "importance": "",
+      "topic": "Opvoeding en onderwijs in Nederland",
+      "topicId": "opvoeding-en-onderwijs-in-nederland",
+      "source": "KNM study guide chapter vocabulary"
+    },
+    {
+      "word": "inschrijven",
+      "meaning": "注册报名",
+      "example": "Schrijf het kind op tijd in.",
+      "note": "",
+      "importance": "",
+      "topic": "Opvoeding en onderwijs in Nederland",
+      "topicId": "opvoeding-en-onderwijs-in-nederland",
+      "source": "KNM study guide chapter vocabulary"
+    },
+    {
+      "word": "rapport",
+      "meaning": "成绩报告",
+      "example": "Het kind krijgt een rapport.",
+      "note": "",
+      "importance": "",
+      "topic": "Opvoeding en onderwijs in Nederland",
+      "topicId": "opvoeding-en-onderwijs-in-nederland",
+      "source": "KNM study guide chapter vocabulary"
+    },
+    {
+      "word": "ouderavond",
+      "meaning": "家长会",
+      "example": "De school organiseert een ouderavond.",
+      "note": "",
+      "importance": "",
+      "topic": "Opvoeding en onderwijs in Nederland",
+      "topicId": "opvoeding-en-onderwijs-in-nederland",
+      "source": "KNM study guide chapter vocabulary"
+    },
+    {
+      "word": "werkgever",
+      "meaning": "雇主",
+      "example": "De werkgever betaalt loon.",
+      "note": "",
+      "importance": "",
+      "topic": "Werken in Nederland",
+      "topicId": "werken-in-nederland",
+      "source": "KNM study guide chapter vocabulary"
+    },
+    {
+      "word": "werknemer",
+      "meaning": "雇员",
+      "example": "De werknemer heeft rechten en plichten.",
+      "note": "",
+      "importance": "",
+      "topic": "Werken in Nederland",
+      "topicId": "werken-in-nederland",
+      "source": "KNM study guide chapter vocabulary"
+    },
+    {
+      "word": "werkervaring",
+      "meaning": "工作经验",
+      "example": "relevante werkervaring",
+      "note": "",
+      "importance": "",
+      "topic": "Werken in Nederland",
+      "topicId": "werken-in-nederland",
+      "source": "KNM study guide chapter vocabulary"
+    },
+    {
+      "word": "arbeidscontract",
+      "meaning": "劳动合同",
+      "example": "een contract tekenen",
+      "note": "",
+      "importance": "",
+      "topic": "Werken in Nederland",
+      "topicId": "werken-in-nederland",
+      "source": "KNM study guide chapter vocabulary"
+    },
+    {
+      "word": "ontslag nemen",
+      "meaning": "辞职",
+      "example": "zelf stoppen met werken",
+      "note": "",
+      "importance": "",
+      "topic": "Werken in Nederland",
+      "topicId": "werken-in-nederland",
+      "source": "KNM study guide chapter vocabulary"
+    },
+    {
+      "word": "ontslag krijgen",
+      "meaning": "被解雇",
+      "example": "de werkgever beëindigt het werk",
+      "note": "",
+      "importance": "",
+      "topic": "Werken in Nederland",
+      "topicId": "werken-in-nederland",
+      "source": "KNM study guide chapter vocabulary"
+    },
+    {
+      "word": "werkloos",
+      "meaning": "失业的",
+      "example": "zich inschrijven als werkzoekende",
+      "note": "",
+      "importance": "",
+      "topic": "Werken in Nederland",
+      "topicId": "werken-in-nederland",
+      "source": "KNM study guide chapter vocabulary"
+    },
+    {
+      "word": "uitkering",
+      "meaning": "社会给付",
+      "example": "een uitkering aanvragen",
+      "note": "",
+      "importance": "",
+      "topic": "Werken in Nederland",
+      "topicId": "werken-in-nederland",
+      "source": "KNM study guide chapter vocabulary"
+    },
+    {
+      "word": "ondernemer",
+      "meaning": "创业者/企业主",
+      "example": "een eigen bedrijf beginnen",
+      "note": "",
+      "importance": "",
+      "topic": "Werken in Nederland",
+      "topicId": "werken-in-nederland",
+      "source": "KNM study guide chapter vocabulary"
+    },
+    {
+      "word": "seksuele voorlichting",
+      "meaning": "性教育",
+      "example": "informatie over lichaam, relaties en veiligheid",
+      "note": "",
+      "importance": "",
+      "topic": "Samenleven in Nederland",
+      "topicId": "samenleven-in-nederland",
+      "source": "KNM study guide chapter vocabulary"
+    },
+    {
+      "word": "respect",
+      "meaning": "尊重",
+      "example": "respect voor verschillen",
+      "note": "",
+      "importance": "",
+      "topic": "Samenleven in Nederland",
+      "topicId": "samenleven-in-nederland",
+      "source": "KNM study guide chapter vocabulary"
+    },
+    {
+      "word": "opstand / verzet",
+      "meaning": "起义/抵抗",
+      "example": "in verzet komen",
+      "note": "",
+      "importance": "",
+      "topic": "De geschiedenis van Nederland",
+      "topicId": "de-geschiedenis-van-nederland",
+      "source": "KNM study guide chapter vocabulary"
+    },
+    {
+      "word": "onafhankelijk",
+      "meaning": "独立的",
+      "example": "onafhankelijk van Spanje",
+      "note": "",
+      "importance": "",
+      "topic": "De geschiedenis van Nederland",
+      "topicId": "de-geschiedenis-van-nederland",
+      "source": "KNM study guide chapter vocabulary"
+    },
+    {
+      "word": "handel",
+      "meaning": "贸易",
+      "example": "handel over zee",
+      "note": "",
+      "importance": "",
+      "topic": "De geschiedenis van Nederland",
+      "topicId": "de-geschiedenis-van-nederland",
+      "source": "KNM study guide chapter vocabulary"
+    },
+    {
+      "word": "bezetten",
+      "meaning": "占领",
+      "example": "Nederland werd bezet",
+      "note": "",
+      "importance": "",
+      "topic": "De geschiedenis van Nederland",
+      "topicId": "de-geschiedenis-van-nederland",
+      "source": "KNM study guide chapter vocabulary"
+    },
+    {
+      "word": "meerderheid",
+      "meaning": "多数",
+      "example": "meer dan de helft",
+      "note": "",
+      "importance": "",
+      "topic": "Politiek in Nederland",
+      "topicId": "politiek-in-nederland",
+      "source": "KNM study guide chapter vocabulary"
+    },
+    {
+      "word": "voorstel",
+      "meaning": "提案",
+      "example": "een wetsvoorstel",
+      "note": "",
+      "importance": "",
+      "topic": "Politiek in Nederland",
+      "topicId": "politiek-in-nederland",
+      "source": "KNM study guide chapter vocabulary"
+    },
+    {
+      "word": "oppositie",
+      "meaning": "反对党",
+      "example": "partijen buiten het kabinet",
+      "note": "",
+      "importance": "",
+      "topic": "Politiek in Nederland",
+      "topicId": "politiek-in-nederland",
+      "source": "KNM study guide chapter vocabulary"
+    },
+    {
+      "word": "meningsuiting",
+      "meaning": "表达意见",
+      "example": "vrijheid van meningsuiting",
+      "note": "",
+      "importance": "",
+      "topic": "Politiek in Nederland",
+      "topicId": "politiek-in-nederland",
+      "source": "KNM study guide chapter vocabulary"
+    },
+    {
+      "word": "rechter",
+      "meaning": "法官",
+      "example": "onafhankelijk beslissen",
+      "note": "",
+      "importance": "",
+      "topic": "Politiek in Nederland",
+      "topicId": "politiek-in-nederland",
+      "source": "KNM study guide chapter vocabulary"
+    },
+    {
+      "word": "vluchteling",
+      "meaning": "难民",
+      "example": "",
+      "note": "地理、社会与公共服务",
+      "importance": "综合词汇",
+      "topic": "地理、社会与公共服务",
+      "topicId": "dienstverlening-in-nederland",
+      "source": "KNM study guide comprehensive vocabulary"
+    },
+    {
+      "word": "asielzoeker",
+      "meaning": "寻求庇护者",
+      "example": "",
+      "note": "地理、社会与公共服务",
+      "importance": "综合词汇",
+      "topic": "地理、社会与公共服务",
+      "topicId": "dienstverlening-in-nederland",
+      "source": "KNM study guide comprehensive vocabulary"
+    },
+    {
+      "word": "geloof",
+      "meaning": "信仰",
+      "example": "",
+      "note": "地理、社会与公共服务",
+      "importance": "综合词汇",
+      "topic": "地理、社会与公共服务",
+      "topicId": "dienstverlening-in-nederland",
+      "source": "KNM study guide comprehensive vocabulary"
+    },
+    {
+      "word": "zeespiegel",
+      "meaning": "海平面",
+      "example": "",
+      "note": "地理、社会与公共服务",
+      "importance": "综合词汇",
+      "topic": "地理、社会与公共服务",
+      "topicId": "dienstverlening-in-nederland",
+      "source": "KNM study guide comprehensive vocabulary"
+    },
+    {
+      "word": "beschermen",
+      "meaning": "保护",
+      "example": "",
+      "note": "地理、社会与公共服务",
+      "importance": "综合词汇",
+      "topic": "地理、社会与公共服务",
+      "topicId": "dienstverlening-in-nederland",
+      "source": "KNM study guide comprehensive vocabulary"
+    },
+    {
+      "word": "file",
+      "meaning": "交通堵塞",
+      "example": "",
+      "note": "地理、社会与公共服务",
+      "importance": "综合词汇",
+      "topic": "地理、社会与公共服务",
+      "topicId": "dienstverlening-in-nederland",
+      "source": "KNM study guide comprehensive vocabulary"
+    },
+    {
+      "word": "bevolking",
+      "meaning": "人口",
+      "example": "",
+      "note": "地理、社会与公共服务",
+      "importance": "综合词汇",
+      "topic": "地理、社会与公共服务",
+      "topicId": "dienstverlening-in-nederland",
+      "source": "KNM study guide comprehensive vocabulary"
+    },
+    {
+      "word": "verkeer",
+      "meaning": "交通",
+      "example": "",
+      "note": "地理、社会与公共服务",
+      "importance": "综合词汇",
+      "topic": "地理、社会与公共服务",
+      "topicId": "dienstverlening-in-nederland",
+      "source": "KNM study guide comprehensive vocabulary"
+    },
+    {
+      "word": "stilte",
+      "meaning": "安静/沉默",
+      "example": "",
+      "note": "地理、社会与公共服务",
+      "importance": "综合词汇",
+      "topic": "地理、社会与公共服务",
+      "topicId": "dienstverlening-in-nederland",
+      "source": "KNM study guide comprehensive vocabulary"
+    },
+    {
+      "word": "dienstverlening",
+      "meaning": "公共服务",
+      "example": "",
+      "note": "地理、社会与公共服务",
+      "importance": "综合词汇",
+      "topic": "地理、社会与公共服务",
+      "topicId": "dienstverlening-in-nederland",
+      "source": "KNM study guide comprehensive vocabulary"
+    },
+    {
+      "word": "maatschappelijk",
+      "meaning": "社会的",
+      "example": "",
+      "note": "地理、社会与公共服务",
+      "importance": "综合词汇",
+      "topic": "地理、社会与公共服务",
+      "topicId": "dienstverlening-in-nederland",
+      "source": "KNM study guide comprehensive vocabulary"
+    },
+    {
+      "word": "bekeuring",
+      "meaning": "罚单",
+      "example": "",
+      "note": "地理、社会与公共服务",
+      "importance": "综合词汇",
+      "topic": "地理、社会与公共服务",
+      "topicId": "dienstverlening-in-nederland",
+      "source": "KNM study guide comprehensive vocabulary"
+    },
+    {
+      "word": "conducteur",
+      "meaning": "列车员/检票员",
+      "example": "",
+      "note": "地理、社会与公共服务",
+      "importance": "综合词汇",
+      "topic": "地理、社会与公共服务",
+      "topicId": "dienstverlening-in-nederland",
+      "source": "KNM study guide comprehensive vocabulary"
+    },
+    {
+      "word": "politiebureau",
+      "meaning": "警察局",
+      "example": "",
+      "note": "地理、社会与公共服务",
+      "importance": "综合词汇",
+      "topic": "地理、社会与公共服务",
+      "topicId": "dienstverlening-in-nederland",
+      "source": "KNM study guide comprehensive vocabulary"
+    },
+    {
+      "word": "stelen",
+      "meaning": "偷窃",
+      "example": "",
+      "note": "地理、社会与公共服务",
+      "importance": "综合词汇",
+      "topic": "地理、社会与公共服务",
+      "topicId": "dienstverlening-in-nederland",
+      "source": "KNM study guide comprehensive vocabulary"
+    },
+    {
+      "word": "oplossen",
+      "meaning": "解决",
+      "example": "",
+      "note": "地理、社会与公共服务",
+      "importance": "综合词汇",
+      "topic": "地理、社会与公共服务",
+      "topicId": "dienstverlening-in-nederland",
+      "source": "KNM study guide comprehensive vocabulary"
+    },
+    {
+      "word": "ongeluk",
+      "meaning": "事故",
+      "example": "",
+      "note": "地理、社会与公共服务",
+      "importance": "综合词汇",
+      "topic": "地理、社会与公共服务",
+      "topicId": "dienstverlening-in-nederland",
+      "source": "KNM study guide comprehensive vocabulary"
+    },
+    {
+      "word": "misdaad",
+      "meaning": "犯罪",
+      "example": "",
+      "note": "地理、社会与公共服务",
+      "importance": "综合词汇",
+      "topic": "地理、社会与公共服务",
+      "topicId": "dienstverlening-in-nederland",
+      "source": "KNM study guide comprehensive vocabulary"
+    },
+    {
+      "word": "verhuizen",
+      "meaning": "搬家",
+      "example": "",
+      "note": "地理、社会与公共服务",
+      "importance": "综合词汇",
+      "topic": "地理、社会与公共服务",
+      "topicId": "dienstverlening-in-nederland",
+      "source": "KNM study guide comprehensive vocabulary"
+    },
+    {
+      "word": "burgerservicenummer (BSN)",
+      "meaning": "公民服务号码",
+      "example": "",
+      "note": "地理、社会与公共服务",
+      "importance": "综合词汇",
+      "topic": "地理、社会与公共服务",
+      "topicId": "dienstverlening-in-nederland",
+      "source": "KNM study guide comprehensive vocabulary"
+    },
+    {
+      "word": "inbreken",
+      "meaning": "入室盗窃",
+      "example": "",
+      "note": "地理、社会与公共服务",
+      "importance": "综合词汇",
+      "topic": "地理、社会与公共服务",
+      "topicId": "dienstverlening-in-nederland",
+      "source": "KNM study guide comprehensive vocabulary"
+    },
+    {
+      "word": "verblijf",
+      "meaning": "居留/停留",
+      "example": "",
+      "note": "地理、社会与公共服务",
+      "importance": "综合词汇",
+      "topic": "地理、社会与公共服务",
+      "topicId": "dienstverlening-in-nederland",
+      "source": "KNM study guide comprehensive vocabulary"
+    },
+    {
+      "word": "toestemming",
+      "meaning": "允许/同意",
+      "example": "",
+      "note": "地理、社会与公共服务",
+      "importance": "综合词汇",
+      "topic": "地理、社会与公共服务",
+      "topicId": "dienstverlening-in-nederland",
+      "source": "KNM study guide comprehensive vocabulary"
+    },
+    {
+      "word": "kwijtschelding",
+      "meaning": "减免/免除",
+      "example": "",
+      "note": "地理、社会与公共服务",
+      "importance": "综合词汇",
+      "topic": "地理、社会与公共服务",
+      "topicId": "dienstverlening-in-nederland",
+      "source": "KNM study guide comprehensive vocabulary"
+    },
+    {
+      "word": "begroeten",
+      "meaning": "打招呼",
+      "example": "",
+      "note": "礼仪、交流与日常生活",
+      "importance": "综合词汇",
+      "topic": "礼仪、交流与日常生活",
+      "topicId": "de-mensen-in-nederland",
+      "source": "KNM study guide comprehensive vocabulary"
+    },
+    {
+      "word": "zoenen",
+      "meaning": "亲吻/贴面礼",
+      "example": "",
+      "note": "礼仪、交流与日常生活",
+      "importance": "综合词汇",
+      "topic": "礼仪、交流与日常生活",
+      "topicId": "de-mensen-in-nederland",
+      "source": "KNM study guide comprehensive vocabulary"
+    },
+    {
+      "word": "roepen",
+      "meaning": "呼叫",
+      "example": "",
+      "note": "礼仪、交流与日常生活",
+      "importance": "综合词汇",
+      "topic": "礼仪、交流与日常生活",
+      "topicId": "de-mensen-in-nederland",
+      "source": "KNM study guide comprehensive vocabulary"
+    },
+    {
+      "word": "in de rij staan",
+      "meaning": "排队",
+      "example": "",
+      "note": "礼仪、交流与日常生活",
+      "importance": "综合词汇",
+      "topic": "礼仪、交流与日常生活",
+      "topicId": "de-mensen-in-nederland",
+      "source": "KNM study guide comprehensive vocabulary"
+    },
+    {
+      "word": "agenda",
+      "meaning": "日程本/日历",
+      "example": "",
+      "note": "礼仪、交流与日常生活",
+      "importance": "综合词汇",
+      "topic": "礼仪、交流与日常生活",
+      "topicId": "de-mensen-in-nederland",
+      "source": "KNM study guide comprehensive vocabulary"
+    },
+    {
+      "word": "gesprek",
+      "meaning": "谈话",
+      "example": "",
+      "note": "礼仪、交流与日常生活",
+      "importance": "综合词汇",
+      "topic": "礼仪、交流与日常生活",
+      "topicId": "de-mensen-in-nederland",
+      "source": "KNM study guide comprehensive vocabulary"
+    },
+    {
+      "word": "afspreken",
+      "meaning": "约定",
+      "example": "",
+      "note": "礼仪、交流与日常生活",
+      "importance": "综合词汇",
+      "topic": "礼仪、交流与日常生活",
+      "topicId": "de-mensen-in-nederland",
+      "source": "KNM study guide comprehensive vocabulary"
+    },
+    {
+      "word": "kennismaken",
+      "meaning": "认识/初次见面",
+      "example": "",
+      "note": "礼仪、交流与日常生活",
+      "importance": "综合词汇",
+      "topic": "礼仪、交流与日常生活",
+      "topicId": "de-mensen-in-nederland",
+      "source": "KNM study guide comprehensive vocabulary"
+    },
+    {
+      "word": "bezwaar maken",
+      "meaning": "提出异议",
+      "example": "",
+      "note": "礼仪、交流与日常生活",
+      "importance": "综合词汇",
+      "topic": "礼仪、交流与日常生活",
+      "topicId": "de-mensen-in-nederland",
+      "source": "KNM study guide comprehensive vocabulary"
+    },
+    {
+      "word": "verklaring",
+      "meaning": "证明/声明",
+      "example": "",
+      "note": "礼仪、交流与日常生活",
+      "importance": "综合词汇",
+      "topic": "礼仪、交流与日常生活",
+      "topicId": "de-mensen-in-nederland",
+      "source": "KNM study guide comprehensive vocabulary"
+    },
+    {
+      "word": "begrafenis",
+      "meaning": "葬礼",
+      "example": "",
+      "note": "礼仪、交流与日常生活",
+      "importance": "综合词汇",
+      "topic": "礼仪、交流与日常生活",
+      "topicId": "de-mensen-in-nederland",
+      "source": "KNM study guide comprehensive vocabulary"
+    },
+    {
+      "word": "vuurwerk",
+      "meaning": "烟花",
+      "example": "",
+      "note": "礼仪、交流与日常生活",
+      "importance": "综合词汇",
+      "topic": "礼仪、交流与日常生活",
+      "topicId": "de-mensen-in-nederland",
+      "source": "KNM study guide comprehensive vocabulary"
+    },
+    {
+      "word": "kaarsje",
+      "meaning": "小蜡烛",
+      "example": "",
+      "note": "礼仪、交流与日常生活",
+      "importance": "综合词汇",
+      "topic": "礼仪、交流与日常生活",
+      "topicId": "de-mensen-in-nederland",
+      "source": "KNM study guide comprehensive vocabulary"
+    },
+    {
+      "word": "trakteren",
+      "meaning": "请客/分发庆祝食品",
+      "example": "",
+      "note": "礼仪、交流与日常生活",
+      "importance": "综合词汇",
+      "topic": "礼仪、交流与日常生活",
+      "topicId": "de-mensen-in-nederland",
+      "source": "KNM study guide comprehensive vocabulary"
+    },
+    {
+      "word": "trouwen",
+      "meaning": "结婚",
+      "example": "",
+      "note": "礼仪、交流与日常生活",
+      "importance": "综合词汇",
+      "topic": "礼仪、交流与日常生活",
+      "topicId": "de-mensen-in-nederland",
+      "source": "KNM study guide comprehensive vocabulary"
+    },
+    {
+      "word": "pak",
+      "meaning": "西装",
+      "example": "",
+      "note": "礼仪、交流与日常生活",
+      "importance": "综合词汇",
+      "topic": "礼仪、交流与日常生活",
+      "topicId": "de-mensen-in-nederland",
+      "source": "KNM study guide comprehensive vocabulary"
+    },
+    {
+      "word": "beschuit",
+      "meaning": "脆面包片",
+      "example": "",
+      "note": "礼仪、交流与日常生活",
+      "importance": "综合词汇",
+      "topic": "礼仪、交流与日常生活",
+      "topicId": "de-mensen-in-nederland",
+      "source": "KNM study guide comprehensive vocabulary"
+    },
+    {
+      "word": "beschuit met muisjes",
+      "meaning": "庆祝新生儿的脆面包片配糖粒",
+      "example": "",
+      "note": "礼仪、交流与日常生活",
+      "importance": "综合词汇",
+      "topic": "礼仪、交流与日常生活",
+      "topicId": "de-mensen-in-nederland",
+      "source": "KNM study guide comprehensive vocabulary"
+    },
+    {
+      "word": "beterschap",
+      "meaning": "早日康复",
+      "example": "",
+      "note": "礼仪、交流与日常生活",
+      "importance": "综合词汇",
+      "topic": "礼仪、交流与日常生活",
+      "topicId": "de-mensen-in-nederland",
+      "source": "KNM study guide comprehensive vocabulary"
+    },
+    {
+      "word": "veel sterkte",
+      "meaning": "保重/祝你坚强",
+      "example": "",
+      "note": "礼仪、交流与日常生活",
+      "importance": "综合词汇",
+      "topic": "礼仪、交流与日常生活",
+      "topicId": "de-mensen-in-nederland",
+      "source": "KNM study guide comprehensive vocabulary"
+    },
+    {
+      "word": "aardig",
+      "meaning": "友好的",
+      "example": "",
+      "note": "礼仪、交流与日常生活",
+      "importance": "综合词汇",
+      "topic": "礼仪、交流与日常生活",
+      "topicId": "de-mensen-in-nederland",
+      "source": "KNM study guide comprehensive vocabulary"
+    },
+    {
+      "word": "beleefd",
+      "meaning": "有礼貌的",
+      "example": "",
+      "note": "礼仪、交流与日常生活",
+      "importance": "综合词汇",
+      "topic": "礼仪、交流与日常生活",
+      "topicId": "de-mensen-in-nederland",
+      "source": "KNM study guide comprehensive vocabulary"
+    },
+    {
+      "word": "indruk",
+      "meaning": "印象",
+      "example": "",
+      "note": "礼仪、交流与日常生活",
+      "importance": "综合词汇",
+      "topic": "礼仪、交流与日常生活",
+      "topicId": "de-mensen-in-nederland",
+      "source": "KNM study guide comprehensive vocabulary"
+    },
+    {
+      "word": "lastig",
+      "meaning": "麻烦的/困难的",
+      "example": "",
+      "note": "礼仪、交流与日常生活",
+      "importance": "综合词汇",
+      "topic": "礼仪、交流与日常生活",
+      "topicId": "de-mensen-in-nederland",
+      "source": "KNM study guide comprehensive vocabulary"
+    },
+    {
+      "word": "allebei",
+      "meaning": "两者都",
+      "example": "",
+      "note": "礼仪、交流与日常生活",
+      "importance": "综合词汇",
+      "topic": "礼仪、交流与日常生活",
+      "topicId": "de-mensen-in-nederland",
+      "source": "KNM study guide comprehensive vocabulary"
+    },
+    {
+      "word": "verlengen",
+      "meaning": "延长",
+      "example": "",
+      "note": "居留、住房、税费与保险",
+      "importance": "综合词汇",
+      "topic": "居留、住房、税费与保险",
+      "topicId": "wonen-in-nederland",
+      "source": "KNM study guide comprehensive vocabulary"
+    },
+    {
+      "word": "bepaalde tijd",
+      "meaning": "有限期限",
+      "example": "",
+      "note": "居留、住房、税费与保险",
+      "importance": "综合词汇",
+      "topic": "居留、住房、税费与保险",
+      "topicId": "wonen-in-nederland",
+      "source": "KNM study guide comprehensive vocabulary"
+    },
+    {
+      "word": "onbepaalde tijd",
+      "meaning": "无限期/长期",
+      "example": "",
+      "note": "居留、住房、税费与保险",
+      "importance": "综合词汇",
+      "topic": "居留、住房、税费与保险",
+      "topicId": "wonen-in-nederland",
+      "source": "KNM study guide comprehensive vocabulary"
+    },
+    {
+      "word": "voorwaarde",
+      "meaning": "条件",
+      "example": "",
+      "note": "居留、住房、税费与保险",
+      "importance": "综合词汇",
+      "topic": "居留、住房、税费与保险",
+      "topicId": "wonen-in-nederland",
+      "source": "KNM study guide comprehensive vocabulary"
+    },
+    {
+      "word": "visum",
+      "meaning": "签证",
+      "example": "",
+      "note": "居留、住房、税费与保险",
+      "importance": "综合词汇",
+      "topic": "居留、住房、税费与保险",
+      "topicId": "wonen-in-nederland",
+      "source": "KNM study guide comprehensive vocabulary"
+    },
+    {
+      "word": "plichtig",
+      "meaning": "有义务的",
+      "example": "",
+      "note": "居留、住房、税费与保险",
+      "importance": "综合词汇",
+      "topic": "居留、住房、税费与保险",
+      "topicId": "wonen-in-nederland",
+      "source": "KNM study guide comprehensive vocabulary"
+    },
+    {
+      "word": "vrijstelling",
+      "meaning": "豁免",
+      "example": "",
+      "note": "居留、住房、税费与保险",
+      "importance": "综合词汇",
+      "topic": "居留、住房、税费与保险",
+      "topicId": "wonen-in-nederland",
+      "source": "KNM study guide comprehensive vocabulary"
+    },
+    {
+      "word": "vrijstaand huis",
+      "meaning": "独栋住宅",
+      "example": "",
+      "note": "居留、住房、税费与保险",
+      "importance": "综合词汇",
+      "topic": "居留、住房、税费与保险",
+      "topicId": "wonen-in-nederland",
+      "source": "KNM study guide comprehensive vocabulary"
+    },
+    {
+      "word": "rijtjeshuis",
+      "meaning": "联排住宅",
+      "example": "",
+      "note": "居留、住房、税费与保险",
+      "importance": "综合词汇",
+      "topic": "居留、住房、税费与保险",
+      "topicId": "wonen-in-nederland",
+      "source": "KNM study guide comprehensive vocabulary"
+    },
+    {
+      "word": "geschikt",
+      "meaning": "合适的",
+      "example": "",
+      "note": "居留、住房、税费与保险",
+      "importance": "综合词汇",
+      "topic": "居留、住房、税费与保险",
+      "topicId": "wonen-in-nederland",
+      "source": "KNM study guide comprehensive vocabulary"
+    },
+    {
+      "word": "tekenen",
+      "meaning": "签字/画",
+      "example": "",
+      "note": "居留、住房、税费与保险",
+      "importance": "综合词汇",
+      "topic": "居留、住房、税费与保险",
+      "topicId": "wonen-in-nederland",
+      "source": "KNM study guide comprehensive vocabulary"
+    },
+    {
+      "word": "verzekeringsmaatschappij",
+      "meaning": "保险公司",
+      "example": "",
+      "note": "居留、住房、税费与保险",
+      "importance": "综合词汇",
+      "topic": "居留、住房、税费与保险",
+      "topicId": "wonen-in-nederland",
+      "source": "KNM study guide comprehensive vocabulary"
+    },
+    {
+      "word": "afhankelijk zijn van",
+      "meaning": "取决于",
+      "example": "",
+      "note": "居留、住房、税费与保险",
+      "importance": "综合词汇",
+      "topic": "居留、住房、税费与保险",
+      "topicId": "wonen-in-nederland",
+      "source": "KNM study guide comprehensive vocabulary"
+    },
+    {
+      "word": "rente",
+      "meaning": "利息",
+      "example": "",
+      "note": "居留、住房、税费与保险",
+      "importance": "综合词汇",
+      "topic": "居留、住房、税费与保险",
+      "topicId": "wonen-in-nederland",
+      "source": "KNM study guide comprehensive vocabulary"
+    },
+    {
+      "word": "regio",
+      "meaning": "地区",
+      "example": "",
+      "note": "居留、住房、税费与保险",
+      "importance": "综合词汇",
+      "topic": "居留、住房、税费与保险",
+      "topicId": "wonen-in-nederland",
+      "source": "KNM study guide comprehensive vocabulary"
+    },
+    {
+      "word": "reageren",
+      "meaning": "回应/申请某套住房",
+      "example": "",
+      "note": "居留、住房、税费与保险",
+      "importance": "综合词汇",
+      "topic": "居留、住房、税费与保险",
+      "topicId": "wonen-in-nederland",
+      "source": "KNM study guide comprehensive vocabulary"
+    },
+    {
+      "word": "aanbieden",
+      "meaning": "提供",
+      "example": "",
+      "note": "居留、住房、税费与保险",
+      "importance": "综合词汇",
+      "topic": "居留、住房、税费与保险",
+      "topicId": "wonen-in-nederland",
+      "source": "KNM study guide comprehensive vocabulary"
+    },
+    {
+      "word": "urgentieverklaring",
+      "meaning": "住房紧急证明",
+      "example": "",
+      "note": "居留、住房、税费与保险",
+      "importance": "综合词汇",
+      "topic": "居留、住房、税费与保险",
+      "topicId": "wonen-in-nederland",
+      "source": "KNM study guide comprehensive vocabulary"
+    },
+    {
+      "word": "particulier",
+      "meaning": "私人/个人",
+      "example": "",
+      "note": "居留、住房、税费与保险",
+      "importance": "综合词汇",
+      "topic": "居留、住房、税费与保险",
+      "topicId": "wonen-in-nederland",
+      "source": "KNM study guide comprehensive vocabulary"
+    },
+    {
+      "word": "borg",
+      "meaning": "押金",
+      "example": "",
+      "note": "居留、住房、税费与保险",
+      "importance": "综合词汇",
+      "topic": "居留、住房、税费与保险",
+      "topicId": "wonen-in-nederland",
+      "source": "KNM study guide comprehensive vocabulary"
+    },
+    {
+      "word": "toeslag",
+      "meaning": "补贴",
+      "example": "",
+      "note": "居留、住房、税费与保险",
+      "importance": "综合词汇",
+      "topic": "居留、住房、税费与保险",
+      "topicId": "wonen-in-nederland",
+      "source": "KNM study guide comprehensive vocabulary"
+    },
+    {
+      "word": "inboedelverzekering",
+      "meaning": "家庭财物保险",
+      "example": "",
+      "note": "居留、住房、税费与保险",
+      "importance": "综合词汇",
+      "topic": "居留、住房、税费与保险",
+      "topicId": "wonen-in-nederland",
+      "source": "KNM study guide comprehensive vocabulary"
+    },
+    {
+      "word": "grofvuil",
+      "meaning": "大型垃圾",
+      "example": "",
+      "note": "居留、住房、税费与保险",
+      "importance": "综合词汇",
+      "topic": "居留、住房、税费与保险",
+      "topicId": "wonen-in-nederland",
+      "source": "KNM study guide comprehensive vocabulary"
+    },
+    {
+      "word": "aansprakelijk",
+      "meaning": "负有责任的",
+      "example": "",
+      "note": "居留、住房、税费与保险",
+      "importance": "综合词汇",
+      "topic": "居留、住房、税费与保险",
+      "topicId": "wonen-in-nederland",
+      "source": "KNM study guide comprehensive vocabulary"
+    },
+    {
+      "word": "aansprakelijkheid",
+      "meaning": "责任/法律责任",
+      "example": "",
+      "note": "居留、住房、税费与保险",
+      "importance": "综合词汇",
+      "topic": "居留、住房、税费与保险",
+      "topicId": "wonen-in-nederland",
+      "source": "KNM study guide comprehensive vocabulary"
+    },
+    {
+      "word": "termijnbedrag",
+      "meaning": "分期金额/月度预付额",
+      "example": "",
+      "note": "居留、住房、税费与保险",
+      "importance": "综合词汇",
+      "topic": "居留、住房、税费与保险",
+      "topicId": "wonen-in-nederland",
+      "source": "KNM study guide comprehensive vocabulary"
+    },
+    {
+      "word": "storing",
+      "meaning": "故障",
+      "example": "",
+      "note": "居留、住房、税费与保险",
+      "importance": "综合词汇",
+      "topic": "居留、住房、税费与保险",
+      "topicId": "wonen-in-nederland",
+      "source": "KNM study guide comprehensive vocabulary"
+    },
+    {
+      "word": "apparaat",
+      "meaning": "设备",
+      "example": "",
+      "note": "居留、住房、税费与保险",
+      "importance": "综合词汇",
+      "topic": "居留、住房、税费与保险",
+      "topicId": "wonen-in-nederland",
+      "source": "KNM study guide comprehensive vocabulary"
+    },
+    {
+      "word": "repareren",
+      "meaning": "修理",
+      "example": "",
+      "note": "居留、住房、税费与保险",
+      "importance": "综合词汇",
+      "topic": "居留、住房、税费与保险",
+      "topicId": "wonen-in-nederland",
+      "source": "KNM study guide comprehensive vocabulary"
+    },
+    {
+      "word": "zuinig",
+      "meaning": "节约的",
+      "example": "",
+      "note": "居留、住房、税费与保险",
+      "importance": "综合词汇",
+      "topic": "居留、住房、税费与保险",
+      "topicId": "wonen-in-nederland",
+      "source": "KNM study guide comprehensive vocabulary"
+    },
+    {
+      "word": "aansluiting",
+      "meaning": "连接/接入",
+      "example": "",
+      "note": "居留、住房、税费与保险",
+      "importance": "综合词汇",
+      "topic": "居留、住房、税费与保险",
+      "topicId": "wonen-in-nederland",
+      "source": "KNM study guide comprehensive vocabulary"
+    },
+    {
+      "word": "kabelaansluiting",
+      "meaning": "有线电视/网络接口",
+      "example": "",
+      "note": "居留、住房、税费与保险",
+      "importance": "综合词汇",
+      "topic": "居留、住房、税费与保险",
+      "topicId": "wonen-in-nederland",
+      "source": "KNM study guide comprehensive vocabulary"
+    },
+    {
+      "word": "beltegoed",
+      "meaning": "手机话费余额",
+      "example": "",
+      "note": "居留、住房、税费与保险",
+      "importance": "综合词汇",
+      "topic": "居留、住房、税费与保险",
+      "topicId": "wonen-in-nederland",
+      "source": "KNM study guide comprehensive vocabulary"
+    },
+    {
+      "word": "bon",
+      "meaning": "小票/凭证",
+      "example": "",
+      "note": "居留、住房、税费与保险",
+      "importance": "综合词汇",
+      "topic": "居留、住房、税费与保险",
+      "topicId": "wonen-in-nederland",
+      "source": "KNM study guide comprehensive vocabulary"
+    },
+    {
+      "word": "melden",
+      "meaning": "报告",
+      "example": "",
+      "note": "居留、住房、税费与保险",
+      "importance": "综合词汇",
+      "topic": "居留、住房、税费与保险",
+      "topicId": "wonen-in-nederland",
+      "source": "KNM study guide comprehensive vocabulary"
+    },
+    {
+      "word": "afvaldepot",
+      "meaning": "垃圾回收站",
+      "example": "",
+      "note": "居留、住房、税费与保险",
+      "importance": "综合词汇",
+      "topic": "居留、住房、税费与保险",
+      "topicId": "wonen-in-nederland",
+      "source": "KNM study guide comprehensive vocabulary"
+    },
+    {
+      "word": "milieu",
+      "meaning": "环境",
+      "example": "",
+      "note": "居留、住房、税费与保险",
+      "importance": "综合词汇",
+      "topic": "居留、住房、税费与保险",
+      "topicId": "wonen-in-nederland",
+      "source": "KNM study guide comprehensive vocabulary"
+    },
+    {
+      "word": "premie",
+      "meaning": "保险费",
+      "example": "",
+      "note": "居留、住房、税费与保险",
+      "importance": "综合词汇",
+      "topic": "居留、住房、税费与保险",
+      "topicId": "wonen-in-nederland",
+      "source": "KNM study guide comprehensive vocabulary"
+    },
+    {
+      "word": "polis",
+      "meaning": "保险合同",
+      "example": "",
+      "note": "居留、住房、税费与保险",
+      "importance": "综合词汇",
+      "topic": "居留、住房、税费与保险",
+      "topicId": "wonen-in-nederland",
+      "source": "KNM study guide comprehensive vocabulary"
+    },
+    {
+      "word": "per ongeluk",
+      "meaning": "不小心",
+      "example": "",
+      "note": "居留、住房、税费与保险",
+      "importance": "综合词汇",
+      "topic": "居留、住房、税费与保险",
+      "topicId": "wonen-in-nederland",
+      "source": "KNM study guide comprehensive vocabulary"
+    },
+    {
+      "word": "vaste baan",
+      "meaning": "固定工作",
+      "example": "",
+      "note": "工作与职业",
+      "importance": "综合词汇",
+      "topic": "工作与职业",
+      "topicId": "werken-in-nederland",
+      "source": "KNM study guide comprehensive vocabulary"
+    },
+    {
+      "word": "tijdelijk werk",
+      "meaning": "临时工作",
+      "example": "",
+      "note": "工作与职业",
+      "importance": "综合词汇",
+      "topic": "工作与职业",
+      "topicId": "werken-in-nederland",
+      "source": "KNM study guide comprehensive vocabulary"
+    },
+    {
+      "word": "deeltijd",
+      "meaning": "兼职",
+      "example": "",
+      "note": "工作与职业",
+      "importance": "综合词汇",
+      "topic": "工作与职业",
+      "topicId": "werken-in-nederland",
+      "source": "KNM study guide comprehensive vocabulary"
+    },
+    {
+      "word": "voltijd",
+      "meaning": "全职",
+      "example": "",
+      "note": "工作与职业",
+      "importance": "综合词汇",
+      "topic": "工作与职业",
+      "topicId": "werken-in-nederland",
+      "source": "KNM study guide comprehensive vocabulary"
+    },
+    {
+      "word": "flexwerker",
+      "meaning": "灵活用工人员",
+      "example": "",
+      "note": "工作与职业",
+      "importance": "综合词汇",
+      "topic": "工作与职业",
+      "topicId": "werken-in-nederland",
+      "source": "KNM study guide comprehensive vocabulary"
+    },
+    {
+      "word": "uitzendbureau",
+      "meaning": "劳务派遣/招聘机构",
+      "example": "",
+      "note": "工作与职业",
+      "importance": "综合词汇",
+      "topic": "工作与职业",
+      "topicId": "werken-in-nederland",
+      "source": "KNM study guide comprehensive vocabulary"
+    },
+    {
+      "word": "regelmatige werktijden",
+      "meaning": "规律工时",
+      "example": "",
+      "note": "工作与职业",
+      "importance": "综合词汇",
+      "topic": "工作与职业",
+      "topicId": "werken-in-nederland",
+      "source": "KNM study guide comprehensive vocabulary"
+    },
+    {
+      "word": "onregelmatige werktijden",
+      "meaning": "不规律工时",
+      "example": "",
+      "note": "工作与职业",
+      "importance": "综合词汇",
+      "topic": "工作与职业",
+      "topicId": "werken-in-nederland",
+      "source": "KNM study guide comprehensive vocabulary"
+    },
+    {
+      "word": "zelfstandig",
+      "meaning": "独立的/自雇的",
+      "example": "",
+      "note": "工作与职业",
+      "importance": "综合词汇",
+      "topic": "工作与职业",
+      "topicId": "werken-in-nederland",
+      "source": "KNM study guide comprehensive vocabulary"
+    },
+    {
+      "word": "chauffeur",
+      "meaning": "司机",
+      "example": "",
+      "note": "工作与职业",
+      "importance": "综合词汇",
+      "topic": "工作与职业",
+      "topicId": "werken-in-nederland",
+      "source": "KNM study guide comprehensive vocabulary"
+    },
+    {
+      "word": "diploma waarderen",
+      "meaning": "学历认证/评估",
+      "example": "",
+      "note": "工作与职业",
+      "importance": "综合词汇",
+      "topic": "工作与职业",
+      "topicId": "werken-in-nederland",
+      "source": "KNM study guide comprehensive vocabulary"
+    },
+    {
+      "word": "ongeschoold werk",
+      "meaning": "通常不要求专业学历的工作",
+      "example": "",
+      "note": "工作与职业",
+      "importance": "综合词汇",
+      "topic": "工作与职业",
+      "topicId": "werken-in-nederland",
+      "source": "KNM study guide comprehensive vocabulary"
+    },
+    {
+      "word": "beroepstraining",
+      "meaning": "职业培训",
+      "example": "",
+      "note": "工作与职业",
+      "importance": "综合词汇",
+      "topic": "工作与职业",
+      "topicId": "werken-in-nederland",
+      "source": "KNM study guide comprehensive vocabulary"
+    },
+    {
+      "word": "beroepscompetentie",
+      "meaning": "职业能力",
+      "example": "",
+      "note": "工作与职业",
+      "importance": "综合词汇",
+      "topic": "工作与职业",
+      "topicId": "werken-in-nederland",
+      "source": "KNM study guide comprehensive vocabulary"
+    },
+    {
+      "word": "kwaliteit",
+      "meaning": "能力/品质",
+      "example": "",
+      "note": "工作与职业",
+      "importance": "综合词汇",
+      "topic": "工作与职业",
+      "topicId": "werken-in-nederland",
+      "source": "KNM study guide comprehensive vocabulary"
+    },
+    {
+      "word": "eigenschap",
+      "meaning": "特征/性格特点",
+      "example": "",
+      "note": "工作与职业",
+      "importance": "综合词汇",
+      "topic": "工作与职业",
+      "topicId": "werken-in-nederland",
+      "source": "KNM study guide comprehensive vocabulary"
+    },
+    {
+      "word": "teamspeler",
+      "meaning": "团队合作者",
+      "example": "",
+      "note": "工作与职业",
+      "importance": "综合词汇",
+      "topic": "工作与职业",
+      "topicId": "werken-in-nederland",
+      "source": "KNM study guide comprehensive vocabulary"
+    },
+    {
+      "word": "uitzendkracht",
+      "meaning": "派遣员工",
+      "example": "",
+      "note": "工作与职业",
+      "importance": "综合词汇",
+      "topic": "工作与职业",
+      "topicId": "werken-in-nederland",
+      "source": "KNM study guide comprehensive vocabulary"
+    },
+    {
+      "word": "advertentie",
+      "meaning": "广告/招聘启事",
+      "example": "",
+      "note": "工作与职业",
+      "importance": "综合词汇",
+      "topic": "工作与职业",
+      "topicId": "werken-in-nederland",
+      "source": "KNM study guide comprehensive vocabulary"
+    },
+    {
+      "word": "functie-eisen",
+      "meaning": "职位要求",
+      "example": "",
+      "note": "工作与职业",
+      "importance": "综合词汇",
+      "topic": "工作与职业",
+      "topicId": "werken-in-nederland",
+      "source": "KNM study guide comprehensive vocabulary"
+    },
+    {
+      "word": "voorbereiden",
+      "meaning": "准备",
+      "example": "",
+      "note": "工作与职业",
+      "importance": "综合词汇",
+      "topic": "工作与职业",
+      "topicId": "werken-in-nederland",
+      "source": "KNM study guide comprehensive vocabulary"
+    },
+    {
+      "word": "nette kleren dragen",
+      "meaning": "穿着整洁",
+      "example": "",
+      "note": "工作与职业",
+      "importance": "综合词汇",
+      "topic": "工作与职业",
+      "topicId": "werken-in-nederland",
+      "source": "KNM study guide comprehensive vocabulary"
+    },
+    {
+      "word": "zich netjes gedragen",
+      "meaning": "举止得体",
+      "example": "",
+      "note": "工作与职业",
+      "importance": "综合词汇",
+      "topic": "工作与职业",
+      "topicId": "werken-in-nederland",
+      "source": "KNM study guide comprehensive vocabulary"
+    },
+    {
+      "word": "arbeidsvoorwaarden",
+      "meaning": "劳动条件",
+      "example": "",
+      "note": "工作与职业",
+      "importance": "综合词汇",
+      "topic": "工作与职业",
+      "topicId": "werken-in-nederland",
+      "source": "KNM study guide comprehensive vocabulary"
+    },
+    {
+      "word": "rechten en plichten",
+      "meaning": "权利与义务",
+      "example": "",
+      "note": "工作与职业",
+      "importance": "综合词汇",
+      "topic": "工作与职业",
+      "topicId": "werken-in-nederland",
+      "source": "KNM study guide comprehensive vocabulary"
+    },
+    {
+      "word": "ontslag",
+      "meaning": "解雇/离职",
+      "example": "",
+      "note": "工作与职业",
+      "importance": "综合词汇",
+      "topic": "工作与职业",
+      "topicId": "werken-in-nederland",
+      "source": "KNM study guide comprehensive vocabulary"
+    },
+    {
+      "word": "loon",
+      "meaning": "工资",
+      "example": "",
+      "note": "工作与职业",
+      "importance": "综合词汇",
+      "topic": "工作与职业",
+      "topicId": "werken-in-nederland",
+      "source": "KNM study guide comprehensive vocabulary"
+    },
+    {
+      "word": "minimumloon",
+      "meaning": "最低工资",
+      "example": "",
+      "note": "工作与职业",
+      "importance": "综合词汇",
+      "topic": "工作与职业",
+      "topicId": "werken-in-nederland",
+      "source": "KNM study guide comprehensive vocabulary"
+    },
+    {
+      "word": "bruto salaris",
+      "meaning": "税前工资",
+      "example": "",
+      "note": "工作与职业",
+      "importance": "综合词汇",
+      "topic": "工作与职业",
+      "topicId": "werken-in-nederland",
+      "source": "KNM study guide comprehensive vocabulary"
+    },
+    {
+      "word": "nettosalaris",
+      "meaning": "税后/到账工资",
+      "example": "",
+      "note": "工作与职业",
+      "importance": "综合词汇",
+      "topic": "工作与职业",
+      "topicId": "werken-in-nederland",
+      "source": "KNM study guide comprehensive vocabulary"
+    },
+    {
+      "word": "jaaropgave",
+      "meaning": "年度收入证明",
+      "example": "",
+      "note": "工作与职业",
+      "importance": "综合词汇",
+      "topic": "工作与职业",
+      "topicId": "werken-in-nederland",
+      "source": "KNM study guide comprehensive vocabulary"
+    },
+    {
+      "word": "vakbond",
+      "meaning": "工会",
+      "example": "",
+      "note": "工作与职业",
+      "importance": "综合词汇",
+      "topic": "工作与职业",
+      "topicId": "werken-in-nederland",
+      "source": "KNM study guide comprehensive vocabulary"
+    },
+    {
+      "word": "ondernemingsraad",
+      "meaning": "企业职工委员会",
+      "example": "",
+      "note": "工作与职业",
+      "importance": "综合词汇",
+      "topic": "工作与职业",
+      "topicId": "werken-in-nederland",
+      "source": "KNM study guide comprehensive vocabulary"
+    },
+    {
+      "word": "ondernemingsplan",
+      "meaning": "商业计划",
+      "example": "",
+      "note": "工作与职业",
+      "importance": "综合词汇",
+      "topic": "工作与职业",
+      "topicId": "werken-in-nederland",
+      "source": "KNM study guide comprehensive vocabulary"
+    },
+    {
+      "word": "Kamer van Koophandel (KvK)",
+      "meaning": "商会/企业登记机构",
+      "example": "",
+      "note": "工作与职业",
+      "importance": "综合词汇",
+      "topic": "工作与职业",
+      "topicId": "werken-in-nederland",
+      "source": "KNM study guide comprehensive vocabulary"
+    },
+    {
+      "word": "overleg",
+      "meaning": "协商/会议",
+      "example": "",
+      "note": "工作与职业",
+      "importance": "综合词汇",
+      "topic": "工作与职业",
+      "topicId": "werken-in-nederland",
+      "source": "KNM study guide comprehensive vocabulary"
+    },
+    {
+      "word": "kritiek",
+      "meaning": "批评/反馈",
+      "example": "",
+      "note": "工作与职业",
+      "importance": "综合词汇",
+      "topic": "工作与职业",
+      "topicId": "werken-in-nederland",
+      "source": "KNM study guide comprehensive vocabulary"
+    },
+    {
+      "word": "vrijwilligerswerk",
+      "meaning": "志愿工作",
+      "example": "",
+      "note": "工作与职业",
+      "importance": "综合词汇",
+      "topic": "工作与职业",
+      "topicId": "werken-in-nederland",
+      "source": "KNM study guide comprehensive vocabulary"
+    },
+    {
+      "word": "betrouwbaar",
+      "meaning": "可靠的",
+      "example": "",
+      "note": "工作与职业",
+      "importance": "综合词汇",
+      "topic": "工作与职业",
+      "topicId": "werken-in-nederland",
+      "source": "KNM study guide comprehensive vocabulary"
+    },
+    {
+      "word": "handig",
+      "meaning": "能干的/方便的",
+      "example": "",
+      "note": "工作与职业",
+      "importance": "综合词汇",
+      "topic": "工作与职业",
+      "topicId": "werken-in-nederland",
+      "source": "KNM study guide comprehensive vocabulary"
+    },
+    {
+      "word": "zorgzaam",
+      "meaning": "体贴的",
+      "example": "",
+      "note": "工作与职业",
+      "importance": "综合词汇",
+      "topic": "工作与职业",
+      "topicId": "werken-in-nederland",
+      "source": "KNM study guide comprehensive vocabulary"
+    },
+    {
+      "word": "taak",
+      "meaning": "任务",
+      "example": "",
+      "note": "工作与职业",
+      "importance": "综合词汇",
+      "topic": "工作与职业",
+      "topicId": "werken-in-nederland",
+      "source": "KNM study guide comprehensive vocabulary"
+    },
+    {
+      "word": "vergadering",
+      "meaning": "会议",
+      "example": "",
+      "note": "工作与职业",
+      "importance": "综合词汇",
+      "topic": "工作与职业",
+      "topicId": "werken-in-nederland",
+      "source": "KNM study guide comprehensive vocabulary"
+    },
+    {
+      "word": "geduld hebben",
+      "meaning": "有耐心",
+      "example": "",
+      "note": "工作与职业",
+      "importance": "综合词汇",
+      "topic": "工作与职业",
+      "topicId": "werken-in-nederland",
+      "source": "KNM study guide comprehensive vocabulary"
+    },
+    {
+      "word": "opgave",
+      "meaning": "任务/申报材料",
+      "example": "",
+      "note": "工作与职业",
+      "importance": "综合词汇",
+      "topic": "工作与职业",
+      "topicId": "werken-in-nederland",
+      "source": "KNM study guide comprehensive vocabulary"
+    },
+    {
+      "word": "onderneming",
+      "meaning": "企业",
+      "example": "",
+      "note": "工作与职业",
+      "importance": "综合词汇",
+      "topic": "工作与职业",
+      "topicId": "werken-in-nederland",
+      "source": "KNM study guide comprehensive vocabulary"
+    },
+    {
+      "word": "verbeteren",
+      "meaning": "改进",
+      "example": "",
+      "note": "工作与职业",
+      "importance": "综合词汇",
+      "topic": "工作与职业",
+      "topicId": "werken-in-nederland",
+      "source": "KNM study guide comprehensive vocabulary"
+    },
+    {
+      "word": "vereniging",
+      "meaning": "协会/社团",
+      "example": "",
+      "note": "家庭、教育与社会关系",
+      "importance": "综合词汇",
+      "topic": "家庭、教育与社会关系",
+      "topicId": "opvoeding-en-onderwijs-in-nederland",
+      "source": "KNM study guide comprehensive vocabulary"
+    },
+    {
+      "word": "grapje",
+      "meaning": "玩笑",
+      "example": "",
+      "note": "家庭、教育与社会关系",
+      "importance": "综合词汇",
+      "topic": "家庭、教育与社会关系",
+      "topicId": "opvoeding-en-onderwijs-in-nederland",
+      "source": "KNM study guide comprehensive vocabulary"
+    },
+    {
+      "word": "welzijn",
+      "meaning": "福祉",
+      "example": "",
+      "note": "家庭、教育与社会关系",
+      "importance": "综合词汇",
+      "topic": "家庭、教育与社会关系",
+      "topicId": "opvoeding-en-onderwijs-in-nederland",
+      "source": "KNM study guide comprehensive vocabulary"
+    },
+    {
+      "word": "alleenstaande",
+      "meaning": "单身或单亲人士",
+      "example": "",
+      "note": "家庭、教育与社会关系",
+      "importance": "综合词汇",
+      "topic": "家庭、教育与社会关系",
+      "topicId": "opvoeding-en-onderwijs-in-nederland",
+      "source": "KNM study guide comprehensive vocabulary"
+    },
+    {
+      "word": "seksualiteit",
+      "meaning": "性/性取向",
+      "example": "",
+      "note": "家庭、教育与社会关系",
+      "importance": "综合词汇",
+      "topic": "家庭、教育与社会关系",
+      "topicId": "opvoeding-en-onderwijs-in-nederland",
+      "source": "KNM study guide comprehensive vocabulary"
+    },
+    {
+      "word": "huishouden",
+      "meaning": "家务/家庭",
+      "example": "",
+      "note": "家庭、教育与社会关系",
+      "importance": "综合词汇",
+      "topic": "家庭、教育与社会关系",
+      "topicId": "opvoeding-en-onderwijs-in-nederland",
+      "source": "KNM study guide comprehensive vocabulary"
+    },
+    {
+      "word": "kans",
+      "meaning": "机会",
+      "example": "",
+      "note": "家庭、教育与社会关系",
+      "importance": "综合词汇",
+      "topic": "家庭、教育与社会关系",
+      "topicId": "opvoeding-en-onderwijs-in-nederland",
+      "source": "KNM study guide comprehensive vocabulary"
+    },
+    {
+      "word": "verantwoordelijk",
+      "meaning": "负责任的",
+      "example": "",
+      "note": "家庭、教育与社会关系",
+      "importance": "综合词汇",
+      "topic": "家庭、教育与社会关系",
+      "topicId": "opvoeding-en-onderwijs-in-nederland",
+      "source": "KNM study guide comprehensive vocabulary"
+    },
+    {
+      "word": "gevangenis",
+      "meaning": "监狱",
+      "example": "",
+      "note": "家庭、教育与社会关系",
+      "importance": "综合词汇",
+      "topic": "家庭、教育与社会关系",
+      "topicId": "opvoeding-en-onderwijs-in-nederland",
+      "source": "KNM study guide comprehensive vocabulary"
+    },
+    {
+      "word": "verkrachting",
+      "meaning": "强奸",
+      "example": "",
+      "note": "家庭、教育与社会关系",
+      "importance": "综合词汇",
+      "topic": "家庭、教育与社会关系",
+      "topicId": "opvoeding-en-onderwijs-in-nederland",
+      "source": "KNM study guide comprehensive vocabulary"
+    },
+    {
+      "word": "dwingen",
+      "meaning": "强迫",
+      "example": "",
+      "note": "家庭、教育与社会关系",
+      "importance": "综合词汇",
+      "topic": "家庭、教育与社会关系",
+      "topicId": "opvoeding-en-onderwijs-in-nederland",
+      "source": "KNM study guide comprehensive vocabulary"
+    },
+    {
+      "word": "incest",
+      "meaning": "乱伦",
+      "example": "",
+      "note": "家庭、教育与社会关系",
+      "importance": "综合词汇",
+      "topic": "家庭、教育与社会关系",
+      "topicId": "opvoeding-en-onderwijs-in-nederland",
+      "source": "KNM study guide comprehensive vocabulary"
+    },
+    {
+      "word": "neef en nicht",
+      "meaning": "表/堂兄弟姐妹、侄子侄女；依语境",
+      "example": "",
+      "note": "家庭、教育与社会关系",
+      "importance": "综合词汇",
+      "topic": "家庭、教育与社会关系",
+      "topicId": "opvoeding-en-onderwijs-in-nederland",
+      "source": "KNM study guide comprehensive vocabulary"
+    },
+    {
+      "word": "blijf-van-mijn-lijfhuis",
+      "meaning": "家暴受害者庇护所",
+      "example": "",
+      "note": "家庭、教育与社会关系",
+      "importance": "综合词汇",
+      "topic": "家庭、教育与社会关系",
+      "topicId": "opvoeding-en-onderwijs-in-nederland",
+      "source": "KNM study guide comprehensive vocabulary"
+    },
+    {
+      "word": "leiding",
+      "meaning": "领导/管理",
+      "example": "",
+      "note": "家庭、教育与社会关系",
+      "importance": "综合词汇",
+      "topic": "家庭、教育与社会关系",
+      "topicId": "opvoeding-en-onderwijs-in-nederland",
+      "source": "KNM study guide comprehensive vocabulary"
+    },
+    {
+      "word": "kraamhulp / kraamzorg",
+      "meaning": "产后母婴护理",
+      "example": "",
+      "note": "家庭、教育与社会关系",
+      "importance": "综合词汇",
+      "topic": "家庭、教育与社会关系",
+      "topicId": "opvoeding-en-onderwijs-in-nederland",
+      "source": "KNM study guide comprehensive vocabulary"
+    },
+    {
+      "word": "kraampakket",
+      "meaning": "待产用品包",
+      "example": "",
+      "note": "家庭、教育与社会关系",
+      "importance": "综合词汇",
+      "topic": "家庭、教育与社会关系",
+      "topicId": "opvoeding-en-onderwijs-in-nederland",
+      "source": "KNM study guide comprehensive vocabulary"
+    },
+    {
+      "word": "voeding",
+      "meaning": "营养/饮食",
+      "example": "",
+      "note": "家庭、教育与社会关系",
+      "importance": "综合词汇",
+      "topic": "家庭、教育与社会关系",
+      "topicId": "opvoeding-en-onderwijs-in-nederland",
+      "source": "KNM study guide comprehensive vocabulary"
+    },
+    {
+      "word": "meten",
+      "meaning": "测量",
+      "example": "",
+      "note": "家庭、教育与社会关系",
+      "importance": "综合词汇",
+      "topic": "家庭、教育与社会关系",
+      "topicId": "opvoeding-en-onderwijs-in-nederland",
+      "source": "KNM study guide comprehensive vocabulary"
+    },
+    {
+      "word": "prik",
+      "meaning": "针/疫苗注射",
+      "example": "",
+      "note": "家庭、教育与社会关系",
+      "importance": "综合词汇",
+      "topic": "家庭、教育与社会关系",
+      "topicId": "opvoeding-en-onderwijs-in-nederland",
+      "source": "KNM study guide comprehensive vocabulary"
+    },
+    {
+      "word": "ziekte",
+      "meaning": "疾病",
+      "example": "",
+      "note": "家庭、教育与社会关系",
+      "importance": "综合词汇",
+      "topic": "家庭、教育与社会关系",
+      "topicId": "opvoeding-en-onderwijs-in-nederland",
+      "source": "KNM study guide comprehensive vocabulary"
+    },
+    {
+      "word": "wegen",
+      "meaning": "称重",
+      "example": "",
+      "note": "家庭、教育与社会关系",
+      "importance": "综合词汇",
+      "topic": "家庭、教育与社会关系",
+      "topicId": "opvoeding-en-onderwijs-in-nederland",
+      "source": "KNM study guide comprehensive vocabulary"
+    },
+    {
+      "word": "gewicht",
+      "meaning": "体重",
+      "example": "",
+      "note": "家庭、教育与社会关系",
+      "importance": "综合词汇",
+      "topic": "家庭、教育与社会关系",
+      "topicId": "opvoeding-en-onderwijs-in-nederland",
+      "source": "KNM study guide comprehensive vocabulary"
+    },
+    {
+      "word": "groeiboekje",
+      "meaning": "儿童成长记录册",
+      "example": "",
+      "note": "家庭、教育与社会关系",
+      "importance": "综合词汇",
+      "topic": "家庭、教育与社会关系",
+      "topicId": "opvoeding-en-onderwijs-in-nederland",
+      "source": "KNM study guide comprehensive vocabulary"
+    },
+    {
+      "word": "oppas",
+      "meaning": "保姆/临时照护者",
+      "example": "",
+      "note": "家庭、教育与社会关系",
+      "importance": "综合词汇",
+      "topic": "家庭、教育与社会关系",
+      "topicId": "opvoeding-en-onderwijs-in-nederland",
+      "source": "KNM study guide comprehensive vocabulary"
+    },
+    {
+      "word": "bijslag",
+      "meaning": "补助",
+      "example": "",
+      "note": "家庭、教育与社会关系",
+      "importance": "综合词汇",
+      "topic": "家庭、教育与社会关系",
+      "topicId": "opvoeding-en-onderwijs-in-nederland",
+      "source": "KNM study guide comprehensive vocabulary"
+    },
+    {
+      "word": "opvoeding",
+      "meaning": "养育/家庭教育",
+      "example": "",
+      "note": "家庭、教育与社会关系",
+      "importance": "综合词汇",
+      "topic": "家庭、教育与社会关系",
+      "topicId": "opvoeding-en-onderwijs-in-nederland",
+      "source": "KNM study guide comprehensive vocabulary"
+    },
+    {
+      "word": "straf",
+      "meaning": "惩罚",
+      "example": "",
+      "note": "家庭、教育与社会关系",
+      "importance": "综合词汇",
+      "topic": "家庭、教育与社会关系",
+      "topicId": "opvoeding-en-onderwijs-in-nederland",
+      "source": "KNM study guide comprehensive vocabulary"
+    },
+    {
+      "word": "vrijheid",
+      "meaning": "自由",
+      "example": "",
+      "note": "家庭、教育与社会关系",
+      "importance": "综合词汇",
+      "topic": "家庭、教育与社会关系",
+      "topicId": "opvoeding-en-onderwijs-in-nederland",
+      "source": "KNM study guide comprehensive vocabulary"
+    },
+    {
+      "word": "leerplichtig",
+      "meaning": "有义务接受教育的",
+      "example": "",
+      "note": "家庭、教育与社会关系",
+      "importance": "综合词汇",
+      "topic": "家庭、教育与社会关系",
+      "topicId": "opvoeding-en-onderwijs-in-nederland",
+      "source": "KNM study guide comprehensive vocabulary"
+    },
+    {
+      "word": "peuterspeelzaal",
+      "meaning": "幼儿活动班",
+      "example": "",
+      "note": "家庭、教育与社会关系",
+      "importance": "综合词汇",
+      "topic": "家庭、教育与社会关系",
+      "topicId": "opvoeding-en-onderwijs-in-nederland",
+      "source": "KNM study guide comprehensive vocabulary"
+    },
+    {
+      "word": "vak",
+      "meaning": "科目/专业领域",
+      "example": "",
+      "note": "家庭、教育与社会关系",
+      "importance": "综合词汇",
+      "topic": "家庭、教育与社会关系",
+      "topicId": "opvoeding-en-onderwijs-in-nederland",
+      "source": "KNM study guide comprehensive vocabulary"
+    },
+    {
+      "word": "knutselen",
+      "meaning": "做手工",
+      "example": "",
+      "note": "家庭、教育与社会关系",
+      "importance": "综合词汇",
+      "topic": "家庭、教育与社会关系",
+      "topicId": "opvoeding-en-onderwijs-in-nederland",
+      "source": "KNM study guide comprehensive vocabulary"
+    },
+    {
+      "word": "juf",
+      "meaning": "女教师，常指小学或幼儿教师",
+      "example": "",
+      "note": "家庭、教育与社会关系",
+      "importance": "综合词汇",
+      "topic": "家庭、教育与社会关系",
+      "topicId": "opvoeding-en-onderwijs-in-nederland",
+      "source": "KNM study guide comprehensive vocabulary"
+    },
+    {
+      "word": "vroegschoolse educatie",
+      "meaning": "早期教育",
+      "example": "",
+      "note": "家庭、教育与社会关系",
+      "importance": "综合词汇",
+      "topic": "家庭、教育与社会关系",
+      "topicId": "opvoeding-en-onderwijs-in-nederland",
+      "source": "KNM study guide comprehensive vocabulary"
+    },
+    {
+      "word": "voorschool",
+      "meaning": "学前教育项目",
+      "example": "",
+      "note": "家庭、教育与社会关系",
+      "importance": "综合词汇",
+      "topic": "家庭、教育与社会关系",
+      "topicId": "opvoeding-en-onderwijs-in-nederland",
+      "source": "KNM study guide comprehensive vocabulary"
+    },
+    {
+      "word": "geschiedenis",
+      "meaning": "历史",
+      "example": "",
+      "note": "家庭、教育与社会关系",
+      "importance": "综合词汇",
+      "topic": "家庭、教育与社会关系",
+      "topicId": "opvoeding-en-onderwijs-in-nederland",
+      "source": "KNM study guide comprehensive vocabulary"
+    },
+    {
+      "word": "gids",
+      "meaning": "指南/导游",
+      "example": "",
+      "note": "家庭、教育与社会关系",
+      "importance": "综合词汇",
+      "topic": "家庭、教育与社会关系",
+      "topicId": "opvoeding-en-onderwijs-in-nederland",
+      "source": "KNM study guide comprehensive vocabulary"
+    },
+    {
+      "word": "schoolgids",
+      "meaning": "学校指南",
+      "example": "",
+      "note": "家庭、教育与社会关系",
+      "importance": "综合词汇",
+      "topic": "家庭、教育与社会关系",
+      "topicId": "opvoeding-en-onderwijs-in-nederland",
+      "source": "KNM study guide comprehensive vocabulary"
+    },
+    {
+      "word": "doorstromen",
+      "meaning": "升入下一阶段",
+      "example": "",
+      "note": "家庭、教育与社会关系",
+      "importance": "综合词汇",
+      "topic": "家庭、教育与社会关系",
+      "topicId": "opvoeding-en-onderwijs-in-nederland",
+      "source": "KNM study guide comprehensive vocabulary"
+    },
+    {
+      "word": "ouderbijdrage",
+      "meaning": "家长自愿缴费",
+      "example": "",
+      "note": "家庭、教育与社会关系",
+      "importance": "综合词汇",
+      "topic": "家庭、教育与社会关系",
+      "topicId": "opvoeding-en-onderwijs-in-nederland",
+      "source": "KNM study guide comprehensive vocabulary"
+    },
+    {
+      "word": "lening",
+      "meaning": "贷款",
+      "example": "",
+      "note": "家庭、教育与社会关系",
+      "importance": "综合词汇",
+      "topic": "家庭、教育与社会关系",
+      "topicId": "opvoeding-en-onderwijs-in-nederland",
+      "source": "KNM study guide comprehensive vocabulary"
+    },
+    {
+      "word": "overblijven",
+      "meaning": "留校午餐/托管",
+      "example": "",
+      "note": "家庭、教育与社会关系",
+      "importance": "综合词汇",
+      "topic": "家庭、教育与社会关系",
+      "topicId": "opvoeding-en-onderwijs-in-nederland",
+      "source": "KNM study guide comprehensive vocabulary"
+    },
+    {
+      "word": "kindgebonden budget",
+      "meaning": "儿童相关收入补助",
+      "example": "",
+      "note": "家庭、教育与社会关系",
+      "importance": "综合词汇",
+      "topic": "家庭、教育与社会关系",
+      "topicId": "opvoeding-en-onderwijs-in-nederland",
+      "source": "KNM study guide comprehensive vocabulary"
+    },
+    {
+      "word": "inwoner",
+      "meaning": "居民",
+      "example": "",
+      "note": "政治、法律与民主",
+      "importance": "综合词汇",
+      "topic": "政治、法律与民主",
+      "topicId": "politiek-in-nederland",
+      "source": "KNM study guide comprehensive vocabulary"
+    },
+    {
+      "word": "macht",
+      "meaning": "权力",
+      "example": "",
+      "note": "政治、法律与民主",
+      "importance": "综合词汇",
+      "topic": "政治、法律与民主",
+      "topicId": "politiek-in-nederland",
+      "source": "KNM study guide comprehensive vocabulary"
+    },
+    {
+      "word": "bestuur",
+      "meaning": "治理/行政管理",
+      "example": "",
+      "note": "政治、法律与民主",
+      "importance": "综合词汇",
+      "topic": "政治、法律与民主",
+      "topicId": "politiek-in-nederland",
+      "source": "KNM study guide comprehensive vocabulary"
+    },
+    {
+      "word": "troonrede",
+      "meaning": "王座演说",
+      "example": "",
+      "note": "政治、法律与民主",
+      "importance": "综合词汇",
+      "topic": "政治、法律与民主",
+      "topicId": "politiek-in-nederland",
+      "source": "KNM study guide comprehensive vocabulary"
+    },
+    {
+      "word": "namens",
+      "meaning": "代表",
+      "example": "",
+      "note": "政治、法律与民主",
+      "importance": "综合词汇",
+      "topic": "政治、法律与民主",
+      "topicId": "politiek-in-nederland",
+      "source": "KNM study guide comprehensive vocabulary"
+    },
+    {
+      "word": "voorstellen",
+      "meaning": "提出/介绍",
+      "example": "",
+      "note": "政治、法律与民主",
+      "importance": "综合词汇",
+      "topic": "政治、法律与民主",
+      "topicId": "politiek-in-nederland",
+      "source": "KNM study guide comprehensive vocabulary"
+    },
+    {
+      "word": "raad",
+      "meaning": "委员会/议会",
+      "example": "",
+      "note": "政治、法律与民主",
+      "importance": "综合词汇",
+      "topic": "政治、法律与民主",
+      "topicId": "politiek-in-nederland",
+      "source": "KNM study guide comprehensive vocabulary"
+    },
+    {
+      "word": "gemeenteraad",
+      "meaning": "市议会",
+      "example": "",
+      "note": "政治、法律与民主",
+      "importance": "综合词汇",
+      "topic": "政治、法律与民主",
+      "topicId": "politiek-in-nederland",
+      "source": "KNM study guide comprehensive vocabulary"
+    },
+    {
+      "word": "verdelen",
+      "meaning": "分配",
+      "example": "",
+      "note": "政治、法律与民主",
+      "importance": "综合词汇",
+      "topic": "政治、法律与民主",
+      "topicId": "politiek-in-nederland",
+      "source": "KNM study guide comprehensive vocabulary"
+    },
+    {
+      "word": "reclame",
+      "meaning": "宣传/广告",
+      "example": "",
+      "note": "政治、法律与民主",
+      "importance": "综合词汇",
+      "topic": "政治、法律与民主",
+      "topicId": "politiek-in-nederland",
+      "source": "KNM study guide comprehensive vocabulary"
+    },
+    {
+      "word": "uitslag",
+      "meaning": "结果",
+      "example": "",
+      "note": "政治、法律与民主",
+      "importance": "综合词汇",
+      "topic": "政治、法律与民主",
+      "topicId": "politiek-in-nederland",
+      "source": "KNM study guide comprehensive vocabulary"
+    },
+    {
+      "word": "akkoord",
+      "meaning": "协议/同意",
+      "example": "",
+      "note": "政治、法律与民主",
+      "importance": "综合词汇",
+      "topic": "政治、法律与民主",
+      "topicId": "politiek-in-nederland",
+      "source": "KNM study guide comprehensive vocabulary"
+    },
+    {
+      "word": "godsdienst",
+      "meaning": "宗教",
+      "example": "",
+      "note": "政治、法律与民主",
+      "importance": "综合词汇",
+      "topic": "政治、法律与民主",
+      "topicId": "politiek-in-nederland",
+      "source": "KNM study guide comprehensive vocabulary"
+    },
+    {
+      "word": "mening",
+      "meaning": "意见",
+      "example": "",
+      "note": "政治、法律与民主",
+      "importance": "综合词汇",
+      "topic": "政治、法律与民主",
+      "topicId": "politiek-in-nederland",
+      "source": "KNM study guide comprehensive vocabulary"
+    },
+    {
+      "word": "vrijheid van meningsuiting",
+      "meaning": "言论/表达自由",
+      "example": "",
+      "note": "政治、法律与民主",
+      "importance": "综合词汇",
+      "topic": "政治、法律与民主",
+      "topicId": "politiek-in-nederland",
+      "source": "KNM study guide comprehensive vocabulary"
+    },
+    {
+      "word": "demonstratie",
+      "meaning": "示威游行",
+      "example": "",
+      "note": "政治、法律与民主",
+      "importance": "综合词汇",
+      "topic": "政治、法律与民主",
+      "topicId": "politiek-in-nederland",
+      "source": "KNM study guide comprehensive vocabulary"
+    },
+    {
+      "word": "benoemen",
+      "meaning": "任命",
+      "example": "",
+      "note": "政治、法律与民主",
+      "importance": "综合词汇",
+      "topic": "政治、法律与民主",
+      "topicId": "politiek-in-nederland",
+      "source": "KNM study guide comprehensive vocabulary"
+    },
+    {
+      "word": "toespraak",
+      "meaning": "演讲",
+      "example": "",
+      "note": "政治、法律与民主",
+      "importance": "综合词汇",
+      "topic": "政治、法律与民主",
+      "topicId": "politiek-in-nederland",
+      "source": "KNM study guide comprehensive vocabulary"
+    },
+    {
+      "word": "bepalen",
+      "meaning": "决定",
+      "example": "",
+      "note": "政治、法律与民主",
+      "importance": "综合词汇",
+      "topic": "政治、法律与民主",
+      "topicId": "politiek-in-nederland",
+      "source": "KNM study guide comprehensive vocabulary"
+    },
+    {
+      "word": "bestaan",
+      "meaning": "存在/由……组成",
+      "example": "",
+      "note": "政治、法律与民主",
+      "importance": "综合词汇",
+      "topic": "政治、法律与民主",
+      "topicId": "politiek-in-nederland",
+      "source": "KNM study guide comprehensive vocabulary"
+    },
+    {
+      "word": "lid",
+      "meaning": "成员",
+      "example": "",
+      "note": "政治、法律与民主",
+      "importance": "综合词汇",
+      "topic": "政治、法律与民主",
+      "topicId": "politiek-in-nederland",
+      "source": "KNM study guide comprehensive vocabulary"
+    },
+    {
+      "word": "gebied",
+      "meaning": "地区",
+      "example": "",
+      "note": "历史",
+      "importance": "综合词汇",
+      "topic": "历史",
+      "topicId": "de-geschiedenis-van-nederland",
+      "source": "KNM study guide comprehensive vocabulary"
+    },
+    {
+      "word": "ontstaan",
+      "meaning": "产生/形成",
+      "example": "",
+      "note": "历史",
+      "importance": "综合词汇",
+      "topic": "历史",
+      "topicId": "de-geschiedenis-van-nederland",
+      "source": "KNM study guide comprehensive vocabulary"
+    },
+    {
+      "word": "kasteel",
+      "meaning": "城堡",
+      "example": "",
+      "note": "历史",
+      "importance": "综合词汇",
+      "topic": "历史",
+      "topicId": "de-geschiedenis-van-nederland",
+      "source": "KNM study guide comprehensive vocabulary"
+    },
+    {
+      "word": "voorvader",
+      "meaning": "祖先",
+      "example": "",
+      "note": "历史",
+      "importance": "综合词汇",
+      "topic": "历史",
+      "topicId": "de-geschiedenis-van-nederland",
+      "source": "KNM study guide comprehensive vocabulary"
+    },
+    {
+      "word": "verzet",
+      "meaning": "抵抗",
+      "example": "",
+      "note": "历史",
+      "importance": "综合词汇",
+      "topic": "历史",
+      "topicId": "de-geschiedenis-van-nederland",
+      "source": "KNM study guide comprehensive vocabulary"
+    },
+    {
+      "word": "schieten",
+      "meaning": "射击",
+      "example": "",
+      "note": "历史",
+      "importance": "综合词汇",
+      "topic": "历史",
+      "topicId": "de-geschiedenis-van-nederland",
+      "source": "KNM study guide comprehensive vocabulary"
+    },
+    {
+      "word": "doodschieten",
+      "meaning": "枪杀",
+      "example": "",
+      "note": "历史",
+      "importance": "综合词汇",
+      "topic": "历史",
+      "topicId": "de-geschiedenis-van-nederland",
+      "source": "KNM study guide comprehensive vocabulary"
+    },
+    {
+      "word": "goud",
+      "meaning": "黄金",
+      "example": "",
+      "note": "历史",
+      "importance": "综合词汇",
+      "topic": "历史",
+      "topicId": "de-geschiedenis-van-nederland",
+      "source": "KNM study guide comprehensive vocabulary"
+    },
+    {
+      "word": "specerij",
+      "meaning": "香料",
+      "example": "",
+      "note": "历史",
+      "importance": "综合词汇",
+      "topic": "历史",
+      "topicId": "de-geschiedenis-van-nederland",
+      "source": "KNM study guide comprehensive vocabulary"
+    },
+    {
+      "word": "slaaf",
+      "meaning": "奴隶",
+      "example": "",
+      "note": "历史",
+      "importance": "综合词汇",
+      "topic": "历史",
+      "topicId": "de-geschiedenis-van-nederland",
+      "source": "KNM study guide comprehensive vocabulary"
+    },
+    {
+      "word": "bewaren",
+      "meaning": "保存",
+      "example": "",
+      "note": "历史",
+      "importance": "综合词汇",
+      "topic": "历史",
+      "topicId": "de-geschiedenis-van-nederland",
+      "source": "KNM study guide comprehensive vocabulary"
+    },
+    {
+      "word": "pakhuis",
+      "meaning": "仓库",
+      "example": "",
+      "note": "历史",
+      "importance": "综合词汇",
+      "topic": "历史",
+      "topicId": "de-geschiedenis-van-nederland",
+      "source": "KNM study guide comprehensive vocabulary"
+    },
+    {
+      "word": "kunst",
+      "meaning": "艺术",
+      "example": "",
+      "note": "历史",
+      "importance": "综合词汇",
+      "topic": "历史",
+      "topicId": "de-geschiedenis-van-nederland",
+      "source": "KNM study guide comprehensive vocabulary"
+    },
+    {
+      "word": "verloren",
+      "meaning": "失败的/失去的",
+      "example": "",
+      "note": "历史",
+      "importance": "综合词汇",
+      "topic": "历史",
+      "topicId": "de-geschiedenis-van-nederland",
+      "source": "KNM study guide comprehensive vocabulary"
+    },
+    {
+      "word": "militair",
+      "meaning": "军人/军事的",
+      "example": "",
+      "note": "历史",
+      "importance": "综合词汇",
+      "topic": "历史",
+      "topicId": "de-geschiedenis-van-nederland",
+      "source": "KNM study guide comprehensive vocabulary"
+    },
+    {
+      "word": "bombarderen",
+      "meaning": "轰炸",
+      "example": "",
+      "note": "历史",
+      "importance": "综合词汇",
+      "topic": "历史",
+      "topicId": "de-geschiedenis-van-nederland",
+      "source": "KNM study guide comprehensive vocabulary"
+    },
+    {
+      "word": "Joden",
+      "meaning": "犹太人",
+      "example": "",
+      "note": "历史",
+      "importance": "综合词汇",
+      "topic": "历史",
+      "topicId": "de-geschiedenis-van-nederland",
+      "source": "KNM study guide comprehensive vocabulary"
+    },
+    {
+      "word": "concentratiekamp",
+      "meaning": "集中营",
+      "example": "",
+      "note": "历史",
+      "importance": "综合词汇",
+      "topic": "历史",
+      "topicId": "de-geschiedenis-van-nederland",
+      "source": "KNM study guide comprehensive vocabulary"
+    },
+    {
+      "word": "gevangennemen",
+      "meaning": "逮捕/俘虏",
+      "example": "",
+      "note": "历史",
+      "importance": "综合词汇",
+      "topic": "历史",
+      "topicId": "de-geschiedenis-van-nederland",
+      "source": "KNM study guide comprehensive vocabulary"
+    },
+    {
+      "word": "vechten",
+      "meaning": "战斗",
+      "example": "",
+      "note": "历史",
+      "importance": "综合词汇",
+      "topic": "历史",
+      "topicId": "de-geschiedenis-van-nederland",
+      "source": "KNM study guide comprehensive vocabulary"
+    },
+    {
+      "word": "welvaart",
+      "meaning": "繁荣/生活富裕程度",
+      "example": "",
+      "note": "历史",
+      "importance": "综合词汇",
+      "topic": "历史",
+      "topicId": "de-geschiedenis-van-nederland",
+      "source": "KNM study guide comprehensive vocabulary"
+    },
+    {
+      "word": "rekening",
+      "meaning": "账单/账户",
+      "example": "",
+      "note": "金融、医疗与常用动词",
+      "importance": "综合词汇",
+      "topic": "金融、医疗与常用动词",
+      "topicId": "gezondheid-en-gezondheidszorg-in-nederland",
+      "source": "KNM study guide comprehensive vocabulary"
+    },
+    {
+      "word": "saldo",
+      "meaning": "余额",
+      "example": "",
+      "note": "金融、医疗与常用动词",
+      "importance": "综合词汇",
+      "topic": "金融、医疗与常用动词",
+      "topicId": "gezondheid-en-gezondheidszorg-in-nederland",
+      "source": "KNM study guide comprehensive vocabulary"
+    },
+    {
+      "word": "negatief saldo",
+      "meaning": "负余额",
+      "example": "",
+      "note": "金融、医疗与常用动词",
+      "importance": "综合词汇",
+      "topic": "金融、医疗与常用动词",
+      "topicId": "gezondheid-en-gezondheidszorg-in-nederland",
+      "source": "KNM study guide comprehensive vocabulary"
+    },
+    {
+      "word": "tekort",
+      "meaning": "不足/赤字",
+      "example": "",
+      "note": "金融、医疗与常用动词",
+      "importance": "综合词汇",
+      "topic": "金融、医疗与常用动词",
+      "topicId": "gezondheid-en-gezondheidszorg-in-nederland",
+      "source": "KNM study guide comprehensive vocabulary"
+    },
+    {
+      "word": "contant",
+      "meaning": "现金的",
+      "example": "",
+      "note": "金融、医疗与常用动词",
+      "importance": "综合词汇",
+      "topic": "金融、医疗与常用动词",
+      "topicId": "gezondheid-en-gezondheidszorg-in-nederland",
+      "source": "KNM study guide comprehensive vocabulary"
+    },
+    {
+      "word": "automaat",
+      "meaning": "自动机/售货机/取款机",
+      "example": "",
+      "note": "金融、医疗与常用动词",
+      "importance": "综合词汇",
+      "topic": "金融、医疗与常用动词",
+      "topicId": "gezondheid-en-gezondheidszorg-in-nederland",
+      "source": "KNM study guide comprehensive vocabulary"
+    },
+    {
+      "word": "overmaken",
+      "meaning": "转账",
+      "example": "",
+      "note": "金融、医疗与常用动词",
+      "importance": "综合词汇",
+      "topic": "金融、医疗与常用动词",
+      "topicId": "gezondheid-en-gezondheidszorg-in-nederland",
+      "source": "KNM study guide comprehensive vocabulary"
+    },
+    {
+      "word": "bijstand",
+      "meaning": "最低生活援助",
+      "example": "",
+      "note": "金融、医疗与常用动词",
+      "importance": "综合词汇",
+      "topic": "金融、医疗与常用动词",
+      "topicId": "gezondheid-en-gezondheidszorg-in-nederland",
+      "source": "KNM study guide comprehensive vocabulary"
+    },
+    {
+      "word": "aanvragen",
+      "meaning": "申请",
+      "example": "",
+      "note": "金融、医疗与常用动词",
+      "importance": "综合词汇",
+      "topic": "金融、医疗与常用动词",
+      "topicId": "gezondheid-en-gezondheidszorg-in-nederland",
+      "source": "KNM study guide comprehensive vocabulary"
+    },
+    {
+      "word": "spaargeld",
+      "meaning": "存款",
+      "example": "",
+      "note": "金融、医疗与常用动词",
+      "importance": "综合词汇",
+      "topic": "金融、医疗与常用动词",
+      "topicId": "gezondheid-en-gezondheidszorg-in-nederland",
+      "source": "KNM study guide comprehensive vocabulary"
+    },
+    {
+      "word": "tolk",
+      "meaning": "口译员",
+      "example": "",
+      "note": "金融、医疗与常用动词",
+      "importance": "综合词汇",
+      "topic": "金融、医疗与常用动词",
+      "topicId": "gezondheid-en-gezondheidszorg-in-nederland",
+      "source": "KNM study guide comprehensive vocabulary"
+    },
+    {
+      "word": "aanmelden",
+      "meaning": "登记/报到",
+      "example": "",
+      "note": "金融、医疗与常用动词",
+      "importance": "综合词汇",
+      "topic": "金融、医疗与常用动词",
+      "topicId": "gezondheid-en-gezondheidszorg-in-nederland",
+      "source": "KNM study guide comprehensive vocabulary"
+    },
+    {
+      "word": "onderzoek doen",
+      "meaning": "检查/调查",
+      "example": "",
+      "note": "金融、医疗与常用动词",
+      "importance": "综合词汇",
+      "topic": "金融、医疗与常用动词",
+      "topicId": "gezondheid-en-gezondheidszorg-in-nederland",
+      "source": "KNM study guide comprehensive vocabulary"
+    },
+    {
+      "word": "verwijzen",
+      "meaning": "转介",
+      "example": "",
+      "note": "金融、医疗与常用动词",
+      "importance": "综合词汇",
+      "topic": "金融、医疗与常用动词",
+      "topicId": "gezondheid-en-gezondheidszorg-in-nederland",
+      "source": "KNM study guide comprehensive vocabulary"
+    },
+    {
+      "word": "verwijsbrief",
+      "meaning": "转诊信",
+      "example": "",
+      "note": "金融、医疗与常用动词",
+      "importance": "综合词汇",
+      "topic": "金融、医疗与常用动词",
+      "topicId": "gezondheid-en-gezondheidszorg-in-nederland",
+      "source": "KNM study guide comprehensive vocabulary"
+    },
+    {
+      "word": "polikliniek",
+      "meaning": "门诊部",
+      "example": "",
+      "note": "金融、医疗与常用动词",
+      "importance": "综合词汇",
+      "topic": "金融、医疗与常用动词",
+      "topicId": "gezondheid-en-gezondheidszorg-in-nederland",
+      "source": "KNM study guide comprehensive vocabulary"
+    },
+    {
+      "word": "opname",
+      "meaning": "住院/录取/录音，依语境",
+      "example": "",
+      "note": "金融、医疗与常用动词",
+      "importance": "综合词汇",
+      "topic": "金融、医疗与常用动词",
+      "topicId": "gezondheid-en-gezondheidszorg-in-nederland",
+      "source": "KNM study guide comprehensive vocabulary"
+    },
+    {
+      "word": "hoge koorts",
+      "meaning": "高烧",
+      "example": "",
+      "note": "金融、医疗与常用动词",
+      "importance": "综合词汇",
+      "topic": "金融、医疗与常用动词",
+      "topicId": "gezondheid-en-gezondheidszorg-in-nederland",
+      "source": "KNM study guide comprehensive vocabulary"
+    },
+    {
+      "word": "jeugd",
+      "meaning": "青少年",
+      "example": "",
+      "note": "金融、医疗与常用动词",
+      "importance": "综合词汇",
+      "topic": "金融、医疗与常用动词",
+      "topicId": "gezondheid-en-gezondheidszorg-in-nederland",
+      "source": "KNM study guide comprehensive vocabulary"
+    },
+    {
+      "word": "jeugdzorg",
+      "meaning": "青少年与家庭支持服务",
+      "example": "",
+      "note": "金融、医疗与常用动词",
+      "importance": "综合词汇",
+      "topic": "金融、医疗与常用动词",
+      "topicId": "gezondheid-en-gezondheidszorg-in-nederland",
+      "source": "KNM study guide comprehensive vocabulary"
+    },
+    {
+      "word": "verslaafd",
+      "meaning": "上瘾的",
+      "example": "",
+      "note": "金融、医疗与常用动词",
+      "importance": "综合词汇",
+      "topic": "金融、医疗与常用动词",
+      "topicId": "gezondheid-en-gezondheidszorg-in-nederland",
+      "source": "KNM study guide comprehensive vocabulary"
+    },
+    {
+      "word": "aanvullend",
+      "meaning": "附加的",
+      "example": "",
+      "note": "金融、医疗与常用动词",
+      "importance": "综合词汇",
+      "topic": "金融、医疗与常用动词",
+      "topicId": "gezondheid-en-gezondheidszorg-in-nederland",
+      "source": "KNM study guide comprehensive vocabulary"
+    },
+    {
+      "word": "risico",
+      "meaning": "风险",
+      "example": "",
+      "note": "金融、医疗与常用动词",
+      "importance": "综合词汇",
+      "topic": "金融、医疗与常用动词",
+      "topicId": "gezondheid-en-gezondheidszorg-in-nederland",
+      "source": "KNM study guide comprehensive vocabulary"
+    },
+    {
+      "word": "volkoren",
+      "meaning": "全麦的",
+      "example": "",
+      "note": "金融、医疗与常用动词",
+      "importance": "综合词汇",
+      "topic": "金融、医疗与常用动词",
+      "topicId": "gezondheid-en-gezondheidszorg-in-nederland",
+      "source": "KNM study guide comprehensive vocabulary"
+    },
+    {
+      "word": "gaar",
+      "meaning": "熟透的",
+      "example": "",
+      "note": "金融、医疗与常用动词",
+      "importance": "综合词汇",
+      "topic": "金融、医疗与常用动词",
+      "topicId": "gezondheid-en-gezondheidszorg-in-nederland",
+      "source": "KNM study guide comprehensive vocabulary"
+    },
+    {
+      "word": "oppassen",
+      "meaning": "照看/小心",
+      "example": "",
+      "note": "金融、医疗与常用动词",
+      "importance": "综合词汇",
+      "topic": "金融、医疗与常用动词",
+      "topicId": "gezondheid-en-gezondheidszorg-in-nederland",
+      "source": "KNM study guide comprehensive vocabulary"
+    },
+    {
+      "word": "abonnement",
+      "meaning": "订阅/会员",
+      "example": "",
+      "note": "金融、医疗与常用动词",
+      "importance": "综合词汇",
+      "topic": "金融、医疗与常用动词",
+      "topicId": "gezondheid-en-gezondheidszorg-in-nederland",
+      "source": "KNM study guide comprehensive vocabulary"
+    },
+    {
+      "word": "strand",
+      "meaning": "海滩",
+      "example": "",
+      "note": "金融、医疗与常用动词",
+      "importance": "综合词汇",
+      "topic": "金融、医疗与常用动词",
+      "topicId": "gezondheid-en-gezondheidszorg-in-nederland",
+      "source": "KNM study guide comprehensive vocabulary"
+    },
+    {
+      "word": "wandelen",
+      "meaning": "散步",
+      "example": "",
+      "note": "金融、医疗与常用动词",
+      "importance": "综合词汇",
+      "topic": "金融、医疗与常用动词",
+      "topicId": "gezondheid-en-gezondheidszorg-in-nederland",
+      "source": "KNM study guide comprehensive vocabulary"
+    },
+    {
+      "word": "verpleeghuis",
+      "meaning": "护理院",
+      "example": "",
+      "note": "金融、医疗与常用动词",
+      "importance": "综合词汇",
+      "topic": "金融、医疗与常用动词",
+      "topicId": "gezondheid-en-gezondheidszorg-in-nederland",
+      "source": "KNM study guide comprehensive vocabulary"
+    },
+    {
+      "word": "spoedeisend",
+      "meaning": "紧急的",
+      "example": "",
+      "note": "金融、医疗与常用动词",
+      "importance": "综合词汇",
+      "topic": "金融、医疗与常用动词",
+      "topicId": "gezondheid-en-gezondheidszorg-in-nederland",
+      "source": "KNM study guide comprehensive vocabulary"
+    },
+    {
+      "word": "kwijt",
+      "meaning": "丢失的",
+      "example": "",
+      "note": "金融、医疗与常用动词",
+      "importance": "综合词汇",
+      "topic": "金融、医疗与常用动词",
+      "topicId": "gezondheid-en-gezondheidszorg-in-nederland",
+      "source": "KNM study guide comprehensive vocabulary"
+    },
+    {
+      "word": "zorgverlener",
+      "meaning": "医疗/照护服务提供者",
+      "example": "",
+      "note": "金融、医疗与常用动词",
+      "importance": "综合词汇",
+      "topic": "金融、医疗与常用动词",
+      "topicId": "gezondheid-en-gezondheidszorg-in-nederland",
+      "source": "KNM study guide comprehensive vocabulary"
+    },
+    {
+      "word": "gevolg",
+      "meaning": "后果",
+      "example": "",
+      "note": "金融、医疗与常用动词",
+      "importance": "综合词汇",
+      "topic": "金融、医疗与常用动词",
+      "topicId": "gezondheid-en-gezondheidszorg-in-nederland",
+      "source": "KNM study guide comprehensive vocabulary"
+    },
+    {
+      "word": "het niet eens zijn",
+      "meaning": "意见不一致",
+      "example": "",
+      "note": "金融、医疗与常用动词",
+      "importance": "综合词汇",
+      "topic": "金融、医疗与常用动词",
+      "topicId": "gezondheid-en-gezondheidszorg-in-nederland",
+      "source": "KNM study guide comprehensive vocabulary"
+    },
+    {
+      "word": "regelen",
+      "meaning": "安排/办理",
+      "example": "",
+      "note": "金融、医疗与常用动词",
+      "importance": "综合词汇",
+      "topic": "金融、医疗与常用动词",
+      "topicId": "gezondheid-en-gezondheidszorg-in-nederland",
+      "source": "KNM study guide comprehensive vocabulary"
+    },
+    {
+      "word": "rotzooi",
+      "meaning": "脏乱/垃圾",
+      "example": "",
+      "note": "金融、医疗与常用动词",
+      "importance": "综合词汇",
+      "topic": "金融、医疗与常用动词",
+      "topicId": "gezondheid-en-gezondheidszorg-in-nederland",
+      "source": "KNM study guide comprehensive vocabulary"
+    },
+    {
+      "word": "verpleegkundige",
+      "meaning": "护士",
+      "example": "",
+      "note": "金融、医疗与常用动词",
+      "importance": "综合词汇",
+      "topic": "金融、医疗与常用动词",
+      "topicId": "gezondheid-en-gezondheidszorg-in-nederland",
+      "source": "KNM study guide comprehensive vocabulary"
+    },
+    {
+      "word": "pantoffels",
+      "meaning": "拖鞋",
+      "example": "",
+      "note": "金融、医疗与常用动词",
+      "importance": "综合词汇",
+      "topic": "金融、医疗与常用动词",
+      "topicId": "gezondheid-en-gezondheidszorg-in-nederland",
+      "source": "KNM study guide comprehensive vocabulary"
+    },
+    {
+      "word": "cijfers",
+      "meaning": "数字/成绩",
+      "example": "",
+      "note": "金融、医疗与常用动词",
+      "importance": "综合词汇",
+      "topic": "金融、医疗与常用动词",
+      "topicId": "gezondheid-en-gezondheidszorg-in-nederland",
+      "source": "KNM study guide comprehensive vocabulary"
+    },
+    {
+      "word": "binnenkort",
+      "meaning": "不久",
+      "example": "",
+      "note": "金融、医疗与常用动词",
+      "importance": "综合词汇",
+      "topic": "金融、医疗与常用动词",
+      "topicId": "gezondheid-en-gezondheidszorg-in-nederland",
+      "source": "KNM study guide comprehensive vocabulary"
     }
   ],
   "reviewPlan": [
@@ -5151,5 +9602,92 @@ export const KNM_CONTENT = {
       "day": "Day 7",
       "task": "做 `KNM-practice-questions.zh-CN.md` 全部题目，整理错题和不熟词汇。"
     }
+  ],
+  "grammar": [
+    {
+      "pattern": "als",
+      "meaning": "如果；当……时；作为",
+      "example": "Als je ziek bent, bel je de huisarts."
+    },
+    {
+      "pattern": "alle",
+      "meaning": "所有的",
+      "example": "Alle kinderen moeten naar school."
+    },
+    {
+      "pattern": "zonder",
+      "meaning": "没有/不带",
+      "example": "Paracetamol kun je zonder recept kopen."
+    },
+    {
+      "pattern": "nodig hebben",
+      "meaning": "需要",
+      "example": "Ik heb hulp nodig."
+    },
+    {
+      "pattern": "hoeven niet te",
+      "meaning": "不需要",
+      "example": "Je hoeft geen aanvullende verzekering te nemen."
+    },
+    {
+      "pattern": "mogen",
+      "meaning": "可以/被允许",
+      "example": "Vrouwen mogen hetzelfde werk doen als mannen."
+    },
+    {
+      "pattern": "moeten",
+      "meaning": "必须",
+      "example": "Je moet op tijd komen."
+    },
+    {
+      "pattern": "kunnen",
+      "meaning": "能够/可能",
+      "example": "Je kunt bezwaar maken."
+    },
+    {
+      "pattern": "om ... te ...",
+      "meaning": "为了……",
+      "example": "Om Nederland tegen water te beschermen."
+    },
+    {
+      "pattern": "vaker",
+      "meaning": "更经常",
+      "example": "Je moet vaker oefenen."
+    },
+    {
+      "pattern": "voorschrijven",
+      "meaning": "开药/规定",
+      "example": "De huisarts schrijft medicijnen voor."
+    },
+    {
+      "pattern": "krijgen",
+      "meaning": "得到/收到",
+      "example": "Je krijgt een rekening."
+    },
+    {
+      "pattern": "doorgeven",
+      "meaning": "告知/提交",
+      "example": "Je moet je verhuizing doorgeven."
+    },
+    {
+      "pattern": "aanvragen",
+      "meaning": "申请",
+      "example": "Je kunt huurtoeslag aanvragen."
+    }
+  ],
+  "cheatSheet": [
+    "Amsterdam = hoofdstad; Den Haag = regering; Rotterdam = haven.",
+    "Dijken / Deltawerken = bescherming tegen water.",
+    "4 mei = Dodenherdenking; 5 mei = Bevrijdingsdag; 27 april = Koningsdag.",
+    "Ziek → eerst huisarts; specialist → verwijsbrief; levensgevaar → 112.",
+    "Basisverzekering verplicht; laag inkomen → mogelijk zorgtoeslag.",
+    "Sociale huur = gereguleerd; huurprobleem → Huurcommissie; laag inkomen → mogelijk huurtoeslag.",
+    "Gemeente = documenten en burgerlijke stand; IND = verblijf; Belastingdienst = belasting en toeslagen; UWV = werk en werknemersverzekeringen.",
+    "Leerplicht vanaf 5 jaar; basisschool groep 1–8; VMBO→MBO, HAVO→HBO, VWO→universiteit.",
+    "Sollicitatie: vacature → CV/brief → gesprek → contract.",
+    "Mannen en vrouwen zijn gelijk; discriminatie en geweld zijn verboden.",
+    "Tweede Kamer = 150; Eerste Kamer = 75; parlement controleert regering.",
+    "Actief kiesrecht = zelf stemmen; passief kiesrecht = gekozen kunnen worden.",
+    "Grondwet beschermt rechten; rechterlijke macht is onafhankelijk."
   ]
 };
