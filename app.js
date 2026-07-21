@@ -363,12 +363,29 @@ const grammar = importedContent.grammar || [];
 const cheatSheet = importedContent.cheatSheet || [];
 const MOCK_QUESTION_COUNT = 40;
 const MOCK_DURATION_MINUTES = 45;
+const MOCK_SOURCES = {
+  site: {
+    label: "网站综合模拟题",
+    description: "随机抽取网站扩展题、章节练习题和学习手册模拟题，不混入 DUO 官方套题。",
+  },
+  "duo-1": {
+    label: "DUO oefenexamen 1",
+    source: "DUO oefenexamen 1",
+    description: "使用第 1 套 DUO 官方模拟练习题，按原套题顺序完成 40 题。",
+  },
+  "duo-2": {
+    label: "DUO oefenexamen 2",
+    source: "DUO oefenexamen 2",
+    description: "使用第 2 套 DUO 官方模拟练习题，按原套题顺序完成 40 题。",
+  },
+};
 
 const STORAGE_KEY = "knm-cn-progress-v1";
 const state = {
   view: "dashboard",
   activeTopic: topics[0]?.id || "wonen",
   activeWordTopic: "all",
+  mockSource: "site",
   practiceIndex: 0,
   practiceAnswered: false,
   mock: {
@@ -1014,6 +1031,43 @@ function renderGrammarGuide() {
   $("#cheatList").innerHTML = cheatSheet.map((item) => `<li>${item}</li>`).join("");
 }
 
+function mockSourceConfig() {
+  return MOCK_SOURCES[state.mockSource] || MOCK_SOURCES.site;
+}
+
+function mockSourceQuestions() {
+  const config = mockSourceConfig();
+  if (state.mockSource === "site") {
+    return shuffle(questions.filter((question) => !question.isOfficialPractice)).slice(0, MOCK_QUESTION_COUNT);
+  }
+
+  return questions
+    .filter((question) => question.source === config.source)
+    .sort((a, b) => String(a.id).localeCompare(String(b.id), undefined, { numeric: true }))
+    .slice(0, MOCK_QUESTION_COUNT);
+}
+
+function renderMockIntro() {
+  const config = mockSourceConfig();
+  $("#mockSourcePill").textContent = state.mockSource === "site" ? "KNM Mock" : "DUO Mock";
+  $("#mockCount").textContent = "准备开始";
+  $("#mockMeter").style.width = "0%";
+  $("#mockTimer").textContent = `${MOCK_DURATION_MINUTES}:00`;
+  $("#mockScenario").textContent = config.description;
+  $("#mockQuestion").textContent = state.mockSource === "site"
+    ? "按真实节奏练习：45 分钟完成 40 题，每题大约 1 分钟。"
+    : `${config.label}：按官方练习套题顺序完成 40 题。`;
+  $("#mockAnswers").innerHTML = "";
+  $("#mockFeedback").hidden = true;
+  $("#mockReport").hidden = true;
+  $("#mockReport").innerHTML = "";
+  $("#prevMock").disabled = true;
+  $("#nextMock").disabled = true;
+  $("#finishMock").disabled = true;
+  $("#speakMockQuestion").disabled = true;
+  $("#startMock").textContent = "开始模拟";
+}
+
 function goPracticeTopic(topicId) {
   state.activeTopic = topicId;
   state.practiceIndex = 0;
@@ -1060,9 +1114,13 @@ function renderWrongbook() {
 }
 
 function startMock() {
+  const selectedQuestions = mockSourceQuestions();
+  if (!selectedQuestions.length) {
+    window.alert("这个题库暂时没有可用题目。");
+    return;
+  }
   state.mock.active = true;
-  const questionCount = Math.min(MOCK_QUESTION_COUNT, questions.length);
-  state.mock.questions = shuffle(questions).slice(0, questionCount);
+  state.mock.questions = selectedQuestions;
   state.mock.index = 0;
   state.mock.answers = Array(state.mock.questions.length).fill(null);
   state.mock.result = null;
@@ -1075,6 +1133,7 @@ function startMock() {
   $("#speakMockQuestion").disabled = false;
   $("#mockReport").hidden = true;
   $("#mockReport").innerHTML = "";
+  $("#mockSourcePill").textContent = mockSourceConfig().label;
   renderMockQuestion();
   updateMockTimer();
 }
@@ -1156,6 +1215,7 @@ function buildMockResult() {
     .sort((a, b) => b.wrong - a.wrong || a.percentage - b.percentage);
 
   return {
+    sourceLabel: mockSourceConfig().label,
     total: items.length,
     correct,
     percentage: Math.round((correct / items.length) * 100),
@@ -1226,6 +1286,7 @@ function renderMockReport(result) {
       <div>
         <p class="eyebrow">Exam Report</p>
         <h2>模拟考试结果页</h2>
+        <p>${renderText(result.sourceLabel)}</p>
       </div>
     </div>
     <div class="report-grid">
@@ -1315,6 +1376,15 @@ function bindEvents() {
     state.practiceIndex = 0;
     renderPractice();
   });
+  $("#mockSourceSelect").addEventListener("change", (event) => {
+    state.mockSource = event.target.value;
+    if (state.mock.active) {
+      clearInterval(state.mock.timer);
+      state.mock.active = false;
+      $("#startMock").textContent = "开始模拟";
+    }
+    renderMockIntro();
+  });
   $("#nextPractice").addEventListener("click", nextPractice);
   $("#resetPractice").addEventListener("click", () => {
     state.practiceIndex = 0;
@@ -1360,6 +1430,7 @@ function init() {
   renderGrammarGuide();
   renderDashboard();
   renderWrongbook();
+  renderMockIntro();
   bindEvents();
   showView(state.view);
 }

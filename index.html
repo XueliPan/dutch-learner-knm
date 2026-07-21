@@ -185,11 +185,19 @@
             <p class="eyebrow">Mock Exam</p>
             <h1 id="mock-title">45 分钟模拟模式</h1>
           </div>
-          <button class="primary-action" id="startMock" type="button">开始模拟</button>
+          <div class="mock-toolbar">
+            <label for="mockSourceSelect">题库</label>
+            <select id="mockSourceSelect" aria-label="选择模拟题库">
+              <option value="site">网站综合模拟题</option>
+              <option value="duo-1">DUO oefenexamen 1</option>
+              <option value="duo-2">DUO oefenexamen 2</option>
+            </select>
+            <button class="primary-action" id="startMock" type="button">开始模拟</button>
+          </div>
         </div>
         <div class="mock-layout">
           <aside class="panel mock-status">
-            <span class="pill">KNM Mock</span>
+            <span class="pill" id="mockSourcePill">KNM Mock</span>
             <strong id="mockTimer">45:00</strong>
             <p class="mock-meta">40 题 / 45 分钟</p>
             <p id="mockCount">准备开始</p>
@@ -198,7 +206,7 @@
             </div>
           </aside>
           <section class="question-card">
-            <p class="scenario" id="mockScenario">点击开始后，将随机抽取 40 道题。</p>
+            <p class="scenario" id="mockScenario">选择题库后点击开始。网站综合模拟会随机抽题；DUO 题库会按官方练习套题顺序出题。</p>
             <div class="question-head">
               <h2 id="mockQuestion">按真实节奏练习：45 分钟完成 40 题，每题大约 1 分钟。</h2>
               <button class="listen-button" id="speakMockQuestion" type="button" aria-label="播放本题荷兰语发音" disabled>
