@@ -368,11 +368,13 @@ function normalizeWord(value) {
     .trim();
 }
 
-function dedupeWords(items) {
+function dedupeWords(items, { scopeByTopic = false } = {}) {
   const seen = new Set();
   return items.filter((item) => {
-    const key = normalizeWord(item.word);
-    if (!key || seen.has(key)) return false;
+    const normalized = normalizeWord(item.word);
+    if (!normalized) return false;
+    const key = scopeByTopic ? `${item.topicId || ""}:${normalized}` : normalized;
+    if (seen.has(key)) return false;
     seen.add(key);
     return true;
   });
@@ -730,6 +732,21 @@ function parseGuidePointLines(section) {
     .filter(Boolean);
 }
 
+function fullStudyCoreWords(topics) {
+  return topics.flatMap((topic) =>
+    (topic.fullStudy?.vocabulary || []).map((item) => ({
+      word: stripMarkdown(item.word),
+      meaning: stripMarkdown(item.meaning),
+      example: stripMarkdown(item.example || ""),
+      note: "",
+      importance: "本章核心",
+      topic: topic.title,
+      topicId: topic.id,
+      source: "Full chapter core vocabulary",
+    })),
+  );
+}
+
 function parseGuideLessonExtras(markdown) {
   const extras = new Map();
   splitGuideChapters(markdown).forEach((chapter) => {
@@ -798,7 +815,8 @@ const guideMockQuestions = parseGuideMockQuestions(guide);
 const guideQuestions = [...guideChapterQuestions, ...guideMockQuestions];
 const questions = [...studyQuestions, ...duoQuestions, ...generatedQuestions, ...guideQuestions];
 const guideWords = [...parseGuideChapterWords(guide, lessonByChapter), ...parseGuideComprehensiveWords(guide)];
-const words = dedupeWords([...topics.flatMap((topic) => topic.vocabulary), ...guideWords]);
+const fullStudyWords = fullStudyCoreWords(topics);
+const words = dedupeWords([...topics.flatMap((topic) => topic.vocabulary), ...fullStudyWords, ...guideWords], { scopeByTopic: true });
 const grammar = parseGuideGrammar(guide);
 const cheatSheet = parseGuideCheatSheet(guide);
 

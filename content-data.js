@@ -17406,6 +17406,15 @@ export const KNM_CONTENT = {
       "topicId": "politiek-in-nederland"
     },
     {
+      "word": "de grondwet",
+      "meaning": "宪法",
+      "example": "Vrijheid staat in de grondwet.",
+      "note": "基本权利",
+      "importance": "高频",
+      "topic": "Politiek in Nederland",
+      "topicId": "politiek-in-nederland"
+    },
+    {
       "word": "de staking",
       "meaning": "罢工",
       "example": "Werknemers kunnen staken.",
@@ -17415,54 +17424,3574 @@ export const KNM_CONTENT = {
       "topicId": "politiek-in-nederland"
     },
     {
-      "word": "buurland",
+      "word": "liggen",
+      "meaning": "位于",
+      "example": "Nederland ligt in Europa.",
+      "note": "",
+      "importance": "本章核心",
+      "topic": "Nederland leren kennen",
+      "topicId": "nederland-leren-kennen",
+      "source": "Full chapter core vocabulary"
+    },
+    {
+      "word": "de Noordzee",
+      "meaning": "北海",
+      "example": "Nederland ligt aan de Noordzee.",
+      "note": "",
+      "importance": "本章核心",
+      "topic": "Nederland leren kennen",
+      "topicId": "nederland-leren-kennen",
+      "source": "Full chapter core vocabulary"
+    },
+    {
+      "word": "het buurland",
       "meaning": "邻国",
-      "example": "Duitsland en België zijn buurlanden.",
+      "example": "Duitsland is een buurland.",
       "note": "",
-      "importance": "",
+      "importance": "本章核心",
       "topic": "Nederland leren kennen",
       "topicId": "nederland-leren-kennen",
-      "source": "KNM study guide chapter vocabulary"
+      "source": "Full chapter core vocabulary"
     },
     {
-      "word": "haven",
-      "meaning": "港口",
-      "example": "Rotterdam heeft een belangrijke haven.",
+      "word": "het oosten",
+      "meaning": "东部",
+      "example": "Duitsland ligt in het oosten.",
       "note": "",
-      "importance": "",
+      "importance": "本章核心",
       "topic": "Nederland leren kennen",
       "topicId": "nederland-leren-kennen",
-      "source": "KNM study guide chapter vocabulary"
+      "source": "Full chapter core vocabulary"
     },
     {
-      "word": "vliegveld",
+      "word": "het zuiden",
+      "meaning": "南部",
+      "example": "België ligt in het zuiden.",
+      "note": "",
+      "importance": "本章核心",
+      "topic": "Nederland leren kennen",
+      "topicId": "nederland-leren-kennen",
+      "source": "Full chapter core vocabulary"
+    },
+    {
+      "word": "groot",
+      "meaning": "大的",
+      "example": "Nederland is 40.000 km² groot.",
+      "note": "",
+      "importance": "本章核心",
+      "topic": "Nederland leren kennen",
+      "topicId": "nederland-leren-kennen",
+      "source": "Full chapter core vocabulary"
+    },
+    {
+      "word": "klein",
+      "meaning": "小的",
+      "example": "Nederland is een klein land.",
+      "note": "",
+      "importance": "本章核心",
+      "topic": "Nederland leren kennen",
+      "topicId": "nederland-leren-kennen",
+      "source": "Full chapter core vocabulary"
+    },
+    {
+      "word": "druk",
+      "meaning": "繁忙、拥挤",
+      "example": "De Randstad is druk.",
+      "note": "",
+      "importance": "本章核心",
+      "topic": "Nederland leren kennen",
+      "topicId": "nederland-leren-kennen",
+      "source": "Full chapter core vocabulary"
+    },
+    {
+      "word": "de inwoner",
+      "meaning": "居民",
+      "example": "Er wonen veel inwoners.",
+      "note": "",
+      "importance": "本章核心",
+      "topic": "Nederland leren kennen",
+      "topicId": "nederland-leren-kennen",
+      "source": "Full chapter core vocabulary"
+    },
+    {
+      "word": "het vliegveld",
       "meaning": "机场",
       "example": "Schiphol is een vliegveld.",
       "note": "",
-      "importance": "",
+      "importance": "本章核心",
       "topic": "Nederland leren kennen",
       "topicId": "nederland-leren-kennen",
-      "source": "KNM study guide chapter vocabulary"
+      "source": "Full chapter core vocabulary"
     },
     {
-      "word": "feestdag",
-      "meaning": "节日",
-      "example": "een nationale feestdag",
+      "word": "de haven",
+      "meaning": "港口",
+      "example": "Rotterdam heeft een grote haven.",
       "note": "",
-      "importance": "",
+      "importance": "本章核心",
+      "topic": "Nederland leren kennen",
+      "topicId": "nederland-leren-kennen",
+      "source": "Full chapter core vocabulary"
+    },
+    {
+      "word": "de regering",
+      "meaning": "政府",
+      "example": "De regering is in Den Haag.",
+      "note": "",
+      "importance": "本章核心",
+      "topic": "Nederland leren kennen",
+      "topicId": "nederland-leren-kennen",
+      "source": "Full chapter core vocabulary"
+    },
+    {
+      "word": "de snelweg",
+      "meaning": "高速公路",
+      "example": "Er zijn veel snelwegen.",
+      "note": "",
+      "importance": "本章核心",
+      "topic": "Nederland leren kennen",
+      "topicId": "nederland-leren-kennen",
+      "source": "Full chapter core vocabulary"
+    },
+    {
+      "word": "de flat",
+      "meaning": "公寓楼",
+      "example": "In steden staan veel flats.",
+      "note": "",
+      "importance": "本章核心",
+      "topic": "Nederland leren kennen",
+      "topicId": "nederland-leren-kennen",
+      "source": "Full chapter core vocabulary"
+    },
+    {
+      "word": "de file",
+      "meaning": "堵车",
+      "example": "Er staat vaak file.",
+      "note": "",
+      "importance": "本章核心",
+      "topic": "Nederland leren kennen",
+      "topicId": "nederland-leren-kennen",
+      "source": "Full chapter core vocabulary"
+    },
+    {
+      "word": "de fiets",
+      "meaning": "自行车",
+      "example": "Veel mensen gaan met de fiets.",
+      "note": "",
+      "importance": "本章核心",
+      "topic": "Nederland leren kennen",
+      "topicId": "nederland-leren-kennen",
+      "source": "Full chapter core vocabulary"
+    },
+    {
+      "word": "het water",
+      "meaning": "水",
+      "example": "20% van Nederland is water.",
+      "note": "",
+      "importance": "本章核心",
+      "topic": "Nederland leren kennen",
+      "topicId": "nederland-leren-kennen",
+      "source": "Full chapter core vocabulary"
+    },
+    {
+      "word": "zwemmen",
+      "meaning": "游泳",
+      "example": "Kinderen leren zwemmen.",
+      "note": "",
+      "importance": "本章核心",
+      "topic": "Nederland leren kennen",
+      "topicId": "nederland-leren-kennen",
+      "source": "Full chapter core vocabulary"
+    },
+    {
+      "word": "de rivier",
+      "meaning": "河流",
+      "example": "De Rijn is een rivier.",
+      "note": "",
+      "importance": "本章核心",
+      "topic": "Nederland leren kennen",
+      "topicId": "nederland-leren-kennen",
+      "source": "Full chapter core vocabulary"
+    },
+    {
+      "word": "het meer",
+      "meaning": "湖",
+      "example": "Het IJsselmeer is een meer.",
+      "note": "",
+      "importance": "本章核心",
+      "topic": "Nederland leren kennen",
+      "topicId": "nederland-leren-kennen",
+      "source": "Full chapter core vocabulary"
+    },
+    {
+      "word": "het eiland",
+      "meaning": "岛屿",
+      "example": "Texel is een eiland.",
+      "note": "",
+      "importance": "本章核心",
+      "topic": "Nederland leren kennen",
+      "topicId": "nederland-leren-kennen",
+      "source": "Full chapter core vocabulary"
+    },
+    {
+      "word": "laag",
+      "meaning": "低的",
+      "example": "Nederland is een laag land.",
+      "note": "",
+      "importance": "本章核心",
+      "topic": "Nederland leren kennen",
+      "topicId": "nederland-leren-kennen",
+      "source": "Full chapter core vocabulary"
+    },
+    {
+      "word": "het hoogste punt",
+      "meaning": "最高点",
+      "example": "Het hoogste punt ligt in Limburg.",
+      "note": "",
+      "importance": "本章核心",
+      "topic": "Nederland leren kennen",
+      "topicId": "nederland-leren-kennen",
+      "source": "Full chapter core vocabulary"
+    },
+    {
+      "word": "het duin",
+      "meaning": "沙丘",
+      "example": "Duinen beschermen de kust.",
+      "note": "",
+      "importance": "本章核心",
+      "topic": "Nederland leren kennen",
+      "topicId": "nederland-leren-kennen",
+      "source": "Full chapter core vocabulary"
+    },
+    {
+      "word": "beschermen",
+      "meaning": "保护",
+      "example": "Dijken beschermen Nederland.",
+      "note": "",
+      "importance": "本章核心",
+      "topic": "Nederland leren kennen",
+      "topicId": "nederland-leren-kennen",
+      "source": "Full chapter core vocabulary"
+    },
+    {
+      "word": "het seizoen",
+      "meaning": "季节",
+      "example": "Nederland heeft vier seizoenen.",
+      "note": "",
+      "importance": "本章核心",
+      "topic": "Nederland leren kennen",
+      "topicId": "nederland-leren-kennen",
+      "source": "Full chapter core vocabulary"
+    },
+    {
+      "word": "de lente",
+      "meaning": "春天",
+      "example": "In de lente groeien bladeren.",
+      "note": "",
+      "importance": "本章核心",
+      "topic": "Nederland leren kennen",
+      "topicId": "nederland-leren-kennen",
+      "source": "Full chapter core vocabulary"
+    },
+    {
+      "word": "de zomer",
+      "meaning": "夏天",
+      "example": "In de zomer is het lang licht.",
+      "note": "",
+      "importance": "本章核心",
+      "topic": "Nederland leren kennen",
+      "topicId": "nederland-leren-kennen",
+      "source": "Full chapter core vocabulary"
+    },
+    {
+      "word": "de herfst",
+      "meaning": "秋天",
+      "example": "In de herfst vallen bladeren.",
+      "note": "",
+      "importance": "本章核心",
+      "topic": "Nederland leren kennen",
+      "topicId": "nederland-leren-kennen",
+      "source": "Full chapter core vocabulary"
+    },
+    {
+      "word": "de winter",
+      "meaning": "冬天",
+      "example": "In de winter kan het vriezen.",
+      "note": "",
+      "importance": "本章核心",
+      "topic": "Nederland leren kennen",
+      "topicId": "nederland-leren-kennen",
+      "source": "Full chapter core vocabulary"
+    },
+    {
+      "word": "geboren",
+      "meaning": "出生的",
+      "example": "Niet iedereen is in Nederland geboren.",
+      "note": "",
+      "importance": "本章核心",
+      "topic": "Nederland leren kennen",
+      "topicId": "nederland-leren-kennen",
+      "source": "Full chapter core vocabulary"
+    },
+    {
+      "word": "de buitenlander",
+      "meaning": "外国人",
+      "example": "Veel buitenlanders wonen in steden.",
+      "note": "",
+      "importance": "本章核心",
+      "topic": "Nederland leren kennen",
+      "topicId": "nederland-leren-kennen",
+      "source": "Full chapter core vocabulary"
+    },
+    {
+      "word": "de nationaliteit",
+      "meaning": "国籍",
+      "example": "Zij heeft de Nederlandse nationaliteit.",
+      "note": "",
+      "importance": "本章核心",
+      "topic": "Nederland leren kennen",
+      "topicId": "nederland-leren-kennen",
+      "source": "Full chapter core vocabulary"
+    },
+    {
+      "word": "de gastarbeider",
+      "meaning": "外来劳工",
+      "example": "Gastarbeiders kwamen om te werken.",
+      "note": "",
+      "importance": "本章核心",
+      "topic": "Nederland leren kennen",
+      "topicId": "nederland-leren-kennen",
+      "source": "Full chapter core vocabulary"
+    },
+    {
+      "word": "de vluchteling",
+      "meaning": "难民",
+      "example": "Vluchtelingen verlaten hun land.",
+      "note": "",
+      "importance": "本章核心",
+      "topic": "Nederland leren kennen",
+      "topicId": "nederland-leren-kennen",
+      "source": "Full chapter core vocabulary"
+    },
+    {
+      "word": "de verblijfsvergunning",
+      "meaning": "居留许可",
+      "example": "Niet iedereen heeft een verblijfsvergunning.",
+      "note": "",
+      "importance": "本章核心",
+      "topic": "Nederland leren kennen",
+      "topicId": "nederland-leren-kennen",
+      "source": "Full chapter core vocabulary"
+    },
+    {
+      "word": "de taal",
+      "meaning": "语言",
+      "example": "Nederlands is de taal.",
+      "note": "",
+      "importance": "本章核心",
+      "topic": "Nederland leren kennen",
+      "topicId": "nederland-leren-kennen",
+      "source": "Full chapter core vocabulary"
+    },
+    {
+      "word": "het dialect",
+      "meaning": "方言",
+      "example": "Er zijn verschillende dialecten.",
+      "note": "",
+      "importance": "本章核心",
+      "topic": "Nederland leren kennen",
+      "topicId": "nederland-leren-kennen",
+      "source": "Full chapter core vocabulary"
+    },
+    {
+      "word": "de koning",
+      "meaning": "国王",
+      "example": "Nederland heeft een koning.",
+      "note": "",
+      "importance": "本章核心",
+      "topic": "Nederland leren kennen",
+      "topicId": "nederland-leren-kennen",
+      "source": "Full chapter core vocabulary"
+    },
+    {
+      "word": "het parlement",
+      "meaning": "议会",
+      "example": "Mensen kiezen het parlement.",
+      "note": "",
+      "importance": "本章核心",
+      "topic": "Nederland leren kennen",
+      "topicId": "nederland-leren-kennen",
+      "source": "Full chapter core vocabulary"
+    },
+    {
+      "word": "stemmen",
+      "meaning": "投票",
+      "example": "Nederlanders stemmen om de vier jaar.",
+      "note": "",
+      "importance": "本章核心",
+      "topic": "Nederland leren kennen",
+      "topicId": "nederland-leren-kennen",
+      "source": "Full chapter core vocabulary"
+    },
+    {
+      "word": "het geloof",
+      "meaning": "宗教信仰",
+      "example": "Sommige mensen hebben een geloof.",
+      "note": "",
+      "importance": "本章核心",
+      "topic": "Nederland leren kennen",
+      "topicId": "nederland-leren-kennen",
+      "source": "Full chapter core vocabulary"
+    },
+    {
+      "word": "de kerk",
+      "meaning": "教堂",
+      "example": "Sommige mensen gaan naar de kerk.",
+      "note": "",
+      "importance": "本章核心",
+      "topic": "Nederland leren kennen",
+      "topicId": "nederland-leren-kennen",
+      "source": "Full chapter core vocabulary"
+    },
+    {
+      "word": "de koopzondag",
+      "meaning": "周日营业日",
+      "example": "Winkels zijn open op koopzondag.",
+      "note": "",
+      "importance": "本章核心",
+      "topic": "Nederland leren kennen",
+      "topicId": "nederland-leren-kennen",
+      "source": "Full chapter core vocabulary"
+    },
+    {
+      "word": "samenwerken",
+      "meaning": "合作",
+      "example": "EU-landen werken samen.",
+      "note": "",
+      "importance": "本章核心",
+      "topic": "Nederland leren kennen",
+      "topicId": "nederland-leren-kennen",
+      "source": "Full chapter core vocabulary"
+    },
+    {
+      "word": "duur",
+      "meaning": "昂贵的",
+      "example": "Het leven in Nederland is duur.",
+      "note": "",
+      "importance": "本章核心",
+      "topic": "Nederland leren kennen",
+      "topicId": "nederland-leren-kennen",
+      "source": "Full chapter core vocabulary"
+    },
+    {
+      "word": "de economie",
+      "meaning": "经济",
+      "example": "De EU is goed voor de economie.",
+      "note": "",
+      "importance": "本章核心",
+      "topic": "Nederland leren kennen",
+      "topicId": "nederland-leren-kennen",
+      "source": "Full chapter core vocabulary"
+    },
+    {
+      "word": "de feestdag",
+      "meaning": "节日",
+      "example": "",
+      "note": "",
+      "importance": "本章核心",
       "topic": "De mensen in Nederland",
       "topicId": "de-mensen-in-nederland",
-      "source": "KNM study guide chapter vocabulary"
+      "source": "Full chapter core vocabulary"
+    },
+    {
+      "word": "vieren",
+      "meaning": "庆祝",
+      "example": "",
+      "note": "",
+      "importance": "本章核心",
+      "topic": "De mensen in Nederland",
+      "topicId": "de-mensen-in-nederland",
+      "source": "Full chapter core vocabulary"
     },
     {
       "word": "herdenken",
       "meaning": "纪念",
-      "example": "de slachtoffers herdenken",
+      "example": "",
       "note": "",
-      "importance": "",
+      "importance": "本章核心",
       "topic": "De mensen in Nederland",
       "topicId": "de-mensen-in-nederland",
-      "source": "KNM study guide chapter vocabulary"
+      "source": "Full chapter core vocabulary"
+    },
+    {
+      "word": "de stilte",
+      "meaning": "安静、默哀",
+      "example": "",
+      "note": "",
+      "importance": "本章核心",
+      "topic": "De mensen in Nederland",
+      "topicId": "de-mensen-in-nederland",
+      "source": "Full chapter core vocabulary"
+    },
+    {
+      "word": "de verjaardag",
+      "meaning": "生日",
+      "example": "",
+      "note": "",
+      "importance": "本章核心",
+      "topic": "De mensen in Nederland",
+      "topicId": "de-mensen-in-nederland",
+      "source": "Full chapter core vocabulary"
+    },
+    {
+      "word": "trakteren",
+      "meaning": "请别人吃东西",
+      "example": "",
+      "note": "",
+      "importance": "本章核心",
+      "topic": "De mensen in Nederland",
+      "topicId": "de-mensen-in-nederland",
+      "source": "Full chapter core vocabulary"
+    },
+    {
+      "word": "de bruiloft",
+      "meaning": "婚礼",
+      "example": "",
+      "note": "",
+      "importance": "本章核心",
+      "topic": "De mensen in Nederland",
+      "topicId": "de-mensen-in-nederland",
+      "source": "Full chapter core vocabulary"
+    },
+    {
+      "word": "de uitnodiging",
+      "meaning": "邀请函",
+      "example": "",
+      "note": "",
+      "importance": "本章核心",
+      "topic": "De mensen in Nederland",
+      "topicId": "de-mensen-in-nederland",
+      "source": "Full chapter core vocabulary"
+    },
+    {
+      "word": "samenwonen",
+      "meaning": "同居",
+      "example": "",
+      "note": "",
+      "importance": "本章核心",
+      "topic": "De mensen in Nederland",
+      "topicId": "de-mensen-in-nederland",
+      "source": "Full chapter core vocabulary"
+    },
+    {
+      "word": "de geboorte",
+      "meaning": "出生",
+      "example": "",
+      "note": "",
+      "importance": "本章核心",
+      "topic": "De mensen in Nederland",
+      "topicId": "de-mensen-in-nederland",
+      "source": "Full chapter core vocabulary"
+    },
+    {
+      "word": "het geboortekaartje",
+      "meaning": "出生通知卡",
+      "example": "",
+      "note": "",
+      "importance": "本章核心",
+      "topic": "De mensen in Nederland",
+      "topicId": "de-mensen-in-nederland",
+      "source": "Full chapter core vocabulary"
+    },
+    {
+      "word": "beschuit met muisjes",
+      "meaning": "荷兰庆祝新生儿的甜点",
+      "example": "",
+      "note": "",
+      "importance": "本章核心",
+      "topic": "De mensen in Nederland",
+      "topicId": "de-mensen-in-nederland",
+      "source": "Full chapter core vocabulary"
+    },
+    {
+      "word": "slagen",
+      "meaning": "通过考试",
+      "example": "",
+      "note": "",
+      "importance": "本章核心",
+      "topic": "De mensen in Nederland",
+      "topicId": "de-mensen-in-nederland",
+      "source": "Full chapter core vocabulary"
+    },
+    {
+      "word": "overlijden",
+      "meaning": "去世",
+      "example": "",
+      "note": "",
+      "importance": "本章核心",
+      "topic": "De mensen in Nederland",
+      "topicId": "de-mensen-in-nederland",
+      "source": "Full chapter core vocabulary"
+    },
+    {
+      "word": "de begrafenis",
+      "meaning": "土葬葬礼",
+      "example": "",
+      "note": "",
+      "importance": "本章核心",
+      "topic": "De mensen in Nederland",
+      "topicId": "de-mensen-in-nederland",
+      "source": "Full chapter core vocabulary"
+    },
+    {
+      "word": "de crematie",
+      "meaning": "火化",
+      "example": "",
+      "note": "",
+      "importance": "本章核心",
+      "topic": "De mensen in Nederland",
+      "topicId": "de-mensen-in-nederland",
+      "source": "Full chapter core vocabulary"
+    },
+    {
+      "word": "beterschap",
+      "meaning": "早日康复",
+      "example": "",
+      "note": "",
+      "importance": "本章核心",
+      "topic": "De mensen in Nederland",
+      "topicId": "de-mensen-in-nederland",
+      "source": "Full chapter core vocabulary"
+    },
+    {
+      "word": "kennismaken",
+      "meaning": "认识、初次见面",
+      "example": "",
+      "note": "",
+      "importance": "本章核心",
+      "topic": "De mensen in Nederland",
+      "topicId": "de-mensen-in-nederland",
+      "source": "Full chapter core vocabulary"
+    },
+    {
+      "word": "de agenda",
+      "meaning": "日程本",
+      "example": "",
+      "note": "",
+      "importance": "本章核心",
+      "topic": "De mensen in Nederland",
+      "topicId": "de-mensen-in-nederland",
+      "source": "Full chapter core vocabulary"
+    },
+    {
+      "word": "op bezoek gaan",
+      "meaning": "去做客",
+      "example": "",
+      "note": "",
+      "importance": "本章核心",
+      "topic": "De mensen in Nederland",
+      "topicId": "de-mensen-in-nederland",
+      "source": "Full chapter core vocabulary"
+    },
+    {
+      "word": "meenemen",
+      "meaning": "带去",
+      "example": "",
+      "note": "",
+      "importance": "本章核心",
+      "topic": "De mensen in Nederland",
+      "topicId": "de-mensen-in-nederland",
+      "source": "Full chapter core vocabulary"
+    },
+    {
+      "word": "onbekend",
+      "meaning": "不认识的、陌生的",
+      "example": "",
+      "note": "",
+      "importance": "本章核心",
+      "topic": "De mensen in Nederland",
+      "topicId": "de-mensen-in-nederland",
+      "source": "Full chapter core vocabulary"
+    },
+    {
+      "word": "oogcontact",
+      "meaning": "眼神交流",
+      "example": "",
+      "note": "",
+      "importance": "本章核心",
+      "topic": "De mensen in Nederland",
+      "topicId": "de-mensen-in-nederland",
+      "source": "Full chapter core vocabulary"
+    },
+    {
+      "word": "direct",
+      "meaning": "直接的",
+      "example": "",
+      "note": "",
+      "importance": "本章核心",
+      "topic": "De mensen in Nederland",
+      "topicId": "de-mensen-in-nederland",
+      "source": "Full chapter core vocabulary"
+    },
+    {
+      "word": "rustig",
+      "meaning": "冷静的",
+      "example": "",
+      "note": "",
+      "importance": "本章核心",
+      "topic": "De mensen in Nederland",
+      "topicId": "de-mensen-in-nederland",
+      "source": "Full chapter core vocabulary"
+    },
+    {
+      "word": "vriendelijk",
+      "meaning": "友好的",
+      "example": "",
+      "note": "",
+      "importance": "本章核心",
+      "topic": "De mensen in Nederland",
+      "topicId": "de-mensen-in-nederland",
+      "source": "Full chapter core vocabulary"
+    },
+    {
+      "word": "in de rij staan",
+      "meaning": "排队",
+      "example": "",
+      "note": "",
+      "importance": "本章核心",
+      "topic": "De mensen in Nederland",
+      "topicId": "de-mensen-in-nederland",
+      "source": "Full chapter core vocabulary"
+    },
+    {
+      "word": "een nummertje trekken",
+      "meaning": "取号",
+      "example": "",
+      "note": "",
+      "importance": "本章核心",
+      "topic": "De mensen in Nederland",
+      "topicId": "de-mensen-in-nederland",
+      "source": "Full chapter core vocabulary"
+    },
+    {
+      "word": "het vervoerbewijs",
+      "meaning": "乘车凭证",
+      "example": "",
+      "note": "",
+      "importance": "本章核心",
+      "topic": "De mensen in Nederland",
+      "topicId": "de-mensen-in-nederland",
+      "source": "Full chapter core vocabulary"
+    },
+    {
+      "word": "inchecken",
+      "meaning": "刷入、签到",
+      "example": "",
+      "note": "",
+      "importance": "本章核心",
+      "topic": "De mensen in Nederland",
+      "topicId": "de-mensen-in-nederland",
+      "source": "Full chapter core vocabulary"
+    },
+    {
+      "word": "uitchecken",
+      "meaning": "刷出、签出",
+      "example": "",
+      "note": "",
+      "importance": "本章核心",
+      "topic": "De mensen in Nederland",
+      "topicId": "de-mensen-in-nederland",
+      "source": "Full chapter core vocabulary"
+    },
+    {
+      "word": "zwartreizen",
+      "meaning": "逃票",
+      "example": "",
+      "note": "",
+      "importance": "本章核心",
+      "topic": "De mensen in Nederland",
+      "topicId": "de-mensen-in-nederland",
+      "source": "Full chapter core vocabulary"
+    },
+    {
+      "word": "de stiltecoupé",
+      "meaning": "安静车厢",
+      "example": "",
+      "note": "",
+      "importance": "本章核心",
+      "topic": "De mensen in Nederland",
+      "topicId": "de-mensen-in-nederland",
+      "source": "Full chapter core vocabulary"
+    },
+    {
+      "word": "instappen",
+      "meaning": "上车",
+      "example": "",
+      "note": "",
+      "importance": "本章核心",
+      "topic": "De mensen in Nederland",
+      "topicId": "de-mensen-in-nederland",
+      "source": "Full chapter core vocabulary"
+    },
+    {
+      "word": "uitstappen",
+      "meaning": "下车",
+      "example": "",
+      "note": "",
+      "importance": "本章核心",
+      "topic": "De mensen in Nederland",
+      "topicId": "de-mensen-in-nederland",
+      "source": "Full chapter core vocabulary"
+    },
+    {
+      "word": "de gezondheidszorg",
+      "meaning": "医疗保健体系",
+      "example": "",
+      "note": "",
+      "importance": "本章核心",
+      "topic": "Gezondheid en gezondheidszorg in Nederland",
+      "topicId": "gezondheid-en-gezondheidszorg-in-nederland",
+      "source": "Full chapter core vocabulary"
+    },
+    {
+      "word": "de specialist",
+      "meaning": "专科医生",
+      "example": "",
+      "note": "",
+      "importance": "本章核心",
+      "topic": "Gezondheid en gezondheidszorg in Nederland",
+      "topicId": "gezondheid-en-gezondheidszorg-in-nederland",
+      "source": "Full chapter core vocabulary"
+    },
+    {
+      "word": "de assistente",
+      "meaning": "医疗助理/前台",
+      "example": "",
+      "note": "",
+      "importance": "本章核心",
+      "topic": "Gezondheid en gezondheidszorg in Nederland",
+      "topicId": "gezondheid-en-gezondheidszorg-in-nederland",
+      "source": "Full chapter core vocabulary"
+    },
+    {
+      "word": "de behandeling",
+      "meaning": "治疗",
+      "example": "",
+      "note": "",
+      "importance": "本章核心",
+      "topic": "Gezondheid en gezondheidszorg in Nederland",
+      "topicId": "gezondheid-en-gezondheidszorg-in-nederland",
+      "source": "Full chapter core vocabulary"
+    },
+    {
+      "word": "de verwijsbrief",
+      "meaning": "转诊信",
+      "example": "",
+      "note": "",
+      "importance": "本章核心",
+      "topic": "Gezondheid en gezondheidszorg in Nederland",
+      "topicId": "gezondheid-en-gezondheidszorg-in-nederland",
+      "source": "Full chapter core vocabulary"
+    },
+    {
+      "word": "het huisbezoek",
+      "meaning": "上门就诊",
+      "example": "",
+      "note": "",
+      "importance": "本章核心",
+      "topic": "Gezondheid en gezondheidszorg in Nederland",
+      "topicId": "gezondheid-en-gezondheidszorg-in-nederland",
+      "source": "Full chapter core vocabulary"
+    },
+    {
+      "word": "het spreekuur",
+      "meaning": "门诊时间/问诊时段",
+      "example": "",
+      "note": "",
+      "importance": "本章核心",
+      "topic": "Gezondheid en gezondheidszorg in Nederland",
+      "topicId": "gezondheid-en-gezondheidszorg-in-nederland",
+      "source": "Full chapter core vocabulary"
+    },
+    {
+      "word": "de drogist",
+      "meaning": "日化药妆店",
+      "example": "",
+      "note": "",
+      "importance": "本章核心",
+      "topic": "Gezondheid en gezondheidszorg in Nederland",
+      "topicId": "gezondheid-en-gezondheidszorg-in-nederland",
+      "source": "Full chapter core vocabulary"
+    },
+    {
+      "word": "het etiket",
+      "meaning": "标签",
+      "example": "",
+      "note": "",
+      "importance": "本章核心",
+      "topic": "Gezondheid en gezondheidszorg in Nederland",
+      "topicId": "gezondheid-en-gezondheidszorg-in-nederland",
+      "source": "Full chapter core vocabulary"
+    },
+    {
+      "word": "de bijsluiter",
+      "meaning": "药品说明书",
+      "example": "",
+      "note": "",
+      "importance": "本章核心",
+      "topic": "Gezondheid en gezondheidszorg in Nederland",
+      "topicId": "gezondheid-en-gezondheidszorg-in-nederland",
+      "source": "Full chapter core vocabulary"
+    },
+    {
+      "word": "bewaren",
+      "meaning": "保存",
+      "example": "",
+      "note": "",
+      "importance": "本章核心",
+      "topic": "Gezondheid en gezondheidszorg in Nederland",
+      "topicId": "gezondheid-en-gezondheidszorg-in-nederland",
+      "source": "Full chapter core vocabulary"
+    },
+    {
+      "word": "de wachtlijst",
+      "meaning": "等候名单",
+      "example": "",
+      "note": "",
+      "importance": "本章核心",
+      "topic": "Gezondheid en gezondheidszorg in Nederland",
+      "topicId": "gezondheid-en-gezondheidszorg-in-nederland",
+      "source": "Full chapter core vocabulary"
+    },
+    {
+      "word": "de polikliniek",
+      "meaning": "医院门诊科室",
+      "example": "",
+      "note": "",
+      "importance": "本章核心",
+      "topic": "Gezondheid en gezondheidszorg in Nederland",
+      "topicId": "gezondheid-en-gezondheidszorg-in-nederland",
+      "source": "Full chapter core vocabulary"
+    },
+    {
+      "word": "de opname",
+      "meaning": "住院",
+      "example": "",
+      "note": "",
+      "importance": "本章核心",
+      "topic": "Gezondheid en gezondheidszorg in Nederland",
+      "topicId": "gezondheid-en-gezondheidszorg-in-nederland",
+      "source": "Full chapter core vocabulary"
+    },
+    {
+      "word": "de fysiotherapeut",
+      "meaning": "理疗师",
+      "example": "",
+      "note": "",
+      "importance": "本章核心",
+      "topic": "Gezondheid en gezondheidszorg in Nederland",
+      "topicId": "gezondheid-en-gezondheidszorg-in-nederland",
+      "source": "Full chapter core vocabulary"
+    },
+    {
+      "word": "de tandarts",
+      "meaning": "牙医",
+      "example": "",
+      "note": "",
+      "importance": "本章核心",
+      "topic": "Gezondheid en gezondheidszorg in Nederland",
+      "topicId": "gezondheid-en-gezondheidszorg-in-nederland",
+      "source": "Full chapter core vocabulary"
+    },
+    {
+      "word": "de huisartsenpost",
+      "meaning": "夜间/周末家庭医生值班点",
+      "example": "",
+      "note": "",
+      "importance": "本章核心",
+      "topic": "Gezondheid en gezondheidszorg in Nederland",
+      "topicId": "gezondheid-en-gezondheidszorg-in-nederland",
+      "source": "Full chapter core vocabulary"
+    },
+    {
+      "word": "de SEH",
+      "meaning": "急诊科",
+      "example": "",
+      "note": "",
+      "importance": "本章核心",
+      "topic": "Gezondheid en gezondheidszorg in Nederland",
+      "topicId": "gezondheid-en-gezondheidszorg-in-nederland",
+      "source": "Full chapter core vocabulary"
+    },
+    {
+      "word": "de premie",
+      "meaning": "保费",
+      "example": "",
+      "note": "",
+      "importance": "本章核心",
+      "topic": "Gezondheid en gezondheidszorg in Nederland",
+      "topicId": "gezondheid-en-gezondheidszorg-in-nederland",
+      "source": "Full chapter core vocabulary"
+    },
+    {
+      "word": "de basisverzekering",
+      "meaning": "基础保险",
+      "example": "",
+      "note": "",
+      "importance": "本章核心",
+      "topic": "Gezondheid en gezondheidszorg in Nederland",
+      "topicId": "gezondheid-en-gezondheidszorg-in-nederland",
+      "source": "Full chapter core vocabulary"
+    },
+    {
+      "word": "de aanvullende verzekering",
+      "meaning": "附加保险",
+      "example": "",
+      "note": "",
+      "importance": "本章核心",
+      "topic": "Gezondheid en gezondheidszorg in Nederland",
+      "topicId": "gezondheid-en-gezondheidszorg-in-nederland",
+      "source": "Full chapter core vocabulary"
+    },
+    {
+      "word": "de eigen bijdrage",
+      "meaning": "个人分担费用",
+      "example": "",
+      "note": "",
+      "importance": "本章核心",
+      "topic": "Gezondheid en gezondheidszorg in Nederland",
+      "topicId": "gezondheid-en-gezondheidszorg-in-nederland",
+      "source": "Full chapter core vocabulary"
+    },
+    {
+      "word": "declareren",
+      "meaning": "申请报销",
+      "example": "",
+      "note": "",
+      "importance": "本章核心",
+      "topic": "Gezondheid en gezondheidszorg in Nederland",
+      "topicId": "gezondheid-en-gezondheidszorg-in-nederland",
+      "source": "Full chapter core vocabulary"
+    },
+    {
+      "word": "verslaafd",
+      "meaning": "上瘾的",
+      "example": "",
+      "note": "",
+      "importance": "本章核心",
+      "topic": "Gezondheid en gezondheidszorg in Nederland",
+      "topicId": "gezondheid-en-gezondheidszorg-in-nederland",
+      "source": "Full chapter core vocabulary"
+    },
+    {
+      "word": "meeroken",
+      "meaning": "被动吸烟",
+      "example": "",
+      "note": "",
+      "importance": "本章核心",
+      "topic": "Gezondheid en gezondheidszorg in Nederland",
+      "topicId": "gezondheid-en-gezondheidszorg-in-nederland",
+      "source": "Full chapter core vocabulary"
+    },
+    {
+      "word": "de SOA",
+      "meaning": "性传播感染",
+      "example": "",
+      "note": "",
+      "importance": "本章核心",
+      "topic": "Gezondheid en gezondheidszorg in Nederland",
+      "topicId": "gezondheid-en-gezondheidszorg-in-nederland",
+      "source": "Full chapter core vocabulary"
+    },
+    {
+      "word": "de vereniging",
+      "meaning": "协会、俱乐部",
+      "example": "",
+      "note": "",
+      "importance": "本章核心",
+      "topic": "Gezondheid en gezondheidszorg in Nederland",
+      "topicId": "gezondheid-en-gezondheidszorg-in-nederland",
+      "source": "Full chapter core vocabulary"
+    },
+    {
+      "word": "inschrijven",
+      "meaning": "报名、注册",
+      "example": "",
+      "note": "",
+      "importance": "本章核心",
+      "topic": "Gezondheid en gezondheidszorg in Nederland",
+      "topicId": "gezondheid-en-gezondheidszorg-in-nederland",
+      "source": "Full chapter core vocabulary"
+    },
+    {
+      "word": "de bibliotheek",
+      "meaning": "图书馆",
+      "example": "",
+      "note": "",
+      "importance": "本章核心",
+      "topic": "Gezondheid en gezondheidszorg in Nederland",
+      "topicId": "gezondheid-en-gezondheidszorg-in-nederland",
+      "source": "Full chapter core vocabulary"
+    },
+    {
+      "word": "de woning",
+      "meaning": "住宅",
+      "example": "",
+      "note": "",
+      "importance": "本章核心",
+      "topic": "Wonen in Nederland",
+      "topicId": "wonen-in-nederland",
+      "source": "Full chapter core vocabulary"
+    },
+    {
+      "word": "de flat",
+      "meaning": "公寓楼",
+      "example": "",
+      "note": "",
+      "importance": "本章核心",
+      "topic": "Wonen in Nederland",
+      "topicId": "wonen-in-nederland",
+      "source": "Full chapter core vocabulary"
+    },
+    {
+      "word": "de eengezinswoning",
+      "meaning": "家庭住宅",
+      "example": "",
+      "note": "",
+      "importance": "本章核心",
+      "topic": "Wonen in Nederland",
+      "topicId": "wonen-in-nederland",
+      "source": "Full chapter core vocabulary"
+    },
+    {
+      "word": "vrijstaand",
+      "meaning": "独立的",
+      "example": "",
+      "note": "",
+      "importance": "本章核心",
+      "topic": "Wonen in Nederland",
+      "topicId": "wonen-in-nederland",
+      "source": "Full chapter core vocabulary"
+    },
+    {
+      "word": "het verzorgingstehuis",
+      "meaning": "老年照护住所",
+      "example": "",
+      "note": "",
+      "importance": "本章核心",
+      "topic": "Wonen in Nederland",
+      "topicId": "wonen-in-nederland",
+      "source": "Full chapter core vocabulary"
+    },
+    {
+      "word": "de rente",
+      "meaning": "利息",
+      "example": "",
+      "note": "",
+      "importance": "本章核心",
+      "topic": "Wonen in Nederland",
+      "topicId": "wonen-in-nederland",
+      "source": "Full chapter core vocabulary"
+    },
+    {
+      "word": "de bezichtiging",
+      "meaning": "看房",
+      "example": "",
+      "note": "",
+      "importance": "本章核心",
+      "topic": "Wonen in Nederland",
+      "topicId": "wonen-in-nederland",
+      "source": "Full chapter core vocabulary"
+    },
+    {
+      "word": "bieden",
+      "meaning": "出价",
+      "example": "",
+      "note": "",
+      "importance": "本章核心",
+      "topic": "Wonen in Nederland",
+      "topicId": "wonen-in-nederland",
+      "source": "Full chapter core vocabulary"
+    },
+    {
+      "word": "de notaris",
+      "meaning": "公证人",
+      "example": "",
+      "note": "",
+      "importance": "本章核心",
+      "topic": "Wonen in Nederland",
+      "topicId": "wonen-in-nederland",
+      "source": "Full chapter core vocabulary"
+    },
+    {
+      "word": "het onderhoud",
+      "meaning": "维护",
+      "example": "",
+      "note": "",
+      "importance": "本章核心",
+      "topic": "Wonen in Nederland",
+      "topicId": "wonen-in-nederland",
+      "source": "Full chapter core vocabulary"
+    },
+    {
+      "word": "huren",
+      "meaning": "租赁",
+      "example": "",
+      "note": "",
+      "importance": "本章核心",
+      "topic": "Wonen in Nederland",
+      "topicId": "wonen-in-nederland",
+      "source": "Full chapter core vocabulary"
+    },
+    {
+      "word": "inschrijven",
+      "meaning": "登记",
+      "example": "",
+      "note": "",
+      "importance": "本章核心",
+      "topic": "Wonen in Nederland",
+      "topicId": "wonen-in-nederland",
+      "source": "Full chapter core vocabulary"
+    },
+    {
+      "word": "reageren op een woning",
+      "meaning": "申请/回应一套住房",
+      "example": "",
+      "note": "",
+      "importance": "本章核心",
+      "topic": "Wonen in Nederland",
+      "topicId": "wonen-in-nederland",
+      "source": "Full chapter core vocabulary"
+    },
+    {
+      "word": "de urgentieverklaring",
+      "meaning": "紧急住房优先证明",
+      "example": "",
+      "note": "",
+      "importance": "本章核心",
+      "topic": "Wonen in Nederland",
+      "topicId": "wonen-in-nederland",
+      "source": "Full chapter core vocabulary"
+    },
+    {
+      "word": "het huurcontract",
+      "meaning": "租赁合同",
+      "example": "",
+      "note": "",
+      "importance": "本章核心",
+      "topic": "Wonen in Nederland",
+      "topicId": "wonen-in-nederland",
+      "source": "Full chapter core vocabulary"
+    },
+    {
+      "word": "de huurder",
+      "meaning": "租客",
+      "example": "",
+      "note": "",
+      "importance": "本章核心",
+      "topic": "Wonen in Nederland",
+      "topicId": "wonen-in-nederland",
+      "source": "Full chapter core vocabulary"
+    },
+    {
+      "word": "de servicekosten",
+      "meaning": "服务费",
+      "example": "",
+      "note": "",
+      "importance": "本章核心",
+      "topic": "Wonen in Nederland",
+      "topicId": "wonen-in-nederland",
+      "source": "Full chapter core vocabulary"
+    },
+    {
+      "word": "de opzegtermijn",
+      "meaning": "解约通知期",
+      "example": "",
+      "note": "",
+      "importance": "本章核心",
+      "topic": "Wonen in Nederland",
+      "topicId": "wonen-in-nederland",
+      "source": "Full chapter core vocabulary"
+    },
+    {
+      "word": "de Huurcommissie",
+      "meaning": "租金委员会",
+      "example": "",
+      "note": "",
+      "importance": "本章核心",
+      "topic": "Wonen in Nederland",
+      "topicId": "wonen-in-nederland",
+      "source": "Full chapter core vocabulary"
+    },
+    {
+      "word": "verhuizen",
+      "meaning": "搬家",
+      "example": "",
+      "note": "",
+      "importance": "本章核心",
+      "topic": "Wonen in Nederland",
+      "topicId": "wonen-in-nederland",
+      "source": "Full chapter core vocabulary"
+    },
+    {
+      "word": "de afvalstoffenheffing",
+      "meaning": "垃圾处理税",
+      "example": "",
+      "note": "",
+      "importance": "本章核心",
+      "topic": "Wonen in Nederland",
+      "topicId": "wonen-in-nederland",
+      "source": "Full chapter core vocabulary"
+    },
+    {
+      "word": "de rioolheffing",
+      "meaning": "排污税",
+      "example": "",
+      "note": "",
+      "importance": "本章核心",
+      "topic": "Wonen in Nederland",
+      "topicId": "wonen-in-nederland",
+      "source": "Full chapter core vocabulary"
+    },
+    {
+      "word": "de kwijtschelding",
+      "meaning": "税费减免",
+      "example": "",
+      "note": "",
+      "importance": "本章核心",
+      "topic": "Wonen in Nederland",
+      "topicId": "wonen-in-nederland",
+      "source": "Full chapter core vocabulary"
+    },
+    {
+      "word": "de vergunning",
+      "meaning": "许可证",
+      "example": "",
+      "note": "",
+      "importance": "本章核心",
+      "topic": "Wonen in Nederland",
+      "topicId": "wonen-in-nederland",
+      "source": "Full chapter core vocabulary"
+    },
+    {
+      "word": "het grofvuil",
+      "meaning": "大件垃圾",
+      "example": "",
+      "note": "",
+      "importance": "本章核心",
+      "topic": "Wonen in Nederland",
+      "topicId": "wonen-in-nederland",
+      "source": "Full chapter core vocabulary"
+    },
+    {
+      "word": "de jaarafrekening",
+      "meaning": "年度结算单",
+      "example": "",
+      "note": "",
+      "importance": "本章核心",
+      "topic": "Wonen in Nederland",
+      "topicId": "wonen-in-nederland",
+      "source": "Full chapter core vocabulary"
+    },
+    {
+      "word": "zuinig",
+      "meaning": "节约的",
+      "example": "",
+      "note": "",
+      "importance": "本章核心",
+      "topic": "Wonen in Nederland",
+      "topicId": "wonen-in-nederland",
+      "source": "Full chapter core vocabulary"
+    },
+    {
+      "word": "het abonnement",
+      "meaning": "订阅/套餐",
+      "example": "",
+      "note": "",
+      "importance": "本章核心",
+      "topic": "Wonen in Nederland",
+      "topicId": "wonen-in-nederland",
+      "source": "Full chapter core vocabulary"
+    },
+    {
+      "word": "de verzekering",
+      "meaning": "保险",
+      "example": "",
+      "note": "",
+      "importance": "本章核心",
+      "topic": "Wonen in Nederland",
+      "topicId": "wonen-in-nederland",
+      "source": "Full chapter core vocabulary"
+    },
+    {
+      "word": "de premie",
+      "meaning": "保费",
+      "example": "",
+      "note": "",
+      "importance": "本章核心",
+      "topic": "Wonen in Nederland",
+      "topicId": "wonen-in-nederland",
+      "source": "Full chapter core vocabulary"
+    },
+    {
+      "word": "de polis",
+      "meaning": "保单",
+      "example": "",
+      "note": "",
+      "importance": "本章核心",
+      "topic": "Wonen in Nederland",
+      "topicId": "wonen-in-nederland",
+      "source": "Full chapter core vocabulary"
+    },
+    {
+      "word": "de schade",
+      "meaning": "损失",
+      "example": "",
+      "note": "",
+      "importance": "本章核心",
+      "topic": "Wonen in Nederland",
+      "topicId": "wonen-in-nederland",
+      "source": "Full chapter core vocabulary"
+    },
+    {
+      "word": "de dienstverlening",
+      "meaning": "公共/专业服务",
+      "example": "",
+      "note": "",
+      "importance": "本章核心",
+      "topic": "Dienstverlening in Nederland",
+      "topicId": "dienstverlening-in-nederland",
+      "source": "Full chapter core vocabulary"
+    },
+    {
+      "word": "de diefstal",
+      "meaning": "盗窃",
+      "example": "",
+      "note": "",
+      "importance": "本章核心",
+      "topic": "Dienstverlening in Nederland",
+      "topicId": "dienstverlening-in-nederland",
+      "source": "Full chapter core vocabulary"
+    },
+    {
+      "word": "de bedreiging",
+      "meaning": "威胁",
+      "example": "",
+      "note": "",
+      "importance": "本章核心",
+      "topic": "Dienstverlening in Nederland",
+      "topicId": "dienstverlening-in-nederland",
+      "source": "Full chapter core vocabulary"
+    },
+    {
+      "word": "de inbraak",
+      "meaning": "入室盗窃",
+      "example": "",
+      "note": "",
+      "importance": "本章核心",
+      "topic": "Dienstverlening in Nederland",
+      "topicId": "dienstverlening-in-nederland",
+      "source": "Full chapter core vocabulary"
+    },
+    {
+      "word": "de bekeuring",
+      "meaning": "罚单",
+      "example": "",
+      "note": "",
+      "importance": "本章核心",
+      "topic": "Dienstverlening in Nederland",
+      "topicId": "dienstverlening-in-nederland",
+      "source": "Full chapter core vocabulary"
+    },
+    {
+      "word": "inschrijven",
+      "meaning": "登记",
+      "example": "",
+      "note": "",
+      "importance": "本章核心",
+      "topic": "Dienstverlening in Nederland",
+      "topicId": "dienstverlening-in-nederland",
+      "source": "Full chapter core vocabulary"
+    },
+    {
+      "word": "het uittreksel",
+      "meaning": "摘录证明",
+      "example": "",
+      "note": "",
+      "importance": "本章核心",
+      "topic": "Dienstverlening in Nederland",
+      "topicId": "dienstverlening-in-nederland",
+      "source": "Full chapter core vocabulary"
+    },
+    {
+      "word": "de BRP",
+      "meaning": "人口基本登记",
+      "example": "",
+      "note": "",
+      "importance": "本章核心",
+      "topic": "Dienstverlening in Nederland",
+      "topicId": "dienstverlening-in-nederland",
+      "source": "Full chapter core vocabulary"
+    },
+    {
+      "word": "bezwaar maken",
+      "meaning": "提出异议",
+      "example": "",
+      "note": "",
+      "importance": "本章核心",
+      "topic": "Dienstverlening in Nederland",
+      "topicId": "dienstverlening-in-nederland",
+      "source": "Full chapter core vocabulary"
+    },
+    {
+      "word": "in termijnen betalen",
+      "meaning": "分期支付",
+      "example": "",
+      "note": "",
+      "importance": "本章核心",
+      "topic": "Dienstverlening in Nederland",
+      "topicId": "dienstverlening-in-nederland",
+      "source": "Full chapter core vocabulary"
+    },
+    {
+      "word": "de toeslag",
+      "meaning": "补贴",
+      "example": "",
+      "note": "",
+      "importance": "本章核心",
+      "topic": "Dienstverlening in Nederland",
+      "topicId": "dienstverlening-in-nederland",
+      "source": "Full chapter core vocabulary"
+    },
+    {
+      "word": "de kinderbijslag",
+      "meaning": "儿童津贴",
+      "example": "",
+      "note": "",
+      "importance": "本章核心",
+      "topic": "Dienstverlening in Nederland",
+      "topicId": "dienstverlening-in-nederland",
+      "source": "Full chapter core vocabulary"
+    },
+    {
+      "word": "de bankrekening",
+      "meaning": "银行账户",
+      "example": "",
+      "note": "",
+      "importance": "本章核心",
+      "topic": "Dienstverlening in Nederland",
+      "topicId": "dienstverlening-in-nederland",
+      "source": "Full chapter core vocabulary"
+    },
+    {
+      "word": "rood staan",
+      "meaning": "账户透支",
+      "example": "",
+      "note": "",
+      "importance": "本章核心",
+      "topic": "Dienstverlening in Nederland",
+      "topicId": "dienstverlening-in-nederland",
+      "source": "Full chapter core vocabulary"
+    },
+    {
+      "word": "de incasso",
+      "meaning": "自动扣款",
+      "example": "",
+      "note": "",
+      "importance": "本章核心",
+      "topic": "Dienstverlening in Nederland",
+      "topicId": "dienstverlening-in-nederland",
+      "source": "Full chapter core vocabulary"
+    },
+    {
+      "word": "de machtiging",
+      "meaning": "授权",
+      "example": "",
+      "note": "",
+      "importance": "本章核心",
+      "topic": "Dienstverlening in Nederland",
+      "topicId": "dienstverlening-in-nederland",
+      "source": "Full chapter core vocabulary"
+    },
+    {
+      "word": "blokkeren",
+      "meaning": "冻结、停用",
+      "example": "",
+      "note": "",
+      "importance": "本章核心",
+      "topic": "Dienstverlening in Nederland",
+      "topicId": "dienstverlening-in-nederland",
+      "source": "Full chapter core vocabulary"
+    },
+    {
+      "word": "de IND",
+      "meaning": "荷兰移民归化局",
+      "example": "",
+      "note": "",
+      "importance": "本章核心",
+      "topic": "Dienstverlening in Nederland",
+      "topicId": "dienstverlening-in-nederland",
+      "source": "Full chapter core vocabulary"
+    },
+    {
+      "word": "de MVV",
+      "meaning": "长期入境签证",
+      "example": "",
+      "note": "",
+      "importance": "本章核心",
+      "topic": "Dienstverlening in Nederland",
+      "topicId": "dienstverlening-in-nederland",
+      "source": "Full chapter core vocabulary"
+    },
+    {
+      "word": "verlengen",
+      "meaning": "延期",
+      "example": "",
+      "note": "",
+      "importance": "本章核心",
+      "topic": "Dienstverlening in Nederland",
+      "topicId": "dienstverlening-in-nederland",
+      "source": "Full chapter core vocabulary"
+    },
+    {
+      "word": "naturalisatie",
+      "meaning": "入籍",
+      "example": "",
+      "note": "",
+      "importance": "本章核心",
+      "topic": "Dienstverlening in Nederland",
+      "topicId": "dienstverlening-in-nederland",
+      "source": "Full chapter core vocabulary"
+    },
+    {
+      "word": "de nationaliteit",
+      "meaning": "国籍",
+      "example": "",
+      "note": "",
+      "importance": "本章核心",
+      "topic": "Dienstverlening in Nederland",
+      "topicId": "dienstverlening-in-nederland",
+      "source": "Full chapter core vocabulary"
+    },
+    {
+      "word": "inburgeren",
+      "meaning": "融入",
+      "example": "",
+      "note": "",
+      "importance": "本章核心",
+      "topic": "Dienstverlening in Nederland",
+      "topicId": "dienstverlening-in-nederland",
+      "source": "Full chapter core vocabulary"
+    },
+    {
+      "word": "de vrijstelling",
+      "meaning": "豁免",
+      "example": "",
+      "note": "",
+      "importance": "本章核心",
+      "topic": "Dienstverlening in Nederland",
+      "topicId": "dienstverlening-in-nederland",
+      "source": "Full chapter core vocabulary"
+    },
+    {
+      "word": "de thuiszorg",
+      "meaning": "居家照护",
+      "example": "",
+      "note": "",
+      "importance": "本章核心",
+      "topic": "Dienstverlening in Nederland",
+      "topicId": "dienstverlening-in-nederland",
+      "source": "Full chapter core vocabulary"
+    },
+    {
+      "word": "het verpleeghuis",
+      "meaning": "护理院",
+      "example": "",
+      "note": "",
+      "importance": "本章核心",
+      "topic": "Dienstverlening in Nederland",
+      "topicId": "dienstverlening-in-nederland",
+      "source": "Full chapter core vocabulary"
+    },
+    {
+      "word": "de advocaat",
+      "meaning": "律师",
+      "example": "",
+      "note": "",
+      "importance": "本章核心",
+      "topic": "Dienstverlening in Nederland",
+      "topicId": "dienstverlening-in-nederland",
+      "source": "Full chapter core vocabulary"
+    },
+    {
+      "word": "de rechtszaak",
+      "meaning": "诉讼",
+      "example": "",
+      "note": "",
+      "importance": "本章核心",
+      "topic": "Dienstverlening in Nederland",
+      "topicId": "dienstverlening-in-nederland",
+      "source": "Full chapter core vocabulary"
+    },
+    {
+      "word": "de rechter",
+      "meaning": "法官",
+      "example": "",
+      "note": "",
+      "importance": "本章核心",
+      "topic": "Dienstverlening in Nederland",
+      "topicId": "dienstverlening-in-nederland",
+      "source": "Full chapter core vocabulary"
+    },
+    {
+      "word": "maatschappelijk werk",
+      "meaning": "社会工作服务",
+      "example": "",
+      "note": "",
+      "importance": "本章核心",
+      "topic": "Dienstverlening in Nederland",
+      "topicId": "dienstverlening-in-nederland",
+      "source": "Full chapter core vocabulary"
+    },
+    {
+      "word": "de GGZ",
+      "meaning": "心理健康服务",
+      "example": "",
+      "note": "",
+      "importance": "本章核心",
+      "topic": "Dienstverlening in Nederland",
+      "topicId": "dienstverlening-in-nederland",
+      "source": "Full chapter core vocabulary"
+    },
+    {
+      "word": "opvoeden",
+      "meaning": "抚养、教育孩子",
+      "example": "",
+      "note": "",
+      "importance": "本章核心",
+      "topic": "Opvoeding en onderwijs in Nederland",
+      "topicId": "opvoeding-en-onderwijs-in-nederland",
+      "source": "Full chapter core vocabulary"
+    },
+    {
+      "word": "de opvoeding",
+      "meaning": "育儿、家庭教育",
+      "example": "",
+      "note": "",
+      "importance": "本章核心",
+      "topic": "Opvoeding en onderwijs in Nederland",
+      "topicId": "opvoeding-en-onderwijs-in-nederland",
+      "source": "Full chapter core vocabulary"
+    },
+    {
+      "word": "zwanger",
+      "meaning": "怀孕的",
+      "example": "",
+      "note": "",
+      "importance": "本章核心",
+      "topic": "Opvoeding en onderwijs in Nederland",
+      "topicId": "opvoeding-en-onderwijs-in-nederland",
+      "source": "Full chapter core vocabulary"
+    },
+    {
+      "word": "bevallen",
+      "meaning": "分娩",
+      "example": "",
+      "note": "",
+      "importance": "本章核心",
+      "topic": "Opvoeding en onderwijs in Nederland",
+      "topicId": "opvoeding-en-onderwijs-in-nederland",
+      "source": "Full chapter core vocabulary"
+    },
+    {
+      "word": "de bevalling",
+      "meaning": "分娩",
+      "example": "",
+      "note": "",
+      "importance": "本章核心",
+      "topic": "Opvoeding en onderwijs in Nederland",
+      "topicId": "opvoeding-en-onderwijs-in-nederland",
+      "source": "Full chapter core vocabulary"
+    },
+    {
+      "word": "de kraamzorg",
+      "meaning": "产后居家照护",
+      "example": "",
+      "note": "",
+      "importance": "本章核心",
+      "topic": "Opvoeding en onderwijs in Nederland",
+      "topicId": "opvoeding-en-onderwijs-in-nederland",
+      "source": "Full chapter core vocabulary"
+    },
+    {
+      "word": "het zwangerschapsverlof",
+      "meaning": "孕产假",
+      "example": "",
+      "note": "",
+      "importance": "本章核心",
+      "topic": "Opvoeding en onderwijs in Nederland",
+      "topicId": "opvoeding-en-onderwijs-in-nederland",
+      "source": "Full chapter core vocabulary"
+    },
+    {
+      "word": "de vaccinatie",
+      "meaning": "疫苗接种",
+      "example": "",
+      "note": "",
+      "importance": "本章核心",
+      "topic": "Opvoeding en onderwijs in Nederland",
+      "topicId": "opvoeding-en-onderwijs-in-nederland",
+      "source": "Full chapter core vocabulary"
+    },
+    {
+      "word": "de oppas",
+      "meaning": "保姆",
+      "example": "",
+      "note": "",
+      "importance": "本章核心",
+      "topic": "Opvoeding en onderwijs in Nederland",
+      "topicId": "opvoeding-en-onderwijs-in-nederland",
+      "source": "Full chapter core vocabulary"
+    },
+    {
+      "word": "de gastouder",
+      "meaning": "家庭托育人员",
+      "example": "",
+      "note": "",
+      "importance": "本章核心",
+      "topic": "Opvoeding en onderwijs in Nederland",
+      "topicId": "opvoeding-en-onderwijs-in-nederland",
+      "source": "Full chapter core vocabulary"
+    },
+    {
+      "word": "het kinderdagverblijf",
+      "meaning": "日托中心",
+      "example": "",
+      "note": "",
+      "importance": "本章核心",
+      "topic": "Opvoeding en onderwijs in Nederland",
+      "topicId": "opvoeding-en-onderwijs-in-nederland",
+      "source": "Full chapter core vocabulary"
+    },
+    {
+      "word": "de buitenschoolse opvang",
+      "meaning": "课外托管",
+      "example": "",
+      "note": "",
+      "importance": "本章核心",
+      "topic": "Opvoeding en onderwijs in Nederland",
+      "topicId": "opvoeding-en-onderwijs-in-nederland",
+      "source": "Full chapter core vocabulary"
+    },
+    {
+      "word": "de kinderopvangtoeslag",
+      "meaning": "托儿补贴",
+      "example": "",
+      "note": "",
+      "importance": "本章核心",
+      "topic": "Opvoeding en onderwijs in Nederland",
+      "topicId": "opvoeding-en-onderwijs-in-nederland",
+      "source": "Full chapter core vocabulary"
+    },
+    {
+      "word": "het kindgebonden budget",
+      "meaning": "儿童相关收入补贴",
+      "example": "",
+      "note": "",
+      "importance": "本章核心",
+      "topic": "Opvoeding en onderwijs in Nederland",
+      "topicId": "opvoeding-en-onderwijs-in-nederland",
+      "source": "Full chapter core vocabulary"
+    },
+    {
+      "word": "de jeugdhulp",
+      "meaning": "青少年帮助",
+      "example": "",
+      "note": "",
+      "importance": "本章核心",
+      "topic": "Opvoeding en onderwijs in Nederland",
+      "topicId": "opvoeding-en-onderwijs-in-nederland",
+      "source": "Full chapter core vocabulary"
+    },
+    {
+      "word": "de kindermishandeling",
+      "meaning": "儿童虐待",
+      "example": "",
+      "note": "",
+      "importance": "本章核心",
+      "topic": "Opvoeding en onderwijs in Nederland",
+      "topicId": "opvoeding-en-onderwijs-in-nederland",
+      "source": "Full chapter core vocabulary"
+    },
+    {
+      "word": "de peuteropvang",
+      "meaning": "幼儿活动/托育",
+      "example": "",
+      "note": "",
+      "importance": "本章核心",
+      "topic": "Opvoeding en onderwijs in Nederland",
+      "topicId": "opvoeding-en-onderwijs-in-nederland",
+      "source": "Full chapter core vocabulary"
+    },
+    {
+      "word": "de voorschool",
+      "meaning": "学前语言与发展支持",
+      "example": "",
+      "note": "",
+      "importance": "本章核心",
+      "topic": "Opvoeding en onderwijs in Nederland",
+      "topicId": "opvoeding-en-onderwijs-in-nederland",
+      "source": "Full chapter core vocabulary"
+    },
+    {
+      "word": "de wachtlijst",
+      "meaning": "等候名单",
+      "example": "",
+      "note": "",
+      "importance": "本章核心",
+      "topic": "Opvoeding en onderwijs in Nederland",
+      "topicId": "opvoeding-en-onderwijs-in-nederland",
+      "source": "Full chapter core vocabulary"
+    },
+    {
+      "word": "het rapport",
+      "meaning": "成绩报告",
+      "example": "",
+      "note": "",
+      "importance": "本章核心",
+      "topic": "Opvoeding en onderwijs in Nederland",
+      "topicId": "opvoeding-en-onderwijs-in-nederland",
+      "source": "Full chapter core vocabulary"
+    },
+    {
+      "word": "de ouderavond",
+      "meaning": "家长会",
+      "example": "",
+      "note": "",
+      "importance": "本章核心",
+      "topic": "Opvoeding en onderwijs in Nederland",
+      "topicId": "opvoeding-en-onderwijs-in-nederland",
+      "source": "Full chapter core vocabulary"
+    },
+    {
+      "word": "de doorstroomtoets",
+      "meaning": "小学毕业升学测试",
+      "example": "",
+      "note": "",
+      "importance": "本章核心",
+      "topic": "Opvoeding en onderwijs in Nederland",
+      "topicId": "opvoeding-en-onderwijs-in-nederland",
+      "source": "Full chapter core vocabulary"
+    },
+    {
+      "word": "overblijven",
+      "meaning": "午间留校",
+      "example": "",
+      "note": "",
+      "importance": "本章核心",
+      "topic": "Opvoeding en onderwijs in Nederland",
+      "topicId": "opvoeding-en-onderwijs-in-nederland",
+      "source": "Full chapter core vocabulary"
+    },
+    {
+      "word": "het speciaal onderwijs",
+      "meaning": "特殊教育",
+      "example": "",
+      "note": "",
+      "importance": "本章核心",
+      "topic": "Opvoeding en onderwijs in Nederland",
+      "topicId": "opvoeding-en-onderwijs-in-nederland",
+      "source": "Full chapter core vocabulary"
+    },
+    {
+      "word": "de middelbare school",
+      "meaning": "中学",
+      "example": "",
+      "note": "",
+      "importance": "本章核心",
+      "topic": "Opvoeding en onderwijs in Nederland",
+      "topicId": "opvoeding-en-onderwijs-in-nederland",
+      "source": "Full chapter core vocabulary"
+    },
+    {
+      "word": "de brugklas",
+      "meaning": "中学第一年/过渡班",
+      "example": "",
+      "note": "",
+      "importance": "本章核心",
+      "topic": "Opvoeding en onderwijs in Nederland",
+      "topicId": "opvoeding-en-onderwijs-in-nederland",
+      "source": "Full chapter core vocabulary"
+    },
+    {
+      "word": "het VMBO",
+      "meaning": "中等职业预备教育",
+      "example": "",
+      "note": "",
+      "importance": "本章核心",
+      "topic": "Opvoeding en onderwijs in Nederland",
+      "topicId": "opvoeding-en-onderwijs-in-nederland",
+      "source": "Full chapter core vocabulary"
+    },
+    {
+      "word": "de HAVO",
+      "meaning": "高级普通中等教育",
+      "example": "",
+      "note": "",
+      "importance": "本章核心",
+      "topic": "Opvoeding en onderwijs in Nederland",
+      "topicId": "opvoeding-en-onderwijs-in-nederland",
+      "source": "Full chapter core vocabulary"
+    },
+    {
+      "word": "het VWO",
+      "meaning": "大学预科教育",
+      "example": "",
+      "note": "",
+      "importance": "本章核心",
+      "topic": "Opvoeding en onderwijs in Nederland",
+      "topicId": "opvoeding-en-onderwijs-in-nederland",
+      "source": "Full chapter core vocabulary"
+    },
+    {
+      "word": "het MBO",
+      "meaning": "中等职业教育",
+      "example": "",
+      "note": "",
+      "importance": "本章核心",
+      "topic": "Opvoeding en onderwijs in Nederland",
+      "topicId": "opvoeding-en-onderwijs-in-nederland",
+      "source": "Full chapter core vocabulary"
+    },
+    {
+      "word": "het HBO",
+      "meaning": "应用科学高等教育",
+      "example": "",
+      "note": "",
+      "importance": "本章核心",
+      "topic": "Opvoeding en onderwijs in Nederland",
+      "topicId": "opvoeding-en-onderwijs-in-nederland",
+      "source": "Full chapter core vocabulary"
+    },
+    {
+      "word": "de universiteit",
+      "meaning": "研究型大学",
+      "example": "",
+      "note": "",
+      "importance": "本章核心",
+      "topic": "Opvoeding en onderwijs in Nederland",
+      "topicId": "opvoeding-en-onderwijs-in-nederland",
+      "source": "Full chapter core vocabulary"
+    },
+    {
+      "word": "de ouderbijdrage",
+      "meaning": "家长自愿缴费",
+      "example": "",
+      "note": "",
+      "importance": "本章核心",
+      "topic": "Opvoeding en onderwijs in Nederland",
+      "topicId": "opvoeding-en-onderwijs-in-nederland",
+      "source": "Full chapter core vocabulary"
+    },
+    {
+      "word": "de baan",
+      "meaning": "工作岗位",
+      "example": "",
+      "note": "",
+      "importance": "本章核心",
+      "topic": "Werken in Nederland",
+      "topicId": "werken-in-nederland",
+      "source": "Full chapter core vocabulary"
+    },
+    {
+      "word": "het vrijwilligerswerk",
+      "meaning": "志愿工作",
+      "example": "",
+      "note": "",
+      "importance": "本章核心",
+      "topic": "Werken in Nederland",
+      "topicId": "werken-in-nederland",
+      "source": "Full chapter core vocabulary"
+    },
+    {
+      "word": "tijdelijk",
+      "meaning": "临时的",
+      "example": "",
+      "note": "",
+      "importance": "本章核心",
+      "topic": "Werken in Nederland",
+      "topicId": "werken-in-nederland",
+      "source": "Full chapter core vocabulary"
+    },
+    {
+      "word": "vast",
+      "meaning": "固定的",
+      "example": "",
+      "note": "",
+      "importance": "本章核心",
+      "topic": "Werken in Nederland",
+      "topicId": "werken-in-nederland",
+      "source": "Full chapter core vocabulary"
+    },
+    {
+      "word": "flexibel",
+      "meaning": "灵活的",
+      "example": "",
+      "note": "",
+      "importance": "本章核心",
+      "topic": "Werken in Nederland",
+      "topicId": "werken-in-nederland",
+      "source": "Full chapter core vocabulary"
+    },
+    {
+      "word": "het uitzendbureau",
+      "meaning": "劳务派遣公司",
+      "example": "",
+      "note": "",
+      "importance": "本章核心",
+      "topic": "Werken in Nederland",
+      "topicId": "werken-in-nederland",
+      "source": "Full chapter core vocabulary"
+    },
+    {
+      "word": "de zelfstandige",
+      "meaning": "自雇者",
+      "example": "",
+      "note": "",
+      "importance": "本章核心",
+      "topic": "Werken in Nederland",
+      "topicId": "werken-in-nederland",
+      "source": "Full chapter core vocabulary"
+    },
+    {
+      "word": "zwart werken",
+      "meaning": "黑工/不报税工作",
+      "example": "",
+      "note": "",
+      "importance": "本章核心",
+      "topic": "Werken in Nederland",
+      "topicId": "werken-in-nederland",
+      "source": "Full chapter core vocabulary"
+    },
+    {
+      "word": "parttime",
+      "meaning": "兼职",
+      "example": "",
+      "note": "",
+      "importance": "本章核心",
+      "topic": "Werken in Nederland",
+      "topicId": "werken-in-nederland",
+      "source": "Full chapter core vocabulary"
+    },
+    {
+      "word": "fulltime",
+      "meaning": "全职",
+      "example": "",
+      "note": "",
+      "importance": "本章核心",
+      "topic": "Werken in Nederland",
+      "topicId": "werken-in-nederland",
+      "source": "Full chapter core vocabulary"
+    },
+    {
+      "word": "de werkgever",
+      "meaning": "雇主",
+      "example": "",
+      "note": "",
+      "importance": "本章核心",
+      "topic": "Werken in Nederland",
+      "topicId": "werken-in-nederland",
+      "source": "Full chapter core vocabulary"
+    },
+    {
+      "word": "de werknemer",
+      "meaning": "雇员",
+      "example": "",
+      "note": "",
+      "importance": "本章核心",
+      "topic": "Werken in Nederland",
+      "topicId": "werken-in-nederland",
+      "source": "Full chapter core vocabulary"
+    },
+    {
+      "word": "de dienstensector",
+      "meaning": "服务业",
+      "example": "",
+      "note": "",
+      "importance": "本章核心",
+      "topic": "Werken in Nederland",
+      "topicId": "werken-in-nederland",
+      "source": "Full chapter core vocabulary"
+    },
+    {
+      "word": "het diploma",
+      "meaning": "文凭",
+      "example": "",
+      "note": "",
+      "importance": "本章核心",
+      "topic": "Werken in Nederland",
+      "topicId": "werken-in-nederland",
+      "source": "Full chapter core vocabulary"
+    },
+    {
+      "word": "diploma waarderen",
+      "meaning": "学历评估",
+      "example": "",
+      "note": "",
+      "importance": "本章核心",
+      "topic": "Werken in Nederland",
+      "topicId": "werken-in-nederland",
+      "source": "Full chapter core vocabulary"
+    },
+    {
+      "word": "ongeschoold werk",
+      "meaning": "无学历要求工作",
+      "example": "",
+      "note": "",
+      "importance": "本章核心",
+      "topic": "Werken in Nederland",
+      "topicId": "werken-in-nederland",
+      "source": "Full chapter core vocabulary"
+    },
+    {
+      "word": "de opleiding",
+      "meaning": "教育/职业培训",
+      "example": "",
+      "note": "",
+      "importance": "本章核心",
+      "topic": "Werken in Nederland",
+      "topicId": "werken-in-nederland",
+      "source": "Full chapter core vocabulary"
+    },
+    {
+      "word": "de cursus",
+      "meaning": "课程",
+      "example": "",
+      "note": "",
+      "importance": "本章核心",
+      "topic": "Werken in Nederland",
+      "topicId": "werken-in-nederland",
+      "source": "Full chapter core vocabulary"
+    },
+    {
+      "word": "de stage",
+      "meaning": "实习",
+      "example": "",
+      "note": "",
+      "importance": "本章核心",
+      "topic": "Werken in Nederland",
+      "topicId": "werken-in-nederland",
+      "source": "Full chapter core vocabulary"
+    },
+    {
+      "word": "de bijscholing",
+      "meaning": "进修",
+      "example": "",
+      "note": "",
+      "importance": "本章核心",
+      "topic": "Werken in Nederland",
+      "topicId": "werken-in-nederland",
+      "source": "Full chapter core vocabulary"
+    },
+    {
+      "word": "de nascholing",
+      "meaning": "继续教育/复训",
+      "example": "",
+      "note": "",
+      "importance": "本章核心",
+      "topic": "Werken in Nederland",
+      "topicId": "werken-in-nederland",
+      "source": "Full chapter core vocabulary"
+    },
+    {
+      "word": "de kwaliteit",
+      "meaning": "优点、能力",
+      "example": "",
+      "note": "",
+      "importance": "本章核心",
+      "topic": "Werken in Nederland",
+      "topicId": "werken-in-nederland",
+      "source": "Full chapter core vocabulary"
+    },
+    {
+      "word": "de motivatie",
+      "meaning": "动机",
+      "example": "",
+      "note": "",
+      "importance": "本章核心",
+      "topic": "Werken in Nederland",
+      "topicId": "werken-in-nederland",
+      "source": "Full chapter core vocabulary"
+    },
+    {
+      "word": "de ervaring",
+      "meaning": "经验",
+      "example": "",
+      "note": "",
+      "importance": "本章核心",
+      "topic": "Werken in Nederland",
+      "topicId": "werken-in-nederland",
+      "source": "Full chapter core vocabulary"
+    },
+    {
+      "word": "werkzoekend",
+      "meaning": "求职中的",
+      "example": "",
+      "note": "",
+      "importance": "本章核心",
+      "topic": "Werken in Nederland",
+      "topicId": "werken-in-nederland",
+      "source": "Full chapter core vocabulary"
+    },
+    {
+      "word": "werkloos",
+      "meaning": "失业的",
+      "example": "",
+      "note": "",
+      "importance": "本章核心",
+      "topic": "Werken in Nederland",
+      "topicId": "werken-in-nederland",
+      "source": "Full chapter core vocabulary"
+    },
+    {
+      "word": "de uitkering",
+      "meaning": "福利待遇",
+      "example": "",
+      "note": "",
+      "importance": "本章核心",
+      "topic": "Werken in Nederland",
+      "topicId": "werken-in-nederland",
+      "source": "Full chapter core vocabulary"
+    },
+    {
+      "word": "de werkcoach",
+      "meaning": "就业指导员",
+      "example": "",
+      "note": "",
+      "importance": "本章核心",
+      "topic": "Werken in Nederland",
+      "topicId": "werken-in-nederland",
+      "source": "Full chapter core vocabulary"
+    },
+    {
+      "word": "de WW",
+      "meaning": "失业保险待遇",
+      "example": "",
+      "note": "",
+      "importance": "本章核心",
+      "topic": "Werken in Nederland",
+      "topicId": "werken-in-nederland",
+      "source": "Full chapter core vocabulary"
+    },
+    {
+      "word": "de WIA",
+      "meaning": "劳动能力丧失待遇",
+      "example": "",
+      "note": "",
+      "importance": "本章核心",
+      "topic": "Werken in Nederland",
+      "topicId": "werken-in-nederland",
+      "source": "Full chapter core vocabulary"
+    },
+    {
+      "word": "de bijstand",
+      "meaning": "最低生活保障",
+      "example": "",
+      "note": "",
+      "importance": "本章核心",
+      "topic": "Werken in Nederland",
+      "topicId": "werken-in-nederland",
+      "source": "Full chapter core vocabulary"
+    },
+    {
+      "word": "de functie-eis",
+      "meaning": "岗位要求",
+      "example": "",
+      "note": "",
+      "importance": "本章核心",
+      "topic": "Werken in Nederland",
+      "topicId": "werken-in-nederland",
+      "source": "Full chapter core vocabulary"
+    },
+    {
+      "word": "het sollicitatiegesprek",
+      "meaning": "面试",
+      "example": "",
+      "note": "",
+      "importance": "本章核心",
+      "topic": "Werken in Nederland",
+      "topicId": "werken-in-nederland",
+      "source": "Full chapter core vocabulary"
+    },
+    {
+      "word": "de arbeidsvoorwaarden",
+      "meaning": "劳动条件",
+      "example": "",
+      "note": "",
+      "importance": "本章核心",
+      "topic": "Werken in Nederland",
+      "topicId": "werken-in-nederland",
+      "source": "Full chapter core vocabulary"
+    },
+    {
+      "word": "ontslag nemen",
+      "meaning": "辞职",
+      "example": "",
+      "note": "",
+      "importance": "本章核心",
+      "topic": "Werken in Nederland",
+      "topicId": "werken-in-nederland",
+      "source": "Full chapter core vocabulary"
+    },
+    {
+      "word": "ontslag krijgen",
+      "meaning": "被解雇",
+      "example": "",
+      "note": "",
+      "importance": "本章核心",
+      "topic": "Werken in Nederland",
+      "topicId": "werken-in-nederland",
+      "source": "Full chapter core vocabulary"
+    },
+    {
+      "word": "de CAO",
+      "meaning": "集体劳动协议",
+      "example": "",
+      "note": "",
+      "importance": "本章核心",
+      "topic": "Werken in Nederland",
+      "topicId": "werken-in-nederland",
+      "source": "Full chapter core vocabulary"
+    },
+    {
+      "word": "de ondernemer",
+      "meaning": "企业家/自雇者",
+      "example": "",
+      "note": "",
+      "importance": "本章核心",
+      "topic": "Werken in Nederland",
+      "topicId": "werken-in-nederland",
+      "source": "Full chapter core vocabulary"
+    },
+    {
+      "word": "het ondernemingsplan",
+      "meaning": "商业计划",
+      "example": "",
+      "note": "",
+      "importance": "本章核心",
+      "topic": "Werken in Nederland",
+      "topicId": "werken-in-nederland",
+      "source": "Full chapter core vocabulary"
+    },
+    {
+      "word": "de Kamer van Koophandel",
+      "meaning": "商会",
+      "example": "",
+      "note": "",
+      "importance": "本章核心",
+      "topic": "Werken in Nederland",
+      "topicId": "werken-in-nederland",
+      "source": "Full chapter core vocabulary"
+    },
+    {
+      "word": "de loonstrook",
+      "meaning": "工资单",
+      "example": "",
+      "note": "",
+      "importance": "本章核心",
+      "topic": "Werken in Nederland",
+      "topicId": "werken-in-nederland",
+      "source": "Full chapter core vocabulary"
+    },
+    {
+      "word": "de jaaropgave",
+      "meaning": "年度工资汇总",
+      "example": "",
+      "note": "",
+      "importance": "本章核心",
+      "topic": "Werken in Nederland",
+      "topicId": "werken-in-nederland",
+      "source": "Full chapter core vocabulary"
+    },
+    {
+      "word": "de vakbond",
+      "meaning": "工会",
+      "example": "",
+      "note": "",
+      "importance": "本章核心",
+      "topic": "Werken in Nederland",
+      "topicId": "werken-in-nederland",
+      "source": "Full chapter core vocabulary"
+    },
+    {
+      "word": "de ondernemingsraad",
+      "meaning": "企业职工委员会",
+      "example": "",
+      "note": "",
+      "importance": "本章核心",
+      "topic": "Werken in Nederland",
+      "topicId": "werken-in-nederland",
+      "source": "Full chapter core vocabulary"
+    },
+    {
+      "word": "de Arbowet",
+      "meaning": "工作安全健康法",
+      "example": "",
+      "note": "",
+      "importance": "本章核心",
+      "topic": "Werken in Nederland",
+      "topicId": "werken-in-nederland",
+      "source": "Full chapter core vocabulary"
+    },
+    {
+      "word": "de collega",
+      "meaning": "同事",
+      "example": "",
+      "note": "",
+      "importance": "本章核心",
+      "topic": "Werken in Nederland",
+      "topicId": "werken-in-nederland",
+      "source": "Full chapter core vocabulary"
+    },
+    {
+      "word": "de afdeling",
+      "meaning": "部门",
+      "example": "",
+      "note": "",
+      "importance": "本章核心",
+      "topic": "Werken in Nederland",
+      "topicId": "werken-in-nederland",
+      "source": "Full chapter core vocabulary"
+    },
+    {
+      "word": "de leidinggevende",
+      "meaning": "主管",
+      "example": "",
+      "note": "",
+      "importance": "本章核心",
+      "topic": "Werken in Nederland",
+      "topicId": "werken-in-nederland",
+      "source": "Full chapter core vocabulary"
+    },
+    {
+      "word": "het werkoverleg",
+      "meaning": "工作会议",
+      "example": "",
+      "note": "",
+      "importance": "本章核心",
+      "topic": "Werken in Nederland",
+      "topicId": "werken-in-nederland",
+      "source": "Full chapter core vocabulary"
+    },
+    {
+      "word": "de personeelsvereniging",
+      "meaning": "员工活动协会",
+      "example": "",
+      "note": "",
+      "importance": "本章核心",
+      "topic": "Werken in Nederland",
+      "topicId": "werken-in-nederland",
+      "source": "Full chapter core vocabulary"
+    },
+    {
+      "word": "kritiek",
+      "meaning": "批评、反馈",
+      "example": "",
+      "note": "",
+      "importance": "本章核心",
+      "topic": "Werken in Nederland",
+      "topicId": "werken-in-nederland",
+      "source": "Full chapter core vocabulary"
+    },
+    {
+      "word": "het functioneringsgesprek",
+      "meaning": "工作表现与发展谈话",
+      "example": "",
+      "note": "",
+      "importance": "本章核心",
+      "topic": "Werken in Nederland",
+      "topicId": "werken-in-nederland",
+      "source": "Full chapter core vocabulary"
+    },
+    {
+      "word": "de vertrouwenspersoon",
+      "meaning": "保密/信任顾问",
+      "example": "",
+      "note": "",
+      "importance": "本章核心",
+      "topic": "Werken in Nederland",
+      "topicId": "werken-in-nederland",
+      "source": "Full chapter core vocabulary"
+    },
+    {
+      "word": "discriminatie",
+      "meaning": "歧视",
+      "example": "",
+      "note": "",
+      "importance": "本章核心",
+      "topic": "Werken in Nederland",
+      "topicId": "werken-in-nederland",
+      "source": "Full chapter core vocabulary"
+    },
+    {
+      "word": "alleen wonen",
+      "meaning": "独居",
+      "example": "",
+      "note": "",
+      "importance": "本章核心",
+      "topic": "Samenleven in Nederland",
+      "topicId": "samenleven-in-nederland",
+      "source": "Full chapter core vocabulary"
+    },
+    {
+      "word": "het huwelijk",
+      "meaning": "婚姻",
+      "example": "",
+      "note": "",
+      "importance": "本章核心",
+      "topic": "Samenleven in Nederland",
+      "topicId": "samenleven-in-nederland",
+      "source": "Full chapter core vocabulary"
+    },
+    {
+      "word": "het eenoudergezin",
+      "meaning": "单亲家庭",
+      "example": "",
+      "note": "",
+      "importance": "本章核心",
+      "topic": "Samenleven in Nederland",
+      "topicId": "samenleven-in-nederland",
+      "source": "Full chapter core vocabulary"
+    },
+    {
+      "word": "het samengestelde gezin",
+      "meaning": "重组家庭",
+      "example": "",
+      "note": "",
+      "importance": "本章核心",
+      "topic": "Samenleven in Nederland",
+      "topicId": "samenleven-in-nederland",
+      "source": "Full chapter core vocabulary"
+    },
+    {
+      "word": "de partner",
+      "meaning": "伴侣",
+      "example": "",
+      "note": "",
+      "importance": "本章核心",
+      "topic": "Samenleven in Nederland",
+      "topicId": "samenleven-in-nederland",
+      "source": "Full chapter core vocabulary"
+    },
+    {
+      "word": "de puberteit",
+      "meaning": "青春期",
+      "example": "",
+      "note": "",
+      "importance": "本章核心",
+      "topic": "Samenleven in Nederland",
+      "topicId": "samenleven-in-nederland",
+      "source": "Full chapter core vocabulary"
+    },
+    {
+      "word": "seksuele voorlichting",
+      "meaning": "性教育",
+      "example": "",
+      "note": "",
+      "importance": "本章核心",
+      "topic": "Samenleven in Nederland",
+      "topicId": "samenleven-in-nederland",
+      "source": "Full chapter core vocabulary"
+    },
+    {
+      "word": "homo",
+      "meaning": "男同性恋者",
+      "example": "",
+      "note": "",
+      "importance": "本章核心",
+      "topic": "Samenleven in Nederland",
+      "topicId": "samenleven-in-nederland",
+      "source": "Full chapter core vocabulary"
+    },
+    {
+      "word": "lesbisch",
+      "meaning": "女同性恋的",
+      "example": "",
+      "note": "",
+      "importance": "本章核心",
+      "topic": "Samenleven in Nederland",
+      "topicId": "samenleven-in-nederland",
+      "source": "Full chapter core vocabulary"
+    },
+    {
+      "word": "accepteren",
+      "meaning": "接受",
+      "example": "",
+      "note": "",
+      "importance": "本章核心",
+      "topic": "Samenleven in Nederland",
+      "topicId": "samenleven-in-nederland",
+      "source": "Full chapter core vocabulary"
+    },
+    {
+      "word": "bloot",
+      "meaning": "裸露的",
+      "example": "",
+      "note": "",
+      "importance": "本章核心",
+      "topic": "Samenleven in Nederland",
+      "topicId": "samenleven-in-nederland",
+      "source": "Full chapter core vocabulary"
+    },
+    {
+      "word": "openbaar",
+      "meaning": "公共的",
+      "example": "",
+      "note": "",
+      "importance": "本章核心",
+      "topic": "Samenleven in Nederland",
+      "topicId": "samenleven-in-nederland",
+      "source": "Full chapter core vocabulary"
+    },
+    {
+      "word": "dezelfde rechten",
+      "meaning": "相同权利",
+      "example": "",
+      "note": "",
+      "importance": "本章核心",
+      "topic": "Samenleven in Nederland",
+      "topicId": "samenleven-in-nederland",
+      "source": "Full chapter core vocabulary"
+    },
+    {
+      "word": "gelijk",
+      "meaning": "平等的",
+      "example": "",
+      "note": "",
+      "importance": "本章核心",
+      "topic": "Samenleven in Nederland",
+      "topicId": "samenleven-in-nederland",
+      "source": "Full chapter core vocabulary"
+    },
+    {
+      "word": "het huishouden",
+      "meaning": "家务",
+      "example": "",
+      "note": "",
+      "importance": "本章核心",
+      "topic": "Samenleven in Nederland",
+      "topicId": "samenleven-in-nederland",
+      "source": "Full chapter core vocabulary"
+    },
+    {
+      "word": "een klacht indienen",
+      "meaning": "提交投诉",
+      "example": "",
+      "note": "",
+      "importance": "本章核心",
+      "topic": "Samenleven in Nederland",
+      "topicId": "samenleven-in-nederland",
+      "source": "Full chapter core vocabulary"
+    },
+    {
+      "word": "aangifte doen",
+      "meaning": "报案",
+      "example": "",
+      "note": "",
+      "importance": "本章核心",
+      "topic": "Samenleven in Nederland",
+      "topicId": "samenleven-in-nederland",
+      "source": "Full chapter core vocabulary"
+    },
+    {
+      "word": "respect",
+      "meaning": "尊重",
+      "example": "",
+      "note": "",
+      "importance": "本章核心",
+      "topic": "Samenleven in Nederland",
+      "topicId": "samenleven-in-nederland",
+      "source": "Full chapter core vocabulary"
+    },
+    {
+      "word": "de toestemming",
+      "meaning": "同意",
+      "example": "",
+      "note": "",
+      "importance": "本章核心",
+      "topic": "Samenleven in Nederland",
+      "topicId": "samenleven-in-nederland",
+      "source": "Full chapter core vocabulary"
+    },
+    {
+      "word": "verkrachting",
+      "meaning": "强奸",
+      "example": "",
+      "note": "",
+      "importance": "本章核心",
+      "topic": "Samenleven in Nederland",
+      "topicId": "samenleven-in-nederland",
+      "source": "Full chapter core vocabulary"
+    },
+    {
+      "word": "incest",
+      "meaning": "乱伦/近亲性行为",
+      "example": "",
+      "note": "",
+      "importance": "本章核心",
+      "topic": "Samenleven in Nederland",
+      "topicId": "samenleven-in-nederland",
+      "source": "Full chapter core vocabulary"
+    },
+    {
+      "word": "eerwraak",
+      "meaning": "名誉暴力/名誉杀人",
+      "example": "",
+      "note": "",
+      "importance": "本章核心",
+      "topic": "Samenleven in Nederland",
+      "topicId": "samenleven-in-nederland",
+      "source": "Full chapter core vocabulary"
+    },
+    {
+      "word": "vrouwelijke genitale verminking",
+      "meaning": "女性生殖器切割",
+      "example": "",
+      "note": "",
+      "importance": "本章核心",
+      "topic": "Samenleven in Nederland",
+      "topicId": "samenleven-in-nederland",
+      "source": "Full chapter core vocabulary"
+    },
+    {
+      "word": "abortus",
+      "meaning": "人工终止妊娠",
+      "example": "",
+      "note": "",
+      "importance": "本章核心",
+      "topic": "Samenleven in Nederland",
+      "topicId": "samenleven-in-nederland",
+      "source": "Full chapter core vocabulary"
+    },
+    {
+      "word": "euthanasie",
+      "meaning": "安乐死",
+      "example": "",
+      "note": "",
+      "importance": "本章核心",
+      "topic": "Samenleven in Nederland",
+      "topicId": "samenleven-in-nederland",
+      "source": "Full chapter core vocabulary"
+    },
+    {
+      "word": "de gevangenis",
+      "meaning": "监狱",
+      "example": "",
+      "note": "",
+      "importance": "本章核心",
+      "topic": "Samenleven in Nederland",
+      "topicId": "samenleven-in-nederland",
+      "source": "Full chapter core vocabulary"
+    },
+    {
+      "word": "na Christus",
+      "meaning": "公元后",
+      "example": "",
+      "note": "",
+      "importance": "本章核心",
+      "topic": "De geschiedenis van Nederland",
+      "topicId": "de-geschiedenis-van-nederland",
+      "source": "Full chapter core vocabulary"
+    },
+    {
+      "word": "de Romeinen",
+      "meaning": "罗马人",
+      "example": "",
+      "note": "",
+      "importance": "本章核心",
+      "topic": "De geschiedenis van Nederland",
+      "topicId": "de-geschiedenis-van-nederland",
+      "source": "Full chapter core vocabulary"
+    },
+    {
+      "word": "De Lage Landen",
+      "meaning": "低地国家地区",
+      "example": "",
+      "note": "",
+      "importance": "本章核心",
+      "topic": "De geschiedenis van Nederland",
+      "topicId": "de-geschiedenis-van-nederland",
+      "source": "Full chapter core vocabulary"
+    },
+    {
+      "word": "de boer",
+      "meaning": "农民",
+      "example": "",
+      "note": "",
+      "importance": "本章核心",
+      "topic": "De geschiedenis van Nederland",
+      "topicId": "de-geschiedenis-van-nederland",
+      "source": "Full chapter core vocabulary"
+    },
+    {
+      "word": "het kasteel",
+      "meaning": "城堡",
+      "example": "",
+      "note": "",
+      "importance": "本章核心",
+      "topic": "De geschiedenis van Nederland",
+      "topicId": "de-geschiedenis-van-nederland",
+      "source": "Full chapter core vocabulary"
+    },
+    {
+      "word": "katholiek",
+      "meaning": "天主教的",
+      "example": "",
+      "note": "",
+      "importance": "本章核心",
+      "topic": "De geschiedenis van Nederland",
+      "topicId": "de-geschiedenis-van-nederland",
+      "source": "Full chapter core vocabulary"
+    },
+    {
+      "word": "protestant",
+      "meaning": "新教的",
+      "example": "",
+      "note": "",
+      "importance": "本章核心",
+      "topic": "De geschiedenis van Nederland",
+      "topicId": "de-geschiedenis-van-nederland",
+      "source": "Full chapter core vocabulary"
+    },
+    {
+      "word": "in verzet komen",
+      "meaning": "反抗",
+      "example": "",
+      "note": "",
+      "importance": "本章核心",
+      "topic": "De geschiedenis van Nederland",
+      "topicId": "de-geschiedenis-van-nederland",
+      "source": "Full chapter core vocabulary"
+    },
+    {
+      "word": "de Tachtigjarige Oorlog",
+      "meaning": "八十年战争",
+      "example": "",
+      "note": "",
+      "importance": "本章核心",
+      "topic": "De geschiedenis van Nederland",
+      "topicId": "de-geschiedenis-van-nederland",
+      "source": "Full chapter core vocabulary"
+    },
+    {
+      "word": "de politieke leider",
+      "meaning": "政治领袖",
+      "example": "",
+      "note": "",
+      "importance": "本章核心",
+      "topic": "De geschiedenis van Nederland",
+      "topicId": "de-geschiedenis-van-nederland",
+      "source": "Full chapter core vocabulary"
+    },
+    {
+      "word": "doodschieten",
+      "meaning": "枪杀",
+      "example": "",
+      "note": "",
+      "importance": "本章核心",
+      "topic": "De geschiedenis van Nederland",
+      "topicId": "de-geschiedenis-van-nederland",
+      "source": "Full chapter core vocabulary"
+    },
+    {
+      "word": "de republiek",
+      "meaning": "共和国",
+      "example": "",
+      "note": "",
+      "importance": "本章核心",
+      "topic": "De geschiedenis van Nederland",
+      "topicId": "de-geschiedenis-van-nederland",
+      "source": "Full chapter core vocabulary"
+    },
+    {
+      "word": "zelfstandig",
+      "meaning": "独立的",
+      "example": "",
+      "note": "",
+      "importance": "本章核心",
+      "topic": "De geschiedenis van Nederland",
+      "topicId": "de-geschiedenis-van-nederland",
+      "source": "Full chapter core vocabulary"
+    },
+    {
+      "word": "de handel",
+      "meaning": "贸易",
+      "example": "",
+      "note": "",
+      "importance": "本章核心",
+      "topic": "De geschiedenis van Nederland",
+      "topicId": "de-geschiedenis-van-nederland",
+      "source": "Full chapter core vocabulary"
+    },
+    {
+      "word": "de Gouden Eeuw",
+      "meaning": "黄金时代",
+      "example": "",
+      "note": "",
+      "importance": "本章核心",
+      "topic": "De geschiedenis van Nederland",
+      "topicId": "de-geschiedenis-van-nederland",
+      "source": "Full chapter core vocabulary"
+    },
+    {
+      "word": "de specerij",
+      "meaning": "香料",
+      "example": "",
+      "note": "",
+      "importance": "本章核心",
+      "topic": "De geschiedenis van Nederland",
+      "topicId": "de-geschiedenis-van-nederland",
+      "source": "Full chapter core vocabulary"
+    },
+    {
+      "word": "de slavernij",
+      "meaning": "奴隶制",
+      "example": "",
+      "note": "",
+      "importance": "本章核心",
+      "topic": "De geschiedenis van Nederland",
+      "topicId": "de-geschiedenis-van-nederland",
+      "source": "Full chapter core vocabulary"
+    },
+    {
+      "word": "de VOC",
+      "meaning": "荷兰东印度公司",
+      "example": "",
+      "note": "",
+      "importance": "本章核心",
+      "topic": "De geschiedenis van Nederland",
+      "topicId": "de-geschiedenis-van-nederland",
+      "source": "Full chapter core vocabulary"
+    },
+    {
+      "word": "de gracht",
+      "meaning": "运河",
+      "example": "",
+      "note": "",
+      "importance": "本章核心",
+      "topic": "De geschiedenis van Nederland",
+      "topicId": "de-geschiedenis-van-nederland",
+      "source": "Full chapter core vocabulary"
+    },
+    {
+      "word": "het schilderij",
+      "meaning": "绘画",
+      "example": "",
+      "note": "",
+      "importance": "本章核心",
+      "topic": "De geschiedenis van Nederland",
+      "topicId": "de-geschiedenis-van-nederland",
+      "source": "Full chapter core vocabulary"
+    },
+    {
+      "word": "het koninkrijk",
+      "meaning": "王国",
+      "example": "",
+      "note": "",
+      "importance": "本章核心",
+      "topic": "De geschiedenis van Nederland",
+      "topicId": "de-geschiedenis-van-nederland",
+      "source": "Full chapter core vocabulary"
+    },
+    {
+      "word": "de fabriek",
+      "meaning": "工厂",
+      "example": "",
+      "note": "",
+      "importance": "本章核心",
+      "topic": "De geschiedenis van Nederland",
+      "topicId": "de-geschiedenis-van-nederland",
+      "source": "Full chapter core vocabulary"
+    },
+    {
+      "word": "het stemrecht",
+      "meaning": "选举权",
+      "example": "",
+      "note": "",
+      "importance": "本章核心",
+      "topic": "De geschiedenis van Nederland",
+      "topicId": "de-geschiedenis-van-nederland",
+      "source": "Full chapter core vocabulary"
+    },
+    {
+      "word": "de leerplicht",
+      "meaning": "义务教育",
+      "example": "",
+      "note": "",
+      "importance": "本章核心",
+      "topic": "De geschiedenis van Nederland",
+      "topicId": "de-geschiedenis-van-nederland",
+      "source": "Full chapter core vocabulary"
+    },
+    {
+      "word": "de crisis",
+      "meaning": "危机",
+      "example": "",
+      "note": "",
+      "importance": "本章核心",
+      "topic": "De geschiedenis van Nederland",
+      "topicId": "de-geschiedenis-van-nederland",
+      "source": "Full chapter core vocabulary"
+    },
+    {
+      "word": "de bezetting",
+      "meaning": "占领",
+      "example": "",
+      "note": "",
+      "importance": "本章核心",
+      "topic": "De geschiedenis van Nederland",
+      "topicId": "de-geschiedenis-van-nederland",
+      "source": "Full chapter core vocabulary"
+    },
+    {
+      "word": "bombarderen",
+      "meaning": "轰炸",
+      "example": "",
+      "note": "",
+      "importance": "本章核心",
+      "topic": "De geschiedenis van Nederland",
+      "topicId": "de-geschiedenis-van-nederland",
+      "source": "Full chapter core vocabulary"
+    },
+    {
+      "word": "de Jood",
+      "meaning": "犹太人",
+      "example": "",
+      "note": "",
+      "importance": "本章核心",
+      "topic": "De geschiedenis van Nederland",
+      "topicId": "de-geschiedenis-van-nederland",
+      "source": "Full chapter core vocabulary"
+    },
+    {
+      "word": "het kamp",
+      "meaning": "集中营/营地",
+      "example": "",
+      "note": "",
+      "importance": "本章核心",
+      "topic": "De geschiedenis van Nederland",
+      "topicId": "de-geschiedenis-van-nederland",
+      "source": "Full chapter core vocabulary"
+    },
+    {
+      "word": "de Dodenherdenking",
+      "meaning": "死难者纪念日",
+      "example": "",
+      "note": "",
+      "importance": "本章核心",
+      "topic": "De geschiedenis van Nederland",
+      "topicId": "de-geschiedenis-van-nederland",
+      "source": "Full chapter core vocabulary"
+    },
+    {
+      "word": "de Bevrijdingsdag",
+      "meaning": "解放日",
+      "example": "",
+      "note": "",
+      "importance": "本章核心",
+      "topic": "De geschiedenis van Nederland",
+      "topicId": "de-geschiedenis-van-nederland",
+      "source": "Full chapter core vocabulary"
+    },
+    {
+      "word": "de wederopbouw",
+      "meaning": "战后重建",
+      "example": "",
+      "note": "",
+      "importance": "本章核心",
+      "topic": "De geschiedenis van Nederland",
+      "topicId": "de-geschiedenis-van-nederland",
+      "source": "Full chapter core vocabulary"
+    },
+    {
+      "word": "de AOW",
+      "meaning": "国家基本养老金",
+      "example": "",
+      "note": "",
+      "importance": "本章核心",
+      "topic": "De geschiedenis van Nederland",
+      "topicId": "de-geschiedenis-van-nederland",
+      "source": "Full chapter core vocabulary"
+    },
+    {
+      "word": "de Deltawerken",
+      "meaning": "三角洲工程",
+      "example": "",
+      "note": "",
+      "importance": "本章核心",
+      "topic": "De geschiedenis van Nederland",
+      "topicId": "de-geschiedenis-van-nederland",
+      "source": "Full chapter core vocabulary"
+    },
+    {
+      "word": "het dagboek",
+      "meaning": "日记",
+      "example": "",
+      "note": "",
+      "importance": "本章核心",
+      "topic": "De geschiedenis van Nederland",
+      "topicId": "de-geschiedenis-van-nederland",
+      "source": "Full chapter core vocabulary"
+    },
+    {
+      "word": "de minister-president",
+      "meaning": "首相",
+      "example": "",
+      "note": "",
+      "importance": "本章核心",
+      "topic": "Politiek in Nederland",
+      "topicId": "politiek-in-nederland",
+      "source": "Full chapter core vocabulary"
+    },
+    {
+      "word": "de minister",
+      "meaning": "部长",
+      "example": "",
+      "note": "",
+      "importance": "本章核心",
+      "topic": "Politiek in Nederland",
+      "topicId": "politiek-in-nederland",
+      "source": "Full chapter core vocabulary"
+    },
+    {
+      "word": "de staatssecretaris",
+      "meaning": "国务秘书/副部长级官员",
+      "example": "",
+      "note": "",
+      "importance": "本章核心",
+      "topic": "Politiek in Nederland",
+      "topicId": "politiek-in-nederland",
+      "source": "Full chapter core vocabulary"
+    },
+    {
+      "word": "het koninkrijk",
+      "meaning": "王国",
+      "example": "",
+      "note": "",
+      "importance": "本章核心",
+      "topic": "Politiek in Nederland",
+      "topicId": "politiek-in-nederland",
+      "source": "Full chapter core vocabulary"
+    },
+    {
+      "word": "de koning",
+      "meaning": "国王",
+      "example": "",
+      "note": "",
+      "importance": "本章核心",
+      "topic": "Politiek in Nederland",
+      "topicId": "politiek-in-nederland",
+      "source": "Full chapter core vocabulary"
+    },
+    {
+      "word": "de democratie",
+      "meaning": "民主",
+      "example": "",
+      "note": "",
+      "importance": "本章核心",
+      "topic": "Politiek in Nederland",
+      "topicId": "politiek-in-nederland",
+      "source": "Full chapter core vocabulary"
+    },
+    {
+      "word": "de meerderheid",
+      "meaning": "多数",
+      "example": "",
+      "note": "",
+      "importance": "本章核心",
+      "topic": "Politiek in Nederland",
+      "topicId": "politiek-in-nederland",
+      "source": "Full chapter core vocabulary"
+    },
+    {
+      "word": "de Tweede Kamer",
+      "meaning": "第二议院/众议院",
+      "example": "",
+      "note": "",
+      "importance": "本章核心",
+      "topic": "Politiek in Nederland",
+      "topicId": "politiek-in-nederland",
+      "source": "Full chapter core vocabulary"
+    },
+    {
+      "word": "de Eerste Kamer",
+      "meaning": "第一议院/参议院",
+      "example": "",
+      "note": "",
+      "importance": "本章核心",
+      "topic": "Politiek in Nederland",
+      "topicId": "politiek-in-nederland",
+      "source": "Full chapter core vocabulary"
+    },
+    {
+      "word": "het wetsvoorstel",
+      "meaning": "法案",
+      "example": "",
+      "note": "",
+      "importance": "本章核心",
+      "topic": "Politiek in Nederland",
+      "topicId": "politiek-in-nederland",
+      "source": "Full chapter core vocabulary"
+    },
+    {
+      "word": "de handtekening",
+      "meaning": "签名",
+      "example": "",
+      "note": "",
+      "importance": "本章核心",
+      "topic": "Politiek in Nederland",
+      "topicId": "politiek-in-nederland",
+      "source": "Full chapter core vocabulary"
+    },
+    {
+      "word": "de Prinsjesdag",
+      "meaning": "王子日/国会开幕日",
+      "example": "",
+      "note": "",
+      "importance": "本章核心",
+      "topic": "Politiek in Nederland",
+      "topicId": "politiek-in-nederland",
+      "source": "Full chapter core vocabulary"
+    },
+    {
+      "word": "de troonrede",
+      "meaning": "王座演说",
+      "example": "",
+      "note": "",
+      "importance": "本章核心",
+      "topic": "Politiek in Nederland",
+      "topicId": "politiek-in-nederland",
+      "source": "Full chapter core vocabulary"
+    },
+    {
+      "word": "de Provinciale Staten",
+      "meaning": "省议会",
+      "example": "",
+      "note": "",
+      "importance": "本章核心",
+      "topic": "Politiek in Nederland",
+      "topicId": "politiek-in-nederland",
+      "source": "Full chapter core vocabulary"
+    },
+    {
+      "word": "de commissaris van de Koning",
+      "meaning": "国王专员",
+      "example": "",
+      "note": "",
+      "importance": "本章核心",
+      "topic": "Politiek in Nederland",
+      "topicId": "politiek-in-nederland",
+      "source": "Full chapter core vocabulary"
+    },
+    {
+      "word": "de gemeente",
+      "meaning": "市镇政府",
+      "example": "",
+      "note": "",
+      "importance": "本章核心",
+      "topic": "Politiek in Nederland",
+      "topicId": "politiek-in-nederland",
+      "source": "Full chapter core vocabulary"
+    },
+    {
+      "word": "de gemeenteraad",
+      "meaning": "市议会",
+      "example": "",
+      "note": "",
+      "importance": "本章核心",
+      "topic": "Politiek in Nederland",
+      "topicId": "politiek-in-nederland",
+      "source": "Full chapter core vocabulary"
+    },
+    {
+      "word": "de burgemeester",
+      "meaning": "市长",
+      "example": "",
+      "note": "",
+      "importance": "本章核心",
+      "topic": "Politiek in Nederland",
+      "topicId": "politiek-in-nederland",
+      "source": "Full chapter core vocabulary"
+    },
+    {
+      "word": "het waterschap",
+      "meaning": "水务委员会",
+      "example": "",
+      "note": "",
+      "importance": "本章核心",
+      "topic": "Politiek in Nederland",
+      "topicId": "politiek-in-nederland",
+      "source": "Full chapter core vocabulary"
+    },
+    {
+      "word": "het Europees Parlement",
+      "meaning": "欧洲议会",
+      "example": "",
+      "note": "",
+      "importance": "本章核心",
+      "topic": "Politiek in Nederland",
+      "topicId": "politiek-in-nederland",
+      "source": "Full chapter core vocabulary"
+    },
+    {
+      "word": "het kiesrecht",
+      "meaning": "选举权",
+      "example": "",
+      "note": "",
+      "importance": "本章核心",
+      "topic": "Politiek in Nederland",
+      "topicId": "politiek-in-nederland",
+      "source": "Full chapter core vocabulary"
+    },
+    {
+      "word": "het stembiljet",
+      "meaning": "选票",
+      "example": "",
+      "note": "",
+      "importance": "本章核心",
+      "topic": "Politiek in Nederland",
+      "topicId": "politiek-in-nederland",
+      "source": "Full chapter core vocabulary"
+    },
+    {
+      "word": "de stempas",
+      "meaning": "投票证",
+      "example": "",
+      "note": "",
+      "importance": "本章核心",
+      "topic": "Politiek in Nederland",
+      "topicId": "politiek-in-nederland",
+      "source": "Full chapter core vocabulary"
+    },
+    {
+      "word": "de lijsttrekker",
+      "meaning": "政党头号候选人",
+      "example": "",
+      "note": "",
+      "importance": "本章核心",
+      "topic": "Politiek in Nederland",
+      "topicId": "politiek-in-nederland",
+      "source": "Full chapter core vocabulary"
+    },
+    {
+      "word": "de uitslag",
+      "meaning": "结果",
+      "example": "",
+      "note": "",
+      "importance": "本章核心",
+      "topic": "Politiek in Nederland",
+      "topicId": "politiek-in-nederland",
+      "source": "Full chapter core vocabulary"
+    },
+    {
+      "word": "de coalitie",
+      "meaning": "执政联盟",
+      "example": "",
+      "note": "",
+      "importance": "本章核心",
+      "topic": "Politiek in Nederland",
+      "topicId": "politiek-in-nederland",
+      "source": "Full chapter core vocabulary"
+    },
+    {
+      "word": "het regeerakkoord",
+      "meaning": "执政协定",
+      "example": "",
+      "note": "",
+      "importance": "本章核心",
+      "topic": "Politiek in Nederland",
+      "topicId": "politiek-in-nederland",
+      "source": "Full chapter core vocabulary"
+    },
+    {
+      "word": "de oppositie",
+      "meaning": "反对党",
+      "example": "",
+      "note": "",
+      "importance": "本章核心",
+      "topic": "Politiek in Nederland",
+      "topicId": "politiek-in-nederland",
+      "source": "Full chapter core vocabulary"
+    },
+    {
+      "word": "de godsdienstvrijheid",
+      "meaning": "宗教自由",
+      "example": "",
+      "note": "",
+      "importance": "本章核心",
+      "topic": "Politiek in Nederland",
+      "topicId": "politiek-in-nederland",
+      "source": "Full chapter core vocabulary"
+    },
+    {
+      "word": "de vrijheid van meningsuiting",
+      "meaning": "言论自由",
+      "example": "",
+      "note": "",
+      "importance": "本章核心",
+      "topic": "Politiek in Nederland",
+      "topicId": "politiek-in-nederland",
+      "source": "Full chapter core vocabulary"
+    },
+    {
+      "word": "de scheiding van machten",
+      "meaning": "权力分立",
+      "example": "",
+      "note": "",
+      "importance": "本章核心",
+      "topic": "Politiek in Nederland",
+      "topicId": "politiek-in-nederland",
+      "source": "Full chapter core vocabulary"
+    },
+    {
+      "word": "de rechter",
+      "meaning": "法官",
+      "example": "",
+      "note": "",
+      "importance": "本章核心",
+      "topic": "Politiek in Nederland",
+      "topicId": "politiek-in-nederland",
+      "source": "Full chapter core vocabulary"
+    },
+    {
+      "word": "protesteren",
+      "meaning": "抗议",
+      "example": "",
+      "note": "",
+      "importance": "本章核心",
+      "topic": "Politiek in Nederland",
+      "topicId": "politiek-in-nederland",
+      "source": "Full chapter core vocabulary"
+    },
+    {
+      "word": "de petitie",
+      "meaning": "请愿",
+      "example": "",
+      "note": "",
+      "importance": "本章核心",
+      "topic": "Politiek in Nederland",
+      "topicId": "politiek-in-nederland",
+      "source": "Full chapter core vocabulary"
+    },
+    {
+      "word": "de demonstratie",
+      "meaning": "示威",
+      "example": "",
+      "note": "",
+      "importance": "本章核心",
+      "topic": "Politiek in Nederland",
+      "topicId": "politiek-in-nederland",
+      "source": "Full chapter core vocabulary"
     },
     {
       "word": "bevrijding",
@@ -17472,76 +21001,6 @@ export const KNM_CONTENT = {
       "importance": "",
       "topic": "De mensen in Nederland",
       "topicId": "de-mensen-in-nederland",
-      "source": "KNM study guide chapter vocabulary"
-    },
-    {
-      "word": "uitnodiging",
-      "meaning": "邀请函",
-      "example": "een uitnodiging sturen",
-      "note": "",
-      "importance": "",
-      "topic": "De mensen in Nederland",
-      "topicId": "de-mensen-in-nederland",
-      "source": "KNM study guide chapter vocabulary"
-    },
-    {
-      "word": "bruiloft",
-      "meaning": "婚礼",
-      "example": "een bruiloft vieren",
-      "note": "",
-      "importance": "",
-      "topic": "De mensen in Nederland",
-      "topicId": "de-mensen-in-nederland",
-      "source": "KNM study guide chapter vocabulary"
-    },
-    {
-      "word": "inchecken",
-      "meaning": "刷卡进站",
-      "example": "inchecken met de OV-chipkaart",
-      "note": "",
-      "importance": "",
-      "topic": "De mensen in Nederland",
-      "topicId": "de-mensen-in-nederland",
-      "source": "KNM study guide chapter vocabulary"
-    },
-    {
-      "word": "uitchecken",
-      "meaning": "刷卡出站",
-      "example": "niet vergeten uit te checken",
-      "note": "",
-      "importance": "",
-      "topic": "De mensen in Nederland",
-      "topicId": "de-mensen-in-nederland",
-      "source": "KNM study guide chapter vocabulary"
-    },
-    {
-      "word": "behandeling",
-      "meaning": "治疗",
-      "example": "De arts bespreekt de behandeling.",
-      "note": "",
-      "importance": "",
-      "topic": "Gezondheid en gezondheidszorg in Nederland",
-      "topicId": "gezondheid-en-gezondheidszorg-in-nederland",
-      "source": "KNM study guide chapter vocabulary"
-    },
-    {
-      "word": "bijsluiter",
-      "meaning": "药品说明书",
-      "example": "Lees de bijsluiter.",
-      "note": "",
-      "importance": "",
-      "topic": "Gezondheid en gezondheidszorg in Nederland",
-      "topicId": "gezondheid-en-gezondheidszorg-in-nederland",
-      "source": "KNM study guide chapter vocabulary"
-    },
-    {
-      "word": "wachtlijst",
-      "meaning": "等候名单",
-      "example": "Er is een wachtlijst.",
-      "note": "",
-      "importance": "",
-      "topic": "Gezondheid en gezondheidszorg in Nederland",
-      "topicId": "gezondheid-en-gezondheidszorg-in-nederland",
       "source": "KNM study guide chapter vocabulary"
     },
     {
@@ -17555,16 +21014,6 @@ export const KNM_CONTENT = {
       "source": "KNM study guide chapter vocabulary"
     },
     {
-      "word": "huren",
-      "meaning": "租",
-      "example": "een woning huren",
-      "note": "",
-      "importance": "",
-      "topic": "Wonen in Nederland",
-      "topicId": "wonen-in-nederland",
-      "source": "KNM study guide chapter vocabulary"
-    },
-    {
       "word": "kopen",
       "meaning": "购买",
       "example": "een huis kopen",
@@ -17575,49 +21024,9 @@ export const KNM_CONTENT = {
       "source": "KNM study guide chapter vocabulary"
     },
     {
-      "word": "huurcontract",
-      "meaning": "租赁合同",
-      "example": "een huurcontract tekenen",
-      "note": "",
-      "importance": "",
-      "topic": "Wonen in Nederland",
-      "topicId": "wonen-in-nederland",
-      "source": "KNM study guide chapter vocabulary"
-    },
-    {
-      "word": "onderhoud",
-      "meaning": "维护保养",
-      "example": "groot onderhoud",
-      "note": "",
-      "importance": "",
-      "topic": "Wonen in Nederland",
-      "topicId": "wonen-in-nederland",
-      "source": "KNM study guide chapter vocabulary"
-    },
-    {
       "word": "reparatie",
       "meaning": "维修",
       "example": "een reparatie uitvoeren",
-      "note": "",
-      "importance": "",
-      "topic": "Wonen in Nederland",
-      "topicId": "wonen-in-nederland",
-      "source": "KNM study guide chapter vocabulary"
-    },
-    {
-      "word": "vergunning",
-      "meaning": "许可",
-      "example": "een vergunning aanvragen",
-      "note": "",
-      "importance": "",
-      "topic": "Wonen in Nederland",
-      "topicId": "wonen-in-nederland",
-      "source": "KNM study guide chapter vocabulary"
-    },
-    {
-      "word": "schade",
-      "meaning": "损坏/损失",
-      "example": "schade melden",
       "note": "",
       "importance": "",
       "topic": "Wonen in Nederland",
@@ -17685,56 +21094,6 @@ export const KNM_CONTENT = {
       "source": "KNM study guide chapter vocabulary"
     },
     {
-      "word": "naturalisatie",
-      "meaning": "入籍",
-      "example": "Naturalisatie betekent Nederlander worden.",
-      "note": "",
-      "importance": "",
-      "topic": "Dienstverlening in Nederland",
-      "topicId": "dienstverlening-in-nederland",
-      "source": "KNM study guide chapter vocabulary"
-    },
-    {
-      "word": "machtiging",
-      "meaning": "授权",
-      "example": "Een machtiging voor automatische incasso.",
-      "note": "",
-      "importance": "",
-      "topic": "Dienstverlening in Nederland",
-      "topicId": "dienstverlening-in-nederland",
-      "source": "KNM study guide chapter vocabulary"
-    },
-    {
-      "word": "zwanger",
-      "meaning": "怀孕的",
-      "example": "Zij is zwanger.",
-      "note": "",
-      "importance": "",
-      "topic": "Opvoeding en onderwijs in Nederland",
-      "topicId": "opvoeding-en-onderwijs-in-nederland",
-      "source": "KNM study guide chapter vocabulary"
-    },
-    {
-      "word": "bevallen",
-      "meaning": "分娩",
-      "example": "Zij gaat in het ziekenhuis bevallen.",
-      "note": "",
-      "importance": "",
-      "topic": "Opvoeding en onderwijs in Nederland",
-      "topicId": "opvoeding-en-onderwijs-in-nederland",
-      "source": "KNM study guide chapter vocabulary"
-    },
-    {
-      "word": "vaccinatie",
-      "meaning": "疫苗接种",
-      "example": "Het kind krijgt een vaccinatie.",
-      "note": "",
-      "importance": "",
-      "topic": "Opvoeding en onderwijs in Nederland",
-      "topicId": "opvoeding-en-onderwijs-in-nederland",
-      "source": "KNM study guide chapter vocabulary"
-    },
-    {
       "word": "inschrijven",
       "meaning": "注册报名",
       "example": "Schrijf het kind op tijd in.",
@@ -17742,46 +21101,6 @@ export const KNM_CONTENT = {
       "importance": "",
       "topic": "Opvoeding en onderwijs in Nederland",
       "topicId": "opvoeding-en-onderwijs-in-nederland",
-      "source": "KNM study guide chapter vocabulary"
-    },
-    {
-      "word": "rapport",
-      "meaning": "成绩报告",
-      "example": "Het kind krijgt een rapport.",
-      "note": "",
-      "importance": "",
-      "topic": "Opvoeding en onderwijs in Nederland",
-      "topicId": "opvoeding-en-onderwijs-in-nederland",
-      "source": "KNM study guide chapter vocabulary"
-    },
-    {
-      "word": "ouderavond",
-      "meaning": "家长会",
-      "example": "De school organiseert een ouderavond.",
-      "note": "",
-      "importance": "",
-      "topic": "Opvoeding en onderwijs in Nederland",
-      "topicId": "opvoeding-en-onderwijs-in-nederland",
-      "source": "KNM study guide chapter vocabulary"
-    },
-    {
-      "word": "werkgever",
-      "meaning": "雇主",
-      "example": "De werkgever betaalt loon.",
-      "note": "",
-      "importance": "",
-      "topic": "Werken in Nederland",
-      "topicId": "werken-in-nederland",
-      "source": "KNM study guide chapter vocabulary"
-    },
-    {
-      "word": "werknemer",
-      "meaning": "雇员",
-      "example": "De werknemer heeft rechten en plichten.",
-      "note": "",
-      "importance": "",
-      "topic": "Werken in Nederland",
-      "topicId": "werken-in-nederland",
       "source": "KNM study guide chapter vocabulary"
     },
     {
@@ -17805,76 +21124,6 @@ export const KNM_CONTENT = {
       "source": "KNM study guide chapter vocabulary"
     },
     {
-      "word": "ontslag nemen",
-      "meaning": "辞职",
-      "example": "zelf stoppen met werken",
-      "note": "",
-      "importance": "",
-      "topic": "Werken in Nederland",
-      "topicId": "werken-in-nederland",
-      "source": "KNM study guide chapter vocabulary"
-    },
-    {
-      "word": "ontslag krijgen",
-      "meaning": "被解雇",
-      "example": "de werkgever beëindigt het werk",
-      "note": "",
-      "importance": "",
-      "topic": "Werken in Nederland",
-      "topicId": "werken-in-nederland",
-      "source": "KNM study guide chapter vocabulary"
-    },
-    {
-      "word": "werkloos",
-      "meaning": "失业的",
-      "example": "zich inschrijven als werkzoekende",
-      "note": "",
-      "importance": "",
-      "topic": "Werken in Nederland",
-      "topicId": "werken-in-nederland",
-      "source": "KNM study guide chapter vocabulary"
-    },
-    {
-      "word": "uitkering",
-      "meaning": "社会给付",
-      "example": "een uitkering aanvragen",
-      "note": "",
-      "importance": "",
-      "topic": "Werken in Nederland",
-      "topicId": "werken-in-nederland",
-      "source": "KNM study guide chapter vocabulary"
-    },
-    {
-      "word": "ondernemer",
-      "meaning": "创业者/企业主",
-      "example": "een eigen bedrijf beginnen",
-      "note": "",
-      "importance": "",
-      "topic": "Werken in Nederland",
-      "topicId": "werken-in-nederland",
-      "source": "KNM study guide chapter vocabulary"
-    },
-    {
-      "word": "seksuele voorlichting",
-      "meaning": "性教育",
-      "example": "informatie over lichaam, relaties en veiligheid",
-      "note": "",
-      "importance": "",
-      "topic": "Samenleven in Nederland",
-      "topicId": "samenleven-in-nederland",
-      "source": "KNM study guide chapter vocabulary"
-    },
-    {
-      "word": "respect",
-      "meaning": "尊重",
-      "example": "respect voor verschillen",
-      "note": "",
-      "importance": "",
-      "topic": "Samenleven in Nederland",
-      "topicId": "samenleven-in-nederland",
-      "source": "KNM study guide chapter vocabulary"
-    },
-    {
       "word": "opstand / verzet",
       "meaning": "起义/抵抗",
       "example": "in verzet komen",
@@ -17895,16 +21144,6 @@ export const KNM_CONTENT = {
       "source": "KNM study guide chapter vocabulary"
     },
     {
-      "word": "handel",
-      "meaning": "贸易",
-      "example": "handel over zee",
-      "note": "",
-      "importance": "",
-      "topic": "De geschiedenis van Nederland",
-      "topicId": "de-geschiedenis-van-nederland",
-      "source": "KNM study guide chapter vocabulary"
-    },
-    {
       "word": "bezetten",
       "meaning": "占领",
       "example": "Nederland werd bezet",
@@ -17912,16 +21151,6 @@ export const KNM_CONTENT = {
       "importance": "",
       "topic": "De geschiedenis van Nederland",
       "topicId": "de-geschiedenis-van-nederland",
-      "source": "KNM study guide chapter vocabulary"
-    },
-    {
-      "word": "meerderheid",
-      "meaning": "多数",
-      "example": "meer dan de helft",
-      "note": "",
-      "importance": "",
-      "topic": "Politiek in Nederland",
-      "topicId": "politiek-in-nederland",
       "source": "KNM study guide chapter vocabulary"
     },
     {
@@ -17935,29 +21164,9 @@ export const KNM_CONTENT = {
       "source": "KNM study guide chapter vocabulary"
     },
     {
-      "word": "oppositie",
-      "meaning": "反对党",
-      "example": "partijen buiten het kabinet",
-      "note": "",
-      "importance": "",
-      "topic": "Politiek in Nederland",
-      "topicId": "politiek-in-nederland",
-      "source": "KNM study guide chapter vocabulary"
-    },
-    {
       "word": "meningsuiting",
       "meaning": "表达意见",
       "example": "vrijheid van meningsuiting",
-      "note": "",
-      "importance": "",
-      "topic": "Politiek in Nederland",
-      "topicId": "politiek-in-nederland",
-      "source": "KNM study guide chapter vocabulary"
-    },
-    {
-      "word": "rechter",
-      "meaning": "法官",
-      "example": "onafhankelijk beslissen",
       "note": "",
       "importance": "",
       "topic": "Politiek in Nederland",
@@ -18055,8 +21264,8 @@ export const KNM_CONTENT = {
       "source": "KNM study guide comprehensive vocabulary"
     },
     {
-      "word": "dienstverlening",
-      "meaning": "公共服务",
+      "word": "openbaar vervoer",
+      "meaning": "公共交通",
       "example": "",
       "note": "地理、社会与公共服务",
       "importance": "综合词汇",
@@ -18067,16 +21276,6 @@ export const KNM_CONTENT = {
     {
       "word": "maatschappelijk",
       "meaning": "社会的",
-      "example": "",
-      "note": "地理、社会与公共服务",
-      "importance": "综合词汇",
-      "topic": "地理、社会与公共服务",
-      "topicId": "dienstverlening-in-nederland",
-      "source": "KNM study guide comprehensive vocabulary"
-    },
-    {
-      "word": "bekeuring",
-      "meaning": "罚单",
       "example": "",
       "note": "地理、社会与公共服务",
       "importance": "综合词汇",
@@ -18165,8 +21364,28 @@ export const KNM_CONTENT = {
       "source": "KNM study guide comprehensive vocabulary"
     },
     {
+      "word": "geweld",
+      "meaning": "暴力",
+      "example": "",
+      "note": "地理、社会与公共服务",
+      "importance": "综合词汇",
+      "topic": "地理、社会与公共服务",
+      "topicId": "dienstverlening-in-nederland",
+      "source": "KNM study guide comprehensive vocabulary"
+    },
+    {
       "word": "inbreken",
       "meaning": "入室盗窃",
+      "example": "",
+      "note": "地理、社会与公共服务",
+      "importance": "综合词汇",
+      "topic": "地理、社会与公共服务",
+      "topicId": "dienstverlening-in-nederland",
+      "source": "KNM study guide comprehensive vocabulary"
+    },
+    {
+      "word": "vergunning",
+      "meaning": "许可",
       "example": "",
       "note": "地理、社会与公共服务",
       "importance": "综合词汇",
@@ -18235,26 +21454,6 @@ export const KNM_CONTENT = {
       "source": "KNM study guide comprehensive vocabulary"
     },
     {
-      "word": "in de rij staan",
-      "meaning": "排队",
-      "example": "",
-      "note": "礼仪、交流与日常生活",
-      "importance": "综合词汇",
-      "topic": "礼仪、交流与日常生活",
-      "topicId": "de-mensen-in-nederland",
-      "source": "KNM study guide comprehensive vocabulary"
-    },
-    {
-      "word": "agenda",
-      "meaning": "日程本/日历",
-      "example": "",
-      "note": "礼仪、交流与日常生活",
-      "importance": "综合词汇",
-      "topic": "礼仪、交流与日常生活",
-      "topicId": "de-mensen-in-nederland",
-      "source": "KNM study guide comprehensive vocabulary"
-    },
-    {
       "word": "gesprek",
       "meaning": "谈话",
       "example": "",
@@ -18267,16 +21466,6 @@ export const KNM_CONTENT = {
     {
       "word": "afspreken",
       "meaning": "约定",
-      "example": "",
-      "note": "礼仪、交流与日常生活",
-      "importance": "综合词汇",
-      "topic": "礼仪、交流与日常生活",
-      "topicId": "de-mensen-in-nederland",
-      "source": "KNM study guide comprehensive vocabulary"
-    },
-    {
-      "word": "kennismaken",
-      "meaning": "认识/初次见面",
       "example": "",
       "note": "礼仪、交流与日常生活",
       "importance": "综合词汇",
@@ -18305,16 +21494,6 @@ export const KNM_CONTENT = {
       "source": "KNM study guide comprehensive vocabulary"
     },
     {
-      "word": "begrafenis",
-      "meaning": "葬礼",
-      "example": "",
-      "note": "礼仪、交流与日常生活",
-      "importance": "综合词汇",
-      "topic": "礼仪、交流与日常生活",
-      "topicId": "de-mensen-in-nederland",
-      "source": "KNM study guide comprehensive vocabulary"
-    },
-    {
       "word": "vuurwerk",
       "meaning": "烟花",
       "example": "",
@@ -18327,16 +21506,6 @@ export const KNM_CONTENT = {
     {
       "word": "kaarsje",
       "meaning": "小蜡烛",
-      "example": "",
-      "note": "礼仪、交流与日常生活",
-      "importance": "综合词汇",
-      "topic": "礼仪、交流与日常生活",
-      "topicId": "de-mensen-in-nederland",
-      "source": "KNM study guide comprehensive vocabulary"
-    },
-    {
-      "word": "trakteren",
-      "meaning": "请客/分发庆祝食品",
       "example": "",
       "note": "礼仪、交流与日常生活",
       "importance": "综合词汇",
@@ -18367,26 +21536,6 @@ export const KNM_CONTENT = {
     {
       "word": "beschuit",
       "meaning": "脆面包片",
-      "example": "",
-      "note": "礼仪、交流与日常生活",
-      "importance": "综合词汇",
-      "topic": "礼仪、交流与日常生活",
-      "topicId": "de-mensen-in-nederland",
-      "source": "KNM study guide comprehensive vocabulary"
-    },
-    {
-      "word": "beschuit met muisjes",
-      "meaning": "庆祝新生儿的脆面包片配糖粒",
-      "example": "",
-      "note": "礼仪、交流与日常生活",
-      "importance": "综合词汇",
-      "topic": "礼仪、交流与日常生活",
-      "topicId": "de-mensen-in-nederland",
-      "source": "KNM study guide comprehensive vocabulary"
-    },
-    {
-      "word": "beterschap",
-      "meaning": "早日康复",
       "example": "",
       "note": "礼仪、交流与日常生活",
       "importance": "综合词汇",
@@ -18477,6 +21626,16 @@ export const KNM_CONTENT = {
     {
       "word": "onbepaalde tijd",
       "meaning": "无限期/长期",
+      "example": "",
+      "note": "居留、住房、税费与保险",
+      "importance": "综合词汇",
+      "topic": "居留、住房、税费与保险",
+      "topicId": "wonen-in-nederland",
+      "source": "KNM study guide comprehensive vocabulary"
+    },
+    {
+      "word": "naturalisatie",
+      "meaning": "入籍",
       "example": "",
       "note": "居留、住房、税费与保险",
       "importance": "综合词汇",
@@ -18585,16 +21744,6 @@ export const KNM_CONTENT = {
       "source": "KNM study guide comprehensive vocabulary"
     },
     {
-      "word": "rente",
-      "meaning": "利息",
-      "example": "",
-      "note": "居留、住房、税费与保险",
-      "importance": "综合词汇",
-      "topic": "居留、住房、税费与保险",
-      "topicId": "wonen-in-nederland",
-      "source": "KNM study guide comprehensive vocabulary"
-    },
-    {
       "word": "regio",
       "meaning": "地区",
       "example": "",
@@ -18617,16 +21766,6 @@ export const KNM_CONTENT = {
     {
       "word": "aanbieden",
       "meaning": "提供",
-      "example": "",
-      "note": "居留、住房、税费与保险",
-      "importance": "综合词汇",
-      "topic": "居留、住房、税费与保险",
-      "topicId": "wonen-in-nederland",
-      "source": "KNM study guide comprehensive vocabulary"
-    },
-    {
-      "word": "urgentieverklaring",
-      "meaning": "住房紧急证明",
       "example": "",
       "note": "居留、住房、税费与保险",
       "importance": "综合词汇",
@@ -18675,8 +21814,8 @@ export const KNM_CONTENT = {
       "source": "KNM study guide comprehensive vocabulary"
     },
     {
-      "word": "grofvuil",
-      "meaning": "大型垃圾",
+      "word": "uitkering",
+      "meaning": "社会给付",
       "example": "",
       "note": "居留、住房、税费与保险",
       "importance": "综合词汇",
@@ -18737,16 +21876,6 @@ export const KNM_CONTENT = {
     {
       "word": "repareren",
       "meaning": "修理",
-      "example": "",
-      "note": "居留、住房、税费与保险",
-      "importance": "综合词汇",
-      "topic": "居留、住房、税费与保险",
-      "topicId": "wonen-in-nederland",
-      "source": "KNM study guide comprehensive vocabulary"
-    },
-    {
-      "word": "zuinig",
-      "meaning": "节约的",
       "example": "",
       "note": "居留、住房、税费与保险",
       "importance": "综合词汇",
@@ -18825,26 +21954,6 @@ export const KNM_CONTENT = {
       "source": "KNM study guide comprehensive vocabulary"
     },
     {
-      "word": "premie",
-      "meaning": "保险费",
-      "example": "",
-      "note": "居留、住房、税费与保险",
-      "importance": "综合词汇",
-      "topic": "居留、住房、税费与保险",
-      "topicId": "wonen-in-nederland",
-      "source": "KNM study guide comprehensive vocabulary"
-    },
-    {
-      "word": "polis",
-      "meaning": "保险合同",
-      "example": "",
-      "note": "居留、住房、税费与保险",
-      "importance": "综合词汇",
-      "topic": "居留、住房、税费与保险",
-      "topicId": "wonen-in-nederland",
-      "source": "KNM study guide comprehensive vocabulary"
-    },
-    {
       "word": "per ongeluk",
       "meaning": "不小心",
       "example": "",
@@ -18905,16 +22014,6 @@ export const KNM_CONTENT = {
       "source": "KNM study guide comprehensive vocabulary"
     },
     {
-      "word": "uitzendbureau",
-      "meaning": "劳务派遣/招聘机构",
-      "example": "",
-      "note": "工作与职业",
-      "importance": "综合词汇",
-      "topic": "工作与职业",
-      "topicId": "werken-in-nederland",
-      "source": "KNM study guide comprehensive vocabulary"
-    },
-    {
       "word": "regelmatige werktijden",
       "meaning": "规律工时",
       "example": "",
@@ -18955,26 +22054,6 @@ export const KNM_CONTENT = {
       "source": "KNM study guide comprehensive vocabulary"
     },
     {
-      "word": "diploma waarderen",
-      "meaning": "学历认证/评估",
-      "example": "",
-      "note": "工作与职业",
-      "importance": "综合词汇",
-      "topic": "工作与职业",
-      "topicId": "werken-in-nederland",
-      "source": "KNM study guide comprehensive vocabulary"
-    },
-    {
-      "word": "ongeschoold werk",
-      "meaning": "通常不要求专业学历的工作",
-      "example": "",
-      "note": "工作与职业",
-      "importance": "综合词汇",
-      "topic": "工作与职业",
-      "topicId": "werken-in-nederland",
-      "source": "KNM study guide comprehensive vocabulary"
-    },
-    {
       "word": "beroepstraining",
       "meaning": "职业培训",
       "example": "",
@@ -18987,16 +22066,6 @@ export const KNM_CONTENT = {
     {
       "word": "beroepscompetentie",
       "meaning": "职业能力",
-      "example": "",
-      "note": "工作与职业",
-      "importance": "综合词汇",
-      "topic": "工作与职业",
-      "topicId": "werken-in-nederland",
-      "source": "KNM study guide comprehensive vocabulary"
-    },
-    {
-      "word": "kwaliteit",
-      "meaning": "能力/品质",
       "example": "",
       "note": "工作与职业",
       "importance": "综合词汇",
@@ -19085,16 +22154,6 @@ export const KNM_CONTENT = {
       "source": "KNM study guide comprehensive vocabulary"
     },
     {
-      "word": "arbeidsvoorwaarden",
-      "meaning": "劳动条件",
-      "example": "",
-      "note": "工作与职业",
-      "importance": "综合词汇",
-      "topic": "工作与职业",
-      "topicId": "werken-in-nederland",
-      "source": "KNM study guide comprehensive vocabulary"
-    },
-    {
       "word": "rechten en plichten",
       "meaning": "权利与义务",
       "example": "",
@@ -19155,46 +22214,6 @@ export const KNM_CONTENT = {
       "source": "KNM study guide comprehensive vocabulary"
     },
     {
-      "word": "jaaropgave",
-      "meaning": "年度收入证明",
-      "example": "",
-      "note": "工作与职业",
-      "importance": "综合词汇",
-      "topic": "工作与职业",
-      "topicId": "werken-in-nederland",
-      "source": "KNM study guide comprehensive vocabulary"
-    },
-    {
-      "word": "vakbond",
-      "meaning": "工会",
-      "example": "",
-      "note": "工作与职业",
-      "importance": "综合词汇",
-      "topic": "工作与职业",
-      "topicId": "werken-in-nederland",
-      "source": "KNM study guide comprehensive vocabulary"
-    },
-    {
-      "word": "ondernemingsraad",
-      "meaning": "企业职工委员会",
-      "example": "",
-      "note": "工作与职业",
-      "importance": "综合词汇",
-      "topic": "工作与职业",
-      "topicId": "werken-in-nederland",
-      "source": "KNM study guide comprehensive vocabulary"
-    },
-    {
-      "word": "ondernemingsplan",
-      "meaning": "商业计划",
-      "example": "",
-      "note": "工作与职业",
-      "importance": "综合词汇",
-      "topic": "工作与职业",
-      "topicId": "werken-in-nederland",
-      "source": "KNM study guide comprehensive vocabulary"
-    },
-    {
       "word": "Kamer van Koophandel (KvK)",
       "meaning": "商会/企业登记机构",
       "example": "",
@@ -19207,26 +22226,6 @@ export const KNM_CONTENT = {
     {
       "word": "overleg",
       "meaning": "协商/会议",
-      "example": "",
-      "note": "工作与职业",
-      "importance": "综合词汇",
-      "topic": "工作与职业",
-      "topicId": "werken-in-nederland",
-      "source": "KNM study guide comprehensive vocabulary"
-    },
-    {
-      "word": "kritiek",
-      "meaning": "批评/反馈",
-      "example": "",
-      "note": "工作与职业",
-      "importance": "综合词汇",
-      "topic": "工作与职业",
-      "topicId": "werken-in-nederland",
-      "source": "KNM study guide comprehensive vocabulary"
-    },
-    {
-      "word": "vrijwilligerswerk",
-      "meaning": "志愿工作",
       "example": "",
       "note": "工作与职业",
       "importance": "综合词汇",
@@ -19375,6 +22374,26 @@ export const KNM_CONTENT = {
       "source": "KNM study guide comprehensive vocabulary"
     },
     {
+      "word": "seksuele voorlichting",
+      "meaning": "性教育",
+      "example": "",
+      "note": "家庭、教育与社会关系",
+      "importance": "综合词汇",
+      "topic": "家庭、教育与社会关系",
+      "topicId": "opvoeding-en-onderwijs-in-nederland",
+      "source": "KNM study guide comprehensive vocabulary"
+    },
+    {
+      "word": "gelijkheid",
+      "meaning": "平等",
+      "example": "",
+      "note": "家庭、教育与社会关系",
+      "importance": "综合词汇",
+      "topic": "家庭、教育与社会关系",
+      "topicId": "opvoeding-en-onderwijs-in-nederland",
+      "source": "KNM study guide comprehensive vocabulary"
+    },
+    {
       "word": "huishouden",
       "meaning": "家务/家庭",
       "example": "",
@@ -19445,8 +22464,28 @@ export const KNM_CONTENT = {
       "source": "KNM study guide comprehensive vocabulary"
     },
     {
+      "word": "gewoonte",
+      "meaning": "习惯/风俗",
+      "example": "",
+      "note": "家庭、教育与社会关系",
+      "importance": "综合词汇",
+      "topic": "家庭、教育与社会关系",
+      "topicId": "opvoeding-en-onderwijs-in-nederland",
+      "source": "KNM study guide comprehensive vocabulary"
+    },
+    {
       "word": "neef en nicht",
       "meaning": "表/堂兄弟姐妹、侄子侄女；依语境",
+      "example": "",
+      "note": "家庭、教育与社会关系",
+      "importance": "综合词汇",
+      "topic": "家庭、教育与社会关系",
+      "topicId": "opvoeding-en-onderwijs-in-nederland",
+      "source": "KNM study guide comprehensive vocabulary"
+    },
+    {
+      "word": "mishandeling",
+      "meaning": "虐待/殴打",
       "example": "",
       "note": "家庭、教育与社会关系",
       "importance": "综合词汇",
@@ -19565,28 +22604,8 @@ export const KNM_CONTENT = {
       "source": "KNM study guide comprehensive vocabulary"
     },
     {
-      "word": "oppas",
-      "meaning": "保姆/临时照护者",
-      "example": "",
-      "note": "家庭、教育与社会关系",
-      "importance": "综合词汇",
-      "topic": "家庭、教育与社会关系",
-      "topicId": "opvoeding-en-onderwijs-in-nederland",
-      "source": "KNM study guide comprehensive vocabulary"
-    },
-    {
       "word": "bijslag",
       "meaning": "补助",
-      "example": "",
-      "note": "家庭、教育与社会关系",
-      "importance": "综合词汇",
-      "topic": "家庭、教育与社会关系",
-      "topicId": "opvoeding-en-onderwijs-in-nederland",
-      "source": "KNM study guide comprehensive vocabulary"
-    },
-    {
-      "word": "opvoeding",
-      "meaning": "养育/家庭教育",
       "example": "",
       "note": "家庭、教育与社会关系",
       "importance": "综合词汇",
@@ -19675,16 +22694,6 @@ export const KNM_CONTENT = {
       "source": "KNM study guide comprehensive vocabulary"
     },
     {
-      "word": "voorschool",
-      "meaning": "学前教育项目",
-      "example": "",
-      "note": "家庭、教育与社会关系",
-      "importance": "综合词汇",
-      "topic": "家庭、教育与社会关系",
-      "topicId": "opvoeding-en-onderwijs-in-nederland",
-      "source": "KNM study guide comprehensive vocabulary"
-    },
-    {
       "word": "geschiedenis",
       "meaning": "历史",
       "example": "",
@@ -19725,38 +22734,8 @@ export const KNM_CONTENT = {
       "source": "KNM study guide comprehensive vocabulary"
     },
     {
-      "word": "ouderbijdrage",
-      "meaning": "家长自愿缴费",
-      "example": "",
-      "note": "家庭、教育与社会关系",
-      "importance": "综合词汇",
-      "topic": "家庭、教育与社会关系",
-      "topicId": "opvoeding-en-onderwijs-in-nederland",
-      "source": "KNM study guide comprehensive vocabulary"
-    },
-    {
       "word": "lening",
       "meaning": "贷款",
-      "example": "",
-      "note": "家庭、教育与社会关系",
-      "importance": "综合词汇",
-      "topic": "家庭、教育与社会关系",
-      "topicId": "opvoeding-en-onderwijs-in-nederland",
-      "source": "KNM study guide comprehensive vocabulary"
-    },
-    {
-      "word": "overblijven",
-      "meaning": "留校午餐/托管",
-      "example": "",
-      "note": "家庭、教育与社会关系",
-      "importance": "综合词汇",
-      "topic": "家庭、教育与社会关系",
-      "topicId": "opvoeding-en-onderwijs-in-nederland",
-      "source": "KNM study guide comprehensive vocabulary"
-    },
-    {
-      "word": "kindgebonden budget",
-      "meaning": "儿童相关收入补助",
       "example": "",
       "note": "家庭、教育与社会关系",
       "importance": "综合词汇",
@@ -19795,16 +22774,6 @@ export const KNM_CONTENT = {
       "source": "KNM study guide comprehensive vocabulary"
     },
     {
-      "word": "troonrede",
-      "meaning": "王座演说",
-      "example": "",
-      "note": "政治、法律与民主",
-      "importance": "综合词汇",
-      "topic": "政治、法律与民主",
-      "topicId": "politiek-in-nederland",
-      "source": "KNM study guide comprehensive vocabulary"
-    },
-    {
       "word": "namens",
       "meaning": "代表",
       "example": "",
@@ -19835,16 +22804,6 @@ export const KNM_CONTENT = {
       "source": "KNM study guide comprehensive vocabulary"
     },
     {
-      "word": "gemeenteraad",
-      "meaning": "市议会",
-      "example": "",
-      "note": "政治、法律与民主",
-      "importance": "综合词汇",
-      "topic": "政治、法律与民主",
-      "topicId": "politiek-in-nederland",
-      "source": "KNM study guide comprehensive vocabulary"
-    },
-    {
       "word": "verdelen",
       "meaning": "分配",
       "example": "",
@@ -19857,16 +22816,6 @@ export const KNM_CONTENT = {
     {
       "word": "reclame",
       "meaning": "宣传/广告",
-      "example": "",
-      "note": "政治、法律与民主",
-      "importance": "综合词汇",
-      "topic": "政治、法律与民主",
-      "topicId": "politiek-in-nederland",
-      "source": "KNM study guide comprehensive vocabulary"
-    },
-    {
-      "word": "uitslag",
-      "meaning": "结果",
       "example": "",
       "note": "政治、法律与民主",
       "importance": "综合词汇",
@@ -19897,26 +22846,6 @@ export const KNM_CONTENT = {
     {
       "word": "mening",
       "meaning": "意见",
-      "example": "",
-      "note": "政治、法律与民主",
-      "importance": "综合词汇",
-      "topic": "政治、法律与民主",
-      "topicId": "politiek-in-nederland",
-      "source": "KNM study guide comprehensive vocabulary"
-    },
-    {
-      "word": "vrijheid van meningsuiting",
-      "meaning": "言论/表达自由",
-      "example": "",
-      "note": "政治、法律与民主",
-      "importance": "综合词汇",
-      "topic": "政治、法律与民主",
-      "topicId": "politiek-in-nederland",
-      "source": "KNM study guide comprehensive vocabulary"
-    },
-    {
-      "word": "demonstratie",
-      "meaning": "示威游行",
       "example": "",
       "note": "政治、法律与民主",
       "importance": "综合词汇",
@@ -19995,16 +22924,6 @@ export const KNM_CONTENT = {
       "source": "KNM study guide comprehensive vocabulary"
     },
     {
-      "word": "kasteel",
-      "meaning": "城堡",
-      "example": "",
-      "note": "历史",
-      "importance": "综合词汇",
-      "topic": "历史",
-      "topicId": "de-geschiedenis-van-nederland",
-      "source": "KNM study guide comprehensive vocabulary"
-    },
-    {
       "word": "voorvader",
       "meaning": "祖先",
       "example": "",
@@ -20035,28 +22954,8 @@ export const KNM_CONTENT = {
       "source": "KNM study guide comprehensive vocabulary"
     },
     {
-      "word": "doodschieten",
-      "meaning": "枪杀",
-      "example": "",
-      "note": "历史",
-      "importance": "综合词汇",
-      "topic": "历史",
-      "topicId": "de-geschiedenis-van-nederland",
-      "source": "KNM study guide comprehensive vocabulary"
-    },
-    {
       "word": "goud",
       "meaning": "黄金",
-      "example": "",
-      "note": "历史",
-      "importance": "综合词汇",
-      "topic": "历史",
-      "topicId": "de-geschiedenis-van-nederland",
-      "source": "KNM study guide comprehensive vocabulary"
-    },
-    {
-      "word": "specerij",
-      "meaning": "香料",
       "example": "",
       "note": "历史",
       "importance": "综合词汇",
@@ -20117,16 +23016,6 @@ export const KNM_CONTENT = {
     {
       "word": "militair",
       "meaning": "军人/军事的",
-      "example": "",
-      "note": "历史",
-      "importance": "综合词汇",
-      "topic": "历史",
-      "topicId": "de-geschiedenis-van-nederland",
-      "source": "KNM study guide comprehensive vocabulary"
-    },
-    {
-      "word": "bombarderen",
-      "meaning": "轰炸",
       "example": "",
       "note": "历史",
       "importance": "综合词汇",
@@ -20325,36 +23214,6 @@ export const KNM_CONTENT = {
       "source": "KNM study guide comprehensive vocabulary"
     },
     {
-      "word": "verwijsbrief",
-      "meaning": "转诊信",
-      "example": "",
-      "note": "金融、医疗与常用动词",
-      "importance": "综合词汇",
-      "topic": "金融、医疗与常用动词",
-      "topicId": "gezondheid-en-gezondheidszorg-in-nederland",
-      "source": "KNM study guide comprehensive vocabulary"
-    },
-    {
-      "word": "polikliniek",
-      "meaning": "门诊部",
-      "example": "",
-      "note": "金融、医疗与常用动词",
-      "importance": "综合词汇",
-      "topic": "金融、医疗与常用动词",
-      "topicId": "gezondheid-en-gezondheidszorg-in-nederland",
-      "source": "KNM study guide comprehensive vocabulary"
-    },
-    {
-      "word": "opname",
-      "meaning": "住院/录取/录音，依语境",
-      "example": "",
-      "note": "金融、医疗与常用动词",
-      "importance": "综合词汇",
-      "topic": "金融、医疗与常用动词",
-      "topicId": "gezondheid-en-gezondheidszorg-in-nederland",
-      "source": "KNM study guide comprehensive vocabulary"
-    },
-    {
       "word": "hoge koorts",
       "meaning": "高烧",
       "example": "",
@@ -20377,16 +23236,6 @@ export const KNM_CONTENT = {
     {
       "word": "jeugdzorg",
       "meaning": "青少年与家庭支持服务",
-      "example": "",
-      "note": "金融、医疗与常用动词",
-      "importance": "综合词汇",
-      "topic": "金融、医疗与常用动词",
-      "topicId": "gezondheid-en-gezondheidszorg-in-nederland",
-      "source": "KNM study guide comprehensive vocabulary"
-    },
-    {
-      "word": "verslaafd",
-      "meaning": "上瘾的",
       "example": "",
       "note": "金融、医疗与常用动词",
       "importance": "综合词汇",
