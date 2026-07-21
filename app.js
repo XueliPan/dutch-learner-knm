@@ -582,40 +582,6 @@ function renderLessonFilters() {
 function renderLessons() {
   $$("#lessonFilters .filter-chip").forEach((chip) => chip.classList.toggle("is-active", chip.dataset.topic === state.activeTopic));
   renderTopicFocus(getTopic(state.activeTopic));
-  const currentFirst = [getTopic(state.activeTopic), ...topics.filter((topic) => topic.id !== state.activeTopic)];
-  $("#lessonGrid").innerHTML = currentFirst
-    .map(
-      (topic) => `
-        <article class="lesson-card" style="--topic-color: ${topic.color}">
-          <header>
-            <div>
-              <p class="eyebrow">${topic.title}</p>
-              <h2>${topic.zhTitle}</h2>
-            </div>
-            <span class="pill">${topicQuestions(topic.id).length} 题</span>
-          </header>
-          <p>${topic.summary}</p>
-          <div class="tag-stack">
-            ${(topic.keywords || []).map((word) => `<span class="tag">${word}</span>`).join("")}
-          </div>
-          ${
-            topic.examPoints?.length
-              ? `<div class="mini-section"><strong>考试重点</strong><ul>${topic.examPoints.map((item) => `<li>${item}</li>`).join("")}</ul></div>`
-              : ""
-          }
-          ${
-            topic.confusing?.length
-              ? `<div class="mini-section"><strong>容易混淆</strong><ul>${topic.confusing.slice(0, 4).map((item) => `<li>${item}</li>`).join("")}</ul></div>`
-              : ""
-          }
-          <ul>
-            ${(topic.learn || topic.lifeTips || []).slice(0, 3).map((item) => `<li>${item}</li>`).join("")}
-          </ul>
-          <button class="secondary-action full" data-practice-topic="${topic.id}" type="button">练这个主题</button>
-        </article>
-      `,
-    )
-    .join("");
 
   $$("[data-practice-topic]").forEach((button) => {
     button.addEventListener("click", () => {

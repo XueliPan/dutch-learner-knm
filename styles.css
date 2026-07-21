@@ -296,7 +296,6 @@ h3 {
 }
 
 .stats-grid,
-.lesson-grid,
 .word-grid,
 .grammar-grid {
   display: grid;
@@ -307,7 +306,6 @@ h3 {
 
 .stat-block,
 .panel,
-.lesson-card,
 .word-card,
 .grammar-card,
 .question-card,
@@ -397,7 +395,6 @@ h3 {
 
 .study-path p,
 .exam-note p,
-.lesson-card p,
 .topic-focus p,
 .quiz-side p,
 .feedback p {
@@ -408,10 +405,6 @@ h3 {
 .exam-note a {
   color: var(--teal-dark);
   font-weight: 800;
-}
-
-.lesson-grid {
-  grid-template-columns: repeat(3, minmax(0, 1fr));
 }
 
 .topic-focus {
@@ -712,24 +705,6 @@ h3 {
   color: var(--teal-dark);
 }
 
-.lesson-card {
-  display: grid;
-  gap: 14px;
-  padding: 20px;
-}
-
-.lesson-card header {
-  display: flex;
-  justify-content: space-between;
-  gap: 10px;
-}
-
-.tag-stack {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 8px;
-}
-
 .tag,
 .pill {
   display: inline-flex;
@@ -741,24 +716,6 @@ h3 {
   color: var(--teal-dark);
   font-size: 13px;
   font-weight: 800;
-}
-
-.lesson-card ul {
-  display: grid;
-  gap: 8px;
-  margin: 0;
-  padding-left: 18px;
-  color: #344750;
-  line-height: 1.55;
-}
-
-.mini-section {
-  display: grid;
-  gap: 8px;
-}
-
-.mini-section strong {
-  color: var(--teal-dark);
 }
 
 .quiz-shell,
@@ -1086,7 +1043,6 @@ footer {
 
   .stats-grid,
   .split-layout,
-  .lesson-grid,
   .quiz-shell,
   .mock-layout,
   .word-grid,
