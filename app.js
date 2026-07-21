@@ -385,7 +385,7 @@ const state = {
   view: "dashboard",
   activeTopic: topics[0]?.id || "wonen",
   activeWordTopic: "all",
-  mockSource: "site",
+  mockSource: "duo-1",
   practiceIndex: 0,
   practiceAnswered: false,
   mock: {
