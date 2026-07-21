@@ -783,6 +783,12 @@ select {
   margin-top: 20px;
 }
 
+.question-card > .card-actions {
+  border-top: 1px solid var(--line);
+  margin-top: 28px;
+  padding-top: 18px;
+}
+
 .short-answer {
   display: grid;
   gap: 8px;
@@ -1182,6 +1188,10 @@ footer {
 
   .quiz-side {
     position: static;
+  }
+
+  .question-card > .card-actions {
+    margin-top: 22px;
   }
 
   .topic-breakdown article,
