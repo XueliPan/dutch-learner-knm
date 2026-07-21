@@ -643,6 +643,11 @@ select {
   font-variant-numeric: tabular-nums;
 }
 
+.mock-meta {
+  color: var(--teal-dark);
+  font-weight: 800;
+}
+
 footer {
   display: flex;
   justify-content: center;

@@ -360,6 +360,8 @@ const words = importedContent.words?.length
   })),
 );
 const reviewPlan = importedContent.reviewPlan || [];
+const MOCK_QUESTION_COUNT = 40;
+const MOCK_DURATION_MINUTES = 45;
 
 const STORAGE_KEY = "knm-cn-progress-v1";
 const state = {
@@ -474,7 +476,7 @@ function questionSpeechText(question) {
 }
 
 function normalizeAnswer(value) {
-  return String(value || "")
+  return String(value == null ? "" : value)
     .toLowerCase()
     .replace(/[。.,!?`'"]/g, "")
     .replace(/\s+/g, " ")
@@ -482,7 +484,7 @@ function normalizeAnswer(value) {
 }
 
 function escapeHtml(value) {
-  return String(value || "")
+  return String(value == null ? "" : value)
     .replace(/&/g, "&amp;")
     .replace(/</g, "&lt;")
     .replace(/>/g, "&gt;")
@@ -497,6 +499,11 @@ function checkQuestionAnswer(question, response) {
     return accepted.some((answer) => submitted === answer || submitted.includes(answer) || answer.includes(submitted));
   }
   return response === question.correct;
+}
+
+function hasQuestionResponse(question, response) {
+  if (question.type === "short") return normalizeAnswer(response) !== "";
+  return response !== null && response !== undefined;
 }
 
 function shuffle(items) {
@@ -731,10 +738,11 @@ function renderWords() {
 
 function startMock() {
   state.mock.active = true;
-  state.mock.questions = shuffle(questions).slice(0, 20);
+  const questionCount = Math.min(MOCK_QUESTION_COUNT, questions.length);
+  state.mock.questions = shuffle(questions).slice(0, questionCount);
   state.mock.index = 0;
   state.mock.answers = Array(state.mock.questions.length).fill(null);
-  state.mock.deadline = Date.now() + 45 * 60 * 1000;
+  state.mock.deadline = Date.now() + MOCK_DURATION_MINUTES * 60 * 1000;
   clearInterval(state.mock.timer);
   state.mock.timer = setInterval(updateMockTimer, 1000);
   $("#startMock").textContent = "重新开始";
@@ -788,10 +796,11 @@ function finishMock() {
   state.mock.questions.forEach((question, index) => {
     const isCorrect = checkQuestionAnswer(question, state.mock.answers[index]);
     correct += isCorrect ? 1 : 0;
-    if (state.mock.answers[index] !== null) recordAnswer(question, isCorrect);
+    recordAnswer(question, isCorrect);
   });
 
   const percentage = Math.round((correct / state.mock.questions.length) * 100);
+  const unanswered = state.mock.answers.filter((answer, index) => !hasQuestionResponse(state.mock.questions[index], answer)).length;
   $("#mockTimer").textContent = "完成";
   $("#mockCount").textContent = `${correct} / ${state.mock.questions.length} 正确`;
   $("#mockMeter").style.width = `${percentage}%`;
@@ -799,7 +808,9 @@ function finishMock() {
   $("#mockFeedback").className = percentage >= 65 ? "feedback" : "feedback is-wrong";
   $("#mockFeedback").innerHTML = `
     <strong>模拟成绩：${percentage}%</strong>
-    <p>${percentage >= 65 ? "不错，继续保持速度和稳定性。" : "建议回到主题课，优先复习错得多的主题。"}</p>
+    <p>${percentage >= 65 ? "不错，继续保持速度和稳定性。" : "建议回到主题课，优先复习错得多的主题。"}${
+      unanswered ? ` 未作答 ${unanswered} 题，本次按错题计算。` : ""
+    }</p>
   `;
   renderAnswers(
     $("#mockAnswers"),
