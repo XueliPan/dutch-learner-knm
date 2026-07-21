@@ -296,6 +296,7 @@ h3 {
 }
 
 .stats-grid,
+.report-grid,
 .word-grid,
 .grammar-grid {
   display: grid;
@@ -308,6 +309,7 @@ h3 {
 .panel,
 .word-card,
 .grammar-card,
+.wrong-card,
 .question-card,
 .quiz-side {
   border: 1px solid var(--line);
@@ -852,6 +854,144 @@ select {
   background: #fff5f3;
 }
 
+.mock-report {
+  margin-top: 18px;
+}
+
+.report-grid {
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+}
+
+.report-grid article {
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: #fff;
+  padding: 14px;
+}
+
+.report-grid span,
+.report-grid small,
+.wrongbook-summary p,
+.wrong-card p,
+.topic-breakdown span,
+.mock-wrong-list summary span,
+.mistake-count {
+  color: var(--muted);
+}
+
+.report-grid strong {
+  display: block;
+  margin: 8px 0 4px;
+  color: var(--teal-dark);
+  font-size: 28px;
+  line-height: 1;
+}
+
+.topic-breakdown {
+  display: grid;
+  gap: 10px;
+  margin-top: 18px;
+}
+
+.topic-breakdown h3 {
+  margin: 0;
+}
+
+.topic-breakdown article {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: #fff;
+  padding: 14px;
+}
+
+.topic-breakdown strong,
+.topic-breakdown span {
+  display: block;
+}
+
+.mock-wrong-list {
+  margin-top: 18px;
+}
+
+.mock-wrong-list summary {
+  cursor: pointer;
+  color: var(--teal-dark);
+  font-weight: 800;
+}
+
+.wrongbook-summary {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 16px;
+  padding: 14px;
+}
+
+.wrongbook-summary p {
+  margin: 0;
+}
+
+.wrongbook-list {
+  display: grid;
+  gap: 14px;
+}
+
+.wrong-card {
+  display: grid;
+  gap: 12px;
+  padding: 16px;
+}
+
+.wrong-card-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.wrong-card h3 {
+  margin: 0;
+  line-height: 1.35;
+}
+
+.answer-review {
+  display: grid;
+  gap: 8px;
+}
+
+.answer-review span {
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: #fff;
+  padding: 10px 12px;
+  line-height: 1.45;
+}
+
+.answer-review .is-correct {
+  border-color: var(--teal);
+  background: #e7f5ef;
+}
+
+.answer-review .is-wrong {
+  border-color: var(--red);
+  background: #fff0ef;
+}
+
+.empty-state {
+  color: var(--muted);
+  line-height: 1.55;
+}
+
+.empty-state strong {
+  display: block;
+  margin-bottom: 6px;
+  color: var(--teal-dark);
+}
+
 .word-grid {
   grid-template-columns: repeat(5, minmax(0, 1fr));
 }
@@ -1013,6 +1153,7 @@ footer {
   }
 
   .stats-grid,
+  .report-grid,
   .split-layout,
   .quiz-shell,
   .mock-layout,
@@ -1041,6 +1182,11 @@ footer {
 
   .quiz-side {
     position: static;
+  }
+
+  .topic-breakdown article,
+  .wrongbook-summary {
+    display: grid;
   }
 }
 

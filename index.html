@@ -30,6 +30,7 @@
         <button class="tab" data-view="lessons" type="button">主题</button>
         <button class="tab" data-view="practice" type="button">刷题</button>
         <button class="tab" data-view="mock" type="button">模拟</button>
+        <button class="tab" data-view="wrongbook" type="button">错题</button>
         <button class="tab" data-view="words" type="button">词卡</button>
         <button class="tab" data-view="grammar" type="button">语法/速记</button>
       </nav>
@@ -213,6 +214,22 @@
             </div>
           </section>
         </div>
+        <section class="panel mock-report" id="mockReport" hidden></section>
+      </section>
+
+      <section id="wrongbook" class="view" aria-labelledby="wrongbook-title">
+        <div class="page-heading">
+          <div>
+            <p class="eyebrow">Mistake Review</p>
+            <h1 id="wrongbook-title">错题本</h1>
+          </div>
+          <button class="secondary-action" id="clearWrongbook" type="button">清空错题</button>
+        </div>
+        <section class="panel wrongbook-summary" aria-live="polite">
+          <span class="pill" id="wrongbookCount">0 道错题</span>
+          <p id="wrongbookHint">刷题或模拟中答错的题会自动保存到这里。</p>
+        </section>
+        <div class="wrongbook-list" id="wrongbookList"></div>
       </section>
 
       <section id="words" class="view" aria-labelledby="words-title">

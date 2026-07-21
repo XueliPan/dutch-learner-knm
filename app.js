@@ -377,7 +377,9 @@ const state = {
     index: 0,
     answers: [],
     deadline: null,
+    startedAt: null,
     timer: null,
+    result: null,
   },
   progress: loadProgress(),
 };
@@ -391,6 +393,7 @@ function loadProgress() {
     answered: 0,
     correct: 0,
     byTopic: {},
+    wrongAnswers: {},
     lastVisit: new Date().toISOString().slice(0, 10),
     streak: 1,
   };
@@ -414,16 +417,76 @@ function loadProgress() {
 function saveProgress() {
   localStorage.setItem(STORAGE_KEY, JSON.stringify(state.progress));
   renderDashboard();
+  if (state.view === "wrongbook") renderWrongbook();
 }
 
-function recordAnswer(question, isCorrect) {
+function questionKey(question) {
+  return question.id || `${question.topic}:${question.question}`;
+}
+
+function findQuestionByKey(key) {
+  return questions.find((question) => questionKey(question) === key);
+}
+
+function selectedAnswerText(question, response) {
+  if (!hasQuestionResponse(question, response)) return "未作答";
+  if (question.type === "short") return String(response);
+  return question.answers?.[response] || "未知选项";
+}
+
+function correctAnswerText(question) {
+  if (question.type === "short") return question.correctText || question.explanation || "";
+  return question.answers?.[question.correct] || "";
+}
+
+function addWrongAnswer(question, response, source) {
+  const key = questionKey(question);
+  const wrongAnswers = state.progress.wrongAnswers || {};
+  const existing = wrongAnswers[key] || {};
+  wrongAnswers[key] = {
+    id: key,
+    topic: question.topic,
+    scenario: question.scenario,
+    question: question.question,
+    answers: question.answers || [],
+    correct: question.correct,
+    correctText: question.correctText || "",
+    explanation: question.explanation,
+    type: question.type || "choice",
+    lastResponse: response,
+    lastSource: source,
+    mistakes: (existing.mistakes || 0) + 1,
+    lastWrongAt: new Date().toISOString(),
+  };
+  state.progress.wrongAnswers = wrongAnswers;
+}
+
+function removeWrongAnswer(key) {
+  if (!state.progress.wrongAnswers?.[key]) return;
+  delete state.progress.wrongAnswers[key];
+  saveProgress();
+}
+
+function clearWrongAnswers() {
+  state.progress.wrongAnswers = {};
+  saveProgress();
+}
+
+function wrongAnswerEntries() {
+  return Object.values(state.progress.wrongAnswers || {})
+    .map((entry) => ({ ...entry, questionData: findQuestionByKey(entry.id) || entry }))
+    .sort((a, b) => new Date(b.lastWrongAt || 0) - new Date(a.lastWrongAt || 0));
+}
+
+function recordAnswer(question, isCorrect, response = null, source = "practice", saveNow = true) {
   const topicStats = state.progress.byTopic[question.topic] || { answered: 0, correct: 0 };
   topicStats.answered += 1;
   topicStats.correct += isCorrect ? 1 : 0;
   state.progress.byTopic[question.topic] = topicStats;
   state.progress.answered += 1;
   state.progress.correct += isCorrect ? 1 : 0;
-  saveProgress();
+  if (!isCorrect) addWrongAnswer(question, response, source);
+  if (saveNow) saveProgress();
 }
 
 function getTopic(id) {
@@ -526,6 +589,7 @@ function showView(view) {
   $$(".view").forEach((section) => section.classList.toggle("is-visible", section.id === view));
   $$(".tab").forEach((tab) => tab.classList.toggle("is-active", tab.dataset.view === view));
   history.replaceState(null, "", `#${view}`);
+  if (view === "wrongbook") renderWrongbook();
 }
 
 function renderDashboard() {
@@ -569,10 +633,7 @@ function renderLessons() {
 
   $$("[data-practice-topic]").forEach((button) => {
     button.addEventListener("click", () => {
-      state.activeTopic = button.dataset.practiceTopic;
-      state.practiceIndex = 0;
-      renderPractice();
-      showView("practice");
+      goPracticeTopic(button.dataset.practiceTopic);
     });
   });
 }
@@ -832,7 +893,7 @@ function renderPractice() {
     if (state.practiceAnswered) return;
     state.practiceAnswered = true;
     const isCorrect = checkQuestionAnswer(question, choice);
-    recordAnswer(question, isCorrect);
+    recordAnswer(question, isCorrect, choice, "practice");
     if (question.type === "short") {
       renderShortAnswer($("#practiceAnswers"), question, () => {}, choice, true);
     } else {
@@ -953,18 +1014,67 @@ function renderGrammarGuide() {
   $("#cheatList").innerHTML = cheatSheet.map((item) => `<li>${item}</li>`).join("");
 }
 
+function goPracticeTopic(topicId) {
+  state.activeTopic = topicId;
+  state.practiceIndex = 0;
+  renderPractice();
+  showView("practice");
+}
+
+function goReviewTopic(topicId) {
+  state.activeTopic = topicId;
+  renderLessons();
+  showView("lessons");
+}
+
+function handleReviewAction(event) {
+  const target = event.target instanceof Element ? event.target : null;
+  const practiceButton = target?.closest("[data-wrong-practice-topic]");
+  if (practiceButton) {
+    goPracticeTopic(practiceButton.dataset.wrongPracticeTopic);
+    return;
+  }
+
+  const reviewButton = target?.closest("[data-review-topic]");
+  if (reviewButton) {
+    goReviewTopic(reviewButton.dataset.reviewTopic);
+    return;
+  }
+
+  const removeButton = target?.closest("[data-remove-wrong]");
+  if (removeButton) {
+    removeWrongAnswer(removeButton.dataset.removeWrong);
+  }
+}
+
+function renderWrongbook() {
+  const entries = wrongAnswerEntries();
+  $("#wrongbookCount").textContent = `${entries.length} 道错题`;
+  $("#clearWrongbook").disabled = entries.length === 0;
+  $("#wrongbookHint").textContent = entries.length
+    ? "优先处理错得多、最近错的题；点“已掌握”可以从错题本移除。"
+    : "刷题或模拟中答错的题会自动保存到这里。";
+  $("#wrongbookList").innerHTML = entries.length
+    ? entries.map((entry) => renderWrongQuestionCard(entry, { showActions: true })).join("")
+    : `<section class="panel empty-state"><strong>目前没有错题</strong><p>做几道刷题或模拟后，这里会自动生成复习清单。</p></section>`;
+}
+
 function startMock() {
   state.mock.active = true;
   const questionCount = Math.min(MOCK_QUESTION_COUNT, questions.length);
   state.mock.questions = shuffle(questions).slice(0, questionCount);
   state.mock.index = 0;
   state.mock.answers = Array(state.mock.questions.length).fill(null);
+  state.mock.result = null;
+  state.mock.startedAt = Date.now();
   state.mock.deadline = Date.now() + MOCK_DURATION_MINUTES * 60 * 1000;
   clearInterval(state.mock.timer);
   state.mock.timer = setInterval(updateMockTimer, 1000);
   $("#startMock").textContent = "重新开始";
   $("#finishMock").disabled = false;
   $("#speakMockQuestion").disabled = false;
+  $("#mockReport").hidden = true;
+  $("#mockReport").innerHTML = "";
   renderMockQuestion();
   updateMockTimer();
 }
@@ -1004,31 +1114,182 @@ function renderMockQuestion() {
   );
 }
 
+function formatDuration(milliseconds) {
+  const totalSeconds = Math.max(0, Math.round(milliseconds / 1000));
+  const minutes = Math.floor(totalSeconds / 60);
+  const seconds = totalSeconds % 60;
+  return `${minutes}分${String(seconds).padStart(2, "0")}秒`;
+}
+
+function buildMockResult() {
+  const finishedAt = Date.now();
+  const elapsedMs = state.mock.startedAt ? finishedAt - state.mock.startedAt : MOCK_DURATION_MINUTES * 60 * 1000;
+  const items = state.mock.questions.map((question, index) => {
+    const response = state.mock.answers[index];
+    const answered = hasQuestionResponse(question, response);
+    const isCorrect = checkQuestionAnswer(question, response);
+    return {
+      question,
+      response,
+      answered,
+      isCorrect,
+    };
+  });
+  const correct = items.filter((item) => item.isCorrect).length;
+  const unanswered = items.filter((item) => !item.answered).length;
+  const byTopic = new Map();
+  items.forEach((item) => {
+    const topic = getTopic(item.question.topic);
+    const stats = byTopic.get(topic.id) || { id: topic.id, title: topic.title, zhTitle: topic.zhTitle, total: 0, correct: 0, unanswered: 0 };
+    stats.total += 1;
+    stats.correct += item.isCorrect ? 1 : 0;
+    stats.unanswered += item.answered ? 0 : 1;
+    byTopic.set(topic.id, stats);
+  });
+
+  const topicsReport = [...byTopic.values()]
+    .map((topic) => ({
+      ...topic,
+      wrong: topic.total - topic.correct,
+      percentage: Math.round((topic.correct / topic.total) * 100),
+    }))
+    .sort((a, b) => b.wrong - a.wrong || a.percentage - b.percentage);
+
+  return {
+    total: items.length,
+    correct,
+    percentage: Math.round((correct / items.length) * 100),
+    unanswered,
+    elapsedMs,
+    topics: topicsReport,
+    items,
+  };
+}
+
+function renderReviewAnswerList(question, response) {
+  if (question.type === "short") {
+    return `
+      <div class="answer-review">
+        <span class="is-wrong">你的答案：${renderText(selectedAnswerText(question, response))}</span>
+        <span class="is-correct">参考答案：${renderText(correctAnswerText(question))}</span>
+      </div>
+    `;
+  }
+
+  return `
+    <div class="answer-review">
+      ${(question.answers || [])
+        .map((answer, index) => {
+          const className = index === question.correct ? "is-correct" : index === response ? "is-wrong" : "";
+          return `<span class="${className}">${String.fromCharCode(65 + index)}. ${renderText(answer)}</span>`;
+        })
+        .join("")}
+    </div>
+  `;
+}
+
+function renderWrongQuestionCard(item, options = {}) {
+  const question = item.question || item.questionData || item;
+  const topic = getTopic(question.topic);
+  const response = Object.prototype.hasOwnProperty.call(item, "response") ? item.response : item.lastResponse;
+  const key = item.id || questionKey(question);
+  return `
+    <article class="wrong-card">
+      <div class="wrong-card-head">
+        <span class="pill">${renderText(topic.title)}</span>
+        ${item.mistakes ? `<span class="mistake-count">错 ${item.mistakes} 次</span>` : ""}
+      </div>
+      ${question.scenario ? `<p class="scenario">${renderText(question.scenario)}</p>` : ""}
+      <h3>${renderText(question.question)}</h3>
+      ${renderReviewAnswerList(question, response)}
+      <p>${renderText(question.explanation)}</p>
+      ${
+        options.showActions
+          ? `<div class="card-actions">
+              <button class="secondary-action" data-review-topic="${topic.id}" type="button">复习本章</button>
+              <button class="secondary-action" data-wrong-practice-topic="${topic.id}" type="button">练这个主题</button>
+              <button class="primary-action" data-remove-wrong="${renderText(key)}" type="button">已掌握</button>
+            </div>`
+          : ""
+      }
+    </article>
+  `;
+}
+
+function renderMockReport(result) {
+  const weakTopics = result.topics.filter((topic) => topic.wrong > 0).slice(0, 3);
+  const wrongItems = result.items.filter((item) => !item.isCorrect);
+  const passed = result.percentage >= 65;
+  $("#mockReport").hidden = false;
+  $("#mockReport").innerHTML = `
+    <div class="section-heading">
+      <div>
+        <p class="eyebrow">Exam Report</p>
+        <h2>模拟考试结果页</h2>
+      </div>
+    </div>
+    <div class="report-grid">
+      <article><span>成绩</span><strong>${result.correct}/${result.total}</strong><small>${result.percentage}%</small></article>
+      <article><span>用时</span><strong>${formatDuration(result.elapsedMs)}</strong><small>45 分钟上限</small></article>
+      <article><span>未答</span><strong>${result.unanswered}</strong><small>未答按错题保存</small></article>
+      <article><span>练习目标</span><strong>${passed ? "达标" : "需加强"}</strong><small>建议目标 65%+</small></article>
+    </div>
+    ${
+      weakTopics.length
+        ? `<div class="topic-breakdown">
+            <h3>优先复习章节</h3>
+            ${weakTopics
+              .map(
+                (topic) => `
+                  <article>
+                    <div>
+                      <strong>${renderText(topic.title)}</strong>
+                      <span>${renderText(topic.zhTitle)} | ${topic.correct}/${topic.total} 正确</span>
+                    </div>
+                    <div class="card-actions">
+                      <button class="secondary-action" data-review-topic="${topic.id}" type="button">看完整学习页</button>
+                      <button class="primary-action" data-wrong-practice-topic="${topic.id}" type="button">练这个主题</button>
+                    </div>
+                  </article>
+                `,
+              )
+              .join("")}
+          </div>`
+        : `<p class="report-note">这一套没有明显薄弱章节，可以继续换一套模拟保持手感。</p>`
+    }
+    <details class="mock-wrong-list" ${wrongItems.length ? "open" : ""}>
+      <summary>本次错题 <span>${wrongItems.length} 题</span></summary>
+      <div class="wrongbook-list">
+        ${wrongItems.length ? wrongItems.map((item) => renderWrongQuestionCard(item)).join("") : `<p class="empty-state">本次没有错题。</p>`}
+      </div>
+    </details>
+  `;
+}
+
 function finishMock() {
   if (!state.mock.active) return;
   clearInterval(state.mock.timer);
   state.mock.active = false;
 
-  let correct = 0;
-  state.mock.questions.forEach((question, index) => {
-    const isCorrect = checkQuestionAnswer(question, state.mock.answers[index]);
-    correct += isCorrect ? 1 : 0;
-    recordAnswer(question, isCorrect);
+  const result = buildMockResult();
+  state.mock.result = result;
+  result.items.forEach((item) => {
+    recordAnswer(item.question, item.isCorrect, item.response, "mock", false);
   });
+  saveProgress();
 
-  const percentage = Math.round((correct / state.mock.questions.length) * 100);
-  const unanswered = state.mock.answers.filter((answer, index) => !hasQuestionResponse(state.mock.questions[index], answer)).length;
   $("#mockTimer").textContent = "完成";
-  $("#mockCount").textContent = `${correct} / ${state.mock.questions.length} 正确`;
-  $("#mockMeter").style.width = `${percentage}%`;
+  $("#mockCount").textContent = `${result.correct} / ${result.total} 正确`;
+  $("#mockMeter").style.width = `${result.percentage}%`;
   $("#mockFeedback").hidden = false;
-  $("#mockFeedback").className = percentage >= 65 ? "feedback" : "feedback is-wrong";
+  $("#mockFeedback").className = result.percentage >= 65 ? "feedback" : "feedback is-wrong";
   $("#mockFeedback").innerHTML = `
-    <strong>模拟成绩：${percentage}%</strong>
-    <p>${percentage >= 65 ? "不错，继续保持速度和稳定性。" : "建议回到主题课，优先复习错得多的主题。"}${
-      unanswered ? ` 未作答 ${unanswered} 题，本次按错题计算。` : ""
+    <strong>模拟成绩：${result.percentage}%</strong>
+    <p>${result.percentage >= 65 ? "不错，继续保持速度和稳定性。" : "建议回到主题课，优先复习错得多的章节。"}${
+      result.unanswered ? ` 未作答 ${result.unanswered} 题，本次按错题计算。` : ""
     }</p>
   `;
+  renderMockReport(result);
   renderAnswers(
     $("#mockAnswers"),
     state.mock.questions[state.mock.index],
@@ -1062,6 +1323,12 @@ function bindEvents() {
   $("#shuffleWords").addEventListener("click", renderWords);
   $("#speakPracticeQuestion").addEventListener("click", (event) => speakDutch(event.currentTarget.dataset.speech));
   $("#speakMockQuestion").addEventListener("click", (event) => speakDutch(event.currentTarget.dataset.speech));
+  $("#clearWrongbook").addEventListener("click", () => {
+    if (!wrongAnswerEntries().length) return;
+    if (window.confirm("确定清空错题本吗？")) clearWrongAnswers();
+  });
+  $("#wrongbookList").addEventListener("click", handleReviewAction);
+  $("#mockReport").addEventListener("click", handleReviewAction);
   $("#wordGrid").addEventListener("click", (event) => {
     const button = event.target instanceof Element ? event.target.closest("[data-speak-word]") : null;
     if (button) speakDutch(button.dataset.speakWord);
@@ -1092,6 +1359,7 @@ function init() {
   renderWords();
   renderGrammarGuide();
   renderDashboard();
+  renderWrongbook();
   bindEvents();
   showView(state.view);
 }
