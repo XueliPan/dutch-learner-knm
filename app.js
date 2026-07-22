@@ -361,6 +361,8 @@ const words = importedContent.words?.length
 );
 const grammar = importedContent.grammar || [];
 const cheatSheet = importedContent.cheatSheet || [];
+const FEEDBACK_FORM_URL =
+  "https://docs.google.com/forms/d/e/1FAIpQLSfy8fkoTYjD7vSWajsO_lBNmqO_EuLCr1kGr0YSrCEFujwYDA/viewform?usp=publish-editor";
 const MOCK_QUESTION_COUNT = 40;
 const MOCK_DURATION_MINUTES = 45;
 const MOCK_SOURCES = {
@@ -1405,6 +1407,13 @@ function bindEvents() {
   $("#grammarGrid").addEventListener("click", (event) => {
     const button = event.target instanceof Element ? event.target.closest("[data-speak-grammar]") : null;
     if (button) speakDutch(button.dataset.speakGrammar);
+  });
+  $("#feedbackButton").addEventListener("click", () => {
+    if (!FEEDBACK_FORM_URL) {
+      window.alert("反馈入口正在准备中。");
+      return;
+    }
+    window.open(FEEDBACK_FORM_URL, "_blank", "noopener,noreferrer");
   });
   $("#startMock").addEventListener("click", startMock);
   $("#prevMock").addEventListener("click", () => {
