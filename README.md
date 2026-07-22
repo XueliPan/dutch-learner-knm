@@ -1,32 +1,23 @@
-# KNM Chinese Study App
+# Dutch Learner KNM
 
-A lightweight browser app for Chinese speakers preparing for the Dutch KNM exam.
+Website: https://dutch-learner.site/
 
-## Run
+Dutch Learner KNM is a bilingual study website for Chinese-speaking learners preparing for the Dutch KNM exam, also known as Kennis van de Nederlandse Maatschappij.
 
-Start a local server:
+The website helps learners understand Dutch society topics in Chinese while practicing Dutch exam-style questions.
 
-```bash
-python3 -m http.server 4173
-```
+## Website Content
 
-Then visit `http://localhost:4173`.
+- 10 KNM theme lessons with Chinese explanations and Dutch keywords
+- Full chapter study pages covering key knowledge points
+- High-frequency Dutch flashcards with pronunciation
+- Chapter-based practice questions
+- Two DUO official practice exam sets
+- Timed mock exam mode: 40 questions in 45 minutes
+- Comprehensive site mock question bank
+- Mistake review page
+- Mock exam result page
+- Grammar notes and one-page pre-exam review
+- Chinese / English interface switch for portfolio and job-search presentation
 
-## Update KNM Content
-
-The app imports structured lessons, questions, vocabulary, and the 7-day plan from the KNM Markdown files in iCloud:
-
-```bash
-node scripts/import-knm-content.mjs
-```
-
-The importer also reads `/Users/sherrypan/Downloads/KNM_study_guide_CN_NL.md` when present, adding guide vocabulary, 80 guide questions, grammar cards, and the one-page pre-exam cheat sheet.
-The theme lesson page uses the guide chapters to show expanded core-knowledge sections and memory hooks for each KNM topic.
-The importer also supports the pilot full-study document `/Users/sherrypan/Downloads/KNM_Hoofdstuk_1_studieversie_CN_NL.md`, preserving all 22 knowledge units, tables, image references, vocabulary, common mistakes, and chapter cheat sheets for the `Nederland leren kennen` theme.
-
-## Notes
-
-- The mock question bank includes the two provided DUO oefenexamen PDFs plus original expansion questions.
-- The mock exam mode draws 40 questions for a 45-minute session, matching the KNM practice rhythm.
-- Progress is stored locally in the browser with `localStorage`.
-- Dutch pronunciation audio uses the browser's built-in Web Speech API when available, with a Google Translate TTS audio fallback for browsers that do not expose native speech synthesis.
+Official exam information should always be checked with DUO.
