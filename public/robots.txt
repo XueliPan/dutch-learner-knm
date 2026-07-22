@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://dutch-learner.site/sitemap.xml
