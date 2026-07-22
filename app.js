@@ -365,26 +365,325 @@ const FEEDBACK_FORM_URL =
   "https://docs.google.com/forms/d/e/1FAIpQLSfy8fkoTYjD7vSWajsO_lBNmqO_EuLCr1kGr0YSrCEFujwYDA/viewform?usp=publish-editor";
 const MOCK_QUESTION_COUNT = 40;
 const MOCK_DURATION_MINUTES = 45;
+const LANGUAGE_KEY = "knm-cn-language-v1";
+const translations = {
+  zh: {
+    pageTitle: "荷兰 KNM 中文备考练习 | Dutch Learner KNM",
+    brandAria: "KNM 通关练习首页",
+    mainNavAria: "主要页面",
+    brandTitle: "KNM 通关练习",
+    brandSubtitle: "中文学习助手",
+    tabDashboard: "总览",
+    tabLessons: "主题",
+    tabPractice: "刷题",
+    tabMock: "模拟",
+    tabWrongbook: "错题",
+    tabWords: "词卡",
+    tabGrammar: "语法/速记",
+    languageToggle: "English",
+    languageToggleAria: "Switch to English",
+    heroTitle: "用中文理解荷兰社会，用荷兰语通过 KNM。",
+    heroCopy: "按主题学习常见生活场景，记住核心荷兰语关键词，并用考试风格选择题训练判断速度。",
+    heroPrimary: "开始刷题",
+    heroSecondary: "先学主题",
+    statsAria: "学习进度",
+    statAnswered: "已答题",
+    statAnsweredHint: "本浏览器自动保存",
+    statAccuracy: "正确率",
+    statAccuracyHint: "包含刷题和模拟",
+    statStreak: "连续学习",
+    statStreakHint: "每天打开即可延续",
+    statNext: "下一步",
+    statNextHint: "优先补最弱主题",
+    studyPathTitle: "今日学习路线",
+    studyStep1Title: "10 分钟看主题",
+    studyStep1Copy: "先读中文解释，再读荷兰语关键词，建立场景感。",
+    studyStep2Title: "15 分钟刷题",
+    studyStep2Copy: "每题看解析，错题会进入弱项记录。",
+    studyStep3Title: "5 分钟词卡复习",
+    studyStep3Copy: "把关键词读出声，训练考试时快速识别。",
+    examNoteTitle: "考试提醒",
+    examNoteCopy1:
+      "DUO 说明：KNM 是电脑考试，题目围绕多个社会主题，例如 <strong>wonen</strong> 和 <strong>werk en inkomen</strong>，考试时间为 <strong>45 分钟</strong>，模拟时建议按 <strong>40 道题</strong> 训练。",
+    examNoteCopy2:
+      "题库已加入 2 套 DUO oefenexamen、KNM 学习手册练习题和原创扩展题；正式考试前仍建议到 DUO 官网熟悉考试入口。",
+    duoPracticeLink: "打开 DUO 官方练习",
+    lessonsTitle: "KNM 主题课",
+    lessonFiltersAria: "主题筛选",
+    practiceTitle: "按主题刷题",
+    topicSelectAria: "选择练习主题",
+    practiceHint: "选择一个答案后查看中文解析。",
+    resetPractice: "重开本主题",
+    speakQuestionAria: "播放本题荷兰语发音",
+    nextQuestion: "下一题",
+    prevQuestion: "上一题",
+    mockTitle: "45 分钟模拟模式",
+    mockSourceLabel: "题库",
+    mockSourceAria: "选择模拟题库",
+    mockSourceSiteOption: "网站综合模拟题",
+    startMock: "开始模拟",
+    restartMock: "重新开始",
+    finishMock: "交卷",
+    mockMeta: "40 题 / 45 分钟",
+    wrongbookTitle: "错题本",
+    clearWrongbook: "清空错题",
+    wordsTitle: "高频词卡",
+    shuffleWords: "换一组",
+    wordFiltersAria: "词汇主题筛选",
+    grammarTitle: "语法 / 考前速记",
+    grammarPatternsTitle: "高频语法",
+    cheatSheetTitle: "考前一页速记",
+    footerMade: "Made for Chinese KNM learners.",
+    footerDuo: "请用官方 DUO 材料确认最新考试要求。",
+    feedbackButton: "发现问题",
+    feedbackAria: "发现问题或反馈建议",
+    siteMockLabel: "网站综合模拟题",
+    siteMockDescription: "随机抽取网站扩展题、章节练习题和学习手册模拟题，不混入 DUO 官方套题。",
+    duo1Description: "使用第 1 套 DUO 官方模拟练习题，按原套题顺序完成 40 题。",
+    duo2Description: "使用第 2 套 DUO 官方模拟练习题，按原套题顺序完成 40 题。",
+    notAnswered: "未作答",
+    unknownOption: "未知选项",
+    day: "天",
+    questionsUnit: "道题",
+    wordsUnit: "个词",
+    groupsUnit: "组内容",
+    itemsUnit: "条",
+    knowledgeUnits: "个知识单元",
+    imageRefs: "张图片引用",
+    coreWords: "个核心词",
+    practiceTopic: "练这个主题",
+    memoryHooksTitle: "看到关键词就联想",
+    fullChapterTitle: (chapter) => `第 ${chapter} 章完整学习页`,
+    chapterSummary: (units, imageCount, vocabCount) =>
+      `${units} 个知识单元，${imageCount} 张图片引用，${vocabCount} 个核心词。`,
+    learningGoals: "本章学习目标",
+    coreVocabulary: "本章核心词汇表",
+    dutch: "荷兰语",
+    chinese: "中文",
+    exampleOrMemory: "例句或记忆",
+    commonMistakes: "容易出错的原句与正确表达",
+    originalText: "原资料表达",
+    suggestedText: "建议表达",
+    chapterCheatSheet: (chapter) => `第 ${chapter} 章一页速记`,
+    all: "全部",
+    showWordsAll: (sample, total) => `全部 | 显示 ${sample} / ${total}`,
+    showWordsTopic: (topic, sample, total) => `${topic} | 显示 ${sample} / ${total}`,
+    questionProgress: (current, total) => `第 ${current} / ${total} 题`,
+    typeAnswer: "Typ uw antwoord",
+    check: "检查",
+    referenceAnswer: "参考答案",
+    correctFeedback: "答对了",
+    wrongFeedback: "这题要再看一眼",
+    mockReady: "准备开始",
+    mockIntroSite: "按真实节奏练习：45 分钟完成 40 题，每题大约 1 分钟。",
+    mockIntroDuo: (label) => `${label}：按官方练习套题顺序完成 40 题。`,
+    noQuestionsAlert: "这个题库暂时没有可用题目。",
+    wrongbookCount: (count) => `${count} 道错题`,
+    wrongbookHintFilled: "优先处理错得多、最近错的题；点“已掌握”可以从错题本移除。",
+    wrongbookHintEmpty: "刷题或模拟中答错的题会自动保存到这里。",
+    emptyWrongbookTitle: "目前没有错题",
+    emptyWrongbookCopy: "做几道刷题或模拟后，这里会自动生成复习清单。",
+    confirmClearWrongbook: "确定清空错题本吗？",
+    feedbackPending: "反馈入口正在准备中。",
+    completed: "完成",
+    correctCount: (correct, total) => `${correct} / ${total} 正确`,
+    minutesLimit: "45 分钟上限",
+    savedAsWrong: "未答按错题保存",
+    targetScore: "建议目标 65%+",
+    mockReportTitle: "模拟考试结果页",
+    score: "成绩",
+    timeSpent: "用时",
+    unanswered: "未答",
+    practiceGoal: "练习目标",
+    passed: "达标",
+    needsWork: "需加强",
+    priorityReview: "优先复习章节",
+    correctLabel: "正确",
+    viewFullChapter: "看完整学习页",
+    reportNoWeakTopic: "这一套没有明显薄弱章节，可以继续换一套模拟保持手感。",
+    wrongItemsSummary: (count) => `本次错题 ${count} 题`,
+    noWrongThisMock: "本次没有错题。",
+    mockScore: (score) => `模拟成绩：${score}%`,
+    mockPassCopy: "不错，继续保持速度和稳定性。",
+    mockFailCopy: "建议回到主题课，优先复习错得多的章节。",
+    unansweredCopy: (count) => ` 未作答 ${count} 题，本次按错题计算。`,
+    yourAnswer: "你的答案",
+    mastered: "已掌握",
+    reviewChapter: "复习本章",
+    mistakeCount: (count) => `错 ${count} 次`,
+    speechUnavailable: "Deze browser kan de uitspraak niet afspelen.",
+  },
+  en: {
+    pageTitle: "Dutch Learner KNM | Bilingual KNM Exam Practice App",
+    brandAria: "Dutch Learner KNM home",
+    mainNavAria: "Main navigation",
+    brandTitle: "Dutch Learner KNM",
+    brandSubtitle: "Bilingual study app",
+    tabDashboard: "Overview",
+    tabLessons: "Themes",
+    tabPractice: "Practice",
+    tabMock: "Mock Exam",
+    tabWrongbook: "Mistakes",
+    tabWords: "Flashcards",
+    tabGrammar: "Grammar",
+    languageToggle: "中文",
+    languageToggleAria: "Switch to Chinese",
+    heroTitle: "A bilingual KNM study app for Chinese-speaking learners.",
+    heroCopy:
+      "Learn Dutch society topics through Chinese explanations, Dutch keywords, pronunciation, chapter practice, DUO mock sets, and a timed exam mode.",
+    heroPrimary: "Start Practice",
+    heroSecondary: "Study Themes",
+    statsAria: "Study progress",
+    statAnswered: "Answered",
+    statAnsweredHint: "Saved in this browser",
+    statAccuracy: "Accuracy",
+    statAccuracyHint: "Practice and mock exams",
+    statStreak: "Study Streak",
+    statStreakHint: "Open daily to continue",
+    statNext: "Next Step",
+    statNextHint: "Focus on the weakest theme",
+    studyPathTitle: "Suggested Study Flow",
+    studyStep1Title: "10 min theme review",
+    studyStep1Copy: "Read the Chinese explanation first, then scan the Dutch keywords in context.",
+    studyStep2Title: "15 min practice",
+    studyStep2Copy: "Answer exam-style multiple-choice questions and review explanations immediately.",
+    studyStep3Title: "5 min flashcards",
+    studyStep3Copy: "Listen and repeat key Dutch words to improve recognition speed.",
+    examNoteTitle: "Exam Context",
+    examNoteCopy1:
+      "DUO describes KNM as a computer-based exam covering Dutch society topics such as <strong>wonen</strong> and <strong>werk en inkomen</strong>. The app trains with a <strong>45-minute</strong>, <strong>40-question</strong> mock format.",
+    examNoteCopy2:
+      "The question bank includes two DUO oefenexamen sets, chapter practice, study-guide questions, and custom generated questions. Learners should still check DUO for official exam requirements.",
+    duoPracticeLink: "Open DUO official practice",
+    lessonsTitle: "KNM Theme Lessons",
+    lessonFiltersAria: "Theme filters",
+    practiceTitle: "Chapter Practice",
+    topicSelectAria: "Choose a practice theme",
+    practiceHint: "Choose one answer to view the explanation.",
+    resetPractice: "Restart This Theme",
+    speakQuestionAria: "Play Dutch pronunciation for this question",
+    nextQuestion: "Next Question",
+    prevQuestion: "Previous Question",
+    mockTitle: "45-Minute Mock Exam",
+    mockSourceLabel: "Question Bank",
+    mockSourceAria: "Choose a mock question bank",
+    mockSourceSiteOption: "Site Comprehensive Mock",
+    startMock: "Start Mock",
+    restartMock: "Restart Mock",
+    finishMock: "Submit Exam",
+    mockMeta: "40 questions / 45 minutes",
+    wrongbookTitle: "Mistake Review",
+    clearWrongbook: "Clear Mistakes",
+    wordsTitle: "High-Frequency Flashcards",
+    shuffleWords: "Shuffle",
+    wordFiltersAria: "Vocabulary theme filters",
+    grammarTitle: "Grammar / Quick Review",
+    grammarPatternsTitle: "High-Frequency Grammar",
+    cheatSheetTitle: "One-Page Exam Notes",
+    footerMade: "Built as a bilingual study tool for Chinese KNM learners.",
+    footerDuo: "Always verify official exam requirements with DUO.",
+    feedbackButton: "Feedback",
+    feedbackAria: "Report an issue or send feedback",
+    siteMockLabel: "Site Comprehensive Mock",
+    siteMockDescription:
+      "Randomly draws from generated questions, chapter practice, and study-guide questions, while keeping DUO official sets separate.",
+    duo1Description: "Uses DUO official practice set 1 in its original 40-question sequence.",
+    duo2Description: "Uses DUO official practice set 2 in its original 40-question sequence.",
+    notAnswered: "Not answered",
+    unknownOption: "Unknown option",
+    day: "days",
+    questionsUnit: "questions",
+    wordsUnit: "words",
+    groupsUnit: "content groups",
+    itemsUnit: "items",
+    knowledgeUnits: "knowledge units",
+    imageRefs: "image references",
+    coreWords: "core words",
+    practiceTopic: "Practice This Theme",
+    memoryHooksTitle: "Keyword Memory Hooks",
+    fullChapterTitle: (chapter) => `Full Study Page: Chapter ${chapter}`,
+    chapterSummary: (units, imageCount, vocabCount) =>
+      `${units} knowledge units, ${imageCount} image references, ${vocabCount} core words.`,
+    learningGoals: "Learning Goals",
+    coreVocabulary: "Core Vocabulary",
+    dutch: "Dutch",
+    chinese: "Chinese",
+    exampleOrMemory: "Example or memory cue",
+    commonMistakes: "Common Source Text Corrections",
+    originalText: "Original wording",
+    suggestedText: "Suggested wording",
+    chapterCheatSheet: (chapter) => `Chapter ${chapter} One-Page Review`,
+    all: "All",
+    showWordsAll: (sample, total) => `All | Showing ${sample} / ${total}`,
+    showWordsTopic: (topic, sample, total) => `${topic} | Showing ${sample} / ${total}`,
+    questionProgress: (current, total) => `Question ${current} / ${total}`,
+    typeAnswer: "Type your answer",
+    check: "Check",
+    referenceAnswer: "Reference answer",
+    correctFeedback: "Correct",
+    wrongFeedback: "Review this one again",
+    mockReady: "Ready to start",
+    mockIntroSite: "Practice at exam pace: 40 questions in 45 minutes, about one minute per question.",
+    mockIntroDuo: (label) => `${label}: complete the 40 questions in the official practice order.`,
+    noQuestionsAlert: "This question bank does not have available questions yet.",
+    wrongbookCount: (count) => `${count} mistake${count === 1 ? "" : "s"}`,
+    wrongbookHintFilled: "Prioritize recent and repeated mistakes. Click “Mastered” to remove a question.",
+    wrongbookHintEmpty: "Wrong answers from practice and mock exams will be saved here automatically.",
+    emptyWrongbookTitle: "No mistakes yet",
+    emptyWrongbookCopy: "After you practice or take a mock exam, this page will become a review list.",
+    confirmClearWrongbook: "Clear all saved mistakes?",
+    feedbackPending: "The feedback form is not ready yet.",
+    completed: "Completed",
+    correctCount: (correct, total) => `${correct} / ${total} correct`,
+    minutesLimit: "45-minute limit",
+    savedAsWrong: "Unanswered questions are saved as mistakes",
+    targetScore: "Suggested goal: 65%+",
+    mockReportTitle: "Mock Exam Report",
+    score: "Score",
+    timeSpent: "Time",
+    unanswered: "Unanswered",
+    practiceGoal: "Goal",
+    passed: "On Track",
+    needsWork: "Needs Review",
+    priorityReview: "Priority Review Themes",
+    correctLabel: "correct",
+    viewFullChapter: "Open Full Study Page",
+    reportNoWeakTopic: "No obvious weak theme in this set. Try another mock to keep your exam rhythm.",
+    wrongItemsSummary: (count) => `Mistakes in this mock ${count}`,
+    noWrongThisMock: "No mistakes in this mock.",
+    mockScore: (score) => `Mock score: ${score}%`,
+    mockPassCopy: "Good work. Keep practicing speed and consistency.",
+    mockFailCopy: "Review the theme lessons, starting with the weakest chapters.",
+    unansweredCopy: (count) => ` ${count} unanswered question${count === 1 ? "" : "s"} saved as incorrect.`,
+    yourAnswer: "Your answer",
+    mastered: "Mastered",
+    reviewChapter: "Review Chapter",
+    mistakeCount: (count) => `${count} mistake${count === 1 ? "" : "s"}`,
+    speechUnavailable: "This browser cannot play pronunciation.",
+  },
+};
+
 const MOCK_SOURCES = {
   site: {
-    label: "网站综合模拟题",
-    description: "随机抽取网站扩展题、章节练习题和学习手册模拟题，不混入 DUO 官方套题。",
+    labelKey: "siteMockLabel",
+    descriptionKey: "siteMockDescription",
   },
   "duo-1": {
     label: "DUO oefenexamen 1",
     source: "DUO oefenexamen 1",
-    description: "使用第 1 套 DUO 官方模拟练习题，按原套题顺序完成 40 题。",
+    descriptionKey: "duo1Description",
   },
   "duo-2": {
     label: "DUO oefenexamen 2",
     source: "DUO oefenexamen 2",
-    description: "使用第 2 套 DUO 官方模拟练习题，按原套题顺序完成 40 题。",
+    descriptionKey: "duo2Description",
   },
 };
 
 const STORAGE_KEY = "knm-cn-progress-v1";
 const state = {
   view: "dashboard",
+  language: loadLanguage(),
   activeTopic: topics[0]?.id || "wonen",
   activeWordTopic: "all",
   mockSource: "duo-1",
@@ -406,6 +705,59 @@ const state = {
 const $ = (selector) => document.querySelector(selector);
 const $$ = (selector) => Array.from(document.querySelectorAll(selector));
 let currentAudio = null;
+
+function loadLanguage() {
+  const saved = localStorage.getItem(LANGUAGE_KEY);
+  return saved === "en" ? "en" : "zh";
+}
+
+function t(key, ...args) {
+  const value = translations[state?.language || "zh"]?.[key] ?? translations.zh[key] ?? key;
+  return typeof value === "function" ? value(...args) : value;
+}
+
+function applyI18n() {
+  document.documentElement.lang = state.language === "en" ? "en" : "zh-CN";
+  document.title = t("pageTitle");
+  $$("[data-i18n]").forEach((element) => {
+    element.textContent = t(element.dataset.i18n);
+  });
+  $$("[data-i18n-html]").forEach((element) => {
+    element.innerHTML = t(element.dataset.i18nHtml);
+  });
+  $$("[data-i18n-aria-label]").forEach((element) => {
+    element.setAttribute("aria-label", t(element.dataset.i18nAriaLabel));
+  });
+  const toggle = $("#languageToggle");
+  if (toggle) {
+    toggle.textContent = t("languageToggle");
+    toggle.setAttribute("aria-label", t("languageToggleAria"));
+  }
+}
+
+function setLanguage(language) {
+  state.language = language === "en" ? "en" : "zh";
+  localStorage.setItem(LANGUAGE_KEY, state.language);
+  applyI18n();
+  renderLessonFilters();
+  renderWordTopicFilters();
+  renderLessons();
+  renderPractice();
+  renderWords();
+  renderGrammarGuide();
+  renderDashboard();
+  renderWrongbook();
+  if (state.mock.active) {
+    $("#mockSourcePill").textContent = mockSourceConfig().label;
+    $("#startMock").textContent = t("restartMock");
+    renderMockQuestion();
+  } else if (state.mock.result) {
+    renderMockReport(state.mock.result);
+  } else {
+    renderMockIntro();
+  }
+  showView(state.view);
+}
 
 function loadProgress() {
   const fallback = {
@@ -448,9 +800,9 @@ function findQuestionByKey(key) {
 }
 
 function selectedAnswerText(question, response) {
-  if (!hasQuestionResponse(question, response)) return "未作答";
+  if (!hasQuestionResponse(question, response)) return t("notAnswered");
   if (question.type === "short") return String(response);
-  return question.answers?.[response] || "未知选项";
+  return question.answers?.[response] || t("unknownOption");
 }
 
 function correctAnswerText(question) {
@@ -552,7 +904,7 @@ function speakDutch(text) {
   currentAudio = typeof window.Audio === "function" ? new window.Audio(url) : document.createElement("audio");
   currentAudio.src = url;
   currentAudio.play().catch(() => {
-    window.alert("Deze browser kan de uitspraak niet afspelen.");
+    window.alert(t("speechUnavailable"));
   });
 }
 
@@ -623,7 +975,7 @@ function renderDashboard() {
 
   $("#answeredCount").textContent = answered;
   $("#accuracyRate").textContent = answered ? `${Math.round((correct / answered) * 100)}%` : "0%";
-  $("#streakDays").textContent = `${streak || 1} 天`;
+  $("#streakDays").textContent = `${streak || 1} ${t("day")}`;
   $("#nextTopic").textContent = weakTopic.title;
 }
 
@@ -668,9 +1020,9 @@ function renderTopicFocus(topic) {
         <p>${topic.zhTitle}</p>
       </div>
       <div class="topic-focus-actions">
-        <span class="pill">${topicQuestions(topic.id).length} 道题</span>
-        <span class="pill">${topicWords(topic.id).length} 个词</span>
-        <button class="primary-action" data-practice-topic="${topic.id}" type="button">练这个主题</button>
+        <span class="pill">${topicQuestions(topic.id).length} ${t("questionsUnit")}</span>
+        <span class="pill">${topicWords(topic.id).length} ${t("wordsUnit")}</span>
+        <button class="primary-action" data-practice-topic="${topic.id}" type="button">${t("practiceTopic")}</button>
       </div>
     </div>
     <div class="topic-study-layout">
@@ -700,7 +1052,7 @@ function renderTopicFocus(topic) {
         <div class="section-heading">
           <div>
             <p class="eyebrow">Memory Hooks</p>
-            <h3>看到关键词就联想</h3>
+            <h3>${t("memoryHooksTitle")}</h3>
           </div>
         </div>
         <ul>
@@ -719,13 +1071,13 @@ function renderFullStudy(study) {
       <div class="section-heading">
         <div>
           <p class="eyebrow">Full Chapter</p>
-          <h3>第 ${study.chapter} 章完整学习页</h3>
-          <p>${units.length} 个知识单元，${study.imageCount} 张图片引用，${study.vocabulary.length} 个核心词。</p>
+          <h3>${t("fullChapterTitle", study.chapter)}</h3>
+          <p>${t("chapterSummary", units.length, study.imageCount, study.vocabulary.length)}</p>
         </div>
       </div>
       ${
         study.goals?.length
-          ? `<div class="learning-goals"><strong>本章学习目标</strong><ol>${study.goals.map((goal) => `<li>${renderText(goal)}</li>`).join("")}</ol></div>`
+          ? `<div class="learning-goals"><strong>${t("learningGoals")}</strong><ol>${study.goals.map((goal) => `<li>${renderText(goal)}</li>`).join("")}</ol></div>`
           : ""
       }
       <div class="full-study-parts">
@@ -742,7 +1094,7 @@ function renderFullStudy(study) {
 function renderFullStudyPart(part, index) {
   return `
     <details class="full-study-part" ${index === 0 ? "open" : ""}>
-      <summary>${renderText(part.title)} <span>${part.units.length} 个知识单元</span></summary>
+      <summary>${renderText(part.title)} <span>${part.units.length} ${t("knowledgeUnits")}</span></summary>
       <div class="full-study-units">
         ${part.units.map((unit, unitIndex) => renderFullStudyUnit(unit, index === 0 && unitIndex === 0)).join("")}
       </div>
@@ -800,7 +1152,7 @@ function renderFullStudyExtraSections(study) {
     .map(
       (section) => `
         <details class="full-study-extra">
-          <summary>${renderText(section.title)} <span>${section.blocks.length} 组内容</span></summary>
+          <summary>${renderText(section.title)} <span>${section.blocks.length} ${t("groupsUnit")}</span></summary>
           <div class="unit-content">
             ${section.blocks.map(renderStudyBlock).join("")}
           </div>
@@ -814,10 +1166,10 @@ function renderFullStudyVocabulary(study) {
   if (!study.vocabulary?.length) return "";
   return `
     <details class="full-study-extra">
-      <summary>本章核心词汇表 <span>${study.vocabulary.length} 个词</span></summary>
+      <summary>${t("coreVocabulary")} <span>${study.vocabulary.length} ${t("wordsUnit")}</span></summary>
       <div class="study-table-wrap">
         <table class="study-table">
-          <thead><tr><th>荷兰语</th><th>中文</th><th>例句或记忆</th></tr></thead>
+          <thead><tr><th>${t("dutch")}</th><th>${t("chinese")}</th><th>${t("exampleOrMemory")}</th></tr></thead>
           <tbody>
             ${study.vocabulary.map((item) => `<tr><td>${renderText(item.word)}</td><td>${renderText(item.meaning)}</td><td>${renderText(item.example)}</td></tr>`).join("")}
           </tbody>
@@ -831,10 +1183,10 @@ function renderCommonMistakes(study) {
   if (!study.commonMistakes?.length) return "";
   return `
     <details class="full-study-extra">
-      <summary>容易出错的原句与正确表达 <span>${study.commonMistakes.length} 条</span></summary>
+      <summary>${t("commonMistakes")} <span>${study.commonMistakes.length} ${t("itemsUnit")}</span></summary>
       <div class="study-table-wrap">
         <table class="study-table">
-          <thead><tr><th>原资料表达</th><th>建议表达</th><th>中文</th></tr></thead>
+          <thead><tr><th>${t("originalText")}</th><th>${t("suggestedText")}</th><th>${t("chinese")}</th></tr></thead>
           <tbody>
             ${study.commonMistakes.map((item) => `<tr><td>${renderText(item.original)}</td><td>${renderText(item.corrected)}</td><td>${renderText(item.meaning)}</td></tr>`).join("")}
           </tbody>
@@ -848,7 +1200,7 @@ function renderChapterCheatSheet(study) {
   if (!study.cheatSheet?.length) return "";
   return `
     <details class="full-study-extra">
-      <summary>第 ${study.chapter} 章一页速记 <span>${study.cheatSheet.reduce((total, section) => total + section.items.length, 0)} 条</span></summary>
+      <summary>${t("chapterCheatSheet", study.chapter)} <span>${study.cheatSheet.reduce((total, section) => total + section.items.length, 0)} ${t("itemsUnit")}</span></summary>
       <div class="chapter-cheat-grid">
         ${study.cheatSheet
           .map(
@@ -873,7 +1225,7 @@ function renderTopicSelect() {
 
 function renderWordTopicFilters() {
   const container = $("#wordTopicFilters");
-  const filters = [{ id: "all", title: "全部" }, ...topics];
+  const filters = [{ id: "all", title: t("all") }, ...topics];
   container.innerHTML = "";
   filters.forEach((topic) => {
     const count = topicWords(topic.id).length;
@@ -899,7 +1251,7 @@ function renderPractice() {
   state.practiceAnswered = false;
 
   $("#practiceTopicPill").textContent = `${topic.title} | ${topic.zhTitle}`;
-  $("#practiceProgress").textContent = `第 ${state.practiceIndex + 1} / ${list.length} 题`;
+  $("#practiceProgress").textContent = t("questionProgress", state.practiceIndex + 1, list.length);
   $("#practiceScenario").textContent = question.scenario;
   $("#practiceQuestion").textContent = question.question;
   $("#speakPracticeQuestion").dataset.speech = questionSpeechText(question);
@@ -946,12 +1298,12 @@ function renderAnswers(container, question, onSelect, selected = null, reveal = 
 function renderShortAnswer(container, question, onSelect, value = "", reveal = false) {
   container.innerHTML = `
     <div class="short-answer">
-      <label for="${question.id}-answer">Typ uw antwoord</label>
+      <label for="${question.id}-answer">${t("typeAnswer")}</label>
       <div class="short-answer-row">
         <input id="${question.id}-answer" type="text" value="${escapeHtml(value)}" ${reveal ? "disabled" : ""} autocomplete="off" />
-        <button class="secondary-action" type="button" ${reveal ? "disabled" : ""}>检查</button>
+        <button class="secondary-action" type="button" ${reveal ? "disabled" : ""}>${t("check")}</button>
       </div>
-      ${reveal ? `<p>参考答案：${escapeHtml(question.correctText || question.explanation)}</p>` : ""}
+      ${reveal ? `<p>${t("referenceAnswer")}：${escapeHtml(question.correctText || question.explanation)}</p>` : ""}
     </div>
   `;
   const input = container.querySelector("input");
@@ -974,7 +1326,7 @@ function showFeedback(container, question, isCorrect) {
   container.hidden = false;
   container.classList.toggle("is-wrong", !isCorrect);
   container.innerHTML = `
-    <strong>${isCorrect ? "答对了" : "这题要再看一眼"}</strong>
+    <strong>${isCorrect ? t("correctFeedback") : t("wrongFeedback")}</strong>
     <p>${question.explanation}</p>
   `;
 }
@@ -992,7 +1344,9 @@ function renderWords() {
   const list = topicWords(state.activeWordTopic);
   const topic = state.activeWordTopic === "all" ? null : getTopic(state.activeWordTopic);
   const sample = shuffle(list).slice(0, state.activeWordTopic === "all" ? 20 : list.length);
-  $("#wordTopicCount").textContent = topic ? `${topic.title} | 显示 ${sample.length} / ${list.length}` : `全部 | 显示 ${sample.length} / ${words.length}`;
+  $("#wordTopicCount").textContent = topic
+    ? t("showWordsTopic", topic.title, sample.length, list.length)
+    : t("showWordsAll", sample.length, words.length);
   $("#wordGrid").innerHTML = sample
     .map(
       (item) => `
@@ -1033,7 +1387,12 @@ function renderGrammarGuide() {
 }
 
 function mockSourceConfig() {
-  return MOCK_SOURCES[state.mockSource] || MOCK_SOURCES.site;
+  const config = MOCK_SOURCES[state.mockSource] || MOCK_SOURCES.site;
+  return {
+    ...config,
+    label: config.label || t(config.labelKey),
+    description: t(config.descriptionKey),
+  };
 }
 
 function mockSourceQuestions() {
@@ -1051,13 +1410,11 @@ function mockSourceQuestions() {
 function renderMockIntro() {
   const config = mockSourceConfig();
   $("#mockSourcePill").textContent = state.mockSource === "site" ? "KNM Mock" : "DUO Mock";
-  $("#mockCount").textContent = "准备开始";
+  $("#mockCount").textContent = t("mockReady");
   $("#mockMeter").style.width = "0%";
   $("#mockTimer").textContent = `${MOCK_DURATION_MINUTES}:00`;
   $("#mockScenario").textContent = config.description;
-  $("#mockQuestion").textContent = state.mockSource === "site"
-    ? "按真实节奏练习：45 分钟完成 40 题，每题大约 1 分钟。"
-    : `${config.label}：按官方练习套题顺序完成 40 题。`;
+  $("#mockQuestion").textContent = state.mockSource === "site" ? t("mockIntroSite") : t("mockIntroDuo", config.label);
   $("#mockAnswers").innerHTML = "";
   $("#mockFeedback").hidden = true;
   $("#mockReport").hidden = true;
@@ -1066,7 +1423,7 @@ function renderMockIntro() {
   $("#nextMock").disabled = true;
   $("#finishMock").disabled = true;
   $("#speakMockQuestion").disabled = true;
-  $("#startMock").textContent = "开始模拟";
+  $("#startMock").textContent = t("startMock");
 }
 
 function goPracticeTopic(topicId) {
@@ -1104,20 +1461,20 @@ function handleReviewAction(event) {
 
 function renderWrongbook() {
   const entries = wrongAnswerEntries();
-  $("#wrongbookCount").textContent = `${entries.length} 道错题`;
+  $("#wrongbookCount").textContent = t("wrongbookCount", entries.length);
   $("#clearWrongbook").disabled = entries.length === 0;
   $("#wrongbookHint").textContent = entries.length
-    ? "优先处理错得多、最近错的题；点“已掌握”可以从错题本移除。"
-    : "刷题或模拟中答错的题会自动保存到这里。";
+    ? t("wrongbookHintFilled")
+    : t("wrongbookHintEmpty");
   $("#wrongbookList").innerHTML = entries.length
     ? entries.map((entry) => renderWrongQuestionCard(entry, { showActions: true })).join("")
-    : `<section class="panel empty-state"><strong>目前没有错题</strong><p>做几道刷题或模拟后，这里会自动生成复习清单。</p></section>`;
+    : `<section class="panel empty-state"><strong>${t("emptyWrongbookTitle")}</strong><p>${t("emptyWrongbookCopy")}</p></section>`;
 }
 
 function startMock() {
   const selectedQuestions = mockSourceQuestions();
   if (!selectedQuestions.length) {
-    window.alert("这个题库暂时没有可用题目。");
+    window.alert(t("noQuestionsAlert"));
     return;
   }
   state.mock.active = true;
@@ -1129,7 +1486,7 @@ function startMock() {
   state.mock.deadline = Date.now() + MOCK_DURATION_MINUTES * 60 * 1000;
   clearInterval(state.mock.timer);
   state.mock.timer = setInterval(updateMockTimer, 1000);
-  $("#startMock").textContent = "重新开始";
+  $("#startMock").textContent = t("restartMock");
   $("#finishMock").disabled = false;
   $("#speakMockQuestion").disabled = false;
   $("#mockReport").hidden = true;
@@ -1157,7 +1514,7 @@ function renderMockQuestion() {
   $("#mockScenario").textContent = question.scenario;
   $("#mockQuestion").textContent = question.question;
   $("#speakMockQuestion").dataset.speech = questionSpeechText(question);
-  $("#mockCount").textContent = `第 ${mock.index + 1} / ${mock.questions.length} 题`;
+  $("#mockCount").textContent = t("questionProgress", mock.index + 1, mock.questions.length);
   $("#mockMeter").style.width = `${((mock.index + 1) / mock.questions.length) * 100}%`;
   $("#mockFeedback").hidden = true;
   $("#prevMock").disabled = mock.index === 0;
@@ -1178,7 +1535,9 @@ function formatDuration(milliseconds) {
   const totalSeconds = Math.max(0, Math.round(milliseconds / 1000));
   const minutes = Math.floor(totalSeconds / 60);
   const seconds = totalSeconds % 60;
-  return `${minutes}分${String(seconds).padStart(2, "0")}秒`;
+  return state.language === "en"
+    ? `${minutes}m ${String(seconds).padStart(2, "0")}s`
+    : `${minutes}分${String(seconds).padStart(2, "0")}秒`;
 }
 
 function buildMockResult() {
@@ -1231,8 +1590,8 @@ function renderReviewAnswerList(question, response) {
   if (question.type === "short") {
     return `
       <div class="answer-review">
-        <span class="is-wrong">你的答案：${renderText(selectedAnswerText(question, response))}</span>
-        <span class="is-correct">参考答案：${renderText(correctAnswerText(question))}</span>
+        <span class="is-wrong">${t("yourAnswer")}：${renderText(selectedAnswerText(question, response))}</span>
+        <span class="is-correct">${t("referenceAnswer")}：${renderText(correctAnswerText(question))}</span>
       </div>
     `;
   }
@@ -1258,7 +1617,7 @@ function renderWrongQuestionCard(item, options = {}) {
     <article class="wrong-card">
       <div class="wrong-card-head">
         <span class="pill">${renderText(topic.title)}</span>
-        ${item.mistakes ? `<span class="mistake-count">错 ${item.mistakes} 次</span>` : ""}
+        ${item.mistakes ? `<span class="mistake-count">${t("mistakeCount", item.mistakes)}</span>` : ""}
       </div>
       ${question.scenario ? `<p class="scenario">${renderText(question.scenario)}</p>` : ""}
       <h3>${renderText(question.question)}</h3>
@@ -1267,9 +1626,9 @@ function renderWrongQuestionCard(item, options = {}) {
       ${
         options.showActions
           ? `<div class="card-actions">
-              <button class="secondary-action" data-review-topic="${topic.id}" type="button">复习本章</button>
-              <button class="secondary-action" data-wrong-practice-topic="${topic.id}" type="button">练这个主题</button>
-              <button class="primary-action" data-remove-wrong="${renderText(key)}" type="button">已掌握</button>
+              <button class="secondary-action" data-review-topic="${topic.id}" type="button">${t("reviewChapter")}</button>
+              <button class="secondary-action" data-wrong-practice-topic="${topic.id}" type="button">${t("practiceTopic")}</button>
+              <button class="primary-action" data-remove-wrong="${renderText(key)}" type="button">${t("mastered")}</button>
             </div>`
           : ""
       }
@@ -1286,43 +1645,43 @@ function renderMockReport(result) {
     <div class="section-heading">
       <div>
         <p class="eyebrow">Exam Report</p>
-        <h2>模拟考试结果页</h2>
+        <h2>${t("mockReportTitle")}</h2>
         <p>${renderText(result.sourceLabel)}</p>
       </div>
     </div>
     <div class="report-grid">
-      <article><span>成绩</span><strong>${result.correct}/${result.total}</strong><small>${result.percentage}%</small></article>
-      <article><span>用时</span><strong>${formatDuration(result.elapsedMs)}</strong><small>45 分钟上限</small></article>
-      <article><span>未答</span><strong>${result.unanswered}</strong><small>未答按错题保存</small></article>
-      <article><span>练习目标</span><strong>${passed ? "达标" : "需加强"}</strong><small>建议目标 65%+</small></article>
+      <article><span>${t("score")}</span><strong>${result.correct}/${result.total}</strong><small>${result.percentage}%</small></article>
+      <article><span>${t("timeSpent")}</span><strong>${formatDuration(result.elapsedMs)}</strong><small>${t("minutesLimit")}</small></article>
+      <article><span>${t("unanswered")}</span><strong>${result.unanswered}</strong><small>${t("savedAsWrong")}</small></article>
+      <article><span>${t("practiceGoal")}</span><strong>${passed ? t("passed") : t("needsWork")}</strong><small>${t("targetScore")}</small></article>
     </div>
     ${
       weakTopics.length
         ? `<div class="topic-breakdown">
-            <h3>优先复习章节</h3>
+            <h3>${t("priorityReview")}</h3>
             ${weakTopics
               .map(
                 (topic) => `
                   <article>
                     <div>
                       <strong>${renderText(topic.title)}</strong>
-                      <span>${renderText(topic.zhTitle)} | ${topic.correct}/${topic.total} 正确</span>
+                      <span>${renderText(topic.zhTitle)} | ${topic.correct}/${topic.total} ${t("correctLabel")}</span>
                     </div>
                     <div class="card-actions">
-                      <button class="secondary-action" data-review-topic="${topic.id}" type="button">看完整学习页</button>
-                      <button class="primary-action" data-wrong-practice-topic="${topic.id}" type="button">练这个主题</button>
+                      <button class="secondary-action" data-review-topic="${topic.id}" type="button">${t("viewFullChapter")}</button>
+                      <button class="primary-action" data-wrong-practice-topic="${topic.id}" type="button">${t("practiceTopic")}</button>
                     </div>
                   </article>
                 `,
               )
               .join("")}
           </div>`
-        : `<p class="report-note">这一套没有明显薄弱章节，可以继续换一套模拟保持手感。</p>`
+        : `<p class="report-note">${t("reportNoWeakTopic")}</p>`
     }
     <details class="mock-wrong-list" ${wrongItems.length ? "open" : ""}>
-      <summary>本次错题 <span>${wrongItems.length} 题</span></summary>
+      <summary>${t("wrongItemsSummary", wrongItems.length)}</summary>
       <div class="wrongbook-list">
-        ${wrongItems.length ? wrongItems.map((item) => renderWrongQuestionCard(item)).join("") : `<p class="empty-state">本次没有错题。</p>`}
+        ${wrongItems.length ? wrongItems.map((item) => renderWrongQuestionCard(item)).join("") : `<p class="empty-state">${t("noWrongThisMock")}</p>`}
       </div>
     </details>
   `;
@@ -1340,15 +1699,15 @@ function finishMock() {
   });
   saveProgress();
 
-  $("#mockTimer").textContent = "完成";
-  $("#mockCount").textContent = `${result.correct} / ${result.total} 正确`;
+  $("#mockTimer").textContent = t("completed");
+  $("#mockCount").textContent = t("correctCount", result.correct, result.total);
   $("#mockMeter").style.width = `${result.percentage}%`;
   $("#mockFeedback").hidden = false;
   $("#mockFeedback").className = result.percentage >= 65 ? "feedback" : "feedback is-wrong";
   $("#mockFeedback").innerHTML = `
-    <strong>模拟成绩：${result.percentage}%</strong>
-    <p>${result.percentage >= 65 ? "不错，继续保持速度和稳定性。" : "建议回到主题课，优先复习错得多的章节。"}${
-      result.unanswered ? ` 未作答 ${result.unanswered} 题，本次按错题计算。` : ""
+    <strong>${t("mockScore", result.percentage)}</strong>
+    <p>${result.percentage >= 65 ? t("mockPassCopy") : t("mockFailCopy")}${
+      result.unanswered ? t("unansweredCopy", result.unanswered) : ""
     }</p>
   `;
   renderMockReport(result);
@@ -1368,6 +1727,9 @@ function finishMock() {
 function bindEvents() {
   $$(".tab").forEach((tab) => tab.addEventListener("click", () => showView(tab.dataset.view)));
   $$("[data-start]").forEach((button) => button.addEventListener("click", () => showView(button.dataset.start)));
+  $("#languageToggle").addEventListener("click", () => {
+    setLanguage(state.language === "en" ? "zh" : "en");
+  });
   window.addEventListener("hashchange", () => {
     const view = window.location.hash.replace("#", "");
     if (view && $(`#${view}`)) showView(view);
@@ -1382,7 +1744,7 @@ function bindEvents() {
     if (state.mock.active) {
       clearInterval(state.mock.timer);
       state.mock.active = false;
-      $("#startMock").textContent = "开始模拟";
+      $("#startMock").textContent = t("startMock");
     }
     renderMockIntro();
   });
@@ -1396,7 +1758,7 @@ function bindEvents() {
   $("#speakMockQuestion").addEventListener("click", (event) => speakDutch(event.currentTarget.dataset.speech));
   $("#clearWrongbook").addEventListener("click", () => {
     if (!wrongAnswerEntries().length) return;
-    if (window.confirm("确定清空错题本吗？")) clearWrongAnswers();
+    if (window.confirm(t("confirmClearWrongbook"))) clearWrongAnswers();
   });
   $("#wrongbookList").addEventListener("click", handleReviewAction);
   $("#mockReport").addEventListener("click", handleReviewAction);
@@ -1410,7 +1772,7 @@ function bindEvents() {
   });
   $("#feedbackButton").addEventListener("click", () => {
     if (!FEEDBACK_FORM_URL) {
-      window.alert("反馈入口正在准备中。");
+      window.alert(t("feedbackPending"));
       return;
     }
     window.open(FEEDBACK_FORM_URL, "_blank", "noopener,noreferrer");
@@ -1430,6 +1792,7 @@ function bindEvents() {
 function init() {
   const hash = window.location.hash.replace("#", "");
   if (hash && $(`#${hash}`)) state.view = hash;
+  applyI18n();
   renderLessonFilters();
   renderWordTopicFilters();
   renderLessons();

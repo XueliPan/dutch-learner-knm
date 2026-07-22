@@ -57,22 +57,25 @@
   </head>
   <body>
     <header class="topbar">
-      <a class="brand" href="#dashboard" aria-label="KNM 通关练习首页">
+      <a class="brand" href="#dashboard" aria-label="KNM 通关练习首页" data-i18n-aria-label="brandAria">
         <span class="brand-mark">NL</span>
         <span>
-          <strong>KNM 通关练习</strong>
-          <small>中文学习助手</small>
+          <strong data-i18n="brandTitle">KNM 通关练习</strong>
+          <small data-i18n="brandSubtitle">中文学习助手</small>
         </span>
       </a>
-      <nav class="tabs" aria-label="主要页面">
-        <button class="tab is-active" data-view="dashboard" type="button">总览</button>
-        <button class="tab" data-view="lessons" type="button">主题</button>
-        <button class="tab" data-view="practice" type="button">刷题</button>
-        <button class="tab" data-view="mock" type="button">模拟</button>
-        <button class="tab" data-view="wrongbook" type="button">错题</button>
-        <button class="tab" data-view="words" type="button">词卡</button>
-        <button class="tab" data-view="grammar" type="button">语法/速记</button>
+      <nav class="tabs" aria-label="主要页面" data-i18n-aria-label="mainNavAria">
+        <button class="tab is-active" data-view="dashboard" data-i18n="tabDashboard" type="button">总览</button>
+        <button class="tab" data-view="lessons" data-i18n="tabLessons" type="button">主题</button>
+        <button class="tab" data-view="practice" data-i18n="tabPractice" type="button">刷题</button>
+        <button class="tab" data-view="mock" data-i18n="tabMock" type="button">模拟</button>
+        <button class="tab" data-view="wrongbook" data-i18n="tabWrongbook" type="button">错题</button>
+        <button class="tab" data-view="words" data-i18n="tabWords" type="button">词卡</button>
+        <button class="tab" data-view="grammar" data-i18n="tabGrammar" type="button">语法/速记</button>
       </nav>
+      <button class="language-toggle" id="languageToggle" type="button" aria-label="Switch to English">
+        English
+      </button>
     </header>
 
     <main>
@@ -81,37 +84,37 @@
           <img src="assets/knm-study-hero.jpg" alt="Chinese learner studying Dutch society topics" />
           <div class="hero-panel">
             <p class="eyebrow">Kennis van de Nederlandse Maatschappij</p>
-            <h1 id="dashboard-title">用中文理解荷兰社会，用荷兰语通过 KNM。</h1>
-            <p class="hero-copy">
+            <h1 id="dashboard-title" data-i18n="heroTitle">用中文理解荷兰社会，用荷兰语通过 KNM。</h1>
+            <p class="hero-copy" data-i18n="heroCopy">
               按主题学习常见生活场景，记住核心荷兰语关键词，并用考试风格选择题训练判断速度。
             </p>
             <div class="hero-actions">
-              <button class="primary-action" data-start="practice" type="button">开始刷题</button>
-              <button class="secondary-action" data-start="lessons" type="button">先学主题</button>
+              <button class="primary-action" data-start="practice" data-i18n="heroPrimary" type="button">开始刷题</button>
+              <button class="secondary-action" data-start="lessons" data-i18n="heroSecondary" type="button">先学主题</button>
             </div>
           </div>
         </div>
 
-        <section class="stats-grid" aria-label="学习进度">
+        <section class="stats-grid" aria-label="学习进度" data-i18n-aria-label="statsAria">
           <article class="stat-block">
-            <span>已答题</span>
+            <span data-i18n="statAnswered">已答题</span>
             <strong id="answeredCount">0</strong>
-            <small>本浏览器自动保存</small>
+            <small data-i18n="statAnsweredHint">本浏览器自动保存</small>
           </article>
           <article class="stat-block">
-            <span>正确率</span>
+            <span data-i18n="statAccuracy">正确率</span>
             <strong id="accuracyRate">0%</strong>
-            <small>包含刷题和模拟</small>
+            <small data-i18n="statAccuracyHint">包含刷题和模拟</small>
           </article>
           <article class="stat-block">
-            <span>连续学习</span>
+            <span data-i18n="statStreak">连续学习</span>
             <strong id="streakDays">1 天</strong>
-            <small>每天打开即可延续</small>
+            <small data-i18n="statStreakHint">每天打开即可延续</small>
           </article>
           <article class="stat-block accent">
-            <span>下一步</span>
+            <span data-i18n="statNext">下一步</span>
             <strong id="nextTopic">Wonen</strong>
-            <small>优先补最弱主题</small>
+            <small data-i18n="statNextHint">优先补最弱主题</small>
           </article>
         </section>
 
@@ -120,29 +123,29 @@
             <div class="section-heading">
               <div>
                 <p class="eyebrow">Study Path</p>
-                <h2>今日学习路线</h2>
+                <h2 data-i18n="studyPathTitle">今日学习路线</h2>
               </div>
             </div>
             <ol class="study-path">
               <li>
                 <span>1</span>
                 <div>
-                  <strong>10 分钟看主题</strong>
-                  <p>先读中文解释，再读荷兰语关键词，建立场景感。</p>
+                  <strong data-i18n="studyStep1Title">10 分钟看主题</strong>
+                  <p data-i18n="studyStep1Copy">先读中文解释，再读荷兰语关键词，建立场景感。</p>
                 </div>
               </li>
               <li>
                 <span>2</span>
                 <div>
-                  <strong>15 分钟刷题</strong>
-                  <p>每题看解析，错题会进入弱项记录。</p>
+                  <strong data-i18n="studyStep2Title">15 分钟刷题</strong>
+                  <p data-i18n="studyStep2Copy">每题看解析，错题会进入弱项记录。</p>
                 </div>
               </li>
               <li>
                 <span>3</span>
                 <div>
-                  <strong>5 分钟词卡复习</strong>
-                  <p>把关键词读出声，训练考试时快速识别。</p>
+                  <strong data-i18n="studyStep3Title">5 分钟词卡复习</strong>
+                  <p data-i18n="studyStep3Copy">把关键词读出声，训练考试时快速识别。</p>
                 </div>
               </li>
             </ol>
@@ -152,19 +155,19 @@
             <div class="section-heading">
               <div>
                 <p class="eyebrow">Official Context</p>
-                <h2>考试提醒</h2>
+                <h2 data-i18n="examNoteTitle">考试提醒</h2>
               </div>
             </div>
             <div class="exam-note">
-              <p>
+              <p data-i18n-html="examNoteCopy1">
                 DUO 说明：KNM 是电脑考试，题目围绕多个社会主题，例如 <strong>wonen</strong> 和
                 <strong>werk en inkomen</strong>，考试时间为 <strong>45 分钟</strong>，模拟时建议按 <strong>40 道题</strong> 训练。
               </p>
-              <p>
+              <p data-i18n="examNoteCopy2">
                 题库已加入 2 套 DUO oefenexamen、KNM 学习手册练习题和原创扩展题；正式考试前仍建议到 DUO 官网熟悉考试入口。
               </p>
               <a href="https://www.inburgeren.nl/examen-doen/oefenen.jsp" target="_blank" rel="noreferrer">
-                打开 DUO 官方练习
+                <span data-i18n="duoPracticeLink">打开 DUO 官方练习</span>
               </a>
             </div>
           </div>
@@ -176,9 +179,9 @@
         <div class="page-heading">
           <div>
             <p class="eyebrow">Themes</p>
-            <h1 id="lessons-title">KNM 主题课</h1>
+            <h1 id="lessons-title" data-i18n="lessonsTitle">KNM 主题课</h1>
           </div>
-          <div class="filter-row" id="lessonFilters" aria-label="主题筛选"></div>
+          <div class="filter-row" id="lessonFilters" aria-label="主题筛选" data-i18n-aria-label="lessonFiltersAria"></div>
         </div>
         <section class="topic-focus" id="topicFocus" aria-live="polite"></section>
       </section>
@@ -187,32 +190,32 @@
         <div class="page-heading">
           <div>
             <p class="eyebrow">Practice</p>
-            <h1 id="practice-title">按主题刷题</h1>
+            <h1 id="practice-title" data-i18n="practiceTitle">按主题刷题</h1>
           </div>
-          <select id="topicSelect" aria-label="选择练习主题"></select>
+          <select id="topicSelect" aria-label="选择练习主题" data-i18n-aria-label="topicSelectAria"></select>
         </div>
         <div class="quiz-shell">
           <aside class="quiz-side">
             <span class="pill" id="practiceTopicPill">Wonen</span>
             <h2 id="practiceProgress">第 1 题</h2>
-            <p id="practiceHint">选择一个答案后查看中文解析。</p>
+            <p id="practiceHint" data-i18n="practiceHint">选择一个答案后查看中文解析。</p>
             <div class="meter" aria-label="本轮进度">
               <span id="practiceMeter"></span>
             </div>
-            <button class="secondary-action full" id="resetPractice" type="button">重开本主题</button>
+            <button class="secondary-action full" id="resetPractice" data-i18n="resetPractice" type="button">重开本主题</button>
           </aside>
           <section class="question-card" aria-live="polite">
             <p class="scenario" id="practiceScenario"></p>
             <div class="question-head">
               <h2 id="practiceQuestion"></h2>
-              <button class="listen-button" id="speakPracticeQuestion" type="button" aria-label="播放本题荷兰语发音">
+              <button class="listen-button" id="speakPracticeQuestion" type="button" aria-label="播放本题荷兰语发音" data-i18n-aria-label="speakQuestionAria">
                 <span aria-hidden="true">Luister</span>
               </button>
             </div>
             <div class="answers" id="practiceAnswers"></div>
             <div class="feedback" id="practiceFeedback" hidden></div>
             <div class="card-actions">
-              <button class="secondary-action" id="nextPractice" type="button" disabled>下一题</button>
+              <button class="secondary-action" id="nextPractice" data-i18n="nextQuestion" type="button" disabled>下一题</button>
             </div>
           </section>
         </div>
@@ -222,23 +225,23 @@
         <div class="page-heading">
           <div>
             <p class="eyebrow">Mock Exam</p>
-            <h1 id="mock-title">45 分钟模拟模式</h1>
+            <h1 id="mock-title" data-i18n="mockTitle">45 分钟模拟模式</h1>
           </div>
           <div class="mock-toolbar">
-            <label for="mockSourceSelect">题库</label>
-            <select id="mockSourceSelect" aria-label="选择模拟题库">
+            <label for="mockSourceSelect" data-i18n="mockSourceLabel">题库</label>
+            <select id="mockSourceSelect" aria-label="选择模拟题库" data-i18n-aria-label="mockSourceAria">
               <option value="duo-1">DUO oefenexamen 1</option>
               <option value="duo-2">DUO oefenexamen 2</option>
-              <option value="site">网站综合模拟题</option>
+              <option value="site" data-i18n="mockSourceSiteOption">网站综合模拟题</option>
             </select>
-            <button class="primary-action" id="startMock" type="button">开始模拟</button>
+            <button class="primary-action" id="startMock" data-i18n="startMock" type="button">开始模拟</button>
           </div>
         </div>
         <div class="mock-layout">
           <aside class="panel mock-status">
             <span class="pill" id="mockSourcePill">KNM Mock</span>
             <strong id="mockTimer">45:00</strong>
-            <p class="mock-meta">40 题 / 45 分钟</p>
+            <p class="mock-meta" data-i18n="mockMeta">40 题 / 45 分钟</p>
             <p id="mockCount">准备开始</p>
             <div class="meter">
               <span id="mockMeter"></span>
@@ -248,16 +251,16 @@
             <p class="scenario" id="mockScenario">选择题库后点击开始。网站综合模拟会随机抽题；DUO 题库会按官方练习套题顺序出题。</p>
             <div class="question-head">
               <h2 id="mockQuestion">按真实节奏练习：45 分钟完成 40 题，每题大约 1 分钟。</h2>
-              <button class="listen-button" id="speakMockQuestion" type="button" aria-label="播放本题荷兰语发音" disabled>
+              <button class="listen-button" id="speakMockQuestion" type="button" aria-label="播放本题荷兰语发音" data-i18n-aria-label="speakQuestionAria" disabled>
                 <span aria-hidden="true">Luister</span>
               </button>
             </div>
             <div class="answers" id="mockAnswers"></div>
             <div class="feedback" id="mockFeedback" hidden></div>
             <div class="card-actions">
-              <button class="secondary-action" id="prevMock" type="button" disabled>上一题</button>
-              <button class="secondary-action" id="nextMock" type="button" disabled>下一题</button>
-              <button class="primary-action" id="finishMock" type="button" disabled>交卷</button>
+              <button class="secondary-action" id="prevMock" data-i18n="prevQuestion" type="button" disabled>上一题</button>
+              <button class="secondary-action" id="nextMock" data-i18n="nextQuestion" type="button" disabled>下一题</button>
+              <button class="primary-action" id="finishMock" data-i18n="finishMock" type="button" disabled>交卷</button>
             </div>
           </section>
         </div>
@@ -268,9 +271,9 @@
         <div class="page-heading">
           <div>
             <p class="eyebrow">Mistake Review</p>
-            <h1 id="wrongbook-title">错题本</h1>
+            <h1 id="wrongbook-title" data-i18n="wrongbookTitle">错题本</h1>
           </div>
-          <button class="secondary-action" id="clearWrongbook" type="button">清空错题</button>
+          <button class="secondary-action" id="clearWrongbook" data-i18n="clearWrongbook" type="button">清空错题</button>
         </div>
         <section class="panel wrongbook-summary" aria-live="polite">
           <span class="pill" id="wrongbookCount">0 道错题</span>
@@ -283,12 +286,12 @@
         <div class="page-heading">
           <div>
             <p class="eyebrow">Words</p>
-            <h1 id="words-title">高频词卡</h1>
+            <h1 id="words-title" data-i18n="wordsTitle">高频词卡</h1>
           </div>
-          <button class="secondary-action" id="shuffleWords" type="button">换一组</button>
+          <button class="secondary-action" id="shuffleWords" data-i18n="shuffleWords" type="button">换一组</button>
         </div>
         <div class="word-toolbar">
-          <div class="filter-row" id="wordTopicFilters" aria-label="词汇主题筛选"></div>
+          <div class="filter-row" id="wordTopicFilters" aria-label="词汇主题筛选" data-i18n-aria-label="wordFiltersAria"></div>
           <span class="pill" id="wordTopicCount">0 个词</span>
         </div>
         <div class="word-grid" id="wordGrid"></div>
@@ -298,7 +301,7 @@
         <div class="page-heading">
           <div>
             <p class="eyebrow">Grammar & Cheat Sheet</p>
-            <h1 id="grammar-title">语法 / 考前速记</h1>
+            <h1 id="grammar-title" data-i18n="grammarTitle">语法 / 考前速记</h1>
           </div>
         </div>
         <div class="grammar-layout">
@@ -306,7 +309,7 @@
             <div class="section-heading">
               <div>
                 <p class="eyebrow">High Frequency</p>
-                <h2 id="grammar-patterns-title">高频语法</h2>
+                <h2 id="grammar-patterns-title" data-i18n="grammarPatternsTitle">高频语法</h2>
               </div>
             </div>
             <div class="grammar-grid" id="grammarGrid"></div>
@@ -315,7 +318,7 @@
             <div class="section-heading">
               <div>
                 <p class="eyebrow">Before Exam</p>
-                <h2 id="cheat-sheet-title">考前一页速记</h2>
+                <h2 id="cheat-sheet-title" data-i18n="cheatSheetTitle">考前一页速记</h2>
               </div>
             </div>
             <ol class="cheat-list" id="cheatList"></ol>
@@ -325,11 +328,11 @@
     </main>
 
     <footer>
-      <span>Made for Chinese KNM learners.</span>
-      <span>请用官方 DUO 材料确认最新考试要求。</span>
+      <span data-i18n="footerMade">Made for Chinese KNM learners.</span>
+      <span data-i18n="footerDuo">请用官方 DUO 材料确认最新考试要求。</span>
     </footer>
 
-    <button class="feedback-button" id="feedbackButton" type="button" aria-label="发现问题或反馈建议">发现问题</button>
+    <button class="feedback-button" id="feedbackButton" type="button" aria-label="发现问题或反馈建议" data-i18n="feedbackButton" data-i18n-aria-label="feedbackAria">发现问题</button>
 
     <script type="module" src="/app.js"></script>
     <!-- Cloudflare Web Analytics -->

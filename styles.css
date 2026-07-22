@@ -97,13 +97,29 @@ button {
 }
 
 .tab,
-.filter-chip {
+.filter-chip,
+.language-toggle {
   border: 1px solid transparent;
   border-radius: 999px;
   background: transparent;
   color: var(--muted);
   padding: 9px 14px;
   white-space: nowrap;
+}
+
+.language-toggle {
+  flex: 0 0 auto;
+  border-color: var(--line);
+  background: #fff;
+  color: var(--teal-dark);
+  font-weight: 800;
+  box-shadow: 0 8px 22px rgba(21, 40, 50, 0.06);
+}
+
+.language-toggle:hover,
+.language-toggle:focus-visible {
+  border-color: rgba(15, 118, 110, 0.42);
+  outline: none;
 }
 
 .tab.is-active,
@@ -1161,6 +1177,13 @@ footer {
 
   .tabs {
     width: 100%;
+  }
+
+  .language-toggle {
+    align-self: flex-end;
+    position: absolute;
+    right: 16px;
+    top: 14px;
   }
 
   .hero {
