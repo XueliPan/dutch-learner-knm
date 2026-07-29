@@ -11,7 +11,6 @@ const fullChapterTwoToTenDir =
   "/Users/sherrypan/Downloads/KNM_Hoofdstukken_2-10_studiepakket/KNM_Hoofdstukken_2-10";
 const duoQuestionsPath = path.join(root, "content", "duo-practice-questions.json");
 const generatedQuestionsPath = path.join(root, "content", "generated-mock-questions.json");
-const fullStudyUnitQuestionsPath = path.join(root, "content", "full-study-unit-questions.json");
 const outputPath = path.join(root, "content-data.js");
 
 const notes = fs.readFileSync(notesPath, "utf8");
@@ -811,11 +810,10 @@ const lessonByChapter = new Map(topics.map((topic) => [topic.chapter, topic]));
 const studyQuestions = parseQuestions(practice, lessonByChapter);
 const duoQuestions = readJsonArray(duoQuestionsPath);
 const generatedQuestions = readJsonArray(generatedQuestionsPath);
-const fullStudyUnitQuestions = readJsonArray(fullStudyUnitQuestionsPath);
 const guideChapterQuestions = parseGuideChapterQuestions(guide, lessonByChapter);
 const guideMockQuestions = parseGuideMockQuestions(guide);
 const guideQuestions = [...guideChapterQuestions, ...guideMockQuestions];
-const questions = [...studyQuestions, ...duoQuestions, ...generatedQuestions, ...fullStudyUnitQuestions, ...guideQuestions];
+const questions = [...duoQuestions, ...generatedQuestions];
 const guideWords = [...parseGuideChapterWords(guide, lessonByChapter), ...parseGuideComprehensiveWords(guide)];
 const fullStudyWords = fullStudyCoreWords(topics);
 const words = dedupeWords([...topics.flatMap((topic) => topic.vocabulary), ...fullStudyWords, ...guideWords], { scopeByTopic: true });
@@ -826,5 +824,5 @@ const output = `export const KNM_CONTENT = ${JSON.stringify({ topics, questions,
 fs.writeFileSync(outputPath, output);
 
 console.log(
-  `Imported ${topics.length} topics, ${questions.length} questions (${studyQuestions.length} study, ${duoQuestions.length} DUO, ${generatedQuestions.length} generated, ${fullStudyUnitQuestions.length} full-study unit, ${guideQuestions.length} guide), ${words.length} vocabulary items, ${grammar.length} grammar cards, ${cheatSheet.length} cheat-sheet notes, ${fullStudyByChapter.size} full-study chapters.`,
+  `Imported ${topics.length} topics, ${questions.length} questions (${duoQuestions.length} DUO, ${generatedQuestions.length} scenario original; excluded ${studyQuestions.length} legacy study, ${guideQuestions.length} guide), ${words.length} vocabulary items, ${grammar.length} grammar cards, ${cheatSheet.length} cheat-sheet notes, ${fullStudyByChapter.size} full-study chapters.`,
 );

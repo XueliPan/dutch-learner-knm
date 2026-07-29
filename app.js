@@ -406,7 +406,7 @@ const translations = {
     examNoteCopy1:
       "DUO 说明：KNM 是电脑考试，题目围绕多个社会主题，例如 <strong>wonen</strong> 和 <strong>werk en inkomen</strong>，考试时间为 <strong>45 分钟</strong>，模拟时建议按 <strong>40 道题</strong> 训练。",
     examNoteCopy2:
-      "题库已加入 2 套 DUO oefenexamen、KNM 学习手册练习题和原创扩展题；正式考试前仍建议到 DUO 官网熟悉考试入口。",
+      "题库只保留新版 10 章原创场景题和 2 套 DUO oefenexamen；正式考试前仍建议到 DUO 官网熟悉考试入口。",
     duoPracticeLink: "打开 DUO 官方练习",
     lessonsTitle: "KNM 主题课",
     lessonFiltersAria: "主题筛选",
@@ -438,7 +438,7 @@ const translations = {
     feedbackButton: "发现问题",
     feedbackAria: "发现问题或反馈建议",
     siteMockLabel: "网站综合模拟题",
-    siteMockDescription: "随机抽取网站扩展题、章节练习题和学习手册模拟题，不混入 DUO 官方套题。",
+    siteMockDescription: "随机抽取新版 10 章原创场景题，不混入 DUO 官方套题。",
     duo1Description: "使用第 1 套 DUO 官方模拟练习题，按原套题顺序完成 40 题。",
     duo2Description: "使用第 2 套 DUO 官方模拟练习题，按原套题顺序完成 40 题。",
     notAnswered: "未作答",
@@ -553,7 +553,7 @@ const translations = {
     examNoteCopy1:
       "DUO describes KNM as a computer-based exam covering Dutch society topics such as <strong>wonen</strong> and <strong>werk en inkomen</strong>. The app trains with a <strong>45-minute</strong>, <strong>40-question</strong> mock format.",
     examNoteCopy2:
-      "The question bank includes two DUO oefenexamen sets, chapter practice, study-guide questions, and custom generated questions. Learners should still check DUO for official exam requirements.",
+      "The question bank keeps only the updated 10-chapter original scenario questions and two DUO oefenexamen sets. Learners should still check DUO for official exam requirements.",
     duoPracticeLink: "Open DUO official practice",
     lessonsTitle: "KNM Theme Lessons",
     lessonFiltersAria: "Theme filters",
@@ -586,7 +586,7 @@ const translations = {
     feedbackAria: "Report an issue or send feedback",
     siteMockLabel: "Site Comprehensive Mock",
     siteMockDescription:
-      "Randomly draws from generated questions, chapter practice, and study-guide questions, while keeping DUO official sets separate.",
+      "Randomly draws from the updated 10-chapter original scenario questions, while keeping DUO official sets separate.",
     duo1Description: "Uses DUO official practice set 1 in its original 40-question sequence.",
     duo2Description: "Uses DUO official practice set 2 in its original 40-question sequence.",
     notAnswered: "Not answered",
@@ -865,7 +865,7 @@ function getTopic(id) {
 }
 
 function topicQuestions(topicId) {
-  return questions.filter((question) => question.topic === topicId);
+  return questions.filter((question) => question.topic === topicId && question.source === "原创场景模拟题");
 }
 
 function topicWords(topicId) {
