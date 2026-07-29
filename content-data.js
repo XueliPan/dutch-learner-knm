@@ -14782,644 +14782,18766 @@ export const KNM_CONTENT = {
       "isOfficialPractice": true
     },
     {
-      "id": "gen-geo-1",
+      "id": "scenario-1-001",
       "topic": "nederland-leren-kennen",
       "chapter": 1,
-      "scenario": "原创模拟题 - Nederland leren kennen",
-      "question": "Waarom zijn dijken belangrijk in Nederland?",
+      "scenario": "Hoofdstuk 1 - Nederland in Europa",
+      "question": "Mei verhuist naar Nederland. Haar familie vraagt in welk werelddeel Nederland ligt. Wat antwoordt zij?",
       "type": "choice",
       "answers": [
-        "Omdat Nederland veel laag land heeft.",
-        "Omdat Nederland veel bergen heeft.",
-        "Omdat dijken alleen voor fietsen zijn."
+        "Azië",
+        "Europa",
+        "Afrika",
+        "Zuid-Amerika"
       ],
-      "correct": 0,
-      "explanation": "荷兰很多地方地势低，dijken 用来防水和保护土地。",
-      "source": "原创模拟题"
+      "correct": 1,
+      "explanation": "Nederland ligt in Europa",
+      "source": "原创场景模拟题"
     },
     {
-      "id": "gen-geo-2",
+      "id": "scenario-1-002",
       "topic": "nederland-leren-kennen",
       "chapter": 1,
-      "scenario": "原创模拟题 - Nederland leren kennen",
-      "question": "Welke steden horen bij de Randstad?",
+      "scenario": "Hoofdstuk 1 - Nederland in Europa",
+      "question": "Peter woont aan de Nederlandse kust en kijkt uit over zee. Aan welke zee ligt Nederland?",
       "type": "choice",
       "answers": [
-        "Amsterdam, Rotterdam, Den Haag en Utrecht.",
-        "Groningen, Maastricht, Arnhem en Zwolle.",
-        "Alleen Amsterdam en Eindhoven."
+        "Middellandse Zee",
+        "Oostzee",
+        "Noordzee",
+        "Zwarte Zee"
       ],
-      "correct": 0,
-      "explanation": "Randstad 指荷兰西部大城市圈，常见四城是 Amsterdam、Rotterdam、Den Haag、Utrecht。",
-      "source": "原创模拟题"
+      "correct": 2,
+      "explanation": "Nederland ligt aan de Noordzee",
+      "source": "原创场景模拟题"
     },
     {
-      "id": "gen-geo-3",
+      "id": "scenario-1-003",
       "topic": "nederland-leren-kennen",
       "chapter": 1,
-      "scenario": "原创模拟题 - Nederland leren kennen",
-      "question": "Wat is een polder?",
+      "scenario": "Hoofdstuk 1 - Nederland in Europa",
+      "question": "Ahmed rijdt vanuit Nederland naar het oosten en steekt de grens over. In welk land komt hij waarschijnlijk?",
       "type": "choice",
       "answers": [
-        "Land dat vroeger water was.",
-        "Een hoge berg in Nederland.",
-        "Een soort openbaar vervoer."
+        "Duitsland",
+        "België",
+        "Frankrijk",
+        "Engeland"
       ],
       "correct": 0,
-      "explanation": "polder 是以前是水、后来排水变成的土地。",
-      "source": "原创模拟题"
+      "explanation": "Duitsland ligt oostelijk",
+      "source": "原创场景模拟题"
     },
     {
-      "id": "gen-geo-4",
+      "id": "scenario-1-004",
       "topic": "nederland-leren-kennen",
       "chapter": 1,
-      "scenario": "原创模拟题 - Nederland leren kennen",
+      "scenario": "Hoofdstuk 1 - Nederland in Europa",
+      "question": "Sofia rijdt vanuit Nederland naar het zuiden. Welk buurland bereikt zij?",
+      "type": "choice",
+      "answers": [
+        "Duitsland",
+        "Denemarken",
+        "België",
+        "Zwitserland"
+      ],
+      "correct": 2,
+      "explanation": "België ligt zuidelijk",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-1-005",
+      "topic": "nederland-leren-kennen",
+      "chapter": 1,
+      "scenario": "Hoofdstuk 1 - Nederland in Europa",
+      "question": "Een toerist vraagt welke landen directe buurlanden van Nederland zijn. Wat is juist?",
+      "type": "choice",
+      "answers": [
+        "Duitsland en België",
+        "Frankrijk en Duitsland",
+        "België en Zwitserland",
+        "Duitsland en Denemarken"
+      ],
+      "correct": 0,
+      "explanation": "Buurlanden = Duitsland + België",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-1-006",
+      "topic": "nederland-leren-kennen",
+      "chapter": 1,
+      "scenario": "Hoofdstuk 1 - Nederland in Europa",
+      "question": "Waar of niet waar: Duitsland ligt ten oosten van Nederland.",
+      "type": "choice",
+      "answers": [
+        "Waar",
+        "Niet waar"
+      ],
+      "correct": 0,
+      "explanation": "Duitsland ten oosten",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-1-007",
+      "topic": "nederland-leren-kennen",
+      "chapter": 1,
+      "scenario": "Hoofdstuk 1 - Nederland in Europa",
+      "question": "Waar of niet waar: België ligt ten noorden van Nederland.",
+      "type": "choice",
+      "answers": [
+        "Waar",
+        "Niet waar"
+      ],
+      "correct": 1,
+      "explanation": "België ligt ten zuiden",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-1-008",
+      "topic": "nederland-leren-kennen",
+      "chapter": 1,
+      "scenario": "Hoofdstuk 1 - Grootte en afstanden",
+      "question": "Lina komt uit China en merkt dat Nederland veel kleiner is. Wat past bij de leerstof?",
+      "type": "choice",
+      "answers": [
+        "Nederland is ongeveer even groot als China",
+        "China is veel groter dan Nederland",
+        "Nederland is groter dan China",
+        "Nederland en China hebben dezelfde oppervlakte"
+      ],
+      "correct": 1,
+      "explanation": "China veel groter",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-1-009",
+      "topic": "nederland-leren-kennen",
+      "chapter": 1,
+      "scenario": "Hoofdstuk 1 - Grootte en afstanden",
+      "question": "Een vriend vraagt ongeveer hoe groot Nederland is. Welke orde van grootte past bij de leerstof?",
+      "type": "choice",
+      "answers": [
+        "Ongeveer 4.000 km²",
+        "Ongeveer 40.000 km²",
+        "Ongeveer 400.000 km²",
+        "Ongeveer 4 miljoen km²"
+      ],
+      "correct": 1,
+      "explanation": "Nederland ≈ 40.000 km²",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-1-010",
+      "topic": "nederland-leren-kennen",
+      "chapter": 1,
+      "scenario": "Hoofdstuk 1 - Grootte en afstanden",
+      "question": "Omar rijdt van het noorden naar het zuiden van Nederland. Hoe lang is Nederland ongeveer volgens de leerstof?",
+      "type": "choice",
+      "answers": [
+        "30 km",
+        "100 km",
+        "300 km",
+        "900 km"
+      ],
+      "correct": 2,
+      "explanation": "Noord-zuid ≈ 300 km",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-1-011",
+      "topic": "nederland-leren-kennen",
+      "chapter": 1,
+      "scenario": "Hoofdstuk 1 - Grootte en afstanden",
+      "question": "Noor rijdt van het westen naar het oosten. Hoe breed is Nederland ongeveer volgens de leerstof?",
+      "type": "choice",
+      "answers": [
+        "180 km",
+        "500 km",
+        "900 km",
+        "1.800 km"
+      ],
+      "correct": 0,
+      "explanation": "Oost-west ≈ 180 km",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-1-012",
+      "topic": "nederland-leren-kennen",
+      "chapter": 1,
+      "scenario": "Hoofdstuk 1 - Grootte en afstanden",
+      "question": "Wat is de beste conclusie uit deze afstanden?",
+      "type": "choice",
+      "answers": [
+        "Nederland is een relatief klein land",
+        "Nederland is het grootste land van Europa",
+        "Nederland is groter dan Turkije",
+        "Nederland is groter dan China"
+      ],
+      "correct": 0,
+      "explanation": "Nederland relatief klein",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-1-013",
+      "topic": "nederland-leren-kennen",
+      "chapter": 1,
+      "scenario": "Hoofdstuk 1 - Provincies",
+      "question": "Fatima hoort dat Nederland in bestuurlijke gebieden is verdeeld. Hoeveel provincies heeft Nederland?",
+      "type": "choice",
+      "answers": [
+        "10",
+        "11",
+        "12",
+        "14"
+      ],
+      "correct": 2,
+      "explanation": "12 provincies",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-1-014",
+      "topic": "nederland-leren-kennen",
+      "chapter": 1,
+      "scenario": "Hoofdstuk 1 - Provincies",
+      "question": "Elke provincie heeft een eigen hoofdstad. Wat betekent hoofdstad hier?",
+      "type": "choice",
+      "answers": [
+        "De grootste supermarkt",
+        "De hoofdstad of bestuurlijke hoofdplaats van de provincie",
+        "Het hoogste punt",
+        "Het grootste ziekenhuis"
+      ],
+      "correct": 1,
+      "explanation": "Hoofdstad/provinciehoofdstad",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-1-015",
+      "topic": "nederland-leren-kennen",
+      "chapter": 1,
+      "scenario": "Hoofdstuk 1 - Provincies",
+      "question": "Karim woont in Noord-Brabant. Welke stad wordt in de leerstof als hoofdstad van Noord-Brabant genoemd?",
+      "type": "choice",
+      "answers": [
+        "Eindhoven",
+        "Tilburg",
+        "Den Bosch",
+        "Breda"
+      ],
+      "correct": 2,
+      "explanation": "Noord-Brabant → Den Bosch",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-1-016",
+      "topic": "nederland-leren-kennen",
+      "chapter": 1,
+      "scenario": "Hoofdstuk 1 - Provincies",
+      "question": "Welke van deze is een Nederlandse provincie?",
+      "type": "choice",
+      "answers": [
+        "Vlaanderen",
+        "Gelderland",
+        "Normandië",
+        "Saksen"
+      ],
+      "correct": 1,
+      "explanation": "Gelderland = provincie",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-1-017",
+      "topic": "nederland-leren-kennen",
+      "chapter": 1,
+      "scenario": "Hoofdstuk 1 - Provincies",
+      "question": "Welke van deze is géén Nederlandse provincie?",
+      "type": "choice",
+      "answers": [
+        "Zeeland",
+        "Limburg",
+        "Friesland",
+        "Vlaanderen"
+      ],
+      "correct": 3,
+      "explanation": "Vlaanderen is Belgisch gewest",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-1-018",
+      "topic": "nederland-leren-kennen",
+      "chapter": 1,
+      "scenario": "Hoofdstuk 1 - Provincies",
+      "question": "Een inwoner woont in Flevoland. Wat weet je zeker?",
+      "type": "choice",
+      "answers": [
+        "Hij woont in één van de twaalf Nederlandse provincies",
+        "Hij woont in België",
+        "Hij woont buiten Europa",
+        "Hij woont altijd op een Waddeneiland"
+      ],
+      "correct": 0,
+      "explanation": "Flevoland = provincie",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-1-019",
+      "topic": "nederland-leren-kennen",
+      "chapter": 1,
+      "scenario": "Hoofdstuk 1 - Provincies",
+      "question": "Waar of niet waar: Nederland heeft twaalf provincies.",
+      "type": "choice",
+      "answers": [
+        "Waar",
+        "Niet waar"
+      ],
+      "correct": 0,
+      "explanation": "12 provincies",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-1-020",
+      "topic": "nederland-leren-kennen",
+      "chapter": 1,
+      "scenario": "Hoofdstuk 1 - De Randstad",
+      "question": "Chen zoekt werk en wil wonen in een dichtbevolkt gebied met veel grote steden, winkels en openbaar vervoer. Welk gebied past het beste?",
+      "type": "choice",
+      "answers": [
+        "De Waddenzee",
+        "De Randstad",
+        "De Veluwe",
+        "Zuid-Limburg"
+      ],
+      "correct": 1,
+      "explanation": "Randstad",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-1-021",
+      "topic": "nederland-leren-kennen",
+      "chapter": 1,
+      "scenario": "Hoofdstuk 1 - De Randstad",
+      "question": "Waar ligt de Randstad vooral?",
+      "type": "choice",
+      "answers": [
+        "In het westen van Nederland",
+        "In het uiterste oosten",
+        "Alleen op de Waddeneilanden",
+        "Buiten Nederland"
+      ],
+      "correct": 0,
+      "explanation": "Randstad in westen",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-1-022",
+      "topic": "nederland-leren-kennen",
+      "chapter": 1,
+      "scenario": "Hoofdstuk 1 - De Randstad",
+      "question": "Welke vier steden horen bij de Randstad volgens de leerstof?",
+      "type": "choice",
+      "answers": [
+        "Amsterdam, Rotterdam, Den Haag en Utrecht",
+        "Groningen, Maastricht, Eindhoven en Zwolle",
+        "Arnhem, Nijmegen, Breda en Tilburg",
+        "Leeuwarden, Assen, Emmen en Enschede"
+      ],
+      "correct": 0,
+      "explanation": "A'dam, R'dam, Den Haag, Utrecht",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-1-023",
+      "topic": "nederland-leren-kennen",
+      "chapter": 1,
+      "scenario": "Hoofdstuk 1 - De Randstad",
+      "question": "Waarom wonen veel mensen graag in of rond de Randstad?",
+      "type": "choice",
+      "answers": [
+        "Er zijn relatief veel banen en voorzieningen",
+        "Er zijn bijna geen wegen",
+        "Er zijn geen ziekenhuizen",
+        "Er rijdt geen openbaar vervoer"
+      ],
+      "correct": 0,
+      "explanation": "Banen + voorzieningen",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-1-024",
+      "topic": "nederland-leren-kennen",
+      "chapter": 1,
+      "scenario": "Hoofdstuk 1 - De Randstad",
+      "question": "Een werknemer woont in de Randstad en wil zonder auto naar zijn werk. Wat kan vaak goed?",
+      "type": "choice",
+      "answers": [
+        "Bus, trein of fiets gebruiken",
+        "Alleen per boot reizen",
+        "Alleen lopen over snelwegen",
+        "Alleen vliegen"
+      ],
+      "correct": 0,
+      "explanation": "OV/fiets",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-1-025",
+      "topic": "nederland-leren-kennen",
+      "chapter": 1,
+      "scenario": "Hoofdstuk 1 - De Randstad",
+      "question": "Een automobilist staat elke ochtend lang stil op de snelweg rond Amsterdam. Welk woord past?",
+      "type": "choice",
+      "answers": [
+        "Polder",
+        "File",
+        "Dijk",
+        "Eiland"
+      ],
+      "correct": 1,
+      "explanation": "File",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-1-026",
+      "topic": "nederland-leren-kennen",
+      "chapter": 1,
+      "scenario": "Hoofdstuk 1 - De Randstad",
+      "question": "Waarom kiezen veel mensen in drukke steden voor de fiets?",
+      "type": "choice",
+      "answers": [
+        "Omdat er vaak verkeer en files zijn",
+        "Omdat auto's verboden zijn in heel Nederland",
+        "Omdat er geen treinen zijn",
+        "Omdat fietsen gratis huizen oplevert"
+      ],
+      "correct": 0,
+      "explanation": "Druk verkeer",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-1-027",
+      "topic": "nederland-leren-kennen",
+      "chapter": 1,
+      "scenario": "Hoofdstuk 1 - De Randstad",
+      "question": "Waar of niet waar: De Randstad is relatief dichtbevolkt en druk.",
+      "type": "choice",
+      "answers": [
+        "Waar",
+        "Niet waar"
+      ],
+      "correct": 0,
+      "explanation": "Randstad druk/dichtbevolkt",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-1-028",
+      "topic": "nederland-leren-kennen",
+      "chapter": 1,
+      "scenario": "Hoofdstuk 1 - Amsterdam, Rotterdam, Den Haag en Utrecht",
+      "question": "Een toerist vraagt naar de hoofdstad van Nederland. Waar stuur je hem naartoe?",
+      "type": "choice",
+      "answers": [
+        "Rotterdam",
+        "Amsterdam",
+        "Den Haag",
+        "Utrecht"
+      ],
+      "correct": 1,
+      "explanation": "Amsterdam hoofdstad",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-1-029",
+      "topic": "nederland-leren-kennen",
+      "chapter": 1,
+      "scenario": "Hoofdstuk 1 - Amsterdam, Rotterdam, Den Haag en Utrecht",
+      "question": "Noor vliegt naar Nederland via het grootste internationale vliegveld. Welk vliegveld bedoelt zij waarschijnlijk?",
+      "type": "choice",
+      "answers": [
+        "Schiphol",
+        "Eindhoven Airport als enige luchthaven",
+        "Rotterdam Centraal",
+        "Europoort"
+      ],
+      "correct": 0,
+      "explanation": "Schiphol",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-1-030",
+      "topic": "nederland-leren-kennen",
+      "chapter": 1,
+      "scenario": "Hoofdstuk 1 - Amsterdam, Rotterdam, Den Haag en Utrecht",
+      "question": "Peter werkt in de grootste haven van Europa. In welke stad werkt hij?",
+      "type": "choice",
+      "answers": [
+        "Utrecht",
+        "Amsterdam",
+        "Rotterdam",
+        "Den Haag"
+      ],
+      "correct": 2,
+      "explanation": "Rotterdam haven",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-1-031",
+      "topic": "nederland-leren-kennen",
+      "chapter": 1,
+      "scenario": "Hoofdstuk 1 - Amsterdam, Rotterdam, Den Haag en Utrecht",
+      "question": "Een vrachtbedrijf gebruikt Europoort. Waar hoort dit bij?",
+      "type": "choice",
+      "answers": [
+        "Rotterdam en zijn havengebied",
+        "Utrecht en de Domtoren",
+        "Amsterdam en Schiphol",
+        "Friesland en de Waddenzee"
+      ],
+      "correct": 0,
+      "explanation": "Europoort",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-1-032",
+      "topic": "nederland-leren-kennen",
+      "chapter": 1,
+      "scenario": "Hoofdstuk 1 - Amsterdam, Rotterdam, Den Haag en Utrecht",
+      "question": "Ahmed moet voor zijn werk naar het centrum van de landelijke politiek en regering. Naar welke stad gaat hij?",
+      "type": "choice",
+      "answers": [
+        "Utrecht",
+        "Den Haag",
+        "Rotterdam",
+        "Maastricht"
+      ],
+      "correct": 1,
+      "explanation": "Regering in Den Haag",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-1-033",
+      "topic": "nederland-leren-kennen",
+      "chapter": 1,
+      "scenario": "Hoofdstuk 1 - Amsterdam, Rotterdam, Den Haag en Utrecht",
+      "question": "Een toerist wil de Domtoren bezoeken. Naar welke stad gaat hij?",
+      "type": "choice",
+      "answers": [
+        "Den Haag",
+        "Rotterdam",
+        "Utrecht",
+        "Amsterdam"
+      ],
+      "correct": 2,
+      "explanation": "Domtoren Utrecht",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-1-034",
+      "topic": "nederland-leren-kennen",
+      "chapter": 1,
+      "scenario": "Hoofdstuk 1 - Amsterdam, Rotterdam, Den Haag en Utrecht",
+      "question": "Hoe hoog is de Domtoren ongeveer volgens de leerstof?",
+      "type": "choice",
+      "answers": [
+        "12 meter",
+        "52 meter",
+        "112 meter",
+        "212 meter"
+      ],
+      "correct": 2,
+      "explanation": "112 meter",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-1-035",
+      "topic": "nederland-leren-kennen",
+      "chapter": 1,
+      "scenario": "Hoofdstuk 1 - Amsterdam, Rotterdam, Den Haag en Utrecht",
+      "question": "Een gids vertelt dat de Domtoren meer dan 700 jaar oud is. Welke stad hoort daarbij?",
+      "type": "choice",
+      "answers": [
+        "Utrecht",
+        "Rotterdam",
+        "Amsterdam",
+        "Groningen"
+      ],
+      "correct": 0,
+      "explanation": "Utrecht",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-1-036",
+      "topic": "nederland-leren-kennen",
+      "chapter": 1,
+      "scenario": "Hoofdstuk 1 - Amsterdam, Rotterdam, Den Haag en Utrecht",
+      "question": "Waar of niet waar: Den Haag is de hoofdstad van Nederland.",
+      "type": "choice",
+      "answers": [
+        "Waar",
+        "Niet waar"
+      ],
+      "correct": 1,
+      "explanation": "Amsterdam hoofdstad",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-1-037",
+      "topic": "nederland-leren-kennen",
+      "chapter": 1,
+      "scenario": "Hoofdstuk 1 - Amsterdam, Rotterdam, Den Haag en Utrecht",
+      "question": "Waar of niet waar: Amsterdam is de hoofdstad, terwijl regering en parlement in Den Haag zitten.",
+      "type": "choice",
+      "answers": [
+        "Waar",
+        "Niet waar"
+      ],
+      "correct": 0,
+      "explanation": "Hoofdstad ≠ regeringszetel",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-1-038",
+      "topic": "nederland-leren-kennen",
+      "chapter": 1,
+      "scenario": "Hoofdstuk 1 - Nederland als waterland",
+      "question": "Een kind vraagt waarom zwemmen belangrijk is in Nederland. Welke verklaring past?",
+      "type": "choice",
+      "answers": [
+        "Nederland heeft veel water",
+        "Zwemmen is verplicht werk",
+        "Nederland heeft geen rivieren",
+        "Iedereen woont op een eiland"
+      ],
+      "correct": 0,
+      "explanation": "Veel water",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-1-039",
+      "topic": "nederland-leren-kennen",
+      "chapter": 1,
+      "scenario": "Hoofdstuk 1 - Nederland als waterland",
+      "question": "Ongeveer welk deel van Nederland bestaat volgens de leerstof uit water?",
+      "type": "choice",
+      "answers": [
+        "2%",
+        "5%",
+        "20%",
+        "80%"
+      ],
+      "correct": 2,
+      "explanation": "≈20% water",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-1-040",
+      "topic": "nederland-leren-kennen",
+      "chapter": 1,
+      "scenario": "Hoofdstuk 1 - Nederland als waterland",
+      "question": "Veel kinderen leren op jonge leeftijd zwemmen. Waarom is dat praktisch?",
+      "type": "choice",
+      "answers": [
+        "Omdat Nederland veel sloten, rivieren, meren en ander water heeft",
+        "Omdat er geen fietsen zijn",
+        "Omdat ieder kind visser moet worden",
+        "Omdat scholen geen andere sporten kennen"
+      ],
+      "correct": 0,
+      "explanation": "Zwemveiligheid",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-1-041",
+      "topic": "nederland-leren-kennen",
+      "chapter": 1,
+      "scenario": "Hoofdstuk 1 - Nederland als waterland",
+      "question": "Waar of niet waar: Waterveiligheid is een belangrijk onderwerp in Nederland.",
+      "type": "choice",
+      "answers": [
+        "Waar",
+        "Niet waar"
+      ],
+      "correct": 0,
+      "explanation": "Waterveiligheid belangrijk",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-1-042",
+      "topic": "nederland-leren-kennen",
+      "chapter": 1,
+      "scenario": "Hoofdstuk 1 - Rijn en Maas",
+      "question": "Een leraar vraagt waar de Rijn vandaan komt. Wat antwoordt een leerling?",
+      "type": "choice",
+      "answers": [
+        "Zwitserland",
+        "Spanje",
+        "Engeland",
+        "Portugal"
+      ],
+      "correct": 0,
+      "explanation": "Rijn uit Zwitserland",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-1-043",
+      "topic": "nederland-leren-kennen",
+      "chapter": 1,
+      "scenario": "Hoofdstuk 1 - Rijn en Maas",
+      "question": "De Maas stroomt Nederland binnen vanuit welk land volgens de leerstof?",
+      "type": "choice",
+      "answers": [
+        "Duitsland",
+        "België als oorsprong",
+        "Frankrijk",
+        "Zwitserland"
+      ],
+      "correct": 2,
+      "explanation": "Maas uit Frankrijk",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-1-044",
+      "topic": "nederland-leren-kennen",
+      "chapter": 1,
+      "scenario": "Hoofdstuk 1 - Rijn en Maas",
+      "question": "Wat zijn de Rijn en de Maas?",
+      "type": "choice",
+      "answers": [
+        "Provincies",
+        "Rivieren",
+        "Eilanden",
+        "Bergen"
+      ],
+      "correct": 1,
+      "explanation": "Rivieren",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-1-045",
+      "topic": "nederland-leren-kennen",
+      "chapter": 1,
+      "scenario": "Hoofdstuk 1 - Rijn en Maas",
+      "question": "Een toerist ziet een grote rivier die uit Zwitserland komt. Welke rivier is dat?",
+      "type": "choice",
+      "answers": [
+        "Maas",
+        "Rijn",
+        "Schelde",
+        "IJsselmeer"
+      ],
+      "correct": 1,
+      "explanation": "Rijn",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-1-046",
+      "topic": "nederland-leren-kennen",
+      "chapter": 1,
+      "scenario": "Hoofdstuk 1 - Rijn en Maas",
+      "question": "Waar of niet waar: De Rijn en de Maas zijn belangrijke rivieren voor Nederland.",
+      "type": "choice",
+      "answers": [
+        "Waar",
+        "Niet waar"
+      ],
+      "correct": 0,
+      "explanation": "Belangrijke rivieren",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-1-047",
+      "topic": "nederland-leren-kennen",
+      "chapter": 1,
+      "scenario": "Hoofdstuk 1 - IJsselmeer en Afsluitdijk",
+      "question": "Sofia rijdt over een lange dijk tussen Noord-Holland en Friesland. Welke beroemde dijk kan dit zijn?",
+      "type": "choice",
+      "answers": [
+        "Afsluitdijk",
+        "Deltawerken als één enkele dijk",
+        "Domtoren",
+        "Europoort"
+      ],
+      "correct": 0,
+      "explanation": "Afsluitdijk",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-1-048",
+      "topic": "nederland-leren-kennen",
+      "chapter": 1,
+      "scenario": "Hoofdstuk 1 - IJsselmeer en Afsluitdijk",
+      "question": "Wat deed de Afsluitdijk?",
+      "type": "choice",
+      "answers": [
+        "Hij sloot een vroegere zeearm af",
+        "Hij maakte Rotterdam tot hoofdstad",
+        "Hij verbond Nederland met Engeland",
+        "Hij maakte de Rijn droog"
+      ],
+      "correct": 0,
+      "explanation": "Zeearm afgesloten",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-1-049",
+      "topic": "nederland-leren-kennen",
+      "chapter": 1,
+      "scenario": "Hoofdstuk 1 - IJsselmeer en Afsluitdijk",
+      "question": "Welk groot meer ontstond door het afsluiten van de voormalige Zuiderzee?",
+      "type": "choice",
+      "answers": [
+        "Waddenzee",
+        "IJsselmeer",
+        "Noordzee",
+        "Maas"
+      ],
+      "correct": 1,
+      "explanation": "IJsselmeer",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-1-050",
+      "topic": "nederland-leren-kennen",
+      "chapter": 1,
+      "scenario": "Hoofdstuk 1 - IJsselmeer en Afsluitdijk",
+      "question": "Wat is het IJsselmeer?",
+      "type": "choice",
+      "answers": [
+        "Het grootste meer van Nederland",
+        "De hoogste berg",
+        "Een provincie",
+        "Een rivier uit Frankrijk"
+      ],
+      "correct": 0,
+      "explanation": "Grootste meer",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-1-051",
+      "topic": "nederland-leren-kennen",
+      "chapter": 1,
+      "scenario": "Hoofdstuk 1 - IJsselmeer en Afsluitdijk",
+      "question": "Waar of niet waar: De Afsluitdijk heeft veel te maken met Nederlands waterbeheer.",
+      "type": "choice",
+      "answers": [
+        "Waar",
+        "Niet waar"
+      ],
+      "correct": 0,
+      "explanation": "Waterbeheer",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-1-052",
+      "topic": "nederland-leren-kennen",
+      "chapter": 1,
+      "scenario": "Hoofdstuk 1 - Waddenzee en Waddeneilanden",
+      "question": "Een gezin gaat op vakantie naar Texel. Wat is Texel?",
+      "type": "choice",
+      "answers": [
+        "Een provincie",
+        "Een Waddeneiland",
+        "Een rivier",
+        "Een berg"
+      ],
+      "correct": 1,
+      "explanation": "Texel = Waddeneiland",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-1-053",
+      "topic": "nederland-leren-kennen",
+      "chapter": 1,
+      "scenario": "Hoofdstuk 1 - Waddenzee en Waddeneilanden",
+      "question": "Waar ligt de Waddenzee?",
+      "type": "choice",
+      "answers": [
+        "In het noorden van Nederland",
+        "In het zuiden van Limburg",
+        "Midden in België",
+        "Ten zuiden van Frankrijk"
+      ],
+      "correct": 0,
+      "explanation": "Waddenzee in noorden",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-1-054",
+      "topic": "nederland-leren-kennen",
+      "chapter": 1,
+      "scenario": "Hoofdstuk 1 - Waddenzee en Waddeneilanden",
+      "question": "Welke reeks bevat alleen Nederlandse Waddeneilanden uit de leerstof?",
+      "type": "choice",
+      "answers": [
+        "Texel, Vlieland, Terschelling, Ameland, Schiermonnikoog",
+        "Texel, Rotterdam, Utrecht, Ameland, Leiden",
+        "Vlieland, Maastricht, Breda, Texel, Zwolle",
+        "Ameland, Limburg, Zeeland, Drenthe, Texel"
+      ],
+      "correct": 0,
+      "explanation": "Juiste eilandenreeks",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-1-055",
+      "topic": "nederland-leren-kennen",
+      "chapter": 1,
+      "scenario": "Hoofdstuk 1 - Waddenzee en Waddeneilanden",
+      "question": "Een leerling gebruikt het ezelsbruggetje TV TAS. Waarvoor?",
+      "type": "choice",
+      "answers": [
+        "De vier grote steden van de Randstad",
+        "De Waddeneilanden",
+        "De vier seizoenen",
+        "Nederlandse rivieren"
+      ],
+      "correct": 1,
+      "explanation": "TV TAS",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-1-056",
+      "topic": "nederland-leren-kennen",
+      "chapter": 1,
+      "scenario": "Hoofdstuk 1 - Waddenzee en Waddeneilanden",
+      "question": "Waar of niet waar: Schiermonnikoog is een Waddeneiland.",
+      "type": "choice",
+      "answers": [
+        "Waar",
+        "Niet waar"
+      ],
+      "correct": 0,
+      "explanation": "Schiermonnikoog",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-1-057",
+      "topic": "nederland-leren-kennen",
+      "chapter": 1,
+      "scenario": "Hoofdstuk 1 - Polder en Flevoland",
+      "question": "Een gids zegt: “Dit land was vroeger water.” Welk Nederlands begrip past?",
+      "type": "choice",
+      "answers": [
+        "Polder",
+        "File",
+        "Provinciehoofdstad",
+        "Dialect"
+      ],
+      "correct": 0,
+      "explanation": "Polder",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-1-058",
+      "topic": "nederland-leren-kennen",
+      "chapter": 1,
+      "scenario": "Hoofdstuk 1 - Polder en Flevoland",
+      "question": "Wat is de beste korte uitleg van polder?",
+      "type": "choice",
+      "answers": [
+        "Vroeger water, nu land",
+        "Een hoge berg",
+        "Een eiland zonder dijk",
+        "Een snelweg"
+      ],
+      "correct": 0,
+      "explanation": "Vroeger water, nu land",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-1-059",
+      "topic": "nederland-leren-kennen",
+      "chapter": 1,
+      "scenario": "Hoofdstuk 1 - Polder en Flevoland",
+      "question": "Welke provincie wordt vaak genoemd als belangrijk voorbeeld van polderland?",
+      "type": "choice",
+      "answers": [
+        "Limburg",
+        "Flevoland",
+        "Drenthe",
+        "Zeeland als enig voorbeeld"
+      ],
+      "correct": 1,
+      "explanation": "Flevoland",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-1-060",
+      "topic": "nederland-leren-kennen",
+      "chapter": 1,
+      "scenario": "Hoofdstuk 1 - Polder en Flevoland",
+      "question": "Een leerling zegt: “Een polder is gewoon elk landbouwveld.” Is dat juist?",
+      "type": "choice",
+      "answers": [
+        "Ja",
+        "Nee, het gaat om land dat door waterbeheer droog gehouden of gewonnen is",
+        "Alleen in België",
+        "Alleen op een berg"
+      ],
+      "correct": 1,
+      "explanation": "Meer dan gewoon landbouwveld",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-1-061",
+      "topic": "nederland-leren-kennen",
+      "chapter": 1,
+      "scenario": "Hoofdstuk 1 - Polder en Flevoland",
+      "question": "Waar of niet waar: Flevoland heeft veel te maken met landwinning en waterbeheer.",
+      "type": "choice",
+      "answers": [
+        "Waar",
+        "Niet waar"
+      ],
+      "correct": 0,
+      "explanation": "Landwinning/waterbeheer",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-1-062",
+      "topic": "nederland-leren-kennen",
+      "chapter": 1,
+      "scenario": "Hoofdstuk 1 - Laag land, zeespiegel, duinen en dijken",
+      "question": "Waarom wordt Nederland vaak een laag land genoemd?",
+      "type": "choice",
+      "answers": [
+        "Veel delen liggen laag en sommige onder zeeniveau",
+        "Nederland heeft de hoogste bergen van Europa",
+        "Alle huizen zijn laag",
+        "Er zijn geen heuvels in Limburg"
+      ],
+      "correct": 0,
+      "explanation": "Laag land",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-1-063",
+      "topic": "nederland-leren-kennen",
+      "chapter": 1,
+      "scenario": "Hoofdstuk 1 - Laag land, zeespiegel, duinen en dijken",
+      "question": "Een toerist vraagt waar het hoogste punt van het Europese deel van Nederland ligt volgens de leerstof. Welke provincie?",
+      "type": "choice",
+      "answers": [
+        "Friesland",
+        "Flevoland",
+        "Limburg",
+        "Noord-Holland"
+      ],
+      "correct": 2,
+      "explanation": "Limburg",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-1-064",
+      "topic": "nederland-leren-kennen",
+      "chapter": 1,
+      "scenario": "Hoofdstuk 1 - Laag land, zeespiegel, duinen en dijken",
+      "question": "Hoe hoog is dat hoogste punt ongeveer volgens de leerstof?",
+      "type": "choice",
+      "answers": [
+        "23 meter",
+        "123 meter",
+        "323 meter",
+        "1.323 meter"
+      ],
+      "correct": 2,
+      "explanation": "≈323 m",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-1-065",
+      "topic": "nederland-leren-kennen",
+      "chapter": 1,
+      "scenario": "Hoofdstuk 1 - Laag land, zeespiegel, duinen en dijken",
+      "question": "Sommige delen van Rotterdam liggen onder:",
+      "type": "choice",
+      "answers": [
+        "de zeespiegel",
+        "de evenaar",
+        "de Alpen",
+        "de Noordpool"
+      ],
+      "correct": 0,
+      "explanation": "Zeespiegel",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-1-066",
+      "topic": "nederland-leren-kennen",
+      "chapter": 1,
+      "scenario": "Hoofdstuk 1 - Laag land, zeespiegel, duinen en dijken",
+      "question": "Wat beschermt de Nederlandse kust en laaggelegen gebieden tegen water?",
+      "type": "choice",
+      "answers": [
+        "Alleen flats",
+        "Duinen en dijken",
+        "Alleen snelwegen",
+        "Alleen bossen"
+      ],
+      "correct": 1,
+      "explanation": "Duinen + dijken",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-1-067",
+      "topic": "nederland-leren-kennen",
+      "chapter": 1,
+      "scenario": "Hoofdstuk 1 - Laag land, zeespiegel, duinen en dijken",
+      "question": "Na een zware storm controleert men de dijken. Waarom?",
+      "type": "choice",
+      "answers": [
+        "Dijken helpen overstromingen voorkomen",
+        "Dijken zorgen voor wifi",
+        "Dijken regelen verkiezingen",
+        "Dijken zijn spoorlijnen"
+      ],
+      "correct": 0,
+      "explanation": "Overstromingsbescherming",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-1-068",
+      "topic": "nederland-leren-kennen",
+      "chapter": 1,
+      "scenario": "Hoofdstuk 1 - Laag land, zeespiegel, duinen en dijken",
+      "question": "Waar of niet waar: Veel delen van Nederland liggen onder zeeniveau.",
+      "type": "choice",
+      "answers": [
+        "Waar",
+        "Niet waar"
+      ],
+      "correct": 0,
+      "explanation": "Veel delen onder zeeniveau",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-1-069",
+      "topic": "nederland-leren-kennen",
+      "chapter": 1,
+      "scenario": "Hoofdstuk 1 - Laag land, zeespiegel, duinen en dijken",
+      "question": "Waar of niet waar: Nederland heeft hoge bergketens zoals de Alpen.",
+      "type": "choice",
+      "answers": [
+        "Waar",
+        "Niet waar"
+      ],
+      "correct": 1,
+      "explanation": "Geen Alpen",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-1-070",
+      "topic": "nederland-leren-kennen",
+      "chapter": 1,
+      "scenario": "Hoofdstuk 1 - Weer en seizoenen",
+      "question": "Emma neemt 's ochtends een jas mee hoewel de zon schijnt. Waarom is dat in Nederland verstandig?",
+      "type": "choice",
+      "answers": [
+        "Het weer kan wisselvallig zijn",
+        "Het regent nooit",
+        "Het is altijd warm",
+        "Het weer verandert nooit"
+      ],
+      "correct": 0,
+      "explanation": "Wisselvallig",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-1-071",
+      "topic": "nederland-leren-kennen",
+      "chapter": 1,
+      "scenario": "Hoofdstuk 1 - Weer en seizoenen",
       "question": "Wat betekent wisselvallig weer?",
       "type": "choice",
       "answers": [
-        "Het weer verandert vaak.",
-        "Het is altijd zonnig.",
-        "Het sneeuwt elke dag."
+        "Het weer kan snel veranderen",
+        "Het is altijd hetzelfde",
+        "Het sneeuwt elke dag",
+        "Het is alleen 's nachts koud"
       ],
       "correct": 0,
-      "explanation": "wisselvallig 表示变化多，荷兰天气常常很快变化。",
-      "source": "原创模拟题"
+      "explanation": "Snel veranderend weer",
+      "source": "原创场景模拟题"
     },
     {
-      "id": "gen-people-1",
+      "id": "scenario-1-072",
+      "topic": "nederland-leren-kennen",
+      "chapter": 1,
+      "scenario": "Hoofdstuk 1 - Weer en seizoenen",
+      "question": "In maart ziet Ahmed nieuwe bladeren en bloemen. Welk seizoen begint?",
+      "type": "choice",
+      "answers": [
+        "Herfst",
+        "Winter",
+        "Lente",
+        "Zomer"
+      ],
+      "correct": 2,
+      "explanation": "Lente",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-1-073",
+      "topic": "nederland-leren-kennen",
+      "chapter": 1,
+      "scenario": "Hoofdstuk 1 - Weer en seizoenen",
+      "question": "In juni zijn de avonden lang licht. Welk seizoen past hierbij?",
+      "type": "choice",
+      "answers": [
+        "Winter",
+        "Zomer",
+        "Herfst",
+        "Lente als enige mogelijkheid"
+      ],
+      "correct": 1,
+      "explanation": "Zomer",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-1-074",
+      "topic": "nederland-leren-kennen",
+      "chapter": 1,
+      "scenario": "Hoofdstuk 1 - Weer en seizoenen",
+      "question": "In oktober vallen bladeren van de bomen en is er veel wind en regen. Welk seizoen?",
+      "type": "choice",
+      "answers": [
+        "Lente",
+        "Zomer",
+        "Herfst",
+        "Winter"
+      ],
+      "correct": 2,
+      "explanation": "Herfst",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-1-075",
+      "topic": "nederland-leren-kennen",
+      "chapter": 1,
+      "scenario": "Hoofdstuk 1 - Weer en seizoenen",
+      "question": "In januari vriest het en ligt er ijs. Welk seizoen?",
+      "type": "choice",
+      "answers": [
+        "Winter",
+        "Zomer",
+        "Lente",
+        "Herfst"
+      ],
+      "correct": 0,
+      "explanation": "Winter",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-1-076",
+      "topic": "nederland-leren-kennen",
+      "chapter": 1,
+      "scenario": "Hoofdstuk 1 - Weer en seizoenen",
+      "question": "Wanneer kan er volgens de leerstof op natuurijs worden geschaatst?",
+      "type": "choice",
+      "answers": [
+        "Als het in de winter genoeg vriest",
+        "Alleen in juli",
+        "Alleen in de lente",
+        "Nooit"
+      ],
+      "correct": 0,
+      "explanation": "Vriezen → schaatsen",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-1-077",
+      "topic": "nederland-leren-kennen",
+      "chapter": 1,
+      "scenario": "Hoofdstuk 1 - Weer en seizoenen",
+      "question": "In welk seizoen wordt het 's avonds vroeg donker?",
+      "type": "choice",
+      "answers": [
+        "Zomer",
+        "Winter",
+        "Lente",
+        "Alleen herfst"
+      ],
+      "correct": 1,
+      "explanation": "Winter vroeg donker",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-1-078",
+      "topic": "nederland-leren-kennen",
+      "chapter": 1,
+      "scenario": "Hoofdstuk 1 - Weer en seizoenen",
+      "question": "In welk seizoen blijft het 's avonds relatief lang licht?",
+      "type": "choice",
+      "answers": [
+        "Winter",
+        "Herfst",
+        "Zomer",
+        "Alleen lente"
+      ],
+      "correct": 2,
+      "explanation": "Zomer lang licht",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-1-079",
+      "topic": "nederland-leren-kennen",
+      "chapter": 1,
+      "scenario": "Hoofdstuk 1 - Weer en seizoenen",
+      "question": "Waar of niet waar: Nederland kent vier seizoenen.",
+      "type": "choice",
+      "answers": [
+        "Waar",
+        "Niet waar"
+      ],
+      "correct": 0,
+      "explanation": "Vier seizoenen",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-1-080",
+      "topic": "nederland-leren-kennen",
+      "chapter": 1,
+      "scenario": "Hoofdstuk 1 - Bevolking en dichtbevolkt",
+      "question": "Een toerist merkt dat veel mensen op een relatief klein oppervlak wonen. Welk woord past bij Nederland?",
+      "type": "choice",
+      "answers": [
+        "Leeg",
+        "Dichtbevolkt",
+        "Onbewoond",
+        "Woestijnachtig"
+      ],
+      "correct": 1,
+      "explanation": "Dichtbevolkt",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-1-081",
+      "topic": "nederland-leren-kennen",
+      "chapter": 1,
+      "scenario": "Hoofdstuk 1 - Bevolking en dichtbevolkt",
+      "question": "Wat betekent dichtbevolkt?",
+      "type": "choice",
+      "answers": [
+        "Er wonen relatief veel mensen per vierkante kilometer",
+        "Er wonen geen mensen",
+        "Iedereen woont alleen",
+        "Er zijn alleen grote steden"
+      ],
+      "correct": 0,
+      "explanation": "Veel mensen per km²",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-1-082",
+      "topic": "nederland-leren-kennen",
+      "chapter": 1,
+      "scenario": "Hoofdstuk 1 - Bevolking en dichtbevolkt",
+      "question": "De leerstof noemt een bevolkingsdichtheid van ongeveer 500 mensen per:",
+      "type": "choice",
+      "answers": [
+        "vierkante meter",
+        "vierkante kilometer",
+        "straat",
+        "huis"
+      ],
+      "correct": 1,
+      "explanation": "Per vierkante kilometer",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-1-083",
+      "topic": "nederland-leren-kennen",
+      "chapter": 1,
+      "scenario": "Hoofdstuk 1 - Bevolking en dichtbevolkt",
+      "question": "Waarom moet je het exacte inwonertal niet als een eeuwig vast getal leren?",
+      "type": "choice",
+      "answers": [
+        "Het inwonertal verandert in de tijd",
+        "Nederland telt nooit inwoners",
+        "Alleen gemeenten kennen het aantal",
+        "Het cijfer verandert ieder uur met miljoenen"
+      ],
+      "correct": 0,
+      "explanation": "Inwonertal verandert",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-1-084",
+      "topic": "nederland-leren-kennen",
+      "chapter": 1,
+      "scenario": "Hoofdstuk 1 - Bevolking en dichtbevolkt",
+      "question": "Waar of niet waar: Nederland is één van de dichtbevolkte landen van Europa.",
+      "type": "choice",
+      "answers": [
+        "Waar",
+        "Niet waar"
+      ],
+      "correct": 0,
+      "explanation": "Dichtbevolkt",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-1-085",
+      "topic": "nederland-leren-kennen",
+      "chapter": 1,
+      "scenario": "Hoofdstuk 1 - Migratie en verschillende achtergronden",
+      "question": "Sofia is in Spanje geboren maar woont en werkt in Nederland. Wat laat dit zien?",
+      "type": "choice",
+      "answers": [
+        "Niet iedereen die in Nederland woont is daar geboren",
+        "Alleen Nederlanders mogen in Nederland wonen",
+        "Buitenlanders wonen nooit in steden",
+        "Geboorteland en woonland zijn altijd hetzelfde"
+      ],
+      "correct": 0,
+      "explanation": "Niet iedereen hier geboren",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-1-086",
+      "topic": "nederland-leren-kennen",
+      "chapter": 1,
+      "scenario": "Hoofdstuk 1 - Migratie en verschillende achtergronden",
+      "question": "Veel mensen uit andere Europese landen komen naar Nederland voor:",
+      "type": "choice",
+      "answers": [
+        "werk of een relatie",
+        "alleen militaire dienst",
+        "alleen een vakantie van één dag",
+        "alleen omdat Nederland geen banen heeft"
+      ],
+      "correct": 0,
+      "explanation": "Werk/relatie",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-1-087",
+      "topic": "nederland-leren-kennen",
+      "chapter": 1,
+      "scenario": "Hoofdstuk 1 - Migratie en verschillende achtergronden",
+      "question": "Een leerling vraagt waarom veel Nederlanders een Surinaamse familieachtergrond hebben. Welke geschiedenis is relevant?",
+      "type": "choice",
+      "answers": [
+        "Suriname hoorde vroeger bij het Koninkrijk/Nederlandse koloniale rijk",
+        "Suriname ligt naast Duitsland",
+        "Suriname is een Nederlandse provincie",
+        "Suriname hoorde bij België"
+      ],
+      "correct": 0,
+      "explanation": "Surinaamse historische band",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-1-088",
+      "topic": "nederland-leren-kennen",
+      "chapter": 1,
+      "scenario": "Hoofdstuk 1 - Migratie en verschillende achtergronden",
+      "question": "De opa van Mehmet kwam rond 1970 uit Turkije om in Nederland te werken. Hoe werd zo'n migrant vaak genoemd?",
+      "type": "choice",
+      "answers": [
+        "Gastarbeider",
+        "Vluchteling per definitie",
+        "Toerist",
+        "Diplomaat"
+      ],
+      "correct": 0,
+      "explanation": "Gastarbeider",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-1-089",
+      "topic": "nederland-leren-kennen",
+      "chapter": 1,
+      "scenario": "Hoofdstuk 1 - Migratie en verschillende achtergronden",
+      "question": "De vader van Youssef kwam uit Marokko om in Nederland te werken. Met welke ontwikkeling heeft dit te maken?",
+      "type": "choice",
+      "answers": [
+        "Gastarbeid / arbeidsmigratie",
+        "Romeinse tijd",
+        "Watersnoodramp",
+        "Alleen EU-uitbreiding"
+      ],
+      "correct": 0,
+      "explanation": "Arbeidsmigratie",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-1-090",
+      "topic": "nederland-leren-kennen",
+      "chapter": 1,
+      "scenario": "Hoofdstuk 1 - Migratie en verschillende achtergronden",
+      "question": "Een gezin vlucht uit een land vanwege oorlog. Welk woord past?",
+      "type": "choice",
+      "answers": [
+        "Gastarbeider",
+        "Vluchteling",
+        "Toerist",
+        "Pendelaar"
+      ],
+      "correct": 1,
+      "explanation": "Vluchteling",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-1-091",
+      "topic": "nederland-leren-kennen",
+      "chapter": 1,
+      "scenario": "Hoofdstuk 1 - Migratie en verschillende achtergronden",
+      "question": "Welke redenen worden in de leerstof genoemd voor vluchtelingen om hun land te verlaten?",
+      "type": "choice",
+      "answers": [
+        "Oorlog en ernstige problemen",
+        "Alleen mooi weer",
+        "Alleen fietsen",
+        "Alleen lagere winkelprijzen"
+      ],
+      "correct": 0,
+      "explanation": "Oorlog/problemen",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-1-092",
+      "topic": "nederland-leren-kennen",
+      "chapter": 1,
+      "scenario": "Hoofdstuk 1 - Migratie en verschillende achtergronden",
+      "question": "Een vluchteling woont in Nederland. Heeft die persoon automatisch altijd een verblijfsvergunning?",
+      "type": "choice",
+      "answers": [
+        "Ja, altijd",
+        "Nee, niet automatisch",
+        "Alleen als hij in Amsterdam woont",
+        "Alleen als hij Nederlands spreekt"
+      ],
+      "correct": 1,
+      "explanation": "Niet automatisch vergunning",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-1-093",
+      "topic": "nederland-leren-kennen",
+      "chapter": 1,
+      "scenario": "Hoofdstuk 1 - Migratie en verschillende achtergronden",
+      "question": "Waar wonen veel mensen met een migratieachtergrond?",
+      "type": "choice",
+      "answers": [
+        "Vaak ook in grote steden",
+        "Alleen op onbewoonde eilanden",
+        "Alleen in Limburg",
+        "Nooit in de Randstad"
+      ],
+      "correct": 0,
+      "explanation": "Veel in grote steden",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-1-094",
+      "topic": "nederland-leren-kennen",
+      "chapter": 1,
+      "scenario": "Hoofdstuk 1 - Migratie en verschillende achtergronden",
+      "question": "Waar of niet waar: De Nederlandse bevolking heeft verschillende herkomsten en achtergronden.",
+      "type": "choice",
+      "answers": [
+        "Waar",
+        "Niet waar"
+      ],
+      "correct": 0,
+      "explanation": "Diverse achtergronden",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-1-095",
+      "topic": "nederland-leren-kennen",
+      "chapter": 1,
+      "scenario": "Hoofdstuk 1 - Nederlands, Fries en dialecten",
+      "question": "Elena komt in Nederland wonen. Welke taal wordt in het grootste deel van het land gebruikt?",
+      "type": "choice",
+      "answers": [
+        "Nederlands",
+        "Spaans",
+        "Italiaans",
+        "Zweeds"
+      ],
+      "correct": 0,
+      "explanation": "Nederlands",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-1-096",
+      "topic": "nederland-leren-kennen",
+      "chapter": 1,
+      "scenario": "Hoofdstuk 1 - Nederlands, Fries en dialecten",
+      "question": "Een Nederlander uit Limburg spreekt thuis anders dan iemand uit Groningen. Wat kan dat zijn?",
+      "type": "choice",
+      "answers": [
+        "Een dialect",
+        "Een andere nationaliteit",
+        "Een wet",
+        "Een verblijfsvergunning"
+      ],
+      "correct": 0,
+      "explanation": "Dialect",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-1-097",
+      "topic": "nederland-leren-kennen",
+      "chapter": 1,
+      "scenario": "Hoofdstuk 1 - Nederlands, Fries en dialecten",
+      "question": "Een kind woont in Friesland. Welke extra taal kan het op school leren?",
+      "type": "choice",
+      "answers": [
+        "Fries",
+        "Portugees als officiële tweede taal",
+        "Pools als verplichte taal",
+        "Russisch"
+      ],
+      "correct": 0,
+      "explanation": "Fries",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-1-098",
+      "topic": "nederland-leren-kennen",
+      "chapter": 1,
+      "scenario": "Hoofdstuk 1 - Nederlands, Fries en dialecten",
+      "question": "In welke provincie is Fries bijzonder belangrijk?",
+      "type": "choice",
+      "answers": [
+        "Utrecht",
+        "Friesland",
+        "Zuid-Holland",
+        "Limburg"
+      ],
+      "correct": 1,
+      "explanation": "Friesland",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-1-099",
+      "topic": "nederland-leren-kennen",
+      "chapter": 1,
+      "scenario": "Hoofdstuk 1 - Nederlands, Fries en dialecten",
+      "question": "Een nieuwe immigrant wil beter kunnen meedoen in de Nederlandse samenleving. Wat is volgens de leerstof belangrijk?",
+      "type": "choice",
+      "answers": [
+        "Nederlands leren",
+        "Alleen een auto kopen",
+        "Alleen naar Amsterdam verhuizen",
+        "Een dialect uit elk dorp leren"
+      ],
+      "correct": 0,
+      "explanation": "Nederlands leren",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-1-100",
+      "topic": "nederland-leren-kennen",
+      "chapter": 1,
+      "scenario": "Hoofdstuk 1 - Nederlands, Fries en dialecten",
+      "question": "Ongeveer hoeveel mensen wereldwijd spreken Nederlands volgens de leerstof?",
+      "type": "choice",
+      "answers": [
+        "2,3 miljoen",
+        "23 miljoen",
+        "230 miljoen",
+        "2,3 miljard"
+      ],
+      "correct": 1,
+      "explanation": "≈23 miljoen",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-1-101",
+      "topic": "nederland-leren-kennen",
+      "chapter": 1,
+      "scenario": "Hoofdstuk 1 - Nederlands, Fries en dialecten",
+      "question": "Waar of niet waar: Er bestaan verschillende Nederlandse dialecten.",
+      "type": "choice",
+      "answers": [
+        "Waar",
+        "Niet waar"
+      ],
+      "correct": 0,
+      "explanation": "Dialecten bestaan",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-1-102",
+      "topic": "nederland-leren-kennen",
+      "chapter": 1,
+      "scenario": "Hoofdstuk 1 - Nederlands, Fries en dialecten",
+      "question": "Waar of niet waar: Fries speelt een speciale rol in Friesland.",
+      "type": "choice",
+      "answers": [
+        "Waar",
+        "Niet waar"
+      ],
+      "correct": 0,
+      "explanation": "Fries in Friesland",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-1-103",
+      "topic": "nederland-leren-kennen",
+      "chapter": 1,
+      "scenario": "Hoofdstuk 1 - Koning en koninklijke familie",
+      "question": "Een nieuwkomer vraagt of Nederland een president heeft als staatshoofd. Wat antwoord je?",
+      "type": "choice",
+      "answers": [
+        "Ja, Nederland heeft alleen een president",
+        "Nee, Nederland heeft een koning",
+        "Nederland heeft geen staatshoofd",
+        "De burgemeester van Den Haag is president"
+      ],
+      "correct": 1,
+      "explanation": "Koning, geen president als staatshoofd",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-1-104",
+      "topic": "nederland-leren-kennen",
+      "chapter": 1,
+      "scenario": "Hoofdstuk 1 - Koning en koninklijke familie",
+      "question": "Wie is koning volgens de leerstof?",
+      "type": "choice",
+      "answers": [
+        "Willem-Alexander",
+        "Beatrix",
+        "Máxima",
+        "Amalia"
+      ],
+      "correct": 0,
+      "explanation": "Willem-Alexander",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-1-105",
+      "topic": "nederland-leren-kennen",
+      "chapter": 1,
+      "scenario": "Hoofdstuk 1 - Koning en koninklijke familie",
+      "question": "Wie is Máxima?",
+      "type": "choice",
+      "answers": [
+        "De moeder van Willem-Alexander",
+        "De echtgenote van Willem-Alexander en koningin",
+        "De burgemeester van Amsterdam",
+        "De minister-president"
+      ],
+      "correct": 1,
+      "explanation": "Máxima = echtgenote/koningin",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-1-106",
+      "topic": "nederland-leren-kennen",
+      "chapter": 1,
+      "scenario": "Hoofdstuk 1 - Koning en koninklijke familie",
+      "question": "Wie is prinses Beatrix in relatie tot Willem-Alexander?",
+      "type": "choice",
+      "answers": [
+        "Zijn dochter",
+        "Zijn moeder en voormalig koningin",
+        "Zijn minister",
+        "Zijn zus"
+      ],
+      "correct": 1,
+      "explanation": "Beatrix = moeder/voormalig koningin",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-1-107",
+      "topic": "nederland-leren-kennen",
+      "chapter": 1,
+      "scenario": "Hoofdstuk 1 - Koning en koninklijke familie",
+      "question": "Een leerling zegt: “Beatrix was de eerste koningin van Nederland.” Is dat juist?",
+      "type": "choice",
+      "answers": [
+        "Ja",
+        "Nee",
+        "Alleen volgens de EU",
+        "Alleen na 2002"
+      ],
+      "correct": 1,
+      "explanation": "Niet eerste koningin",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-1-108",
+      "topic": "nederland-leren-kennen",
+      "chapter": 1,
+      "scenario": "Hoofdstuk 1 - Koning en koninklijke familie",
+      "question": "Waar of niet waar: Willem-Alexander en Máxima hebben drie kinderen.",
+      "type": "choice",
+      "answers": [
+        "Waar",
+        "Niet waar"
+      ],
+      "correct": 0,
+      "explanation": "Drie kinderen",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-1-109",
+      "topic": "nederland-leren-kennen",
+      "chapter": 1,
+      "scenario": "Hoofdstuk 1 - Democratie, regering en parlement",
+      "question": "Emma hoort dat Nederland een democratie is. Wat betekent dit in de kern?",
+      "type": "choice",
+      "answers": [
+        "Burgers kunnen via verkiezingen politieke vertegenwoordigers kiezen",
+        "Alleen de koning beslist",
+        "Er zijn geen verkiezingen",
+        "Rechters kiezen alle burgers"
+      ],
+      "correct": 0,
+      "explanation": "Democratie = vertegenwoordigers kiezen",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-1-110",
+      "topic": "nederland-leren-kennen",
+      "chapter": 1,
+      "scenario": "Hoofdstuk 1 - Democratie, regering en parlement",
+      "question": "Waar bevinden regering en parlement zich?",
+      "type": "choice",
+      "answers": [
+        "Amsterdam",
+        "Rotterdam",
+        "Den Haag",
+        "Utrecht"
+      ],
+      "correct": 2,
+      "explanation": "Den Haag",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-1-111",
+      "topic": "nederland-leren-kennen",
+      "chapter": 1,
+      "scenario": "Hoofdstuk 1 - Democratie, regering en parlement",
+      "question": "Een Nederlander wil invloed hebben op landelijke politiek. Wat kan hij doen als hij stemgerechtigd is?",
+      "type": "choice",
+      "answers": [
+        "Stemmen bij verkiezingen",
+        "Alleen de koning bellen",
+        "Een treinabonnement kopen",
+        "Een polder bouwen"
+      ],
+      "correct": 0,
+      "explanation": "Stemmen",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-1-112",
+      "topic": "nederland-leren-kennen",
+      "chapter": 1,
+      "scenario": "Hoofdstuk 1 - Democratie, regering en parlement",
+      "question": "Hoe vaak zijn reguliere Tweede Kamerverkiezingen in beginsel?",
+      "type": "choice",
+      "answers": [
+        "Elke 2 jaar",
+        "Elke 3 jaar",
+        "Elke 4 jaar",
+        "Elke 10 jaar"
+      ],
+      "correct": 2,
+      "explanation": "In beginsel 4 jaar",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-1-113",
+      "topic": "nederland-leren-kennen",
+      "chapter": 1,
+      "scenario": "Hoofdstuk 1 - Democratie, regering en parlement",
+      "question": "Wat doet het parlement onder andere?",
+      "type": "choice",
+      "answers": [
+        "Regeringsplannen bespreken en controleren",
+        "Alleen paspoorten maken",
+        "Alleen ziekenhuizen bouwen",
+        "Het weer bepalen"
+      ],
+      "correct": 0,
+      "explanation": "Parlement bespreekt/controleert",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-1-114",
+      "topic": "nederland-leren-kennen",
+      "chapter": 1,
+      "scenario": "Hoofdstuk 1 - Democratie, regering en parlement",
+      "question": "Volgens de basisdefinitie uit de leerstof bestaat de regering uit:",
+      "type": "choice",
+      "answers": [
+        "koning + ministers",
+        "parlement + rechters",
+        "gemeenten + provincies",
+        "burgers + politie"
+      ],
+      "correct": 0,
+      "explanation": "Regering = koning + ministers",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-1-115",
+      "topic": "nederland-leren-kennen",
+      "chapter": 1,
+      "scenario": "Hoofdstuk 1 - Democratie, regering en parlement",
+      "question": "Waar of niet waar: Amsterdam is de hoofdstad, maar de landelijke politiek is vooral in Den Haag gevestigd.",
+      "type": "choice",
+      "answers": [
+        "Waar",
+        "Niet waar"
+      ],
+      "correct": 0,
+      "explanation": "Amsterdam hoofdstad, Den Haag politiek",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-1-116",
+      "topic": "nederland-leren-kennen",
+      "chapter": 1,
+      "scenario": "Hoofdstuk 1 - Geloof en zondag",
+      "question": "Een collega zegt dat hij christen is en op zondag naar de kerk gaat. Is dat in Nederland mogelijk?",
+      "type": "choice",
+      "answers": [
+        "Ja",
+        "Nee",
+        "Alleen als hij minister is",
+        "Alleen buiten de Randstad"
+      ],
+      "correct": 0,
+      "explanation": "Godsdienstvrijheid",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-1-117",
+      "topic": "nederland-leren-kennen",
+      "chapter": 1,
+      "scenario": "Hoofdstuk 1 - Geloof en zondag",
+      "question": "Wat is een kerk?",
+      "type": "choice",
+      "answers": [
+        "Een plaats waar christenen samen kunnen komen voor hun geloof",
+        "Een provinciebestuur",
+        "Een haven",
+        "Een vliegveld"
+      ],
+      "correct": 0,
+      "explanation": "Kerk",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-1-118",
+      "topic": "nederland-leren-kennen",
+      "chapter": 1,
+      "scenario": "Hoofdstuk 1 - Geloof en zondag",
+      "question": "Een winkel is op een bepaalde zondag geopend. Hoe kan zo'n zondag worden genoemd?",
+      "type": "choice",
+      "answers": [
+        "Koopzondag",
+        "Prinsjesdag",
+        "Dodenherdenking",
+        "Troonrede"
+      ],
+      "correct": 0,
+      "explanation": "Koopzondag",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-1-119",
+      "topic": "nederland-leren-kennen",
+      "chapter": 1,
+      "scenario": "Hoofdstuk 1 - Geloof en zondag",
+      "question": "Zijn alle winkels in Nederland iedere zondag altijd gesloten?",
+      "type": "choice",
+      "answers": [
+        "Ja, zonder uitzondering",
+        "Nee, openingstijden verschillen en er zijn koopzondagen",
+        "Alleen supermarkten zijn wettelijk verboden",
+        "Alleen in Amsterdam mogen winkels open"
+      ],
+      "correct": 1,
+      "explanation": "Zondagsopening verschilt",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-1-120",
+      "topic": "nederland-leren-kennen",
+      "chapter": 1,
+      "scenario": "Hoofdstuk 1 - Geloof en zondag",
+      "question": "Nederland heeft naast christenen ook veel:",
+      "type": "choice",
+      "answers": [
+        "moslims",
+        "alleen hindoes en niemand anders",
+        "alleen mensen zonder geloof",
+        "Romeinen"
+      ],
+      "correct": 0,
+      "explanation": "Moslims",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-1-121",
+      "topic": "nederland-leren-kennen",
+      "chapter": 1,
+      "scenario": "Hoofdstuk 1 - Geloof en zondag",
+      "question": "Waar of niet waar: Niet iedereen in Nederland heeft hetzelfde geloof.",
+      "type": "choice",
+      "answers": [
+        "Waar",
+        "Niet waar"
+      ],
+      "correct": 0,
+      "explanation": "Religieuze diversiteit",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-1-122",
+      "topic": "nederland-leren-kennen",
+      "chapter": 1,
+      "scenario": "Hoofdstuk 1 - Europese Unie en euro",
+      "question": "Ahmed reist tussen verschillende EU-landen en hoort dat deze landen samenwerken. Welke organisatie bedoelt men?",
+      "type": "choice",
+      "answers": [
+        "Europese Unie",
+        "Verenigde Provincies",
+        "Waddenunie",
+        "Randstadraad"
+      ],
+      "correct": 0,
+      "explanation": "Europese Unie",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-1-123",
+      "topic": "nederland-leren-kennen",
+      "chapter": 1,
+      "scenario": "Hoofdstuk 1 - Europese Unie en euro",
+      "question": "Waarom werken EU-landen samen?",
+      "type": "choice",
+      "answers": [
+        "Onder andere voor economie en gezamenlijke afspraken",
+        "Om alle provincies af te schaffen",
+        "Om iedereen hetzelfde dialect te laten spreken",
+        "Om Nederland uit Europa te verplaatsen"
+      ],
+      "correct": 0,
+      "explanation": "Samenwerking/afspraken",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-1-124",
+      "topic": "nederland-leren-kennen",
+      "chapter": 1,
+      "scenario": "Hoofdstuk 1 - Europese Unie en euro",
+      "question": "Welke munt gebruikt Nederland?",
+      "type": "choice",
+      "answers": [
+        "Dollar",
+        "Pond",
+        "Euro",
+        "Yen"
+      ],
+      "correct": 2,
+      "explanation": "Euro",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-1-125",
+      "topic": "nederland-leren-kennen",
+      "chapter": 1,
+      "scenario": "Hoofdstuk 1 - Europese Unie en euro",
+      "question": "Een toerist betaalt in Amsterdam met euro's. Waarom is dat logisch?",
+      "type": "choice",
+      "answers": [
+        "Nederland gebruikt de euro",
+        "Amsterdam hoort bij Duitsland",
+        "Nederland gebruikt alleen dollars",
+        "Euro's zijn alleen voor toeristen"
+      ],
+      "correct": 0,
+      "explanation": "Nederland gebruikt euro",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-1-126",
+      "topic": "nederland-leren-kennen",
+      "chapter": 1,
+      "scenario": "Hoofdstuk 1 - Europese Unie en euro",
+      "question": "Wat is volgens de leerstof een voordeel van samenwerking in de EU voor Nederland?",
+      "type": "choice",
+      "answers": [
+        "Het kan goed zijn voor de economie",
+        "Het maakt waterbeheer onmogelijk",
+        "Het verbiedt verkiezingen",
+        "Het schaft de Nederlandse taal af"
+      ],
+      "correct": 0,
+      "explanation": "Economische samenwerking",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-1-127",
+      "topic": "nederland-leren-kennen",
+      "chapter": 1,
+      "scenario": "Hoofdstuk 1 - Europese Unie en euro",
+      "question": "Waar of niet waar: Nederland is lid van de Europese Unie.",
+      "type": "choice",
+      "answers": [
+        "Waar",
+        "Niet waar"
+      ],
+      "correct": 0,
+      "explanation": "EU-lid",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-1-128",
+      "topic": "nederland-leren-kennen",
+      "chapter": 1,
+      "scenario": "Hoofdstuk 1 - Gemengde KNM-situatievragen",
+      "question": "Julia landt op Schiphol en wil daarna naar de hoofdstad. In welke stad is zij uiteindelijk?",
+      "type": "choice",
+      "answers": [
+        "Amsterdam",
+        "Rotterdam",
+        "Utrecht",
+        "Den Haag"
+      ],
+      "correct": 0,
+      "explanation": "Amsterdam",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-1-129",
+      "topic": "nederland-leren-kennen",
+      "chapter": 1,
+      "scenario": "Hoofdstuk 1 - Gemengde KNM-situatievragen",
+      "question": "Omar werkt bij een internationaal havenbedrijf in Europoort. In welke stad is zijn werk vooral verbonden?",
+      "type": "choice",
+      "answers": [
+        "Amsterdam",
+        "Rotterdam",
+        "Utrecht",
+        "Eindhoven"
+      ],
+      "correct": 1,
+      "explanation": "Rotterdam",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-1-130",
+      "topic": "nederland-leren-kennen",
+      "chapter": 1,
+      "scenario": "Hoofdstuk 1 - Gemengde KNM-situatievragen",
+      "question": "Fatima moet voor een landelijke politieke afspraak naar de regering. Naar welke stad reist zij?",
+      "type": "choice",
+      "answers": [
+        "Maastricht",
+        "Den Haag",
+        "Groningen",
+        "Breda"
+      ],
+      "correct": 1,
+      "explanation": "Den Haag",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-1-131",
+      "topic": "nederland-leren-kennen",
+      "chapter": 1,
+      "scenario": "Hoofdstuk 1 - Gemengde KNM-situatievragen",
+      "question": "Peter woont in een laaggelegen gebied. De gemeente controleert een dijk na een storm. Waarom?",
+      "type": "choice",
+      "answers": [
+        "Om overstromingen te helpen voorkomen",
+        "Om verkiezingen te organiseren",
+        "Om Schiphol uit te breiden",
+        "Om de Domtoren hoger te maken"
+      ],
+      "correct": 0,
+      "explanation": "Dijken tegen overstroming",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-1-132",
+      "topic": "nederland-leren-kennen",
+      "chapter": 1,
+      "scenario": "Hoofdstuk 1 - Gemengde KNM-situatievragen",
+      "question": "Een gezin verhuist naar Flevoland en hoort veel over polders. Wat moeten ze onthouden?",
+      "type": "choice",
+      "answers": [
+        "Polder = land dat door waterbeheer droog is gemaakt/gehouden",
+        "Polder = berggebied",
+        "Polder = vliegveld",
+        "Polder = politieke partij"
+      ],
+      "correct": 0,
+      "explanation": "Polder",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-1-133",
+      "topic": "nederland-leren-kennen",
+      "chapter": 1,
+      "scenario": "Hoofdstuk 1 - Gemengde KNM-situatievragen",
+      "question": "Het is juli en om 22.00 uur is het nog relatief licht. Welk seizoenskenmerk zien ze?",
+      "type": "choice",
+      "answers": [
+        "Lange lichte zomeravonden",
+        "Vroege winterduisternis",
+        "Herfststorm als enige verklaring",
+        "Voorjaarsvorst"
+      ],
+      "correct": 0,
+      "explanation": "Zomeravond lang licht",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-1-134",
+      "topic": "nederland-leren-kennen",
+      "chapter": 1,
+      "scenario": "Hoofdstuk 1 - Gemengde KNM-situatievragen",
+      "question": "Het is november. Bladeren vallen en het waait en regent veel. Welk seizoen?",
+      "type": "choice",
+      "answers": [
+        "Zomer",
+        "Lente",
+        "Herfst",
+        "Winter"
+      ],
+      "correct": 2,
+      "explanation": "Herfst",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-1-135",
+      "topic": "nederland-leren-kennen",
+      "chapter": 1,
+      "scenario": "Hoofdstuk 1 - Gemengde KNM-situatievragen",
+      "question": "Een nieuwkomer hoort thuis Nederlands en op bezoek in Friesland ook Fries. Wat leert hij?",
+      "type": "choice",
+      "answers": [
+        "Nederland kent Nederlands én regionale talen/dialecten",
+        "Nederland heeft geen eigen taal",
+        "Fries is alleen een buitenlandse taal",
+        "Iedereen spreekt exact hetzelfde"
+      ],
+      "correct": 0,
+      "explanation": "Taalvariatie",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-1-136",
+      "topic": "nederland-leren-kennen",
+      "chapter": 1,
+      "scenario": "Hoofdstuk 1 - Gemengde KNM-situatievragen",
+      "question": "Aisha ziet een Nederlandse koning op televisie en vraagt of Nederland daarom geen democratie is. Wat antwoord je?",
+      "type": "choice",
+      "answers": [
+        "Nederland kan tegelijk een monarchie en democratie zijn",
+        "Een koning en democratie kunnen nooit samengaan",
+        "Nederland is een dictatuur",
+        "Alleen republieken hebben verkiezingen"
+      ],
+      "correct": 0,
+      "explanation": "Monarchie + democratie",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-1-137",
+      "topic": "nederland-leren-kennen",
+      "chapter": 1,
+      "scenario": "Hoofdstuk 1 - Gemengde KNM-situatievragen",
+      "question": "Een buurman zegt dat Amsterdam het politieke regeringscentrum is omdat het de hoofdstad is. Wat is de beste correctie?",
+      "type": "choice",
+      "answers": [
+        "De regering en het parlement zitten vooral in Den Haag",
+        "De regering zit in Rotterdam",
+        "Het parlement zit in Utrecht",
+        "Er is geen regeringscentrum"
+      ],
+      "correct": 0,
+      "explanation": "Politiek centrum Den Haag",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-1-138",
+      "topic": "nederland-leren-kennen",
+      "chapter": 1,
+      "scenario": "Hoofdstuk 1 - Gemengde KNM-situatievragen",
+      "question": "Een vluchteling uit een oorlogsgebied komt naar Nederland. Wat is belangrijk om te begrijpen?",
+      "type": "choice",
+      "answers": [
+        "Vluchtelingen komen vaak door oorlog of ernstige problemen, maar verblijf is niet automatisch gegarandeerd",
+        "Iedereen krijgt automatisch Nederlandse nationaliteit",
+        "Vluchtelingen zijn altijd gastarbeiders",
+        "Vluchtelingen mogen nooit in steden wonen"
+      ],
+      "correct": 0,
+      "explanation": "Vlucht + verblijfsprocedure",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-1-139",
+      "topic": "nederland-leren-kennen",
+      "chapter": 1,
+      "scenario": "Hoofdstuk 1 - Gemengde KNM-situatievragen",
+      "question": "Een Nederlander zegt dat hij uit Limburg komt en een dialect spreekt. Is dat vreemd?",
+      "type": "choice",
+      "answers": [
+        "Nee, Nederland kent verschillende dialecten",
+        "Ja, dialecten zijn verboden",
+        "Alleen Fries mag gesproken worden",
+        "Alleen in Amsterdam bestaan dialecten"
+      ],
+      "correct": 0,
+      "explanation": "Dialecten normaal",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-1-140",
+      "topic": "nederland-leren-kennen",
+      "chapter": 1,
+      "scenario": "Hoofdstuk 1 - Gemengde KNM-situatievragen",
+      "question": "Wat is de beste samenvatting van Hoofdstuk 1?",
+      "type": "choice",
+      "answers": [
+        "Nederland is een klein, dichtbevolkt Europees land met veel water, verschillende regio's en een democratische monarchie",
+        "Nederland is een groot bergland in Azië",
+        "Nederland heeft geen rivieren, geen koning en geen EU-lidmaatschap",
+        "Nederland bestaat alleen uit de Randstad"
+      ],
+      "correct": 0,
+      "explanation": "Kernsamenvatting",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-2-001",
       "topic": "de-mensen-in-nederland",
       "chapter": 2,
-      "scenario": "原创模拟题 - De mensen in Nederland",
-      "question": "Wat zeg je tegen iemand die jarig is?",
+      "scenario": "Hoofdstuk 2 - Feestdagen en speciale dagen",
+      "question": "Wanneer is Koningsdag?",
       "type": "choice",
       "answers": [
-        "Gefeliciteerd.",
-        "Gecondoleerd.",
-        "Beterschap."
+        "14 februari",
+        "27 april",
+        "4 mei",
+        "5 december"
       ],
-      "correct": 0,
-      "explanation": "生日、结婚、通过考试等祝贺场景常用 Gefeliciteerd。",
-      "source": "原创模拟题"
+      "correct": 1,
+      "explanation": "Koningsdag = 27 april",
+      "source": "原创场景模拟题"
     },
     {
-      "id": "gen-people-2",
+      "id": "scenario-2-002",
       "topic": "de-mensen-in-nederland",
       "chapter": 2,
-      "scenario": "原创模拟题 - De mensen in Nederland",
-      "question": "Wat doen veel mensen op 4 mei om 20.00 uur?",
+      "scenario": "Hoofdstuk 2 - Feestdagen en speciale dagen",
+      "question": "Wat dragen veel mensen op Koningsdag?",
       "type": "choice",
       "answers": [
-        "Twee minuten stil zijn.",
-        "Vuurwerk afsteken.",
-        "Cadeaus in schoenen leggen."
+        "Zwarte kleren",
+        "Witte kleren",
+        "Oranje kleren",
+        "Groene kleren"
       ],
-      "correct": 0,
-      "explanation": "5 月 4 日 Dodenherdenking，晚上 20:00 通常默哀两分钟。",
-      "source": "原创模拟题"
+      "correct": 2,
+      "explanation": "Oranje hoort bij Nederland/Koningsdag",
+      "source": "原创场景模拟题"
     },
     {
-      "id": "gen-people-3",
+      "id": "scenario-2-003",
       "topic": "de-mensen-in-nederland",
       "chapter": 2,
-      "scenario": "原创模拟题 - De mensen in Nederland",
-      "question": "Wat is netjes als je te laat komt voor een afspraak?",
+      "scenario": "Hoofdstuk 2 - Feestdagen en speciale dagen",
+      "question": "Wat gebeurt er op 5 mei?",
       "type": "choice",
       "answers": [
-        "Even bellen of een bericht sturen.",
-        "Niets zeggen.",
-        "Altijd de volgende dag komen."
+        "Nederland viert de bevrijding",
+        "Mensen zijn twee minuten stil",
+        "Mensen vieren Kerstmis",
+        "Mensen vieren Sinterklaas"
       ],
       "correct": 0,
-      "explanation": "荷兰社会重视 afspraak 和准时，迟到应提前联系对方。",
-      "source": "原创模拟题"
+      "explanation": "5 mei = Bevrijdingsdag",
+      "source": "原创场景模拟题"
     },
     {
-      "id": "gen-people-4",
+      "id": "scenario-2-004",
       "topic": "de-mensen-in-nederland",
       "chapter": 2,
-      "scenario": "原创模拟题 - De mensen in Nederland",
-      "question": "Wanneer gebruik je meestal formele taal?",
+      "scenario": "Hoofdstuk 2 - Feestdagen en speciale dagen",
+      "question": "Wat is Dodenherdenking?",
       "type": "choice",
       "answers": [
-        "Bij de gemeente of dokter.",
-        "Alleen met kleine kinderen.",
-        "Nooit in Nederland."
+        "Een dag om de koning te vieren",
+        "Een dag om doden uit de oorlog te herdenken",
+        "Een dag voor moeders",
+        "Een dag om cadeaus te geven"
       ],
-      "correct": 0,
-      "explanation": "正式场合常用 u、meneer、mevrouw。",
-      "source": "原创模拟题"
+      "correct": 1,
+      "explanation": "Doden uit de oorlog herdenken",
+      "source": "原创场景模拟题"
     },
     {
-      "id": "gen-health-1",
+      "id": "scenario-2-005",
+      "topic": "de-mensen-in-nederland",
+      "chapter": 2,
+      "scenario": "Hoofdstuk 2 - Feestdagen en speciale dagen",
+      "question": "Wanneer is Dodenherdenking?",
+      "type": "choice",
+      "answers": [
+        "4 mei",
+        "5 mei",
+        "27 april",
+        "31 december"
+      ],
+      "correct": 0,
+      "explanation": "4 mei",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-2-006",
+      "topic": "de-mensen-in-nederland",
+      "chapter": 2,
+      "scenario": "Hoofdstuk 2 - Feestdagen en speciale dagen",
+      "question": "Waar of niet waar: Op 4 mei zijn mensen om 20.00 uur twee minuten stil.",
+      "type": "choice",
+      "answers": [
+        "Waar",
+        "Niet waar"
+      ],
+      "correct": 0,
+      "explanation": "20.00 uur, twee minuten stilte",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-2-007",
+      "topic": "de-mensen-in-nederland",
+      "chapter": 2,
+      "scenario": "Hoofdstuk 2 - Feestdagen en speciale dagen",
+      "question": "Wat doen kinderen vaak met Sinterklaas?",
+      "type": "choice",
+      "answers": [
+        "Ze krijgen snoep of cadeautjes",
+        "Ze gaan stemmen",
+        "Ze gaan naar het gemeentehuis",
+        "Ze krijgen een diploma"
+      ],
+      "correct": 0,
+      "explanation": "Sinterklaas = snoep/cadeautjes",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-2-008",
+      "topic": "de-mensen-in-nederland",
+      "chapter": 2,
+      "scenario": "Hoofdstuk 2 - Feestdagen en speciale dagen",
+      "question": "Wanneer vieren mensen Sinterklaas?",
+      "type": "choice",
+      "answers": [
+        "25 december",
+        "5 december",
+        "1 januari",
+        "14 februari"
+      ],
+      "correct": 1,
+      "explanation": "5 december",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-2-009",
+      "topic": "de-mensen-in-nederland",
+      "chapter": 2,
+      "scenario": "Hoofdstuk 2 - Feestdagen en speciale dagen",
+      "question": "Wat hoort bij Kerstmis?",
+      "type": "choice",
+      "answers": [
+        "Een kerstboom",
+        "Een stembiljet",
+        "Een OV-chipkaart",
+        "Een rijbewijs"
+      ],
+      "correct": 0,
+      "explanation": "Kerstmis = kerstboom",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-2-010",
+      "topic": "de-mensen-in-nederland",
+      "chapter": 2,
+      "scenario": "Hoofdstuk 2 - Feestdagen en speciale dagen",
+      "question": "Welke feestdag is christelijk?",
+      "type": "choice",
+      "answers": [
+        "Koningsdag",
+        "Valentijn",
+        "Kerstmis",
+        "Bevrijdingsdag"
+      ],
+      "correct": 2,
+      "explanation": "Kerstmis is christelijk",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-2-011",
+      "topic": "de-mensen-in-nederland",
+      "chapter": 2,
+      "scenario": "Hoofdstuk 2 - Feestdagen en speciale dagen",
+      "question": "Wat vieren christenen met Pasen?",
+      "type": "choice",
+      "answers": [
+        "De verjaardag van de koning",
+        "De opstanding van Jezus",
+        "Het nieuwe jaar",
+        "De bevrijding van Nederland"
+      ],
+      "correct": 1,
+      "explanation": "Pasen",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-2-012",
+      "topic": "de-mensen-in-nederland",
+      "chapter": 2,
+      "scenario": "Hoofdstuk 2 - Feestdagen en speciale dagen",
+      "question": "Wanneer is Moederdag meestal?",
+      "type": "choice",
+      "answers": [
+        "De tweede zondag in mei",
+        "De derde zondag in juni",
+        "5 december",
+        "27 april"
+      ],
+      "correct": 0,
+      "explanation": "Tweede zondag in mei",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-2-013",
+      "topic": "de-mensen-in-nederland",
+      "chapter": 2,
+      "scenario": "Hoofdstuk 2 - Feestdagen en speciale dagen",
+      "question": "Wanneer is Vaderdag meestal?",
+      "type": "choice",
+      "answers": [
+        "De eerste zondag in mei",
+        "De tweede zondag in mei",
+        "De derde zondag in juni",
+        "25 december"
+      ],
+      "correct": 2,
+      "explanation": "Derde zondag in juni",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-2-014",
+      "topic": "de-mensen-in-nederland",
+      "chapter": 2,
+      "scenario": "Hoofdstuk 2 - Feestdagen en speciale dagen",
+      "question": "Wat doen mensen vaak met Oud en Nieuw?",
+      "type": "choice",
+      "answers": [
+        "Twee minuten stil zijn",
+        "Vuurwerk afsteken",
+        "Naar een sollicitatiegesprek gaan",
+        "Een oranje vlag ophangen"
+      ],
+      "correct": 1,
+      "explanation": "Oud en Nieuw = vuurwerk",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-2-015",
+      "topic": "de-mensen-in-nederland",
+      "chapter": 2,
+      "scenario": "Hoofdstuk 2 - Feestdagen en speciale dagen",
+      "question": "Waar of niet waar: Iedereen in Nederland viert alle feestdagen.",
+      "type": "choice",
+      "answers": [
+        "Waar",
+        "Niet waar"
+      ],
+      "correct": 1,
+      "explanation": "Niet iedereen viert alles",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-2-016",
+      "topic": "de-mensen-in-nederland",
+      "chapter": 2,
+      "scenario": "Hoofdstuk 2 - Verjaardag, huwelijk, geboorte en overlijden",
+      "question": "Fatima is jarig. Wat zeg je tegen haar?",
+      "type": "choice",
+      "answers": [
+        "Beterschap",
+        "Gecondoleerd",
+        "Gefeliciteerd",
+        "Tot ziens"
+      ],
+      "correct": 2,
+      "explanation": "Verjaardag → Gefeliciteerd",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-2-017",
+      "topic": "de-mensen-in-nederland",
+      "chapter": 2,
+      "scenario": "Hoofdstuk 2 - Verjaardag, huwelijk, geboorte en overlijden",
+      "question": "Je collega is geslaagd voor zijn examen. Wat zeg je?",
+      "type": "choice",
+      "answers": [
+        "Gefeliciteerd",
+        "Gecondoleerd",
+        "Beterschap",
+        "Welterusten"
+      ],
+      "correct": 0,
+      "explanation": "Geslaagd → Gefeliciteerd",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-2-018",
+      "topic": "de-mensen-in-nederland",
+      "chapter": 2,
+      "scenario": "Hoofdstuk 2 - Verjaardag, huwelijk, geboorte en overlijden",
+      "question": "De moeder van je vriend is overleden. Wat zeg je?",
+      "type": "choice",
+      "answers": [
+        "Gefeliciteerd",
+        "Gecondoleerd",
+        "Goedemorgen",
+        "Veel plezier"
+      ],
+      "correct": 1,
+      "explanation": "Overlijden → Gecondoleerd",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-2-019",
+      "topic": "de-mensen-in-nederland",
+      "chapter": 2,
+      "scenario": "Hoofdstuk 2 - Verjaardag, huwelijk, geboorte en overlijden",
+      "question": "Wanneer zeg je vaak Veel sterkte?",
+      "type": "choice",
+      "answers": [
+        "Als iemand ziek is of iemand is overleden",
+        "Als iemand jarig is",
+        "Als iemand trouwt",
+        "Als iemand een nieuwe fiets koopt"
+      ],
+      "correct": 0,
+      "explanation": "Ziekte/overlijden → Veel sterkte",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-2-020",
+      "topic": "de-mensen-in-nederland",
+      "chapter": 2,
+      "scenario": "Hoofdstuk 2 - Verjaardag, huwelijk, geboorte en overlijden",
+      "question": "Wat krijgen mensen vaak op hun verjaardag?",
+      "type": "choice",
+      "answers": [
+        "Een boete",
+        "Een cadeau",
+        "Een identiteitsbewijs",
+        "Een rekening"
+      ],
+      "correct": 1,
+      "explanation": "Verjaardag → cadeau",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-2-021",
+      "topic": "de-mensen-in-nederland",
+      "chapter": 2,
+      "scenario": "Hoofdstuk 2 - Verjaardag, huwelijk, geboorte en overlijden",
+      "question": "Wat staat vaak op een verjaardagstaart?",
+      "type": "choice",
+      "answers": [
+        "Kaarsjes",
+        "Een OV-chipkaart",
+        "Een paspoort",
+        "Een telefoonnummer"
+      ],
+      "correct": 0,
+      "explanation": "Taart met kaarsjes",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-2-022",
+      "topic": "de-mensen-in-nederland",
+      "chapter": 2,
+      "scenario": "Hoofdstuk 2 - Verjaardag, huwelijk, geboorte en overlijden",
+      "question": "Wat doen kinderen soms op school als ze jarig zijn?",
+      "type": "choice",
+      "answers": [
+        "Trakteren",
+        "Uitchecken",
+        "Aangifte doen",
+        "Solliciteren"
+      ],
+      "correct": 0,
+      "explanation": "Trakteren",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-2-023",
+      "topic": "de-mensen-in-nederland",
+      "chapter": 2,
+      "scenario": "Hoofdstuk 2 - Verjaardag, huwelijk, geboorte en overlijden",
+      "question": "Wat is een bruiloft?",
+      "type": "choice",
+      "answers": [
+        "Een begrafenis",
+        "Een verjaardag",
+        "Een huwelijksfeest",
+        "Een vergadering"
+      ],
+      "correct": 2,
+      "explanation": "Bruiloft = huwelijksfeest",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-2-024",
+      "topic": "de-mensen-in-nederland",
+      "chapter": 2,
+      "scenario": "Hoofdstuk 2 - Verjaardag, huwelijk, geboorte en overlijden",
+      "question": "Waar kunnen mensen in Nederland officieel trouwen?",
+      "type": "choice",
+      "answers": [
+        "Alleen in een restaurant",
+        "Op het gemeentehuis",
+        "Alleen thuis",
+        "Op het station"
+      ],
+      "correct": 1,
+      "explanation": "Officieel trouwen op het gemeentehuis",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-2-025",
+      "topic": "de-mensen-in-nederland",
+      "chapter": 2,
+      "scenario": "Hoofdstuk 2 - Verjaardag, huwelijk, geboorte en overlijden",
+      "question": "Waar of niet waar: Twee mannen of twee vrouwen kunnen in Nederland trouwen.",
+      "type": "choice",
+      "answers": [
+        "Waar",
+        "Niet waar"
+      ],
+      "correct": 0,
+      "explanation": "Huwelijk voor paren van hetzelfde geslacht",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-2-026",
+      "topic": "de-mensen-in-nederland",
+      "chapter": 2,
+      "scenario": "Hoofdstuk 2 - Verjaardag, huwelijk, geboorte en overlijden",
+      "question": "Wat krijgen bezoekers vaak als er een baby is geboren?",
+      "type": "choice",
+      "answers": [
+        "Beschuit met muisjes",
+        "Patat met mayonaise",
+        "Een boete",
+        "Een krant"
+      ],
+      "correct": 0,
+      "explanation": "Beschuit met muisjes",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-2-027",
+      "topic": "de-mensen-in-nederland",
+      "chapter": 2,
+      "scenario": "Hoofdstuk 2 - Verjaardag, huwelijk, geboorte en overlijden",
+      "question": "Iemand is ziek. Welke tekst past op een kaart?",
+      "type": "choice",
+      "answers": [
+        "Gefeliciteerd",
+        "Gecondoleerd",
+        "Beterschap",
+        "Prettige vakantie"
+      ],
+      "correct": 2,
+      "explanation": "Ziek → Beterschap",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-2-028",
+      "topic": "de-mensen-in-nederland",
+      "chapter": 2,
+      "scenario": "Hoofdstuk 2 - Verjaardag, huwelijk, geboorte en overlijden",
+      "question": "Wat is een begrafenis?",
+      "type": "choice",
+      "answers": [
+        "Een feest voor een baby",
+        "Een ceremonie na een overlijden",
+        "Een bruiloft",
+        "Een verjaardag"
+      ],
+      "correct": 1,
+      "explanation": "Begrafenis na overlijden",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-2-029",
+      "topic": "de-mensen-in-nederland",
+      "chapter": 2,
+      "scenario": "Hoofdstuk 2 - Bezoek en Nederlandse omgangsvormen",
+      "question": "Je wilt bij Nederlandse vrienden op bezoek. Wat doe je meestal eerst?",
+      "type": "choice",
+      "answers": [
+        "Je gaat zonder iets te zeggen naar hun huis",
+        "Je maakt een afspraak",
+        "Je belt de politie",
+        "Je koopt een treinkaartje"
+      ],
+      "correct": 1,
+      "explanation": "Bezoek → afspraak",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-2-030",
+      "topic": "de-mensen-in-nederland",
+      "chapter": 2,
+      "scenario": "Hoofdstuk 2 - Bezoek en Nederlandse omgangsvormen",
+      "question": "Wat krijg je vaak als je bij iemand thuis op bezoek bent?",
+      "type": "choice",
+      "answers": [
+        "Koffie of thee",
+        "Een paspoort",
+        "Een boete",
+        "Een diploma"
+      ],
+      "correct": 0,
+      "explanation": "Koffie/thee bij bezoek",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-2-031",
+      "topic": "de-mensen-in-nederland",
+      "chapter": 2,
+      "scenario": "Hoofdstuk 2 - Bezoek en Nederlandse omgangsvormen",
+      "question": "Wat kun je meenemen als je bij iemand op bezoek gaat?",
+      "type": "choice",
+      "answers": [
+        "Bloemen",
+        "Een verkeersbord",
+        "Een identiteitskaart van iemand anders",
+        "Een rekening"
+      ],
+      "correct": 0,
+      "explanation": "Bloemen/cadeau meenemen",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-2-032",
+      "topic": "de-mensen-in-nederland",
+      "chapter": 2,
+      "scenario": "Hoofdstuk 2 - Bezoek en Nederlandse omgangsvormen",
+      "question": "Wat doen Nederlanders volgens de leerstof vaak met een cadeau?",
+      "type": "choice",
+      "answers": [
+        "Ze maken het meteen open",
+        "Ze geven het direct terug",
+        "Ze openen het pas een jaar later",
+        "Ze brengen het naar de gemeente"
+      ],
+      "correct": 0,
+      "explanation": "Cadeau vaak meteen openmaken",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-2-033",
+      "topic": "de-mensen-in-nederland",
+      "chapter": 2,
+      "scenario": "Hoofdstuk 2 - Bezoek en Nederlandse omgangsvormen",
+      "question": "Je hebt een afspraak bij de dokter. Hoe spreek je de dokter meestal aan?",
+      "type": "choice",
+      "answers": [
+        "Met u",
+        "Met alleen de voornaam",
+        "Met jij zoals bij een kind",
+        "Helemaal niet"
+      ],
+      "correct": 0,
+      "explanation": "Formeel → u",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-2-034",
+      "topic": "de-mensen-in-nederland",
+      "chapter": 2,
+      "scenario": "Hoofdstuk 2 - Bezoek en Nederlandse omgangsvormen",
+      "question": "Tegen wie gebruik je meestal jij of je?",
+      "type": "choice",
+      "answers": [
+        "Je goede vriend",
+        "Een onbekende oudere persoon",
+        "Een arts die je niet kent",
+        "Een medewerker bij een officiële afspraak"
+      ],
+      "correct": 0,
+      "explanation": "Vrienden → jij/je",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-2-035",
+      "topic": "de-mensen-in-nederland",
+      "chapter": 2,
+      "scenario": "Hoofdstuk 2 - Bezoek en Nederlandse omgangsvormen",
+      "question": "Welke begroeting is meer formeel?",
+      "type": "choice",
+      "answers": [
+        "Hé!",
+        "Hoi!",
+        "Goedendag",
+        "Doei!"
+      ],
+      "correct": 2,
+      "explanation": "Goedendag = formeler",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-2-036",
+      "topic": "de-mensen-in-nederland",
+      "chapter": 2,
+      "scenario": "Hoofdstuk 2 - Bezoek en Nederlandse omgangsvormen",
+      "question": "Welke afsluiting is informeel?",
+      "type": "choice",
+      "answers": [
+        "Tot ziens",
+        "Doei",
+        "Goedendag",
+        "Meneer"
+      ],
+      "correct": 1,
+      "explanation": "Doei = informeel",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-2-037",
+      "topic": "de-mensen-in-nederland",
+      "chapter": 2,
+      "scenario": "Hoofdstuk 2 - Bezoek en Nederlandse omgangsvormen",
+      "question": "Je ontmoet iemand voor de eerste keer. Wat doe je volgens deze KNM-leerstof vaak?",
+      "type": "choice",
+      "answers": [
+        "Je geeft een hand en zegt je naam",
+        "Je geeft altijd drie zoenen",
+        "Je geeft geld",
+        "Je loopt weg zonder iets te zeggen"
+      ],
+      "correct": 0,
+      "explanation": "Kennismaken → hand + naam",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-2-038",
+      "topic": "de-mensen-in-nederland",
+      "chapter": 2,
+      "scenario": "Hoofdstuk 2 - Bezoek en Nederlandse omgangsvormen",
+      "question": "Wanneer geven mensen volgens de leerstof soms drie zoenen?",
+      "type": "choice",
+      "answers": [
+        "Als ze elkaar goed kennen",
+        "Bij een onbekende dokter",
+        "Bij de politie",
+        "Bij de kassa"
+      ],
+      "correct": 0,
+      "explanation": "Drie zoenen bij goede bekenden",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-2-039",
+      "topic": "de-mensen-in-nederland",
+      "chapter": 2,
+      "scenario": "Hoofdstuk 2 - Bezoek en Nederlandse omgangsvormen",
+      "question": "Waar of niet waar: Nederlanders kijken elkaar vaak in de ogen als ze praten.",
+      "type": "choice",
+      "answers": [
+        "Waar",
+        "Niet waar"
+      ],
+      "correct": 0,
+      "explanation": "Oogcontact",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-2-040",
+      "topic": "de-mensen-in-nederland",
+      "chapter": 2,
+      "scenario": "Hoofdstuk 2 - Bezoek en Nederlandse omgangsvormen",
+      "question": "Wat betekent het als Nederlanders direct zijn?",
+      "type": "choice",
+      "answers": [
+        "Ze zeggen vaak duidelijk wat ze vinden",
+        "Ze praten nooit over problemen",
+        "Ze zijn altijd boos",
+        "Ze praten alleen met familie"
+      ],
+      "correct": 0,
+      "explanation": "Direct = duidelijk zeggen wat je vindt",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-2-041",
+      "topic": "de-mensen-in-nederland",
+      "chapter": 2,
+      "scenario": "Hoofdstuk 2 - Bezoek en Nederlandse omgangsvormen",
+      "question": "De muziek van je buurman staat erg hard. Wat kun je het beste eerst doen?",
+      "type": "choice",
+      "answers": [
+        "Rustig en vriendelijk met hem praten",
+        "Zijn raam kapotmaken",
+        "Meteen gaan verhuizen",
+        "Niets zeggen en altijd boos blijven"
+      ],
+      "correct": 0,
+      "explanation": "Eerst rustig praten",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-2-042",
+      "topic": "de-mensen-in-nederland",
+      "chapter": 2,
+      "scenario": "Hoofdstuk 2 - Bezoek en Nederlandse omgangsvormen",
+      "question": "Je geeft zaterdagavond een groot feest. Wat is verstandig?",
+      "type": "choice",
+      "answers": [
+        "Je vertelt het vooraf aan de buren",
+        "Je zegt niets tegen de buren",
+        "Je belt 112",
+        "Je stuurt de buren een rekening"
+      ],
+      "correct": 0,
+      "explanation": "Buren vooraf informeren",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-2-043",
+      "topic": "de-mensen-in-nederland",
+      "chapter": 2,
+      "scenario": "Hoofdstuk 2 - Wachten, winkels en openbaar vervoer",
+      "question": "Je bent bij de huisarts. Waar wacht je meestal?",
+      "type": "choice",
+      "answers": [
+        "In de wachtkamer",
+        "In de keuken",
+        "Op straat",
+        "Bij de politie"
+      ],
+      "correct": 0,
+      "explanation": "Wachtkamer",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-2-044",
+      "topic": "de-mensen-in-nederland",
+      "chapter": 2,
+      "scenario": "Hoofdstuk 2 - Wachten, winkels en openbaar vervoer",
+      "question": "Je bent in een drukke winkel. Iedereen wacht voor de kassa. Wat doe je?",
+      "type": "choice",
+      "answers": [
+        "Je gaat voor iedereen staan",
+        "Je wacht in de rij",
+        "Je gaat naar huis zonder te betalen",
+        "Je belt 112"
+      ],
+      "correct": 1,
+      "explanation": "In de rij wachten",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-2-045",
+      "topic": "de-mensen-in-nederland",
+      "chapter": 2,
+      "scenario": "Hoofdstuk 2 - Wachten, winkels en openbaar vervoer",
+      "question": "Wat betekent een nummertje trekken?",
+      "type": "choice",
+      "answers": [
+        "Een telefoonnummer bellen",
+        "Een nummer pakken en wachten tot je aan de beurt bent",
+        "Een boete betalen",
+        "Een treinkaartje kopen"
+      ],
+      "correct": 1,
+      "explanation": "Nummer nemen en wachten",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-2-046",
+      "topic": "de-mensen-in-nederland",
+      "chapter": 2,
+      "scenario": "Hoofdstuk 2 - Wachten, winkels en openbaar vervoer",
+      "question": "Waar kun je een nummertje moeten trekken?",
+      "type": "choice",
+      "answers": [
+        "Bij de apotheek of het gemeentehuis",
+        "In je eigen slaapkamer",
+        "Op de fiets",
+        "Tijdens een verjaardag"
+      ],
+      "correct": 0,
+      "explanation": "Apotheek/gemeentehuis",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-2-047",
+      "topic": "de-mensen-in-nederland",
+      "chapter": 2,
+      "scenario": "Hoofdstuk 2 - Wachten, winkels en openbaar vervoer",
+      "question": "Wat moet je doen voordat je met het openbaar vervoer reist?",
+      "type": "choice",
+      "answers": [
+        "Een geldig vervoerbewijs hebben",
+        "Bloemen kopen",
+        "Een verjaardag vieren",
+        "De huisarts bellen"
+      ],
+      "correct": 0,
+      "explanation": "Geldig vervoerbewijs",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-2-048",
+      "topic": "de-mensen-in-nederland",
+      "chapter": 2,
+      "scenario": "Hoofdstuk 2 - Wachten, winkels en openbaar vervoer",
+      "question": "Je reist met een OV-chipkaart. Wat doe je aan het begin van de reis?",
+      "type": "choice",
+      "answers": [
+        "Uitchecken",
+        "Inchecken",
+        "Aangifte doen",
+        "Je kaart weggooien"
+      ],
+      "correct": 1,
+      "explanation": "Begin reis = inchecken",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-2-049",
+      "topic": "de-mensen-in-nederland",
+      "chapter": 2,
+      "scenario": "Hoofdstuk 2 - Wachten, winkels en openbaar vervoer",
+      "question": "Wat moet je aan het einde van de reis doen?",
+      "type": "choice",
+      "answers": [
+        "Inchecken",
+        "Uitchecken",
+        "Een cadeau kopen",
+        "Een afspraak maken"
+      ],
+      "correct": 1,
+      "explanation": "Einde reis = uitchecken",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-2-050",
+      "topic": "de-mensen-in-nederland",
+      "chapter": 2,
+      "scenario": "Hoofdstuk 2 - Wachten, winkels en openbaar vervoer",
+      "question": "Waarom moet je niet vergeten uit te checken?",
+      "type": "choice",
+      "answers": [
+        "Anders kan de reis extra geld kosten",
+        "Anders krijg je geen koffie",
+        "Anders mag je niet naar huis",
+        "Anders wordt je verjaardag geannuleerd"
+      ],
+      "correct": 0,
+      "explanation": "Anders mogelijk extra kosten",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-2-051",
+      "topic": "de-mensen-in-nederland",
+      "chapter": 2,
+      "scenario": "Hoofdstuk 2 - Wachten, winkels en openbaar vervoer",
+      "question": "Wat betekent zwart reizen?",
+      "type": "choice",
+      "answers": [
+        "Met zwarte kleding reizen",
+        "Zonder geldig vervoerbewijs reizen",
+        "'s Nachts reizen",
+        "Met de fiets reizen"
+      ],
+      "correct": 1,
+      "explanation": "Zwart reizen = zonder geldig vervoerbewijs",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-2-052",
+      "topic": "de-mensen-in-nederland",
+      "chapter": 2,
+      "scenario": "Hoofdstuk 2 - Wachten, winkels en openbaar vervoer",
+      "question": "Wat kan gebeuren als je zwart reist?",
+      "type": "choice",
+      "answers": [
+        "Je krijgt een boete",
+        "Je krijgt gratis eten",
+        "Je krijgt een cadeau",
+        "Je krijgt zorgtoeslag"
+      ],
+      "correct": 0,
+      "explanation": "Zwart reizen → boete",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-2-053",
+      "topic": "de-mensen-in-nederland",
+      "chapter": 2,
+      "scenario": "Hoofdstuk 2 - Wachten, winkels en openbaar vervoer",
+      "question": "Wat mag je niet doen in een stiltecoupé?",
+      "type": "choice",
+      "answers": [
+        "Uit het raam kijken",
+        "Zitten",
+        "Praten of bellen",
+        "Een boek lezen"
+      ],
+      "correct": 2,
+      "explanation": "Stiltecoupé → niet praten/bellen",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-2-054",
+      "topic": "de-mensen-in-nederland",
+      "chapter": 2,
+      "scenario": "Hoofdstuk 2 - Wachten, winkels en openbaar vervoer",
+      "question": "Een oude mevrouw stapt in een volle trein. Wat is netjes?",
+      "type": "choice",
+      "answers": [
+        "Je staat op en geeft haar je plaats",
+        "Je legt je voeten op de stoel",
+        "Je zet harde muziek aan",
+        "Je vraagt haar uit te stappen"
+      ],
+      "correct": 0,
+      "explanation": "Plaats aanbieden aan oudere persoon",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-2-055",
+      "topic": "de-mensen-in-nederland",
+      "chapter": 2,
+      "scenario": "Hoofdstuk 2 - Wachten, winkels en openbaar vervoer",
+      "question": "De trein stopt. Wat hoort volgens de regels eerst te gebeuren?",
+      "type": "choice",
+      "answers": [
+        "Eerst nieuwe reizigers instappen",
+        "Eerst mensen laten uitstappen",
+        "Iedereen tegelijk door de deur",
+        "Eerst de conducteur uitstappen"
+      ],
+      "correct": 1,
+      "explanation": "Eerst uitstappen, daarna instappen",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-2-056",
+      "topic": "de-mensen-in-nederland",
+      "chapter": 2,
+      "scenario": "Hoofdstuk 2 - Wachten, winkels en openbaar vervoer",
+      "question": "Waar of niet waar: Je mag je voeten op de bank leggen in de trein.",
+      "type": "choice",
+      "answers": [
+        "Waar",
+        "Niet waar"
+      ],
+      "correct": 1,
+      "explanation": "Voeten niet op de bank",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-2-057",
+      "topic": "de-mensen-in-nederland",
+      "chapter": 2,
+      "scenario": "Hoofdstuk 2 - Situatievragen zoals in het KNM-examen",
+      "question": "Nora heeft om 10.00 uur een sollicitatiegesprek. Wat moet zij doen?",
+      "type": "choice",
+      "answers": [
+        "Om 10.30 uur komen zonder te bellen",
+        "Op tijd komen",
+        "Alleen komen als het regent",
+        "Eerst naar de apotheek gaan"
+      ],
+      "correct": 1,
+      "explanation": "Officiële afspraak → op tijd",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-2-058",
+      "topic": "de-mensen-in-nederland",
+      "chapter": 2,
+      "scenario": "Hoofdstuk 2 - Situatievragen zoals in het KNM-examen",
+      "question": "Ahmed kan niet naar zijn officiële afspraak komen. Wat moet hij doen?",
+      "type": "choice",
+      "answers": [
+        "Niets",
+        "Bellen en de afspraak afzeggen",
+        "Een cadeau sturen",
+        "Een OV-chipkaart kopen"
+      ],
+      "correct": 1,
+      "explanation": "Bellen/afzeggen",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-2-059",
+      "topic": "de-mensen-in-nederland",
+      "chapter": 2,
+      "scenario": "Hoofdstuk 2 - Situatievragen zoals in het KNM-examen",
+      "question": "Lisa heeft nieuwe buren. Wat kan zij doen?",
+      "type": "choice",
+      "answers": [
+        "Kennismaken",
+        "Aangifte doen",
+        "Een boete geven",
+        "Hun post openen"
+      ],
+      "correct": 0,
+      "explanation": "Nieuwe buren → kennismaken",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-2-060",
+      "topic": "de-mensen-in-nederland",
+      "chapter": 2,
+      "scenario": "Hoofdstuk 2 - Situatievragen zoals in het KNM-examen",
+      "question": "Mark staat bij de apotheek. Er zijn veel mensen voor hem. Wat moet hij doen?",
+      "type": "choice",
+      "answers": [
+        "Op zijn beurt wachten",
+        "Meteen naar voren lopen",
+        "Hard schreeuwen",
+        "Weggaan zonder medicijnen"
+      ],
+      "correct": 0,
+      "explanation": "Op je beurt wachten",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-2-061",
+      "topic": "de-mensen-in-nederland",
+      "chapter": 2,
+      "scenario": "Hoofdstuk 2 - Situatievragen zoals in het KNM-examen",
+      "question": "Maria bezoekt haar vriendin die net een baby heeft gekregen. Wat is normaal?",
+      "type": "choice",
+      "answers": [
+        "Een afspraak maken en niet te lang blijven",
+        "Zonder afspraak de hele dag blijven",
+        "Haar werkgever bellen",
+        "De baby meenemen naar huis"
+      ],
+      "correct": 0,
+      "explanation": "Afspraak + kort bezoek",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-2-062",
+      "topic": "de-mensen-in-nederland",
+      "chapter": 2,
+      "scenario": "Hoofdstuk 2 - Situatievragen zoals in het KNM-examen",
+      "question": "Peter heeft last van harde muziek van zijn buren. Wat past het beste bij de Nederlandse omgangsvormen?",
+      "type": "choice",
+      "answers": [
+        "Rustig zeggen dat hij er last van heeft",
+        "Meteen gaan slaan",
+        "Zelf nog hardere muziek draaien",
+        "Nooit iets zeggen"
+      ],
+      "correct": 0,
+      "explanation": "Rustig en direct communiceren",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-2-063",
+      "topic": "de-mensen-in-nederland",
+      "chapter": 2,
+      "scenario": "Hoofdstuk 2 - Situatievragen zoals in het KNM-examen",
+      "question": "Je vriend trouwt morgen. Welke wens past het beste?",
+      "type": "choice",
+      "answers": [
+        "Beterschap",
+        "Gefeliciteerd",
+        "Gecondoleerd",
+        "Succes met de dokter"
+      ],
+      "correct": 1,
+      "explanation": "Huwelijk → Gefeliciteerd",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-2-064",
+      "topic": "de-mensen-in-nederland",
+      "chapter": 2,
+      "scenario": "Hoofdstuk 2 - Situatievragen zoals in het KNM-examen",
+      "question": "Je zit in de stiltecoupé en je telefoon gaat. Wat doe je?",
+      "type": "choice",
+      "answers": [
+        "Je gaat hard bellen",
+        "Je praat een half uur",
+        "Je blijft stil en belt eventueel ergens anders",
+        "Je zet muziek hard aan"
+      ],
+      "correct": 2,
+      "explanation": "Stiltecoupé → stil blijven",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-2-065",
+      "topic": "de-mensen-in-nederland",
+      "chapter": 2,
+      "scenario": "Hoofdstuk 2 - Situatievragen zoals in het KNM-examen",
+      "question": "Een man die je niet kent, vraagt iets aan je. Welke aanspreekvorm is het veiligst/formeler?",
+      "type": "choice",
+      "answers": [
+        "U",
+        "Jij",
+        "Alleen zijn voornaam",
+        "Hé jij"
+      ],
+      "correct": 0,
+      "explanation": "Onbekende → u",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-2-066",
+      "topic": "de-mensen-in-nederland",
+      "chapter": 2,
+      "scenario": "Hoofdstuk 2 - Situatievragen zoals in het KNM-examen",
+      "question": "Je collega is vandaag jarig. Wat kan hij op het werk doen?",
+      "type": "choice",
+      "answers": [
+        "Trakteren",
+        "Uitchecken",
+        "Aangifte doen",
+        "Een verblijfsvergunning aanvragen"
+      ],
+      "correct": 0,
+      "explanation": "Verjaardag → trakteren",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-3-001",
       "topic": "gezondheid-en-gezondheidszorg-in-nederland",
       "chapter": 3,
-      "scenario": "原创模拟题 - Gezondheid",
-      "question": "Wie bel je meestal eerst als je ziek bent?",
+      "scenario": "Hoofdstuk 3 - Huisarts en afspraak",
+      "question": "Sara heeft al twee dagen pijn in haar keel. Het is niet levensgevaarlijk. Wat kan zij het beste doen?",
       "type": "choice",
       "answers": [
-        "De huisarts.",
-        "De rechter.",
-        "De makelaar."
+        "Meteen 112 bellen",
+        "Een afspraak maken met de huisarts",
+        "Naar de politie gaan",
+        "Naar het gemeentehuis gaan"
       ],
-      "correct": 0,
-      "explanation": "非紧急医疗问题通常先联系 huisarts。",
-      "source": "原创模拟题"
+      "correct": 1,
+      "explanation": "Gewone klacht → huisarts",
+      "source": "原创场景模拟题"
     },
     {
-      "id": "gen-health-2",
+      "id": "scenario-3-002",
       "topic": "gezondheid-en-gezondheidszorg-in-nederland",
       "chapter": 3,
-      "scenario": "原创模拟题 - Gezondheid",
-      "question": "Wat heb je meestal nodig voor een specialist?",
+      "scenario": "Hoofdstuk 3 - Huisarts en afspraak",
+      "question": "Omar wil een afspraak maken met zijn huisarts. Wie krijgt hij vaak eerst aan de telefoon?",
       "type": "choice",
       "answers": [
-        "Een verwijsbrief.",
-        "Een huurcontract.",
-        "Een stembiljet."
+        "De assistente",
+        "De burgemeester",
+        "De apotheker",
+        "De tandarts"
       ],
       "correct": 0,
-      "explanation": "去 specialist 通常需要 huisarts 的 verwijsbrief。",
-      "source": "原创模拟题"
+      "explanation": "Afspraak vaak via assistente",
+      "source": "原创场景模拟题"
     },
     {
-      "id": "gen-health-3",
+      "id": "scenario-3-003",
       "topic": "gezondheid-en-gezondheidszorg-in-nederland",
       "chapter": 3,
-      "scenario": "原创模拟题 - Gezondheid",
-      "question": "Waar haal je medicijnen met een recept?",
+      "scenario": "Hoofdstuk 3 - Huisarts en afspraak",
+      "question": "De assistente vraagt Omar naar zijn achternaam. Zij verstaat de naam niet goed. Wat kan Omar doen?",
       "type": "choice",
       "answers": [
-        "Bij de apotheek.",
-        "Bij de bibliotheek.",
-        "Bij de Belastingdienst."
+        "Zijn achternaam spellen",
+        "Zijn medicijnen laten zien",
+        "112 bellen",
+        "Naar huis gaan"
       ],
       "correct": 0,
-      "explanation": "有 recept 的药通常去 apotheek 领取。",
-      "source": "原创模拟题"
+      "explanation": "Achternaam spellen",
+      "source": "原创场景模拟题"
     },
     {
-      "id": "gen-health-4",
+      "id": "scenario-3-004",
       "topic": "gezondheid-en-gezondheidszorg-in-nederland",
       "chapter": 3,
-      "scenario": "原创模拟题 - Gezondheid",
-      "question": "Wanneer bel je 112?",
+      "scenario": "Hoofdstuk 3 - Huisarts en afspraak",
+      "question": "Fatima belt voor een afspraak bij de huisarts. Welke informatie kan de assistente vragen?",
       "type": "choice",
       "answers": [
-        "Bij direct levensgevaar.",
-        "Voor een gewone afspraak.",
-        "Voor een verhuizing."
+        "Haar geboortedatum",
+        "Haar favoriete kleur",
+        "Haar schoenmaat",
+        "Haar vakantiebestemming"
       ],
       "correct": 0,
-      "explanation": "112 用于生命危险或需要立即警察、消防、救护车的情况。",
-      "source": "原创模拟题"
+      "explanation": "Geboortedatum kan gevraagd worden",
+      "source": "原创场景模拟题"
     },
     {
-      "id": "gen-housing-1",
+      "id": "scenario-3-005",
+      "topic": "gezondheid-en-gezondheidszorg-in-nederland",
+      "chapter": 3,
+      "scenario": "Hoofdstuk 3 - Huisarts en afspraak",
+      "question": "Peter heeft morgen om 09.30 uur een afspraak met de huisarts. Wat moet hij doen?",
+      "type": "choice",
+      "answers": [
+        "Pas om 10.30 uur komen",
+        "Op tijd komen",
+        "Alleen komen als hij zich beter voelt",
+        "Eerst naar de apotheek gaan"
+      ],
+      "correct": 1,
+      "explanation": "Op tijd komen",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-3-006",
+      "topic": "gezondheid-en-gezondheidszorg-in-nederland",
+      "chapter": 3,
+      "scenario": "Hoofdstuk 3 - Huisarts en afspraak",
+      "question": "Mei kan morgen niet naar haar afspraak bij de huisarts. Wat moet zij doen?",
+      "type": "choice",
+      "answers": [
+        "Niets doen",
+        "Zo snel mogelijk bellen en de afspraak afzeggen",
+        "Een brief naar de politie sturen",
+        "Naar de SEH gaan"
+      ],
+      "correct": 1,
+      "explanation": "Afspraak tijdig afzeggen",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-3-007",
+      "topic": "gezondheid-en-gezondheidszorg-in-nederland",
+      "chapter": 3,
+      "scenario": "Hoofdstuk 3 - Huisarts en afspraak",
+      "question": "Karim komt zonder bericht niet naar zijn afspraak. Wat kan er volgens de leerstof gebeuren?",
+      "type": "choice",
+      "answers": [
+        "Hij krijgt misschien toch een rekening",
+        "Hij krijgt gratis medicijnen",
+        "Hij krijgt automatisch zorgtoeslag",
+        "Hij krijgt een nieuwe huisarts"
+      ],
+      "correct": 0,
+      "explanation": "Niet afzeggen → mogelijk rekening",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-3-008",
+      "topic": "gezondheid-en-gezondheidszorg-in-nederland",
+      "chapter": 3,
+      "scenario": "Hoofdstuk 3 - Huisarts en afspraak",
+      "question": "Ling spreekt nog niet goed Nederlands en moet naar de huisarts. Wat kan zij doen?",
+      "type": "choice",
+      "answers": [
+        "Iemand meenemen die goed Nederlands spreekt",
+        "Alleen 112 bellen",
+        "Niet naar de dokter gaan",
+        "Een nieuwe zorgverzekering afsluiten"
+      ],
+      "correct": 0,
+      "explanation": "Iemand meenemen / taalhulp",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-3-009",
+      "topic": "gezondheid-en-gezondheidszorg-in-nederland",
+      "chapter": 3,
+      "scenario": "Hoofdstuk 3 - Huisarts en afspraak",
+      "question": "Tom heeft alleen een korte medische vraag voor zijn huisarts. Wat kan soms handig zijn?",
+      "type": "choice",
+      "answers": [
+        "Het telefonisch spreekuur",
+        "De bibliotheek",
+        "De gemeente",
+        "Het UWV"
+      ],
+      "correct": 0,
+      "explanation": "Telefonisch spreekuur",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-3-010",
+      "topic": "gezondheid-en-gezondheidszorg-in-nederland",
+      "chapter": 3,
+      "scenario": "Hoofdstuk 3 - Huisarts en afspraak",
+      "question": "Aisha kan door ernstige rugpijn niet naar de praktijk lopen. Wat kan zij doen?",
+      "type": "choice",
+      "answers": [
+        "Een huisbezoek van de huisarts bespreken",
+        "Naar de tandarts gaan",
+        "Zonder overleg een specialist kiezen",
+        "Naar het station gaan"
+      ],
+      "correct": 0,
+      "explanation": "Huisbezoek bij ernstige mobiliteitsproblemen",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-3-011",
+      "topic": "gezondheid-en-gezondheidszorg-in-nederland",
+      "chapter": 3,
+      "scenario": "Hoofdstuk 3 - Huisarts en afspraak",
+      "question": "Waar of niet waar: Bij gewone gezondheidsklachten ga je in Nederland meestal eerst naar de huisarts.",
+      "type": "choice",
+      "answers": [
+        "Waar",
+        "Niet waar"
+      ],
+      "correct": 0,
+      "explanation": "Huisarts = eerste aanspreekpunt",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-3-012",
+      "topic": "gezondheid-en-gezondheidszorg-in-nederland",
+      "chapter": 3,
+      "scenario": "Hoofdstuk 3 - Huisarts en afspraak",
+      "question": "Waar of niet waar: Voor een gewone afspraak bij de huisarts hoef je nooit te bellen.",
+      "type": "choice",
+      "answers": [
+        "Waar",
+        "Niet waar"
+      ],
+      "correct": 1,
+      "explanation": "Meestal eerst afspraak maken",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-3-013",
+      "topic": "gezondheid-en-gezondheidszorg-in-nederland",
+      "chapter": 3,
+      "scenario": "Hoofdstuk 3 - Van huisarts naar specialist",
+      "question": "Ruben heeft al lange tijd problemen met zijn ogen. De huisarts vindt dat een specialist nodig is. Wat gebeurt er meestal?",
+      "type": "choice",
+      "answers": [
+        "De huisarts verwijst hem door naar een oogarts",
+        "Ruben belt de politie",
+        "Ruben gaat naar de tandarts",
+        "De huisarts geeft hem een paspoort"
+      ],
+      "correct": 0,
+      "explanation": "Huisarts verwijst naar specialist",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-3-014",
+      "topic": "gezondheid-en-gezondheidszorg-in-nederland",
+      "chapter": 3,
+      "scenario": "Hoofdstuk 3 - Van huisarts naar specialist",
+      "question": "Nadia wordt door de huisarts naar een specialist gestuurd. Wat krijgt zij?",
+      "type": "choice",
+      "answers": [
+        "Een verwijsbrief",
+        "Een rijbewijs",
+        "Een huurcontract",
+        "Een stembiljet"
+      ],
+      "correct": 0,
+      "explanation": "Verwijsbrief",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-3-015",
+      "topic": "gezondheid-en-gezondheidszorg-in-nederland",
+      "chapter": 3,
+      "scenario": "Hoofdstuk 3 - Van huisarts naar specialist",
+      "question": "Samira heeft een verwijsbrief voor de gynaecoloog. Waar werkt deze specialist meestal?",
+      "type": "choice",
+      "answers": [
+        "In het ziekenhuis",
+        "Op het gemeentehuis",
+        "Bij de bank",
+        "Op school"
+      ],
+      "correct": 0,
+      "explanation": "Specialist in ziekenhuis",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-3-016",
+      "topic": "gezondheid-en-gezondheidszorg-in-nederland",
+      "chapter": 3,
+      "scenario": "Hoofdstuk 3 - Van huisarts naar specialist",
+      "question": "Jan belt het ziekenhuis voor een specialist. Er is pas over twee maanden plaats. Wat betekent dit?",
+      "type": "choice",
+      "answers": [
+        "Er is een wachtlijst",
+        "Hij heeft geen verzekering",
+        "Hij krijgt een boete",
+        "Hij moet emigreren"
+      ],
+      "correct": 0,
+      "explanation": "Wachtlijst",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-3-017",
+      "topic": "gezondheid-en-gezondheidszorg-in-nederland",
+      "chapter": 3,
+      "scenario": "Hoofdstuk 3 - Van huisarts naar specialist",
+      "question": "David heeft een afspraak in het ziekenhuis. Wat moet hij volgens de leerstof meenemen?",
+      "type": "choice",
+      "answers": [
+        "ID, verzekeringsbewijs en verwijsbrief",
+        "Alleen zijn bibliotheekpas",
+        "Alleen contant geld",
+        "Zijn rijexamen"
+      ],
+      "correct": 0,
+      "explanation": "ID + verzekering + verwijzing",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-3-018",
+      "topic": "gezondheid-en-gezondheidszorg-in-nederland",
+      "chapter": 3,
+      "scenario": "Hoofdstuk 3 - Van huisarts naar specialist",
+      "question": "Maria komt voor de eerste keer in een ziekenhuis. Wat kan zij bij de balie moeten laten maken?",
+      "type": "choice",
+      "answers": [
+        "Een patiëntenpas",
+        "Een OV-chipkaart",
+        "Een paspoort",
+        "Een sportabonnement"
+      ],
+      "correct": 0,
+      "explanation": "Patiëntenpas",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-3-019",
+      "topic": "gezondheid-en-gezondheidszorg-in-nederland",
+      "chapter": 3,
+      "scenario": "Hoofdstuk 3 - Van huisarts naar specialist",
+      "question": "Ahmed weet in het ziekenhuis niet waar de polikliniek is. Wat kan hij doen?",
+      "type": "choice",
+      "answers": [
+        "Naar de bordjes kijken of het bij de balie vragen",
+        "112 bellen",
+        "Naar huis gaan",
+        "De belastingdienst bellen"
+      ],
+      "correct": 0,
+      "explanation": "Bordjes/balie",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-3-020",
+      "topic": "gezondheid-en-gezondheidszorg-in-nederland",
+      "chapter": 3,
+      "scenario": "Hoofdstuk 3 - Van huisarts naar specialist",
+      "question": "De specialist wil dat Noor een paar dagen in het ziekenhuis blijft. Hoe heet dat?",
+      "type": "choice",
+      "answers": [
+        "Opname",
+        "Uitchecken",
+        "Inburgering",
+        "Inschrijving"
+      ],
+      "correct": 0,
+      "explanation": "Langer blijven = opname",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-3-021",
+      "topic": "gezondheid-en-gezondheidszorg-in-nederland",
+      "chapter": 3,
+      "scenario": "Hoofdstuk 3 - Van huisarts naar specialist",
+      "question": "Sophie heeft problemen met bewegen door pijn in haar nek en rug. Wie kan haar helpen?",
+      "type": "choice",
+      "answers": [
+        "Een fysiotherapeut",
+        "Een makelaar",
+        "Een advocaat",
+        "Een conducteur"
+      ],
+      "correct": 0,
+      "explanation": "Bewegen → fysiotherapeut",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-3-022",
+      "topic": "gezondheid-en-gezondheidszorg-in-nederland",
+      "chapter": 3,
+      "scenario": "Hoofdstuk 3 - Van huisarts naar specialist",
+      "question": "Mark heeft veel kiespijn. Wie moet hij bellen?",
+      "type": "choice",
+      "answers": [
+        "De tandarts",
+        "De huisarts voor een rijbewijs",
+        "De politie",
+        "De gemeente"
+      ],
+      "correct": 0,
+      "explanation": "Kiespijn → tandarts",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-3-023",
+      "topic": "gezondheid-en-gezondheidszorg-in-nederland",
+      "chapter": 3,
+      "scenario": "Hoofdstuk 3 - Van huisarts naar specialist",
+      "question": "Waar of niet waar: Je kunt volgens de leerstof zelf een fysiotherapeut bellen.",
+      "type": "choice",
+      "answers": [
+        "Waar",
+        "Niet waar"
+      ],
+      "correct": 0,
+      "explanation": "Fysiotherapeut kan direct benaderd worden",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-3-024",
+      "topic": "gezondheid-en-gezondheidszorg-in-nederland",
+      "chapter": 3,
+      "scenario": "Hoofdstuk 3 - Van huisarts naar specialist",
+      "question": "Waar of niet waar: Een specialist werkt meestal in het ziekenhuis en kan onderzoek en behandeling geven.",
+      "type": "choice",
+      "answers": [
+        "Waar",
+        "Niet waar"
+      ],
+      "correct": 0,
+      "explanation": "Specialist onderzoekt/behandelt",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-3-025",
+      "topic": "gezondheid-en-gezondheidszorg-in-nederland",
+      "chapter": 3,
+      "scenario": "Hoofdstuk 3 - Medicijnen en apotheek",
+      "question": "De huisarts schrijft medicijnen voor aan Eva. Wat krijgt zij?",
+      "type": "choice",
+      "answers": [
+        "Een recept",
+        "Een diploma",
+        "Een boete",
+        "Een arbeidsovereenkomst"
+      ],
+      "correct": 0,
+      "explanation": "Recept",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-3-026",
+      "topic": "gezondheid-en-gezondheidszorg-in-nederland",
+      "chapter": 3,
+      "scenario": "Hoofdstuk 3 - Medicijnen en apotheek",
+      "question": "Eva heeft een recept gekregen. Waar gaat zij daarna naartoe?",
+      "type": "choice",
+      "answers": [
+        "Naar de apotheek",
+        "Naar de gemeente",
+        "Naar de bibliotheek",
+        "Naar de bank"
+      ],
+      "correct": 0,
+      "explanation": "Recept → apotheek",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-3-027",
+      "topic": "gezondheid-en-gezondheidszorg-in-nederland",
+      "chapter": 3,
+      "scenario": "Hoofdstuk 3 - Medicijnen en apotheek",
+      "question": "Hassan wil weten hoe vaak hij zijn medicijn moet gebruiken. Waar kan hij dit meestal lezen?",
+      "type": "choice",
+      "answers": [
+        "Op het etiket",
+        "Op zijn paspoort",
+        "Op een treinkaartje",
+        "Op een stembiljet"
+      ],
+      "correct": 0,
+      "explanation": "Dosering op etiket",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-3-028",
+      "topic": "gezondheid-en-gezondheidszorg-in-nederland",
+      "chapter": 3,
+      "scenario": "Hoofdstuk 3 - Medicijnen en apotheek",
+      "question": "Lisa krijgt medicijnen mee. Er zit een papier met informatie in het doosje. Hoe heet dit?",
+      "type": "choice",
+      "answers": [
+        "De bijsluiter",
+        "De rekening",
+        "De verwijsbrief",
+        "De machtiging"
+      ],
+      "correct": 0,
+      "explanation": "Bijsluiter",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-3-029",
+      "topic": "gezondheid-en-gezondheidszorg-in-nederland",
+      "chapter": 3,
+      "scenario": "Hoofdstuk 3 - Medicijnen en apotheek",
+      "question": "Op het etiket staat dat Jeroen na het innemen van zijn medicijn niet mag autorijden. Wat moet hij doen?",
+      "type": "choice",
+      "answers": [
+        "Niet autorijden",
+        "Toch rijden als de weg rustig is",
+        "Alleen 's nachts rijden",
+        "Eerst de politie bellen en dan rijden"
+      ],
+      "correct": 0,
+      "explanation": "Waarschuwing opvolgen",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-3-030",
+      "topic": "gezondheid-en-gezondheidszorg-in-nederland",
+      "chapter": 3,
+      "scenario": "Hoofdstuk 3 - Medicijnen en apotheek",
+      "question": "Anna heeft paracetamol nodig. Volgens de leerstof kan zij dit soms kopen:",
+      "type": "choice",
+      "answers": [
+        "Zonder recept",
+        "Alleen met een verwijsbrief",
+        "Alleen bij het gemeentehuis",
+        "Alleen na een operatie"
+      ],
+      "correct": 0,
+      "explanation": "Paracetamol soms zonder recept",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-3-031",
+      "topic": "gezondheid-en-gezondheidszorg-in-nederland",
+      "chapter": 3,
+      "scenario": "Hoofdstuk 3 - Medicijnen en apotheek",
+      "question": "Mo heeft medicijnen zonder recept gekocht. Wie betaalt deze volgens de leerstof meestal?",
+      "type": "choice",
+      "answers": [
+        "Hijzelf",
+        "De politie",
+        "De gemeente",
+        "Zijn werkgever"
+      ],
+      "correct": 0,
+      "explanation": "Zonder recept vaak zelf betalen",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-3-032",
+      "topic": "gezondheid-en-gezondheidszorg-in-nederland",
+      "chapter": 3,
+      "scenario": "Hoofdstuk 3 - Medicijnen en apotheek",
+      "question": "Er zijn kleine kinderen in huis. Waar moet Petra haar medicijnen bewaren?",
+      "type": "choice",
+      "answers": [
+        "Op een plek waar kinderen er niet bij kunnen",
+        "Op de vloer",
+        "Naast het speelgoed",
+        "In de kinderwagen"
+      ],
+      "correct": 0,
+      "explanation": "Buiten bereik van kinderen",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-3-033",
+      "topic": "gezondheid-en-gezondheidszorg-in-nederland",
+      "chapter": 3,
+      "scenario": "Hoofdstuk 3 - Medicijnen en apotheek",
+      "question": "Ali heeft oude medicijnen die hij niet meer gebruikt. Wat kan hij ermee doen?",
+      "type": "choice",
+      "answers": [
+        "Terugbrengen naar de apotheek",
+        "Aan een vriend geven",
+        "Op straat gooien",
+        "In de trein laten liggen"
+      ],
+      "correct": 0,
+      "explanation": "Oude medicijnen → apotheek",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-3-034",
+      "topic": "gezondheid-en-gezondheidszorg-in-nederland",
+      "chapter": 3,
+      "scenario": "Hoofdstuk 3 - Medicijnen en apotheek",
+      "question": "De huisarts schrijft slaapmedicatie voor. Wat is belangrijk?",
+      "type": "choice",
+      "answers": [
+        "Medicijnen precies gebruiken zoals afgesproken",
+        "De medicijnen met iedereen delen",
+        "Zelf steeds meer nemen",
+        "Nooit de bijsluiter lezen"
+      ],
+      "correct": 0,
+      "explanation": "Medicijnen volgens instructie gebruiken",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-3-035",
+      "topic": "gezondheid-en-gezondheidszorg-in-nederland",
+      "chapter": 3,
+      "scenario": "Hoofdstuk 3 - Medicijnen en apotheek",
+      "question": "Waar of niet waar: Medicijnen die voor jou zijn voorgeschreven, mag je zonder probleem aan andere mensen geven.",
+      "type": "choice",
+      "answers": [
+        "Waar",
+        "Niet waar"
+      ],
+      "correct": 1,
+      "explanation": "Voorgeschreven medicijnen niet delen",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-3-036",
+      "topic": "gezondheid-en-gezondheidszorg-in-nederland",
+      "chapter": 3,
+      "scenario": "Hoofdstuk 3 - Medicijnen en apotheek",
+      "question": "Waar of niet waar: In Nederland schrijft een huisarts niet altijd meteen medicijnen voor.",
+      "type": "choice",
+      "answers": [
+        "Waar",
+        "Niet waar"
+      ],
+      "correct": 0,
+      "explanation": "Niet altijd meteen medicijnen",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-3-037",
+      "topic": "gezondheid-en-gezondheidszorg-in-nederland",
+      "chapter": 3,
+      "scenario": "Hoofdstuk 3 - Spoed, 112, huisartsenpost en SEH",
+      "question": "Willem krijgt plotseling ernstige pijn op zijn borst en kan bijna niet meer praten. Wat moet zijn partner doen?",
+      "type": "choice",
+      "answers": [
+        "112 bellen",
+        "Een afspraak voor volgende week maken",
+        "Naar de bibliotheek gaan",
+        "De zorgtoeslag aanvragen"
+      ],
+      "correct": 0,
+      "explanation": "Ernstige borstpijn → 112",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-3-038",
+      "topic": "gezondheid-en-gezondheidszorg-in-nederland",
+      "chapter": 3,
+      "scenario": "Hoofdstuk 3 - Spoed, 112, huisartsenpost en SEH",
+      "question": "Er is een ernstig ongeluk en iemand is levensgevaarlijk gewond. Welk nummer bel je?",
+      "type": "choice",
+      "answers": [
+        "112",
+        "9292",
+        "0800",
+        "144"
+      ],
+      "correct": 0,
+      "explanation": "Alarmnummer = 112",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-3-039",
+      "topic": "gezondheid-en-gezondheidszorg-in-nederland",
+      "chapter": 3,
+      "scenario": "Hoofdstuk 3 - Spoed, 112, huisartsenpost en SEH",
+      "question": "Het is zaterdagavond. Fatima heeft een dringend medisch probleem, maar haar gewone huisarts is gesloten. Wat doet zij eerst?",
+      "type": "choice",
+      "answers": [
+        "De huisartsenpost bellen",
+        "Tot maandag niets doen",
+        "Naar de bank gaan",
+        "De tandartsverzekering opzeggen"
+      ],
+      "correct": 0,
+      "explanation": "Avond/weekend → huisartsenpost",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-3-040",
+      "topic": "gezondheid-en-gezondheidszorg-in-nederland",
+      "chapter": 3,
+      "scenario": "Hoofdstuk 3 - Spoed, 112, huisartsenpost en SEH",
+      "question": "Koen breekt 's avonds zijn arm. Hij heeft snel medische hulp nodig. Waar kan hij terecht?",
+      "type": "choice",
+      "answers": [
+        "Bij de SEH",
+        "Bij de bibliotheek",
+        "Bij de gemeente",
+        "Bij het UWV"
+      ],
+      "correct": 0,
+      "explanation": "Gebroken arm + spoed → SEH",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-3-041",
+      "topic": "gezondheid-en-gezondheidszorg-in-nederland",
+      "chapter": 3,
+      "scenario": "Hoofdstuk 3 - Spoed, 112, huisartsenpost en SEH",
+      "question": "Wat betekent SEH?",
+      "type": "choice",
+      "answers": [
+        "Spoedeisende Hulp",
+        "Sociale Eerste Huisarts",
+        "Speciale Europese Hulp",
+        "School en Huiswerk"
+      ],
+      "correct": 0,
+      "explanation": "Spoedeisende Hulp",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-3-042",
+      "topic": "gezondheid-en-gezondheidszorg-in-nederland",
+      "chapter": 3,
+      "scenario": "Hoofdstuk 3 - Spoed, 112, huisartsenpost en SEH",
+      "question": "Yasmin heeft in het weekend een dringende klacht. Wat is volgens de leerstof belangrijk?",
+      "type": "choice",
+      "answers": [
+        "Eerst bellen voor advies",
+        "Altijd wachten tot maandag",
+        "Zonder overleg medicijnen van haar buurman gebruiken",
+        "Eerst een nieuwe zorgverzekering nemen"
+      ],
+      "correct": 0,
+      "explanation": "Eerst bellen voor advies",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-3-043",
+      "topic": "gezondheid-en-gezondheidszorg-in-nederland",
+      "chapter": 3,
+      "scenario": "Hoofdstuk 3 - Spoed, 112, huisartsenpost en SEH",
+      "question": "Bram heeft zijn vinger ernstig tussen de deur gekregen. Hij heeft snel hulp nodig. Wat is een logische keuze?",
+      "type": "choice",
+      "answers": [
+        "De SEH",
+        "De makelaar",
+        "De Belastingdienst",
+        "De bibliotheek"
+      ],
+      "correct": 0,
+      "explanation": "Ernstige verwonding → SEH",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-3-044",
+      "topic": "gezondheid-en-gezondheidszorg-in-nederland",
+      "chapter": 3,
+      "scenario": "Hoofdstuk 3 - Spoed, 112, huisartsenpost en SEH",
+      "question": "De SEH is erg druk. Wat kan er gebeuren?",
+      "type": "choice",
+      "answers": [
+        "Je moet soms lang wachten",
+        "Je krijgt altijd direct een eigen kamer",
+        "Je hoeft nooit je naam te zeggen",
+        "Iedereen krijgt gratis medicijnen mee"
+      ],
+      "correct": 0,
+      "explanation": "SEH kan wachttijd hebben",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-3-045",
+      "topic": "gezondheid-en-gezondheidszorg-in-nederland",
+      "chapter": 3,
+      "scenario": "Hoofdstuk 3 - Spoed, 112, huisartsenpost en SEH",
+      "question": "Waar of niet waar: 112 is bedoeld voor situaties waarin snel hulp nodig is en er mogelijk levensgevaar is.",
+      "type": "choice",
+      "answers": [
+        "Waar",
+        "Niet waar"
+      ],
+      "correct": 0,
+      "explanation": "112 = levensgevaar/ernstige spoed",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-3-046",
+      "topic": "gezondheid-en-gezondheidszorg-in-nederland",
+      "chapter": 3,
+      "scenario": "Hoofdstuk 3 - Spoed, 112, huisartsenpost en SEH",
+      "question": "Waar of niet waar: De huisartsenpost is bedoeld voor gewone boodschappen en verzekeringsvragen.",
+      "type": "choice",
+      "answers": [
+        "Waar",
+        "Niet waar"
+      ],
+      "correct": 1,
+      "explanation": "Huisartsenpost = medische zorg buiten kantooruren",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-3-047",
+      "topic": "gezondheid-en-gezondheidszorg-in-nederland",
+      "chapter": 3,
+      "scenario": "Hoofdstuk 3 - Zorgverzekering",
+      "question": "Carlos woont in Nederland. Wat moet hij volgens de leerstof hebben?",
+      "type": "choice",
+      "answers": [
+        "Een zorgverzekering",
+        "Een auto",
+        "Een koophuis",
+        "Een sportclub"
+      ],
+      "correct": 0,
+      "explanation": "Zorgverzekering verplicht",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-3-048",
+      "topic": "gezondheid-en-gezondheidszorg-in-nederland",
+      "chapter": 3,
+      "scenario": "Hoofdstuk 3 - Zorgverzekering",
+      "question": "Elena is 35 jaar. Wat betaalt zij voor haar zorgverzekering?",
+      "type": "choice",
+      "answers": [
+        "Premie",
+        "Huurtoeslag aan de dokter",
+        "Een boete aan de apotheek",
+        "Kinderbijslag"
+      ],
+      "correct": 0,
+      "explanation": "Volwassenen betalen premie",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-3-049",
+      "topic": "gezondheid-en-gezondheidszorg-in-nederland",
+      "chapter": 3,
+      "scenario": "Hoofdstuk 3 - Zorgverzekering",
+      "question": "Welke verzekering moet iedereen volgens de leerstof hebben?",
+      "type": "choice",
+      "answers": [
+        "Basisverzekering",
+        "Tandartsverzekering",
+        "Aanvullende verzekering",
+        "Reisverzekering"
+      ],
+      "correct": 0,
+      "explanation": "Basisverzekering verplicht",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-3-050",
+      "topic": "gezondheid-en-gezondheidszorg-in-nederland",
+      "chapter": 3,
+      "scenario": "Hoofdstuk 3 - Zorgverzekering",
+      "question": "Kim wil extra dekking voor bijvoorbeeld fysiotherapie of een bril. Welke verzekering kan daarvoor bedoeld zijn?",
+      "type": "choice",
+      "answers": [
+        "Aanvullende verzekering",
+        "Alleen een autoverzekering",
+        "Alleen een aansprakelijkheidsverzekering",
+        "Geen enkele verzekering"
+      ],
+      "correct": 0,
+      "explanation": "Aanvullende verzekering",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-3-051",
+      "topic": "gezondheid-en-gezondheidszorg-in-nederland",
+      "chapter": 3,
+      "scenario": "Hoofdstuk 3 - Zorgverzekering",
+      "question": "Thomas wil weten of een bepaalde behandeling wordt betaald. Wat kan hij het beste doen?",
+      "type": "choice",
+      "answers": [
+        "Zijn zorgverzekeraar bellen",
+        "De politie bellen",
+        "Een buurman vragen en niets controleren",
+        "Naar het gemeentehuis gaan"
+      ],
+      "correct": 0,
+      "explanation": "Vergoeding → zorgverzekeraar vragen",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-3-052",
+      "topic": "gezondheid-en-gezondheidszorg-in-nederland",
+      "chapter": 3,
+      "scenario": "Hoofdstuk 3 - Zorgverzekering",
+      "question": "Mila betaalt eerst zelf een rekening. Later krijgt zij het bedrag van de zorgverzekeraar terug. Hoe heet dat?",
+      "type": "choice",
+      "answers": [
+        "Declareren",
+        "Solliciteren",
+        "Inchecken",
+        "Stemmen"
+      ],
+      "correct": 0,
+      "explanation": "Declareren",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-3-053",
+      "topic": "gezondheid-en-gezondheidszorg-in-nederland",
+      "chapter": 3,
+      "scenario": "Hoofdstuk 3 - Zorgverzekering",
+      "question": "Yusuf heeft een laag inkomen. Voor welke tegemoetkoming kan hij mogelijk in aanmerking komen?",
+      "type": "choice",
+      "answers": [
+        "Zorgtoeslag",
+        "Studiefinanciering voor zijn huisarts",
+        "Een verkeersboete",
+        "Een gratis rijbewijs"
+      ],
+      "correct": 0,
+      "explanation": "Laag inkomen → mogelijk zorgtoeslag",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-3-054",
+      "topic": "gezondheid-en-gezondheidszorg-in-nederland",
+      "chapter": 3,
+      "scenario": "Hoofdstuk 3 - Zorgverzekering",
+      "question": "Van welke organisatie komt zorgtoeslag?",
+      "type": "choice",
+      "answers": [
+        "De Belastingdienst",
+        "De politie",
+        "De apotheek",
+        "Het ziekenhuis"
+      ],
+      "correct": 0,
+      "explanation": "Zorgtoeslag via Belastingdienst",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-3-055",
+      "topic": "gezondheid-en-gezondheidszorg-in-nederland",
+      "chapter": 3,
+      "scenario": "Hoofdstuk 3 - Zorgverzekering",
+      "question": "Nora verdient minder geld dan vroeger. Wat kan volgens de leerstof met haar zorgtoeslag gebeuren?",
+      "type": "choice",
+      "answers": [
+        "Zij kan mogelijk meer zorgtoeslag krijgen",
+        "Zij krijgt automatisch geen verzekering meer",
+        "Zij moet 112 bellen",
+        "Zij mag niet meer naar de huisarts"
+      ],
+      "correct": 0,
+      "explanation": "Lager inkomen kan meer toeslag betekenen",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-3-056",
+      "topic": "gezondheid-en-gezondheidszorg-in-nederland",
+      "chapter": 3,
+      "scenario": "Hoofdstuk 3 - Zorgverzekering",
+      "question": "Wat betekent eigen risico in de zorgverzekering?",
+      "type": "choice",
+      "answers": [
+        "Een deel van bepaalde zorgkosten dat je eerst zelf betaalt",
+        "Gratis zorg voor iedereen",
+        "Een boete voor te laat komen",
+        "Geld dat de huisarts aan jou betaalt"
+      ],
+      "correct": 0,
+      "explanation": "Eigen risico = deel zorgkosten zelf betalen",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-3-057",
+      "topic": "gezondheid-en-gezondheidszorg-in-nederland",
+      "chapter": 3,
+      "scenario": "Hoofdstuk 3 - Zorgverzekering",
+      "question": "Waar of niet waar: De aanvullende verzekering is volgens de leerstof verplicht voor iedereen.",
+      "type": "choice",
+      "answers": [
+        "Waar",
+        "Niet waar"
+      ],
+      "correct": 1,
+      "explanation": "Aanvullend is niet verplicht",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-3-058",
+      "topic": "gezondheid-en-gezondheidszorg-in-nederland",
+      "chapter": 3,
+      "scenario": "Hoofdstuk 3 - Zorgverzekering",
+      "question": "Waar of niet waar: Zorgtoeslag is bedoeld om mensen met een lager inkomen te helpen met de kosten van de zorgverzekering.",
+      "type": "choice",
+      "answers": [
+        "Waar",
+        "Niet waar"
+      ],
+      "correct": 0,
+      "explanation": "Zorgtoeslag helpt met zorgpremie",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-3-059",
+      "topic": "gezondheid-en-gezondheidszorg-in-nederland",
+      "chapter": 3,
+      "scenario": "Hoofdstuk 3 - Gezond leven",
+      "question": "Sanne wil gezonder leven. Wat is een goede keuze?",
+      "type": "choice",
+      "answers": [
+        "Regelmatig bewegen en gezond eten",
+        "Elke dag veel alcohol drinken",
+        "Nooit ontbijten en veel suiker eten",
+        "Altijd roken na het eten"
+      ],
+      "correct": 0,
+      "explanation": "Bewegen + gezond eten",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-3-060",
+      "topic": "gezondheid-en-gezondheidszorg-in-nederland",
+      "chapter": 3,
+      "scenario": "Hoofdstuk 3 - Gezond leven",
+      "question": "Mehmet wil gezond eten. Wat past het beste bij de leerstof?",
+      "type": "choice",
+      "answers": [
+        "Groente, fruit en volkorenbrood eten",
+        "Alleen snoep eten",
+        "Heel veel zout gebruiken",
+        "Nooit water drinken"
+      ],
+      "correct": 0,
+      "explanation": "Groente, fruit, volkoren",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-3-061",
+      "topic": "gezondheid-en-gezondheidszorg-in-nederland",
+      "chapter": 3,
+      "scenario": "Hoofdstuk 3 - Gezond leven",
+      "question": "Sophie wil haar bloeddruk gezond houden. Wat is verstandig?",
+      "type": "choice",
+      "answers": [
+        "Niet te veel zout gebruiken",
+        "Elke dag extra zout eten",
+        "Nooit bewegen",
+        "Alleen frisdrank drinken"
+      ],
+      "correct": 0,
+      "explanation": "Niet te veel zout",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-3-062",
+      "topic": "gezondheid-en-gezondheidszorg-in-nederland",
+      "chapter": 3,
+      "scenario": "Hoofdstuk 3 - Gezond leven",
+      "question": "Daan rookt veel en is snel moe. Wat kan een gevolg van roken zijn?",
+      "type": "choice",
+      "answers": [
+        "Slechtere conditie",
+        "Altijd betere longen",
+        "Geen enkel gezondheidsrisico",
+        "Automatisch meer energie"
+      ],
+      "correct": 0,
+      "explanation": "Roken → slechtere conditie",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-3-063",
+      "topic": "gezondheid-en-gezondheidszorg-in-nederland",
+      "chapter": 3,
+      "scenario": "Hoofdstuk 3 - Gezond leven",
+      "question": "Ingrid wil stoppen met roken. Waarom is dat gezond?",
+      "type": "choice",
+      "answers": [
+        "Roken is slecht voor hart en longen",
+        "Roken maakt de longen sterker",
+        "Roken voorkomt kanker",
+        "Roken is verplicht in Nederland"
+      ],
+      "correct": 0,
+      "explanation": "Roken slecht voor hart/longen",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-3-064",
+      "topic": "gezondheid-en-gezondheidszorg-in-nederland",
+      "chapter": 3,
+      "scenario": "Hoofdstuk 3 - Gezond leven",
+      "question": "Mark drinkt elke avond erg veel alcohol. Wat zegt de leerstof hierover?",
+      "type": "choice",
+      "answers": [
+        "Veel alcohol drinken is ongezond",
+        "Veel alcohol drinken is altijd goed",
+        "Alcohol vervangt gezond eten",
+        "Alcohol beschermt tegen alle ziekten"
+      ],
+      "correct": 0,
+      "explanation": "Veel alcohol = ongezond",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-3-065",
+      "topic": "gezondheid-en-gezondheidszorg-in-nederland",
+      "chapter": 3,
+      "scenario": "Hoofdstuk 3 - Gezond leven",
+      "question": "Eva wil zwangerschap voorkomen. Welke methode wordt in de leerstof genoemd?",
+      "type": "choice",
+      "answers": [
+        "De pil",
+        "Een OV-chipkaart",
+        "Een bibliotheekpas",
+        "Een verwijsbrief"
+      ],
+      "correct": 0,
+      "explanation": "De pil",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-3-066",
+      "topic": "gezondheid-en-gezondheidszorg-in-nederland",
+      "chapter": 3,
+      "scenario": "Hoofdstuk 3 - Gezond leven",
+      "question": "Sam wil zichzelf beschermen tegen een SOA. Wat wordt in de leerstof genoemd?",
+      "type": "choice",
+      "answers": [
+        "Een condoom",
+        "Een bril",
+        "Een patiëntenpas",
+        "Een recept voor paracetamol"
+      ],
+      "correct": 0,
+      "explanation": "Condoom helpt beschermen tegen SOA",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-3-067",
+      "topic": "gezondheid-en-gezondheidszorg-in-nederland",
+      "chapter": 3,
+      "scenario": "Hoofdstuk 3 - Gezond leven",
+      "question": "Waar of niet waar: Bewegen is goed voor het hart en helpt om gezond te blijven.",
+      "type": "choice",
+      "answers": [
+        "Waar",
+        "Niet waar"
+      ],
+      "correct": 0,
+      "explanation": "Bewegen is gezond",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-3-068",
+      "topic": "gezondheid-en-gezondheidszorg-in-nederland",
+      "chapter": 3,
+      "scenario": "Hoofdstuk 3 - Gezond leven",
+      "question": "Waar of niet waar: Meeroken kan ook ongezond zijn.",
+      "type": "choice",
+      "answers": [
+        "Waar",
+        "Niet waar"
+      ],
+      "correct": 0,
+      "explanation": "Meeroken is ongezond",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-3-069",
+      "topic": "gezondheid-en-gezondheidszorg-in-nederland",
+      "chapter": 3,
+      "scenario": "Hoofdstuk 3 - Sport, vereniging en bibliotheek",
+      "question": "Leila wil meer bewegen. Wat kan zij doen?",
+      "type": "choice",
+      "answers": [
+        "Wandelen of fietsen",
+        "De hele dag stilzitten",
+        "Alleen televisie kijken",
+        "Elke dag roken"
+      ],
+      "correct": 0,
+      "explanation": "Wandelen/fietsen",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-3-070",
+      "topic": "gezondheid-en-gezondheidszorg-in-nederland",
+      "chapter": 3,
+      "scenario": "Hoofdstuk 3 - Sport, vereniging en bibliotheek",
+      "question": "Ahmed is nieuw in Nederland en wil mensen leren kennen én Nederlands oefenen. Wat kan een goede keuze zijn?",
+      "type": "choice",
+      "answers": [
+        "Lid worden van een vereniging",
+        "Alleen thuis blijven",
+        "Elke dag 112 bellen",
+        "Alleen naar de apotheek gaan"
+      ],
+      "correct": 0,
+      "explanation": "Vereniging → mensen + taal",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-3-071",
+      "topic": "gezondheid-en-gezondheidszorg-in-nederland",
+      "chapter": 3,
+      "scenario": "Hoofdstuk 3 - Sport, vereniging en bibliotheek",
+      "question": "Julia wil bij een tennisclub sporten. Wat moet zij meestal eerst doen?",
+      "type": "choice",
+      "answers": [
+        "Zich inschrijven",
+        "Een verwijsbrief halen",
+        "Aangifte doen",
+        "Een patiëntenpas maken"
+      ],
+      "correct": 0,
+      "explanation": "Inschrijven",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-3-072",
+      "topic": "gezondheid-en-gezondheidszorg-in-nederland",
+      "chapter": 3,
+      "scenario": "Hoofdstuk 3 - Sport, vereniging en bibliotheek",
+      "question": "Robert volgt elke week op een vaste tijd een cursus. Wat is normaal?",
+      "type": "choice",
+      "answers": [
+        "Hij schrijft zich in en betaalt soms voor de cursus",
+        "Hij hoeft nooit iets af te spreken",
+        "Hij belt voor elke les 112",
+        "Hij krijgt automatisch zorgtoeslag"
+      ],
+      "correct": 0,
+      "explanation": "Cursus: inschrijven en soms betalen",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-3-073",
+      "topic": "gezondheid-en-gezondheidszorg-in-nederland",
+      "chapter": 3,
+      "scenario": "Hoofdstuk 3 - Sport, vereniging en bibliotheek",
+      "question": "Lina wil een boek lenen. Waar kan zij naartoe?",
+      "type": "choice",
+      "answers": [
+        "De bibliotheek",
+        "De SEH",
+        "De apotheek",
+        "De huisartsenpost"
+      ],
+      "correct": 0,
+      "explanation": "Boeken lenen → bibliotheek",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-3-074",
+      "topic": "gezondheid-en-gezondheidszorg-in-nederland",
+      "chapter": 3,
+      "scenario": "Hoofdstuk 3 - Sport, vereniging en bibliotheek",
+      "question": "Wat kan een volwassene volgens de leerstof doen om boeken te lenen bij de bibliotheek?",
+      "type": "choice",
+      "answers": [
+        "Lid worden of een abonnement nemen",
+        "Een verwijsbrief vragen",
+        "Een zorgverzekering opzeggen",
+        "Een tandarts bellen"
+      ],
+      "correct": 0,
+      "explanation": "Volwassene → lid/abonnement",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-3-075",
+      "topic": "gezondheid-en-gezondheidszorg-in-nederland",
+      "chapter": 3,
+      "scenario": "Hoofdstuk 3 - Sport, vereniging en bibliotheek",
+      "question": "Een kind wil boeken lenen bij de bibliotheek. Wat zegt de leerstof?",
+      "type": "choice",
+      "answers": [
+        "Kinderen kunnen gratis lid zijn",
+        "Kinderen mogen nooit naar de bibliotheek",
+        "Kinderen moeten altijd een ziekenhuispas hebben",
+        "Kinderen betalen elke dag premie"
+      ],
+      "correct": 0,
+      "explanation": "Kinderen volgens leerstof gratis",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-3-076",
+      "topic": "gezondheid-en-gezondheidszorg-in-nederland",
+      "chapter": 3,
+      "scenario": "Hoofdstuk 3 - Sport, vereniging en bibliotheek",
+      "question": "Waar of niet waar: Een vereniging kan helpen om nieuwe mensen te ontmoeten en Nederlands te oefenen.",
+      "type": "choice",
+      "answers": [
+        "Waar",
+        "Niet waar"
+      ],
+      "correct": 0,
+      "explanation": "Vereniging helpt sociaal/taal",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-3-077",
+      "topic": "gezondheid-en-gezondheidszorg-in-nederland",
+      "chapter": 3,
+      "scenario": "Hoofdstuk 3 - Gemengde KNM-situatievragen",
+      "question": "Rachid voelt zich al een paar dagen niet goed. Hij heeft geen spoedklachten. Wat is de beste eerste stap?",
+      "type": "choice",
+      "answers": [
+        "De huisarts bellen",
+        "Meteen naar de SEH gaan",
+        "112 bellen",
+        "Naar de gemeente gaan"
+      ],
+      "correct": 0,
+      "explanation": "Geen spoed → huisarts",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-3-078",
+      "topic": "gezondheid-en-gezondheidszorg-in-nederland",
+      "chapter": 3,
+      "scenario": "Hoofdstuk 3 - Gemengde KNM-situatievragen",
+      "question": "Emma heeft van de huisarts een recept gekregen. Zij begrijpt niet hoe zij het medicijn moet gebruiken. Wat kan zij doen?",
+      "type": "choice",
+      "answers": [
+        "Het etiket en de bijsluiter lezen en zo nodig de apotheek vragen",
+        "Zelf een willekeurige dosis kiezen",
+        "De medicijnen aan haar buurvrouw geven",
+        "Stoppen met eten"
+      ],
+      "correct": 0,
+      "explanation": "Etiket/bijsluiter/apotheek",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-3-079",
+      "topic": "gezondheid-en-gezondheidszorg-in-nederland",
+      "chapter": 3,
+      "scenario": "Hoofdstuk 3 - Gemengde KNM-situatievragen",
+      "question": "Victor heeft een afspraak met een specialist. Bij aankomst weet hij niet naar welke afdeling hij moet. Wat doet hij?",
+      "type": "choice",
+      "answers": [
+        "Hij kijkt naar de bordjes of vraagt het aan de balie",
+        "Hij belt 112",
+        "Hij gaat naar de tandarts",
+        "Hij neemt de trein naar huis"
+      ],
+      "correct": 0,
+      "explanation": "Ziekenhuis → bordjes/balie",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-3-080",
+      "topic": "gezondheid-en-gezondheidszorg-in-nederland",
+      "chapter": 3,
+      "scenario": "Hoofdstuk 3 - Gemengde KNM-situatievragen",
+      "question": "Het is zondagavond. Maria heeft hoge koorts en maakt zich zorgen, maar er is geen direct levensgevaar. Wat doet zij het beste?",
+      "type": "choice",
+      "answers": [
+        "De huisartsenpost bellen",
+        "Tot volgende maand wachten",
+        "Meteen de politie bellen",
+        "Een sportclub zoeken"
+      ],
+      "correct": 0,
+      "explanation": "Zondagavond, geen levensgevaar → huisartsenpost",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-3-081",
+      "topic": "gezondheid-en-gezondheidszorg-in-nederland",
+      "chapter": 3,
+      "scenario": "Hoofdstuk 3 - Gemengde KNM-situatievragen",
+      "question": "De vader van Tom valt plotseling bewusteloos en reageert niet meer. Wat moet Tom doen?",
+      "type": "choice",
+      "answers": [
+        "112 bellen",
+        "Een afspraak voor volgende week maken",
+        "Zorgtoeslag aanvragen",
+        "Naar de bibliotheek gaan"
+      ],
+      "correct": 0,
+      "explanation": "Bewusteloos → 112",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-3-082",
+      "topic": "gezondheid-en-gezondheidszorg-in-nederland",
+      "chapter": 3,
+      "scenario": "Hoofdstuk 3 - Gemengde KNM-situatievragen",
+      "question": "Anne heeft een laag inkomen en vindt haar zorgpremie duur. Waar kan zij informatie zoeken over financiële hulp?",
+      "type": "choice",
+      "answers": [
+        "Zorgtoeslag bij de Belastingdienst",
+        "Een boete bij de politie",
+        "Een hypotheek bij het ziekenhuis",
+        "Kinderbijslag bij de apotheek"
+      ],
+      "correct": 0,
+      "explanation": "Zorgtoeslag",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-3-083",
+      "topic": "gezondheid-en-gezondheidszorg-in-nederland",
+      "chapter": 3,
+      "scenario": "Hoofdstuk 3 - Gemengde KNM-situatievragen",
+      "question": "Sofia wil weten of haar aanvullende fysiotherapie wordt vergoed. Wat doet zij?",
+      "type": "choice",
+      "answers": [
+        "Zij vraagt het aan haar zorgverzekeraar",
+        "Zij vraagt het aan de conducteur",
+        "Zij belt 112",
+        "Zij vraagt het aan de gemeente zonder haar verzekering te controleren"
+      ],
+      "correct": 0,
+      "explanation": "Vergoeding controleren bij verzekeraar",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-3-084",
+      "topic": "gezondheid-en-gezondheidszorg-in-nederland",
+      "chapter": 3,
+      "scenario": "Hoofdstuk 3 - Gemengde KNM-situatievragen",
+      "question": "Bas wil gezonder leven en nieuwe mensen ontmoeten. Wat past het beste?",
+      "type": "choice",
+      "answers": [
+        "Bij een sportvereniging gaan",
+        "Meer roken",
+        "Minder bewegen",
+        "Alleen thuis blijven"
+      ],
+      "correct": 0,
+      "explanation": "Sportvereniging",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-3-085",
+      "topic": "gezondheid-en-gezondheidszorg-in-nederland",
+      "chapter": 3,
+      "scenario": "Hoofdstuk 3 - Gemengde KNM-situatievragen",
+      "question": "Noor heeft oude medicijnen in haar kast gevonden. Wat is de veiligste keuze volgens de leerstof?",
+      "type": "choice",
+      "answers": [
+        "Ze terugbrengen naar de apotheek",
+        "Ze aan kinderen geven",
+        "Ze met vrienden delen",
+        "Ze zonder uitleg gebruiken"
+      ],
+      "correct": 0,
+      "explanation": "Oude medicijnen veilig terugbrengen",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-3-086",
+      "topic": "gezondheid-en-gezondheidszorg-in-nederland",
+      "chapter": 3,
+      "scenario": "Hoofdstuk 3 - Gemengde KNM-situatievragen",
+      "question": "Diederik heeft kiespijn en kan bijna niet eten. Wat moet hij doen?",
+      "type": "choice",
+      "answers": [
+        "De tandarts bellen voor een afspraak",
+        "De burgemeester bellen",
+        "Naar de bibliotheek gaan",
+        "De Belastingdienst bellen"
+      ],
+      "correct": 0,
+      "explanation": "Kiespijn → tandarts",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-3-087",
+      "topic": "gezondheid-en-gezondheidszorg-in-nederland",
+      "chapter": 3,
+      "scenario": "Hoofdstuk 3 - Gemengde KNM-situatievragen",
+      "question": "Waar of niet waar: Als een klacht niet levensgevaarlijk is, is de huisarts vaak het eerste aanspreekpunt.",
+      "type": "choice",
+      "answers": [
+        "Waar",
+        "Niet waar"
+      ],
+      "correct": 0,
+      "explanation": "Huisarts vaak eerste aanspreekpunt",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-3-088",
+      "topic": "gezondheid-en-gezondheidszorg-in-nederland",
+      "chapter": 3,
+      "scenario": "Hoofdstuk 3 - Gemengde KNM-situatievragen",
+      "question": "Waar of niet waar: Bij ernstige spoed waarbij iemand mogelijk overlijdt, bel je 112.",
+      "type": "choice",
+      "answers": [
+        "Waar",
+        "Niet waar"
+      ],
+      "correct": 0,
+      "explanation": "Ernstige spoed → 112",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-4-001",
       "topic": "wonen-in-nederland",
       "chapter": 4,
-      "scenario": "原创模拟题 - Wonen",
-      "question": "Wat staat meestal in een huurcontract?",
+      "scenario": "Hoofdstuk 4 - Soorten woningen",
+      "question": "Lisa woont in een groot gebouw in de stad. Er zijn veel woningen boven en naast elkaar. In wat voor woning woont zij?",
       "type": "choice",
       "answers": [
-        "De huurprijs en afspraken over de woning.",
-        "De namen van alle scholen.",
-        "De uitslag van verkiezingen."
+        "Een flat",
+        "Een vrijstaand huis",
+        "Een verzorgingstehuis",
+        "Een boerderij"
       ],
       "correct": 0,
-      "explanation": "huurcontract 写明租金、期限、维修责任等住房约定。",
-      "source": "原创模拟题"
+      "explanation": "Flat = groot gebouw met appartementen",
+      "source": "原创场景模拟题"
     },
     {
-      "id": "gen-housing-2",
+      "id": "scenario-4-002",
       "topic": "wonen-in-nederland",
       "chapter": 4,
-      "scenario": "原创模拟题 - Wonen",
-      "question": "Wie helpt vaak bij het kopen van een huis?",
+      "scenario": "Hoofdstuk 4 - Soorten woningen",
+      "question": "Mehmet woont met zijn vrouw en twee kinderen in een woning die bedoeld is voor één gezin. Wat voor huis is dit?",
       "type": "choice",
       "answers": [
-        "Een makelaar.",
-        "Een apotheek.",
-        "Een consultatiebureau."
+        "Een eengezinswoning",
+        "Een studentenhuis",
+        "Een verzorgingstehuis",
+        "Een hotel"
       ],
       "correct": 0,
-      "explanation": "买房看房、谈价时常找 makelaar。",
-      "source": "原创模拟题"
+      "explanation": "Eengezinswoning = woning voor één gezin",
+      "source": "原创场景模拟题"
     },
     {
-      "id": "gen-housing-3",
+      "id": "scenario-4-003",
       "topic": "wonen-in-nederland",
       "chapter": 4,
-      "scenario": "原创模拟题 - Wonen",
-      "question": "Waarvoor is huurtoeslag bedoeld?",
+      "scenario": "Hoofdstuk 4 - Soorten woningen",
+      "question": "Tom studeert in Utrecht en huurt samen met andere studenten een verdieping van een huis. Waar woont hij?",
       "type": "choice",
       "answers": [
-        "Voor mensen met een lagere huurcapaciteit.",
-        "Voor het kopen van een auto.",
-        "Voor boetes in het verkeer."
+        "In een studentenhuis",
+        "In een verzorgingstehuis",
+        "In een vrijstaand huis",
+        "In een gemeentehuis"
       ],
       "correct": 0,
-      "explanation": "huurtoeslag 是符合条件时帮助支付房租的补贴。",
-      "source": "原创模拟题"
+      "explanation": "Studentenhuis",
+      "source": "原创场景模拟题"
     },
     {
-      "id": "gen-housing-4",
+      "id": "scenario-4-004",
       "topic": "wonen-in-nederland",
       "chapter": 4,
-      "scenario": "原创模拟题 - Wonen",
-      "question": "Wat doe je meestal met grofvuil?",
+      "scenario": "Hoofdstuk 4 - Soorten woningen",
+      "question": "Mevrouw De Jong is oud en kan niet meer goed alleen thuis wonen. Waar kan zij gaan wonen?",
       "type": "choice",
       "answers": [
-        "De regels van de gemeente volgen.",
-        "Het zomaar op straat zetten.",
-        "Naar de huisarts brengen."
+        "In een verzorgingstehuis",
+        "In een studentenhuis",
+        "In een fabriek",
+        "In een bibliotheek"
       ],
       "correct": 0,
-      "explanation": "大件垃圾 grofvuil 要按 gemeente 规则预约或送到指定地点。",
-      "source": "原创模拟题"
+      "explanation": "Ouderen → verzorgingstehuis indien thuis wonen niet meer gaat",
+      "source": "原创场景模拟题"
     },
     {
-      "id": "gen-services-1",
+      "id": "scenario-4-005",
+      "topic": "wonen-in-nederland",
+      "chapter": 4,
+      "scenario": "Hoofdstuk 4 - Soorten woningen",
+      "question": "Waar of niet waar: Veel oudere mensen proberen in Nederland zo lang mogelijk zelfstandig thuis te wonen.",
+      "type": "choice",
+      "answers": [
+        "Waar",
+        "Niet waar"
+      ],
+      "correct": 0,
+      "explanation": "Zo lang mogelijk zelfstandig thuis",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-4-006",
+      "topic": "wonen-in-nederland",
+      "chapter": 4,
+      "scenario": "Hoofdstuk 4 - Een huis kopen",
+      "question": "Job en Kelly willen een huis kopen, maar hebben niet genoeg spaargeld. Waar kunnen zij geld lenen?",
+      "type": "choice",
+      "answers": [
+        "Bij een bank",
+        "Bij de apotheek",
+        "Bij de politie",
+        "Bij de gemeente voor een paspoort"
+      ],
+      "correct": 0,
+      "explanation": "Geld lenen bij bank",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-4-007",
+      "topic": "wonen-in-nederland",
+      "chapter": 4,
+      "scenario": "Hoofdstuk 4 - Een huis kopen",
+      "question": "Job leent geld van de bank om een huis te kopen. Hoe heet zo'n lening?",
+      "type": "choice",
+      "answers": [
+        "Hypotheek",
+        "Huurtoeslag",
+        "Zorgtoeslag",
+        "Abonnement"
+      ],
+      "correct": 0,
+      "explanation": "Woninglening = hypotheek",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-4-008",
+      "topic": "wonen-in-nederland",
+      "chapter": 4,
+      "scenario": "Hoofdstuk 4 - Een huis kopen",
+      "question": "Kelly wil weten hoeveel hypotheek zij kan krijgen. Waar kijkt de bank onder andere naar?",
+      "type": "choice",
+      "answers": [
+        "Haar inkomen",
+        "Haar favoriete kleur",
+        "Haar schoenmaat",
+        "Haar vakantiebestemming"
+      ],
+      "correct": 0,
+      "explanation": "Hypotheek hangt o.a. af van inkomen",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-4-009",
+      "topic": "wonen-in-nederland",
+      "chapter": 4,
+      "scenario": "Hoofdstuk 4 - Een huis kopen",
+      "question": "Job heeft een hypotheek. Wat moet hij naast het geleende geld betalen?",
+      "type": "choice",
+      "answers": [
+        "Rente",
+        "Kinderbijslag",
+        "Een boete aan de huisarts",
+        "Zorgtoeslag"
+      ],
+      "correct": 0,
+      "explanation": "Hypotheek → rente",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-4-010",
+      "topic": "wonen-in-nederland",
+      "chapter": 4,
+      "scenario": "Hoofdstuk 4 - Een huis kopen",
+      "question": "Sanne wil weten welke huizen te koop staan. Wat kan zij doen?",
+      "type": "choice",
+      "answers": [
+        "Op een woningwebsite zoeken",
+        "112 bellen",
+        "Naar de tandarts gaan",
+        "Naar het ziekenhuis gaan"
+      ],
+      "correct": 0,
+      "explanation": "Koopwoning zoeken via internet",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-4-011",
+      "topic": "wonen-in-nederland",
+      "chapter": 4,
+      "scenario": "Hoofdstuk 4 - Een huis kopen",
+      "question": "Sanne heeft een mooi huis gevonden en wil het bekijken. Wie kan haar daarbij helpen?",
+      "type": "choice",
+      "answers": [
+        "Een makelaar",
+        "Een huisarts",
+        "Een conducteur",
+        "Een leraar"
+      ],
+      "correct": 0,
+      "explanation": "Makelaar helpt bij kopen/verkopen",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-4-012",
+      "topic": "wonen-in-nederland",
+      "chapter": 4,
+      "scenario": "Hoofdstuk 4 - Een huis kopen",
+      "question": "Peter wil een huis kopen. Hij wil hulp bij het onderhandelen over de prijs. Wie kan hem helpen?",
+      "type": "choice",
+      "answers": [
+        "Een makelaar",
+        "Een apotheker",
+        "Een politieagent",
+        "Een bibliothecaris"
+      ],
+      "correct": 0,
+      "explanation": "Makelaar kan helpen bij prijs/onderhandeling",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-4-013",
+      "topic": "wonen-in-nederland",
+      "chapter": 4,
+      "scenario": "Hoofdstuk 4 - Een huis kopen",
+      "question": "De koper en verkoper zijn het eens over de prijs van het huis. Waar gaan zij daarna naartoe om officiële afspraken en contracten te regelen?",
+      "type": "choice",
+      "answers": [
+        "Naar de notaris",
+        "Naar de huisartsenpost",
+        "Naar het UWV",
+        "Naar de bibliotheek"
+      ],
+      "correct": 0,
+      "explanation": "Notaris → officiële contracten",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-4-014",
+      "topic": "wonen-in-nederland",
+      "chapter": 4,
+      "scenario": "Hoofdstuk 4 - Een huis kopen",
+      "question": "Fatima koopt een eigen huis. De vloer moet worden vervangen. Wie betaalt dit onderhoud meestal?",
+      "type": "choice",
+      "answers": [
+        "Fatima zelf",
+        "De vorige huurder",
+        "De gemeente altijd",
+        "De huisarts"
+      ],
+      "correct": 0,
+      "explanation": "Koophuis → onderhoud zelf betalen",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-4-015",
+      "topic": "wonen-in-nederland",
+      "chapter": 4,
+      "scenario": "Hoofdstuk 4 - Een huis kopen",
+      "question": "Waar of niet waar: Bij een koophuis ben je in principe zelf verantwoordelijk voor veel reparaties en onderhoud.",
+      "type": "choice",
+      "answers": [
+        "Waar",
+        "Niet waar"
+      ],
+      "correct": 0,
+      "explanation": "Eigenaar verantwoordelijk",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-4-016",
+      "topic": "wonen-in-nederland",
+      "chapter": 4,
+      "scenario": "Hoofdstuk 4 - Sociale huur en vrije sector",
+      "question": "Erik heeft een laag inkomen en zoekt een woning met een relatief lage huur. Welke woning past het beste?",
+      "type": "choice",
+      "answers": [
+        "Een sociale huurwoning",
+        "Een duur huis in de vrije sector",
+        "Een hotel",
+        "Een koophuis zonder hypotheek"
+      ],
+      "correct": 0,
+      "explanation": "Laag inkomen → sociale huur",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-4-017",
+      "topic": "wonen-in-nederland",
+      "chapter": 4,
+      "scenario": "Hoofdstuk 4 - Sociale huur en vrije sector",
+      "question": "Amina wil een sociale huurwoning. Wat moet zij meestal eerst doen?",
+      "type": "choice",
+      "answers": [
+        "Zich inschrijven",
+        "112 bellen",
+        "Een auto kopen",
+        "Een zorgverzekering opzeggen"
+      ],
+      "correct": 0,
+      "explanation": "Eerst inschrijven",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-4-018",
+      "topic": "wonen-in-nederland",
+      "chapter": 4,
+      "scenario": "Hoofdstuk 4 - Sociale huur en vrije sector",
+      "question": "Amina staat sinds kort ingeschreven voor een sociale huurwoning. Krijgt zij direct een woning?",
+      "type": "choice",
+      "answers": [
+        "Niet altijd; er kan een lange wachttijd zijn",
+        "Ja, altijd dezelfde dag",
+        "Alleen als zij een auto heeft",
+        "Alleen als zij geen baan heeft"
+      ],
+      "correct": 0,
+      "explanation": "Sociale huur kan lange wachttijd hebben",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-4-019",
+      "topic": "wonen-in-nederland",
+      "chapter": 4,
+      "scenario": "Hoofdstuk 4 - Sociale huur en vrije sector",
+      "question": "Veel mensen reageren op dezelfde sociale huurwoning. Wie heeft volgens de leerstof vaak de meeste kans?",
+      "type": "choice",
+      "answers": [
+        "Iemand die langer staat ingeschreven",
+        "Iemand die het hardst belt",
+        "Iemand die de meeste cadeaus geeft",
+        "Iemand zonder identiteitsbewijs"
+      ],
+      "correct": 0,
+      "explanation": "Inschrijfduur belangrijk",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-4-020",
+      "topic": "wonen-in-nederland",
+      "chapter": 4,
+      "scenario": "Hoofdstuk 4 - Sociale huur en vrije sector",
+      "question": "Omar moet door ernstige persoonlijke omstandigheden snel een woning hebben. Wat kan hij bij de gemeente proberen aan te vragen?",
+      "type": "choice",
+      "answers": [
+        "Een urgentieverklaring",
+        "Een patiëntenpas",
+        "Een verwijsbrief",
+        "Een stembiljet"
+      ],
+      "correct": 0,
+      "explanation": "Spoedwoning → urgentieverklaring",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-4-021",
+      "topic": "wonen-in-nederland",
+      "chapter": 4,
+      "scenario": "Hoofdstuk 4 - Sociale huur en vrije sector",
+      "question": "Karin krijgt geen urgentieverklaring maar heeft snel woonruimte nodig. Wat kan zij doen?",
+      "type": "choice",
+      "answers": [
+        "Een woning in de particuliere/vrije sector zoeken",
+        "112 bellen",
+        "Een ziekenhuisbed aanvragen",
+        "Een paspoort aanvragen als woning"
+      ],
+      "correct": 0,
+      "explanation": "Vrije/particuliere sector",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-4-022",
+      "topic": "wonen-in-nederland",
+      "chapter": 4,
+      "scenario": "Hoofdstuk 4 - Sociale huur en vrije sector",
+      "question": "Wat is meestal kenmerkend voor huren in de vrije sector?",
+      "type": "choice",
+      "answers": [
+        "De huur is vaak hoger",
+        "De huur is altijd gratis",
+        "Alleen studenten mogen er wonen",
+        "Je hoeft nooit een contract te tekenen"
+      ],
+      "correct": 0,
+      "explanation": "Vrije sector vaak duurder",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-4-023",
+      "topic": "wonen-in-nederland",
+      "chapter": 4,
+      "scenario": "Hoofdstuk 4 - Sociale huur en vrije sector",
+      "question": "Waar kan iemand een woning in de vrije sector zoeken?",
+      "type": "choice",
+      "answers": [
+        "Via advertenties, internet, familie, vrienden of een makelaar",
+        "Alleen bij de huisarts",
+        "Alleen in het ziekenhuis",
+        "Alleen bij de politie"
+      ],
+      "correct": 0,
+      "explanation": "Internet, advertenties, netwerk, makelaar",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-4-024",
+      "topic": "wonen-in-nederland",
+      "chapter": 4,
+      "scenario": "Hoofdstuk 4 - Sociale huur en vrije sector",
+      "question": "Waar of niet waar: Iedereen die zich vandaag inschrijft voor sociale huur krijgt morgen automatisch een woning.",
+      "type": "choice",
+      "answers": [
+        "Waar",
+        "Niet waar"
+      ],
+      "correct": 1,
+      "explanation": "Geen directe woning gegarandeerd",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-4-025",
+      "topic": "wonen-in-nederland",
+      "chapter": 4,
+      "scenario": "Hoofdstuk 4 - Huurcontract, huisbaas en huurcommissie",
+      "question": "Eva gaat een appartement huren. In welk document staat hoeveel huur zij elke maand moet betalen?",
+      "type": "choice",
+      "answers": [
+        "Het huurcontract",
+        "Haar paspoort",
+        "De bijsluiter",
+        "Het stembiljet"
+      ],
+      "correct": 0,
+      "explanation": "Huurbedrag staat in huurcontract",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-4-026",
+      "topic": "wonen-in-nederland",
+      "chapter": 4,
+      "scenario": "Hoofdstuk 4 - Huurcontract, huisbaas en huurcommissie",
+      "question": "In Eva's huurcontract staat ook een bedrag voor schoonmaak van gezamenlijke ruimtes. Hoe heten deze kosten?",
+      "type": "choice",
+      "answers": [
+        "Servicekosten",
+        "Zorgtoeslag",
+        "Rente",
+        "Kinderbijslag"
+      ],
+      "correct": 0,
+      "explanation": "Servicekosten",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-4-027",
+      "topic": "wonen-in-nederland",
+      "chapter": 4,
+      "scenario": "Hoofdstuk 4 - Huurcontract, huisbaas en huurcommissie",
+      "question": "Ahmed wil verhuizen. Waar kan hij controleren hoeveel maanden van tevoren hij de huur moet opzeggen?",
+      "type": "choice",
+      "answers": [
+        "In zijn huurcontract",
+        "In zijn rijbewijs",
+        "Op zijn OV-chipkaart",
+        "In zijn patiëntenpas"
+      ],
+      "correct": 0,
+      "explanation": "Opzegtermijn staat in contract",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-4-028",
+      "topic": "wonen-in-nederland",
+      "chapter": 4,
+      "scenario": "Hoofdstuk 4 - Huurcontract, huisbaas en huurcommissie",
+      "question": "De kraan in het huurhuis van Maria is kapot. Het is een grote reparatie. Wie kan zij het beste bellen?",
+      "type": "choice",
+      "answers": [
+        "De huisbaas/verhuurder",
+        "De bibliotheek",
+        "De tandarts",
+        "De politie voor een paspoort"
+      ],
+      "correct": 0,
+      "explanation": "Grote reparatie → verhuurder",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-4-029",
+      "topic": "wonen-in-nederland",
+      "chapter": 4,
+      "scenario": "Hoofdstuk 4 - Huurcontract, huisbaas en huurcommissie",
+      "question": "De lamp in de kamer van Peter is kapot. Het is een kleine reparatie. Wie moet dit meestal regelen?",
+      "type": "choice",
+      "answers": [
+        "Peter zelf",
+        "De minister-president",
+        "De huisarts",
+        "De Belastingdienst"
+      ],
+      "correct": 0,
+      "explanation": "Kleine reparatie vaak huurder",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-4-030",
+      "topic": "wonen-in-nederland",
+      "chapter": 4,
+      "scenario": "Hoofdstuk 4 - Huurcontract, huisbaas en huurcommissie",
+      "question": "De huisbaas van Sara doet noodzakelijke reparaties niet. Met welke organisatie kan zij contact opnemen?",
+      "type": "choice",
+      "answers": [
+        "De Huurcommissie",
+        "De apotheek",
+        "De IND",
+        "De brandweer"
+      ],
+      "correct": 0,
+      "explanation": "Probleem verhuurder → Huurcommissie",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-4-031",
+      "topic": "wonen-in-nederland",
+      "chapter": 4,
+      "scenario": "Hoofdstuk 4 - Huurcontract, huisbaas en huurcommissie",
+      "question": "De huur van Ali lijkt veel te hoog en hij heeft ruzie met zijn huisbaas. Waar kan hij advies vragen?",
+      "type": "choice",
+      "answers": [
+        "Bij de Huurcommissie",
+        "Bij de tandarts",
+        "Bij de bibliotheek",
+        "Bij de supermarkt"
+      ],
+      "correct": 0,
+      "explanation": "Huurcommissie",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-4-032",
+      "topic": "wonen-in-nederland",
+      "chapter": 4,
+      "scenario": "Hoofdstuk 4 - Huurcontract, huisbaas en huurcommissie",
+      "question": "Waar of niet waar: In een huurcontract kan staan wie verantwoordelijk is voor bepaalde reparaties.",
+      "type": "choice",
+      "answers": [
+        "Waar",
+        "Niet waar"
+      ],
+      "correct": 0,
+      "explanation": "Contract regelt verantwoordelijkheden",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-4-033",
+      "topic": "wonen-in-nederland",
+      "chapter": 4,
+      "scenario": "Hoofdstuk 4 - Huurtoeslag en gemeentelijke belastingen",
+      "question": "Nadia heeft een laag inkomen en haar huur is hoog. Welke financiële hulp kan zij mogelijk aanvragen?",
+      "type": "choice",
+      "answers": [
+        "Huurtoeslag",
+        "Een hypotheek",
+        "Een verkeersboete",
+        "Een ziekenhuisopname"
+      ],
+      "correct": 0,
+      "explanation": "Lage inkomsten + hoge huur → huurtoeslag",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-4-034",
+      "topic": "wonen-in-nederland",
+      "chapter": 4,
+      "scenario": "Hoofdstuk 4 - Huurtoeslag en gemeentelijke belastingen",
+      "question": "Waar vraagt Nadia huurtoeslag aan?",
+      "type": "choice",
+      "answers": [
+        "Bij de Belastingdienst",
+        "Bij de politie",
+        "Bij de apotheek",
+        "Bij haar huisarts"
+      ],
+      "correct": 0,
+      "explanation": "Huurtoeslag → Belastingdienst",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-4-035",
+      "topic": "wonen-in-nederland",
+      "chapter": 4,
+      "scenario": "Hoofdstuk 4 - Huurtoeslag en gemeentelijke belastingen",
+      "question": "Johan huurt een woning. Hij krijgt een gemeentelijke rekening voor afval. Hoe heet deze belasting?",
+      "type": "choice",
+      "answers": [
+        "Afvalstoffenheffing",
+        "Zorgtoeslag",
+        "Rente",
+        "Premie voor de tandarts"
+      ],
+      "correct": 0,
+      "explanation": "Afvalstoffenheffing",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-4-036",
+      "topic": "wonen-in-nederland",
+      "chapter": 4,
+      "scenario": "Hoofdstuk 4 - Huurtoeslag en gemeentelijke belastingen",
+      "question": "Voor welk systeem kan de gemeente ook een heffing vragen?",
+      "type": "choice",
+      "answers": [
+        "Het riool",
+        "Een verjaardag",
+        "De bibliotheekboeken",
+        "De huisartsafspraak"
+      ],
+      "correct": 0,
+      "explanation": "Rioolheffing",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-4-037",
+      "topic": "wonen-in-nederland",
+      "chapter": 4,
+      "scenario": "Hoofdstuk 4 - Huurtoeslag en gemeentelijke belastingen",
+      "question": "Marieke heeft een koophuis. Welke belasting kan specifiek bij een koophuis horen?",
+      "type": "choice",
+      "answers": [
+        "OZB",
+        "Huurtoeslag",
+        "Zorgtoeslag",
+        "Kinderopvangtoeslag"
+      ],
+      "correct": 0,
+      "explanation": "Koopwoning → OZB",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-4-038",
+      "topic": "wonen-in-nederland",
+      "chapter": 4,
+      "scenario": "Hoofdstuk 4 - Huurtoeslag en gemeentelijke belastingen",
+      "question": "Hasan heeft een heel laag inkomen en kan zijn gemeentelijke belastingen moeilijk betalen. Wat kan hij proberen aan te vragen?",
+      "type": "choice",
+      "answers": [
+        "Kwijtschelding",
+        "Een hypotheek",
+        "Een patiëntenpas",
+        "Een nieuw telefoonabonnement"
+      ],
+      "correct": 0,
+      "explanation": "Laag inkomen → mogelijk kwijtschelding",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-4-039",
+      "topic": "wonen-in-nederland",
+      "chapter": 4,
+      "scenario": "Hoofdstuk 4 - Huurtoeslag en gemeentelijke belastingen",
+      "question": "Waar vraagt Hasan kwijtschelding van gemeentelijke belastingen aan?",
+      "type": "choice",
+      "answers": [
+        "Bij de gemeente",
+        "Bij de tandarts",
+        "Bij zijn buurman",
+        "Bij de supermarkt"
+      ],
+      "correct": 0,
+      "explanation": "Kwijtschelding bij gemeente",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-4-040",
+      "topic": "wonen-in-nederland",
+      "chapter": 4,
+      "scenario": "Hoofdstuk 4 - Huurtoeslag en gemeentelijke belastingen",
+      "question": "Waar of niet waar: Huurtoeslag is bedoeld voor mensen die onder bepaalde voorwaarden hulp nodig hebben bij het betalen van de huur.",
+      "type": "choice",
+      "answers": [
+        "Waar",
+        "Niet waar"
+      ],
+      "correct": 0,
+      "explanation": "Huurtoeslag ondersteunt huurkosten",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-4-041",
+      "topic": "wonen-in-nederland",
+      "chapter": 4,
+      "scenario": "Hoofdstuk 4 - Vergunning en verbouwen",
+      "question": "Pieter wil een grote verbouwing aan zijn huis doen. Wat moet hij mogelijk eerst aanvragen?",
+      "type": "choice",
+      "answers": [
+        "Een vergunning",
+        "Een recept",
+        "Een OV-chipkaart",
+        "Een zorgtoeslag"
+      ],
+      "correct": 0,
+      "explanation": "Verbouwen → mogelijk vergunning",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-4-042",
+      "topic": "wonen-in-nederland",
+      "chapter": 4,
+      "scenario": "Hoofdstuk 4 - Vergunning en verbouwen",
+      "question": "Wat is een vergunning?",
+      "type": "choice",
+      "answers": [
+        "Officiële toestemming van de gemeente voor bepaalde activiteiten",
+        "Een brief van de huisarts",
+        "Een bankrekening",
+        "Een treinkaartje"
+      ],
+      "correct": 0,
+      "explanation": "Vergunning = officiële toestemming",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-4-043",
+      "topic": "wonen-in-nederland",
+      "chapter": 4,
+      "scenario": "Hoofdstuk 4 - Vergunning en verbouwen",
+      "question": "Anna wil een boom bij haar woning weghalen. Wat moet zij mogelijk controleren?",
+      "type": "choice",
+      "answers": [
+        "Of zij een vergunning nodig heeft",
+        "Of zij een zorgverzekering heeft",
+        "Of zij een bibliotheekpas heeft",
+        "Of zij een tandartsafspraak heeft"
+      ],
+      "correct": 0,
+      "explanation": "Boom verwijderen → mogelijk vergunning",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-4-044",
+      "topic": "wonen-in-nederland",
+      "chapter": 4,
+      "scenario": "Hoofdstuk 4 - Vergunning en verbouwen",
+      "question": "Waar of niet waar: Voor bepaalde bouw- of verbouwactiviteiten kan toestemming van de gemeente nodig zijn.",
+      "type": "choice",
+      "answers": [
+        "Waar",
+        "Niet waar"
+      ],
+      "correct": 0,
+      "explanation": "Gemeente kan toestemming eisen",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-4-045",
+      "topic": "wonen-in-nederland",
+      "chapter": 4,
+      "scenario": "Hoofdstuk 4 - Afval scheiden",
+      "question": "Els heeft groente- en fruitafval. In welke soort afval hoort dit volgens de leerstof?",
+      "type": "choice",
+      "answers": [
+        "GFT",
+        "Glas",
+        "Papier voor de huisarts",
+        "Elektronica"
+      ],
+      "correct": 0,
+      "explanation": "Groente/fruit/tuin → GFT",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-4-046",
+      "topic": "wonen-in-nederland",
+      "chapter": 4,
+      "scenario": "Hoofdstuk 4 - Afval scheiden",
+      "question": "Mark heeft lege glazen flessen zonder statiegeld. Waar kan hij die weggooien?",
+      "type": "choice",
+      "answers": [
+        "In de glasbak",
+        "Op straat",
+        "In de trein",
+        "Bij de huisarts"
+      ],
+      "correct": 0,
+      "explanation": "Glas → glasbak",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-4-047",
+      "topic": "wonen-in-nederland",
+      "chapter": 4,
+      "scenario": "Hoofdstuk 4 - Afval scheiden",
+      "question": "Sophie heeft een oude bank en grote stoelen die weg moeten. Wat doet zij het beste?",
+      "type": "choice",
+      "answers": [
+        "Ze brengt ze naar een speciale plaats of maakt een afspraak met de gemeente",
+        "Ze zet ze willekeurig elke dag op straat",
+        "Ze brengt ze naar de apotheek",
+        "Ze laat ze in de trein staan"
+      ],
+      "correct": 0,
+      "explanation": "Groot afval → speciale plaats/gemeente",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-4-048",
+      "topic": "wonen-in-nederland",
+      "chapter": 4,
+      "scenario": "Hoofdstuk 4 - Afval scheiden",
+      "question": "Ali heeft oude batterijen. Dit is speciaal/chemisch afval. Wat moet hij doen?",
+      "type": "choice",
+      "answers": [
+        "Ze op de juiste speciale plaats inleveren",
+        "Ze in de tuin begraven",
+        "Ze op straat gooien",
+        "Ze bij zijn eten leggen"
+      ],
+      "correct": 0,
+      "explanation": "Batterijen → speciaal afval",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-4-049",
+      "topic": "wonen-in-nederland",
+      "chapter": 4,
+      "scenario": "Hoofdstuk 4 - Afval scheiden",
+      "question": "De gemeente haalt afval op vaste dagen op. Wanneer zet je de container buiten?",
+      "type": "choice",
+      "answers": [
+        "Op de afgesproken ophaaldag",
+        "Op elke willekeurige dag",
+        "Alleen als je op vakantie gaat",
+        "Alleen 's nachts"
+      ],
+      "correct": 0,
+      "explanation": "Container op vaste dag",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-4-050",
+      "topic": "wonen-in-nederland",
+      "chapter": 4,
+      "scenario": "Hoofdstuk 4 - Afval scheiden",
+      "question": "Fatima zet haar afval op een verkeerde dag op straat. Wat kan er gebeuren?",
+      "type": "choice",
+      "answers": [
+        "Zij kan een boete krijgen",
+        "Zij krijgt huurtoeslag",
+        "Zij krijgt gratis energie",
+        "Zij krijgt een hypotheek"
+      ],
+      "correct": 0,
+      "explanation": "Verkeerd afval buiten → boete mogelijk",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-4-051",
+      "topic": "wonen-in-nederland",
+      "chapter": 4,
+      "scenario": "Hoofdstuk 4 - Afval scheiden",
+      "question": "Waar kan Fatima controleren wanneer het afval wordt opgehaald?",
+      "type": "choice",
+      "answers": [
+        "Op de website van de gemeente",
+        "Alleen bij de tandarts",
+        "Op haar recepten",
+        "Op haar bankpas"
+      ],
+      "correct": 0,
+      "explanation": "Gemeentewebsite",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-4-052",
+      "topic": "wonen-in-nederland",
+      "chapter": 4,
+      "scenario": "Hoofdstuk 4 - Afval scheiden",
+      "question": "Waarom is afval scheiden belangrijk?",
+      "type": "choice",
+      "answers": [
+        "Het is beter voor het milieu",
+        "Het maakt de huur automatisch gratis",
+        "Je krijgt altijd geld terug",
+        "Je hoeft dan geen belasting te betalen"
+      ],
+      "correct": 0,
+      "explanation": "Afval scheiden → milieu",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-4-053",
+      "topic": "wonen-in-nederland",
+      "chapter": 4,
+      "scenario": "Hoofdstuk 4 - Afval scheiden",
+      "question": "Waar of niet waar: Afval op straat gooien kan leiden tot een boete.",
+      "type": "choice",
+      "answers": [
+        "Waar",
+        "Niet waar"
+      ],
+      "correct": 0,
+      "explanation": "Afval op straat kan boete geven",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-4-054",
+      "topic": "wonen-in-nederland",
+      "chapter": 4,
+      "scenario": "Hoofdstuk 4 - Energie en water",
+      "question": "Rob heeft een eigen energiecontract. Wat moet hij volgens de leerstof ongeveer één keer per jaar doorgeven?",
+      "type": "choice",
+      "answers": [
+        "De meterstand",
+        "Zijn verjaardag",
+        "Zijn schoenmaat",
+        "Zijn pasfoto"
+      ],
+      "correct": 0,
+      "explanation": "Jaarlijks meterstand doorgeven",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-4-055",
+      "topic": "wonen-in-nederland",
+      "chapter": 4,
+      "scenario": "Hoofdstuk 4 - Energie en water",
+      "question": "Waarvoor wordt een meterstand gebruikt?",
+      "type": "choice",
+      "answers": [
+        "Om te meten hoeveel gas, elektriciteit of water je hebt gebruikt",
+        "Om je leeftijd te controleren",
+        "Om je huurcontract te tekenen",
+        "Om je paspoort te verlengen"
+      ],
+      "correct": 0,
+      "explanation": "Meterstand meet verbruik",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-4-056",
+      "topic": "wonen-in-nederland",
+      "chapter": 4,
+      "scenario": "Hoofdstuk 4 - Energie en water",
+      "question": "Na een jaar krijgt Rob een overzicht van zijn werkelijke energiegebruik. Hoe heet dat?",
+      "type": "choice",
+      "answers": [
+        "Jaarrekening",
+        "Verwijsbrief",
+        "Huurtoeslag",
+        "Sollicitatiebrief"
+      ],
+      "correct": 0,
+      "explanation": "Jaarrekening",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-4-057",
+      "topic": "wonen-in-nederland",
+      "chapter": 4,
+      "scenario": "Hoofdstuk 4 - Energie en water",
+      "question": "Op de jaarrekening staat dat Rob meer energie heeft gebruikt dan waarvoor hij maandelijks betaalde. Wat kan gebeuren?",
+      "type": "choice",
+      "answers": [
+        "Hij moet bijbetalen",
+        "Hij krijgt altijd alles gratis",
+        "Zijn huisarts betaalt het verschil",
+        "Hij krijgt automatisch een hypotheek"
+      ],
+      "correct": 0,
+      "explanation": "Meer gebruikt → mogelijk bijbetalen",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-4-058",
+      "topic": "wonen-in-nederland",
+      "chapter": 4,
+      "scenario": "Hoofdstuk 4 - Energie en water",
+      "question": "Emma betaalt haar energierekeningen lange tijd niet. Wat kan uiteindelijk gebeuren?",
+      "type": "choice",
+      "answers": [
+        "Gas en elektriciteit kunnen worden afgesloten",
+        "Zij krijgt een gratis abonnement",
+        "Haar huur wordt automatisch lager",
+        "Zij krijgt een nieuw huis"
+      ],
+      "correct": 0,
+      "explanation": "Niet betalen → afsluiting mogelijk",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-4-059",
+      "topic": "wonen-in-nederland",
+      "chapter": 4,
+      "scenario": "Hoofdstuk 4 - Energie en water",
+      "question": "In het huurcontract van Daan staat dat energie inclusief is. Wat betekent dit?",
+      "type": "choice",
+      "answers": [
+        "De energiekosten zijn al in het afgesproken bedrag verwerkt",
+        "Hij mag onbeperkt gratis energie gebruiken",
+        "Hij hoeft nooit huur te betalen",
+        "De gemeente betaalt zijn hypotheek"
+      ],
+      "correct": 0,
+      "explanation": "Energie inclusief in huur",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-4-060",
+      "topic": "wonen-in-nederland",
+      "chapter": 4,
+      "scenario": "Hoofdstuk 4 - Energie en water",
+      "question": "Julia wil minder energie gebruiken. Wat is een goede keuze?",
+      "type": "choice",
+      "answers": [
+        "Lampen uitdoen als ze niet thuis is",
+        "Alle lampen dag en nacht aanlaten",
+        "De verwarming hoger zetten als ze weggaat",
+        "De wasmachine halfleeg heel vaak gebruiken"
+      ],
+      "correct": 0,
+      "explanation": "Lampen uit",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-4-061",
+      "topic": "wonen-in-nederland",
+      "chapter": 4,
+      "scenario": "Hoofdstuk 4 - Energie en water",
+      "question": "Wat kan Julia nog doen om energie te besparen?",
+      "type": "choice",
+      "answers": [
+        "Alleen een volle wasmachine gebruiken",
+        "Altijd met een lege wasmachine wassen",
+        "Alle ramen openhouden met de verwarming aan",
+        "De lampen aanlaten tijdens vakantie"
+      ],
+      "correct": 0,
+      "explanation": "Volle wasmachine",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-4-062",
+      "topic": "wonen-in-nederland",
+      "chapter": 4,
+      "scenario": "Hoofdstuk 4 - Energie en water",
+      "question": "Karim wil zuinig omgaan met water en energie. Waarom is dat nuttig?",
+      "type": "choice",
+      "answers": [
+        "Het kan kosten besparen en is beter voor het milieu",
+        "Hij hoeft dan nooit meer belasting te betalen",
+        "Hij krijgt automatisch een koophuis",
+        "Hij hoeft geen verzekering meer te hebben"
+      ],
+      "correct": 0,
+      "explanation": "Goedkoper + beter voor milieu",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-4-063",
+      "topic": "wonen-in-nederland",
+      "chapter": 4,
+      "scenario": "Hoofdstuk 4 - Energie en water",
+      "question": "Waar of niet waar: Voor water kan een huishouden ook een meterstand en een jaarrekening hebben.",
+      "type": "choice",
+      "answers": [
+        "Waar",
+        "Niet waar"
+      ],
+      "correct": 0,
+      "explanation": "Water kan meter/jaarrekening hebben",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-4-064",
+      "topic": "wonen-in-nederland",
+      "chapter": 4,
+      "scenario": "Hoofdstuk 4 - Telefoon, internet en televisie",
+      "question": "Laura verhuist naar een nieuw huis en wil internet. Wat kan zij doen?",
+      "type": "choice",
+      "answers": [
+        "Zelf een provider en abonnement kiezen",
+        "112 bellen",
+        "Een huisarts kiezen om internet te regelen",
+        "Naar de Huurcommissie gaan voor wifi"
+      ],
+      "correct": 0,
+      "explanation": "Zelf provider kiezen",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-4-065",
+      "topic": "wonen-in-nederland",
+      "chapter": 4,
+      "scenario": "Hoofdstuk 4 - Telefoon, internet en televisie",
+      "question": "Hoe betaalt Laura meestal voor haar telefoon- of internetabonnement?",
+      "type": "choice",
+      "answers": [
+        "Elke maand",
+        "Alleen één keer in haar leven",
+        "Nooit",
+        "Alleen als zij verhuist"
+      ],
+      "correct": 0,
+      "explanation": "Abonnement meestal maandelijks",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-4-066",
+      "topic": "wonen-in-nederland",
+      "chapter": 4,
+      "scenario": "Hoofdstuk 4 - Verzekeringen",
+      "question": "Tim stoot bij een vriendin per ongeluk een dure vaas om. Welke verzekering kan hierbij belangrijk zijn?",
+      "type": "choice",
+      "answers": [
+        "Aansprakelijkheidsverzekering",
+        "Zorgverzekering",
+        "Tandartsverzekering",
+        "Reisverzekering voor de huisarts"
+      ],
+      "correct": 0,
+      "explanation": "Schade aan ander → aansprakelijkheid",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-4-067",
+      "topic": "wonen-in-nederland",
+      "chapter": 4,
+      "scenario": "Hoofdstuk 4 - Verzekeringen",
+      "question": "Wat verzekert een aansprakelijkheidsverzekering vooral?",
+      "type": "choice",
+      "answers": [
+        "Schade die jij per ongeluk aan spullen van iemand anders veroorzaakt",
+        "Alleen je eigen kapotte telefoon",
+        "Je huurtoeslag",
+        "Je energierekening"
+      ],
+      "correct": 0,
+      "explanation": "Aansprakelijkheidsverzekering",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-4-068",
+      "topic": "wonen-in-nederland",
+      "chapter": 4,
+      "scenario": "Hoofdstuk 4 - Verzekeringen",
+      "question": "Door brand raken meubels en andere spullen in het huis van Eva beschadigd. Welke verzekering kan daarvoor bedoeld zijn?",
+      "type": "choice",
+      "answers": [
+        "Inboedelverzekering",
+        "Alleen autoverzekering",
+        "Alleen zorgverzekering",
+        "Alleen tandartsverzekering"
+      ],
+      "correct": 0,
+      "explanation": "Spullen in huis → inboedel",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-4-069",
+      "topic": "wonen-in-nederland",
+      "chapter": 4,
+      "scenario": "Hoofdstuk 4 - Verzekeringen",
+      "question": "Bij een storm raakt het dak van het koophuis van Jan zwaar beschadigd. Welke verzekering is hiervoor bedoeld?",
+      "type": "choice",
+      "answers": [
+        "Opstal- of woonhuisverzekering",
+        "Inboedelverzekering voor alleen losse spullen",
+        "Zorgtoeslag",
+        "Huurtoeslag"
+      ],
+      "correct": 0,
+      "explanation": "Vast huis/gebouw → opstal",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-4-070",
+      "topic": "wonen-in-nederland",
+      "chapter": 4,
+      "scenario": "Hoofdstuk 4 - Verzekeringen",
+      "question": "Jan wil een hypotheek voor een koophuis. Welke verzekering moet volgens de leerstof vaak aanwezig zijn?",
+      "type": "choice",
+      "answers": [
+        "Opstalverzekering",
+        "Tandartsverzekering",
+        "Bibliotheekverzekering",
+        "OV-verzekering"
+      ],
+      "correct": 0,
+      "explanation": "Opstalverzekering bij koophuis/hypotheek",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-4-071",
+      "topic": "wonen-in-nederland",
+      "chapter": 4,
+      "scenario": "Hoofdstuk 4 - Verzekeringen",
+      "question": "Fatima koopt een auto. Welke verzekering is verplicht?",
+      "type": "choice",
+      "answers": [
+        "WA-autoverzekering",
+        "Inboedelverzekering",
+        "Aanvullende zorgverzekering",
+        "Huurtoeslag"
+      ],
+      "correct": 0,
+      "explanation": "WA voor auto/scooter verplicht",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-4-072",
+      "topic": "wonen-in-nederland",
+      "chapter": 4,
+      "scenario": "Hoofdstuk 4 - Verzekeringen",
+      "question": "Wat krijgt iemand bij een verzekering als bewijs van de afspraken?",
+      "type": "choice",
+      "answers": [
+        "Een polis",
+        "Een verwijsbrief",
+        "Een stembiljet",
+        "Een diploma"
+      ],
+      "correct": 0,
+      "explanation": "Polis = verzekeringscontract",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-4-073",
+      "topic": "wonen-in-nederland",
+      "chapter": 4,
+      "scenario": "Hoofdstuk 4 - Verzekeringen",
+      "question": "Er is schade in het huis van Marco. Wat moet hij doen?",
+      "type": "choice",
+      "answers": [
+        "De schade zo snel mogelijk melden bij de verzekeringsmaatschappij",
+        "Een maand niets zeggen",
+        "De huisarts bellen",
+        "Het beschadigde voorwerp op straat zetten"
+      ],
+      "correct": 0,
+      "explanation": "Schade snel melden",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-4-074",
+      "topic": "wonen-in-nederland",
+      "chapter": 4,
+      "scenario": "Hoofdstuk 4 - Verzekeringen",
+      "question": "De verzekeraar vraagt Marco om uit te leggen wat er is gebeurd. Wat kan hij doen?",
+      "type": "choice",
+      "answers": [
+        "Bellen of een schadeformulier invullen",
+        "Een recept aanvragen",
+        "Een paspoort opsturen zonder uitleg",
+        "Alleen de buren bellen"
+      ],
+      "correct": 0,
+      "explanation": "Schade melden/formulier",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-4-075",
+      "topic": "wonen-in-nederland",
+      "chapter": 4,
+      "scenario": "Hoofdstuk 4 - Verzekeringen",
+      "question": "Wanneer betaalt een verzekering volgens de leerstof meestal?",
+      "type": "choice",
+      "answers": [
+        "Als de schade onder de verzekering valt en bijvoorbeeld per ongeluk is ontstaan",
+        "Altijd als iemand expres iets kapotmaakt",
+        "Voor iedere aankoop die je doet",
+        "Voor iedere huurbetaling"
+      ],
+      "correct": 0,
+      "explanation": "Verzekerde, onbedoelde schade",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-4-076",
+      "topic": "wonen-in-nederland",
+      "chapter": 4,
+      "scenario": "Hoofdstuk 4 - Verzekeringen",
+      "question": "Waar of niet waar: Een inboedelverzekering gaat over spullen die in je huis staan.",
+      "type": "choice",
+      "answers": [
+        "Waar",
+        "Niet waar"
+      ],
+      "correct": 0,
+      "explanation": "Inboedel = spullen in huis",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-4-077",
+      "topic": "wonen-in-nederland",
+      "chapter": 4,
+      "scenario": "Hoofdstuk 4 - Gemengde KNM-situatievragen",
+      "question": "Sanne huurt een woning. De buitenkant van het huis moet groot onderhoud krijgen. Wie moet zij eerst benaderen?",
+      "type": "choice",
+      "answers": [
+        "De verhuurder/huisbaas",
+        "Haar huisarts",
+        "De apotheek",
+        "De bibliotheek"
+      ],
+      "correct": 0,
+      "explanation": "Groot onderhoud huurhuis → verhuurder",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-4-078",
+      "topic": "wonen-in-nederland",
+      "chapter": 4,
+      "scenario": "Hoofdstuk 4 - Gemengde KNM-situatievragen",
+      "question": "Erik heeft een laag inkomen en betaalt veel huur. Wat is een logische stap?",
+      "type": "choice",
+      "answers": [
+        "Kijken of hij huurtoeslag kan aanvragen",
+        "112 bellen",
+        "Een hypotheek nemen zonder bank",
+        "Zijn huurcontract weggooien"
+      ],
+      "correct": 0,
+      "explanation": "Huurtoeslag onderzoeken",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-4-079",
+      "topic": "wonen-in-nederland",
+      "chapter": 4,
+      "scenario": "Hoofdstuk 4 - Gemengde KNM-situatievragen",
+      "question": "Nadia wil haar huurwoning verlaten. Wat moet zij eerst controleren?",
+      "type": "choice",
+      "answers": [
+        "De opzegtermijn in het huurcontract",
+        "De bijsluiter van haar medicijnen",
+        "Haar bibliotheekabonnement",
+        "Haar patiëntenpas"
+      ],
+      "correct": 0,
+      "explanation": "Opzegtermijn controleren",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-4-080",
+      "topic": "wonen-in-nederland",
+      "chapter": 4,
+      "scenario": "Hoofdstuk 4 - Gemengde KNM-situatievragen",
+      "question": "Peter heeft problemen met zijn huisbaas over slecht onderhoud. Ze komen er samen niet uit. Waar kan Peter terecht?",
+      "type": "choice",
+      "answers": [
+        "Bij de Huurcommissie",
+        "Bij de tandarts",
+        "Bij de huisarts",
+        "Bij de brandweer"
+      ],
+      "correct": 0,
+      "explanation": "Huurcommissie",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-4-081",
+      "topic": "wonen-in-nederland",
+      "chapter": 4,
+      "scenario": "Hoofdstuk 4 - Gemengde KNM-situatievragen",
+      "question": "Sofia wil haar huis verbouwen. Wat moet ze mogelijk vóór de verbouwing regelen?",
+      "type": "choice",
+      "answers": [
+        "Een vergunning bij de gemeente",
+        "Een zorgtoeslag",
+        "Een OV-chipkaart",
+        "Een recept"
+      ],
+      "correct": 0,
+      "explanation": "Vergunning",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-4-082",
+      "topic": "wonen-in-nederland",
+      "chapter": 4,
+      "scenario": "Hoofdstuk 4 - Gemengde KNM-situatievragen",
+      "question": "Ahmed heeft een kapotte lamp in zijn huurwoning. Wat is volgens de leerstof meestal de eerste stap?",
+      "type": "choice",
+      "answers": [
+        "De kleine reparatie zelf regelen",
+        "De koning bellen",
+        "De politie bellen",
+        "Een urgentieverklaring aanvragen"
+      ],
+      "correct": 0,
+      "explanation": "Kleine reparatie zelf",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-4-083",
+      "topic": "wonen-in-nederland",
+      "chapter": 4,
+      "scenario": "Hoofdstuk 4 - Gemengde KNM-situatievragen",
+      "question": "Maria heeft een kapotte grote kraaninstallatie in haar huurhuis. Wat doet zij?",
+      "type": "choice",
+      "answers": [
+        "De verhuurder bellen",
+        "De bibliotheek bellen",
+        "Haar tandarts bellen",
+        "Een parkeerboete betalen"
+      ],
+      "correct": 0,
+      "explanation": "Grote reparatie → huisbaas",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-4-084",
+      "topic": "wonen-in-nederland",
+      "chapter": 4,
+      "scenario": "Hoofdstuk 4 - Gemengde KNM-situatievragen",
+      "question": "Koen ziet dat de glascontainer in de buurt staat. Hij heeft lege glazen potten. Wat doet hij?",
+      "type": "choice",
+      "answers": [
+        "Hij brengt ze naar de glasbak",
+        "Hij zet ze midden op straat",
+        "Hij gooit ze in de tuin",
+        "Hij brengt ze naar de huisarts"
+      ],
+      "correct": 0,
+      "explanation": "Glas → glasbak",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-4-085",
+      "topic": "wonen-in-nederland",
+      "chapter": 4,
+      "scenario": "Hoofdstuk 4 - Gemengde KNM-situatievragen",
+      "question": "Fatima weet niet op welke dag de gemeente haar afval ophaalt. Wat doet zij?",
+      "type": "choice",
+      "answers": [
+        "Ze kijkt op de website van de gemeente",
+        "Ze zet het afval elke dag buiten",
+        "Ze belt 112",
+        "Ze vraagt een hypotheek aan"
+      ],
+      "correct": 0,
+      "explanation": "Afvalkalender/gemeentewebsite",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-4-086",
+      "topic": "wonen-in-nederland",
+      "chapter": 4,
+      "scenario": "Hoofdstuk 4 - Gemengde KNM-situatievragen",
+      "question": "Daan ontvangt zijn jaarlijkse energierekening en wil weten waarom hij extra moet betalen. Wat vergelijkt het energiebedrijf?",
+      "type": "choice",
+      "answers": [
+        "Zijn werkelijke gebruik met wat hij al heeft betaald",
+        "Zijn leeftijd met die van de buren",
+        "Zijn huur met zijn zorgverzekering",
+        "Zijn paspoort met zijn rijbewijs"
+      ],
+      "correct": 0,
+      "explanation": "Jaarrekening vergelijkt verbruik/betalingen",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-4-087",
+      "topic": "wonen-in-nederland",
+      "chapter": 4,
+      "scenario": "Hoofdstuk 4 - Gemengde KNM-situatievragen",
+      "question": "Emma maakt per ongeluk de laptop van haar vriendin kapot. Welke verzekering kan belangrijk zijn?",
+      "type": "choice",
+      "answers": [
+        "Aansprakelijkheidsverzekering",
+        "Opstalverzekering",
+        "Tandartsverzekering",
+        "Zorgtoeslag"
+      ],
+      "correct": 0,
+      "explanation": "Schade aan spullen van ander",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-4-088",
+      "topic": "wonen-in-nederland",
+      "chapter": 4,
+      "scenario": "Hoofdstuk 4 - Gemengde KNM-situatievragen",
+      "question": "Een storm beschadigt de vaste delen van het koophuis van Willem. Welke verzekering is het meest relevant?",
+      "type": "choice",
+      "answers": [
+        "Opstalverzekering",
+        "Huurtoeslag",
+        "Aansprakelijkheidsverzekering van zijn buurman",
+        "Zorgverzekering"
+      ],
+      "correct": 0,
+      "explanation": "Koophuisgebouw → opstal",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-4-089",
+      "topic": "wonen-in-nederland",
+      "chapter": 4,
+      "scenario": "Hoofdstuk 4 - Gemengde KNM-situatievragen",
+      "question": "Mevrouw Jansen heeft een laag inkomen en moeite met de gemeentelijke afvalbelasting. Wat kan zij doen?",
+      "type": "choice",
+      "answers": [
+        "Kwijtschelding aanvragen bij de gemeente",
+        "112 bellen",
+        "Haar zorgverzekering opzeggen",
+        "Een huis kopen"
+      ],
+      "correct": 0,
+      "explanation": "Kwijtschelding gemeente",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-4-090",
+      "topic": "wonen-in-nederland",
+      "chapter": 4,
+      "scenario": "Hoofdstuk 4 - Gemengde KNM-situatievragen",
+      "question": "Tom wil een sociale huurwoning maar staat nog maar kort ingeschreven. Wat moet hij begrijpen?",
+      "type": "choice",
+      "answers": [
+        "Dat hij mogelijk lang moet wachten",
+        "Dat hij automatisch morgen een huis krijgt",
+        "Dat hij geen huurcontract nodig heeft",
+        "Dat hij verplicht een koophuis moet nemen"
+      ],
+      "correct": 0,
+      "explanation": "Sociale huur → wachttijd",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-5-001",
       "topic": "dienstverlening-in-nederland",
       "chapter": 5,
-      "scenario": "原创模拟题 - Dienstverlening",
-      "question": "Waar vraag je meestal een paspoort aan?",
+      "scenario": "Hoofdstuk 5 - Politie en identiteitsbewijs",
+      "question": "Youssef loopt op straat. Een politieagent vraagt hem om een geldig identiteitsbewijs te laten zien. Wat moet Youssef doen?",
       "type": "choice",
       "answers": [
-        "Bij de gemeente.",
-        "Bij de apotheek.",
-        "Bij de woningcorporatie."
+        "Zijn identiteitsbewijs laten zien",
+        "Weglopen",
+        "De agent negeren",
+        "Eerst de Belastingdienst bellen"
       ],
       "correct": 0,
-      "explanation": "护照、身份证、驾照等证件通常在 gemeente 办理。",
-      "source": "原创模拟题"
+      "explanation": "Politieverzoek → geldig ID tonen",
+      "source": "原创场景模拟题"
     },
     {
-      "id": "gen-services-2",
+      "id": "scenario-5-002",
       "topic": "dienstverlening-in-nederland",
       "chapter": 5,
-      "scenario": "原创模拟题 - Dienstverlening",
-      "question": "Waarvoor gebruik je DigiD?",
+      "scenario": "Hoofdstuk 5 - Politie en identiteitsbewijs",
+      "question": "Welke van deze documenten kan een geldig identiteitsbewijs zijn?",
       "type": "choice",
       "answers": [
-        "Om veilig in te loggen bij overheidssites.",
-        "Om contant geld te betalen.",
-        "Om medicijnen te maken."
+        "Een paspoort",
+        "Een bibliotheekkaart",
+        "Een klantenkaart van een supermarkt",
+        "Een huurcontract"
       ],
       "correct": 0,
-      "explanation": "DigiD 是登录政府和公共机构网站的重要账号。",
-      "source": "原创模拟题"
+      "explanation": "Paspoort = geldig ID",
+      "source": "原创场景模拟题"
     },
     {
-      "id": "gen-services-3",
+      "id": "scenario-5-003",
       "topic": "dienstverlening-in-nederland",
       "chapter": 5,
-      "scenario": "原创模拟题 - Dienstverlening",
-      "question": "Bij wie doe je aangifte van diefstal?",
+      "scenario": "Hoofdstuk 5 - Politie en identiteitsbewijs",
+      "question": "Emma is haar portemonnee met belangrijke documenten kwijt. Wat kan zij doen?",
       "type": "choice",
       "answers": [
-        "Bij de politie.",
-        "Bij de tandarts.",
-        "Bij de bank alleen."
+        "Aangifte doen bij de politie",
+        "Een huisarts bellen",
+        "Huurtoeslag aanvragen",
+        "Naar het UWV gaan"
       ],
       "correct": 0,
-      "explanation": "被盗、威胁或犯罪事件可以向 politie 报案。",
-      "source": "原创模拟题"
+      "explanation": "Verloren belangrijke documenten → politie/aangifte waar relevant",
+      "source": "原创场景模拟题"
     },
     {
-      "id": "gen-services-4",
+      "id": "scenario-5-004",
       "topic": "dienstverlening-in-nederland",
       "chapter": 5,
-      "scenario": "原创模拟题 - Dienstverlening",
-      "question": "Welke organisatie gaat over verblijfsvergunningen?",
+      "scenario": "Hoofdstuk 5 - Politie en identiteitsbewijs",
+      "question": "Bij Karim is ingebroken en zijn laptop is gestolen. Wat is een logische stap?",
       "type": "choice",
       "answers": [
-        "IND.",
-        "DUO.",
-        "SVB."
+        "Aangifte doen bij de politie",
+        "Een nieuwe DigiD aanvragen bij de apotheek",
+        "112 bellen als er geen direct gevaar meer is",
+        "Naar de tandarts gaan"
       ],
       "correct": 0,
-      "explanation": "IND 负责居留许可、MVV、入籍等移民事务。",
-      "source": "原创模拟题"
+      "explanation": "Diefstal/inbraak → aangifte",
+      "source": "原创场景模拟题"
     },
     {
-      "id": "gen-education-1",
+      "id": "scenario-5-005",
+      "topic": "dienstverlening-in-nederland",
+      "chapter": 5,
+      "scenario": "Hoofdstuk 5 - Politie en identiteitsbewijs",
+      "question": "Waarom kan een aangifte na diefstal belangrijk zijn?",
+      "type": "choice",
+      "answers": [
+        "De verzekering kan om de aangifte vragen",
+        "Je krijgt dan automatisch een nieuw huis",
+        "Je hoeft nooit meer belasting te betalen",
+        "Je krijgt automatisch een Nederlands paspoort"
+      ],
+      "correct": 0,
+      "explanation": "Verzekering kan aangifte nodig hebben",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-5-006",
+      "topic": "dienstverlening-in-nederland",
+      "chapter": 5,
+      "scenario": "Hoofdstuk 5 - Politie en identiteitsbewijs",
+      "question": "Sara wordt op straat ernstig bedreigd en is direct in gevaar. Wat moet zij doen?",
+      "type": "choice",
+      "answers": [
+        "112 bellen",
+        "Wachten tot de volgende dag",
+        "Alleen een e-mail naar de gemeente sturen",
+        "Een afspraak bij de bank maken"
+      ],
+      "correct": 0,
+      "explanation": "Direct gevaar → 112",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-5-007",
+      "topic": "dienstverlening-in-nederland",
+      "chapter": 5,
+      "scenario": "Hoofdstuk 5 - Politie en identiteitsbewijs",
+      "question": "De buren van Peter maken al uren veel lawaai. Er is geen direct levensgevaar. Welk politienummer past beter dan 112?",
+      "type": "choice",
+      "answers": [
+        "0900-8844",
+        "112",
+        "911",
+        "999"
+      ],
+      "correct": 0,
+      "explanation": "Geen spoed → 0900-8844",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-5-008",
+      "topic": "dienstverlening-in-nederland",
+      "chapter": 5,
+      "scenario": "Hoofdstuk 5 - Politie en identiteitsbewijs",
+      "question": "Er gebeurt een ernstig ongeluk op straat en iemand is zwaar gewond. Wat doe je?",
+      "type": "choice",
+      "answers": [
+        "112 bellen",
+        "De gemeente bellen voor een vergunning",
+        "Een belastingaangifte doen",
+        "Een bankrekening openen"
+      ],
+      "correct": 0,
+      "explanation": "Ernstig ongeluk → 112",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-5-009",
+      "topic": "dienstverlening-in-nederland",
+      "chapter": 5,
+      "scenario": "Hoofdstuk 5 - Politie en identiteitsbewijs",
+      "question": "Een politieagent vraagt Ali om te stoppen. Wat moet Ali doen?",
+      "type": "choice",
+      "answers": [
+        "Stoppen en luisteren naar de politie",
+        "Hard wegrennen",
+        "De agent negeren",
+        "Een advocaat bellen vóór hij stopt"
+      ],
+      "correct": 0,
+      "explanation": "Instructie politie opvolgen",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-5-010",
+      "topic": "dienstverlening-in-nederland",
+      "chapter": 5,
+      "scenario": "Hoofdstuk 5 - Politie en identiteitsbewijs",
+      "question": "Waar of niet waar: Aangifte doen betekent dat je officieel aan de politie vertelt wat er is gebeurd.",
+      "type": "choice",
+      "answers": [
+        "Waar",
+        "Niet waar"
+      ],
+      "correct": 0,
+      "explanation": "Aangifte = officiële melding",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-5-011",
+      "topic": "dienstverlening-in-nederland",
+      "chapter": 5,
+      "scenario": "Hoofdstuk 5 - Politie en identiteitsbewijs",
+      "question": "Waar of niet waar: 112 gebruik je vooral voor situaties waarin snel hulp nodig is.",
+      "type": "choice",
+      "answers": [
+        "Waar",
+        "Niet waar"
+      ],
+      "correct": 0,
+      "explanation": "112 = spoed",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-5-012",
+      "topic": "dienstverlening-in-nederland",
+      "chapter": 5,
+      "scenario": "Hoofdstuk 5 - Politie en identiteitsbewijs",
+      "question": "Lisa's pinpas is gestolen. Wat moet zij naast aangifte doen ook snel regelen?",
+      "type": "choice",
+      "answers": [
+        "Haar bankpas laten blokkeren",
+        "Huurtoeslag aanvragen",
+        "Een rijbewijs aanvragen",
+        "Een huisarts kiezen"
+      ],
+      "correct": 0,
+      "explanation": "Gestolen bankpas → blokkeren",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-5-013",
+      "topic": "dienstverlening-in-nederland",
+      "chapter": 5,
+      "scenario": "Hoofdstuk 5 - Gemeente",
+      "question": "Ming verhuist naar een andere gemeente. Wat moet zij doen?",
+      "type": "choice",
+      "answers": [
+        "Haar verhuizing doorgeven aan de gemeente",
+        "Alleen haar bank bellen",
+        "Naar de politie gaan voor zorgtoeslag",
+        "Niets doen"
+      ],
+      "correct": 0,
+      "explanation": "Verhuizing → gemeente",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-5-014",
+      "topic": "dienstverlening-in-nederland",
+      "chapter": 5,
+      "scenario": "Hoofdstuk 5 - Gemeente",
+      "question": "Noor krijgt een baby. Bij welke instantie moet de geboorte worden geregistreerd?",
+      "type": "choice",
+      "answers": [
+        "De gemeente",
+        "De bank",
+        "Het UWV",
+        "De apotheek"
+      ],
+      "correct": 0,
+      "explanation": "Geboorte registreren → gemeente",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-5-015",
+      "topic": "dienstverlening-in-nederland",
+      "chapter": 5,
+      "scenario": "Hoofdstuk 5 - Gemeente",
+      "question": "Ruben gaat trouwen. Welke instantie speelt een belangrijke rol bij de officiële registratie?",
+      "type": "choice",
+      "answers": [
+        "De gemeente",
+        "De bibliotheek",
+        "De huisarts",
+        "De bank"
+      ],
+      "correct": 0,
+      "explanation": "Huwelijk → gemeente",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-5-016",
+      "topic": "dienstverlening-in-nederland",
+      "chapter": 5,
+      "scenario": "Hoofdstuk 5 - Gemeente",
+      "question": "Sara gaat voor langere tijd buiten Nederland wonen. Wat moet zij doen?",
+      "type": "choice",
+      "answers": [
+        "Dit doorgeven aan de gemeente",
+        "Alleen haar huisarts bellen",
+        "Een nieuwe zorgtoeslag aanvragen bij de politie",
+        "Een bankrekening sluiten zonder iets te melden"
+      ],
+      "correct": 0,
+      "explanation": "Vertrek/verhuizing doorgeven",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-5-017",
+      "topic": "dienstverlening-in-nederland",
+      "chapter": 5,
+      "scenario": "Hoofdstuk 5 - Gemeente",
+      "question": "Ahmed wil een nieuw rijbewijs aanvragen. Waar gaat hij naartoe?",
+      "type": "choice",
+      "answers": [
+        "De gemeente",
+        "Het ziekenhuis",
+        "De Belastingdienst",
+        "De apotheek"
+      ],
+      "correct": 0,
+      "explanation": "Rijbewijs → gemeente",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-5-018",
+      "topic": "dienstverlening-in-nederland",
+      "chapter": 5,
+      "scenario": "Hoofdstuk 5 - Gemeente",
+      "question": "Sophie wil een paspoort aanvragen. Wat moet zij meestal meenemen?",
+      "type": "choice",
+      "answers": [
+        "Een geldig identiteitsbewijs en de benodigde pasfoto",
+        "Alleen haar OV-chipkaart",
+        "Alleen haar zorgpas",
+        "Een recept van de huisarts"
+      ],
+      "correct": 0,
+      "explanation": "Officieel document → ID/pasfoto waar vereist",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-5-019",
+      "topic": "dienstverlening-in-nederland",
+      "chapter": 5,
+      "scenario": "Hoofdstuk 5 - Gemeente",
+      "question": "Wat moet je meestal doen voor een officieel document van de gemeente?",
+      "type": "choice",
+      "answers": [
+        "Aanvragen en ervoor betalen",
+        "Alleen je buurman vragen",
+        "Naar de politie voor toestemming",
+        "Niets, het wordt altijd automatisch thuisbezorgd"
+      ],
+      "correct": 0,
+      "explanation": "Gemeentedocument aanvragen + betalen",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-5-020",
+      "topic": "dienstverlening-in-nederland",
+      "chapter": 5,
+      "scenario": "Hoofdstuk 5 - Gemeente",
+      "question": "David wil zijn persoonlijke gegevens en adres officieel kunnen aantonen. Bij welke instantie kan hij daarvoor terecht?",
+      "type": "choice",
+      "answers": [
+        "De gemeente",
+        "De tandarts",
+        "De bank",
+        "Een sportvereniging"
+      ],
+      "correct": 0,
+      "explanation": "Persoons-/adresgegevens → gemeente",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-5-021",
+      "topic": "dienstverlening-in-nederland",
+      "chapter": 5,
+      "scenario": "Hoofdstuk 5 - Gemeente",
+      "question": "Lina wil haar huis verbouwen en heeft officiële toestemming nodig. Waar vraagt zij een vergunning aan?",
+      "type": "choice",
+      "answers": [
+        "Bij de gemeente",
+        "Bij de bank",
+        "Bij de politie",
+        "Bij de apotheek"
+      ],
+      "correct": 0,
+      "explanation": "Vergunning → gemeente",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-5-022",
+      "topic": "dienstverlening-in-nederland",
+      "chapter": 5,
+      "scenario": "Hoofdstuk 5 - Gemeente",
+      "question": "Waar of niet waar: De gemeente registreert belangrijke gebeurtenissen zoals geboorte, huwelijk en verhuizing.",
+      "type": "choice",
+      "answers": [
+        "Waar",
+        "Niet waar"
+      ],
+      "correct": 0,
+      "explanation": "Gemeente registreert burgerzaken",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-5-023",
+      "topic": "dienstverlening-in-nederland",
+      "chapter": 5,
+      "scenario": "Hoofdstuk 5 - BSN, Belastingdienst en belastingaangifte",
+      "question": "Omar woont in Nederland en heeft voor veel officiële zaken een persoonlijk nummer nodig. Hoe heet dit nummer?",
+      "type": "choice",
+      "answers": [
+        "BSN",
+        "BTW",
+        "CAO",
+        "SEH"
+      ],
+      "correct": 0,
+      "explanation": "BSN",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-5-024",
+      "topic": "dienstverlening-in-nederland",
+      "chapter": 5,
+      "scenario": "Hoofdstuk 5 - BSN, Belastingdienst en belastingaangifte",
+      "question": "Waarvoor wordt een BSN vaak gebruikt?",
+      "type": "choice",
+      "answers": [
+        "Voor contact met overheid en andere officiële instanties",
+        "Alleen om in de supermarkt te betalen",
+        "Alleen voor reizen met de trein",
+        "Alleen om boeken te lenen"
+      ],
+      "correct": 0,
+      "explanation": "BSN voor officiële zaken",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-5-025",
+      "topic": "dienstverlening-in-nederland",
+      "chapter": 5,
+      "scenario": "Hoofdstuk 5 - BSN, Belastingdienst en belastingaangifte",
+      "question": "Eva krijgt ieder jaar informatie over haar inkomen. Wat moet zij mogelijk doen voor de belasting?",
+      "type": "choice",
+      "answers": [
+        "Belastingaangifte",
+        "Aangifte bij de politie",
+        "Een verblijfsvergunning aanvragen",
+        "Een huisarts zoeken"
+      ],
+      "correct": 0,
+      "explanation": "Jaarlijks mogelijk belastingaangifte",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-5-026",
+      "topic": "dienstverlening-in-nederland",
+      "chapter": 5,
+      "scenario": "Hoofdstuk 5 - BSN, Belastingdienst en belastingaangifte",
+      "question": "Wat geef je bij een belastingaangifte onder andere door?",
+      "type": "choice",
+      "answers": [
+        "Hoeveel inkomen je in het vorige jaar had",
+        "Welke films je hebt gezien",
+        "Hoe vaak je naar de supermarkt ging",
+        "Welke kleur auto je hebt"
+      ],
+      "correct": 0,
+      "explanation": "Inkomen vorig jaar",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-5-027",
+      "topic": "dienstverlening-in-nederland",
+      "chapter": 5,
+      "scenario": "Hoofdstuk 5 - BSN, Belastingdienst en belastingaangifte",
+      "question": "Thomas denkt dat de Belastingdienst een fout heeft gemaakt en dat hij te veel moet betalen. Wat kan hij doen?",
+      "type": "choice",
+      "answers": [
+        "Bezwaar maken",
+        "112 bellen",
+        "Zijn paspoort weggooien",
+        "Een huisarts bellen"
+      ],
+      "correct": 0,
+      "explanation": "Niet eens → bezwaar",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-5-028",
+      "topic": "dienstverlening-in-nederland",
+      "chapter": 5,
+      "scenario": "Hoofdstuk 5 - BSN, Belastingdienst en belastingaangifte",
+      "question": "Maria kan een belastingbedrag niet in één keer betalen. Wat kan zij proberen te regelen?",
+      "type": "choice",
+      "answers": [
+        "Betalen in termijnen",
+        "Het bedrag negeren",
+        "De rekening weggooien",
+        "Een nieuw paspoort aanvragen"
+      ],
+      "correct": 0,
+      "explanation": "Mogelijk betalen in termijnen",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-5-029",
+      "topic": "dienstverlening-in-nederland",
+      "chapter": 5,
+      "scenario": "Hoofdstuk 5 - BSN, Belastingdienst en belastingaangifte",
+      "question": "Sam heeft een heel laag inkomen en moeite met gemeentelijke belastingen. Wat kan hij mogelijk aanvragen?",
+      "type": "choice",
+      "answers": [
+        "Kwijtschelding",
+        "Een hypotheek",
+        "Een patiëntenpas",
+        "Een nieuw rijbewijs"
+      ],
+      "correct": 0,
+      "explanation": "Laag inkomen → kwijtschelding mogelijk",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-5-030",
+      "topic": "dienstverlening-in-nederland",
+      "chapter": 5,
+      "scenario": "Hoofdstuk 5 - BSN, Belastingdienst en belastingaangifte",
+      "question": "Van belastinggeld worden onder andere openbare voorzieningen betaald. Welke hoort daarbij?",
+      "type": "choice",
+      "answers": [
+        "Wegen en scholen",
+        "Alleen privévakanties",
+        "Alleen cadeaus voor bedrijven",
+        "Alleen sportauto's"
+      ],
+      "correct": 0,
+      "explanation": "Belastingen financieren publieke voorzieningen",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-5-031",
+      "topic": "dienstverlening-in-nederland",
+      "chapter": 5,
+      "scenario": "Hoofdstuk 5 - BSN, Belastingdienst en belastingaangifte",
+      "question": "Waar of niet waar: Belastingaangifte gaat vaak over het inkomen en bepaalde kosten van het vorige jaar.",
+      "type": "choice",
+      "answers": [
+        "Waar",
+        "Niet waar"
+      ],
+      "correct": 0,
+      "explanation": "Aangifte over vorig jaar",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-5-032",
+      "topic": "dienstverlening-in-nederland",
+      "chapter": 5,
+      "scenario": "Hoofdstuk 5 - BSN, Belastingdienst en belastingaangifte",
+      "question": "Waar of niet waar: Als je het niet eens bent met een belastingbesluit, kun je onder voorwaarden bezwaar maken.",
+      "type": "choice",
+      "answers": [
+        "Waar",
+        "Niet waar"
+      ],
+      "correct": 0,
+      "explanation": "Bezwaar is mogelijk",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-5-033",
+      "topic": "dienstverlening-in-nederland",
+      "chapter": 5,
+      "scenario": "Hoofdstuk 5 - Toeslagen en kinderbijslag",
+      "question": "Fatima heeft een laag inkomen en betaalt veel huur. Welke toeslag kan relevant zijn?",
+      "type": "choice",
+      "answers": [
+        "Huurtoeslag",
+        "Zorgpas",
+        "WW-uitkering",
+        "Hypotheekrente"
+      ],
+      "correct": 0,
+      "explanation": "Lage inkomsten + huur → huurtoeslag",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-5-034",
+      "topic": "dienstverlening-in-nederland",
+      "chapter": 5,
+      "scenario": "Hoofdstuk 5 - Toeslagen en kinderbijslag",
+      "question": "Peter heeft een laag inkomen en betaalt elke maand zijn zorgverzekering. Welke toeslag kan relevant zijn?",
+      "type": "choice",
+      "answers": [
+        "Zorgtoeslag",
+        "Huurcontract",
+        "Kinderbijslag voor zichzelf",
+        "Rijtoeslag"
+      ],
+      "correct": 0,
+      "explanation": "Lage inkomsten + zorgpremie → zorgtoeslag",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-5-035",
+      "topic": "dienstverlening-in-nederland",
+      "chapter": 5,
+      "scenario": "Hoofdstuk 5 - Toeslagen en kinderbijslag",
+      "question": "Nadia werkt en haar kind gaat naar de kinderopvang. Welke toeslag kan helpen met de kosten?",
+      "type": "choice",
+      "answers": [
+        "Kinderopvangtoeslag",
+        "Zorgtoeslag voor de auto",
+        "Huurtoeslag voor de opvang",
+        "Pensioen"
+      ],
+      "correct": 0,
+      "explanation": "Kinderopvang → kinderopvangtoeslag",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-5-036",
+      "topic": "dienstverlening-in-nederland",
+      "chapter": 5,
+      "scenario": "Hoofdstuk 5 - Toeslagen en kinderbijslag",
+      "question": "Bij welke instantie vraag je veel toeslagen aan?",
+      "type": "choice",
+      "answers": [
+        "De Belastingdienst",
+        "De politie",
+        "De apotheek",
+        "De bibliotheek"
+      ],
+      "correct": 0,
+      "explanation": "Toeslagen → Belastingdienst",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-5-037",
+      "topic": "dienstverlening-in-nederland",
+      "chapter": 5,
+      "scenario": "Hoofdstuk 5 - Toeslagen en kinderbijslag",
+      "question": "Een gezin met kinderen krijgt periodiek financiële ondersteuning voor de kosten van kinderen. Hoe heet dit?",
+      "type": "choice",
+      "answers": [
+        "Kinderbijslag",
+        "Huurtoeslag",
+        "Zorgtoeslag",
+        "Bijstand voor de huisarts"
+      ],
+      "correct": 0,
+      "explanation": "Kinderbijslag",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-5-038",
+      "topic": "dienstverlening-in-nederland",
+      "chapter": 5,
+      "scenario": "Hoofdstuk 5 - Toeslagen en kinderbijslag",
+      "question": "Welke organisatie is verantwoordelijk voor kinderbijslag?",
+      "type": "choice",
+      "answers": [
+        "De Sociale Verzekeringsbank (SVB)",
+        "De politie",
+        "De gemeente als enige",
+        "De tandarts"
+      ],
+      "correct": 0,
+      "explanation": "Kinderbijslag → SVB",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-5-039",
+      "topic": "dienstverlening-in-nederland",
+      "chapter": 5,
+      "scenario": "Hoofdstuk 5 - Toeslagen en kinderbijslag",
+      "question": "Waar of niet waar: Zorgtoeslag, huurtoeslag en kinderopvangtoeslag zijn verschillende vormen van financiële ondersteuning.",
+      "type": "choice",
+      "answers": [
+        "Waar",
+        "Niet waar"
+      ],
+      "correct": 0,
+      "explanation": "Verschillende toeslagen",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-5-040",
+      "topic": "dienstverlening-in-nederland",
+      "chapter": 5,
+      "scenario": "Hoofdstuk 5 - Toeslagen en kinderbijslag",
+      "question": "Waar of niet waar: Iedereen krijgt automatisch alle toeslagen, ongeacht inkomen of situatie.",
+      "type": "choice",
+      "answers": [
+        "Waar",
+        "Niet waar"
+      ],
+      "correct": 1,
+      "explanation": "Afhankelijk van voorwaarden",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-5-041",
+      "topic": "dienstverlening-in-nederland",
+      "chapter": 5,
+      "scenario": "Hoofdstuk 5 - DigiD",
+      "question": "Jeroen wil online zijn belastingzaken bekijken. Wat heeft hij vaak nodig?",
+      "type": "choice",
+      "answers": [
+        "DigiD",
+        "Een pinpas van zijn buurman",
+        "Een bibliotheekpas",
+        "Een recept"
+      ],
+      "correct": 0,
+      "explanation": "Overheidszaken online → DigiD",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-5-042",
+      "topic": "dienstverlening-in-nederland",
+      "chapter": 5,
+      "scenario": "Hoofdstuk 5 - DigiD",
+      "question": "Aisha wil online huurtoeslag aanvragen. Wat gebruikt zij voor veilig inloggen?",
+      "type": "choice",
+      "answers": [
+        "DigiD",
+        "Haar OV-chipkaart",
+        "Haar patiëntenpas",
+        "Haar werkgeverspas"
+      ],
+      "correct": 0,
+      "explanation": "Toeslagen → DigiD",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-5-043",
+      "topic": "dienstverlening-in-nederland",
+      "chapter": 5,
+      "scenario": "Hoofdstuk 5 - DigiD",
+      "question": "Karim wil online zaken regelen bij de gemeente en het UWV. Welke digitale toegang gebruikt hij vaak?",
+      "type": "choice",
+      "answers": [
+        "DigiD",
+        "Zijn zorgverzekering",
+        "Zijn rijbewijs als wachtwoord",
+        "Zijn bankrekeningnummer als enige code"
+      ],
+      "correct": 0,
+      "explanation": "Gemeente/UWV online → DigiD",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-5-044",
+      "topic": "dienstverlening-in-nederland",
+      "chapter": 5,
+      "scenario": "Hoofdstuk 5 - DigiD",
+      "question": "Wat is DigiD vooral?",
+      "type": "choice",
+      "answers": [
+        "Een manier om je online bij overheidsorganisaties te identificeren",
+        "Een bankrekening",
+        "Een verzekeringspolis",
+        "Een verblijfsvergunning"
+      ],
+      "correct": 0,
+      "explanation": "Digitale identificatie",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-5-045",
+      "topic": "dienstverlening-in-nederland",
+      "chapter": 5,
+      "scenario": "Hoofdstuk 5 - DigiD",
+      "question": "Waar of niet waar: Je moet je DigiD-inloggegevens zorgvuldig en privé houden.",
+      "type": "choice",
+      "answers": [
+        "Waar",
+        "Niet waar"
+      ],
+      "correct": 0,
+      "explanation": "Inloggegevens privé houden",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-5-046",
+      "topic": "dienstverlening-in-nederland",
+      "chapter": 5,
+      "scenario": "Hoofdstuk 5 - Bank en betalen",
+      "question": "Chen krijgt salaris van zijn werkgever. Waar wordt dit meestal op gestort?",
+      "type": "choice",
+      "answers": [
+        "Zijn bankrekening",
+        "Zijn bibliotheekkaart",
+        "Zijn rijbewijs",
+        "Zijn zorgpas"
+      ],
+      "correct": 0,
+      "explanation": "Salaris → bankrekening",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-5-047",
+      "topic": "dienstverlening-in-nederland",
+      "chapter": 5,
+      "scenario": "Hoofdstuk 5 - Bank en betalen",
+      "question": "Lisa ziet dat haar saldo onder nul staat. Hoe heet dit?",
+      "type": "choice",
+      "answers": [
+        "Rood staan",
+        "Groen staan",
+        "Vrijstelling",
+        "Naturaliseren"
+      ],
+      "correct": 0,
+      "explanation": "Negatief saldo = rood staan",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-5-048",
+      "topic": "dienstverlening-in-nederland",
+      "chapter": 5,
+      "scenario": "Hoofdstuk 5 - Bank en betalen",
+      "question": "Omar betaalt een klein bedrag in een winkel door zijn pinpas tegen het betaalapparaat te houden. Hoe heet dit?",
+      "type": "choice",
+      "answers": [
+        "Contactloos betalen",
+        "Aangifte doen",
+        "Declareren",
+        "Naturaliseren"
+      ],
+      "correct": 0,
+      "explanation": "Pas tegen apparaat → contactloos",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-5-049",
+      "topic": "dienstverlening-in-nederland",
+      "chapter": 5,
+      "scenario": "Hoofdstuk 5 - Bank en betalen",
+      "question": "Peter betaalt elke maand hetzelfde bedrag aan huur. Hij wil dat dit automatisch van zijn rekening wordt afgeschreven. Wat kan hij regelen?",
+      "type": "choice",
+      "answers": [
+        "Een automatische incasso/machtiging",
+        "Een verblijfsvergunning",
+        "Een aangifte",
+        "Een patiëntenpas"
+      ],
+      "correct": 0,
+      "explanation": "Vaste maandelijkse betaling → incasso",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-5-050",
+      "topic": "dienstverlening-in-nederland",
+      "chapter": 5,
+      "scenario": "Hoofdstuk 5 - Bank en betalen",
+      "question": "Wat betekent een machtiging voor automatische betaling?",
+      "type": "choice",
+      "answers": [
+        "Je geeft toestemming dat een organisatie geld van je rekening afschrijft",
+        "Je geeft iemand toestemming om je paspoort te gebruiken",
+        "Je vraagt een hypotheek aan",
+        "Je doet aangifte bij de politie"
+      ],
+      "correct": 0,
+      "explanation": "Machtiging = toestemming afschrijving",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-5-051",
+      "topic": "dienstverlening-in-nederland",
+      "chapter": 5,
+      "scenario": "Hoofdstuk 5 - Bank en betalen",
+      "question": "Noor wil haar rekeningen via telefoon of laptop betalen. Wat gebruikt zij?",
+      "type": "choice",
+      "answers": [
+        "Internetbankieren",
+        "De huisartsenpost",
+        "De gemeente",
+        "Het Juridisch Loket"
+      ],
+      "correct": 0,
+      "explanation": "Online betalen → internetbankieren",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-5-052",
+      "topic": "dienstverlening-in-nederland",
+      "chapter": 5,
+      "scenario": "Hoofdstuk 5 - Bank en betalen",
+      "question": "Ahmed ontdekt dat zijn pinpas is gestolen. Wat doet hij als eerste bij de bank?",
+      "type": "choice",
+      "answers": [
+        "De pas/rekening laten blokkeren",
+        "Een nieuwe zorgverzekering aanvragen",
+        "Een huurcontract afsluiten",
+        "Een verblijfsvergunning verlengen"
+      ],
+      "correct": 0,
+      "explanation": "Gestolen pas → blokkeren",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-5-053",
+      "topic": "dienstverlening-in-nederland",
+      "chapter": 5,
+      "scenario": "Hoofdstuk 5 - Bank en betalen",
+      "question": "Waar of niet waar: Als je pinpas is gestolen, is het verstandig snel contact op te nemen met de bank.",
+      "type": "choice",
+      "answers": [
+        "Waar",
+        "Niet waar"
+      ],
+      "correct": 0,
+      "explanation": "Snel bank contacteren",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-5-054",
+      "topic": "dienstverlening-in-nederland",
+      "chapter": 5,
+      "scenario": "Hoofdstuk 5 - IND en verblijfsvergunning",
+      "question": "Maria komt van buiten de EU en wil voor langere tijd in Nederland wonen. Welke instantie beslist over veel verblijfsvergunningen?",
+      "type": "choice",
+      "answers": [
+        "De IND",
+        "De bibliotheek",
+        "Het UWV",
+        "De tandarts"
+      ],
+      "correct": 0,
+      "explanation": "Verblijfsvergunning → IND",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-5-055",
+      "topic": "dienstverlening-in-nederland",
+      "chapter": 5,
+      "scenario": "Hoofdstuk 5 - IND en verblijfsvergunning",
+      "question": "Wat betekent IND?",
+      "type": "choice",
+      "answers": [
+        "Immigratie- en Naturalisatiedienst",
+        "Internationale Nederlandse Dokters",
+        "Instituut voor Nationale Diploma's",
+        "Informatie voor Nieuwe Docenten"
+      ],
+      "correct": 0,
+      "explanation": "Immigratie- en Naturalisatiedienst",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-5-056",
+      "topic": "dienstverlening-in-nederland",
+      "chapter": 5,
+      "scenario": "Hoofdstuk 5 - IND en verblijfsvergunning",
+      "question": "Youssef heeft problemen met zijn verblijfsvergunning. Welke instantie is direct betrokken bij de beslissing?",
+      "type": "choice",
+      "answers": [
+        "De IND",
+        "De bank",
+        "De apotheek",
+        "De sportclub"
+      ],
+      "correct": 0,
+      "explanation": "IND behandelt verblijfszaken",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-5-057",
+      "topic": "dienstverlening-in-nederland",
+      "chapter": 5,
+      "scenario": "Hoofdstuk 5 - IND en verblijfsvergunning",
+      "question": "Een persoon heeft een tijdelijke verblijfsvergunning. Wat moet die persoon mogelijk doen voordat de vergunning afloopt?",
+      "type": "choice",
+      "answers": [
+        "De vergunning verlengen",
+        "Een nieuwe bankrekening openen",
+        "Altijd 112 bellen",
+        "Naar de tandarts gaan"
+      ],
+      "correct": 0,
+      "explanation": "Tijdelijke vergunning mogelijk verlengen",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-5-058",
+      "topic": "dienstverlening-in-nederland",
+      "chapter": 5,
+      "scenario": "Hoofdstuk 5 - IND en verblijfsvergunning",
+      "question": "Sara woont al langere tijd legaal in Nederland en wil weten of zij in aanmerking komt voor een permanente verblijfsvergunning. Waar vraagt zij informatie?",
+      "type": "choice",
+      "answers": [
+        "Bij de IND",
+        "Bij de bibliotheek",
+        "Bij de politie voor een boete",
+        "Bij de apotheek"
+      ],
+      "correct": 0,
+      "explanation": "Permanente verblijfsvraag → IND",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-5-059",
+      "topic": "dienstverlening-in-nederland",
+      "chapter": 5,
+      "scenario": "Hoofdstuk 5 - IND en verblijfsvergunning",
+      "question": "Een asielzoeker wacht op een beslissing over verblijf. Welke instantie behandelt de verblijfsaanvraag?",
+      "type": "choice",
+      "answers": [
+        "De IND",
+        "De bank",
+        "De Huurcommissie",
+        "De huisarts"
+      ],
+      "correct": 0,
+      "explanation": "Asiel/verblijf → IND",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-5-060",
+      "topic": "dienstverlening-in-nederland",
+      "chapter": 5,
+      "scenario": "Hoofdstuk 5 - IND en verblijfsvergunning",
+      "question": "Waar of niet waar: Mensen uit de EU hebben vaak andere verblijfsregels dan mensen van buiten de EU.",
+      "type": "choice",
+      "answers": [
+        "Waar",
+        "Niet waar"
+      ],
+      "correct": 0,
+      "explanation": "EU-regels verschillen vaak",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-5-061",
+      "topic": "dienstverlening-in-nederland",
+      "chapter": 5,
+      "scenario": "Hoofdstuk 5 - Naturalisatie en Nederlandse nationaliteit",
+      "question": "Elena wil de Nederlandse nationaliteit aanvragen. Waar kan zij de aanvraagprocedure starten?",
+      "type": "choice",
+      "answers": [
+        "Bij de gemeente",
+        "Bij de apotheek",
+        "Bij de tandarts",
+        "Bij de bank"
+      ],
+      "correct": 0,
+      "explanation": "Naturalisatieaanvraag via gemeente",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-5-062",
+      "topic": "dienstverlening-in-nederland",
+      "chapter": 5,
+      "scenario": "Hoofdstuk 5 - Naturalisatie en Nederlandse nationaliteit",
+      "question": "Wat krijgt iemand na succesvolle naturalisatie?",
+      "type": "choice",
+      "answers": [
+        "De Nederlandse nationaliteit",
+        "Automatisch een gratis huis",
+        "Automatisch een baan",
+        "Automatisch een rijbewijs"
+      ],
+      "correct": 0,
+      "explanation": "Naturalisatie → Nederlandse nationaliteit",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-5-063",
+      "topic": "dienstverlening-in-nederland",
+      "chapter": 5,
+      "scenario": "Hoofdstuk 5 - Naturalisatie en Nederlandse nationaliteit",
+      "question": "Een genaturaliseerde Nederlander mag bij landelijke verkiezingen stemmen als aan de overige voorwaarden is voldaan. Welke verkiezing hoort daarbij?",
+      "type": "choice",
+      "answers": [
+        "Tweede Kamerverkiezingen",
+        "Alleen een sportclubverkiezing",
+        "Alleen een schoolverkiezing",
+        "Geen enkele verkiezing"
+      ],
+      "correct": 0,
+      "explanation": "Nederlander kan landelijk stemmen indien kiesgerechtigd",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-5-064",
+      "topic": "dienstverlening-in-nederland",
+      "chapter": 5,
+      "scenario": "Hoofdstuk 5 - Naturalisatie en Nederlandse nationaliteit",
+      "question": "Amir wil naturaliseren. Waarom kan het inburgeringsexamen belangrijk zijn?",
+      "type": "choice",
+      "answers": [
+        "Het kan onderdeel zijn van de voorwaarden",
+        "Het vervangt altijd zijn paspoort",
+        "Het is een bankexamen",
+        "Het is alleen voor kinderen"
+      ],
+      "correct": 0,
+      "explanation": "Inburgering kan voorwaarde zijn",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-5-065",
+      "topic": "dienstverlening-in-nederland",
+      "chapter": 5,
+      "scenario": "Hoofdstuk 5 - Naturalisatie en Nederlandse nationaliteit",
+      "question": "Waar of niet waar: Naturalisatie betekent dat je de Nederlandse nationaliteit krijgt.",
+      "type": "choice",
+      "answers": [
+        "Waar",
+        "Niet waar"
+      ],
+      "correct": 0,
+      "explanation": "Definitie naturalisatie",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-5-066",
+      "topic": "dienstverlening-in-nederland",
+      "chapter": 5,
+      "scenario": "Hoofdstuk 5 - Inburgering",
+      "question": "Ana moet inburgeren. Wat leert en oefent zij onder andere?",
+      "type": "choice",
+      "answers": [
+        "Nederlands en kennis van de Nederlandse samenleving",
+        "Alleen autorijden",
+        "Alleen zwemmen",
+        "Alleen bankieren"
+      ],
+      "correct": 0,
+      "explanation": "Taal + kennis samenleving",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-5-067",
+      "topic": "dienstverlening-in-nederland",
+      "chapter": 5,
+      "scenario": "Hoofdstuk 5 - Inburgering",
+      "question": "Mehmet heeft een brief gekregen dat hij moet inburgeren. Wat is verstandig?",
+      "type": "choice",
+      "answers": [
+        "Goed lezen wat hij moet doen en op tijd met leren beginnen",
+        "De brief weggooien",
+        "Niets doen",
+        "Alleen de politie bellen"
+      ],
+      "correct": 0,
+      "explanation": "Brief lezen en op tijd handelen",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-5-068",
+      "topic": "dienstverlening-in-nederland",
+      "chapter": 5,
+      "scenario": "Hoofdstuk 5 - Inburgering",
+      "question": "Iemand heeft al bepaalde Nederlandse diploma's en wil weten of hij misschien vrijstelling krijgt. Waar moet hij naar kijken?",
+      "type": "choice",
+      "answers": [
+        "Naar de officiële voorwaarden voor vrijstelling",
+        "Naar zijn boodschappenlijst",
+        "Naar zijn bankpas",
+        "Naar zijn OV-chipkaart"
+      ],
+      "correct": 0,
+      "explanation": "Vrijstelling → officiële voorwaarden",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-5-069",
+      "topic": "dienstverlening-in-nederland",
+      "chapter": 5,
+      "scenario": "Hoofdstuk 5 - Inburgering",
+      "question": "Wat betekent vrijstelling?",
+      "type": "choice",
+      "answers": [
+        "Je hoeft onder bepaalde voorwaarden een verplicht onderdeel niet te doen",
+        "Je krijgt altijd gratis geld",
+        "Je hoeft nooit belasting te betalen",
+        "Je bent automatisch Nederlander"
+      ],
+      "correct": 0,
+      "explanation": "Vrijstelling = verplichting vervalt onder voorwaarden",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-5-070",
+      "topic": "dienstverlening-in-nederland",
+      "chapter": 5,
+      "scenario": "Hoofdstuk 5 - Inburgering",
+      "question": "Waar of niet waar: De exacte inburgeringsregels kunnen verschillen per persoonlijke situatie en wetgeving.",
+      "type": "choice",
+      "answers": [
+        "Waar",
+        "Niet waar"
+      ],
+      "correct": 0,
+      "explanation": "Regels kunnen wijzigen",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-5-071",
+      "topic": "dienstverlening-in-nederland",
+      "chapter": 5,
+      "scenario": "Hoofdstuk 5 - Jeugdzorg",
+      "question": "Peter en Sophie hebben ernstige problemen met de opvoeding van hun kind. Waar kunnen zij hulp zoeken?",
+      "type": "choice",
+      "answers": [
+        "Bij jeugdhulp/jeugdzorg",
+        "Bij de bank",
+        "Bij de Huurcommissie",
+        "Bij de belastingbalie voor een rijbewijs"
+      ],
+      "correct": 0,
+      "explanation": "Opvoedingsproblemen → jeugdhulp",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-5-072",
+      "topic": "dienstverlening-in-nederland",
+      "chapter": 5,
+      "scenario": "Hoofdstuk 5 - Jeugdzorg",
+      "question": "Hun kind heeft extra begeleiding of therapie nodig. Wat is een logische stap?",
+      "type": "choice",
+      "answers": [
+        "Professionele jeugdhulp vragen",
+        "Alleen een nieuw paspoort aanvragen",
+        "Een hypotheek afsluiten",
+        "De bankrekening blokkeren"
+      ],
+      "correct": 0,
+      "explanation": "Professionele ondersteuning",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-5-073",
+      "topic": "dienstverlening-in-nederland",
+      "chapter": 5,
+      "scenario": "Hoofdstuk 5 - Jeugdzorg",
+      "question": "Waar of niet waar: Jeugdzorg is bedoeld om gezinnen en kinderen te ondersteunen bij problemen met opvoeding en ontwikkeling.",
+      "type": "choice",
+      "answers": [
+        "Waar",
+        "Niet waar"
+      ],
+      "correct": 0,
+      "explanation": "Jeugdzorg ondersteunt kind/gezin",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-5-074",
+      "topic": "dienstverlening-in-nederland",
+      "chapter": 5,
+      "scenario": "Hoofdstuk 5 - Thuiszorg, verpleeghuis en CIZ",
+      "question": "Mevrouw Bos is oud en kan zichzelf thuis niet meer goed wassen en aankleden. Welke hulp kan zij nodig hebben?",
+      "type": "choice",
+      "answers": [
+        "Thuiszorg",
+        "Een makelaar",
+        "Een rijschool",
+        "Een belastingadviseur voor haar paspoort"
+      ],
+      "correct": 0,
+      "explanation": "Dagelijkse hulp → thuiszorg",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-5-075",
+      "topic": "dienstverlening-in-nederland",
+      "chapter": 5,
+      "scenario": "Hoofdstuk 5 - Thuiszorg, verpleeghuis en CIZ",
+      "question": "Ahmed is langdurig ziek en heeft thuis hulp nodig. Waar kan hij volgens de leerstof informeren over ondersteuning?",
+      "type": "choice",
+      "answers": [
+        "Bij de gemeente",
+        "Alleen bij de bank",
+        "Alleen bij de politie",
+        "Bij de bibliotheek"
+      ],
+      "correct": 0,
+      "explanation": "Gemeente kan ingang voor ondersteuning zijn",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-5-076",
+      "topic": "dienstverlening-in-nederland",
+      "chapter": 5,
+      "scenario": "Hoofdstuk 5 - Thuiszorg, verpleeghuis en CIZ",
+      "question": "De moeder van Lisa kan niet meer zelfstandig thuis wonen en heeft intensieve zorg nodig. Waar kan zij mogelijk worden opgenomen?",
+      "type": "choice",
+      "answers": [
+        "In een verpleeghuis",
+        "In een gemeentehuis",
+        "In een apotheek",
+        "In een bank"
+      ],
+      "correct": 0,
+      "explanation": "Intensieve ouderenzorg → verpleeghuis",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-5-077",
+      "topic": "dienstverlening-in-nederland",
+      "chapter": 5,
+      "scenario": "Hoofdstuk 5 - Thuiszorg, verpleeghuis en CIZ",
+      "question": "Wie kan medisch advies geven over de zorgsituatie van een oudere persoon?",
+      "type": "choice",
+      "answers": [
+        "De huisarts",
+        "De makelaar",
+        "De conducteur",
+        "De notaris"
+      ],
+      "correct": 0,
+      "explanation": "Huisarts kan adviseren",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-5-078",
+      "topic": "dienstverlening-in-nederland",
+      "chapter": 5,
+      "scenario": "Hoofdstuk 5 - Thuiszorg, verpleeghuis en CIZ",
+      "question": "Voor langdurige zorg/opname kan een beoordeling nodig zijn. Welke organisatie wordt in de leerstof genoemd?",
+      "type": "choice",
+      "answers": [
+        "CIZ",
+        "NS",
+        "KNVB",
+        "RDW"
+      ],
+      "correct": 0,
+      "explanation": "CIZ",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-5-079",
+      "topic": "dienstverlening-in-nederland",
+      "chapter": 5,
+      "scenario": "Hoofdstuk 5 - Thuiszorg, verpleeghuis en CIZ",
+      "question": "Waar of niet waar: Thuiszorg kan helpen met dagelijkse verzorging en huishoudelijke ondersteuning, afhankelijk van de situatie.",
+      "type": "choice",
+      "answers": [
+        "Waar",
+        "Niet waar"
+      ],
+      "correct": 0,
+      "explanation": "Thuiszorg = ondersteuning thuis",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-5-080",
+      "topic": "dienstverlening-in-nederland",
+      "chapter": 5,
+      "scenario": "Hoofdstuk 5 - Advocaat, Juridisch Loket en juridische hulp",
+      "question": "Karim heeft een ernstig juridisch probleem met zijn verblijfsvergunning. Wie kan hem juridisch helpen?",
+      "type": "choice",
+      "answers": [
+        "Een advocaat",
+        "Een apotheker",
+        "Een fysiotherapeut",
+        "Een conducteur"
+      ],
+      "correct": 0,
+      "explanation": "Juridisch verblijfsprobleem → advocaat",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-5-081",
+      "topic": "dienstverlening-in-nederland",
+      "chapter": 5,
+      "scenario": "Hoofdstuk 5 - Advocaat, Juridisch Loket en juridische hulp",
+      "question": "Eva wil scheiden en heeft juridische vragen. Waar kan zij hulp zoeken?",
+      "type": "choice",
+      "answers": [
+        "Bij een advocaat of het Juridisch Loket",
+        "Alleen bij de tandarts",
+        "Alleen bij de bank",
+        "Bij de bibliotheek voor een verblijfsvergunning"
+      ],
+      "correct": 0,
+      "explanation": "Scheiding → juridische hulp",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-5-082",
+      "topic": "dienstverlening-in-nederland",
+      "chapter": 5,
+      "scenario": "Hoofdstuk 5 - Advocaat, Juridisch Loket en juridische hulp",
+      "question": "Peter heeft ruzie met zijn werkgever en is ontslagen. Hij wil weten wat zijn rechten zijn. Waar kan hij juridische informatie krijgen?",
+      "type": "choice",
+      "answers": [
+        "Juridisch Loket of advocaat",
+        "Huisartsenpost",
+        "Apotheek",
+        "Politie voor een paspoort"
+      ],
+      "correct": 0,
+      "explanation": "Arbeidsconflict → Juridisch Loket/advocaat",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-5-083",
+      "topic": "dienstverlening-in-nederland",
+      "chapter": 5,
+      "scenario": "Hoofdstuk 5 - Advocaat, Juridisch Loket en juridische hulp",
+      "question": "Sanne koopt een auto, maar er blijken ernstige gebreken te zijn en de garage wil niets doen. Zij wil juridisch advies. Waar kan zij terecht?",
+      "type": "choice",
+      "answers": [
+        "Juridisch Loket of advocaat",
+        "Bij de tandarts",
+        "Bij het zwembad",
+        "Bij de bibliotheek"
+      ],
+      "correct": 0,
+      "explanation": "Consumenten-/garageprobleem → juridisch advies",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-5-084",
+      "topic": "dienstverlening-in-nederland",
+      "chapter": 5,
+      "scenario": "Hoofdstuk 5 - Advocaat, Juridisch Loket en juridische hulp",
+      "question": "Wat doet het Juridisch Loket?",
+      "type": "choice",
+      "answers": [
+        "Juridische informatie en advies geven",
+        "Verblijfsvergunningen afgeven",
+        "Paspoorten maken",
+        "Medicijnen voorschrijven"
+      ],
+      "correct": 0,
+      "explanation": "Juridisch Loket = informatie/advies",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-5-085",
+      "topic": "dienstverlening-in-nederland",
+      "chapter": 5,
+      "scenario": "Hoofdstuk 5 - Advocaat, Juridisch Loket en juridische hulp",
+      "question": "Iemand heeft een laag inkomen en heeft juridische hulp nodig. Wat kan relevant zijn?",
+      "type": "choice",
+      "answers": [
+        "Informeren naar gesubsidieerde of betaalbare juridische hulp",
+        "Altijd zelf alles betalen zonder informatie te vragen",
+        "112 bellen voor elk juridisch probleem",
+        "Een zorgtoeslag aanvragen bij de bank"
+      ],
+      "correct": 0,
+      "explanation": "Lage inkomsten → informeren naar betaalbare rechtsbijstand",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-5-086",
+      "topic": "dienstverlening-in-nederland",
+      "chapter": 5,
+      "scenario": "Hoofdstuk 5 - Advocaat, Juridisch Loket en juridische hulp",
+      "question": "Waar of niet waar: Een advocaat kan helpen bij een rechtszaak.",
+      "type": "choice",
+      "answers": [
+        "Waar",
+        "Niet waar"
+      ],
+      "correct": 0,
+      "explanation": "Advocaat helpt bij rechtszaak",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-5-087",
+      "topic": "dienstverlening-in-nederland",
+      "chapter": 5,
+      "scenario": "Hoofdstuk 5 - Psychische en sociale problemen",
+      "question": "Anna is al weken erg moe, bang en somber en heeft nergens zin in. Wat is een goede eerste stap?",
+      "type": "choice",
+      "answers": [
+        "Een afspraak maken met de huisarts",
+        "Een hypotheek aanvragen",
+        "De gemeente bellen voor een paspoort",
+        "Alleen haar bankrekening controleren"
+      ],
+      "correct": 0,
+      "explanation": "Psychische klachten → huisarts",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-5-088",
+      "topic": "dienstverlening-in-nederland",
+      "chapter": 5,
+      "scenario": "Hoofdstuk 5 - Psychische en sociale problemen",
+      "question": "De huisarts denkt dat Anna psychische hulp nodig heeft. Wat kan hij doen?",
+      "type": "choice",
+      "answers": [
+        "Haar doorverwijzen",
+        "Haar rijbewijs innemen",
+        "Haar huur verhogen",
+        "Haar bankrekening blokkeren"
+      ],
+      "correct": 0,
+      "explanation": "Huisarts kan doorverwijzen",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-5-089",
+      "topic": "dienstverlening-in-nederland",
+      "chapter": 5,
+      "scenario": "Hoofdstuk 5 - Psychische en sociale problemen",
+      "question": "Mark heeft problemen op zijn werk en thuis en wil met iemand praten. Welke hulp wordt in de leerstof genoemd?",
+      "type": "choice",
+      "answers": [
+        "Maatschappelijk werk",
+        "Makelaar",
+        "Notaris",
+        "Conducteur"
+      ],
+      "correct": 0,
+      "explanation": "Maatschappelijk werk",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-5-090",
+      "topic": "dienstverlening-in-nederland",
+      "chapter": 5,
+      "scenario": "Hoofdstuk 5 - Psychische en sociale problemen",
+      "question": "Iemand heeft een depressie en heeft therapie nodig. Welke sector kan daarbij helpen?",
+      "type": "choice",
+      "answers": [
+        "GGZ",
+        "Huurcommissie",
+        "Belastingdienst",
+        "Bank"
+      ],
+      "correct": 0,
+      "explanation": "GGZ",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-5-091",
+      "topic": "dienstverlening-in-nederland",
+      "chapter": 5,
+      "scenario": "Hoofdstuk 5 - Psychische en sociale problemen",
+      "question": "Waar of niet waar: Bij langdurige psychische klachten kan de huisarts een belangrijk eerste aanspreekpunt zijn.",
+      "type": "choice",
+      "answers": [
+        "Waar",
+        "Niet waar"
+      ],
+      "correct": 0,
+      "explanation": "Huisarts vaak eerste aanspreekpunt",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-5-092",
+      "topic": "dienstverlening-in-nederland",
+      "chapter": 5,
+      "scenario": "Hoofdstuk 5 - Gemengde KNM-situatievragen",
+      "question": "Nora's paspoort is gestolen. Wat is een logische combinatie van acties?",
+      "type": "choice",
+      "answers": [
+        "Aangifte doen en bij de gemeente informatie vragen over een nieuw paspoort",
+        "Alleen de tandarts bellen",
+        "Alleen huurtoeslag aanvragen",
+        "Een bankrekening openen"
+      ],
+      "correct": 0,
+      "explanation": "Paspoort weg → politie + gemeente",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-5-093",
+      "topic": "dienstverlening-in-nederland",
+      "chapter": 5,
+      "scenario": "Hoofdstuk 5 - Gemengde KNM-situatievragen",
+      "question": "Tom krijgt iedere maand dezelfde energierekening en wil niet steeds handmatig betalen. Wat kan hij regelen?",
+      "type": "choice",
+      "answers": [
+        "Automatische incasso",
+        "Naturalisatie",
+        "Een verblijfsvergunning",
+        "Een aangifte"
+      ],
+      "correct": 0,
+      "explanation": "Vaste rekening → automatische incasso",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-5-094",
+      "topic": "dienstverlening-in-nederland",
+      "chapter": 5,
+      "scenario": "Hoofdstuk 5 - Gemengde KNM-situatievragen",
+      "question": "Sofia wil online haar toeslagen regelen. Wat heeft ze nodig?",
+      "type": "choice",
+      "answers": [
+        "DigiD",
+        "Een recept",
+        "Een patiëntenpas",
+        "Een vervoersbewijs"
+      ],
+      "correct": 0,
+      "explanation": "Toeslagen online → DigiD",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-5-095",
+      "topic": "dienstverlening-in-nederland",
+      "chapter": 5,
+      "scenario": "Hoofdstuk 5 - Gemengde KNM-situatievragen",
+      "question": "Ali krijgt een brief van de Belastingdienst maar begrijpt niet hoe hij zijn aangifte moet doen. Wat kan hij doen?",
+      "type": "choice",
+      "answers": [
+        "Hulp of informatie vragen bij de Belastingdienst",
+        "De brief weggooien",
+        "112 bellen",
+        "Zijn pinpas blokkeren"
+      ],
+      "correct": 0,
+      "explanation": "Belastingdienst kan informatie/hulp geven",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-5-096",
+      "topic": "dienstverlening-in-nederland",
+      "chapter": 5,
+      "scenario": "Hoofdstuk 5 - Gemengde KNM-situatievragen",
+      "question": "Maria's bankpas is gestolen. Welke twee acties passen het beste?",
+      "type": "choice",
+      "answers": [
+        "Bankpas blokkeren en aangifte doen",
+        "Zorgtoeslag aanvragen en verhuizen",
+        "Naar de huisarts en daarna naar de tandarts",
+        "Een hypotheek aanvragen en de gemeente bellen"
+      ],
+      "correct": 0,
+      "explanation": "Gestolen pinpas → blokkeren + aangifte",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-5-097",
+      "topic": "dienstverlening-in-nederland",
+      "chapter": 5,
+      "scenario": "Hoofdstuk 5 - Gemengde KNM-situatievragen",
+      "question": "Ahmed wil weten wie beslist over zijn verblijfsvergunning. Welke instantie zoekt hij?",
+      "type": "choice",
+      "answers": [
+        "IND",
+        "SVB",
+        "Huurcommissie",
+        "GGZ"
+      ],
+      "correct": 0,
+      "explanation": "Verblijfsvergunning → IND",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-5-098",
+      "topic": "dienstverlening-in-nederland",
+      "chapter": 5,
+      "scenario": "Hoofdstuk 5 - Gemengde KNM-situatievragen",
+      "question": "Fatima heeft ernstige opvoedingsproblemen met haar zoon en weet niet meer wat ze moet doen. Waar kan ze hulp vragen?",
+      "type": "choice",
+      "answers": [
+        "Jeugdhulp/jeugdzorg",
+        "De bank",
+        "De notaris",
+        "De apotheek"
+      ],
+      "correct": 0,
+      "explanation": "Opvoeding → jeugdhulp",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-5-099",
+      "topic": "dienstverlening-in-nederland",
+      "chapter": 5,
+      "scenario": "Hoofdstuk 5 - Gemengde KNM-situatievragen",
+      "question": "De vader van Jeroen is oud en kan niet meer zelfstandig thuis wonen. Welke route past het best?",
+      "type": "choice",
+      "answers": [
+        "Zorg bespreken met huisarts/gemeente en kijken naar passende langdurige zorg",
+        "Alleen een rijbewijs aanvragen",
+        "De politie bellen voor een toeslag",
+        "Een hypotheek afsluiten"
+      ],
+      "correct": 0,
+      "explanation": "Ouderenzorg → huisarts/gemeente/langdurige zorg",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-5-100",
+      "topic": "dienstverlening-in-nederland",
+      "chapter": 5,
+      "scenario": "Hoofdstuk 5 - Gemengde KNM-situatievragen",
+      "question": "Lina is ontslagen en denkt dat haar werkgever haar rechten niet respecteert. Waar kan zij juridische informatie vragen?",
+      "type": "choice",
+      "answers": [
+        "Juridisch Loket",
+        "Apotheek",
+        "Bibliotheek",
+        "Gemeente voor een pasfoto"
+      ],
+      "correct": 0,
+      "explanation": "Arbeidsrechtelijk probleem → Juridisch Loket",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-6-001",
       "topic": "opvoeding-en-onderwijs-in-nederland",
       "chapter": 6,
-      "scenario": "原创模拟题 - Onderwijs",
-      "question": "Wat betekent leerplicht?",
+      "scenario": "Hoofdstuk 6 - Leeftijd en ontwikkeling",
+      "question": "Sara heeft een baby van zes maanden oud. Tot welke leeftijdsgroep hoort haar kind?",
       "type": "choice",
       "answers": [
-        "Kinderen moeten naar school.",
-        "Kinderen mogen niet spelen.",
-        "Ouders hoeven niets te doen."
+        "Baby",
+        "Peuter",
+        "Kleuter",
+        "Puber"
       ],
       "correct": 0,
-      "explanation": "leerplicht 是义务教育，家长要确保孩子上学。",
-      "source": "原创模拟题"
+      "explanation": "0–1 jaar = baby",
+      "source": "原创场景模拟题"
     },
     {
-      "id": "gen-education-2",
+      "id": "scenario-6-002",
       "topic": "opvoeding-en-onderwijs-in-nederland",
       "chapter": 6,
-      "scenario": "原创模拟题 - Onderwijs",
-      "question": "Waar gaan baby's en jonge kinderen vaak voor controles naartoe?",
+      "scenario": "Hoofdstuk 6 - Leeftijd en ontwikkeling",
+      "question": "De zoon van Karim is drie jaar oud. Hoe noem je een kind van deze leeftijd?",
       "type": "choice",
       "answers": [
-        "Naar het consultatiebureau.",
-        "Naar het UWV.",
-        "Naar de rechtbank."
+        "Peuter",
+        "Baby",
+        "Schoolkind",
+        "Puber"
       ],
       "correct": 0,
-      "explanation": "consultatiebureau 负责 0-4 岁儿童健康检查和成长建议。",
-      "source": "原创模拟题"
+      "explanation": "1–4 jaar = peuter",
+      "source": "原创场景模拟题"
     },
     {
-      "id": "gen-education-3",
+      "id": "scenario-6-003",
       "topic": "opvoeding-en-onderwijs-in-nederland",
       "chapter": 6,
-      "scenario": "原创模拟题 - Onderwijs",
-      "question": "Wat is een ouderavond?",
+      "scenario": "Hoofdstuk 6 - Leeftijd en ontwikkeling",
+      "question": "Emma heeft een dochter van vijf jaar. Tot welke groep hoort zij?",
       "type": "choice",
       "answers": [
-        "Een bijeenkomst voor ouders op school.",
-        "Een avond bij de bank.",
-        "Een afspraak bij de notaris."
+        "Kleuter",
+        "Peuter",
+        "Puber",
+        "Volwassene"
       ],
       "correct": 0,
-      "explanation": "ouderavond 是学校和家长沟通孩子学习情况的场合。",
-      "source": "原创模拟题"
+      "explanation": "4–6 jaar = kleuter",
+      "source": "原创场景模拟题"
     },
     {
-      "id": "gen-education-4",
+      "id": "scenario-6-004",
       "topic": "opvoeding-en-onderwijs-in-nederland",
       "chapter": 6,
-      "scenario": "原创模拟题 - Onderwijs",
-      "question": "Welke route is beroepsgericht?",
+      "scenario": "Hoofdstuk 6 - Leeftijd en ontwikkeling",
+      "question": "De zoon van Peter is tien jaar oud. Hoe noem je hem volgens de leerstof?",
       "type": "choice",
       "answers": [
-        "MBO.",
-        "Gemeenteraad.",
-        "Huurtoeslag."
+        "Schoolkind",
+        "Baby",
+        "Peuter",
+        "Puber"
       ],
       "correct": 0,
-      "explanation": "MBO 是职业教育路线，偏实践和职业技能。",
-      "source": "原创模拟题"
+      "explanation": "6–12 jaar = schoolkind",
+      "source": "原创场景模拟题"
     },
     {
-      "id": "gen-work-1",
+      "id": "scenario-6-005",
+      "topic": "opvoeding-en-onderwijs-in-nederland",
+      "chapter": 6,
+      "scenario": "Hoofdstuk 6 - Leeftijd en ontwikkeling",
+      "question": "Lina heeft een dochter van vijftien jaar. In welke levensfase zit zij?",
+      "type": "choice",
+      "answers": [
+        "Puberteit / puber",
+        "Kleutertijd",
+        "Babytijd",
+        "Peuterleeftijd"
+      ],
+      "correct": 0,
+      "explanation": "12–18 jaar = puber",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-6-006",
+      "topic": "opvoeding-en-onderwijs-in-nederland",
+      "chapter": 6,
+      "scenario": "Hoofdstuk 6 - Leeftijd en ontwikkeling",
+      "question": "Amir wordt achttien jaar. Wat betekent dat juridisch in de leerstof?",
+      "type": "choice",
+      "answers": [
+        "Hij is volwassen",
+        "Hij is nog een kleuter",
+        "Hij hoeft nooit verantwoordelijkheid te nemen",
+        "Hij moet terug naar de basisschool"
+      ],
+      "correct": 0,
+      "explanation": "18 jaar = volwassen",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-6-007",
+      "topic": "opvoeding-en-onderwijs-in-nederland",
+      "chapter": 6,
+      "scenario": "Hoofdstuk 6 - Leeftijd en ontwikkeling",
+      "question": "Waar of niet waar: Een kind van drie jaar is volgens deze indeling een peuter.",
+      "type": "choice",
+      "answers": [
+        "Waar",
+        "Niet waar"
+      ],
+      "correct": 0,
+      "explanation": "3 jaar = peuter",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-6-008",
+      "topic": "opvoeding-en-onderwijs-in-nederland",
+      "chapter": 6,
+      "scenario": "Hoofdstuk 6 - Leeftijd en ontwikkeling",
+      "question": "Waar of niet waar: Een kind van dertien jaar is een puber.",
+      "type": "choice",
+      "answers": [
+        "Waar",
+        "Niet waar"
+      ],
+      "correct": 0,
+      "explanation": "13 jaar = puber",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-6-009",
+      "topic": "opvoeding-en-onderwijs-in-nederland",
+      "chapter": 6,
+      "scenario": "Hoofdstuk 6 - Zwangerschap, verloskundige en bevalling",
+      "question": "Fatima is zwanger en wil controles tijdens haar zwangerschap. Bij wie kan zij terecht?",
+      "type": "choice",
+      "answers": [
+        "Een verloskundige",
+        "Een makelaar",
+        "Een politieagent",
+        "Een conducteur"
+      ],
+      "correct": 0,
+      "explanation": "Zwangerschap → verloskundige",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-6-010",
+      "topic": "opvoeding-en-onderwijs-in-nederland",
+      "chapter": 6,
+      "scenario": "Hoofdstuk 6 - Zwangerschap, verloskundige en bevalling",
+      "question": "Wat doet een verloskundige tijdens een normale zwangerschap?",
+      "type": "choice",
+      "answers": [
+        "Controles doen en advies geven",
+        "Een rijbewijs uitgeven",
+        "Een huis verkopen",
+        "Een belastingaangifte invullen"
+      ],
+      "correct": 0,
+      "explanation": "Verloskundige = controles en advies",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-6-011",
+      "topic": "opvoeding-en-onderwijs-in-nederland",
+      "chapter": 6,
+      "scenario": "Hoofdstuk 6 - Zwangerschap, verloskundige en bevalling",
+      "question": "Nadia is zwanger en alles gaat goed. Waar kan zij volgens de leerstof bevallen?",
+      "type": "choice",
+      "answers": [
+        "Thuis of in het ziekenhuis",
+        "Alleen bij de gemeente",
+        "Alleen op school",
+        "Alleen bij de apotheek"
+      ],
+      "correct": 0,
+      "explanation": "Normale bevalling thuis of ziekenhuis mogelijk",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-6-012",
+      "topic": "opvoeding-en-onderwijs-in-nederland",
+      "chapter": 6,
+      "scenario": "Hoofdstuk 6 - Zwangerschap, verloskundige en bevalling",
+      "question": "Tijdens de zwangerschap van Maria ontstaan medische problemen. Naar wie kan zij worden verwezen?",
+      "type": "choice",
+      "answers": [
+        "Een gynaecoloog",
+        "Een makelaar",
+        "Een tandarts voor schooladvies",
+        "Een conducteur"
+      ],
+      "correct": 0,
+      "explanation": "Problemen → gynaecoloog",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-6-013",
+      "topic": "opvoeding-en-onderwijs-in-nederland",
+      "chapter": 6,
+      "scenario": "Hoofdstuk 6 - Zwangerschap, verloskundige en bevalling",
+      "question": "Sophie verwacht over enkele maanden een baby. Ze wil na de geboorte hulp thuis. Wat moet zij regelen?",
+      "type": "choice",
+      "answers": [
+        "Kraamzorg",
+        "Een urgentieverklaring",
+        "Een rijbewijs",
+        "Een huurcontract"
+      ],
+      "correct": 0,
+      "explanation": "Hulp na geboorte → kraamzorg",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-6-014",
+      "topic": "opvoeding-en-onderwijs-in-nederland",
+      "chapter": 6,
+      "scenario": "Hoofdstuk 6 - Zwangerschap, verloskundige en bevalling",
+      "question": "Wat doet kraamzorg?",
+      "type": "choice",
+      "answers": [
+        "Helpen in de eerste periode na de geboorte van de baby",
+        "Een baby inschrijven op de middelbare school",
+        "Een hypotheek regelen",
+        "De belasting controleren"
+      ],
+      "correct": 0,
+      "explanation": "Kraamzorg helpt na geboorte",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-6-015",
+      "topic": "opvoeding-en-onderwijs-in-nederland",
+      "chapter": 6,
+      "scenario": "Hoofdstuk 6 - Zwangerschap, verloskundige en bevalling",
+      "question": "Eva is zwanger. Wie betaalt volgens de leerstof veel kosten van controles en bevalling?",
+      "type": "choice",
+      "answers": [
+        "De zorgverzekering",
+        "De bibliotheek",
+        "De school",
+        "De politie"
+      ],
+      "correct": 0,
+      "explanation": "Zorgverzekering betaalt veel medische kosten",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-6-016",
+      "topic": "opvoeding-en-onderwijs-in-nederland",
+      "chapter": 6,
+      "scenario": "Hoofdstuk 6 - Zwangerschap, verloskundige en bevalling",
+      "question": "Waar of niet waar: Een verloskundige helpt zwangere vrouwen tijdens de zwangerschap en rond de bevalling.",
+      "type": "choice",
+      "answers": [
+        "Waar",
+        "Niet waar"
+      ],
+      "correct": 0,
+      "explanation": "Verloskundige begeleidt zwangerschap",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-6-017",
+      "topic": "opvoeding-en-onderwijs-in-nederland",
+      "chapter": 6,
+      "scenario": "Hoofdstuk 6 - Zwangerschap, verloskundige en bevalling",
+      "question": "Waar of niet waar: Bij problemen tijdens de zwangerschap kan een gynaecoloog in het ziekenhuis nodig zijn.",
+      "type": "choice",
+      "answers": [
+        "Waar",
+        "Niet waar"
+      ],
+      "correct": 0,
+      "explanation": "Problemen → specialist/gynaecoloog",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-6-018",
+      "topic": "opvoeding-en-onderwijs-in-nederland",
+      "chapter": 6,
+      "scenario": "Hoofdstuk 6 - Consultatiebureau",
+      "question": "De baby van Noor is drie maanden oud. Waar kan zij terecht voor controles van groei en gezondheid?",
+      "type": "choice",
+      "answers": [
+        "Het consultatiebureau",
+        "De middelbare school",
+        "Het UWV",
+        "De bank"
+      ],
+      "correct": 0,
+      "explanation": "Jonge kinderen → consultatiebureau",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-6-019",
+      "topic": "opvoeding-en-onderwijs-in-nederland",
+      "chapter": 6,
+      "scenario": "Hoofdstuk 6 - Consultatiebureau",
+      "question": "Bij het consultatiebureau wordt de baby gewogen en gemeten. Waarom?",
+      "type": "choice",
+      "answers": [
+        "Om de groei te controleren",
+        "Om een paspoort te maken",
+        "Om schooladvies te geven",
+        "Om een hypotheek te berekenen"
+      ],
+      "correct": 0,
+      "explanation": "Wegen/meten = groei",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-6-020",
+      "topic": "opvoeding-en-onderwijs-in-nederland",
+      "chapter": 6,
+      "scenario": "Hoofdstuk 6 - Consultatiebureau",
+      "question": "De zoon van Omar is twee jaar en praat nog weinig. Waar kunnen ouders advies vragen over zijn ontwikkeling?",
+      "type": "choice",
+      "answers": [
+        "Het consultatiebureau",
+        "De Belastingdienst",
+        "De notaris",
+        "De Huurcommissie"
+      ],
+      "correct": 0,
+      "explanation": "Ontwikkeling → consultatiebureau",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-6-021",
+      "topic": "opvoeding-en-onderwijs-in-nederland",
+      "chapter": 6,
+      "scenario": "Hoofdstuk 6 - Consultatiebureau",
+      "question": "Waarover kan het consultatiebureau ouders advies geven?",
+      "type": "choice",
+      "answers": [
+        "Voeding, slapen en ontwikkeling",
+        "Hypotheken",
+        "Verkeersboetes",
+        "Belastingaangifte"
+      ],
+      "correct": 0,
+      "explanation": "Advies voeding/slapen/ontwikkeling",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-6-022",
+      "topic": "opvoeding-en-onderwijs-in-nederland",
+      "chapter": 6,
+      "scenario": "Hoofdstuk 6 - Consultatiebureau",
+      "question": "De dochter van Lisa krijgt een prik tegen een ziekte. Hoe heet zo'n prik?",
+      "type": "choice",
+      "answers": [
+        "Vaccinatie",
+        "Hypotheek",
+        "Machtiging",
+        "Toeslag"
+      ],
+      "correct": 0,
+      "explanation": "Prik = vaccinatie",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-6-023",
+      "topic": "opvoeding-en-onderwijs-in-nederland",
+      "chapter": 6,
+      "scenario": "Hoofdstuk 6 - Consultatiebureau",
+      "question": "Ouders krijgen informatie en afspraken over de groei van hun kind. Waar kan dat worden bijgehouden?",
+      "type": "choice",
+      "answers": [
+        "In een groeiboekje",
+        "In een huurcontract",
+        "In een rijbewijs",
+        "In een belastingaangifte"
+      ],
+      "correct": 0,
+      "explanation": "Groeiboekje",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-6-024",
+      "topic": "opvoeding-en-onderwijs-in-nederland",
+      "chapter": 6,
+      "scenario": "Hoofdstuk 6 - Consultatiebureau",
+      "question": "Waar of niet waar: Het consultatiebureau is vooral bedoeld voor jonge kinderen.",
+      "type": "choice",
+      "answers": [
+        "Waar",
+        "Niet waar"
+      ],
+      "correct": 0,
+      "explanation": "Consultatiebureau voor jonge kinderen",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-6-025",
+      "topic": "opvoeding-en-onderwijs-in-nederland",
+      "chapter": 6,
+      "scenario": "Hoofdstuk 6 - Consultatiebureau",
+      "question": "Waar of niet waar: Het consultatiebureau kan de ontwikkeling van een kind volgen.",
+      "type": "choice",
+      "answers": [
+        "Waar",
+        "Niet waar"
+      ],
+      "correct": 0,
+      "explanation": "Ontwikkeling volgen",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-6-026",
+      "topic": "opvoeding-en-onderwijs-in-nederland",
+      "chapter": 6,
+      "scenario": "Hoofdstuk 6 - Kinderopvang",
+      "question": "Peter en Aisha werken allebei en hebben een baby. Wat moeten zij regelen?",
+      "type": "choice",
+      "answers": [
+        "Kinderopvang",
+        "Een hypotheek",
+        "Een rijbewijs",
+        "Een verblijfsvergunning voor de baby bij de school"
+      ],
+      "correct": 0,
+      "explanation": "Werkende ouders → kinderopvang",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-6-027",
+      "topic": "opvoeding-en-onderwijs-in-nederland",
+      "chapter": 6,
+      "scenario": "Hoofdstuk 6 - Kinderopvang",
+      "question": "Een buurvrouw past tegen betaling op de baby van Fatima. Welke vorm van opvang kan dit zijn?",
+      "type": "choice",
+      "answers": [
+        "Oppas",
+        "Middelbare school",
+        "Universiteit",
+        "Gemeenteraad"
+      ],
+      "correct": 0,
+      "explanation": "Oppas",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-6-028",
+      "topic": "opvoeding-en-onderwijs-in-nederland",
+      "chapter": 6,
+      "scenario": "Hoofdstuk 6 - Kinderopvang",
+      "question": "Lina brengt haar tweejarige dochter overdag naar een plek waar kinderen spelen, eten en slapen onder begeleiding. Wat is dit?",
+      "type": "choice",
+      "answers": [
+        "Een kinderdagverblijf",
+        "Een middelbare school",
+        "Een verpleeghuis",
+        "Een apotheek"
+      ],
+      "correct": 0,
+      "explanation": "Kinderdagverblijf",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-6-029",
+      "topic": "opvoeding-en-onderwijs-in-nederland",
+      "chapter": 6,
+      "scenario": "Hoofdstuk 6 - Kinderopvang",
+      "question": "De zoon van Ahmed is zeven jaar. Na school werken beide ouders nog. Welke opvang past het beste?",
+      "type": "choice",
+      "answers": [
+        "Buitenschoolse opvang (BSO)",
+        "Consultatiebureau",
+        "Kraamzorg",
+        "Verloskundige"
+      ],
+      "correct": 0,
+      "explanation": "Na school → BSO",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-6-030",
+      "topic": "opvoeding-en-onderwijs-in-nederland",
+      "chapter": 6,
+      "scenario": "Hoofdstuk 6 - Kinderopvang",
+      "question": "Wanneer is buitenschoolse opvang vooral bedoeld?",
+      "type": "choice",
+      "answers": [
+        "Buiten schooltijden",
+        "Alleen tijdens de geboorte",
+        "Alleen voor baby's",
+        "Alleen voor studenten"
+      ],
+      "correct": 0,
+      "explanation": "BSO = buiten schooltijd",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-6-031",
+      "topic": "opvoeding-en-onderwijs-in-nederland",
+      "chapter": 6,
+      "scenario": "Hoofdstuk 6 - Kinderopvang",
+      "question": "Sophie is nog zwanger maar wil zeker zijn van een plaats in de kinderopvang. Wat kan zij volgens de leerstof doen?",
+      "type": "choice",
+      "answers": [
+        "Haar kind al inschrijven",
+        "Wachten tot het kind twaalf is",
+        "Eerst naar de universiteit gaan",
+        "Een politieaangifte doen"
+      ],
+      "correct": 0,
+      "explanation": "Vroeg inschrijven mogelijk",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-6-032",
+      "topic": "opvoeding-en-onderwijs-in-nederland",
+      "chapter": 6,
+      "scenario": "Hoofdstuk 6 - Kinderopvang",
+      "question": "Waar kan een ouder informatie vinden over dagen, prijzen en activiteiten van een kinderdagverblijf?",
+      "type": "choice",
+      "answers": [
+        "Op internet of bij de opvang zelf",
+        "Alleen bij de politie",
+        "Alleen bij de tandarts",
+        "Alleen bij de bank"
+      ],
+      "correct": 0,
+      "explanation": "Informatie via internet/opvang",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-6-033",
+      "topic": "opvoeding-en-onderwijs-in-nederland",
+      "chapter": 6,
+      "scenario": "Hoofdstuk 6 - Kinderopvang",
+      "question": "Wat moet een ouder meestal doen om een kind bij een kinderopvang in te schrijven?",
+      "type": "choice",
+      "answers": [
+        "Een formulier invullen",
+        "Een paspoort verbranden",
+        "Een zorgverzekering opzeggen",
+        "Een treinabonnement nemen"
+      ],
+      "correct": 0,
+      "explanation": "Inschrijven met formulier",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-6-034",
+      "topic": "opvoeding-en-onderwijs-in-nederland",
+      "chapter": 6,
+      "scenario": "Hoofdstuk 6 - Kinderopvang",
+      "question": "Waar of niet waar: Kinderopvang kan nodig zijn als ouders werken.",
+      "type": "choice",
+      "answers": [
+        "Waar",
+        "Niet waar"
+      ],
+      "correct": 0,
+      "explanation": "Kinderopvang bij werk ouders",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-6-035",
+      "topic": "opvoeding-en-onderwijs-in-nederland",
+      "chapter": 6,
+      "scenario": "Hoofdstuk 6 - Kinderopvang",
+      "question": "Waar of niet waar: BSO is bedoeld voor kinderen na schooltijd.",
+      "type": "choice",
+      "answers": [
+        "Waar",
+        "Niet waar"
+      ],
+      "correct": 0,
+      "explanation": "BSO na school",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-6-036",
+      "topic": "opvoeding-en-onderwijs-in-nederland",
+      "chapter": 6,
+      "scenario": "Hoofdstuk 6 - Kinderopvangtoeslag, kinderbijslag en ondersteuning",
+      "question": "Kinderopvang kost veel geld. Welke financiële ondersteuning kan voor werkende ouders relevant zijn?",
+      "type": "choice",
+      "answers": [
+        "Kinderopvangtoeslag",
+        "Huurcontract",
+        "Zorgpas",
+        "Hypotheek"
+      ],
+      "correct": 0,
+      "explanation": "Kinderopvang → kinderopvangtoeslag",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-6-037",
+      "topic": "opvoeding-en-onderwijs-in-nederland",
+      "chapter": 6,
+      "scenario": "Hoofdstuk 6 - Kinderopvangtoeslag, kinderbijslag en ondersteuning",
+      "question": "Bij welke organisatie vraag je kinderopvangtoeslag aan?",
+      "type": "choice",
+      "answers": [
+        "De Belastingdienst",
+        "De politie",
+        "De tandarts",
+        "De bibliotheek"
+      ],
+      "correct": 0,
+      "explanation": "Toeslag → Belastingdienst",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-6-038",
+      "topic": "opvoeding-en-onderwijs-in-nederland",
+      "chapter": 6,
+      "scenario": "Hoofdstuk 6 - Kinderopvangtoeslag, kinderbijslag en ondersteuning",
+      "question": "Een gezin met kinderen krijgt periodiek geld om mee te helpen met de kosten van kinderen. Hoe heet dit?",
+      "type": "choice",
+      "answers": [
+        "Kinderbijslag",
+        "Zorgtoeslag",
+        "Huurtoeslag",
+        "Rente"
+      ],
+      "correct": 0,
+      "explanation": "Kinderbijslag",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-6-039",
+      "topic": "opvoeding-en-onderwijs-in-nederland",
+      "chapter": 6,
+      "scenario": "Hoofdstuk 6 - Kinderopvangtoeslag, kinderbijslag en ondersteuning",
+      "question": "Welke organisatie betaalt kinderbijslag?",
+      "type": "choice",
+      "answers": [
+        "De Sociale Verzekeringsbank (SVB)",
+        "De politie",
+        "De school",
+        "De apotheek"
+      ],
+      "correct": 0,
+      "explanation": "Kinderbijslag → SVB",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-6-040",
+      "topic": "opvoeding-en-onderwijs-in-nederland",
+      "chapter": 6,
+      "scenario": "Hoofdstuk 6 - Kinderopvangtoeslag, kinderbijslag en ondersteuning",
+      "question": "Waarom krijgen ouders kinderbijslag?",
+      "type": "choice",
+      "answers": [
+        "Om mee te helpen met kosten voor kinderen",
+        "Om een auto te kopen",
+        "Om een hypotheek volledig af te betalen",
+        "Om een vakantie te betalen"
+      ],
+      "correct": 0,
+      "explanation": "Hulp bij kosten kinderen",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-6-041",
+      "topic": "opvoeding-en-onderwijs-in-nederland",
+      "chapter": 6,
+      "scenario": "Hoofdstuk 6 - Kinderopvangtoeslag, kinderbijslag en ondersteuning",
+      "question": "Een gezin verdient weinig en heeft kinderen. Welke extra ondersteuning wordt in de leerstof genoemd?",
+      "type": "choice",
+      "answers": [
+        "Kindgebonden budget",
+        "Rijbewijsbudget",
+        "Bibliotheekbudget",
+        "Vakantiebudget van de politie"
+      ],
+      "correct": 0,
+      "explanation": "Laag inkomen + kinderen → kindgebonden budget",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-6-042",
+      "topic": "opvoeding-en-onderwijs-in-nederland",
+      "chapter": 6,
+      "scenario": "Hoofdstuk 6 - Kinderopvangtoeslag, kinderbijslag en ondersteuning",
+      "question": "Waar of niet waar: Kinderopvangtoeslag en kinderbijslag zijn hetzelfde.",
+      "type": "choice",
+      "answers": [
+        "Waar",
+        "Niet waar"
+      ],
+      "correct": 1,
+      "explanation": "Verschillende regelingen",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-6-043",
+      "topic": "opvoeding-en-onderwijs-in-nederland",
+      "chapter": 6,
+      "scenario": "Hoofdstuk 6 - Kinderopvangtoeslag, kinderbijslag en ondersteuning",
+      "question": "Waar of niet waar: Kinderbijslag is bedoeld om ouders te helpen met de kosten van kinderen.",
+      "type": "choice",
+      "answers": [
+        "Waar",
+        "Niet waar"
+      ],
+      "correct": 0,
+      "explanation": "Kinderbijslag helpt kosten kinderen",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-6-044",
+      "topic": "opvoeding-en-onderwijs-in-nederland",
+      "chapter": 6,
+      "scenario": "Hoofdstuk 6 - Opvoeding en hulp bij problemen",
+      "question": "De zoon van Maria luistert nooit en maakt thuis veel ruzie. Wat kan Maria eerst doen?",
+      "type": "choice",
+      "answers": [
+        "Praten met school, huisarts of consultatiebureau",
+        "Meteen 112 bellen",
+        "Een hypotheek aanvragen",
+        "Haar kind van school halen"
+      ],
+      "correct": 0,
+      "explanation": "Eerst huisarts/school/consultatiebureau",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-6-045",
+      "topic": "opvoeding-en-onderwijs-in-nederland",
+      "chapter": 6,
+      "scenario": "Hoofdstuk 6 - Opvoeding en hulp bij problemen",
+      "question": "De opvoedingsproblemen worden ernstig en blijven bestaan. Waar kan het gezin professionele hulp vragen?",
+      "type": "choice",
+      "answers": [
+        "Jeugdhulp / jeugdzorg",
+        "De bank",
+        "De Huurcommissie",
+        "De apotheek"
+      ],
+      "correct": 0,
+      "explanation": "Ernstige opvoeding → jeugdhulp",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-6-046",
+      "topic": "opvoeding-en-onderwijs-in-nederland",
+      "chapter": 6,
+      "scenario": "Hoofdstuk 6 - Opvoeding en hulp bij problemen",
+      "question": "Een ouder slaat zijn kind regelmatig. Is dat toegestaan?",
+      "type": "choice",
+      "answers": [
+        "Nee",
+        "Ja, altijd",
+        "Alleen in het weekend",
+        "Alleen als het kind slecht scoort op school"
+      ],
+      "correct": 0,
+      "explanation": "Kind slaan niet toegestaan",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-6-047",
+      "topic": "opvoeding-en-onderwijs-in-nederland",
+      "chapter": 6,
+      "scenario": "Hoofdstuk 6 - Opvoeding en hulp bij problemen",
+      "question": "Een leraar vermoedt dat een kind thuis wordt mishandeld. Wat moet er gebeuren?",
+      "type": "choice",
+      "answers": [
+        "Hulp en bescherming voor het kind worden gezocht",
+        "Niemand mag er iets over zeggen",
+        "Het kind moet van school worden gestuurd",
+        "De ouders krijgen automatisch een hypotheek"
+      ],
+      "correct": 0,
+      "explanation": "Mishandeling → hulp/bescherming",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-6-048",
+      "topic": "opvoeding-en-onderwijs-in-nederland",
+      "chapter": 6,
+      "scenario": "Hoofdstuk 6 - Opvoeding en hulp bij problemen",
+      "question": "Wat betekent opvoeding?",
+      "type": "choice",
+      "answers": [
+        "Een kind begeleiden en leren wat wel en niet kan",
+        "Een huis kopen",
+        "Een rekening betalen",
+        "Een trein nemen"
+      ],
+      "correct": 0,
+      "explanation": "Opvoeding = begeleiden/leren",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-6-049",
+      "topic": "opvoeding-en-onderwijs-in-nederland",
+      "chapter": 6,
+      "scenario": "Hoofdstuk 6 - Opvoeding en hulp bij problemen",
+      "question": "Een peuter leert praten en spelen met andere kinderen. Wat hoort dit bij?",
+      "type": "choice",
+      "answers": [
+        "De ontwikkeling",
+        "De hypotheek",
+        "De belasting",
+        "De verzekering"
+      ],
+      "correct": 0,
+      "explanation": "Praten/spelen = ontwikkeling",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-6-050",
+      "topic": "opvoeding-en-onderwijs-in-nederland",
+      "chapter": 6,
+      "scenario": "Hoofdstuk 6 - Opvoeding en hulp bij problemen",
+      "question": "Wat is goed voor de ontwikkeling van een kind?",
+      "type": "choice",
+      "answers": [
+        "Spelen en contact met andere kinderen",
+        "Altijd alleen thuis zijn",
+        "Nooit bewegen",
+        "Nooit lezen"
+      ],
+      "correct": 0,
+      "explanation": "Sociaal contact + spelen",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-6-051",
+      "topic": "opvoeding-en-onderwijs-in-nederland",
+      "chapter": 6,
+      "scenario": "Hoofdstuk 6 - Opvoeding en hulp bij problemen",
+      "question": "Wat kunnen ouders doen om taalontwikkeling te stimuleren?",
+      "type": "choice",
+      "answers": [
+        "Voorlezen",
+        "Alleen televisie aanzetten",
+        "Nooit praten met het kind",
+        "Het kind uit school houden"
+      ],
+      "correct": 0,
+      "explanation": "Voorlezen",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-6-052",
+      "topic": "opvoeding-en-onderwijs-in-nederland",
+      "chapter": 6,
+      "scenario": "Hoofdstuk 6 - Opvoeding en hulp bij problemen",
+      "question": "Een kind beweegt weinig. Wat is een gezonde keuze?",
+      "type": "choice",
+      "answers": [
+        "Buiten spelen of sporten",
+        "De hele dag stilzitten",
+        "Alleen snoep eten",
+        "Niet meer naar school gaan"
+      ],
+      "correct": 0,
+      "explanation": "Bewegen/sport",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-6-053",
+      "topic": "opvoeding-en-onderwijs-in-nederland",
+      "chapter": 6,
+      "scenario": "Hoofdstuk 6 - Opvoeding en hulp bij problemen",
+      "question": "Waar of niet waar: Ouders mogen hun kinderen in Nederland niet slaan.",
+      "type": "choice",
+      "answers": [
+        "Waar",
+        "Niet waar"
+      ],
+      "correct": 0,
+      "explanation": "Kind slaan verboden",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-6-054",
+      "topic": "opvoeding-en-onderwijs-in-nederland",
+      "chapter": 6,
+      "scenario": "Hoofdstuk 6 - Opvoeding en hulp bij problemen",
+      "question": "Waar of niet waar: Spelen, lezen, bewegen en sociaal contact kunnen belangrijk zijn voor de ontwikkeling van een kind.",
+      "type": "choice",
+      "answers": [
+        "Waar",
+        "Niet waar"
+      ],
+      "correct": 0,
+      "explanation": "Ontwikkeling bevorderen",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-6-055",
+      "topic": "opvoeding-en-onderwijs-in-nederland",
+      "chapter": 6,
+      "scenario": "Hoofdstuk 6 - Verantwoordelijkheid van ouders",
+      "question": "De twaalfjarige zoon van Peter maakt expres een dure ruit kapot. Wie kan financieel verantwoordelijk zijn?",
+      "type": "choice",
+      "answers": [
+        "Zijn ouders",
+        "De huisarts",
+        "De bibliotheek",
+        "De koning"
+      ],
+      "correct": 0,
+      "explanation": "Ouders kunnen verantwoordelijk zijn",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-6-056",
+      "topic": "opvoeding-en-onderwijs-in-nederland",
+      "chapter": 6,
+      "scenario": "Hoofdstuk 6 - Verantwoordelijkheid van ouders",
+      "question": "Waarom zijn ouders verantwoordelijk voor jonge kinderen?",
+      "type": "choice",
+      "answers": [
+        "Kinderen zijn nog niet volledig zelfstandig",
+        "Omdat kinderen altijd een baan hebben",
+        "Omdat kinderen belasting betalen voor hun ouders",
+        "Omdat scholen nooit verantwoordelijk zijn voor iets"
+      ],
+      "correct": 0,
+      "explanation": "Kinderen nog niet volledig zelfstandig",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-6-057",
+      "topic": "opvoeding-en-onderwijs-in-nederland",
+      "chapter": 6,
+      "scenario": "Hoofdstuk 6 - Verantwoordelijkheid van ouders",
+      "question": "Waar of niet waar: Ouders hebben verantwoordelijkheid voor de opvoeding en verzorging van hun kinderen.",
+      "type": "choice",
+      "answers": [
+        "Waar",
+        "Niet waar"
+      ],
+      "correct": 0,
+      "explanation": "Ouders verantwoordelijk",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-6-058",
+      "topic": "opvoeding-en-onderwijs-in-nederland",
+      "chapter": 6,
+      "scenario": "Hoofdstuk 6 - Vrijheid van onderwijs",
+      "question": "Fatima wil een school kiezen die past bij haar geloof. Is dat mogelijk in Nederland?",
+      "type": "choice",
+      "answers": [
+        "Ja, er zijn bijvoorbeeld religieuze scholen",
+        "Nee, alle scholen zijn precies hetzelfde",
+        "Alleen als zij een huisarts vraagt",
+        "Alleen als zij naar de universiteit gaat"
+      ],
+      "correct": 0,
+      "explanation": "Vrijheid schoolkeuze",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-6-059",
+      "topic": "opvoeding-en-onderwijs-in-nederland",
+      "chapter": 6,
+      "scenario": "Hoofdstuk 6 - Vrijheid van onderwijs",
+      "question": "Ahmed wil liever een openbare school voor zijn kind. Voor wie is een openbare school bedoeld?",
+      "type": "choice",
+      "answers": [
+        "Voor iedereen",
+        "Alleen voor christenen",
+        "Alleen voor moslims",
+        "Alleen voor rijke gezinnen"
+      ],
+      "correct": 0,
+      "explanation": "Openbare school = voor iedereen",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-6-060",
+      "topic": "opvoeding-en-onderwijs-in-nederland",
+      "chapter": 6,
+      "scenario": "Hoofdstuk 6 - Vrijheid van onderwijs",
+      "question": "Wat betekent vrijheid van onderwijs?",
+      "type": "choice",
+      "answers": [
+        "Ouders kunnen uit verschillende soorten scholen kiezen",
+        "Kinderen hoeven nooit naar school",
+        "Leraren hoeven niets te onderwijzen",
+        "Ouders mogen zelf bepalen of hun kind leert lezen"
+      ],
+      "correct": 0,
+      "explanation": "Vrijheid van onderwijs",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-6-061",
+      "topic": "opvoeding-en-onderwijs-in-nederland",
+      "chapter": 6,
+      "scenario": "Hoofdstuk 6 - Vrijheid van onderwijs",
+      "question": "Wie controleert of scholen voldoende onderwijs geven?",
+      "type": "choice",
+      "answers": [
+        "De overheid / onderwijsinspectie",
+        "De supermarkt",
+        "De bank",
+        "De apotheek"
+      ],
+      "correct": 0,
+      "explanation": "Overheid/inspectie controleert kwaliteit",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-6-062",
+      "topic": "opvoeding-en-onderwijs-in-nederland",
+      "chapter": 6,
+      "scenario": "Hoofdstuk 6 - Vrijheid van onderwijs",
+      "question": "Waar of niet waar: Nederland kent verschillende soorten scholen, bijvoorbeeld openbare en religieuze scholen.",
+      "type": "choice",
+      "answers": [
+        "Waar",
+        "Niet waar"
+      ],
+      "correct": 0,
+      "explanation": "Verschillende soorten scholen",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-6-063",
+      "topic": "opvoeding-en-onderwijs-in-nederland",
+      "chapter": 6,
+      "scenario": "Hoofdstuk 6 - Leerplicht en ziekmelding",
+      "question": "De dochter van Lisa is vier jaar. Veel kinderen van deze leeftijd gaan al naar:",
+      "type": "choice",
+      "answers": [
+        "De basisschool",
+        "De universiteit",
+        "Het MBO",
+        "Het HBO"
+      ],
+      "correct": 0,
+      "explanation": "4 jaar vaak basisschool",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-6-064",
+      "topic": "opvoeding-en-onderwijs-in-nederland",
+      "chapter": 6,
+      "scenario": "Hoofdstuk 6 - Leerplicht en ziekmelding",
+      "question": "Een kind is vijf jaar en de ouders willen het zonder reden thuis houden. Mag dat?",
+      "type": "choice",
+      "answers": [
+        "Nee, het kind is leerplichtig",
+        "Ja, ouders mogen altijd kiezen",
+        "Alleen als het mooi weer is",
+        "Alleen op maandag"
+      ],
+      "correct": 0,
+      "explanation": "Vanaf leerplichtige leeftijd school",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-6-065",
+      "topic": "opvoeding-en-onderwijs-in-nederland",
+      "chapter": 6,
+      "scenario": "Hoofdstuk 6 - Leerplicht en ziekmelding",
+      "question": "Een gezin wil tijdens schooltijd twee weken goedkoper op vakantie. Mag hun leerplichtige kind zomaar thuisblijven?",
+      "type": "choice",
+      "answers": [
+        "Nee",
+        "Ja, altijd",
+        "Alleen als ze de huisarts bellen",
+        "Alleen als het kind goede cijfers heeft"
+      ],
+      "correct": 0,
+      "explanation": "Vakantie niet zomaar toegestaan",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-6-066",
+      "topic": "opvoeding-en-onderwijs-in-nederland",
+      "chapter": 6,
+      "scenario": "Hoofdstuk 6 - Leerplicht en ziekmelding",
+      "question": "Een kind is ziek en kan niet naar school. Wat moeten de ouders doen?",
+      "type": "choice",
+      "answers": [
+        "De school informeren",
+        "Niets zeggen",
+        "De politie bellen",
+        "De bank bellen"
+      ],
+      "correct": 0,
+      "explanation": "Ziek → school melden",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-6-067",
+      "topic": "opvoeding-en-onderwijs-in-nederland",
+      "chapter": 6,
+      "scenario": "Hoofdstuk 6 - Leerplicht en ziekmelding",
+      "question": "Wat kan er gebeuren als ouders hun leerplichtige kind zonder geldige reden thuis houden?",
+      "type": "choice",
+      "answers": [
+        "Er kan een boete volgen",
+        "Ze krijgen automatisch kinderbijslag extra",
+        "Het kind krijgt een diploma",
+        "Ze krijgen een gratis vakantie"
+      ],
+      "correct": 0,
+      "explanation": "Ongeoorloofd verzuim → boete mogelijk",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-6-068",
+      "topic": "opvoeding-en-onderwijs-in-nederland",
+      "chapter": 6,
+      "scenario": "Hoofdstuk 6 - Leerplicht en ziekmelding",
+      "question": "Waar of niet waar: Een ziek kind hoeft niet naar school, maar ouders moeten de school informeren.",
+      "type": "choice",
+      "answers": [
+        "Waar",
+        "Niet waar"
+      ],
+      "correct": 0,
+      "explanation": "Ziekmelden",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-6-069",
+      "topic": "opvoeding-en-onderwijs-in-nederland",
+      "chapter": 6,
+      "scenario": "Hoofdstuk 6 - Leerplicht en ziekmelding",
+      "question": "Waar of niet waar: Ouders mogen een kind tijdens schooltijd zonder toestemming thuis houden voor een gewone vakantie.",
+      "type": "choice",
+      "answers": [
+        "Waar",
+        "Niet waar"
+      ],
+      "correct": 1,
+      "explanation": "Leerplicht geldt",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-6-070",
+      "topic": "opvoeding-en-onderwijs-in-nederland",
+      "chapter": 6,
+      "scenario": "Hoofdstuk 6 - Peuterspeelzaal en voorschool",
+      "question": "De driejarige zoon van Emma gaat twee ochtenden per week spelen met andere kinderen. Het is niet verplicht. Waar kan hij heen gaan?",
+      "type": "choice",
+      "answers": [
+        "Peuterspeelzaal",
+        "Universiteit",
+        "MBO",
+        "Middelbare school"
+      ],
+      "correct": 0,
+      "explanation": "Peuterspeelzaal",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-6-071",
+      "topic": "opvoeding-en-onderwijs-in-nederland",
+      "chapter": 6,
+      "scenario": "Hoofdstuk 6 - Peuterspeelzaal en voorschool",
+      "question": "Waarom gaat een kind naar de peuterspeelzaal?",
+      "type": "choice",
+      "answers": [
+        "Om te spelen en nieuwe dingen te leren",
+        "Om een rijbewijs te halen",
+        "Om belastingaangifte te doen",
+        "Om een hypotheek te krijgen"
+      ],
+      "correct": 0,
+      "explanation": "Spelen/leren",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-6-072",
+      "topic": "opvoeding-en-onderwijs-in-nederland",
+      "chapter": 6,
+      "scenario": "Hoofdstuk 6 - Peuterspeelzaal en voorschool",
+      "question": "De driejarige dochter van Omar spreekt thuis nauwelijks Nederlands. Welke voorziening kan helpen ter voorbereiding op de basisschool?",
+      "type": "choice",
+      "answers": [
+        "Voorschool",
+        "Universiteit",
+        "Huisartsenpost",
+        "Huurcommissie"
+      ],
+      "correct": 0,
+      "explanation": "Taalachterstand → voorschool",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-6-073",
+      "topic": "opvoeding-en-onderwijs-in-nederland",
+      "chapter": 6,
+      "scenario": "Hoofdstuk 6 - Peuterspeelzaal en voorschool",
+      "question": "Een peuter loopt achter in taalontwikkeling. Wat kan een voorschool bieden?",
+      "type": "choice",
+      "answers": [
+        "Extra ondersteuning vóór de basisschool",
+        "Een arbeidscontract",
+        "Een hypotheek",
+        "Een rijbewijs"
+      ],
+      "correct": 0,
+      "explanation": "Extra voorbereiding",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-6-074",
+      "topic": "opvoeding-en-onderwijs-in-nederland",
+      "chapter": 6,
+      "scenario": "Hoofdstuk 6 - Peuterspeelzaal en voorschool",
+      "question": "Waar of niet waar: De peuterspeelzaal is volgens de leerstof niet verplicht.",
+      "type": "choice",
+      "answers": [
+        "Waar",
+        "Niet waar"
+      ],
+      "correct": 0,
+      "explanation": "Niet verplicht",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-6-075",
+      "topic": "opvoeding-en-onderwijs-in-nederland",
+      "chapter": 6,
+      "scenario": "Hoofdstuk 6 - Peuterspeelzaal en voorschool",
+      "question": "Waar of niet waar: Voorschool kan extra nuttig zijn voor kinderen die thuis weinig Nederlands spreken.",
+      "type": "choice",
+      "answers": [
+        "Waar",
+        "Niet waar"
+      ],
+      "correct": 0,
+      "explanation": "Voorschool helpt taal",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-6-076",
+      "topic": "opvoeding-en-onderwijs-in-nederland",
+      "chapter": 6,
+      "scenario": "Hoofdstuk 6 - Basisschool",
+      "question": "Mila is vier jaar en gaat voor het eerst naar de basisschool. In welke groep start ze meestal?",
+      "type": "choice",
+      "answers": [
+        "Groep 1",
+        "Groep 5",
+        "Groep 8",
+        "Brugklas"
+      ],
+      "correct": 0,
+      "explanation": "Start vaak groep 1",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-6-077",
+      "topic": "opvoeding-en-onderwijs-in-nederland",
+      "chapter": 6,
+      "scenario": "Hoofdstuk 6 - Basisschool",
+      "question": "Wat leren kleuters in groep 1 en 2 onder andere?",
+      "type": "choice",
+      "answers": [
+        "Spelen, luisteren, zingen, tekenen en tellen",
+        "Autorijden",
+        "Belastingaangifte",
+        "Hypotheken afsluiten"
+      ],
+      "correct": 0,
+      "explanation": "Kleuteractiviteiten",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-6-078",
+      "topic": "opvoeding-en-onderwijs-in-nederland",
+      "chapter": 6,
+      "scenario": "Hoofdstuk 6 - Basisschool",
+      "question": "Een kind gaat naar groep 3. Wat begint het dan vaak intensiever te leren?",
+      "type": "choice",
+      "answers": [
+        "Lezen, schrijven en rekenen",
+        "Autorijden",
+        "Werken in een bedrijf",
+        "Een huis kopen"
+      ],
+      "correct": 0,
+      "explanation": "Groep 3 → lezen/schrijven/rekenen",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-6-079",
+      "topic": "opvoeding-en-onderwijs-in-nederland",
+      "chapter": 6,
+      "scenario": "Hoofdstuk 6 - Basisschool",
+      "question": "Een kind zit in een hogere groep op de basisschool. Welke vakken kunnen erbij komen?",
+      "type": "choice",
+      "answers": [
+        "Geschiedenis en Engels",
+        "Hypotheekleer",
+        "Rijles",
+        "Belastingrecht voor volwassenen"
+      ],
+      "correct": 0,
+      "explanation": "Hogere groepen → geschiedenis/Engels",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-6-080",
+      "topic": "opvoeding-en-onderwijs-in-nederland",
+      "chapter": 6,
+      "scenario": "Hoofdstuk 6 - Basisschool",
+      "question": "De ouders van Noor willen weten hoe hun dochter het op school doet. Wat kunnen zij krijgen?",
+      "type": "choice",
+      "answers": [
+        "Een rapport",
+        "Een hypotheek",
+        "Een polis",
+        "Een rijbewijs"
+      ],
+      "correct": 0,
+      "explanation": "Rapport",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-6-081",
+      "topic": "opvoeding-en-onderwijs-in-nederland",
+      "chapter": 6,
+      "scenario": "Hoofdstuk 6 - Basisschool",
+      "question": "Een leerling heeft moeite met rekenen. Wat kan de school doen?",
+      "type": "choice",
+      "answers": [
+        "Extra hulp of les geven",
+        "Het kind direct van school sturen",
+        "De ouders een boete geven",
+        "Het kind automatisch naar de universiteit sturen"
+      ],
+      "correct": 0,
+      "explanation": "Extra ondersteuning",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-6-082",
+      "topic": "opvoeding-en-onderwijs-in-nederland",
+      "chapter": 6,
+      "scenario": "Hoofdstuk 6 - Basisschool",
+      "question": "Ouders krijgen een uitnodiging om kort met de leraar over hun kind te praten. Hoe heet zo'n gesprek vaak?",
+      "type": "choice",
+      "answers": [
+        "Tienminutengesprek / oudergesprek",
+        "Sollicitatiegesprek",
+        "Rechtszaak",
+        "Verhoor"
+      ],
+      "correct": 0,
+      "explanation": "Ouder-/tienminutengesprek",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-6-083",
+      "topic": "opvoeding-en-onderwijs-in-nederland",
+      "chapter": 6,
+      "scenario": "Hoofdstuk 6 - Basisschool",
+      "question": "De dochter van Karim zit in groep 8. Wat gebeurt er richting de middelbare school?",
+      "type": "choice",
+      "answers": [
+        "Zij krijgt schooladvies",
+        "Zij krijgt automatisch een baan",
+        "Zij moet een huis kopen",
+        "Zij krijgt een rijbewijs"
+      ],
+      "correct": 0,
+      "explanation": "Groep 8 → schooladvies",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-6-084",
+      "topic": "opvoeding-en-onderwijs-in-nederland",
+      "chapter": 6,
+      "scenario": "Hoofdstuk 6 - Basisschool",
+      "question": "Waar of niet waar: Ouders kunnen een basisschool bezoeken en informatie vragen vóór zij hun kind inschrijven.",
+      "type": "choice",
+      "answers": [
+        "Waar",
+        "Niet waar"
+      ],
+      "correct": 0,
+      "explanation": "School bezoeken/informatie vragen",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-6-085",
+      "topic": "opvoeding-en-onderwijs-in-nederland",
+      "chapter": 6,
+      "scenario": "Hoofdstuk 6 - Basisschool",
+      "question": "Waar of niet waar: Er kan bij sommige scholen een wachtlijst zijn.",
+      "type": "choice",
+      "answers": [
+        "Waar",
+        "Niet waar"
+      ],
+      "correct": 0,
+      "explanation": "Wachtlijst mogelijk",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-6-086",
+      "topic": "opvoeding-en-onderwijs-in-nederland",
+      "chapter": 6,
+      "scenario": "Hoofdstuk 6 - Schooltijden en overblijven",
+      "question": "De ouders van Ahmed werken tijdens de lunchpauze. Hun kind kan niet naar huis om te eten. Wat kan soms geregeld worden?",
+      "type": "choice",
+      "answers": [
+        "Overblijven op school",
+        "Een ziekenhuisopname",
+        "Een hypotheek",
+        "Een paspoort"
+      ],
+      "correct": 0,
+      "explanation": "Middagopvang → overblijven",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-6-087",
+      "topic": "opvoeding-en-onderwijs-in-nederland",
+      "chapter": 6,
+      "scenario": "Hoofdstuk 6 - Schooltijden en overblijven",
+      "question": "Wat betekent overblijven op school?",
+      "type": "choice",
+      "answers": [
+        "Tijdens de middagpauze op school blijven",
+        "Een klas overdoen",
+        "Niet meer naar school gaan",
+        "Na school naar de universiteit gaan"
+      ],
+      "correct": 0,
+      "explanation": "Op school blijven tijdens lunch",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-6-088",
+      "topic": "opvoeding-en-onderwijs-in-nederland",
+      "chapter": 6,
+      "scenario": "Hoofdstuk 6 - Schooltijden en overblijven",
+      "question": "Waar of niet waar: Voor overblijven kan soms apart betaald moeten worden.",
+      "type": "choice",
+      "answers": [
+        "Waar",
+        "Niet waar"
+      ],
+      "correct": 0,
+      "explanation": "Soms apart betalen",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-6-089",
+      "topic": "opvoeding-en-onderwijs-in-nederland",
+      "chapter": 6,
+      "scenario": "Hoofdstuk 6 - Speciaal onderwijs",
+      "question": "Een kind heeft ernstige problemen met horen en leren. Welke onderwijssoort kan passend zijn?",
+      "type": "choice",
+      "answers": [
+        "Speciaal onderwijs",
+        "Alleen universiteit",
+        "Alleen MBO",
+        "Geen onderwijs"
+      ],
+      "correct": 0,
+      "explanation": "Extra behoeften → speciaal onderwijs",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-6-090",
+      "topic": "opvoeding-en-onderwijs-in-nederland",
+      "chapter": 6,
+      "scenario": "Hoofdstuk 6 - Speciaal onderwijs",
+      "question": "Waarom bestaat speciaal onderwijs?",
+      "type": "choice",
+      "answers": [
+        "Voor kinderen die extra ondersteuning nodig hebben",
+        "Voor kinderen die geen les willen",
+        "Alleen voor kinderen van rijke ouders",
+        "Voor volwassenen met een baan"
+      ],
+      "correct": 0,
+      "explanation": "Extra ondersteuning",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-6-091",
+      "topic": "opvoeding-en-onderwijs-in-nederland",
+      "chapter": 6,
+      "scenario": "Hoofdstuk 6 - Speciaal onderwijs",
+      "question": "Waar of niet waar: Sommige kinderen met een handicap kunnen extra ondersteuning of speciaal onderwijs nodig hebben.",
+      "type": "choice",
+      "answers": [
+        "Waar",
+        "Niet waar"
+      ],
+      "correct": 0,
+      "explanation": "Handicap → mogelijk speciaal onderwijs",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-6-092",
+      "topic": "opvoeding-en-onderwijs-in-nederland",
+      "chapter": 6,
+      "scenario": "Hoofdstuk 6 - Middelbare school: VMBO, HAVO en VWO",
+      "question": "De zoon van Maria is twaalf jaar en verlaat de basisschool. Waar gaat hij meestal naartoe?",
+      "type": "choice",
+      "answers": [
+        "De middelbare school",
+        "Het consultatiebureau",
+        "Het kinderdagverblijf",
+        "De peuterspeelzaal"
+      ],
+      "correct": 0,
+      "explanation": "12 jaar → middelbare school",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-6-093",
+      "topic": "opvoeding-en-onderwijs-in-nederland",
+      "chapter": 6,
+      "scenario": "Hoofdstuk 6 - Middelbare school: VMBO, HAVO en VWO",
+      "question": "Hoe heet de eerste klas van de middelbare school vaak?",
+      "type": "choice",
+      "answers": [
+        "Brugklas",
+        "Groep 1",
+        "Groep 8",
+        "Kraamklas"
+      ],
+      "correct": 0,
+      "explanation": "Eerste klas = brugklas",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-6-094",
+      "topic": "opvoeding-en-onderwijs-in-nederland",
+      "chapter": 6,
+      "scenario": "Hoofdstuk 6 - Middelbare school: VMBO, HAVO en VWO",
+      "question": "Sophie krijgt VWO-advies. Welke vervolgopleiding past daar later vaak bij?",
+      "type": "choice",
+      "answers": [
+        "Universiteit",
+        "Alleen basisschool",
+        "Peuterspeelzaal",
+        "Alleen kinderopvang"
+      ],
+      "correct": 0,
+      "explanation": "VWO → universiteit",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-6-095",
+      "topic": "opvoeding-en-onderwijs-in-nederland",
+      "chapter": 6,
+      "scenario": "Hoofdstuk 6 - Middelbare school: VMBO, HAVO en VWO",
+      "question": "Hassan volgt HAVO. Welke vervolgopleiding past daar vaak bij?",
+      "type": "choice",
+      "answers": [
+        "HBO",
+        "Consultatiebureau",
+        "Peuterspeelzaal",
+        "Basisschool"
+      ],
+      "correct": 0,
+      "explanation": "HAVO → HBO",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-6-096",
+      "topic": "opvoeding-en-onderwijs-in-nederland",
+      "chapter": 6,
+      "scenario": "Hoofdstuk 6 - Middelbare school: VMBO, HAVO en VWO",
+      "question": "Mila volgt VMBO. Welke vervolgopleiding past daar vaak bij?",
+      "type": "choice",
+      "answers": [
+        "MBO",
+        "Direct altijd universiteit",
+        "Consultatiebureau",
+        "Kinderdagverblijf"
+      ],
+      "correct": 0,
+      "explanation": "VMBO → MBO",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-6-097",
+      "topic": "opvoeding-en-onderwijs-in-nederland",
+      "chapter": 6,
+      "scenario": "Hoofdstuk 6 - Middelbare school: VMBO, HAVO en VWO",
+      "question": "Wie bepaalt mede welk niveau een leerling na de basisschool gaat volgen?",
+      "type": "choice",
+      "answers": [
+        "Het schooladvies en de schoolprestaties",
+        "Alleen de leerling zonder advies",
+        "De politie",
+        "De bank"
+      ],
+      "correct": 0,
+      "explanation": "Advies + prestaties",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-6-098",
+      "topic": "opvoeding-en-onderwijs-in-nederland",
+      "chapter": 6,
+      "scenario": "Hoofdstuk 6 - Middelbare school: VMBO, HAVO en VWO",
+      "question": "Waar of niet waar: VMBO, HAVO en VWO zijn verschillende niveaus in het voortgezet onderwijs.",
+      "type": "choice",
+      "answers": [
+        "Waar",
+        "Niet waar"
+      ],
+      "correct": 0,
+      "explanation": "Verschillende niveaus",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-6-099",
+      "topic": "opvoeding-en-onderwijs-in-nederland",
+      "chapter": 6,
+      "scenario": "Hoofdstuk 6 - Kosten van onderwijs",
+      "question": "De basisschool vraagt ouders geld voor een schoolreisje. Hoe heet dit vaak?",
+      "type": "choice",
+      "answers": [
+        "Ouderbijdrage",
+        "Hypotheek",
+        "Zorgpremie",
+        "Belastingaangifte"
+      ],
+      "correct": 0,
+      "explanation": "Schoolreis/feest → ouderbijdrage",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-6-100",
+      "topic": "opvoeding-en-onderwijs-in-nederland",
+      "chapter": 6,
+      "scenario": "Hoofdstuk 6 - Kosten van onderwijs",
+      "question": "Is de vrijwillige ouderbijdrage volgens de leerstof verplicht?",
+      "type": "choice",
+      "answers": [
+        "Nee",
+        "Ja, altijd",
+        "Alleen voor jongens",
+        "Alleen voor kinderen van zes jaar"
+      ],
+      "correct": 0,
+      "explanation": "Vrijwillige ouderbijdrage niet verplicht",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-6-101",
+      "topic": "opvoeding-en-onderwijs-in-nederland",
+      "chapter": 6,
+      "scenario": "Hoofdstuk 6 - Kosten van onderwijs",
+      "question": "Een gezin met een laag inkomen heeft moeite met schoolkosten. Wat is verstandig?",
+      "type": "choice",
+      "answers": [
+        "Informeren naar financiële ondersteuning",
+        "Het kind van school halen",
+        "112 bellen",
+        "Een hypotheek aanvragen"
+      ],
+      "correct": 0,
+      "explanation": "Financiële ondersteuning onderzoeken",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-6-102",
+      "topic": "opvoeding-en-onderwijs-in-nederland",
+      "chapter": 6,
+      "scenario": "Hoofdstuk 6 - Kosten van onderwijs",
+      "question": "Een oudere student wil verder studeren maar heeft niet genoeg geld. Bij welke organisatie kan informatie over studiefinanciering of lenen worden gezocht?",
+      "type": "choice",
+      "answers": [
+        "DUO",
+        "De politie",
+        "De apotheek",
+        "De Huurcommissie"
+      ],
+      "correct": 0,
+      "explanation": "Studiefinanciering → DUO",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-6-103",
+      "topic": "opvoeding-en-onderwijs-in-nederland",
+      "chapter": 6,
+      "scenario": "Hoofdstuk 6 - Kosten van onderwijs",
+      "question": "Waar of niet waar: Ouders kunnen voor sommige schoolactiviteiten om een vrijwillige bijdrage worden gevraagd.",
+      "type": "choice",
+      "answers": [
+        "Waar",
+        "Niet waar"
+      ],
+      "correct": 0,
+      "explanation": "Vrijwillige bijdrage mogelijk",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-6-104",
+      "topic": "opvoeding-en-onderwijs-in-nederland",
+      "chapter": 6,
+      "scenario": "Hoofdstuk 6 - Gemengde KNM-situatievragen",
+      "question": "Sara is zwanger en alles verloopt normaal. Wie begeleidt haar zwangerschap vooral?",
+      "type": "choice",
+      "answers": [
+        "De verloskundige",
+        "De makelaar",
+        "De politie",
+        "De notaris"
+      ],
+      "correct": 0,
+      "explanation": "Zwanger → verloskundige",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-6-105",
+      "topic": "opvoeding-en-onderwijs-in-nederland",
+      "chapter": 6,
+      "scenario": "Hoofdstuk 6 - Gemengde KNM-situatievragen",
+      "question": "De baby van Omar groeit niet goed. Waar kan hij als eerste advies vragen?",
+      "type": "choice",
+      "answers": [
+        "Het consultatiebureau",
+        "De bank",
+        "De gemeente voor een vergunning",
+        "Het UWV"
+      ],
+      "correct": 0,
+      "explanation": "Groei baby → consultatiebureau",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-6-106",
+      "topic": "opvoeding-en-onderwijs-in-nederland",
+      "chapter": 6,
+      "scenario": "Hoofdstuk 6 - Gemengde KNM-situatievragen",
+      "question": "Peter en Noor werken tot 18.00 uur. Hun achtjarige kind is om 15.00 uur uit school. Welke opvang past?",
+      "type": "choice",
+      "answers": [
+        "BSO",
+        "Kraamzorg",
+        "Consultatiebureau",
+        "Verloskundige"
+      ],
+      "correct": 0,
+      "explanation": "Na school → BSO",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-6-107",
+      "topic": "opvoeding-en-onderwijs-in-nederland",
+      "chapter": 6,
+      "scenario": "Hoofdstuk 6 - Gemengde KNM-situatievragen",
+      "question": "Fatima verdient weinig en betaalt voor kinderopvang. Welke regeling kan zij onderzoeken?",
+      "type": "choice",
+      "answers": [
+        "Kinderopvangtoeslag",
+        "Hypotheekrente",
+        "Zorgpas",
+        "Rijbewijs"
+      ],
+      "correct": 0,
+      "explanation": "Kinderopvang → toeslag",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-6-108",
+      "topic": "opvoeding-en-onderwijs-in-nederland",
+      "chapter": 6,
+      "scenario": "Hoofdstuk 6 - Gemengde KNM-situatievragen",
+      "question": "De vijfjarige zoon van Eva is zonder geldige reden vaak thuis. Wat moet Eva begrijpen?",
+      "type": "choice",
+      "answers": [
+        "Haar kind is leerplichtig",
+        "School is volledig vrijwillig",
+        "Hij hoeft pas op zijn twaalfde naar school",
+        "Alleen jongens zijn leerplichtig"
+      ],
+      "correct": 0,
+      "explanation": "5 jaar → leerplicht",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-6-109",
+      "topic": "opvoeding-en-onderwijs-in-nederland",
+      "chapter": 6,
+      "scenario": "Hoofdstuk 6 - Gemengde KNM-situatievragen",
+      "question": "De driejarige dochter van Ali spreekt thuis geen Nederlands en heeft een taalachterstand. Welke voorziening kan helpen?",
+      "type": "choice",
+      "answers": [
+        "Voorschool",
+        "Universiteit",
+        "MBO",
+        "Verpleeghuis"
+      ],
+      "correct": 0,
+      "explanation": "Taalachterstand → voorschool",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-6-110",
+      "topic": "opvoeding-en-onderwijs-in-nederland",
+      "chapter": 6,
+      "scenario": "Hoofdstuk 6 - Gemengde KNM-situatievragen",
+      "question": "De dochter van Lisa zit in groep 8 en wil weten welk type middelbare school bij haar past. Wat krijgt zij?",
+      "type": "choice",
+      "answers": [
+        "Schooladvies",
+        "Zorgtoeslag",
+        "Kinderbijslag",
+        "Een hypotheek"
+      ],
+      "correct": 0,
+      "explanation": "Groep 8 → schooladvies",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-6-111",
+      "topic": "opvoeding-en-onderwijs-in-nederland",
+      "chapter": 6,
+      "scenario": "Hoofdstuk 6 - Gemengde KNM-situatievragen",
+      "question": "De zoon van Mark heeft moeite met leren en horen. Wat kan de school onderzoeken?",
+      "type": "choice",
+      "answers": [
+        "Of extra ondersteuning of speciaal onderwijs nodig is",
+        "Of hij een hypotheek kan krijgen",
+        "Of hij een auto kan kopen",
+        "Of hij belasting moet betalen"
+      ],
+      "correct": 0,
+      "explanation": "Extra ondersteuning/speciaal onderwijs",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-6-112",
+      "topic": "opvoeding-en-onderwijs-in-nederland",
+      "chapter": 6,
+      "scenario": "Hoofdstuk 6 - Gemengde KNM-situatievragen",
+      "question": "Een kind wordt thuis geslagen. Wat is belangrijk?",
+      "type": "choice",
+      "answers": [
+        "Het kind moet beschermd worden en er moet hulp worden ingeschakeld",
+        "Dat is altijd toegestaan",
+        "De school mag niets doen",
+        "Het kind moet zelf maar weggaan"
+      ],
+      "correct": 0,
+      "explanation": "Mishandeling → bescherming/hulp",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-6-113",
+      "topic": "opvoeding-en-onderwijs-in-nederland",
+      "chapter": 6,
+      "scenario": "Hoofdstuk 6 - Gemengde KNM-situatievragen",
+      "question": "Een moeder twijfelt of haar kind zich goed ontwikkelt. Met wie kan zij praten?",
+      "type": "choice",
+      "answers": [
+        "Consultatiebureau, huisarts of school",
+        "Alleen de bank",
+        "Alleen de politie",
+        "Alleen de notaris"
+      ],
+      "correct": 0,
+      "explanation": "Ontwikkeling → consultatiebureau/huisarts/school",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-6-114",
+      "topic": "opvoeding-en-onderwijs-in-nederland",
+      "chapter": 6,
+      "scenario": "Hoofdstuk 6 - Gemengde KNM-situatievragen",
+      "question": "Een twaalfjarige leerling verlaat groep 8. Wat is de volgende stap?",
+      "type": "choice",
+      "answers": [
+        "Middelbare school",
+        "Peuterspeelzaal",
+        "Kinderdagverblijf",
+        "Consultatiebureau"
+      ],
+      "correct": 0,
+      "explanation": "Na groep 8 → middelbare school",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-6-115",
+      "topic": "opvoeding-en-onderwijs-in-nederland",
+      "chapter": 6,
+      "scenario": "Hoofdstuk 6 - Gemengde KNM-situatievragen",
+      "question": "Een ouder wil weten hoe zijn kind presteert. Wat is logisch?",
+      "type": "choice",
+      "answers": [
+        "Het rapport bekijken en met de leraar praten",
+        "Een makelaar bellen",
+        "Een huisarts vragen om schooladvies",
+        "112 bellen"
+      ],
+      "correct": 0,
+      "explanation": "Rapport + leraar",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-6-116",
+      "topic": "opvoeding-en-onderwijs-in-nederland",
+      "chapter": 6,
+      "scenario": "Hoofdstuk 6 - Gemengde KNM-situatievragen",
+      "question": "De school organiseert een ouderavond. Waarom gaan ouders daarheen?",
+      "type": "choice",
+      "answers": [
+        "Om informatie over het kind en de school te krijgen",
+        "Om een hypotheek te tekenen",
+        "Om een paspoort aan te vragen",
+        "Om medicijnen op te halen"
+      ],
+      "correct": 0,
+      "explanation": "Ouderavond = informatie/overleg",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-6-117",
+      "topic": "opvoeding-en-onderwijs-in-nederland",
+      "chapter": 6,
+      "scenario": "Hoofdstuk 6 - Gemengde KNM-situatievragen",
+      "question": "Een kind is ziek op een schooldag. Wat moeten de ouders doen?",
+      "type": "choice",
+      "answers": [
+        "De school ziekmelden",
+        "Niets zeggen",
+        "Het kind naar school sturen ongeacht de situatie",
+        "De Belastingdienst bellen"
+      ],
+      "correct": 0,
+      "explanation": "Ziek → school informeren",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-6-118",
+      "topic": "opvoeding-en-onderwijs-in-nederland",
+      "chapter": 6,
+      "scenario": "Hoofdstuk 6 - Gemengde KNM-situatievragen",
+      "question": "Een gezin wil tijdens een gewone schoolweek op vakantie. Wat moeten zij begrijpen?",
+      "type": "choice",
+      "answers": [
+        "Leerplicht betekent dat dit niet zomaar kan",
+        "Vakantie heeft altijd voorrang op school",
+        "Ze hoeven school nooit te informeren",
+        "Alleen de buurman hoeft toestemming te geven"
+      ],
+      "correct": 0,
+      "explanation": "Vakantie niet zomaar tijdens school",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-6-119",
+      "topic": "opvoeding-en-onderwijs-in-nederland",
+      "chapter": 6,
+      "scenario": "Hoofdstuk 6 - Gemengde KNM-situatievragen",
+      "question": "Een gezin heeft ernstige opvoedingsproblemen en gewone gesprekken met school helpen niet genoeg. Wat is een logische volgende stap?",
+      "type": "choice",
+      "answers": [
+        "Jeugdhulp inschakelen",
+        "Een hypotheek aanvragen",
+        "De energieleverancier bellen",
+        "Een rijbewijs aanvragen"
+      ],
+      "correct": 0,
+      "explanation": "Ernstige opvoedingsproblemen → jeugdhulp",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-6-120",
+      "topic": "opvoeding-en-onderwijs-in-nederland",
+      "chapter": 6,
+      "scenario": "Hoofdstuk 6 - Gemengde KNM-situatievragen",
+      "question": "Een ouder wil dat zijn kind veel leert en zich goed ontwikkelt. Wat past het beste?",
+      "type": "choice",
+      "answers": [
+        "Spelen, lezen, bewegen, gezond eten en sociaal contact",
+        "Het kind altijd alleen thuis houden",
+        "Het kind nooit naar school laten gaan",
+        "Alleen televisie laten kijken"
+      ],
+      "correct": 0,
+      "explanation": "Spelen/lezen/bewegen/gezond eten",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-7-001",
       "topic": "werken-in-nederland",
       "chapter": 7,
-      "scenario": "原创模拟题 - Werken",
-      "question": "Wat stuur je vaak bij een sollicitatie?",
+      "scenario": "Hoofdstuk 7 - Soorten werk",
+      "question": "Fatima helpt iedere zaterdag gratis in een buurthuis. Ze krijgt geen salaris, maar doet wel ervaring op. Wat voor werk is dit?",
       "type": "choice",
       "answers": [
-        "Een cv en sollicitatiebrief.",
-        "Een afvalpas.",
-        "Een recept."
+        "Vast werk",
+        "Vrijwilligerswerk",
+        "Zwart werk",
+        "Fulltime werk"
       ],
-      "correct": 0,
-      "explanation": "求职时常发送 CV 和 sollicitatiebrief。",
-      "source": "原创模拟题"
+      "correct": 1,
+      "explanation": "Vrijwilligerswerk = zonder salaris",
+      "source": "原创场景模拟题"
     },
     {
-      "id": "gen-work-2",
+      "id": "scenario-7-002",
       "topic": "werken-in-nederland",
       "chapter": 7,
-      "scenario": "原创模拟题 - Werken",
-      "question": "Wat betekent netto salaris?",
+      "scenario": "Hoofdstuk 7 - Soorten werk",
+      "question": "Peter heeft een contract voor drie maanden. Daarna stopt het werk. Wat voor werk heeft hij?",
       "type": "choice",
       "answers": [
-        "Het bedrag dat je op je rekening krijgt.",
-        "Het bedrag voor belasting.",
-        "Een toeslag voor kinderopvang."
+        "Tijdelijk werk",
+        "Vrijwilligerswerk",
+        "Vast werk",
+        "Zwart werk"
       ],
       "correct": 0,
-      "explanation": "netto salaris 是扣税和扣费后实际到账的工资。",
-      "source": "原创模拟题"
+      "explanation": "Tijdelijk contract",
+      "source": "原创场景模拟题"
     },
     {
-      "id": "gen-work-3",
+      "id": "scenario-7-003",
       "topic": "werken-in-nederland",
       "chapter": 7,
-      "scenario": "原创模拟题 - Werken",
-      "question": "Waar registreer je een nieuw bedrijf?",
+      "scenario": "Hoofdstuk 7 - Soorten werk",
+      "question": "Maria heeft een contract voor onbepaalde tijd en werkt al jaren bij hetzelfde bedrijf. Wat heeft zij?",
       "type": "choice",
       "answers": [
-        "Bij de Kamer van Koophandel.",
-        "Bij de basisschool.",
-        "Bij de tandarts."
+        "Flexwerk",
+        "Tijdelijk werk",
+        "Vast werk",
+        "Vrijwilligerswerk"
       ],
-      "correct": 0,
-      "explanation": "创业通常要到 KvK 登记。",
-      "source": "原创模拟题"
+      "correct": 2,
+      "explanation": "Vast werk",
+      "source": "原创场景模拟题"
     },
     {
-      "id": "gen-work-4",
+      "id": "scenario-7-004",
       "topic": "werken-in-nederland",
       "chapter": 7,
-      "scenario": "原创模拟题 - Werken",
-      "question": "Wat is een proeftijd?",
+      "scenario": "Hoofdstuk 7 - Soorten werk",
+      "question": "Karim werkt via een uitzendbureau steeds bij verschillende bedrijven. Wat past het beste?",
       "type": "choice",
       "answers": [
-        "Een korte periode om te kijken of het werk past.",
-        "Een jaar belastingaangifte.",
-        "Een soort zorgverzekering."
+        "Een eigen bedrijf",
+        "Vrijwilligerswerk",
+        "Vast werk",
+        "Flexibel/tijdelijk werk"
       ],
-      "correct": 0,
-      "explanation": "proeftijd 是雇主和员工相互试用的短期阶段。",
-      "source": "原创模拟题"
+      "correct": 3,
+      "explanation": "Uitzend/flexwerk",
+      "source": "原创场景模拟题"
     },
     {
-      "id": "gen-society-1",
+      "id": "scenario-7-005",
+      "topic": "werken-in-nederland",
+      "chapter": 7,
+      "scenario": "Hoofdstuk 7 - Soorten werk",
+      "question": "Ahmed werkt drie dagen per week. Hoe noem je dit?",
+      "type": "choice",
+      "answers": [
+        "Fulltime",
+        "Parttime",
+        "Zwart werk",
+        "Vrijwilligerswerk"
+      ],
+      "correct": 1,
+      "explanation": "Minder volledige week = parttime",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-7-006",
+      "topic": "werken-in-nederland",
+      "chapter": 7,
+      "scenario": "Hoofdstuk 7 - Soorten werk",
+      "question": "Sophie werkt vijf dagen per week volgens haar volledige contracturen. Hoe noem je dit meestal?",
+      "type": "choice",
+      "answers": [
+        "Vrijwilligerswerk",
+        "Tijdelijk werk",
+        "Fulltime werk",
+        "Zwart werk"
+      ],
+      "correct": 2,
+      "explanation": "Volledige werkweek = fulltime",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-7-007",
+      "topic": "werken-in-nederland",
+      "chapter": 7,
+      "scenario": "Hoofdstuk 7 - Soorten werk",
+      "question": "Tom werkt soms 's nachts, soms 's ochtends en soms 's avonds. Wat voor werktijden heeft hij?",
+      "type": "choice",
+      "answers": [
+        "Onregelmatige werktijden",
+        "Regelmatige werktijden",
+        "Geen werktijden",
+        "Alleen parttime werktijden"
+      ],
+      "correct": 0,
+      "explanation": "Wisselende tijden = onregelmatig",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-7-008",
+      "topic": "werken-in-nederland",
+      "chapter": 7,
+      "scenario": "Hoofdstuk 7 - Soorten werk",
+      "question": "Eva werkt iedere maandag tot en met vrijdag op dezelfde tijden. Wat heeft zij?",
+      "type": "choice",
+      "answers": [
+        "Een uitkering",
+        "Onregelmatige werktijden",
+        "Vrijwilligerswerk",
+        "Regelmatige werktijden"
+      ],
+      "correct": 3,
+      "explanation": "Vaste tijden = regelmatig",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-7-009",
+      "topic": "werken-in-nederland",
+      "chapter": 7,
+      "scenario": "Hoofdstuk 7 - Soorten werk",
+      "question": "Een man werkt en krijgt contant geld, maar zijn werkgever geeft het werk niet aan en er wordt geen belasting betaald. Hoe heet dit?",
+      "type": "choice",
+      "answers": [
+        "Zwart werk",
+        "Vrijwilligerswerk",
+        "Stage",
+        "Bijscholing"
+      ],
+      "correct": 0,
+      "explanation": "Zonder belasting = zwart werk",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-7-010",
+      "topic": "werken-in-nederland",
+      "chapter": 7,
+      "scenario": "Hoofdstuk 7 - Soorten werk",
+      "question": "Waar of niet waar: Zwart werken is toegestaan als je maar weinig verdient.",
+      "type": "choice",
+      "answers": [
+        "Waar",
+        "Niet waar"
+      ],
+      "correct": 1,
+      "explanation": "Zwart werk is verboden",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-7-011",
+      "topic": "werken-in-nederland",
+      "chapter": 7,
+      "scenario": "Hoofdstuk 7 - Soorten werk",
+      "question": "Jan heeft een kleine winkel en werkt niet voor een baas. Wat is hij?",
+      "type": "choice",
+      "answers": [
+        "Werkzoekende",
+        "Zelfstandig ondernemer",
+        "Uitzendkracht",
+        "Vrijwilliger"
+      ],
+      "correct": 1,
+      "explanation": "Eigen bedrijf = zelfstandig ondernemer",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-7-012",
+      "topic": "werken-in-nederland",
+      "chapter": 7,
+      "scenario": "Hoofdstuk 7 - Soorten werk",
+      "question": "De baas betaalt het salaris van Emma. Wat is de baas?",
+      "type": "choice",
+      "answers": [
+        "Werknemer",
+        "Werkzoekende",
+        "Werkgever",
+        "Collega"
+      ],
+      "correct": 2,
+      "explanation": "Werkgever betaalt werknemer",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-7-013",
+      "topic": "werken-in-nederland",
+      "chapter": 7,
+      "scenario": "Hoofdstuk 7 - Soorten werk",
+      "question": "Emma werkt voor een bedrijf en krijgt salaris. Wat is Emma?",
+      "type": "choice",
+      "answers": [
+        "Werkgever",
+        "Werknemer",
+        "Directeur",
+        "Werkcoach"
+      ],
+      "correct": 1,
+      "explanation": "Werknemer werkt voor werkgever",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-7-014",
+      "topic": "werken-in-nederland",
+      "chapter": 7,
+      "scenario": "Hoofdstuk 7 - Beroepen, diploma's en ervaring",
+      "question": "Hassan wil als automonteur werken. In welke sector past dit beroep?",
+      "type": "choice",
+      "answers": [
+        "Techniek",
+        "Horeca",
+        "Zorg",
+        "Groene sector"
+      ],
+      "correct": 0,
+      "explanation": "Automonteur → techniek",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-7-015",
+      "topic": "werken-in-nederland",
+      "chapter": 7,
+      "scenario": "Hoofdstuk 7 - Beroepen, diploma's en ervaring",
+      "question": "Lina werkt in een restaurant. In welke sector werkt zij?",
+      "type": "choice",
+      "answers": [
+        "Bouw",
+        "Administratie",
+        "Horeca",
+        "Zorg"
+      ],
+      "correct": 2,
+      "explanation": "Restaurant → horeca",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-7-016",
+      "topic": "werken-in-nederland",
+      "chapter": 7,
+      "scenario": "Hoofdstuk 7 - Beroepen, diploma's en ervaring",
+      "question": "Omar werkt als timmerman. Bij welke sector hoort zijn werk?",
+      "type": "choice",
+      "answers": [
+        "Zorg",
+        "Handel",
+        "Groene sector",
+        "Bouw"
+      ],
+      "correct": 3,
+      "explanation": "Timmerman → bouw",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-7-017",
+      "topic": "werken-in-nederland",
+      "chapter": 7,
+      "scenario": "Hoofdstuk 7 - Beroepen, diploma's en ervaring",
+      "question": "Julia werkt in een kinderdagverblijf. Welke sector past hierbij?",
+      "type": "choice",
+      "answers": [
+        "Zorg en welzijn",
+        "Bouw",
+        "Horeca",
+        "Techniek"
+      ],
+      "correct": 0,
+      "explanation": "Kinderopvang → zorg/welzijn",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-7-018",
+      "topic": "werken-in-nederland",
+      "chapter": 7,
+      "scenario": "Hoofdstuk 7 - Beroepen, diploma's en ervaring",
+      "question": "Mehmet rijdt elke dag een stadsbus. Bij welke sector past zijn werk?",
+      "type": "choice",
+      "answers": [
+        "Zorg",
+        "Handel en vervoer",
+        "Bouw",
+        "Groene sector"
+      ],
+      "correct": 1,
+      "explanation": "Buschauffeur → vervoer",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-7-019",
+      "topic": "werken-in-nederland",
+      "chapter": 7,
+      "scenario": "Hoofdstuk 7 - Beroepen, diploma's en ervaring",
+      "question": "Sara werkt als tuinman. In welke sector werkt zij?",
+      "type": "choice",
+      "answers": [
+        "Horeca",
+        "Administratie",
+        "Groene sector",
+        "Techniek"
+      ],
+      "correct": 2,
+      "explanation": "Tuinman → groene sector",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-7-020",
+      "topic": "werken-in-nederland",
+      "chapter": 7,
+      "scenario": "Hoofdstuk 7 - Beroepen, diploma's en ervaring",
+      "question": "Ming heeft een diploma uit China en wil weten met welk Nederlands niveau het vergelijkbaar is. Wat kan zij doen?",
+      "type": "choice",
+      "answers": [
+        "Het diploma laten waarderen",
+        "Het diploma weggooien",
+        "Alleen een nieuw CV maken",
+        "Meteen bijstand aanvragen"
+      ],
+      "correct": 0,
+      "explanation": "Buitenlands diploma → waarderen",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-7-021",
+      "topic": "werken-in-nederland",
+      "chapter": 7,
+      "scenario": "Hoofdstuk 7 - Beroepen, diploma's en ervaring",
+      "question": "Peter wil schoonmaakwerk doen. Voor sommige schoonmaakbanen is geen specifiek diploma nodig. Hoe heet dit soort werk in de leerstof?",
+      "type": "choice",
+      "answers": [
+        "Ongeschoold werk",
+        "Zwart werk",
+        "Vrijwilligerswerk",
+        "Directiewerk"
+      ],
+      "correct": 0,
+      "explanation": "Geen specifiek diploma → ongeschoold werk",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-7-022",
+      "topic": "werken-in-nederland",
+      "chapter": 7,
+      "scenario": "Hoofdstuk 7 - Beroepen, diploma's en ervaring",
+      "question": "Nadia wil later meer kans op een betere baan. Wat kan haar helpen?",
+      "type": "choice",
+      "answers": [
+        "Minder ervaring opdoen",
+        "Een opleiding, cursus of stage volgen",
+        "Nooit nieuwe dingen leren",
+        "Niet solliciteren"
+      ],
+      "correct": 1,
+      "explanation": "Opleiding/cursus/stage",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-7-023",
+      "topic": "werken-in-nederland",
+      "chapter": 7,
+      "scenario": "Hoofdstuk 7 - Beroepen, diploma's en ervaring",
+      "question": "Wat is vaak belangrijk als je een baan zoekt?",
+      "type": "choice",
+      "answers": [
+        "Alleen je leeftijd",
+        "Alleen je woonplaats",
+        "Diploma's, ervaring en kwaliteiten",
+        "Alleen je favoriete hobby"
+      ],
+      "correct": 2,
+      "explanation": "Diploma + ervaring + kwaliteiten",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-7-024",
+      "topic": "werken-in-nederland",
+      "chapter": 7,
+      "scenario": "Hoofdstuk 7 - Beroepen, diploma's en ervaring",
+      "question": "Ahmed heeft nog weinig werkervaring. Wat kan hem helpen ervaring op te doen?",
+      "type": "choice",
+      "answers": [
+        "Een stage",
+        "Een hypotheek",
+        "Een paspoort",
+        "Een zorgverzekering"
+      ],
+      "correct": 0,
+      "explanation": "Stage → ervaring",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-7-025",
+      "topic": "werken-in-nederland",
+      "chapter": 7,
+      "scenario": "Hoofdstuk 7 - Beroepen, diploma's en ervaring",
+      "question": "Waar of niet waar: Werkervaring kan je kansen op een baan vergroten.",
+      "type": "choice",
+      "answers": [
+        "Waar",
+        "Niet waar"
+      ],
+      "correct": 0,
+      "explanation": "Ervaring helpt",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-7-026",
+      "topic": "werken-in-nederland",
+      "chapter": 7,
+      "scenario": "Hoofdstuk 7 - Scholing, bijscholing en nascholing",
+      "question": "Emma werkt als verpleegkundige en leert een nieuwe computerapplicatie gebruiken voor haar werk. Wat doet zij?",
+      "type": "choice",
+      "answers": [
+        "Nascholing",
+        "Bijscholing",
+        "Solliciteren",
+        "Vrijwilligerswerk"
+      ],
+      "correct": 1,
+      "explanation": "Nieuw leren = bijscholing",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-7-027",
+      "topic": "werken-in-nederland",
+      "chapter": 7,
+      "scenario": "Hoofdstuk 7 - Scholing, bijscholing en nascholing",
+      "question": "Peter herhaalt tijdens een cursus kennis die hij jaren geleden al heeft geleerd. Hoe heet dit?",
+      "type": "choice",
+      "answers": [
+        "Bijstand",
+        "Bijscholing",
+        "Nascholing",
+        "Re-integratie"
+      ],
+      "correct": 2,
+      "explanation": "Herhalen = nascholing",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-7-028",
+      "topic": "werken-in-nederland",
+      "chapter": 7,
+      "scenario": "Hoofdstuk 7 - Scholing, bijscholing en nascholing",
+      "question": "Maria wil een cursus volgen. Wat moet zij meestal eerst doen?",
+      "type": "choice",
+      "answers": [
+        "Zich inschrijven",
+        "112 bellen",
+        "Haar baan opzeggen",
+        "Een uitkering aanvragen"
+      ],
+      "correct": 0,
+      "explanation": "Cursus → inschrijven",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-7-029",
+      "topic": "werken-in-nederland",
+      "chapter": 7,
+      "scenario": "Hoofdstuk 7 - Scholing, bijscholing en nascholing",
+      "question": "Een werkgever vindt het belangrijk dat werknemers nieuwe vaardigheden leren. Wat kan hij doen?",
+      "type": "choice",
+      "answers": [
+        "Een cursus of scholing betalen",
+        "Alle werknemers ontslaan",
+        "Hun diploma's innemen",
+        "Ze verbieden iets nieuws te leren"
+      ],
+      "correct": 0,
+      "explanation": "Werkgever kan scholing betalen",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-7-030",
+      "topic": "werken-in-nederland",
+      "chapter": 7,
+      "scenario": "Hoofdstuk 7 - Scholing, bijscholing en nascholing",
+      "question": "Hassan heeft lang niet gewerkt en vindt het moeilijk om opnieuw werk te vinden. Welk soort organisatie kan hem helpen met sollicitatie en ervaring?",
+      "type": "choice",
+      "answers": [
+        "Een re-integratiebedrijf",
+        "De apotheek",
+        "De Huurcommissie",
+        "De tandarts"
+      ],
+      "correct": 0,
+      "explanation": "Re-integratie helpt terug naar werk",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-7-031",
+      "topic": "werken-in-nederland",
+      "chapter": 7,
+      "scenario": "Hoofdstuk 7 - Kwaliteiten en motivatie",
+      "question": "Tijdens een sollicitatie vraagt de werkgever: “Waarom wilt u hier werken?” Waar vraagt hij naar?",
+      "type": "choice",
+      "answers": [
+        "Salarisstrook",
+        "Motivatie",
+        "Cao",
+        "Jaaropgave"
+      ],
+      "correct": 1,
+      "explanation": "Waarom baan? = motivatie",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-7-032",
+      "topic": "werken-in-nederland",
+      "chapter": 7,
+      "scenario": "Hoofdstuk 7 - Kwaliteiten en motivatie",
+      "question": "Fatima zegt: “Ik werk netjes, kom afspraken na en mensen kunnen op mij rekenen.” Welke kwaliteit beschrijft zij?",
+      "type": "choice",
+      "answers": [
+        "Betrouwbaar",
+        "Werkloos",
+        "Tijdelijk",
+        "Onregelmatig"
+      ],
+      "correct": 0,
+      "explanation": "Betrouwbaarheid",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-7-033",
+      "topic": "werken-in-nederland",
+      "chapter": 7,
+      "scenario": "Hoofdstuk 7 - Kwaliteiten en motivatie",
+      "question": "Een vacature vraagt iemand die makkelijk verschillende taken en werktijden aankan. Welke kwaliteit past?",
+      "type": "choice",
+      "answers": [
+        "Creatief",
+        "Flexibel",
+        "Werkloos",
+        "Zwart"
+      ],
+      "correct": 1,
+      "explanation": "Flexibiliteit",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-7-034",
+      "topic": "werken-in-nederland",
+      "chapter": 7,
+      "scenario": "Hoofdstuk 7 - Kwaliteiten en motivatie",
+      "question": "Bij een sollicitatiegesprek vraagt men wat jij goed kunt. Waar gaat dit over?",
+      "type": "choice",
+      "answers": [
+        "Je kwaliteiten",
+        "Je huurcontract",
+        "Je BSN",
+        "Je zorgverzekering"
+      ],
+      "correct": 0,
+      "explanation": "Wat kan je goed? = kwaliteiten",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-7-035",
+      "topic": "werken-in-nederland",
+      "chapter": 7,
+      "scenario": "Hoofdstuk 7 - Kwaliteiten en motivatie",
+      "question": "Waar of niet waar: Motivatie betekent waarom je een bepaalde baan graag wilt.",
+      "type": "choice",
+      "answers": [
+        "Waar",
+        "Niet waar"
+      ],
+      "correct": 0,
+      "explanation": "Motivatie = waarom je baan wilt",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-7-036",
+      "topic": "werken-in-nederland",
+      "chapter": 7,
+      "scenario": "Hoofdstuk 7 - Werkloos, UWV en uitkeringen",
+      "question": "Ali is zijn baan kwijtgeraakt en zoekt nieuw werk. Hoe noem je hem?",
+      "type": "choice",
+      "answers": [
+        "Werkgever",
+        "Werkzoekende",
+        "Directeur",
+        "Zelfstandig ondernemer"
+      ],
+      "correct": 1,
+      "explanation": "Zoekt werk = werkzoekende",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-7-037",
+      "topic": "werken-in-nederland",
+      "chapter": 7,
+      "scenario": "Hoofdstuk 7 - Werkloos, UWV en uitkeringen",
+      "question": "Sophie heeft geen baan meer. Welke instantie speelt een belangrijke rol bij werk en werkloosheidsuitkeringen?",
+      "type": "choice",
+      "answers": [
+        "IND",
+        "SVB",
+        "UWV",
+        "Huurcommissie"
+      ],
+      "correct": 2,
+      "explanation": "Werkloosheid → UWV",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-7-038",
+      "topic": "werken-in-nederland",
+      "chapter": 7,
+      "scenario": "Hoofdstuk 7 - Werkloos, UWV en uitkeringen",
+      "question": "Tom is werkloos geworden en wil weten of hij recht heeft op een WW-uitkering. Waar vraagt hij informatie?",
+      "type": "choice",
+      "answers": [
+        "Bij het UWV",
+        "Bij de apotheek",
+        "Bij de gemeente voor een paspoort",
+        "Bij de bibliotheek"
+      ],
+      "correct": 0,
+      "explanation": "WW → UWV",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-7-039",
+      "topic": "werken-in-nederland",
+      "chapter": 7,
+      "scenario": "Hoofdstuk 7 - Werkloos, UWV en uitkeringen",
+      "question": "Lisa krijgt een WW-uitkering. Wat wordt meestal van haar verwacht?",
+      "type": "choice",
+      "answers": [
+        "Dat zij nooit meer solliciteert",
+        "Dat zij actief naar werk zoekt",
+        "Dat zij zwart gaat werken",
+        "Dat zij een eigen huis koopt"
+      ],
+      "correct": 1,
+      "explanation": "WW → actief solliciteren",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-7-040",
+      "topic": "werken-in-nederland",
+      "chapter": 7,
+      "scenario": "Hoofdstuk 7 - Werkloos, UWV en uitkeringen",
+      "question": "Het UWV geeft Karim iemand die hem helpt zoeken naar werk. Hoe heet deze persoon?",
+      "type": "choice",
+      "answers": [
+        "Werkcoach",
+        "Makelaar",
+        "Huisarts",
+        "Notaris"
+      ],
+      "correct": 0,
+      "explanation": "Werkcoach",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-7-041",
+      "topic": "werken-in-nederland",
+      "chapter": 7,
+      "scenario": "Hoofdstuk 7 - Werkloos, UWV en uitkeringen",
+      "question": "De werkcoach adviseert Nadia om extra sollicitatietraining en stage te volgen. Waar kan dat bijvoorbeeld?",
+      "type": "choice",
+      "answers": [
+        "Bij een re-integratiebedrijf",
+        "Bij de tandarts",
+        "Bij de apotheek",
+        "Bij de politie"
+      ],
+      "correct": 0,
+      "explanation": "Re-integratiebedrijf",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-7-042",
+      "topic": "werken-in-nederland",
+      "chapter": 7,
+      "scenario": "Hoofdstuk 7 - Werkloos, UWV en uitkeringen",
+      "question": "Johan kan door langdurige gezondheidsproblemen niet goed meer werken. Welke uitkering kan relevant zijn?",
+      "type": "choice",
+      "answers": [
+        "WW",
+        "WIA",
+        "Huurtoeslag",
+        "Kinderbijslag"
+      ],
+      "correct": 1,
+      "explanation": "Arbeidsongeschikt → WIA",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-7-043",
+      "topic": "werken-in-nederland",
+      "chapter": 7,
+      "scenario": "Hoofdstuk 7 - Werkloos, UWV en uitkeringen",
+      "question": "Mina heeft geen andere uitkering en onvoldoende geld om van te leven. Welke ondersteuning kan mogelijk relevant zijn?",
+      "type": "choice",
+      "answers": [
+        "Bijstand",
+        "WW zonder voorwaarden",
+        "Pensioen",
+        "Kinderopvangtoeslag"
+      ],
+      "correct": 0,
+      "explanation": "Geen andere inkomsten → mogelijk bijstand",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-7-044",
+      "topic": "werken-in-nederland",
+      "chapter": 7,
+      "scenario": "Hoofdstuk 7 - Werkloos, UWV en uitkeringen",
+      "question": "Waar of niet waar: WW is bedoeld voor mensen die werkloos zijn geworden en aan de voorwaarden voldoen.",
+      "type": "choice",
+      "answers": [
+        "Waar",
+        "Niet waar"
+      ],
+      "correct": 0,
+      "explanation": "WW onder voorwaarden",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-7-045",
+      "topic": "werken-in-nederland",
+      "chapter": 7,
+      "scenario": "Hoofdstuk 7 - Werkloos, UWV en uitkeringen",
+      "question": "Waar of niet waar: WIA heeft te maken met arbeidsongeschiktheid door gezondheidsproblemen.",
+      "type": "choice",
+      "answers": [
+        "Waar",
+        "Niet waar"
+      ],
+      "correct": 0,
+      "explanation": "WIA = arbeidsongeschiktheid",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-7-046",
+      "topic": "werken-in-nederland",
+      "chapter": 7,
+      "scenario": "Hoofdstuk 7 - Uitzendbureau en vacature",
+      "question": "Omar zoekt snel tijdelijk werk. Welke organisatie kan hem helpen?",
+      "type": "choice",
+      "answers": [
+        "Uitzendbureau",
+        "Huurcommissie",
+        "Apotheek",
+        "Consultatiebureau"
+      ],
+      "correct": 0,
+      "explanation": "Tijdelijk werk → uitzendbureau",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-7-047",
+      "topic": "werken-in-nederland",
+      "chapter": 7,
+      "scenario": "Hoofdstuk 7 - Uitzendbureau en vacature",
+      "question": "Wie betaalt bij uitzendwerk vaak het salaris?",
+      "type": "choice",
+      "answers": [
+        "Het uitzendbureau",
+        "De gemeente",
+        "De huisarts",
+        "De Belastingdienst"
+      ],
+      "correct": 0,
+      "explanation": "Uitzendbureau betaalt vaak",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-7-048",
+      "topic": "werken-in-nederland",
+      "chapter": 7,
+      "scenario": "Hoofdstuk 7 - Uitzendbureau en vacature",
+      "question": "Sara leest een vacature. Waar kan zij zien welke opleiding of ervaring nodig is?",
+      "type": "choice",
+      "answers": [
+        "Bij de functie-eisen",
+        "Bij haar bankrekening",
+        "In haar paspoort",
+        "Bij de huisarts"
+      ],
+      "correct": 0,
+      "explanation": "Functie-eisen",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-7-049",
+      "topic": "werken-in-nederland",
+      "chapter": 7,
+      "scenario": "Hoofdstuk 7 - Uitzendbureau en vacature",
+      "question": "Peter wil weten hoeveel uur per week de baan is. Waar kijkt hij?",
+      "type": "choice",
+      "answers": [
+        "In de vacature",
+        "In zijn zorgpolis",
+        "In zijn huurcontract",
+        "In zijn rijbewijs"
+      ],
+      "correct": 0,
+      "explanation": "Uren staan in vacature",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-7-050",
+      "topic": "werken-in-nederland",
+      "chapter": 7,
+      "scenario": "Hoofdstuk 7 - Uitzendbureau en vacature",
+      "question": "Een vacature noemt de laatste datum waarop je kunt reageren. Wat betekent dit?",
+      "type": "choice",
+      "answers": [
+        "Je moet vóór die datum solliciteren",
+        "Je moet op die dag ontslag nemen",
+        "Je krijgt automatisch de baan",
+        "Je moet je belastingaangifte doen"
+      ],
+      "correct": 0,
+      "explanation": "Reageren vóór deadline",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-7-051",
+      "topic": "werken-in-nederland",
+      "chapter": 7,
+      "scenario": "Hoofdstuk 7 - Uitzendbureau en vacature",
+      "question": "Noor ziet een interessante vacature maar wil meer weten over de functie. Wat kan zij doen vóór ze solliciteert?",
+      "type": "choice",
+      "answers": [
+        "Het bedrijf bellen of informatie opzoeken",
+        "Meteen een klacht indienen bij de politie",
+        "Haar diploma weggooien",
+        "Bijstand aanvragen"
+      ],
+      "correct": 0,
+      "explanation": "Eerst informatie vragen",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-7-052",
+      "topic": "werken-in-nederland",
+      "chapter": 7,
+      "scenario": "Hoofdstuk 7 - CV, sollicitatiebrief en sollicitatiegesprek",
+      "question": "Wat staat meestal in een CV?",
+      "type": "choice",
+      "answers": [
+        "Naam, opleiding en werkervaring",
+        "Alleen favoriete films",
+        "Alleen bankgegevens",
+        "Alleen medische informatie"
+      ],
+      "correct": 0,
+      "explanation": "CV bevat opleiding/ervaring",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-7-053",
+      "topic": "werken-in-nederland",
+      "chapter": 7,
+      "scenario": "Hoofdstuk 7 - CV, sollicitatiebrief en sollicitatiegesprek",
+      "question": "Fatima wil uitleggen waarom zij een baan graag wil. Welk document stuurt zij naast haar CV?",
+      "type": "choice",
+      "answers": [
+        "Een sollicitatiebrief",
+        "Een huurcontract",
+        "Een recept",
+        "Een polis"
+      ],
+      "correct": 0,
+      "explanation": "Sollicitatiebrief",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-7-054",
+      "topic": "werken-in-nederland",
+      "chapter": 7,
+      "scenario": "Hoofdstuk 7 - CV, sollicitatiebrief en sollicitatiegesprek",
+      "question": "Ahmed heeft een uitnodiging voor een sollicitatiegesprek om 10.00 uur. Wat moet hij doen?",
+      "type": "choice",
+      "answers": [
+        "Om 10.30 uur komen",
+        "Op tijd komen",
+        "Alleen bellen na het gesprek",
+        "Helemaal niet voorbereiden"
+      ],
+      "correct": 1,
+      "explanation": "Op tijd",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-7-055",
+      "topic": "werken-in-nederland",
+      "chapter": 7,
+      "scenario": "Hoofdstuk 7 - CV, sollicitatiebrief en sollicitatiegesprek",
+      "question": "Wat is verstandig bij een sollicitatiegesprek?",
+      "type": "choice",
+      "answers": [
+        "Nette kleding dragen",
+        "Een pet diep over je gezicht dragen",
+        "Te laat komen",
+        "Niet luisteren"
+      ],
+      "correct": 0,
+      "explanation": "Nette kleding",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-7-056",
+      "topic": "werken-in-nederland",
+      "chapter": 7,
+      "scenario": "Hoofdstuk 7 - CV, sollicitatiebrief en sollicitatiegesprek",
+      "question": "Tijdens het gesprek kijkt Maria haar gesprekspartner aan en zit rechtop. Waar hoort dit bij?",
+      "type": "choice",
+      "answers": [
+        "Lichaamstaal",
+        "Jaaropgave",
+        "Pensioen",
+        "Cao"
+      ],
+      "correct": 0,
+      "explanation": "Oogcontact/houding = lichaamstaal",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-7-057",
+      "topic": "werken-in-nederland",
+      "chapter": 7,
+      "scenario": "Hoofdstuk 7 - CV, sollicitatiebrief en sollicitatiegesprek",
+      "question": "Peter komt binnen bij zijn sollicitatiegesprek. Wat is volgens de leerstof passend?",
+      "type": "choice",
+      "answers": [
+        "Zich voorstellen en beleefd begroeten",
+        "Zonder iets te zeggen gaan zitten",
+        "Meteen vragen wanneer hij vakantie krijgt",
+        "De deur open laten en weggaan"
+      ],
+      "correct": 0,
+      "explanation": "Beleefd voorstellen",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-7-058",
+      "topic": "werken-in-nederland",
+      "chapter": 7,
+      "scenario": "Hoofdstuk 7 - CV, sollicitatiebrief en sollicitatiegesprek",
+      "question": "Een interviewer vraagt: “Heeft u nog vragen?” Wat is verstandig?",
+      "type": "choice",
+      "answers": [
+        "Vooraf een paar vragen voorbereiden",
+        "Zeggen dat je niets over het bedrijf weet",
+        "Het gesprek direct beëindigen",
+        "Alleen naar het salaris vragen zonder context"
+      ],
+      "correct": 0,
+      "explanation": "Vragen voorbereiden",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-7-059",
+      "topic": "werken-in-nederland",
+      "chapter": 7,
+      "scenario": "Hoofdstuk 7 - CV, sollicitatiebrief en sollicitatiegesprek",
+      "question": "Welke volgorde past het beste bij solliciteren?",
+      "type": "choice",
+      "answers": [
+        "Contract tekenen → vacature zoeken → CV schrijven",
+        "Vacature zoeken → CV/brief sturen → gesprek → contract",
+        "Gesprek → vacature zoeken → diploma halen",
+        "Beginnen met werken → sollicitatiebrief sturen"
+      ],
+      "correct": 1,
+      "explanation": "Vacature → CV/brief → gesprek → contract",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-7-060",
+      "topic": "werken-in-nederland",
+      "chapter": 7,
+      "scenario": "Hoofdstuk 7 - CV, sollicitatiebrief en sollicitatiegesprek",
+      "question": "Waar of niet waar: Je kunt je voor een sollicitatiegesprek voorbereiden door informatie over het bedrijf te zoeken.",
+      "type": "choice",
+      "answers": [
+        "Waar",
+        "Niet waar"
+      ],
+      "correct": 0,
+      "explanation": "Voorbereiden is belangrijk",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-7-061",
+      "topic": "werken-in-nederland",
+      "chapter": 7,
+      "scenario": "Hoofdstuk 7 - Contract en arbeidsvoorwaarden",
+      "question": "Emma krijgt een baan. In welk document staan afspraken over haar werk?",
+      "type": "choice",
+      "answers": [
+        "Arbeidscontract",
+        "Paspoort",
+        "Zorgpolis",
+        "Huurcontract"
+      ],
+      "correct": 0,
+      "explanation": "Arbeidscontract",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-7-062",
+      "topic": "werken-in-nederland",
+      "chapter": 7,
+      "scenario": "Hoofdstuk 7 - Contract en arbeidsvoorwaarden",
+      "question": "Waar kan Emma zien hoeveel uur zij per week moet werken?",
+      "type": "choice",
+      "answers": [
+        "In haar arbeidscontract",
+        "In haar bibliotheekkaart",
+        "In haar rijbewijs",
+        "In haar zorgpas"
+      ],
+      "correct": 0,
+      "explanation": "Uren in contract",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-7-063",
+      "topic": "werken-in-nederland",
+      "chapter": 7,
+      "scenario": "Hoofdstuk 7 - Contract en arbeidsvoorwaarden",
+      "question": "In het contract van Omar staat hoeveel salaris hij krijgt en hoeveel vakantiedagen hij heeft. Hoe heten deze afspraken?",
+      "type": "choice",
+      "answers": [
+        "Arbeidsvoorwaarden",
+        "Zorgvoorwaarden",
+        "Huurvoorwaarden",
+        "Stemvoorwaarden"
+      ],
+      "correct": 0,
+      "explanation": "Arbeidsvoorwaarden",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-7-064",
+      "topic": "werken-in-nederland",
+      "chapter": 7,
+      "scenario": "Hoofdstuk 7 - Contract en arbeidsvoorwaarden",
+      "question": "Sara begint aan een nieuwe baan en heeft eerst een periode waarin werkgever en werknemer kunnen kijken of het werk past. Hoe heet dit?",
+      "type": "choice",
+      "answers": [
+        "Pensioen",
+        "Proeftijd",
+        "Bijstand",
+        "Cao"
+      ],
+      "correct": 1,
+      "explanation": "Proeftijd",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-7-065",
+      "topic": "werken-in-nederland",
+      "chapter": 7,
+      "scenario": "Hoofdstuk 7 - Contract en arbeidsvoorwaarden",
+      "question": "Wat kan tijdens een geldige proeftijd meestal makkelijker?",
+      "type": "choice",
+      "answers": [
+        "Werkgever of werknemer kan sneller stoppen volgens de regels",
+        "Je krijgt automatisch een vast contract",
+        "Je hoeft nooit te werken",
+        "Je betaalt geen belasting"
+      ],
+      "correct": 0,
+      "explanation": "Makkelijker beëindigen binnen regels",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-7-066",
+      "topic": "werken-in-nederland",
+      "chapter": 7,
+      "scenario": "Hoofdstuk 7 - Contract en arbeidsvoorwaarden",
+      "question": "Waar of niet waar: In een arbeidscontract kunnen afspraken staan over salaris, uren, vakantie en startdatum.",
+      "type": "choice",
+      "answers": [
+        "Waar",
+        "Niet waar"
+      ],
+      "correct": 0,
+      "explanation": "Contract bevat afspraken",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-7-067",
+      "topic": "werken-in-nederland",
+      "chapter": 7,
+      "scenario": "Hoofdstuk 7 - Cao, rechten en plichten",
+      "question": "Veel werknemers in dezelfde sector hebben gezamenlijke afspraken over loon en arbeidsvoorwaarden. Waar staan die vaak in?",
+      "type": "choice",
+      "answers": [
+        "Cao",
+        "Paspoort",
+        "Rijbewijs",
+        "Zorgverzekering"
+      ],
+      "correct": 0,
+      "explanation": "Sectorafspraken → cao",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-7-068",
+      "topic": "werken-in-nederland",
+      "chapter": 7,
+      "scenario": "Hoofdstuk 7 - Cao, rechten en plichten",
+      "question": "Wat betekent rechten op het werk?",
+      "type": "choice",
+      "answers": [
+        "Wat je als werknemer volgens afspraken en wet mag krijgen of verwachten",
+        "Alleen wat je baas wil",
+        "Dingen die altijd verboden zijn",
+        "Alleen belasting betalen"
+      ],
+      "correct": 0,
+      "explanation": "Rechten = wat je mag/ontvangt",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-7-069",
+      "topic": "werken-in-nederland",
+      "chapter": 7,
+      "scenario": "Hoofdstuk 7 - Cao, rechten en plichten",
+      "question": "Wat betekent plichten?",
+      "type": "choice",
+      "answers": [
+        "Wat je als werknemer moet doen",
+        "Extra cadeaus van de werkgever",
+        "Alleen vakantiedagen",
+        "Dingen die nooit hoeven"
+      ],
+      "correct": 0,
+      "explanation": "Plichten = wat je moet",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-7-070",
+      "topic": "werken-in-nederland",
+      "chapter": 7,
+      "scenario": "Hoofdstuk 7 - Cao, rechten en plichten",
+      "question": "Een werknemer wil weten wat in zijn sector is afgesproken over salaris en werktijden. Waar kan hij kijken?",
+      "type": "choice",
+      "answers": [
+        "In de cao",
+        "In zijn paspoort",
+        "Op zijn OV-chipkaart",
+        "In de bijsluiter"
+      ],
+      "correct": 0,
+      "explanation": "Cao",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-7-071",
+      "topic": "werken-in-nederland",
+      "chapter": 7,
+      "scenario": "Hoofdstuk 7 - Cao, rechten en plichten",
+      "question": "Waar of niet waar: Een cao bevat afspraken die voor een groep werknemers en werkgevers in een sector kunnen gelden.",
+      "type": "choice",
+      "answers": [
+        "Waar",
+        "Niet waar"
+      ],
+      "correct": 0,
+      "explanation": "Collectieve afspraken",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-7-072",
+      "topic": "werken-in-nederland",
+      "chapter": 7,
+      "scenario": "Hoofdstuk 7 - Eigen bedrijf en Kamer van Koophandel",
+      "question": "Julia wil niet langer voor een baas werken en wil haar eigen bedrijf starten. Wat wordt zij?",
+      "type": "choice",
+      "answers": [
+        "Zelfstandig ondernemer",
+        "Werkcoach",
+        "Werknemer",
+        "Vrijwilliger"
+      ],
+      "correct": 0,
+      "explanation": "Eigen bedrijf → ondernemer",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-7-073",
+      "topic": "werken-in-nederland",
+      "chapter": 7,
+      "scenario": "Hoofdstuk 7 - Eigen bedrijf en Kamer van Koophandel",
+      "question": "Wat is verstandig voordat Julia een bedrijf begint?",
+      "type": "choice",
+      "answers": [
+        "Een ondernemingsplan maken",
+        "Haar paspoort weggooien",
+        "Nooit nadenken over geld",
+        "Geen informatie zoeken"
+      ],
+      "correct": 0,
+      "explanation": "Ondernemingsplan",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-7-074",
+      "topic": "werken-in-nederland",
+      "chapter": 7,
+      "scenario": "Hoofdstuk 7 - Eigen bedrijf en Kamer van Koophandel",
+      "question": "Wat staat in een ondernemingsplan?",
+      "type": "choice",
+      "answers": [
+        "Wat je bedrijf gaat doen en hoe je dat wilt organiseren",
+        "Alleen je medische geschiedenis",
+        "Alleen je vakantiedagen",
+        "Alleen je huurtoeslag"
+      ],
+      "correct": 0,
+      "explanation": "Plan beschrijft bedrijf",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-7-075",
+      "topic": "werken-in-nederland",
+      "chapter": 7,
+      "scenario": "Hoofdstuk 7 - Eigen bedrijf en Kamer van Koophandel",
+      "question": "Julia heeft geld nodig voor haar bedrijf en vraagt een lening bij de bank. Wat wil de bank vaak zien?",
+      "type": "choice",
+      "answers": [
+        "Een duidelijk ondernemingsplan",
+        "Alleen een foto",
+        "Een recept",
+        "Een schoolrapport van haar kind"
+      ],
+      "correct": 0,
+      "explanation": "Bank wil plan",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-7-076",
+      "topic": "werken-in-nederland",
+      "chapter": 7,
+      "scenario": "Hoofdstuk 7 - Eigen bedrijf en Kamer van Koophandel",
+      "question": "Waar moet een nieuw bedrijf worden ingeschreven?",
+      "type": "choice",
+      "answers": [
+        "Kamer van Koophandel",
+        "Huurcommissie",
+        "Consultatiebureau",
+        "Huisartsenpost"
+      ],
+      "correct": 0,
+      "explanation": "Inschrijven bij KVK",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-7-077",
+      "topic": "werken-in-nederland",
+      "chapter": 7,
+      "scenario": "Hoofdstuk 7 - Eigen bedrijf en Kamer van Koophandel",
+      "question": "Welke afkorting wordt vaak gebruikt voor Kamer van Koophandel?",
+      "type": "choice",
+      "answers": [
+        "KVK",
+        "UWV",
+        "GGZ",
+        "IND"
+      ],
+      "correct": 0,
+      "explanation": "Kamer van Koophandel = KVK",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-7-078",
+      "topic": "werken-in-nederland",
+      "chapter": 7,
+      "scenario": "Hoofdstuk 7 - Eigen bedrijf en Kamer van Koophandel",
+      "question": "Een zelfstandig ondernemer is ziek en kan een week niet werken. Wat kan een risico zijn?",
+      "type": "choice",
+      "answers": [
+        "Hij heeft mogelijk minder of geen inkomsten",
+        "Hij krijgt altijd automatisch dubbel salaris",
+        "Zijn klanten moeten zijn belasting betalen",
+        "De gemeente betaalt altijd alles"
+      ],
+      "correct": 0,
+      "explanation": "Ondernemer draagt inkomensrisico",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-7-079",
+      "topic": "werken-in-nederland",
+      "chapter": 7,
+      "scenario": "Hoofdstuk 7 - Eigen bedrijf en Kamer van Koophandel",
+      "question": "Waar of niet waar: Een ondernemer is zelf verantwoordelijk voor veel zaken rondom zijn bedrijf.",
+      "type": "choice",
+      "answers": [
+        "Waar",
+        "Niet waar"
+      ],
+      "correct": 0,
+      "explanation": "Eigen verantwoordelijkheid",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-7-080",
+      "topic": "werken-in-nederland",
+      "chapter": 7,
+      "scenario": "Hoofdstuk 7 - Bruto, netto, loonstrook en jaaropgave",
+      "question": "Peter krijgt iedere maand een document waarop zijn salaris en inhoudingen staan. Hoe heet dit?",
+      "type": "choice",
+      "answers": [
+        "Loonstrook",
+        "Verwijsbrief",
+        "Polis",
+        "Huurcontract"
+      ],
+      "correct": 0,
+      "explanation": "Loonstrook",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-7-081",
+      "topic": "werken-in-nederland",
+      "chapter": 7,
+      "scenario": "Hoofdstuk 7 - Bruto, netto, loonstrook en jaaropgave",
+      "question": "Op de loonstrook staat bruto salaris. Wat betekent bruto?",
+      "type": "choice",
+      "answers": [
+        "Salaris vóór belastingen en premies eraf zijn",
+        "Het bedrag dat altijd netto op je rekening komt",
+        "Een uitkering",
+        "Een boete"
+      ],
+      "correct": 0,
+      "explanation": "Bruto vóór inhoudingen",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-7-082",
+      "topic": "werken-in-nederland",
+      "chapter": 7,
+      "scenario": "Hoofdstuk 7 - Bruto, netto, loonstrook en jaaropgave",
+      "question": "Wat is netto salaris?",
+      "type": "choice",
+      "answers": [
+        "Het bedrag na aftrek van belastingen en premies dat je ontvangt",
+        "Het salaris vóór belasting",
+        "Alleen vakantiegeld",
+        "Een toeslag"
+      ],
+      "correct": 0,
+      "explanation": "Netto na inhoudingen",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-7-083",
+      "topic": "werken-in-nederland",
+      "chapter": 7,
+      "scenario": "Hoofdstuk 7 - Bruto, netto, loonstrook en jaaropgave",
+      "question": "Emma ziet dat haar bruto salaris hoger is dan wat op haar bankrekening komt. Waarom?",
+      "type": "choice",
+      "answers": [
+        "Er worden belastingen en premies ingehouden",
+        "Haar werkgever vergeet altijd geld",
+        "Haar bank neemt alles zonder reden",
+        "Haar huur wordt automatisch ingehouden door de overheid"
+      ],
+      "correct": 0,
+      "explanation": "Belastingen/premies",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-7-084",
+      "topic": "werken-in-nederland",
+      "chapter": 7,
+      "scenario": "Hoofdstuk 7 - Bruto, netto, loonstrook en jaaropgave",
+      "question": "Waarvoor worden belastingen gebruikt?",
+      "type": "choice",
+      "answers": [
+        "Onder andere voor scholen, wegen, politie en uitkeringen",
+        "Alleen voor privévakanties",
+        "Alleen voor bedrijven",
+        "Alleen voor sportclubs"
+      ],
+      "correct": 0,
+      "explanation": "Publieke voorzieningen",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-7-085",
+      "topic": "werken-in-nederland",
+      "chapter": 7,
+      "scenario": "Hoofdstuk 7 - Bruto, netto, loonstrook en jaaropgave",
+      "question": "Aan het einde van het jaar krijgt Ahmed een overzicht van zijn salaris over het hele jaar. Hoe heet dit?",
+      "type": "choice",
+      "answers": [
+        "Jaaropgave",
+        "Sollicitatiebrief",
+        "Arbeidscontract",
+        "Verblijfsvergunning"
+      ],
+      "correct": 0,
+      "explanation": "Jaaropgave",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-7-086",
+      "topic": "werken-in-nederland",
+      "chapter": 7,
+      "scenario": "Hoofdstuk 7 - Bruto, netto, loonstrook en jaaropgave",
+      "question": "Waarvoor kan Ahmed zijn jaaropgave gebruiken?",
+      "type": "choice",
+      "answers": [
+        "Voor de belastingaangifte",
+        "Voor een tandartscontrole",
+        "Voor het huren van een fiets",
+        "Voor een doktersrecept"
+      ],
+      "correct": 0,
+      "explanation": "Jaaropgave voor belastingaangifte",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-7-087",
+      "topic": "werken-in-nederland",
+      "chapter": 7,
+      "scenario": "Hoofdstuk 7 - Bruto, netto, loonstrook en jaaropgave",
+      "question": "Waar of niet waar: Netto salaris is meestal lager dan bruto salaris.",
+      "type": "choice",
+      "answers": [
+        "Waar",
+        "Niet waar"
+      ],
+      "correct": 0,
+      "explanation": "Netto meestal lager",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-7-088",
+      "topic": "werken-in-nederland",
+      "chapter": 7,
+      "scenario": "Hoofdstuk 7 - Pensioen en premies",
+      "question": "Maria werkt en betaalt premies. Een deel daarvan heeft te maken met sociale zekerheid. Wat kan daar bijvoorbeeld bij horen?",
+      "type": "choice",
+      "answers": [
+        "Werkloosheid en arbeidsongeschiktheid",
+        "Alleen boodschappen",
+        "Alleen huur",
+        "Alleen vakanties"
+      ],
+      "correct": 0,
+      "explanation": "Sociale zekerheid",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-7-089",
+      "topic": "werken-in-nederland",
+      "chapter": 7,
+      "scenario": "Hoofdstuk 7 - Pensioen en premies",
+      "question": "Jan wordt oud en stopt later met werken. Welk inkomen is bedoeld voor die periode?",
+      "type": "choice",
+      "answers": [
+        "Pensioen",
+        "Huurtoeslag",
+        "Kinderbijslag",
+        "Reiskosten"
+      ],
+      "correct": 0,
+      "explanation": "Pensioen",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-7-090",
+      "topic": "werken-in-nederland",
+      "chapter": 7,
+      "scenario": "Hoofdstuk 7 - Pensioen en premies",
+      "question": "Waar of niet waar: Pensioen is geld voor de periode nadat iemand stopt met werken vanwege leeftijd.",
+      "type": "choice",
+      "answers": [
+        "Waar",
+        "Niet waar"
+      ],
+      "correct": 0,
+      "explanation": "Pensioen na werkzame leven",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-7-091",
+      "topic": "werken-in-nederland",
+      "chapter": 7,
+      "scenario": "Hoofdstuk 7 - Vakbond en ondernemingsraad",
+      "question": "Sophie heeft een conflict met haar werkgever over arbeidsvoorwaarden. Welke organisatie kan werknemers ondersteunen?",
+      "type": "choice",
+      "answers": [
+        "Vakbond",
+        "Apotheek",
+        "Makelaar",
+        "Huurcommissie"
+      ],
+      "correct": 0,
+      "explanation": "Vakbond helpt werknemers",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-7-092",
+      "topic": "werken-in-nederland",
+      "chapter": 7,
+      "scenario": "Hoofdstuk 7 - Vakbond en ondernemingsraad",
+      "question": "Wat doet een vakbond onder andere?",
+      "type": "choice",
+      "answers": [
+        "Werknemers helpen en meepraten over cao en salaris",
+        "Medicijnen voorschrijven",
+        "Verblijfsvergunningen geven",
+        "Huizen verkopen"
+      ],
+      "correct": 0,
+      "explanation": "Vakbond praat mee over cao/salaris",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-7-093",
+      "topic": "werken-in-nederland",
+      "chapter": 7,
+      "scenario": "Hoofdstuk 7 - Vakbond en ondernemingsraad",
+      "question": "Peter wil lid worden van een vakbond. Wat moet hij meestal doen?",
+      "type": "choice",
+      "answers": [
+        "Contributie betalen",
+        "Zijn paspoort inleveren",
+        "Zijn baan opzeggen",
+        "Een hypotheek afsluiten"
+      ],
+      "correct": 0,
+      "explanation": "Lidmaatschap vaak contributie",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-7-094",
+      "topic": "werken-in-nederland",
+      "chapter": 7,
+      "scenario": "Hoofdstuk 7 - Vakbond en ondernemingsraad",
+      "question": "In een groot bedrijf vertegenwoordigt een groep werknemers de medewerkers bij belangrijke bedrijfsbesluiten. Hoe heet deze groep?",
+      "type": "choice",
+      "answers": [
+        "Ondernemingsraad (OR)",
+        "Huisartsenpost",
+        "Gemeenteraad",
+        "Huurcommissie"
+      ],
+      "correct": 0,
+      "explanation": "OR",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-7-095",
+      "topic": "werken-in-nederland",
+      "chapter": 7,
+      "scenario": "Hoofdstuk 7 - Vakbond en ondernemingsraad",
+      "question": "Wat doet de ondernemingsraad?",
+      "type": "choice",
+      "answers": [
+        "Meepraten over belangrijke plannen binnen het bedrijf",
+        "Paspoorten uitgeven",
+        "Medicijnen verkopen",
+        "Belastingen innen"
+      ],
+      "correct": 0,
+      "explanation": "OR praat mee over bedrijfsplannen",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-7-096",
+      "topic": "werken-in-nederland",
+      "chapter": 7,
+      "scenario": "Hoofdstuk 7 - Vakbond en ondernemingsraad",
+      "question": "Waar of niet waar: Een vakbond en een ondernemingsraad hebben allebei te maken met belangen van werknemers, maar zijn niet hetzelfde.",
+      "type": "choice",
+      "answers": [
+        "Waar",
+        "Niet waar"
+      ],
+      "correct": 0,
+      "explanation": "Vakbond ≠ OR",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-7-097",
+      "topic": "werken-in-nederland",
+      "chapter": 7,
+      "scenario": "Hoofdstuk 7 - Veilig en gezond werken",
+      "question": "Tim werkt op een bouwplaats. Zijn werkgever geeft hem een helm en veiligheidsschoenen. Waarom?",
+      "type": "choice",
+      "answers": [
+        "Voor veilig werken",
+        "Voor een sollicitatiegesprek",
+        "Voor een sportwedstrijd",
+        "Voor een vakantie"
+      ],
+      "correct": 0,
+      "explanation": "Beschermingsmiddelen",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-7-098",
+      "topic": "werken-in-nederland",
+      "chapter": 7,
+      "scenario": "Hoofdstuk 7 - Veilig en gezond werken",
+      "question": "Welke wet gaat over gezond en veilig werken?",
+      "type": "choice",
+      "answers": [
+        "Arbowet",
+        "Kieswet",
+        "Leerplichtwet",
+        "Wegenwet"
+      ],
+      "correct": 0,
+      "explanation": "Arbowet",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-7-099",
+      "topic": "werken-in-nederland",
+      "chapter": 7,
+      "scenario": "Hoofdstuk 7 - Veilig en gezond werken",
+      "question": "Lisa krijgt rugpijn door een slechte bureaustoel. Wat moet zij doen?",
+      "type": "choice",
+      "answers": [
+        "Het probleem bespreken op het werk",
+        "Niets zeggen en blijven werken",
+        "Zelf ontslag nemen zonder overleg",
+        "112 bellen"
+      ],
+      "correct": 0,
+      "explanation": "Probleem bespreken",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-7-100",
+      "topic": "werken-in-nederland",
+      "chapter": 7,
+      "scenario": "Hoofdstuk 7 - Veilig en gezond werken",
+      "question": "Een werkplek is gevaarlijk. Met wie kan een werknemer dit bespreken?",
+      "type": "choice",
+      "answers": [
+        "Chef, werkgever of ondernemingsraad",
+        "Alleen de buurman",
+        "Alleen de apotheek",
+        "Alleen de bank"
+      ],
+      "correct": 0,
+      "explanation": "Chef/werkgever/OR",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-7-101",
+      "topic": "werken-in-nederland",
+      "chapter": 7,
+      "scenario": "Hoofdstuk 7 - Veilig en gezond werken",
+      "question": "Waar of niet waar: Werkgevers moeten aandacht hebben voor veiligheid en gezondheid op het werk.",
+      "type": "choice",
+      "answers": [
+        "Waar",
+        "Niet waar"
+      ],
+      "correct": 0,
+      "explanation": "Veilig werk is belangrijk",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-7-102",
+      "topic": "werken-in-nederland",
+      "chapter": 7,
+      "scenario": "Hoofdstuk 7 - Samenwerken en communicatie",
+      "question": "Noor begint net bij een nieuw bedrijf en maakt een fout. Wat is verstandig?",
+      "type": "choice",
+      "answers": [
+        "De fout verbergen",
+        "Om hulp vragen en ervan leren",
+        "Direct ontslag nemen",
+        "Een collega de schuld geven"
+      ],
+      "correct": 1,
+      "explanation": "Fout → hulp vragen en leren",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-7-103",
+      "topic": "werken-in-nederland",
+      "chapter": 7,
+      "scenario": "Hoofdstuk 7 - Samenwerken en communicatie",
+      "question": "Een collega geeft Ahmed opbouwende kritiek. Wat kan Ahmed het beste doen?",
+      "type": "choice",
+      "answers": [
+        "Luisteren en kijken wat hij kan verbeteren",
+        "Meteen boos worden",
+        "Nooit meer met de collega praten",
+        "De politie bellen"
+      ],
+      "correct": 0,
+      "explanation": "Openstaan voor kritiek",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-7-104",
+      "topic": "werken-in-nederland",
+      "chapter": 7,
+      "scenario": "Hoofdstuk 7 - Samenwerken en communicatie",
+      "question": "Wat gebeurt er tijdens een werkoverleg?",
+      "type": "choice",
+      "answers": [
+        "Collega's praten over werk, plannen en problemen",
+        "Iedereen bespreekt alleen vakanties",
+        "De huisarts onderzoekt werknemers",
+        "De gemeente geeft rijbewijzen"
+      ],
+      "correct": 0,
+      "explanation": "Werkoverleg",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-7-105",
+      "topic": "werken-in-nederland",
+      "chapter": 7,
+      "scenario": "Hoofdstuk 7 - Samenwerken en communicatie",
+      "question": "Peter wil zijn collega bedanken voor goede hulp. Wat is passend?",
+      "type": "choice",
+      "answers": [
+        "Een compliment geven",
+        "Een boete geven",
+        "Een klacht bij de politie indienen",
+        "Niet reageren"
+      ],
+      "correct": 0,
+      "explanation": "Compliment",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-7-106",
+      "topic": "werken-in-nederland",
+      "chapter": 7,
+      "scenario": "Hoofdstuk 7 - Samenwerken en communicatie",
+      "question": "In een bedrijf heeft Maria een chef. Wie is dat?",
+      "type": "choice",
+      "answers": [
+        "Iemand die leiding geeft aan haar afdeling",
+        "Haar huisarts",
+        "Haar verhuurder",
+        "Haar advocaat"
+      ],
+      "correct": 0,
+      "explanation": "Chef = leidinggevende afdeling",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-7-107",
+      "topic": "werken-in-nederland",
+      "chapter": 7,
+      "scenario": "Hoofdstuk 7 - Samenwerken en communicatie",
+      "question": "Wat is een functioneringsgesprek?",
+      "type": "choice",
+      "answers": [
+        "Een gesprek met de leidinggevende over hoe het werk gaat en wat beter kan",
+        "Een sollicitatie bij een ander bedrijf",
+        "Een belastinggesprek",
+        "Een gesprek bij de huisarts"
+      ],
+      "correct": 0,
+      "explanation": "Functioneringsgesprek",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-7-108",
+      "topic": "werken-in-nederland",
+      "chapter": 7,
+      "scenario": "Hoofdstuk 7 - Samenwerken en communicatie",
+      "question": "Waar of niet waar: Het is normaal dat een nieuwe werknemer in het begin soms fouten maakt.",
+      "type": "choice",
+      "answers": [
+        "Waar",
+        "Niet waar"
+      ],
+      "correct": 0,
+      "explanation": "Fouten in begin kunnen gebeuren",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-7-109",
+      "topic": "werken-in-nederland",
+      "chapter": 7,
+      "scenario": "Hoofdstuk 7 - Discriminatie op het werk",
+      "question": "Hassan wordt regelmatig beledigd vanwege zijn geloof. Wat kan hij eerst proberen?",
+      "type": "choice",
+      "answers": [
+        "Rustig met de collega praten",
+        "Zelf geweld gebruiken",
+        "Meteen zijn baan verlaten zonder iets te zeggen",
+        "De situatie negeren als het ernstig blijft"
+      ],
+      "correct": 0,
+      "explanation": "Eerst rustig bespreken",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-7-110",
+      "topic": "werken-in-nederland",
+      "chapter": 7,
+      "scenario": "Hoofdstuk 7 - Discriminatie op het werk",
+      "question": "Het gedrag stopt niet nadat Hassan met de collega heeft gesproken. Wat kan hij daarna doen?",
+      "type": "choice",
+      "answers": [
+        "Met zijn chef of leidinggevende praten",
+        "De hele afdeling uitschelden",
+        "Zwart gaan werken",
+        "Zijn loonstrook weggooien"
+      ],
+      "correct": 0,
+      "explanation": "Daarna leidinggevende",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-7-111",
+      "topic": "werken-in-nederland",
+      "chapter": 7,
+      "scenario": "Hoofdstuk 7 - Discriminatie op het werk",
+      "question": "Een werkgever behandelt iemand slechter alleen vanwege afkomst of geloof. Wat is dit?",
+      "type": "choice",
+      "answers": [
+        "Discriminatie",
+        "Scholing",
+        "Motivatie",
+        "Pensioen"
+      ],
+      "correct": 0,
+      "explanation": "Ongelijke behandeling → discriminatie",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-7-112",
+      "topic": "werken-in-nederland",
+      "chapter": 7,
+      "scenario": "Hoofdstuk 7 - Discriminatie op het werk",
+      "question": "Is discriminatie toegestaan?",
+      "type": "choice",
+      "answers": [
+        "Nee",
+        "Ja, altijd",
+        "Alleen in kleine bedrijven",
+        "Alleen tijdens de proeftijd"
+      ],
+      "correct": 0,
+      "explanation": "Discriminatie verboden",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-7-113",
+      "topic": "werken-in-nederland",
+      "chapter": 7,
+      "scenario": "Hoofdstuk 7 - Discriminatie op het werk",
+      "question": "Als ernstige discriminatie niet stopt, kan iemand ook advies of hulp zoeken en eventueel aangifte doen. Waar of niet waar?",
+      "type": "choice",
+      "answers": [
+        "Waar",
+        "Niet waar"
+      ],
+      "correct": 0,
+      "explanation": "Hulp/klacht/aangifte kan mogelijk zijn",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-7-114",
+      "topic": "werken-in-nederland",
+      "chapter": 7,
+      "scenario": "Hoofdstuk 7 - Gemengde KNM-situatievragen",
+      "question": "Lina ziet een vacature die haar leuk lijkt. Ze weet niet of haar buitenlandse diploma geschikt is. Wat doet ze?",
+      "type": "choice",
+      "answers": [
+        "Haar diploma laten waarderen",
+        "Meteen stoppen met zoeken",
+        "Alleen haar bank bellen",
+        "Een uitkering aanvragen"
+      ],
+      "correct": 0,
+      "explanation": "Diploma laten waarderen",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-7-115",
+      "topic": "werken-in-nederland",
+      "chapter": 7,
+      "scenario": "Hoofdstuk 7 - Gemengde KNM-situatievragen",
+      "question": "Omar is werkloos geworden. Hij wil begeleiding bij het zoeken naar een baan. Waar kan hij terecht?",
+      "type": "choice",
+      "answers": [
+        "UWV",
+        "IND",
+        "Apotheek",
+        "Huurcommissie"
+      ],
+      "correct": 0,
+      "explanation": "UWV",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-7-116",
+      "topic": "werken-in-nederland",
+      "chapter": 7,
+      "scenario": "Hoofdstuk 7 - Gemengde KNM-situatievragen",
+      "question": "Fatima wil solliciteren. Ze heeft een vacature gevonden. Wat doet ze als volgende stap?",
+      "type": "choice",
+      "answers": [
+        "Informatie over functie en bedrijf lezen en haar CV/brief voorbereiden",
+        "Meteen zonder afspraak op de eerste werkdag verschijnen",
+        "Een hypotheek aanvragen",
+        "Haar zorgverzekering opzeggen"
+      ],
+      "correct": 0,
+      "explanation": "Vacature analyseren + CV/brief",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-7-117",
+      "topic": "werken-in-nederland",
+      "chapter": 7,
+      "scenario": "Hoofdstuk 7 - Gemengde KNM-situatievragen",
+      "question": "Peter wordt uitgenodigd voor een sollicitatiegesprek. Wat is het beste?",
+      "type": "choice",
+      "answers": [
+        "Op tijd komen, nette kleding dragen en zich voorbereiden",
+        "Een half uur te laat komen",
+        "Geen informatie over het bedrijf lezen",
+        "Tijdens het gesprek voortdurend op zijn telefoon kijken"
+      ],
+      "correct": 0,
+      "explanation": "Goede sollicitatievoorbereiding",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-7-118",
+      "topic": "werken-in-nederland",
+      "chapter": 7,
+      "scenario": "Hoofdstuk 7 - Gemengde KNM-situatievragen",
+      "question": "Sara krijgt de baan. Wat gebeurt meestal voordat ze begint?",
+      "type": "choice",
+      "answers": [
+        "Ze tekent een arbeidscontract",
+        "Ze doet aangifte bij de politie",
+        "Ze vraagt kinderbijslag aan",
+        "Ze gaat naar de huisarts"
+      ],
+      "correct": 0,
+      "explanation": "Contract vóór start",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-7-119",
+      "topic": "werken-in-nederland",
+      "chapter": 7,
+      "scenario": "Hoofdstuk 7 - Gemengde KNM-situatievragen",
+      "question": "Ahmed wil weten hoeveel hij werkelijk op zijn rekening krijgt. Naar welk bedrag kijkt hij?",
+      "type": "choice",
+      "answers": [
+        "Netto salaris",
+        "Bruto salaris",
+        "Cao-salaris zonder inhouding",
+        "Omzet van het bedrijf"
+      ],
+      "correct": 0,
+      "explanation": "Netto = werkelijk ontvangen",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-7-120",
+      "topic": "werken-in-nederland",
+      "chapter": 7,
+      "scenario": "Hoofdstuk 7 - Gemengde KNM-situatievragen",
+      "question": "Emma wil haar eigen kapsalon beginnen. Welke combinatie past het beste?",
+      "type": "choice",
+      "answers": [
+        "Ondernemingsplan maken en inschrijven bij de KVK",
+        "UWV bellen en niets plannen",
+        "Alleen een CV sturen",
+        "Eerst een cao voor werknemers tekenen"
+      ],
+      "correct": 0,
+      "explanation": "Ondernemingsplan + KVK",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-7-121",
+      "topic": "werken-in-nederland",
+      "chapter": 7,
+      "scenario": "Hoofdstuk 7 - Gemengde KNM-situatievragen",
+      "question": "Tom krijgt rugklachten door zijn werkplek. Wat moet hij doen?",
+      "type": "choice",
+      "answers": [
+        "Het veiligheids- en gezondheidsprobleem bespreken",
+        "Niets zeggen",
+        "Zijn jaaropgave aanpassen",
+        "Een nieuwe bankrekening openen"
+      ],
+      "correct": 0,
+      "explanation": "Arbo-probleem bespreken",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-7-122",
+      "topic": "werken-in-nederland",
+      "chapter": 7,
+      "scenario": "Hoofdstuk 7 - Gemengde KNM-situatievragen",
+      "question": "Lisa denkt dat haar werkgever haar discrimineert. Ze heeft eerst geprobeerd het rustig te bespreken, maar het stopt niet. Wat is een logische volgende stap?",
+      "type": "choice",
+      "answers": [
+        "Naar haar leidinggevende of een passende hulp-/klachtenroute gaan",
+        "Zwart gaan werken",
+        "Geen salaris meer accepteren",
+        "Haar diploma vernietigen"
+      ],
+      "correct": 0,
+      "explanation": "Escaleren via leidinggevende/hulp",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-7-123",
+      "topic": "werken-in-nederland",
+      "chapter": 7,
+      "scenario": "Hoofdstuk 7 - Gemengde KNM-situatievragen",
+      "question": "Karim krijgt een WW-uitkering. Welke activiteit hoort daarbij vaak?",
+      "type": "choice",
+      "answers": [
+        "Solliciteren naar werk",
+        "Nooit meer contact met UWV",
+        "Alleen vrijwilligerswerk zonder afspraken",
+        "Geen enkele verplichting"
+      ],
+      "correct": 0,
+      "explanation": "WW → sollicitatieplicht",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-7-124",
+      "topic": "werken-in-nederland",
+      "chapter": 7,
+      "scenario": "Hoofdstuk 7 - Gemengde KNM-situatievragen",
+      "question": "Noor wil weten welke afspraken in haar sector gelden over arbeidsvoorwaarden. Waar kijkt ze?",
+      "type": "choice",
+      "answers": [
+        "Cao",
+        "Paspoort",
+        "Zorgverzekering",
+        "Huurcontract"
+      ],
+      "correct": 0,
+      "explanation": "Sectorvoorwaarden → cao",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-7-125",
+      "topic": "werken-in-nederland",
+      "chapter": 7,
+      "scenario": "Hoofdstuk 7 - Gemengde KNM-situatievragen",
+      "question": "Mark krijgt aan het einde van het jaar een document met zijn jaarinkomen. Wat bewaart hij voor zijn belastingaangifte?",
+      "type": "choice",
+      "answers": [
+        "Jaaropgave",
+        "Sollicitatiebrief",
+        "Recept",
+        "Rijbewijs"
+      ],
+      "correct": 0,
+      "explanation": "Jaaropgave bewaren",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-7-126",
+      "topic": "werken-in-nederland",
+      "chapter": 7,
+      "scenario": "Hoofdstuk 7 - Gemengde KNM-situatievragen",
+      "question": "Een collega geeft Maria advies om haar werk beter te doen. Hoe reageert zij professioneel?",
+      "type": "choice",
+      "answers": [
+        "Ze luistert en probeert ervan te leren",
+        "Ze wordt meteen boos",
+        "Ze weigert nog samen te werken",
+        "Ze belt 112"
+      ],
+      "correct": 0,
+      "explanation": "Professioneel omgaan met feedback",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-7-127",
+      "topic": "werken-in-nederland",
+      "chapter": 7,
+      "scenario": "Hoofdstuk 7 - Gemengde KNM-situatievragen",
+      "question": "Jan werkt via een uitzendbureau en heeft steeds korte opdrachten. Welk type werk past hierbij?",
+      "type": "choice",
+      "answers": [
+        "Flexibel/tijdelijk werk",
+        "Vast directeurswerk",
+        "Vrijwilligerswerk",
+        "Zwart werk"
+      ],
+      "correct": 0,
+      "explanation": "Uitzendwerk = flexibel/tijdelijk",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-7-128",
+      "topic": "werken-in-nederland",
+      "chapter": 7,
+      "scenario": "Hoofdstuk 7 - Gemengde KNM-situatievragen",
+      "question": "Anja werkt drie dagen per week en wil weten hoe dit heet.",
+      "type": "choice",
+      "answers": [
+        "Fulltime",
+        "Parttime",
+        "Zwart werk",
+        "Nascholing"
+      ],
+      "correct": 1,
+      "explanation": "3 dagen = parttime",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-7-129",
+      "topic": "werken-in-nederland",
+      "chapter": 7,
+      "scenario": "Hoofdstuk 7 - Gemengde KNM-situatievragen",
+      "question": "Hassan werkt zonder dat belasting wordt betaald. Wat moet hij begrijpen?",
+      "type": "choice",
+      "answers": [
+        "Dit is zwart werk en is verboden",
+        "Dit is vrijwilligerswerk",
+        "Dit is altijd toegestaan bij weinig uren",
+        "Dit is een stage"
+      ],
+      "correct": 0,
+      "explanation": "Zwart werk verboden",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-7-130",
+      "topic": "werken-in-nederland",
+      "chapter": 7,
+      "scenario": "Hoofdstuk 7 - Gemengde KNM-situatievragen",
+      "question": "Julia wil weten waarom werken belangrijk kan zijn naast geld verdienen. Wat past bij de leerstof?",
+      "type": "choice",
+      "answers": [
+        "Je kunt mensen ontmoeten, ervaring opdoen en taal leren",
+        "Je hoeft nooit iets nieuws te leren",
+        "Je krijgt altijd een vast contract",
+        "Je hoeft geen belasting meer te betalen"
+      ],
+      "correct": 0,
+      "explanation": "Werk = inkomen + sociaal + leren",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-8-001",
       "topic": "samenleven-in-nederland",
       "chapter": 8,
-      "scenario": "原创模拟题 - Samenleven",
-      "question": "Wat is discriminatie?",
+      "scenario": "Hoofdstuk 8 - Alleen wonen, samenwonen en gezin",
+      "question": "Peter is 24 jaar en gaat voor het eerst uit het huis van zijn ouders. Hij woont alleen in een appartement. Is dat in Nederland ongewoon?",
       "type": "choice",
       "answers": [
-        "Iemand ongelijk behandelen om bijvoorbeeld afkomst of geloof.",
-        "Iemand op tijd helpen.",
-        "Een afspraak maken."
+        "Ja, jonge mensen mogen niet alleen wonen",
+        "Nee, jonge mensen wonen soms eerst alleen",
+        "Ja, alleen ouderen wonen alleen",
+        "Nee, maar alleen als hij getrouwd is"
       ],
-      "correct": 0,
-      "explanation": "discriminatie 是因出身、信仰、性别等不平等对待他人，在荷兰违法。",
-      "source": "原创模拟题"
+      "correct": 1,
+      "explanation": "Jonge mensen kunnen alleen wonen",
+      "source": "原创场景模拟题"
     },
     {
-      "id": "gen-society-2",
+      "id": "scenario-8-002",
       "topic": "samenleven-in-nederland",
       "chapter": 8,
-      "scenario": "原创模拟题 - Samenleven",
-      "question": "Wat kan vrijwilligerswerk opleveren?",
+      "scenario": "Hoofdstuk 8 - Alleen wonen, samenwonen en gezin",
+      "question": "Mevrouw Jansen woont alleen omdat haar partner is overleden. Welke situatie past hierbij?",
       "type": "choice",
       "answers": [
-        "Contact met mensen en oefenen met Nederlands.",
-        "Automatisch een paspoort.",
-        "Altijd een hoog salaris."
+        "Zij woont alleen na het overlijden van haar partner",
+        "Zij moet opnieuw trouwen",
+        "Zij moet bij haar kinderen gaan wonen",
+        "Zij mag niet alleen wonen"
       ],
       "correct": 0,
-      "explanation": "vrijwilligerswerk 有助于认识社区、练习荷兰语和了解社会。",
-      "source": "原创模拟题"
+      "explanation": "Alleen wonen na overlijden partner",
+      "source": "原创场景模拟题"
     },
     {
-      "id": "gen-society-3",
+      "id": "scenario-8-003",
       "topic": "samenleven-in-nederland",
       "chapter": 8,
-      "scenario": "原创模拟题 - Samenleven",
-      "question": "Mogen twee mannen in Nederland met elkaar trouwen?",
+      "scenario": "Hoofdstuk 8 - Alleen wonen, samenwonen en gezin",
+      "question": "Tom en Lisa hebben een relatie en wonen samen, maar zijn niet getrouwd. Is dat mogelijk in Nederland?",
       "type": "choice",
       "answers": [
-        "Ja, dat mag.",
-        "Alleen met toestemming van buren.",
-        "Nee, dat mag niet."
+        "Nee",
+        "Alleen met toestemming van de politie",
+        "Ja",
+        "Alleen als ze kinderen hebben"
       ],
-      "correct": 0,
-      "explanation": "荷兰法律允许同性婚姻。",
-      "source": "原创模拟题"
+      "correct": 2,
+      "explanation": "Samenwonen zonder huwelijk is mogelijk",
+      "source": "原创场景模拟题"
     },
     {
-      "id": "gen-society-4",
+      "id": "scenario-8-004",
       "topic": "samenleven-in-nederland",
       "chapter": 8,
-      "scenario": "原创模拟题 - Samenleven",
-      "question": "Wat is belangrijk als je buren last hebben van lawaai?",
+      "scenario": "Hoofdstuk 8 - Alleen wonen, samenwonen en gezin",
+      "question": "Twee mannen wonen samen en hebben een relatie. Hoe wordt dit in Nederland gezien?",
       "type": "choice",
       "answers": [
-        "Rustig praten en rekening houden met elkaar.",
-        "Altijd de muziek harder zetten.",
-        "Nooit reageren."
+        "Als een normale mogelijke relatievorm",
+        "Als iets dat wettelijk altijd verboden is",
+        "Als iets dat alleen in grote steden mag",
+        "Als iets waarvoor toestemming van de gemeente nodig is"
       ],
       "correct": 0,
-      "explanation": "邻里生活要考虑 geluidsoverlast，先冷静沟通。",
-      "source": "原创模拟题"
+      "explanation": "Relatie tussen twee mannen kan",
+      "source": "原创场景模拟题"
     },
     {
-      "id": "gen-history-1",
+      "id": "scenario-8-005",
+      "topic": "samenleven-in-nederland",
+      "chapter": 8,
+      "scenario": "Hoofdstuk 8 - Alleen wonen, samenwonen en gezin",
+      "question": "Emma is gescheiden en woont met haar twee kinderen. Is een gezin met één ouder mogelijk?",
+      "type": "choice",
+      "answers": [
+        "Nee, een gezin moet twee ouders hebben",
+        "Ja",
+        "Alleen tijdelijk",
+        "Alleen als de kinderen ouder zijn dan 18"
+      ],
+      "correct": 1,
+      "explanation": "Eenoudergezin bestaat",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-8-006",
+      "topic": "samenleven-in-nederland",
+      "chapter": 8,
+      "scenario": "Hoofdstuk 8 - Alleen wonen, samenwonen en gezin",
+      "question": "Nadia is gescheiden en trouwt later met een andere partner. Is dat mogelijk?",
+      "type": "choice",
+      "answers": [
+        "Nee, iemand mag maar één keer in het leven trouwen",
+        "Alleen met toestemming van de werkgever",
+        "Ja",
+        "Alleen als zij geen kinderen heeft"
+      ],
+      "correct": 2,
+      "explanation": "Na scheiding opnieuw trouwen kan",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-8-007",
+      "topic": "samenleven-in-nederland",
+      "chapter": 8,
+      "scenario": "Hoofdstuk 8 - Alleen wonen, samenwonen en gezin",
+      "question": "Karim heeft een relatie maar woont liever in zijn eigen huis. Kan dat?",
+      "type": "choice",
+      "answers": [
+        "Ja",
+        "Nee",
+        "Alleen na zijn pensioen",
+        "Alleen als de relatie geheim blijft"
+      ],
+      "correct": 0,
+      "explanation": "Relatie hebben en apart wonen kan",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-8-008",
+      "topic": "samenleven-in-nederland",
+      "chapter": 8,
+      "scenario": "Hoofdstuk 8 - Alleen wonen, samenwonen en gezin",
+      "question": "Waar of niet waar: In Nederland bestaan verschillende soorten huishoudens, bijvoorbeeld alleenstaanden, stellen zonder kinderen en gezinnen met kinderen.",
+      "type": "choice",
+      "answers": [
+        "Waar",
+        "Niet waar"
+      ],
+      "correct": 0,
+      "explanation": "Verschillende huishoudens",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-8-009",
+      "topic": "samenleven-in-nederland",
+      "chapter": 8,
+      "scenario": "Hoofdstuk 8 - Alleen wonen, samenwonen en gezin",
+      "question": "Waar of niet waar: Een gescheiden ouder met kinderen wordt in Nederland niet als gezin gezien.",
+      "type": "choice",
+      "answers": [
+        "Waar",
+        "Niet waar"
+      ],
+      "correct": 1,
+      "explanation": "Eenoudergezin is ook gezin",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-8-010",
+      "topic": "samenleven-in-nederland",
+      "chapter": 8,
+      "scenario": "Hoofdstuk 8 - Partnerkeuze en relaties",
+      "question": "Sara is volwassen en haar ouders willen bepalen met wie zij trouwt. Sara wil zelf kiezen. Wat past bij de Nederlandse norm uit de leerstof?",
+      "type": "choice",
+      "answers": [
+        "Alleen de ouders kiezen de partner",
+        "Sara mag zelf haar partner kiezen",
+        "De gemeente kiest de partner",
+        "De werkgever kiest de partner"
+      ],
+      "correct": 1,
+      "explanation": "Volwassene kiest zelf partner",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-8-011",
+      "topic": "samenleven-in-nederland",
+      "chapter": 8,
+      "scenario": "Hoofdstuk 8 - Partnerkeuze en relaties",
+      "question": "Ahmed ontmoet iemand via een datingsite en krijgt een relatie. Is dat volgens de leerstof mogelijk?",
+      "type": "choice",
+      "answers": [
+        "Ja",
+        "Nee, relaties mogen alleen via familie ontstaan",
+        "Alleen als de politie toestemming geeft",
+        "Alleen na een huwelijk"
+      ],
+      "correct": 0,
+      "explanation": "Relatie via internet kan",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-8-012",
+      "topic": "samenleven-in-nederland",
+      "chapter": 8,
+      "scenario": "Hoofdstuk 8 - Partnerkeuze en relaties",
+      "question": "Lisa en haar vriend wonen samen zonder te trouwen. Wat past het beste?",
+      "type": "choice",
+      "answers": [
+        "Dat is niet toegestaan",
+        "Dat kan in Nederland",
+        "Alleen studenten mogen dat",
+        "Alleen mensen zonder kinderen mogen dat"
+      ],
+      "correct": 1,
+      "explanation": "Samenwonen zonder huwelijk kan",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-8-013",
+      "topic": "samenleven-in-nederland",
+      "chapter": 8,
+      "scenario": "Hoofdstuk 8 - Partnerkeuze en relaties",
+      "question": "Twee vrouwen willen trouwen. Wat past bij de Nederlandse samenleving?",
+      "type": "choice",
+      "answers": [
+        "Dat is niet mogelijk",
+        "Alleen samenwonen is mogelijk",
+        "Zij kunnen trouwen",
+        "Zij moeten in het buitenland trouwen"
+      ],
+      "correct": 2,
+      "explanation": "Huwelijk voor twee vrouwen mogelijk",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-8-014",
+      "topic": "samenleven-in-nederland",
+      "chapter": 8,
+      "scenario": "Hoofdstuk 8 - Partnerkeuze en relaties",
+      "question": "Waar of niet waar: Volwassenen kiezen in Nederland in principe zelf met wie zij een relatie willen.",
+      "type": "choice",
+      "answers": [
+        "Waar",
+        "Niet waar"
+      ],
+      "correct": 0,
+      "explanation": "Partnerkeuze is persoonlijk",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-8-015",
+      "topic": "samenleven-in-nederland",
+      "chapter": 8,
+      "scenario": "Hoofdstuk 8 - Seksuele voorlichting en jongeren",
+      "question": "De dochter van Peter is in de puberteit. Peter wil praten over relaties, lichamelijke veranderingen en veilige keuzes. Is dat passend?",
+      "type": "choice",
+      "answers": [
+        "Ja",
+        "Nee, ouders mogen hier nooit over praten",
+        "Alleen de politie mag dit bespreken",
+        "Alleen na het huwelijk"
+      ],
+      "correct": 0,
+      "explanation": "Ouders kunnen praten over relaties/seksualiteit",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-8-016",
+      "topic": "samenleven-in-nederland",
+      "chapter": 8,
+      "scenario": "Hoofdstuk 8 - Seksuele voorlichting en jongeren",
+      "question": "Een middelbare school geeft les over lichamelijke veranderingen, relaties en seksualiteit. Hoe heet dit?",
+      "type": "choice",
+      "answers": [
+        "Sollicitatietraining",
+        "Seksuele voorlichting",
+        "Inburgering",
+        "Belastingles"
+      ],
+      "correct": 1,
+      "explanation": "Seksuele voorlichting",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-8-017",
+      "topic": "samenleven-in-nederland",
+      "chapter": 8,
+      "scenario": "Hoofdstuk 8 - Seksuele voorlichting en jongeren",
+      "question": "Waarom krijgen jongeren seksuele voorlichting?",
+      "type": "choice",
+      "answers": [
+        "Om informatie te krijgen over lichaam, relaties, grenzen en gezondheid",
+        "Om sneller te trouwen",
+        "Om geen opleiding te hoeven volgen",
+        "Om een baan te krijgen"
+      ],
+      "correct": 0,
+      "explanation": "Informatie over lichaam/grenzen/gezondheid",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-8-018",
+      "topic": "samenleven-in-nederland",
+      "chapter": 8,
+      "scenario": "Hoofdstuk 8 - Seksuele voorlichting en jongeren",
+      "question": "Een jongere heeft vragen over zijn lichaam en relaties. Welke bron kan passend zijn?",
+      "type": "choice",
+      "answers": [
+        "Ouders of school",
+        "Alleen de bank",
+        "Alleen de makelaar",
+        "Alleen de Belastingdienst"
+      ],
+      "correct": 0,
+      "explanation": "Ouders/school zijn passende bronnen",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-8-019",
+      "topic": "samenleven-in-nederland",
+      "chapter": 8,
+      "scenario": "Hoofdstuk 8 - Seksuele voorlichting en jongeren",
+      "question": "Waar of niet waar: In Nederland kunnen ouders en scholen met jongeren praten over seksualiteit en relaties.",
+      "type": "choice",
+      "answers": [
+        "Waar",
+        "Niet waar"
+      ],
+      "correct": 0,
+      "explanation": "Seksuele voorlichting is normaal",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-8-020",
+      "topic": "samenleven-in-nederland",
+      "chapter": 8,
+      "scenario": "Hoofdstuk 8 - Homoseksualiteit en acceptatie",
+      "question": "Mark ziet twee mannen hand in hand lopen. Wat past het beste bij respectvol gedrag?",
+      "type": "choice",
+      "answers": [
+        "Ze uitschelden",
+        "Gewoon normaal en respectvol reageren",
+        "De politie bellen",
+        "Ze vragen uit elkaar te gaan"
+      ],
+      "correct": 1,
+      "explanation": "Normaal en respectvol reageren",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-8-021",
+      "topic": "samenleven-in-nederland",
+      "chapter": 8,
+      "scenario": "Hoofdstuk 8 - Homoseksualiteit en acceptatie",
+      "question": "Noor heeft een vrouwelijke collega die getrouwd is met een vrouw. Hoe hoort Noor haar te behandelen?",
+      "type": "choice",
+      "answers": [
+        "Anders dan andere collega's",
+        "Met minder respect",
+        "Met hetzelfde respect als andere collega's",
+        "Zij mag niet met haar praten"
+      ],
+      "correct": 2,
+      "explanation": "Gelijke behandeling",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-8-022",
+      "topic": "samenleven-in-nederland",
+      "chapter": 8,
+      "scenario": "Hoofdstuk 8 - Homoseksualiteit en acceptatie",
+      "question": "Iemand maakt vervelende opmerkingen over een homoseksuele collega. Wat is belangrijk?",
+      "type": "choice",
+      "answers": [
+        "Iedereen heeft recht op respect en gelijke behandeling",
+        "Discriminatie is toegestaan als het een grap is",
+        "Alleen de werkgever heeft rechten",
+        "De collega moet zelf ontslag nemen"
+      ],
+      "correct": 0,
+      "explanation": "Respect en gelijkheid",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-8-023",
+      "topic": "samenleven-in-nederland",
+      "chapter": 8,
+      "scenario": "Hoofdstuk 8 - Homoseksualiteit en acceptatie",
+      "question": "Een vrouw heeft een relatie met een andere vrouw. Welk woord wordt vaak gebruikt?",
+      "type": "choice",
+      "answers": [
+        "Lesbisch",
+        "Werkloos",
+        "Gescheiden",
+        "Alleenstaand"
+      ],
+      "correct": 0,
+      "explanation": "Vrouw-vrouw relatie → lesbisch",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-8-024",
+      "topic": "samenleven-in-nederland",
+      "chapter": 8,
+      "scenario": "Hoofdstuk 8 - Homoseksualiteit en acceptatie",
+      "question": "Een man heeft een relatie met een andere man. Welk woord wordt vaak gebruikt?",
+      "type": "choice",
+      "answers": [
+        "Werkgever",
+        "Homo",
+        "Alleenstaande ouder",
+        "Puber"
+      ],
+      "correct": 1,
+      "explanation": "Man-man relatie → homo",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-8-025",
+      "topic": "samenleven-in-nederland",
+      "chapter": 8,
+      "scenario": "Hoofdstuk 8 - Homoseksualiteit en acceptatie",
+      "question": "Waar of niet waar: Twee mannen of twee vrouwen kunnen in Nederland als stel samenleven.",
+      "type": "choice",
+      "answers": [
+        "Waar",
+        "Niet waar"
+      ],
+      "correct": 0,
+      "explanation": "Stellen van gelijk geslacht bestaan",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-8-026",
+      "topic": "samenleven-in-nederland",
+      "chapter": 8,
+      "scenario": "Hoofdstuk 8 - Homoseksualiteit en acceptatie",
+      "question": "Waar of niet waar: Iedereen in Nederland denkt precies hetzelfde over homoseksualiteit.",
+      "type": "choice",
+      "answers": [
+        "Waar",
+        "Niet waar"
+      ],
+      "correct": 1,
+      "explanation": "Meningen verschillen",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-8-027",
+      "topic": "samenleven-in-nederland",
+      "chapter": 8,
+      "scenario": "Hoofdstuk 8 - Kleding en gedrag in het openbaar",
+      "question": "Het is warm in de zomer. Een vrouw fietst met blote armen en benen. Wat betekent dit volgens de leerstof?",
+      "type": "choice",
+      "answers": [
+        "Dat zij contact zoekt met mannen",
+        "Dat zij zich normaal voor warm weer kleedt",
+        "Dat zij de wet overtreedt",
+        "Dat zij wil trouwen"
+      ],
+      "correct": 1,
+      "explanation": "Kleding ≠ uitnodiging",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-8-028",
+      "topic": "samenleven-in-nederland",
+      "chapter": 8,
+      "scenario": "Hoofdstuk 8 - Kleding en gedrag in het openbaar",
+      "question": "Een nieuwe inwoner ziet mensen in de zomer korte kleding dragen. Wat is een goede reactie?",
+      "type": "choice",
+      "answers": [
+        "Respecteren dat dit normaal kan zijn",
+        "Mensen aanspreken omdat het verboden is",
+        "De politie bellen",
+        "Denken dat iedereen contact zoekt"
+      ],
+      "correct": 0,
+      "explanation": "Zomerkleding respecteren",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-8-029",
+      "topic": "samenleven-in-nederland",
+      "chapter": 8,
+      "scenario": "Hoofdstuk 8 - Kleding en gedrag in het openbaar",
+      "question": "Een stel loopt hand in hand in het park. Is lichamelijk contact zoals hand in hand lopen in het openbaar ongewoon?",
+      "type": "choice",
+      "answers": [
+        "Ja, het is altijd verboden",
+        "Nee, dat komt voor",
+        "Alleen ouderen mogen dat",
+        "Alleen getrouwde stellen mogen dat"
+      ],
+      "correct": 1,
+      "explanation": "Lichamelijk contact in openbaar komt voor",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-8-030",
+      "topic": "samenleven-in-nederland",
+      "chapter": 8,
+      "scenario": "Hoofdstuk 8 - Kleding en gedrag in het openbaar",
+      "question": "Twee mannen geven elkaar een kus in het openbaar. Wat past bij de leerstof?",
+      "type": "choice",
+      "answers": [
+        "Respectvol omgaan met hun keuze",
+        "Ze wegsturen",
+        "Aangifte doen",
+        "Ze beledigen"
+      ],
+      "correct": 0,
+      "explanation": "Respectvol reageren",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-8-031",
+      "topic": "samenleven-in-nederland",
+      "chapter": 8,
+      "scenario": "Hoofdstuk 8 - Kleding en gedrag in het openbaar",
+      "question": "Waar of niet waar: Kleding met blote armen of benen betekent niet automatisch dat iemand romantisch of seksueel contact zoekt.",
+      "type": "choice",
+      "answers": [
+        "Waar",
+        "Niet waar"
+      ],
+      "correct": 0,
+      "explanation": "Kleding zegt niets over toestemming",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-8-032",
+      "topic": "samenleven-in-nederland",
+      "chapter": 8,
+      "scenario": "Hoofdstuk 8 - Gelijkheid tussen mannen en vrouwen",
+      "question": "Fatima en haar man bespreken samen waar ze gaan wonen en hoe ze hun geld gebruiken. Wat past hierbij?",
+      "type": "choice",
+      "answers": [
+        "Alleen de man mag beslissen",
+        "Zij nemen samen beslissingen",
+        "Alleen de vrouw beslist",
+        "De werkgever beslist"
+      ],
+      "correct": 1,
+      "explanation": "Samen beslissen",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-8-033",
+      "topic": "samenleven-in-nederland",
+      "chapter": 8,
+      "scenario": "Hoofdstuk 8 - Gelijkheid tussen mannen en vrouwen",
+      "question": "Peter kookt en doet de was terwijl zijn vrouw werkt. Is dat vreemd?",
+      "type": "choice",
+      "answers": [
+        "Ja, huishouden is alleen voor vrouwen",
+        "Nee, mannen en vrouwen kunnen huishoudelijke taken delen",
+        "Alleen als hij werkloos is",
+        "Alleen in het weekend"
+      ],
+      "correct": 1,
+      "explanation": "Huishouden delen",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-8-034",
+      "topic": "samenleven-in-nederland",
+      "chapter": 8,
+      "scenario": "Hoofdstuk 8 - Gelijkheid tussen mannen en vrouwen",
+      "question": "Sara krijgt een kind maar wil daarna blijven werken. Is dat mogelijk?",
+      "type": "choice",
+      "answers": [
+        "Nee",
+        "Ja",
+        "Alleen als zij niet getrouwd is",
+        "Alleen als haar werkgever haar man toestemming geeft"
+      ],
+      "correct": 1,
+      "explanation": "Vrouw kan blijven werken",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-8-035",
+      "topic": "samenleven-in-nederland",
+      "chapter": 8,
+      "scenario": "Hoofdstuk 8 - Gelijkheid tussen mannen en vrouwen",
+      "question": "Een meisje wil techniek studeren. Haar broer wil verpleegkunde studeren. Wie mag volgens de Nederlandse norm hun opleiding kiezen?",
+      "type": "choice",
+      "answers": [
+        "Alleen hun vader",
+        "Alleen de school",
+        "Zijzelf",
+        "De buren"
+      ],
+      "correct": 2,
+      "explanation": "Zelf opleiding kiezen",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-8-036",
+      "topic": "samenleven-in-nederland",
+      "chapter": 8,
+      "scenario": "Hoofdstuk 8 - Gelijkheid tussen mannen en vrouwen",
+      "question": "Een zoon wil trouwen met iemand die zijn ouders niet hebben gekozen. Wie beslist uiteindelijk over zijn partner?",
+      "type": "choice",
+      "answers": [
+        "De volwassen zoon zelf",
+        "De gemeente",
+        "Zijn werkgever",
+        "De huisarts"
+      ],
+      "correct": 0,
+      "explanation": "Volwassene kiest partner",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-8-037",
+      "topic": "samenleven-in-nederland",
+      "chapter": 8,
+      "scenario": "Hoofdstuk 8 - Gelijkheid tussen mannen en vrouwen",
+      "question": "Een werkgever geeft een man meer salaris alleen omdat hij een man is, terwijl een vrouw hetzelfde werk doet. Welk principe wordt geschonden?",
+      "type": "choice",
+      "answers": [
+        "Gelijke behandeling",
+        "Vrijheid van onderwijs",
+        "Leerplicht",
+        "Huurrecht"
+      ],
+      "correct": 0,
+      "explanation": "Gelijke behandeling",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-8-038",
+      "topic": "samenleven-in-nederland",
+      "chapter": 8,
+      "scenario": "Hoofdstuk 8 - Gelijkheid tussen mannen en vrouwen",
+      "question": "Waar of niet waar: Mannen en vrouwen hebben in Nederland dezelfde rechten.",
+      "type": "choice",
+      "answers": [
+        "Waar",
+        "Niet waar"
+      ],
+      "correct": 0,
+      "explanation": "Mannen/vrouwen gelijke rechten",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-8-039",
+      "topic": "samenleven-in-nederland",
+      "chapter": 8,
+      "scenario": "Hoofdstuk 8 - Gelijkheid tussen mannen en vrouwen",
+      "question": "Waar of niet waar: Een vrouw moet stoppen met werken zodra zij kinderen krijgt.",
+      "type": "choice",
+      "answers": [
+        "Waar",
+        "Niet waar"
+      ],
+      "correct": 1,
+      "explanation": "Vrouwen hoeven niet te stoppen met werken",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-8-040",
+      "topic": "samenleven-in-nederland",
+      "chapter": 8,
+      "scenario": "Hoofdstuk 8 - Respect voor verschillen",
+      "question": "Ahmed is moslim en zijn buurvrouw is christen. Wat is belangrijk?",
+      "type": "choice",
+      "answers": [
+        "Respect hebben voor elkaars geloof",
+        "Elkaar vermijden",
+        "Alleen één geloof accepteren",
+        "Altijd dezelfde gewoonten hebben"
+      ],
+      "correct": 0,
+      "explanation": "Respect voor geloof",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-8-041",
+      "topic": "samenleven-in-nederland",
+      "chapter": 8,
+      "scenario": "Hoofdstuk 8 - Respect voor verschillen",
+      "question": "Een collega heeft andere gewoonten dan jij. Wat past bij samenleven in Nederland?",
+      "type": "choice",
+      "answers": [
+        "Respectvol omgaan met verschillen",
+        "De collega verplichten jouw gewoonten te volgen",
+        "De collega uitsluiten",
+        "Meteen aangifte doen"
+      ],
+      "correct": 0,
+      "explanation": "Respectvol omgaan met gewoonten",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-8-042",
+      "topic": "samenleven-in-nederland",
+      "chapter": 8,
+      "scenario": "Hoofdstuk 8 - Respect voor verschillen",
+      "question": "Twee Nederlanders denken verschillend over relaties en gezin. Is dat mogelijk?",
+      "type": "choice",
+      "answers": [
+        "Nee, iedereen moet hetzelfde denken",
+        "Ja",
+        "Alleen ouderen mogen een andere mening hebben",
+        "Alleen mensen in dorpen mogen verschillen"
+      ],
+      "correct": 1,
+      "explanation": "Verschillende meningen zijn normaal",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-8-043",
+      "topic": "samenleven-in-nederland",
+      "chapter": 8,
+      "scenario": "Hoofdstuk 8 - Respect voor verschillen",
+      "question": "Een jongere en een oudere persoon hebben een andere mening over opvoeding. Wat is een goede reactie?",
+      "type": "choice",
+      "answers": [
+        "Accepteren dat mensen verschillend kunnen denken",
+        "Denken dat één van hen geen rechten heeft",
+        "De politie bellen",
+        "Het gesprek verbieden"
+      ],
+      "correct": 0,
+      "explanation": "Verschillen accepteren",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-8-044",
+      "topic": "samenleven-in-nederland",
+      "chapter": 8,
+      "scenario": "Hoofdstuk 8 - Respect voor verschillen",
+      "question": "Waar of niet waar: Ook binnen Nederland verschillen mensen van mening door bijvoorbeeld leeftijd, geloof of woonplaats.",
+      "type": "choice",
+      "answers": [
+        "Waar",
+        "Niet waar"
+      ],
+      "correct": 0,
+      "explanation": "Leeftijd/geloof/woonplaats kunnen verschil geven",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-8-045",
+      "topic": "samenleven-in-nederland",
+      "chapter": 8,
+      "scenario": "Hoofdstuk 8 - Ouders, jongeren en aanspreekvormen",
+      "question": "Een Nederlandse puber zegt jij tegen zijn ouders. Is dat volgens de leerstof ongewoon?",
+      "type": "choice",
+      "answers": [
+        "Ja, kinderen moeten altijd u zeggen",
+        "Nee, jij tegen ouders komt voor",
+        "Alleen meisjes mogen dat",
+        "Alleen na 18 jaar"
+      ],
+      "correct": 1,
+      "explanation": "jij tegen ouders kan",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-8-046",
+      "topic": "samenleven-in-nederland",
+      "chapter": 8,
+      "scenario": "Hoofdstuk 8 - Ouders, jongeren en aanspreekvormen",
+      "question": "Een puber maakt vaak ruzie met zijn ouders over regels. Is dat volgens de leerstof iets wat kan voorkomen?",
+      "type": "choice",
+      "answers": [
+        "Ja",
+        "Nee, pubers hebben nooit conflicten",
+        "Alleen op school",
+        "Alleen bij jongens"
+      ],
+      "correct": 0,
+      "explanation": "Pubers kunnen ruzie hebben",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-8-047",
+      "topic": "samenleven-in-nederland",
+      "chapter": 8,
+      "scenario": "Hoofdstuk 8 - Ouders, jongeren en aanspreekvormen",
+      "question": "Een leerling heeft een andere mening dan zijn leraar. Wat is belangrijk?",
+      "type": "choice",
+      "answers": [
+        "Respectvol blijven",
+        "De leraar bedreigen",
+        "De school verlaten",
+        "Nooit iets zeggen"
+      ],
+      "correct": 0,
+      "explanation": "Respectvol blijven",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-8-048",
+      "topic": "samenleven-in-nederland",
+      "chapter": 8,
+      "scenario": "Hoofdstuk 8 - Discriminatie en gelijke behandeling",
+      "question": "Karim solliciteert naar een baan. Het bedrijf zegt: “We nemen geen buitenlanders aan.” Wat kan dit zijn?",
+      "type": "choice",
+      "answers": [
+        "Discriminatie",
+        "Een cao",
+        "Een compliment",
+        "Een belastingregel"
+      ],
+      "correct": 0,
+      "explanation": "Geen buitenlanders aannemen → discriminatie",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-8-049",
+      "topic": "samenleven-in-nederland",
+      "chapter": 8,
+      "scenario": "Hoofdstuk 8 - Discriminatie en gelijke behandeling",
+      "question": "Karim denkt dat hij is gediscrimineerd. Wat kan hij doen?",
+      "type": "choice",
+      "answers": [
+        "Niets, discriminatie is altijd toegestaan",
+        "Informatie zoeken en een klacht indienen",
+        "Zijn paspoort weggooien",
+        "De werkgever geld geven"
+      ],
+      "correct": 1,
+      "explanation": "Klacht/informatie zoeken",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-8-050",
+      "topic": "samenleven-in-nederland",
+      "chapter": 8,
+      "scenario": "Hoofdstuk 8 - Discriminatie en gelijke behandeling",
+      "question": "Een vrouw krijgt geen kans op een functie alleen omdat zij vrouw is. Wat is dit?",
+      "type": "choice",
+      "answers": [
+        "Normale selectie",
+        "Discriminatie",
+        "Vrijwilligerswerk",
+        "Inburgering"
+      ],
+      "correct": 1,
+      "explanation": "Geslacht als reden → discriminatie",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-8-051",
+      "topic": "samenleven-in-nederland",
+      "chapter": 8,
+      "scenario": "Hoofdstuk 8 - Discriminatie en gelijke behandeling",
+      "question": "Een homoseksuele werknemer wordt structureel beledigd op het werk. Wat kan hij doen?",
+      "type": "choice",
+      "answers": [
+        "Het altijd accepteren",
+        "Een klacht bespreken via passende kanalen",
+        "Zelf geweld gebruiken",
+        "Stoppen met zijn relatie"
+      ],
+      "correct": 1,
+      "explanation": "Klachtenroute gebruiken",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-8-052",
+      "topic": "samenleven-in-nederland",
+      "chapter": 8,
+      "scenario": "Hoofdstuk 8 - Discriminatie en gelijke behandeling",
+      "question": "Wanneer ernstige discriminatie of bedreiging plaatsvindt, kan iemand ook hulp zoeken bij:",
+      "type": "choice",
+      "answers": [
+        "De politie of een passende klachteninstantie",
+        "Alleen de supermarkt",
+        "Alleen de bibliotheek",
+        "Alleen de makelaar"
+      ],
+      "correct": 0,
+      "explanation": "Politie/klachteninstantie",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-8-053",
+      "topic": "samenleven-in-nederland",
+      "chapter": 8,
+      "scenario": "Hoofdstuk 8 - Discriminatie en gelijke behandeling",
+      "question": "Waar of niet waar: Discriminatie is verboden.",
+      "type": "choice",
+      "answers": [
+        "Waar",
+        "Niet waar"
+      ],
+      "correct": 0,
+      "explanation": "Discriminatie verboden",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-8-054",
+      "topic": "samenleven-in-nederland",
+      "chapter": 8,
+      "scenario": "Hoofdstuk 8 - Discriminatie en gelijke behandeling",
+      "question": "Waar of niet waar: Gelijke rechten betekenen dat iedereen in elke situatie exact hetzelfde leven moet leiden.",
+      "type": "choice",
+      "answers": [
+        "Waar",
+        "Niet waar"
+      ],
+      "correct": 1,
+      "explanation": "Gelijke rechten ≠ identieke levensstijl",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-8-055",
+      "topic": "samenleven-in-nederland",
+      "chapter": 8,
+      "scenario": "Hoofdstuk 8 - Geweld en mishandeling",
+      "question": "Een man slaat zijn partner regelmatig. Wat is dit?",
+      "type": "choice",
+      "answers": [
+        "Normale ruzie",
+        "Mishandeling",
+        "Opvoeding",
+        "Een privézaak waar niemand hulp voor mag vragen"
+      ],
+      "correct": 1,
+      "explanation": "Partner slaan = mishandeling",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-8-056",
+      "topic": "samenleven-in-nederland",
+      "chapter": 8,
+      "scenario": "Hoofdstuk 8 - Geweld en mishandeling",
+      "question": "Een ouder slaat zijn kind als straf. Is dat toegestaan?",
+      "type": "choice",
+      "answers": [
+        "Ja, altijd",
+        "Alleen thuis",
+        "Nee",
+        "Alleen als het kind ouder is dan 12"
+      ],
+      "correct": 2,
+      "explanation": "Kind slaan niet toegestaan",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-8-057",
+      "topic": "samenleven-in-nederland",
+      "chapter": 8,
+      "scenario": "Hoofdstuk 8 - Geweld en mishandeling",
+      "question": "Iemand bedreigt een ander met een mes. Wat moet je bij direct gevaar doen?",
+      "type": "choice",
+      "answers": [
+        "Eerst een afspraak bij de gemeente maken",
+        "112 bellen",
+        "Een belastingaangifte doen",
+        "Een datingsite gebruiken"
+      ],
+      "correct": 1,
+      "explanation": "Direct gevaar → 112",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-8-058",
+      "topic": "samenleven-in-nederland",
+      "chapter": 8,
+      "scenario": "Hoofdstuk 8 - Geweld en mishandeling",
+      "question": "Een vrouw wordt door haar partner ernstig mishandeld. Waar kan zij hulp zoeken?",
+      "type": "choice",
+      "answers": [
+        "Huisarts of politie",
+        "Alleen bij haar werkgever",
+        "Alleen bij de bank",
+        "Nergens"
+      ],
+      "correct": 0,
+      "explanation": "Huisarts/politie/hulp",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-8-059",
+      "topic": "samenleven-in-nederland",
+      "chapter": 8,
+      "scenario": "Hoofdstuk 8 - Geweld en mishandeling",
+      "question": "Wat betekent mishandeling?",
+      "type": "choice",
+      "answers": [
+        "Iemand opzettelijk pijn doen",
+        "Iemand een compliment geven",
+        "Een huis verkopen",
+        "Een opleiding kiezen"
+      ],
+      "correct": 0,
+      "explanation": "Mishandeling = pijn doen",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-8-060",
+      "topic": "samenleven-in-nederland",
+      "chapter": 8,
+      "scenario": "Hoofdstuk 8 - Geweld en mishandeling",
+      "question": "Waar of niet waar: Geweld tegen een partner of kind is verboden.",
+      "type": "choice",
+      "answers": [
+        "Waar",
+        "Niet waar"
+      ],
+      "correct": 0,
+      "explanation": "Geweld verboden",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-8-061",
+      "topic": "samenleven-in-nederland",
+      "chapter": 8,
+      "scenario": "Hoofdstuk 8 - Grenzen, toestemming en seksueel geweld",
+      "question": "Een persoon zegt duidelijk dat hij of zij geen seks wil. Wat moet de andere persoon doen?",
+      "type": "choice",
+      "answers": [
+        "Stoppen en de grens respecteren",
+        "Doorgaan",
+        "Dreigen",
+        "De persoon dwingen"
+      ],
+      "correct": 0,
+      "explanation": "Geen toestemming → stoppen",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-8-062",
+      "topic": "samenleven-in-nederland",
+      "chapter": 8,
+      "scenario": "Hoofdstuk 8 - Grenzen, toestemming en seksueel geweld",
+      "question": "Iemand dwingt een ander tot seks. Hoe heet dit?",
+      "type": "choice",
+      "answers": [
+        "Discriminatie",
+        "Verkrachting",
+        "Samenwonen",
+        "Naturalisatie"
+      ],
+      "correct": 1,
+      "explanation": "Dwingen tot seks = verkrachting",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-8-063",
+      "topic": "samenleven-in-nederland",
+      "chapter": 8,
+      "scenario": "Hoofdstuk 8 - Grenzen, toestemming en seksueel geweld",
+      "question": "Is seksueel geweld toegestaan?",
+      "type": "choice",
+      "answers": [
+        "Ja, binnen een relatie",
+        "Alleen als mensen getrouwd zijn",
+        "Nee",
+        "Alleen thuis"
+      ],
+      "correct": 2,
+      "explanation": "Seksueel geweld verboden",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-8-064",
+      "topic": "samenleven-in-nederland",
+      "chapter": 8,
+      "scenario": "Hoofdstuk 8 - Grenzen, toestemming en seksueel geweld",
+      "question": "Iemand heeft te maken met seksueel geweld en is in direct gevaar. Wat is een passende actie?",
+      "type": "choice",
+      "answers": [
+        "112 bellen",
+        "Een huurcontract tekenen",
+        "Een belastingaangifte doen",
+        "Een rijbewijs aanvragen"
+      ],
+      "correct": 0,
+      "explanation": "Direct gevaar → 112",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-8-065",
+      "topic": "samenleven-in-nederland",
+      "chapter": 8,
+      "scenario": "Hoofdstuk 8 - Grenzen, toestemming en seksueel geweld",
+      "question": "Waar of niet waar: Ook binnen een relatie moet iemand de grenzen en toestemming van de ander respecteren.",
+      "type": "choice",
+      "answers": [
+        "Waar",
+        "Niet waar"
+      ],
+      "correct": 0,
+      "explanation": "Toestemming blijft belangrijk binnen relatie",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-8-066",
+      "topic": "samenleven-in-nederland",
+      "chapter": 8,
+      "scenario": "Hoofdstuk 8 - Bescherming van minderjarigen",
+      "question": "Een volwassen persoon probeert een minderjarige seksueel onder druk te zetten. Wat is belangrijk?",
+      "type": "choice",
+      "answers": [
+        "De minderjarige beschermen en hulp inschakelen",
+        "Het geheim houden",
+        "De minderjarige de schuld geven",
+        "Niets doen"
+      ],
+      "correct": 0,
+      "explanation": "Minderjarige beschermen",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-8-067",
+      "topic": "samenleven-in-nederland",
+      "chapter": 8,
+      "scenario": "Hoofdstuk 8 - Bescherming van minderjarigen",
+      "question": "Een jongere vertelt een leraar dat een volwassene hem seksueel lastigvalt. Wat moet de leraar doen?",
+      "type": "choice",
+      "answers": [
+        "Het negeren",
+        "De veiligheid serieus nemen en passende hulp inschakelen",
+        "De jongere naar huis sturen zonder iets te doen",
+        "De volwassene complimenteren"
+      ],
+      "correct": 1,
+      "explanation": "Signaal serieus nemen + hulp",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-8-068",
+      "topic": "samenleven-in-nederland",
+      "chapter": 8,
+      "scenario": "Hoofdstuk 8 - Bescherming van minderjarigen",
+      "question": "Waar of niet waar: Minderjarigen moeten beschermd worden tegen seksueel misbruik en dwang.",
+      "type": "choice",
+      "answers": [
+        "Waar",
+        "Niet waar"
+      ],
+      "correct": 0,
+      "explanation": "Bescherming tegen misbruik",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-8-069",
+      "topic": "samenleven-in-nederland",
+      "chapter": 8,
+      "scenario": "Hoofdstuk 8 - Eerwraak en vrouwelijke genitale verminking",
+      "question": "Een meisje wordt bedreigd omdat haar familie haar relatie niet accepteert. De familie dreigt haar ernstig geweld aan te doen. Wat moet zij doen?",
+      "type": "choice",
+      "answers": [
+        "Hulp zoeken bij politie of professionele hulpverlening",
+        "Het geweld accepteren",
+        "Zelf verdwijnen zonder hulp",
+        "Niemand vertellen"
+      ],
+      "correct": 0,
+      "explanation": "Bedreiging door familie → hulp/politie",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-8-070",
+      "topic": "samenleven-in-nederland",
+      "chapter": 8,
+      "scenario": "Hoofdstuk 8 - Eerwraak en vrouwelijke genitale verminking",
+      "question": "Is eergerelateerd geweld toegestaan?",
+      "type": "choice",
+      "answers": [
+        "Ja, als familie het belangrijk vindt",
+        "Alleen buiten grote steden",
+        "Nee",
+        "Alleen als iemand niet getrouwd is"
+      ],
+      "correct": 2,
+      "explanation": "Eergerelateerd geweld verboden",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-8-071",
+      "topic": "samenleven-in-nederland",
+      "chapter": 8,
+      "scenario": "Hoofdstuk 8 - Eerwraak en vrouwelijke genitale verminking",
+      "question": "Een familie wil een meisje laten besnijden. Wat past bij de leerstof?",
+      "type": "choice",
+      "answers": [
+        "Dat is verboden",
+        "Dat is verplicht",
+        "Dat is een schoolkeuze",
+        "Dat is een vorm van kinderopvang"
+      ],
+      "correct": 0,
+      "explanation": "Vrouwelijke genitale verminking verboden",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-8-072",
+      "topic": "samenleven-in-nederland",
+      "chapter": 8,
+      "scenario": "Hoofdstuk 8 - Eerwraak en vrouwelijke genitale verminking",
+      "question": "Wat moet iemand doen als hij of zij bang is voor ernstig geweld binnen de familie?",
+      "type": "choice",
+      "answers": [
+        "Hulp zoeken bij politie, huisarts of hulpverlening",
+        "Het probleem verbergen",
+        "Alleen een belastingformulier invullen",
+        "Een bankrekening openen"
+      ],
+      "correct": 0,
+      "explanation": "Veiligheid/hulp zoeken",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-8-073",
+      "topic": "samenleven-in-nederland",
+      "chapter": 8,
+      "scenario": "Hoofdstuk 8 - Eerwraak en vrouwelijke genitale verminking",
+      "question": "Waar of niet waar: Geweld mag niet worden gerechtvaardigd met familie-eer.",
+      "type": "choice",
+      "answers": [
+        "Waar",
+        "Niet waar"
+      ],
+      "correct": 0,
+      "explanation": "Eer rechtvaardigt geweld niet",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-8-074",
+      "topic": "samenleven-in-nederland",
+      "chapter": 8,
+      "scenario": "Hoofdstuk 8 - Hulp zoeken bij problemen",
+      "question": "Een vrouw wordt thuis mishandeld en weet niet wat ze moet doen. Wie kan een eerste aanspreekpunt zijn?",
+      "type": "choice",
+      "answers": [
+        "De huisarts",
+        "De makelaar",
+        "De notaris",
+        "De bank"
+      ],
+      "correct": 0,
+      "explanation": "Huisarts kan eerste aanspreekpunt zijn",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-8-075",
+      "topic": "samenleven-in-nederland",
+      "chapter": 8,
+      "scenario": "Hoofdstuk 8 - Hulp zoeken bij problemen",
+      "question": "Iemand wordt direct bedreigd met ernstig geweld. Wat doet hij?",
+      "type": "choice",
+      "answers": [
+        "Wachten tot volgende week",
+        "112 bellen",
+        "Een cursus volgen",
+        "Een afspraak bij de gemeente maken"
+      ],
+      "correct": 1,
+      "explanation": "Direct gevaar → 112",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-8-076",
+      "topic": "samenleven-in-nederland",
+      "chapter": 8,
+      "scenario": "Hoofdstuk 8 - Hulp zoeken bij problemen",
+      "question": "Een persoon wil officieel melden dat hij is mishandeld. Wat kan hij doen?",
+      "type": "choice",
+      "answers": [
+        "Aangifte doen bij de politie",
+        "Een OV-chipkaart kopen",
+        "Huurtoeslag aanvragen",
+        "Een sollicitatiebrief sturen"
+      ],
+      "correct": 0,
+      "explanation": "Aangifte",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-8-077",
+      "topic": "samenleven-in-nederland",
+      "chapter": 8,
+      "scenario": "Hoofdstuk 8 - Hulp zoeken bij problemen",
+      "question": "Een ouder maakt zich zorgen over mogelijke kindermishandeling. Wat is verstandig?",
+      "type": "choice",
+      "answers": [
+        "Professionele hulp of advies zoeken",
+        "Het altijd geheim houden",
+        "Het kind straffen",
+        "De situatie negeren"
+      ],
+      "correct": 0,
+      "explanation": "Professioneel advies zoeken",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-8-078",
+      "topic": "samenleven-in-nederland",
+      "chapter": 8,
+      "scenario": "Hoofdstuk 8 - Hulp zoeken bij problemen",
+      "question": "Waar of niet waar: Bij geweld of mishandeling zijn er in Nederland instanties waar mensen hulp kunnen vragen.",
+      "type": "choice",
+      "answers": [
+        "Waar",
+        "Niet waar"
+      ],
+      "correct": 0,
+      "explanation": "Hulpinstanties bestaan",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-8-079",
+      "topic": "samenleven-in-nederland",
+      "chapter": 8,
+      "scenario": "Hoofdstuk 8 - Abortus en eigen keuze",
+      "question": "Een zwangere vrouw wil informatie over het afbreken van een zwangerschap. Wat moet zij doen?",
+      "type": "choice",
+      "answers": [
+        "Medische informatie en professionele hulp zoeken",
+        "Alleen haar werkgever vragen",
+        "De bank bellen",
+        "De politie vragen om een recept"
+      ],
+      "correct": 0,
+      "explanation": "Professionele medische informatie",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-8-080",
+      "topic": "samenleven-in-nederland",
+      "chapter": 8,
+      "scenario": "Hoofdstuk 8 - Abortus en eigen keuze",
+      "question": "Wie staat centraal bij de beslissing over de eigen zwangerschap?",
+      "type": "choice",
+      "answers": [
+        "De zwangere vrouw, samen met professionele medische begeleiding",
+        "Haar buren",
+        "Haar werkgever",
+        "De supermarkt"
+      ],
+      "correct": 0,
+      "explanation": "Zwangere vrouw + medische begeleiding",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-8-081",
+      "topic": "samenleven-in-nederland",
+      "chapter": 8,
+      "scenario": "Hoofdstuk 8 - Abortus en eigen keuze",
+      "question": "Waar of niet waar: Abortus is in Nederland onder wettelijke voorwaarden mogelijk.",
+      "type": "choice",
+      "answers": [
+        "Waar",
+        "Niet waar"
+      ],
+      "correct": 0,
+      "explanation": "Onder wettelijke voorwaarden",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-8-082",
+      "topic": "samenleven-in-nederland",
+      "chapter": 8,
+      "scenario": "Hoofdstuk 8 - Euthanasie",
+      "question": "Een ernstig zieke patiënt heeft ondraaglijk lijden en wil informatie over euthanasie. Met wie moet hij hierover praten?",
+      "type": "choice",
+      "answers": [
+        "Zijn arts",
+        "De makelaar",
+        "De bank",
+        "De werkgever"
+      ],
+      "correct": 0,
+      "explanation": "Euthanasie bespreken met arts",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-8-083",
+      "topic": "samenleven-in-nederland",
+      "chapter": 8,
+      "scenario": "Hoofdstuk 8 - Euthanasie",
+      "question": "Kan een familielid zonder de wens van de patiënt zomaar besluiten tot euthanasie?",
+      "type": "choice",
+      "answers": [
+        "Ja",
+        "Nee",
+        "Alleen als het familielid ouder is",
+        "Alleen in het weekend"
+      ],
+      "correct": 1,
+      "explanation": "Familie kan niet zomaar beslissen",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-8-084",
+      "topic": "samenleven-in-nederland",
+      "chapter": 8,
+      "scenario": "Hoofdstuk 8 - Euthanasie",
+      "question": "Wat is belangrijk bij euthanasie volgens de basisgedachte van de leerstof?",
+      "type": "choice",
+      "answers": [
+        "De patiënt moet dit zelf willen en er gelden strenge voorwaarden",
+        "Iedereen kan dit voor iemand anders beslissen",
+        "Het gebeurt zonder arts",
+        "Er zijn geen regels"
+      ],
+      "correct": 0,
+      "explanation": "Eigen wens + strenge voorwaarden",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-8-085",
+      "topic": "samenleven-in-nederland",
+      "chapter": 8,
+      "scenario": "Hoofdstuk 8 - Euthanasie",
+      "question": "Waar of niet waar: Euthanasie is in Nederland geen vrije keuze zonder medische en wettelijke voorwaarden.",
+      "type": "choice",
+      "answers": [
+        "Waar",
+        "Niet waar"
+      ],
+      "correct": 0,
+      "explanation": "Geen onbeperkte vrije keuze",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-8-086",
+      "topic": "samenleven-in-nederland",
+      "chapter": 8,
+      "scenario": "Hoofdstuk 8 - Verschillen in meningen en levensstijl",
+      "question": "De ene vrouw werkt fulltime na de geboorte van haar kind, een andere vrouw niet. Wat past bij Nederland?",
+      "type": "choice",
+      "answers": [
+        "Iedereen moet hetzelfde doen",
+        "Mensen kunnen verschillende keuzes maken",
+        "Alleen de man beslist",
+        "De gemeente kiest"
+      ],
+      "correct": 1,
+      "explanation": "Mensen maken verschillende keuzes",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-8-087",
+      "topic": "samenleven-in-nederland",
+      "chapter": 8,
+      "scenario": "Hoofdstuk 8 - Verschillen in meningen en levensstijl",
+      "question": "Twee gezinnen denken verschillend over homoseksualiteit. Wat laat dit zien?",
+      "type": "choice",
+      "answers": [
+        "Alle Nederlanders denken hetzelfde",
+        "Ook Nederlanders verschillen van mening",
+        "Alleen buitenlanders verschillen van mening",
+        "Mensen mogen geen mening hebben"
+      ],
+      "correct": 1,
+      "explanation": "Meningen verschillen",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-8-088",
+      "topic": "samenleven-in-nederland",
+      "chapter": 8,
+      "scenario": "Hoofdstuk 8 - Verschillen in meningen en levensstijl",
+      "question": "Een persoon woont in een dorp en heeft andere gewoonten dan iemand uit een grote stad. Is dat mogelijk?",
+      "type": "choice",
+      "answers": [
+        "Nee",
+        "Ja",
+        "Alleen bij ouderen",
+        "Alleen bij kinderen"
+      ],
+      "correct": 1,
+      "explanation": "Stad/dorp kunnen verschillen",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-8-089",
+      "topic": "samenleven-in-nederland",
+      "chapter": 8,
+      "scenario": "Hoofdstuk 8 - Verschillen in meningen en levensstijl",
+      "question": "Een collega heeft een andere levensstijl dan jij. Wat is de beste houding?",
+      "type": "choice",
+      "answers": [
+        "Respecteren zolang de wet en grenzen worden gerespecteerd",
+        "De collega uitsluiten",
+        "De collega verplichten hetzelfde te leven",
+        "Meteen de politie bellen"
+      ],
+      "correct": 0,
+      "explanation": "Respect zolang wet/grenzen gevolgd",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-8-090",
+      "topic": "samenleven-in-nederland",
+      "chapter": 8,
+      "scenario": "Hoofdstuk 8 - Verschillen in meningen en levensstijl",
+      "question": "Waar of niet waar: Samenleven betekent niet dat iedereen dezelfde mening of levensstijl moet hebben.",
+      "type": "choice",
+      "answers": [
+        "Waar",
+        "Niet waar"
+      ],
+      "correct": 0,
+      "explanation": "Samenleven met verschillen",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-8-091",
+      "topic": "samenleven-in-nederland",
+      "chapter": 8,
+      "scenario": "Hoofdstuk 8 - Gemengde KNM-situatievragen",
+      "question": "Fatima is gescheiden en woont met haar kind. Een nieuwe collega zegt dat dit “niet normaal” is. Wat past beter bij Nederland?",
+      "type": "choice",
+      "answers": [
+        "Verschillende gezinsvormen accepteren",
+        "Fatima moet opnieuw trouwen",
+        "Alleen gezinnen met twee ouders zijn toegestaan",
+        "Haar werkgever moet haar ontslaan"
+      ],
+      "correct": 0,
+      "explanation": "Verschillende gezinsvormen accepteren",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-8-092",
+      "topic": "samenleven-in-nederland",
+      "chapter": 8,
+      "scenario": "Hoofdstuk 8 - Gemengde KNM-situatievragen",
+      "question": "Peter ziet twee mannen hand in hand lopen. Wat doet hij?",
+      "type": "choice",
+      "answers": [
+        "Hij reageert normaal en respectvol",
+        "Hij belt de politie",
+        "Hij maakt beledigende opmerkingen",
+        "Hij vraagt waarom ze dat doen"
+      ],
+      "correct": 0,
+      "explanation": "Normaal en respectvol reageren",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-8-093",
+      "topic": "samenleven-in-nederland",
+      "chapter": 8,
+      "scenario": "Hoofdstuk 8 - Gemengde KNM-situatievragen",
+      "question": "Emma draagt in de zomer een korte broek. Een man denkt dat zij daarom contact met hem wil. Is die conclusie juist?",
+      "type": "choice",
+      "answers": [
+        "Ja",
+        "Nee",
+        "Alleen 's avonds",
+        "Alleen als zij lacht"
+      ],
+      "correct": 1,
+      "explanation": "Kleding betekent geen toestemming/interesse",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-8-094",
+      "topic": "samenleven-in-nederland",
+      "chapter": 8,
+      "scenario": "Hoofdstuk 8 - Gemengde KNM-situatievragen",
+      "question": "Noor wil blijven werken nadat zij een kind krijgt. Wat past bij gelijke rechten?",
+      "type": "choice",
+      "answers": [
+        "Zij mag die keuze maken",
+        "Zij moet stoppen",
+        "Alleen haar partner beslist",
+        "De overheid verplicht haar thuis te blijven"
+      ],
+      "correct": 0,
+      "explanation": "Vrouw mag blijven werken",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-8-095",
+      "topic": "samenleven-in-nederland",
+      "chapter": 8,
+      "scenario": "Hoofdstuk 8 - Gemengde KNM-situatievragen",
+      "question": "Hassan wordt niet aangenomen omdat het bedrijf zegt geen buitenlanders te willen. Wat kan hij doen?",
+      "type": "choice",
+      "answers": [
+        "Informatie zoeken over een discriminatieklacht",
+        "Niets, dit is altijd legaal",
+        "Zijn nationaliteit verbergen",
+        "Zijn diploma weggooien"
+      ],
+      "correct": 0,
+      "explanation": "Discriminatieklacht onderzoeken",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-8-096",
+      "topic": "samenleven-in-nederland",
+      "chapter": 8,
+      "scenario": "Hoofdstuk 8 - Gemengde KNM-situatievragen",
+      "question": "Een vader slaat zijn kind omdat het slechte cijfers heeft. Wat moet hij begrijpen?",
+      "type": "choice",
+      "answers": [
+        "Kinderen slaan is niet toegestaan",
+        "Dat is normale schoolbegeleiding",
+        "Alleen leraren mogen slaan",
+        "Het is toegestaan bij slechte cijfers"
+      ],
+      "correct": 0,
+      "explanation": "Kind slaan verboden",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-8-097",
+      "topic": "samenleven-in-nederland",
+      "chapter": 8,
+      "scenario": "Hoofdstuk 8 - Gemengde KNM-situatievragen",
+      "question": "Een vrouw wordt ernstig bedreigd door haar partner. Wat doet zij bij direct gevaar?",
+      "type": "choice",
+      "answers": [
+        "112 bellen",
+        "Een datingsite bezoeken",
+        "Huurtoeslag aanvragen",
+        "Naar de bibliotheek gaan"
+      ],
+      "correct": 0,
+      "explanation": "Bedreiging → 112",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-8-098",
+      "topic": "samenleven-in-nederland",
+      "chapter": 8,
+      "scenario": "Hoofdstuk 8 - Gemengde KNM-situatievragen",
+      "question": "Een jongere vertelt dat hij of zij thuis wordt mishandeld. Wat is een goede reactie?",
+      "type": "choice",
+      "answers": [
+        "Luisteren en professionele hulp inschakelen",
+        "Zeggen dat het normaal is",
+        "Het kind de schuld geven",
+        "Niets doen"
+      ],
+      "correct": 0,
+      "explanation": "Luisteren + hulp",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-8-099",
+      "topic": "samenleven-in-nederland",
+      "chapter": 8,
+      "scenario": "Hoofdstuk 8 - Gemengde KNM-situatievragen",
+      "question": "Twee vrouwen hebben een relatie en willen trouwen. Wat past bij Nederland?",
+      "type": "choice",
+      "answers": [
+        "Ze kunnen als volwassen partners trouwen",
+        "Ze moeten uit elkaar",
+        "Alleen samenwonen is toegestaan",
+        "Ze moeten toestemming van hun werkgever hebben"
+      ],
+      "correct": 0,
+      "explanation": "Twee vrouwen kunnen trouwen",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-8-100",
+      "topic": "samenleven-in-nederland",
+      "chapter": 8,
+      "scenario": "Hoofdstuk 8 - Gemengde KNM-situatievragen",
+      "question": "Ahmed en zijn vrouw hebben andere ideeën over wie het huishouden doet. Wat past bij gelijkheid?",
+      "type": "choice",
+      "answers": [
+        "Samen afspraken maken",
+        "Alleen de vrouw moet alles doen",
+        "Alleen de man beslist",
+        "De buren beslissen"
+      ],
+      "correct": 0,
+      "explanation": "Huishouden samen regelen",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-8-101",
+      "topic": "samenleven-in-nederland",
+      "chapter": 8,
+      "scenario": "Hoofdstuk 8 - Gemengde KNM-situatievragen",
+      "question": "Een collega maakt steeds discriminerende opmerkingen. Je hebt al gevraagd ermee te stoppen. Wat kun je doen?",
+      "type": "choice",
+      "answers": [
+        "Een klacht bespreken met leidinggevende of passende instantie",
+        "Zelf geweld gebruiken",
+        "Niets meer zeggen en altijd accepteren",
+        "Je identiteitsbewijs weggooien"
+      ],
+      "correct": 0,
+      "explanation": "Escaleren via leidinggevende/klacht",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-8-102",
+      "topic": "samenleven-in-nederland",
+      "chapter": 8,
+      "scenario": "Hoofdstuk 8 - Gemengde KNM-situatievragen",
+      "question": "Een ernstig zieke persoon wil informatie over euthanasie. Waar hoort dit gesprek thuis?",
+      "type": "choice",
+      "answers": [
+        "Bij de arts",
+        "Bij de bank",
+        "Bij de makelaar",
+        "Bij de gemeente voor een paspoort"
+      ],
+      "correct": 0,
+      "explanation": "Euthanasie → arts",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-8-103",
+      "topic": "samenleven-in-nederland",
+      "chapter": 8,
+      "scenario": "Hoofdstuk 8 - Gemengde KNM-situatievragen",
+      "question": "Een zwangere vrouw twijfelt over haar zwangerschap en wil weten welke mogelijkheden er zijn. Wat doet zij?",
+      "type": "choice",
+      "answers": [
+        "Professionele medische informatie zoeken",
+        "Alleen sociale media vragen",
+        "Een hypotheek aanvragen",
+        "De politie vragen om een diagnose"
+      ],
+      "correct": 0,
+      "explanation": "Zwangerschapskeuze → medische informatie",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-8-104",
+      "topic": "samenleven-in-nederland",
+      "chapter": 8,
+      "scenario": "Hoofdstuk 8 - Gemengde KNM-situatievragen",
+      "question": "Een meisje vreest dat haar familie haar geweld wil aandoen wegens een relatie. Wat is belangrijk?",
+      "type": "choice",
+      "answers": [
+        "Veiligheid zoeken en hulp inschakelen",
+        "Het geheim houden",
+        "De relatie beëindigen omdat geweld dan toegestaan is",
+        "Niemand vertrouwen en nergens heen gaan"
+      ],
+      "correct": 0,
+      "explanation": "Eergeweld → veiligheid/hulp",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-8-105",
+      "topic": "samenleven-in-nederland",
+      "chapter": 8,
+      "scenario": "Hoofdstuk 8 - Gemengde KNM-situatievragen",
+      "question": "Een moeder en vader praten samen met hun puber over relaties en grenzen. Is dat passend?",
+      "type": "choice",
+      "answers": [
+        "Ja",
+        "Nee",
+        "Alleen als de school het verbiedt",
+        "Alleen als het kind 18 is"
+      ],
+      "correct": 0,
+      "explanation": "Ouders kunnen praten over grenzen/relaties",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-8-106",
+      "topic": "samenleven-in-nederland",
+      "chapter": 8,
+      "scenario": "Hoofdstuk 8 - Gemengde KNM-situatievragen",
+      "question": "Een meisje wil een technische opleiding volgen, maar familie vindt dat “alleen voor jongens”. Wat past bij Nederlandse gelijkheid?",
+      "type": "choice",
+      "answers": [
+        "Het meisje mag zelf haar opleiding kiezen",
+        "Alleen jongens mogen techniek kiezen",
+        "Alleen de vader beslist",
+        "De gemeente kiest haar opleiding"
+      ],
+      "correct": 0,
+      "explanation": "Meisjes/jongens zelf opleiding kiezen",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-8-107",
+      "topic": "samenleven-in-nederland",
+      "chapter": 8,
+      "scenario": "Hoofdstuk 8 - Gemengde KNM-situatievragen",
+      "question": "Een vrouw wil na haar scheiding opnieuw een relatie beginnen. Is dat toegestaan?",
+      "type": "choice",
+      "answers": [
+        "Ja",
+        "Nee",
+        "Alleen als zij geen kinderen heeft",
+        "Alleen na toestemming van haar ex-partner"
+      ],
+      "correct": 0,
+      "explanation": "Na scheiding nieuwe relatie mogelijk",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-8-108",
+      "topic": "samenleven-in-nederland",
+      "chapter": 8,
+      "scenario": "Hoofdstuk 8 - Gemengde KNM-situatievragen",
+      "question": "Een man is homoseksueel en wordt op straat uitgescholden. Welk principe is belangrijk?",
+      "type": "choice",
+      "answers": [
+        "Gelijke behandeling en respect",
+        "Hij moet zijn relatie verbergen",
+        "Alleen heteroseksuele mensen hebben rechten",
+        "Uitschelden is altijd toegestaan"
+      ],
+      "correct": 0,
+      "explanation": "Gelijke behandeling",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-8-109",
+      "topic": "samenleven-in-nederland",
+      "chapter": 8,
+      "scenario": "Hoofdstuk 8 - Gemengde KNM-situatievragen",
+      "question": "Een gezin heeft andere religieuze gewoonten dan de buren. Wat is een goede houding?",
+      "type": "choice",
+      "answers": [
+        "Elkaars verschillen respecteren",
+        "De buren dwingen hetzelfde geloof te volgen",
+        "Geen contact meer hebben",
+        "De politie bellen zonder probleem"
+      ],
+      "correct": 0,
+      "explanation": "Religieuze verschillen respecteren",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-8-110",
+      "topic": "samenleven-in-nederland",
+      "chapter": 8,
+      "scenario": "Hoofdstuk 8 - Gemengde KNM-situatievragen",
+      "question": "Twee mensen hebben een andere mening over gezin, werk en relaties. Wat hoort bij samenleven?",
+      "type": "choice",
+      "answers": [
+        "Respectvol omgaan met verschillen",
+        "Iedereen verplichten dezelfde mening te hebben",
+        "Ruzie maken tot één persoon toegeeft",
+        "De ander uitsluiten"
+      ],
+      "correct": 0,
+      "explanation": "Respectvol omgaan met verschillen",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-9-001",
       "topic": "de-geschiedenis-van-nederland",
       "chapter": 9,
-      "scenario": "原创模拟题 - Geschiedenis",
-      "question": "Waarom is Anne Frank bekend?",
+      "scenario": "Hoofdstuk 9 - Eeuwen en tijdlijn",
+      "question": "Sara leest in een geschiedenisboek over het jaar 1650. In welke eeuw ligt dit jaar?",
       "type": "choice",
       "answers": [
-        "Door haar dagboek uit de Tweede Wereldoorlog.",
-        "Omdat zij minister-president was.",
-        "Omdat zij de euro invoerde."
+        "De 15e eeuw",
+        "De 16e eeuw",
+        "De 17e eeuw",
+        "De 18e eeuw"
       ],
-      "correct": 0,
-      "explanation": "Anne Frank 因二战躲藏经历和日记闻名。",
-      "source": "原创模拟题"
+      "correct": 2,
+      "explanation": "1650 = 17e eeuw",
+      "source": "原创场景模拟题"
     },
     {
-      "id": "gen-history-2",
+      "id": "scenario-9-002",
       "topic": "de-geschiedenis-van-nederland",
       "chapter": 9,
-      "scenario": "原创模拟题 - Geschiedenis",
-      "question": "Wanneer vieren Nederlanders Bevrijdingsdag?",
+      "scenario": "Hoofdstuk 9 - Eeuwen en tijdlijn",
+      "question": "Peter leest over gebeurtenissen in 1940. In welke eeuw gebeurde dit?",
       "type": "choice",
       "answers": [
-        "Op 5 mei.",
-        "Op 4 mei.",
-        "Op 27 april."
+        "De 18e eeuw",
+        "De 19e eeuw",
+        "De 20e eeuw",
+        "De 21e eeuw"
       ],
-      "correct": 0,
-      "explanation": "5 月 5 日是 Bevrijdingsdag，5 月 4 日是 Dodenherdenking。",
-      "source": "原创模拟题"
+      "correct": 2,
+      "explanation": "1940 = 20e eeuw",
+      "source": "原创场景模拟题"
     },
     {
-      "id": "gen-history-3",
+      "id": "scenario-9-003",
       "topic": "de-geschiedenis-van-nederland",
       "chapter": 9,
-      "scenario": "原创模拟题 - Geschiedenis",
-      "question": "Waarmee wordt de Gouden Eeuw vaak verbonden?",
+      "scenario": "Hoofdstuk 9 - Eeuwen en tijdlijn",
+      "question": "Lina woont nu in de 21e eeuw. Welke jaren horen in het algemeen bij de 21e eeuw?",
       "type": "choice",
       "answers": [
-        "Handel, scheepvaart en kunst.",
-        "Alleen moderne computers.",
-        "De invoering van DigiD."
+        "1901–2000",
+        "2001–2100",
+        "2101–2200",
+        "1801–1900"
       ],
-      "correct": 0,
-      "explanation": "Gouden Eeuw 常与贸易、航海、VOC 和艺术相关。",
-      "source": "原创模拟题"
+      "correct": 1,
+      "explanation": "21e eeuw = 2001–2100",
+      "source": "原创场景模拟题"
     },
     {
-      "id": "gen-history-4",
+      "id": "scenario-9-004",
       "topic": "de-geschiedenis-van-nederland",
       "chapter": 9,
-      "scenario": "原创模拟题 - Geschiedenis",
-      "question": "Wat gebeurde er in Rotterdam tijdens de Tweede Wereldoorlog?",
+      "scenario": "Hoofdstuk 9 - Eeuwen en tijdlijn",
+      "question": "Een leraar zegt dat een eeuw honderd jaar duurt. Is dat juist?",
       "type": "choice",
       "answers": [
-        "De stad werd gebombardeerd.",
-        "De stad werd hoofdstad.",
-        "De stad werd een provincie."
+        "Ja",
+        "Nee, een eeuw duurt 10 jaar",
+        "Nee, een eeuw duurt 50 jaar",
+        "Nee, een eeuw duurt 1000 jaar"
       ],
       "correct": 0,
-      "explanation": "二战中 Rotterdam 遭到轰炸，这是荷兰历史重要事件。",
-      "source": "原创模拟题"
+      "explanation": "Eeuw = 100 jaar",
+      "source": "原创场景模拟题"
     },
     {
-      "id": "gen-politics-1",
-      "topic": "politiek-in-nederland",
-      "chapter": 10,
-      "scenario": "原创模拟题 - Politiek",
-      "question": "Waaruit bestaat het parlement?",
+      "id": "scenario-9-005",
+      "topic": "de-geschiedenis-van-nederland",
+      "chapter": 9,
+      "scenario": "Hoofdstuk 9 - Eeuwen en tijdlijn",
+      "question": "Waar of niet waar: Het jaar 1700 hoort bij de 17e eeuw.",
       "type": "choice",
       "answers": [
-        "Eerste Kamer en Tweede Kamer.",
-        "Huisarts en apotheek.",
-        "Gemeente en makelaar."
+        "Waar",
+        "Niet waar"
       ],
       "correct": 0,
-      "explanation": "荷兰议会由 Eerste Kamer 和 Tweede Kamer 组成。",
-      "source": "原创模拟题"
+      "explanation": "1700 = laatste jaar 17e eeuw",
+      "source": "原创场景模拟题"
     },
     {
-      "id": "gen-politics-2",
-      "topic": "politiek-in-nederland",
-      "chapter": 10,
-      "scenario": "原创模拟题 - Politiek",
-      "question": "Wat doe je bij verkiezingen?",
+      "id": "scenario-9-006",
+      "topic": "de-geschiedenis-van-nederland",
+      "chapter": 9,
+      "scenario": "Hoofdstuk 9 - Eeuwen en tijdlijn",
+      "question": "Waar of niet waar: Het jaar 1701 hoort bij de 18e eeuw.",
       "type": "choice",
       "answers": [
-        "Stemmen op een partij of kandidaat.",
-        "Een recept ophalen.",
-        "Een huurcontract tekenen."
+        "Waar",
+        "Niet waar"
       ],
       "correct": 0,
-      "explanation": "verkiezingen 中公民通过 stemmen 表达政治选择。",
-      "source": "原创模拟题"
+      "explanation": "1701 = 18e eeuw",
+      "source": "原创场景模拟题"
     },
     {
-      "id": "gen-politics-3",
-      "topic": "politiek-in-nederland",
-      "chapter": 10,
-      "scenario": "原创模拟题 - Politiek",
-      "question": "Wat staat in de grondwet?",
+      "id": "scenario-9-007",
+      "topic": "de-geschiedenis-van-nederland",
+      "chapter": 9,
+      "scenario": "Hoofdstuk 9 - Romeinen en eerste steden",
+      "question": "Emma bezoekt Maastricht en hoort dat de stad al in de Romeinse tijd belangrijk was. Met welke periode heeft dit te maken?",
       "type": "choice",
       "answers": [
-        "Belangrijke rechten en vrijheden.",
-        "Alle aanbiedingen van supermarkten.",
-        "Alle huurprijzen van woningen."
+        "Rond het begin van onze jaartelling",
+        "Alleen na 1950",
+        "Alleen tijdens de Tweede Wereldoorlog",
+        "Alleen na de invoering van de euro"
       ],
       "correct": 0,
-      "explanation": "grondwet 保护基本权利和自由，例如平等和宗教自由。",
-      "source": "原创模拟题"
+      "explanation": "Romeinse tijd rond begin jaartelling",
+      "source": "原创场景模拟题"
     },
     {
-      "id": "gen-politics-4",
-      "topic": "politiek-in-nederland",
-      "chapter": 10,
-      "scenario": "原创模拟题 - Politiek",
-      "question": "Wie controleert de regering?",
+      "id": "scenario-9-008",
+      "topic": "de-geschiedenis-van-nederland",
+      "chapter": 9,
+      "scenario": "Hoofdstuk 9 - Romeinen en eerste steden",
+      "question": "Ahmed bezoekt Utrecht en hoort over de Romeinse geschiedenis van de stad. Wat kan hij daaruit leren?",
       "type": "choice",
       "answers": [
-        "Het parlement.",
-        "De apotheek.",
-        "De makelaar."
+        "Dat sommige Nederlandse steden al in de Romeinse tijd ontstonden of zich ontwikkelden",
+        "Dat Utrecht pas na 2002 is gebouwd",
+        "Dat Utrecht vroeger in Amerika lag",
+        "Dat Nederland toen al een moderne democratie was"
       ],
       "correct": 0,
-      "explanation": "parlement 代表人民，检查 regering 并参与立法。",
-      "source": "原创模拟题"
+      "explanation": "Utrecht heeft Romeinse wortels",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-9-009",
+      "topic": "de-geschiedenis-van-nederland",
+      "chapter": 9,
+      "scenario": "Hoofdstuk 9 - Romeinen en eerste steden",
+      "question": "Waar kwamen de Romeinen oorspronkelijk vandaan?",
+      "type": "choice",
+      "answers": [
+        "Rome / het Romeinse Rijk",
+        "Amsterdam",
+        "Londen",
+        "New York"
+      ],
+      "correct": 0,
+      "explanation": "Romeinen uit Rome/Romeinse Rijk",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-9-010",
+      "topic": "de-geschiedenis-van-nederland",
+      "chapter": 9,
+      "scenario": "Hoofdstuk 9 - Romeinen en eerste steden",
+      "question": "Een leerling maakt een tijdlijn. Wat komt het vroegst?",
+      "type": "choice",
+      "answers": [
+        "De Tweede Wereldoorlog",
+        "De Gouden Eeuw",
+        "De Romeinse tijd",
+        "De invoering van de euro"
+      ],
+      "correct": 2,
+      "explanation": "Romeinen komen het vroegst",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-9-011",
+      "topic": "de-geschiedenis-van-nederland",
+      "chapter": 9,
+      "scenario": "Hoofdstuk 9 - Romeinen en eerste steden",
+      "question": "Waar of niet waar: Maastricht en Utrecht hebben een geschiedenis die teruggaat tot de Romeinse tijd.",
+      "type": "choice",
+      "answers": [
+        "Waar",
+        "Niet waar"
+      ],
+      "correct": 0,
+      "explanation": "Maastricht/Utrecht oude steden",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-9-012",
+      "topic": "de-geschiedenis-van-nederland",
+      "chapter": 9,
+      "scenario": "Hoofdstuk 9 - Middeleeuwen",
+      "question": "Noor bezoekt een oud kasteel. De gids vertelt over de periode tussen ongeveer 500 en 1500. Hoe heet deze periode?",
+      "type": "choice",
+      "answers": [
+        "De Middeleeuwen",
+        "De Gouden Eeuw",
+        "De Industriële Revolutie",
+        "De Koude Oorlog"
+      ],
+      "correct": 0,
+      "explanation": "500–1500 = Middeleeuwen",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-9-013",
+      "topic": "de-geschiedenis-van-nederland",
+      "chapter": 9,
+      "scenario": "Hoofdstuk 9 - Middeleeuwen",
+      "question": "In de Middeleeuwen bestond het gebied van het huidige Nederland uit verschillende kleine gebieden met eigen bestuurders. Welke naam wordt vaak gebruikt?",
+      "type": "choice",
+      "answers": [
+        "De Lage Landen",
+        "De Europese Unie",
+        "De Randstad",
+        "De Benelux van vandaag"
+      ],
+      "correct": 0,
+      "explanation": "De Lage Landen",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-9-014",
+      "topic": "de-geschiedenis-van-nederland",
+      "chapter": 9,
+      "scenario": "Hoofdstuk 9 - Middeleeuwen",
+      "question": "Een leerling leest dat veel mensen in de Middeleeuwen boer waren. Wat zegt dit vooral over de samenleving?",
+      "type": "choice",
+      "answers": [
+        "Veel mensen leefden van landbouw",
+        "Bijna iedereen werkte op kantoor",
+        "Iedereen woonde in een flat",
+        "Iedereen werkte in een fabriek"
+      ],
+      "correct": 0,
+      "explanation": "Veel landbouw",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-9-015",
+      "topic": "de-geschiedenis-van-nederland",
+      "chapter": 9,
+      "scenario": "Hoofdstuk 9 - Middeleeuwen",
+      "question": "Een gids vertelt dat afval vroeger vaak op straat lag en hygiëne slecht was. Wat kon daarvan een gevolg zijn?",
+      "type": "choice",
+      "answers": [
+        "Mensen werden sneller ziek",
+        "Mensen leefden allemaal langer dan nu",
+        "Er waren geen ziektes",
+        "Iedereen had moderne gezondheidszorg"
+      ],
+      "correct": 0,
+      "explanation": "Slechte hygiëne → ziekte",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-9-016",
+      "topic": "de-geschiedenis-van-nederland",
+      "chapter": 9,
+      "scenario": "Hoofdstuk 9 - Middeleeuwen",
+      "question": "Waarom bouwden rijke en machtige mensen kastelen?",
+      "type": "choice",
+      "answers": [
+        "Als woning en voor bescherming/macht",
+        "Als treinstation",
+        "Als supermarkt",
+        "Als ziekenhuis voor iedereen"
+      ],
+      "correct": 0,
+      "explanation": "Kastelen = macht/bescherming/woning",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-9-017",
+      "topic": "de-geschiedenis-van-nederland",
+      "chapter": 9,
+      "scenario": "Hoofdstuk 9 - Middeleeuwen",
+      "question": "Waar of niet waar: De Middeleeuwen duurden ongeveer van 500 tot 1500.",
+      "type": "choice",
+      "answers": [
+        "Waar",
+        "Niet waar"
+      ],
+      "correct": 0,
+      "explanation": "Middeleeuwen ongeveer 500–1500",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-9-018",
+      "topic": "de-geschiedenis-van-nederland",
+      "chapter": 9,
+      "scenario": "Hoofdstuk 9 - Geloof en de Tachtigjarige Oorlog",
+      "question": "Een leerling leest over 1568. Welke belangrijke oorlog begon toen?",
+      "type": "choice",
+      "answers": [
+        "De Eerste Wereldoorlog",
+        "De Tachtigjarige Oorlog",
+        "De Tweede Wereldoorlog",
+        "De Koude Oorlog"
+      ],
+      "correct": 1,
+      "explanation": "1568 begin Tachtigjarige Oorlog",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-9-019",
+      "topic": "de-geschiedenis-van-nederland",
+      "chapter": 9,
+      "scenario": "Hoofdstuk 9 - Geloof en de Tachtigjarige Oorlog",
+      "question": "Waarom ontstond er in de 16e eeuw veel conflict over geloof?",
+      "type": "choice",
+      "answers": [
+        "Er kwamen protestanten die kritiek hadden op de katholieke kerk",
+        "Iedereen stopte met geloven",
+        "Nederland werd toen islamitisch",
+        "De EU verbood religie"
+      ],
+      "correct": 0,
+      "explanation": "Reformatie/protestantisme",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-9-020",
+      "topic": "de-geschiedenis-van-nederland",
+      "chapter": 9,
+      "scenario": "Hoofdstuk 9 - Geloof en de Tachtigjarige Oorlog",
+      "question": "Het gebied van de Nederlanden hoorde in die tijd bij de Spaanse koning. Waarom kwamen veel mensen in verzet?",
+      "type": "choice",
+      "answers": [
+        "Ze wilden meer vrijheid en verzetten zich tegen Spaanse macht en geloofsdwang",
+        "Ze wilden lid worden van de EU",
+        "Ze wilden de euro gebruiken",
+        "Ze wilden allemaal naar Amerika verhuizen"
+      ],
+      "correct": 0,
+      "explanation": "Verzet tegen Spaanse macht/geloofsdwang",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-9-021",
+      "topic": "de-geschiedenis-van-nederland",
+      "chapter": 9,
+      "scenario": "Hoofdstuk 9 - Geloof en de Tachtigjarige Oorlog",
+      "question": "Hoe lang duurde de Tachtigjarige Oorlog volgens de naam en de gebruikelijke datering?",
+      "type": "choice",
+      "answers": [
+        "Ongeveer 20 jaar",
+        "Ongeveer 40 jaar",
+        "Ongeveer 80 jaar",
+        "Ongeveer 200 jaar"
+      ],
+      "correct": 2,
+      "explanation": "Ongeveer 80 jaar",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-9-022",
+      "topic": "de-geschiedenis-van-nederland",
+      "chapter": 9,
+      "scenario": "Hoofdstuk 9 - Geloof en de Tachtigjarige Oorlog",
+      "question": "Welke jaartallen horen bij de Tachtigjarige Oorlog?",
+      "type": "choice",
+      "answers": [
+        "1568–1648",
+        "1914–1918",
+        "1940–1945",
+        "1600–1700"
+      ],
+      "correct": 0,
+      "explanation": "1568–1648",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-9-023",
+      "topic": "de-geschiedenis-van-nederland",
+      "chapter": 9,
+      "scenario": "Hoofdstuk 9 - Geloof en de Tachtigjarige Oorlog",
+      "question": "Fatima woont in Leiden. Op 3 oktober ziet zij veel feest in de stad. Met welke historische gebeurtenis heeft dit te maken?",
+      "type": "choice",
+      "answers": [
+        "De bevrijding van Leiden van de Spaanse belegering in 1574",
+        "Het einde van de Tweede Wereldoorlog",
+        "De invoering van de euro",
+        "De watersnoodramp van 1953"
+      ],
+      "correct": 0,
+      "explanation": "Leidens Ontzet 1574",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-9-024",
+      "topic": "de-geschiedenis-van-nederland",
+      "chapter": 9,
+      "scenario": "Hoofdstuk 9 - Geloof en de Tachtigjarige Oorlog",
+      "question": "Welke traditionele producten horen bij het Leidens Ontzet?",
+      "type": "choice",
+      "answers": [
+        "Haring en wittebrood",
+        "Pizza en pasta",
+        "Sushi en rijst",
+        "Friet en hamburger"
+      ],
+      "correct": 0,
+      "explanation": "Haring en wittebrood",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-9-025",
+      "topic": "de-geschiedenis-van-nederland",
+      "chapter": 9,
+      "scenario": "Hoofdstuk 9 - Geloof en de Tachtigjarige Oorlog",
+      "question": "Waar of niet waar: De Tachtigjarige Oorlog had zowel met politieke macht als met godsdienst te maken.",
+      "type": "choice",
+      "answers": [
+        "Waar",
+        "Niet waar"
+      ],
+      "correct": 0,
+      "explanation": "Politiek + religie",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-9-026",
+      "topic": "de-geschiedenis-van-nederland",
+      "chapter": 9,
+      "scenario": "Hoofdstuk 9 - Willem van Oranje",
+      "question": "Een kind vraagt waarom oranje zo vaak bij Nederland hoort. Welke historische persoon is belangrijk voor die kleur?",
+      "type": "choice",
+      "answers": [
+        "Willem van Oranje",
+        "Anne Frank",
+        "Willem Drees",
+        "Aletta Jacobs"
+      ],
+      "correct": 0,
+      "explanation": "Oranje → Willem/Huis van Oranje",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-9-027",
+      "topic": "de-geschiedenis-van-nederland",
+      "chapter": 9,
+      "scenario": "Hoofdstuk 9 - Willem van Oranje",
+      "question": "Wat was Willem van Oranje tijdens de Opstand?",
+      "type": "choice",
+      "answers": [
+        "Een belangrijke politieke leider",
+        "Een Romeinse keizer",
+        "Een Duitse generaal in 1940",
+        "Een minister-president na 1945"
+      ],
+      "correct": 0,
+      "explanation": "Politieke leider Opstand",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-9-028",
+      "topic": "de-geschiedenis-van-nederland",
+      "chapter": 9,
+      "scenario": "Hoofdstuk 9 - Willem van Oranje",
+      "question": "Willem van Oranje vond godsdienstvrijheid belangrijk. Wat betekent dat?",
+      "type": "choice",
+      "answers": [
+        "Mensen mogen verschillende geloven hebben",
+        "Iedereen moet hetzelfde geloven",
+        "Alleen de koning mag geloven",
+        "Religie is altijd verboden"
+      ],
+      "correct": 0,
+      "explanation": "Godsdienstvrijheid",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-9-029",
+      "topic": "de-geschiedenis-van-nederland",
+      "chapter": 9,
+      "scenario": "Hoofdstuk 9 - Willem van Oranje",
+      "question": "Wat gebeurde er met Willem van Oranje in 1584?",
+      "type": "choice",
+      "answers": [
+        "Hij werd vermoord/doodgeschoten",
+        "Hij werd koning van Spanje",
+        "Hij verhuisde naar Amerika",
+        "Hij richtte de EU op"
+      ],
+      "correct": 0,
+      "explanation": "Vermoord in 1584",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-9-030",
+      "topic": "de-geschiedenis-van-nederland",
+      "chapter": 9,
+      "scenario": "Hoofdstuk 9 - Willem van Oranje",
+      "question": "Tijdens een voetbalwedstrijd dragen Nederlandse supporters oranje. Waar heeft die kleur historisch mee te maken?",
+      "type": "choice",
+      "answers": [
+        "Het Huis van Oranje",
+        "De Romeinen",
+        "De VOC-vlag",
+        "De Duitse bezetting"
+      ],
+      "correct": 0,
+      "explanation": "Huis van Oranje",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-9-031",
+      "topic": "de-geschiedenis-van-nederland",
+      "chapter": 9,
+      "scenario": "Hoofdstuk 9 - Willem van Oranje",
+      "question": "Waar of niet waar: Willem van Oranje is een belangrijke figuur in het verhaal van de Nederlandse onafhankelijkheid.",
+      "type": "choice",
+      "answers": [
+        "Waar",
+        "Niet waar"
+      ],
+      "correct": 0,
+      "explanation": "Belangrijk symbool onafhankelijkheid",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-9-032",
+      "topic": "de-geschiedenis-van-nederland",
+      "chapter": 9,
+      "scenario": "Hoofdstuk 9 - Republiek en onafhankelijkheid",
+      "question": "Een leerling leest dat de Nederlanden in 1588 een republiek werden. Wat betekent republiek hier vooral?",
+      "type": "choice",
+      "answers": [
+        "Een staat zonder koning als staatshoofd",
+        "Een land zonder regering",
+        "Een provincie zonder inwoners",
+        "Een kerkelijke organisatie"
+      ],
+      "correct": 0,
+      "explanation": "Republiek = geen monarch als staatshoofd",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-9-033",
+      "topic": "de-geschiedenis-van-nederland",
+      "chapter": 9,
+      "scenario": "Hoofdstuk 9 - Republiek en onafhankelijkheid",
+      "question": "Hoeveel noordelijke provincies werkten samen in de Republiek der Zeven Verenigde Nederlanden?",
+      "type": "choice",
+      "answers": [
+        "Vijf",
+        "Zeven",
+        "Twaalf",
+        "Twintig"
+      ],
+      "correct": 1,
+      "explanation": "Zeven provincies",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-9-034",
+      "topic": "de-geschiedenis-van-nederland",
+      "chapter": 9,
+      "scenario": "Hoofdstuk 9 - Republiek en onafhankelijkheid",
+      "question": "In welk jaar werd de onafhankelijkheid van de Republiek internationaal erkend bij de Vrede van Münster?",
+      "type": "choice",
+      "answers": [
+        "1648",
+        "1574",
+        "1815",
+        "1945"
+      ],
+      "correct": 0,
+      "explanation": "1648",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-9-035",
+      "topic": "de-geschiedenis-van-nederland",
+      "chapter": 9,
+      "scenario": "Hoofdstuk 9 - Republiek en onafhankelijkheid",
+      "question": "Waarom wonen historisch relatief veel katholieken in het zuiden van Nederland?",
+      "type": "choice",
+      "answers": [
+        "Het zuiden bleef langer onder katholieke Spaanse/Habsburgse invloed",
+        "Het zuiden hoorde bij Rusland",
+        "Het zuiden was altijd protestants",
+        "De EU bepaalde dit"
+      ],
+      "correct": 0,
+      "explanation": "Zuiden langer katholieke invloed",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-9-036",
+      "topic": "de-geschiedenis-van-nederland",
+      "chapter": 9,
+      "scenario": "Hoofdstuk 9 - Republiek en onafhankelijkheid",
+      "question": "In het noorden kwam historisch meer protestantse invloed. Met welke ontwikkeling hangt dit samen?",
+      "type": "choice",
+      "answers": [
+        "De Opstand en de Republiek",
+        "De euro",
+        "De watersnoodramp",
+        "Gastarbeid in 1970"
+      ],
+      "correct": 0,
+      "explanation": "Noorden + Republiek/protestantisme",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-9-037",
+      "topic": "de-geschiedenis-van-nederland",
+      "chapter": 9,
+      "scenario": "Hoofdstuk 9 - Republiek en onafhankelijkheid",
+      "question": "Waar of niet waar: In 1648 eindigde de Tachtigjarige Oorlog en werd de onafhankelijkheid van de Republiek erkend.",
+      "type": "choice",
+      "answers": [
+        "Waar",
+        "Niet waar"
+      ],
+      "correct": 0,
+      "explanation": "1648 onafhankelijkheid erkend",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-9-038",
+      "topic": "de-geschiedenis-van-nederland",
+      "chapter": 9,
+      "scenario": "Hoofdstuk 9 - De 17e eeuw, handel en VOC",
+      "question": "Een toerist loopt langs dure grachtenhuizen in Amsterdam. Met welke periode worden veel van deze huizen geassocieerd?",
+      "type": "choice",
+      "answers": [
+        "De 17e eeuw / Gouden Eeuw",
+        "Alleen de jaren 1970",
+        "Alleen na de Tweede Wereldoorlog",
+        "De Romeinse tijd"
+      ],
+      "correct": 0,
+      "explanation": "Grachtenhuizen → 17e eeuw",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-9-039",
+      "topic": "de-geschiedenis-van-nederland",
+      "chapter": 9,
+      "scenario": "Hoofdstuk 9 - De 17e eeuw, handel en VOC",
+      "question": "Waarom werd Nederland in de 17e eeuw economisch machtig?",
+      "type": "choice",
+      "answers": [
+        "Door internationale handel en scheepvaart",
+        "Alleen door landbouw in Limburg",
+        "Alleen door toerisme",
+        "Alleen door de euro"
+      ],
+      "correct": 0,
+      "explanation": "Handel/scheepvaart",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-9-040",
+      "topic": "de-geschiedenis-van-nederland",
+      "chapter": 9,
+      "scenario": "Hoofdstuk 9 - De 17e eeuw, handel en VOC",
+      "question": "Wat was de VOC?",
+      "type": "choice",
+      "answers": [
+        "Een handelscompagnie die actief was in Azië",
+        "Een moderne politieke partij",
+        "Een zorgverzekeraar",
+        "Een spoorwegbedrijf"
+      ],
+      "correct": 0,
+      "explanation": "VOC = handelscompagnie Azië",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-9-041",
+      "topic": "de-geschiedenis-van-nederland",
+      "chapter": 9,
+      "scenario": "Hoofdstuk 9 - De 17e eeuw, handel en VOC",
+      "question": "Een museum vertelt over de VOC. Welke bredere geschiedenis hoort daar ook bij?",
+      "type": "choice",
+      "answers": [
+        "Kolonialisme en internationale handel",
+        "Alleen de Eerste Wereldoorlog",
+        "Alleen de watersnoodramp",
+        "Alleen vrouwenkiesrecht"
+      ],
+      "correct": 0,
+      "explanation": "Kolonialisme",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-9-042",
+      "topic": "de-geschiedenis-van-nederland",
+      "chapter": 9,
+      "scenario": "Hoofdstuk 9 - De 17e eeuw, handel en VOC",
+      "question": "Waarom is het belangrijk om bij de Gouden Eeuw niet alleen aan rijkdom te denken?",
+      "type": "choice",
+      "answers": [
+        "Niet iedereen was rijk en handel hing ook samen met kolonialisme en slavernij",
+        "Er bestond toen helemaal geen handel",
+        "Iedereen in Nederland was miljonair",
+        "Nederland had toen geen steden"
+      ],
+      "correct": 0,
+      "explanation": "Niet iedereen rijk; slavernij/kolonialisme",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-9-043",
+      "topic": "de-geschiedenis-van-nederland",
+      "chapter": 9,
+      "scenario": "Hoofdstuk 9 - De 17e eeuw, handel en VOC",
+      "question": "In welke gebieden handelden Nederlandse ondernemingen in die periode?",
+      "type": "choice",
+      "answers": [
+        "Onder andere Azië, Afrika en Amerika",
+        "Alleen Nederland zelf",
+        "Alleen Scandinavië",
+        "Alleen Australië"
+      ],
+      "correct": 0,
+      "explanation": "Azië/Afrika/Amerika",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-9-044",
+      "topic": "de-geschiedenis-van-nederland",
+      "chapter": 9,
+      "scenario": "Hoofdstuk 9 - De 17e eeuw, handel en VOC",
+      "question": "Een leerling ziet De Nachtwacht in een museum. Welke schilder hoort hierbij?",
+      "type": "choice",
+      "answers": [
+        "Rembrandt",
+        "Vincent van Gogh",
+        "Piet Mondriaan",
+        "Johannes Vermeer is de enige mogelijke schilder"
+      ],
+      "correct": 0,
+      "explanation": "Nachtwacht = Rembrandt",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-9-045",
+      "topic": "de-geschiedenis-van-nederland",
+      "chapter": 9,
+      "scenario": "Hoofdstuk 9 - De 17e eeuw, handel en VOC",
+      "question": "Wat laat de bloei van schilderkunst in de 17e eeuw zien?",
+      "type": "choice",
+      "answers": [
+        "Kunst was belangrijk voor rijke burgers en de stedelijke cultuur",
+        "Kunst was verboden",
+        "Er waren geen schilders",
+        "Alleen boeren mochten schilderijen bezitten"
+      ],
+      "correct": 0,
+      "explanation": "Kunst/cultuur rijke burgers",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-9-046",
+      "topic": "de-geschiedenis-van-nederland",
+      "chapter": 9,
+      "scenario": "Hoofdstuk 9 - De 17e eeuw, handel en VOC",
+      "question": "Waar of niet waar: De 17e eeuw wordt vaak de Gouden Eeuw genoemd, maar die term heeft ook een kritische kant door kolonialisme en slavernij.",
+      "type": "choice",
+      "answers": [
+        "Waar",
+        "Niet waar"
+      ],
+      "correct": 0,
+      "explanation": "Kritische kant Gouden Eeuw",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-9-047",
+      "topic": "de-geschiedenis-van-nederland",
+      "chapter": 9,
+      "scenario": "Hoofdstuk 9 - Koninkrijk, grondwet en democratie",
+      "question": "In het begin van de 19e eeuw werd Nederland een koninkrijk. Welke koning hoort bij deze periode?",
+      "type": "choice",
+      "answers": [
+        "Willem I",
+        "Willem van Oranje als koning in 1568",
+        "Hitler",
+        "Willem Drees"
+      ],
+      "correct": 0,
+      "explanation": "Willem I",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-9-048",
+      "topic": "de-geschiedenis-van-nederland",
+      "chapter": 9,
+      "scenario": "Hoofdstuk 9 - Koninkrijk, grondwet en democratie",
+      "question": "Een leerling leest over de grondwet. Wat staat daarin?",
+      "type": "choice",
+      "answers": [
+        "Belangrijke regels over bestuur en rechten",
+        "Alleen recepten",
+        "Alleen verkeersregels",
+        "Alleen schoolroosters"
+      ],
+      "correct": 0,
+      "explanation": "Grondwet = regels bestuur/rechten",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-9-049",
+      "topic": "de-geschiedenis-van-nederland",
+      "chapter": 9,
+      "scenario": "Hoofdstuk 9 - Koninkrijk, grondwet en democratie",
+      "question": "Welk jaar is belangrijk voor de grote grondwetsherziening en de ontwikkeling van de parlementaire democratie?",
+      "type": "choice",
+      "answers": [
+        "1848",
+        "1574",
+        "1940",
+        "2002"
+      ],
+      "correct": 0,
+      "explanation": "1848",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-9-050",
+      "topic": "de-geschiedenis-van-nederland",
+      "chapter": 9,
+      "scenario": "Hoofdstuk 9 - Koninkrijk, grondwet en democratie",
+      "question": "België maakte zich in de 19e eeuw los van het Koninkrijk der Nederlanden. Welk jaar hoort bij de Belgische Revolutie?",
+      "type": "choice",
+      "answers": [
+        "1830",
+        "1648",
+        "1919",
+        "1953"
+      ],
+      "correct": 0,
+      "explanation": "Belgische Revolutie 1830",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-9-051",
+      "topic": "de-geschiedenis-van-nederland",
+      "chapter": 9,
+      "scenario": "Hoofdstuk 9 - Koninkrijk, grondwet en democratie",
+      "question": "Een bezoeker vraagt waarom 1848 belangrijk is. Wat is het beste antwoord?",
+      "type": "choice",
+      "answers": [
+        "De grondwet werd ingrijpend hervormd en het parlement kreeg meer invloed",
+        "De Tweede Wereldoorlog eindigde",
+        "De VOC werd opgericht",
+        "De euro werd ingevoerd"
+      ],
+      "correct": 0,
+      "explanation": "Parlementaire democratie versterkt",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-9-052",
+      "topic": "de-geschiedenis-van-nederland",
+      "chapter": 9,
+      "scenario": "Hoofdstuk 9 - Koninkrijk, grondwet en democratie",
+      "question": "Waar of niet waar: De Nederlandse democratie ontwikkelde zich stap voor stap en was niet vanaf het begin hetzelfde als nu.",
+      "type": "choice",
+      "answers": [
+        "Waar",
+        "Niet waar"
+      ],
+      "correct": 0,
+      "explanation": "Democratie ontwikkelde geleidelijk",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-9-053",
+      "topic": "de-geschiedenis-van-nederland",
+      "chapter": 9,
+      "scenario": "Hoofdstuk 9 - Fabrieken, arbeiders en industrialisatie",
+      "question": "Rond 1850 kwamen er steeds meer fabrieken en machines. Welke ontwikkeling is dit?",
+      "type": "choice",
+      "answers": [
+        "Industrialisatie",
+        "Romanisering",
+        "Inburgering",
+        "Dekolonisatie"
+      ],
+      "correct": 0,
+      "explanation": "Industrialisatie",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-9-054",
+      "topic": "de-geschiedenis-van-nederland",
+      "chapter": 9,
+      "scenario": "Hoofdstuk 9 - Fabrieken, arbeiders en industrialisatie",
+      "question": "Een arbeider werkt in 1870 heel lange dagen voor weinig loon. Wat zegt dit over veel fabrieksarbeid in die tijd?",
+      "type": "choice",
+      "answers": [
+        "Arbeidsomstandigheden waren vaak zwaar",
+        "Iedereen had meteen een cao",
+        "Iedereen kreeg veel vakantie",
+        "Iedereen verdiende veel geld"
+      ],
+      "correct": 0,
+      "explanation": "Zware arbeidsomstandigheden",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-9-055",
+      "topic": "de-geschiedenis-van-nederland",
+      "chapter": 9,
+      "scenario": "Hoofdstuk 9 - Fabrieken, arbeiders en industrialisatie",
+      "question": "Ook vrouwen en kinderen werkten vroeger in fabrieken. Welke verandering kwam later?",
+      "type": "choice",
+      "answers": [
+        "Er kwamen wetten die kinderarbeid beperkten",
+        "Kinderen moesten juist langer werken",
+        "School werd verboden",
+        "Alleen kinderen mochten nog werken"
+      ],
+      "correct": 0,
+      "explanation": "Kinderarbeid beperkt",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-9-056",
+      "topic": "de-geschiedenis-van-nederland",
+      "chapter": 9,
+      "scenario": "Hoofdstuk 9 - Fabrieken, arbeiders en industrialisatie",
+      "question": "Waarom ontstonden politieke partijen en arbeidersbewegingen?",
+      "type": "choice",
+      "answers": [
+        "Mensen wilden meer politieke en sociale rechten",
+        "Mensen wilden minder stemrecht",
+        "Mensen wilden fabrieken verbieden omdat er machines waren",
+        "Mensen wilden terug naar de Romeinse tijd"
+      ],
+      "correct": 0,
+      "explanation": "Meer sociale/politieke rechten",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-9-057",
+      "topic": "de-geschiedenis-van-nederland",
+      "chapter": 9,
+      "scenario": "Hoofdstuk 9 - Fabrieken, arbeiders en industrialisatie",
+      "question": "Waar of niet waar: Industrialisatie veranderde werk, steden en sociale verhoudingen in Nederland.",
+      "type": "choice",
+      "answers": [
+        "Waar",
+        "Niet waar"
+      ],
+      "correct": 0,
+      "explanation": "Grote maatschappelijke verandering",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-9-058",
+      "topic": "de-geschiedenis-van-nederland",
+      "chapter": 9,
+      "scenario": "Hoofdstuk 9 - Kiesrecht, Aletta Jacobs en leerplicht",
+      "question": "In de 19e eeuw mochten eerst vooral rijke mannen stemmen. Wat veranderde in de 20e eeuw?",
+      "type": "choice",
+      "answers": [
+        "Het kiesrecht werd uitgebreid",
+        "Stemmen werd helemaal afgeschaft",
+        "Alleen vrouwen mochten stemmen",
+        "Alleen boeren mochten stemmen"
+      ],
+      "correct": 0,
+      "explanation": "Kiesrecht uitgebreid",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-9-059",
+      "topic": "de-geschiedenis-van-nederland",
+      "chapter": 9,
+      "scenario": "Hoofdstuk 9 - Kiesrecht, Aletta Jacobs en leerplicht",
+      "question": "Welk jaar hoort bij algemeen mannenkiesrecht in de leerstof?",
+      "type": "choice",
+      "answers": [
+        "1917",
+        "1815",
+        "1945",
+        "2002"
+      ],
+      "correct": 0,
+      "explanation": "1917 algemeen mannenkiesrecht",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-9-060",
+      "topic": "de-geschiedenis-van-nederland",
+      "chapter": 9,
+      "scenario": "Hoofdstuk 9 - Kiesrecht, Aletta Jacobs en leerplicht",
+      "question": "Welk jaar is belangrijk voor het vrouwenkiesrecht in Nederland?",
+      "type": "choice",
+      "answers": [
+        "1919",
+        "1568",
+        "1648",
+        "1953"
+      ],
+      "correct": 0,
+      "explanation": "1919 vrouwenkiesrecht",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-9-061",
+      "topic": "de-geschiedenis-van-nederland",
+      "chapter": 9,
+      "scenario": "Hoofdstuk 9 - Kiesrecht, Aletta Jacobs en leerplicht",
+      "question": "Aletta Jacobs is belangrijk in de Nederlandse geschiedenis. Waarmee wordt zij onder andere geassocieerd?",
+      "type": "choice",
+      "answers": [
+        "Vrouwenemancipatie en als eerste vrouwelijke arts/student geneeskunde",
+        "De VOC",
+        "De Duitse bezetting",
+        "De watersnoodramp"
+      ],
+      "correct": 0,
+      "explanation": "Aletta Jacobs + emancipatie",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-9-062",
+      "topic": "de-geschiedenis-van-nederland",
+      "chapter": 9,
+      "scenario": "Hoofdstuk 9 - Kiesrecht, Aletta Jacobs en leerplicht",
+      "question": "Waarom is Aletta Jacobs belangrijk voor KNM?",
+      "type": "choice",
+      "answers": [
+        "Zij staat symbool voor de strijd voor gelijke rechten van vrouwen",
+        "Zij was koningin",
+        "Zij begon de Tachtigjarige Oorlog",
+        "Zij bouwde de Deltawerken"
+      ],
+      "correct": 0,
+      "explanation": "Gelijke rechten vrouwen",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-9-063",
+      "topic": "de-geschiedenis-van-nederland",
+      "chapter": 9,
+      "scenario": "Hoofdstuk 9 - Kiesrecht, Aletta Jacobs en leerplicht",
+      "question": "Rond 1900 werd onderwijs voor kinderen verplicht. Hoe heet dat?",
+      "type": "choice",
+      "answers": [
+        "Leerplicht",
+        "Naturalisatie",
+        "Bijstand",
+        "Dienstplicht"
+      ],
+      "correct": 0,
+      "explanation": "Leerplicht",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-9-064",
+      "topic": "de-geschiedenis-van-nederland",
+      "chapter": 9,
+      "scenario": "Hoofdstuk 9 - Kiesrecht, Aletta Jacobs en leerplicht",
+      "question": "Waarom was leerplicht belangrijk?",
+      "type": "choice",
+      "answers": [
+        "Kinderen moesten naar school in plaats van alleen werken",
+        "Kinderen mochten niet meer leren",
+        "Alleen rijke kinderen mochten onderwijs volgen",
+        "Scholen werden gesloten"
+      ],
+      "correct": 0,
+      "explanation": "Kinderen naar school",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-9-065",
+      "topic": "de-geschiedenis-van-nederland",
+      "chapter": 9,
+      "scenario": "Hoofdstuk 9 - Kiesrecht, Aletta Jacobs en leerplicht",
+      "question": "Waar of niet waar: De uitbreiding van het kiesrecht betekende dat steeds meer volwassenen politieke invloed kregen.",
+      "type": "choice",
+      "answers": [
+        "Waar",
+        "Niet waar"
+      ],
+      "correct": 0,
+      "explanation": "Meer burgers politieke invloed",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-9-066",
+      "topic": "de-geschiedenis-van-nederland",
+      "chapter": 9,
+      "scenario": "Hoofdstuk 9 - Eerste Wereldoorlog en crisis",
+      "question": "Een leerling leest over 1914–1918. Welke oorlog was dat?",
+      "type": "choice",
+      "answers": [
+        "De Eerste Wereldoorlog",
+        "De Tweede Wereldoorlog",
+        "De Tachtigjarige Oorlog",
+        "De Koude Oorlog"
+      ],
+      "correct": 0,
+      "explanation": "1914–1918 = WOI",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-9-067",
+      "topic": "de-geschiedenis-van-nederland",
+      "chapter": 9,
+      "scenario": "Hoofdstuk 9 - Eerste Wereldoorlog en crisis",
+      "question": "Welke positie had Nederland tijdens de Eerste Wereldoorlog?",
+      "type": "choice",
+      "answers": [
+        "Nederland bleef neutraal en vocht niet officieel mee",
+        "Nederland was onderdeel van Duitsland",
+        "Nederland vocht als provincie van Spanje",
+        "Nederland bestond niet"
+      ],
+      "correct": 0,
+      "explanation": "Nederland neutraal",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-9-068",
+      "topic": "de-geschiedenis-van-nederland",
+      "chapter": 9,
+      "scenario": "Hoofdstuk 9 - Eerste Wereldoorlog en crisis",
+      "question": "Wie verloor de Eerste Wereldoorlog in 1918?",
+      "type": "choice",
+      "answers": [
+        "Onder andere Duitsland behoorde tot de verliezende Centralen",
+        "Nederland verloor als hoofdpartij",
+        "Canada verloor alleen",
+        "Spanje verloor Nederland"
+      ],
+      "correct": 0,
+      "explanation": "Duitsland behoorde tot verliezers",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-9-069",
+      "topic": "de-geschiedenis-van-nederland",
+      "chapter": 9,
+      "scenario": "Hoofdstuk 9 - Eerste Wereldoorlog en crisis",
+      "question": "Rond 1930 was er een economische crisis. Wat merkten veel mensen daarvan?",
+      "type": "choice",
+      "answers": [
+        "Werkloosheid en armoede",
+        "Iedereen kreeg meer salaris",
+        "Er waren geen economische problemen",
+        "Iedereen kreeg een auto"
+      ],
+      "correct": 0,
+      "explanation": "Crisis → werkloosheid/armoede",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-9-070",
+      "topic": "de-geschiedenis-van-nederland",
+      "chapter": 9,
+      "scenario": "Hoofdstuk 9 - Eerste Wereldoorlog en crisis",
+      "question": "Waar of niet waar: Nederland werd tijdens de Eerste Wereldoorlog niet door Duitsland bezet.",
+      "type": "choice",
+      "answers": [
+        "Waar",
+        "Niet waar"
+      ],
+      "correct": 0,
+      "explanation": "Geen Duitse bezetting in WOI",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-9-071",
+      "topic": "de-geschiedenis-van-nederland",
+      "chapter": 9,
+      "scenario": "Hoofdstuk 9 - Tweede Wereldoorlog en Duitse bezetting",
+      "question": "In welk jaar bezette Duitsland Nederland?",
+      "type": "choice",
+      "answers": [
+        "1940",
+        "1914",
+        "1953",
+        "1970"
+      ],
+      "correct": 0,
+      "explanation": "Duitse bezetting 1940",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-9-072",
+      "topic": "de-geschiedenis-van-nederland",
+      "chapter": 9,
+      "scenario": "Hoofdstuk 9 - Tweede Wereldoorlog en Duitse bezetting",
+      "question": "Een toerist ziet dat Rotterdam relatief weinig zeer oude gebouwen in het centrum heeft. Welke historische gebeurtenis is een belangrijke reden?",
+      "type": "choice",
+      "answers": [
+        "Het bombardement op Rotterdam in 1940",
+        "De invoering van de euro",
+        "De Romeinse tijd",
+        "De watersnoodramp van 1953 in Zeeland"
+      ],
+      "correct": 0,
+      "explanation": "Bombardement Rotterdam",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-9-073",
+      "topic": "de-geschiedenis-van-nederland",
+      "chapter": 9,
+      "scenario": "Hoofdstuk 9 - Tweede Wereldoorlog en Duitse bezetting",
+      "question": "Wat gebeurde na het bombardement op Rotterdam?",
+      "type": "choice",
+      "answers": [
+        "Nederland capituleerde kort daarna",
+        "Nederland won meteen de oorlog",
+        "Duitsland trok zich direct terug",
+        "De EU werd opgericht"
+      ],
+      "correct": 0,
+      "explanation": "Nederland capituleerde",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-9-074",
+      "topic": "de-geschiedenis-van-nederland",
+      "chapter": 9,
+      "scenario": "Hoofdstuk 9 - Tweede Wereldoorlog en Duitse bezetting",
+      "question": "Waar verbleef koningin Wilhelmina tijdens een groot deel van de bezetting?",
+      "type": "choice",
+      "answers": [
+        "In Engeland",
+        "In Spanje",
+        "In Rusland",
+        "In Indonesië"
+      ],
+      "correct": 0,
+      "explanation": "Wilhelmina in Engeland",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-9-075",
+      "topic": "de-geschiedenis-van-nederland",
+      "chapter": 9,
+      "scenario": "Hoofdstuk 9 - Tweede Wereldoorlog en Duitse bezetting",
+      "question": "Hitler was leider van welk land tijdens de Tweede Wereldoorlog?",
+      "type": "choice",
+      "answers": [
+        "Duitsland",
+        "Nederland",
+        "België",
+        "Canada"
+      ],
+      "correct": 0,
+      "explanation": "Hitler = Duitsland",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-9-076",
+      "topic": "de-geschiedenis-van-nederland",
+      "chapter": 9,
+      "scenario": "Hoofdstuk 9 - Tweede Wereldoorlog en Duitse bezetting",
+      "question": "Welke partij was Hitlers Duitse partij?",
+      "type": "choice",
+      "answers": [
+        "NSDAP",
+        "NSB",
+        "VVD",
+        "PvdA"
+      ],
+      "correct": 0,
+      "explanation": "Hitler → NSDAP",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-9-077",
+      "topic": "de-geschiedenis-van-nederland",
+      "chapter": 9,
+      "scenario": "Hoofdstuk 9 - Tweede Wereldoorlog en Duitse bezetting",
+      "question": "Wat was de NSB?",
+      "type": "choice",
+      "answers": [
+        "Een Nederlandse nationaalsocialistische beweging die met de Duitse bezetter samenwerkte",
+        "Hitlers Duitse partij",
+        "Een vakbond",
+        "Een verzetsgroep"
+      ],
+      "correct": 0,
+      "explanation": "NSB = Nederlandse collaborerende beweging",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-9-078",
+      "topic": "de-geschiedenis-van-nederland",
+      "chapter": 9,
+      "scenario": "Hoofdstuk 9 - Tweede Wereldoorlog en Duitse bezetting",
+      "question": "Waar of niet waar: Nederland was van 1940 tot 1945 door Duitsland bezet.",
+      "type": "choice",
+      "answers": [
+        "Waar",
+        "Niet waar"
+      ],
+      "correct": 0,
+      "explanation": "Bezetting 1940–1945",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-9-079",
+      "topic": "de-geschiedenis-van-nederland",
+      "chapter": 9,
+      "scenario": "Hoofdstuk 9 - Jodenvervolging en Holocaust",
+      "question": "Tijdens de Duitse bezetting kregen Joodse mensen steeds minder rechten. Wat gebeurde daarna met velen?",
+      "type": "choice",
+      "answers": [
+        "Ze werden gedeporteerd naar concentratie- en vernietigingskampen",
+        "Ze kregen extra stemrecht",
+        "Ze kregen allemaal nieuwe huizen",
+        "Ze werden allemaal minister"
+      ],
+      "correct": 0,
+      "explanation": "Deportatie naar kampen",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-9-080",
+      "topic": "de-geschiedenis-van-nederland",
+      "chapter": 9,
+      "scenario": "Hoofdstuk 9 - Jodenvervolging en Holocaust",
+      "question": "Hoe heet de systematische vervolging en moord op ongeveer zes miljoen Joden door nazi-Duitsland en zijn bondgenoten?",
+      "type": "choice",
+      "answers": [
+        "Holocaust / Shoah",
+        "Industrialisatie",
+        "Reformatie",
+        "Watersnoodramp"
+      ],
+      "correct": 0,
+      "explanation": "Holocaust/Shoah",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-9-081",
+      "topic": "de-geschiedenis-van-nederland",
+      "chapter": 9,
+      "scenario": "Hoofdstuk 9 - Jodenvervolging en Holocaust",
+      "question": "Een Joodse familie verbergt zich voor de Duitse bezetter. Hoe heet dit?",
+      "type": "choice",
+      "answers": [
+        "Onderduiken",
+        "Inburgeren",
+        "Emigreren voor vakantie",
+        "Solliciteren"
+      ],
+      "correct": 0,
+      "explanation": "Onderduiken",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-9-082",
+      "topic": "de-geschiedenis-van-nederland",
+      "chapter": 9,
+      "scenario": "Hoofdstuk 9 - Jodenvervolging en Holocaust",
+      "question": "Waarom gingen mensen onderduiken?",
+      "type": "choice",
+      "answers": [
+        "Om arrestatie en vervolging te voorkomen",
+        "Om een betere baan te vinden",
+        "Om belasting te vermijden",
+        "Om een huis te kopen"
+      ],
+      "correct": 0,
+      "explanation": "Vluchten voor vervolging",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-9-083",
+      "topic": "de-geschiedenis-van-nederland",
+      "chapter": 9,
+      "scenario": "Hoofdstuk 9 - Jodenvervolging en Holocaust",
+      "question": "Een gezin hielp tijdens de oorlog Joodse mensen onderduiken. Wat voor risico liep het gezin?",
+      "type": "choice",
+      "answers": [
+        "Het kon zwaar gestraft of gearresteerd worden door de bezetter",
+        "Het kreeg automatisch een onderscheiding",
+        "Er was geen risico",
+        "Het kreeg een gratis huis"
+      ],
+      "correct": 0,
+      "explanation": "Hulp was gevaarlijk",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-9-084",
+      "topic": "de-geschiedenis-van-nederland",
+      "chapter": 9,
+      "scenario": "Hoofdstuk 9 - Jodenvervolging en Holocaust",
+      "question": "Waar of niet waar: De Holocaust was alleen een Nederlands verschijnsel.",
+      "type": "choice",
+      "answers": [
+        "Waar",
+        "Niet waar"
+      ],
+      "correct": 1,
+      "explanation": "Holocaust was Europees",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-9-085",
+      "topic": "de-geschiedenis-van-nederland",
+      "chapter": 9,
+      "scenario": "Hoofdstuk 9 - Anne Frank",
+      "question": "Een toerist in Amsterdam wil het huis bezoeken waar Anne Frank ondergedoken zat. Waar gaat hij naartoe?",
+      "type": "choice",
+      "answers": [
+        "Het Anne Frank Huis / Achterhuis",
+        "Paleis op de Dam",
+        "Rijksmuseum voor de Nachtwacht alleen",
+        "Deltawerken"
+      ],
+      "correct": 0,
+      "explanation": "Anne Frank Huis",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-9-086",
+      "topic": "de-geschiedenis-van-nederland",
+      "chapter": 9,
+      "scenario": "Hoofdstuk 9 - Anne Frank",
+      "question": "Waarom moest Anne Frank onderduiken?",
+      "type": "choice",
+      "answers": [
+        "Zij was Joods en werd vervolgd door de nazi's",
+        "Zij had geen rijbewijs",
+        "Zij wilde niet naar school",
+        "Zij was een Spaanse soldaat"
+      ],
+      "correct": 0,
+      "explanation": "Joods + vervolging",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-9-087",
+      "topic": "de-geschiedenis-van-nederland",
+      "chapter": 9,
+      "scenario": "Hoofdstuk 9 - Anne Frank",
+      "question": "Wat schreef Anne Frank tijdens haar onderduik?",
+      "type": "choice",
+      "answers": [
+        "Een dagboek",
+        "De Nederlandse grondwet",
+        "Een cao",
+        "Een ondernemingsplan"
+      ],
+      "correct": 0,
+      "explanation": "Dagboek",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-9-088",
+      "topic": "de-geschiedenis-van-nederland",
+      "chapter": 9,
+      "scenario": "Hoofdstuk 9 - Anne Frank",
+      "question": "Hoe lang zat Anne Frank ongeveer ondergedoken in het Achterhuis?",
+      "type": "choice",
+      "answers": [
+        "Ongeveer twee jaar",
+        "Twee weken",
+        "Tien jaar",
+        "Veertig jaar"
+      ],
+      "correct": 0,
+      "explanation": "Ongeveer 2 jaar",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-9-089",
+      "topic": "de-geschiedenis-van-nederland",
+      "chapter": 9,
+      "scenario": "Hoofdstuk 9 - Anne Frank",
+      "question": "Wat gebeurde uiteindelijk met Anne Frank?",
+      "type": "choice",
+      "answers": [
+        "Zij werd ontdekt en gedeporteerd",
+        "Zij werd koningin",
+        "Zij werd minister-president",
+        "Zij richtte de EU op"
+      ],
+      "correct": 0,
+      "explanation": "Ontdekt en gedeporteerd",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-9-090",
+      "topic": "de-geschiedenis-van-nederland",
+      "chapter": 9,
+      "scenario": "Hoofdstuk 9 - Anne Frank",
+      "question": "Waarom is het Anne Frank Huis nu een museum?",
+      "type": "choice",
+      "answers": [
+        "Om de geschiedenis van vervolging, onderduik en de Holocaust te herinneren",
+        "Om de VOC te vieren",
+        "Om belastingen te innen",
+        "Om rijbewijzen uit te geven"
+      ],
+      "correct": 0,
+      "explanation": "Herinnering Holocaust",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-9-091",
+      "topic": "de-geschiedenis-van-nederland",
+      "chapter": 9,
+      "scenario": "Hoofdstuk 9 - Anne Frank",
+      "question": "Waar of niet waar: Anne Frank is een belangrijk symbool geworden voor de herinnering aan de Holocaust.",
+      "type": "choice",
+      "answers": [
+        "Waar",
+        "Niet waar"
+      ],
+      "correct": 0,
+      "explanation": "Anne Frank als symbool",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-9-092",
+      "topic": "de-geschiedenis-van-nederland",
+      "chapter": 9,
+      "scenario": "Hoofdstuk 9 - 4 mei en 5 mei",
+      "question": "Het is 4 mei, bijna 20.00 uur. Ahmed is thuis en hoort dat er twee minuten stilte komt. Wat doet hij het beste?",
+      "type": "choice",
+      "answers": [
+        "Harde muziek aanzetten",
+        "Respecteren dat mensen twee minuten stil zijn",
+        "Vuurwerk afsteken",
+        "Een feest beginnen"
+      ],
+      "correct": 1,
+      "explanation": "4 mei → respecteer stilte",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-9-093",
+      "topic": "de-geschiedenis-van-nederland",
+      "chapter": 9,
+      "scenario": "Hoofdstuk 9 - 4 mei en 5 mei",
+      "question": "Wat herdenkt Nederland op 4 mei?",
+      "type": "choice",
+      "answers": [
+        "Slachtoffers van oorlog en vervolging",
+        "De verjaardag van de koning",
+        "De invoering van de euro",
+        "Het begin van de zomervakantie"
+      ],
+      "correct": 0,
+      "explanation": "Oorlogsslachtoffers herdenken",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-9-094",
+      "topic": "de-geschiedenis-van-nederland",
+      "chapter": 9,
+      "scenario": "Hoofdstuk 9 - 4 mei en 5 mei",
+      "question": "Hoe laat zijn veel mensen op 4 mei twee minuten stil?",
+      "type": "choice",
+      "answers": [
+        "20.00 uur",
+        "08.00 uur",
+        "12.00 uur",
+        "24.00 uur"
+      ],
+      "correct": 0,
+      "explanation": "20.00 uur",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-9-095",
+      "topic": "de-geschiedenis-van-nederland",
+      "chapter": 9,
+      "scenario": "Hoofdstuk 9 - 4 mei en 5 mei",
+      "question": "Het is 5 mei. Wat wordt in Nederland gevierd?",
+      "type": "choice",
+      "answers": [
+        "Bevrijdingsdag",
+        "Dodenherdenking",
+        "Koningsdag",
+        "Sinterklaas"
+      ],
+      "correct": 0,
+      "explanation": "5 mei = Bevrijdingsdag",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-9-096",
+      "topic": "de-geschiedenis-van-nederland",
+      "chapter": 9,
+      "scenario": "Hoofdstuk 9 - 4 mei en 5 mei",
+      "question": "Wat is het belangrijkste verschil tussen 4 en 5 mei?",
+      "type": "choice",
+      "answers": [
+        "4 mei = herdenken, 5 mei = vrijheid en bevrijding vieren",
+        "Beide dagen zijn precies hetzelfde",
+        "4 mei = Kerstmis, 5 mei = Pasen",
+        "4 mei = stemmen, 5 mei = belastingaangifte"
+      ],
+      "correct": 0,
+      "explanation": "4 mei herdenken, 5 mei vieren",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-9-097",
+      "topic": "de-geschiedenis-van-nederland",
+      "chapter": 9,
+      "scenario": "Hoofdstuk 9 - 4 mei en 5 mei",
+      "question": "Een buurman zet op 4 mei om 20.00 uur zijn muziek zachter. Waarom?",
+      "type": "choice",
+      "answers": [
+        "Uit respect voor de twee minuten stilte",
+        "Omdat winkels dan sluiten",
+        "Omdat er een voetbalwedstrijd begint",
+        "Omdat de euro dan wordt herdacht"
+      ],
+      "correct": 0,
+      "explanation": "Twee minuten stilte",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-9-098",
+      "topic": "de-geschiedenis-van-nederland",
+      "chapter": 9,
+      "scenario": "Hoofdstuk 9 - 4 mei en 5 mei",
+      "question": "Waar of niet waar: 5 mei herinnert aan de bevrijding van Nederland in 1945.",
+      "type": "choice",
+      "answers": [
+        "Waar",
+        "Niet waar"
+      ],
+      "correct": 0,
+      "explanation": "Bevrijding Nederland 1945",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-9-099",
+      "topic": "de-geschiedenis-van-nederland",
+      "chapter": 9,
+      "scenario": "Hoofdstuk 9 - Wederopbouw, Willem Drees en AOW",
+      "question": "Na 1945 waren veel gebouwen en wegen beschadigd. Wat moest Nederland doen?",
+      "type": "choice",
+      "answers": [
+        "Wederopbouwen",
+        "Alle steden verlaten",
+        "Terugkeren naar de Middeleeuwen",
+        "De democratie afschaffen"
+      ],
+      "correct": 0,
+      "explanation": "Wederopbouw",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-9-100",
+      "topic": "de-geschiedenis-van-nederland",
+      "chapter": 9,
+      "scenario": "Hoofdstuk 9 - Wederopbouw, Willem Drees en AOW",
+      "question": "Nederland kreeg na de oorlog Amerikaanse economische hulp. Met welk programma wordt dat vaak verbonden?",
+      "type": "choice",
+      "answers": [
+        "Marshallhulp",
+        "Deltaplan",
+        "VOC",
+        "Leerplicht"
+      ],
+      "correct": 0,
+      "explanation": "Marshallhulp",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-9-101",
+      "topic": "de-geschiedenis-van-nederland",
+      "chapter": 9,
+      "scenario": "Hoofdstuk 9 - Wederopbouw, Willem Drees en AOW",
+      "question": "Wie was Willem Drees?",
+      "type": "choice",
+      "answers": [
+        "Een belangrijke naoorlogse minister-president",
+        "Een Romeinse keizer",
+        "Een Spaanse koning",
+        "Een Duitse generaal"
+      ],
+      "correct": 0,
+      "explanation": "Willem Drees",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-9-102",
+      "topic": "de-geschiedenis-van-nederland",
+      "chapter": 9,
+      "scenario": "Hoofdstuk 9 - Wederopbouw, Willem Drees en AOW",
+      "question": "Waarmee wordt Willem Drees vaak geassocieerd?",
+      "type": "choice",
+      "answers": [
+        "De opbouw van de verzorgingsstaat en ouderdomsvoorzieningen",
+        "De VOC",
+        "De Tachtigjarige Oorlog",
+        "De Duitse bezetting van 1940"
+      ],
+      "correct": 0,
+      "explanation": "Verzorgingsstaat/AOW",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-9-103",
+      "topic": "de-geschiedenis-van-nederland",
+      "chapter": 9,
+      "scenario": "Hoofdstuk 9 - Wederopbouw, Willem Drees en AOW",
+      "question": "Waarvoor is de AOW bedoeld?",
+      "type": "choice",
+      "answers": [
+        "Basisinkomen voor mensen vanaf de AOW-leeftijd",
+        "Alleen geld voor studenten",
+        "Alleen huurtoeslag",
+        "Alleen werkloosheidsuitkering"
+      ],
+      "correct": 0,
+      "explanation": "Basisouderdomsvoorziening",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-9-104",
+      "topic": "de-geschiedenis-van-nederland",
+      "chapter": 9,
+      "scenario": "Hoofdstuk 9 - Wederopbouw, Willem Drees en AOW",
+      "question": "Waarom moet je de exacte AOW-leeftijd niet blind uit een oud KNM-boek leren?",
+      "type": "choice",
+      "answers": [
+        "De AOW-leeftijd kan veranderen",
+        "AOW bestaat niet meer",
+        "Iedereen krijgt AOW op dezelfde jonge leeftijd",
+        "De gemeente kiest elk jaar willekeurig"
+      ],
+      "correct": 0,
+      "explanation": "AOW-leeftijd verandert",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-9-105",
+      "topic": "de-geschiedenis-van-nederland",
+      "chapter": 9,
+      "scenario": "Hoofdstuk 9 - Wederopbouw, Willem Drees en AOW",
+      "question": "Waar of niet waar: De periode na de Tweede Wereldoorlog stond in het teken van wederopbouw en uitbreiding van sociale voorzieningen.",
+      "type": "choice",
+      "answers": [
+        "Waar",
+        "Niet waar"
+      ],
+      "correct": 0,
+      "explanation": "Wederopbouw/sociale voorzieningen",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-9-106",
+      "topic": "de-geschiedenis-van-nederland",
+      "chapter": 9,
+      "scenario": "Hoofdstuk 9 - Europese samenwerking en euro",
+      "question": "Na de Tweede Wereldoorlog gingen Europese landen nauwer samenwerken. Waarom?",
+      "type": "choice",
+      "answers": [
+        "Voor vrede, stabiliteit en economie",
+        "Om weer oorlog te voeren",
+        "Om alle nationale talen te verbieden",
+        "Om Nederland bij Spanje te voegen"
+      ],
+      "correct": 0,
+      "explanation": "Vrede/economie",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-9-107",
+      "topic": "de-geschiedenis-van-nederland",
+      "chapter": 9,
+      "scenario": "Hoofdstuk 9 - Europese samenwerking en euro",
+      "question": "Nederland is onderdeel van welke samenwerking?",
+      "type": "choice",
+      "answers": [
+        "Europese Unie",
+        "Romeinse Rijk",
+        "Spaanse Rijk",
+        "VOC"
+      ],
+      "correct": 0,
+      "explanation": "Europese Unie",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-9-108",
+      "topic": "de-geschiedenis-van-nederland",
+      "chapter": 9,
+      "scenario": "Hoofdstuk 9 - Europese samenwerking en euro",
+      "question": "Sinds wanneer gebruiken Nederland en veel andere eurolanden eurobankbiljetten en -munten?",
+      "type": "choice",
+      "answers": [
+        "2002",
+        "1945",
+        "1815",
+        "1574"
+      ],
+      "correct": 0,
+      "explanation": "Euro contant sinds 2002",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-9-109",
+      "topic": "de-geschiedenis-van-nederland",
+      "chapter": 9,
+      "scenario": "Hoofdstuk 9 - Europese samenwerking en euro",
+      "question": "Een oudere Nederlander vertelt dat hij vroeger met guldens betaalde. Waarom gebruikt hij nu euro's?",
+      "type": "choice",
+      "answers": [
+        "Nederland ging over op de euro",
+        "De gulden was een Romeinse munt die in 1940 verdween",
+        "Spanje verbood de gulden",
+        "Alleen toeristen gebruiken euro's"
+      ],
+      "correct": 0,
+      "explanation": "Gulden vervangen door euro",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-9-110",
+      "topic": "de-geschiedenis-van-nederland",
+      "chapter": 9,
+      "scenario": "Hoofdstuk 9 - Europese samenwerking en euro",
+      "question": "Waar of niet waar: Europese samenwerking werd na de Tweede Wereldoorlog belangrijker.",
+      "type": "choice",
+      "answers": [
+        "Waar",
+        "Niet waar"
+      ],
+      "correct": 0,
+      "explanation": "Europese samenwerking groeide",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-9-111",
+      "topic": "de-geschiedenis-van-nederland",
+      "chapter": 9,
+      "scenario": "Hoofdstuk 9 - Watersnoodramp en Deltawerken",
+      "question": "Een gezin bezoekt Zeeland en ziet grote dammen en stormvloedkeringen. Met welke historische ramp hangt dit sterk samen?",
+      "type": "choice",
+      "answers": [
+        "De Watersnoodramp van 1953",
+        "Het bombardement op Rotterdam",
+        "De Tachtigjarige Oorlog",
+        "De Eerste Wereldoorlog"
+      ],
+      "correct": 0,
+      "explanation": "Deltawerken ↔ 1953",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-9-112",
+      "topic": "de-geschiedenis-van-nederland",
+      "chapter": 9,
+      "scenario": "Hoofdstuk 9 - Watersnoodramp en Deltawerken",
+      "question": "Wat gebeurde in 1953?",
+      "type": "choice",
+      "answers": [
+        "Een grote overstroming trof vooral Zuidwest-Nederland",
+        "De euro werd ingevoerd",
+        "Nederland werd door Duitsland bezet",
+        "België werd onafhankelijk"
+      ],
+      "correct": 0,
+      "explanation": "Grote overstroming",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-9-113",
+      "topic": "de-geschiedenis-van-nederland",
+      "chapter": 9,
+      "scenario": "Hoofdstuk 9 - Watersnoodramp en Deltawerken",
+      "question": "Wat deed Nederland na de Watersnoodramp?",
+      "type": "choice",
+      "answers": [
+        "Grote waterwerken, dammen en stormvloedkeringen bouwen",
+        "Alle dijken verwijderen",
+        "De zee vrij binnenlaten",
+        "Stoppen met waterbeheer"
+      ],
+      "correct": 0,
+      "explanation": "Waterwerken versterken",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-9-114",
+      "topic": "de-geschiedenis-van-nederland",
+      "chapter": 9,
+      "scenario": "Hoofdstuk 9 - Watersnoodramp en Deltawerken",
+      "question": "Hoe heet het grote programma van waterwerken dat daarna werd uitgevoerd?",
+      "type": "choice",
+      "answers": [
+        "Deltawerken / Deltaplan",
+        "Marshallplan",
+        "VOC-plan",
+        "AOW-plan"
+      ],
+      "correct": 0,
+      "explanation": "Deltawerken/Deltaplan",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-9-115",
+      "topic": "de-geschiedenis-van-nederland",
+      "chapter": 9,
+      "scenario": "Hoofdstuk 9 - Watersnoodramp en Deltawerken",
+      "question": "Waarom zijn de Deltawerken belangrijk?",
+      "type": "choice",
+      "answers": [
+        "Ze beschermen grote delen van Nederland tegen overstromingen",
+        "Ze maken nieuwe paspoorten",
+        "Ze regelen verkiezingen",
+        "Ze betalen kinderbijslag"
+      ],
+      "correct": 0,
+      "explanation": "Bescherming tegen overstromingen",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-9-116",
+      "topic": "de-geschiedenis-van-nederland",
+      "chapter": 9,
+      "scenario": "Hoofdstuk 9 - Watersnoodramp en Deltawerken",
+      "question": "Waar of niet waar: De Watersnoodramp van 1953 had grote invloed op het Nederlandse waterbeheer.",
+      "type": "choice",
+      "answers": [
+        "Waar",
+        "Niet waar"
+      ],
+      "correct": 0,
+      "explanation": "Grote invloed op waterbeheer",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-9-117",
+      "topic": "de-geschiedenis-van-nederland",
+      "chapter": 9,
+      "scenario": "Hoofdstuk 9 - Gastarbeiders en migratie",
+      "question": "In de jaren 1960 en 1970 had Nederland veel werknemers nodig. Uit welke landen kwamen onder andere gastarbeiders?",
+      "type": "choice",
+      "answers": [
+        "Turkije en Marokko",
+        "Alleen Canada",
+        "Alleen Japan",
+        "Alleen Noorwegen"
+      ],
+      "correct": 0,
+      "explanation": "Turkije en Marokko",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-9-118",
+      "topic": "de-geschiedenis-van-nederland",
+      "chapter": 9,
+      "scenario": "Hoofdstuk 9 - Gastarbeiders en migratie",
+      "question": "Waarom kwamen veel gastarbeiders naar Nederland?",
+      "type": "choice",
+      "answers": [
+        "Om te werken in bijvoorbeeld fabrieken en andere sectoren met personeelstekort",
+        "Om de Tachtigjarige Oorlog te voeren",
+        "Om de VOC op te richten",
+        "Om de Romeinen te helpen"
+      ],
+      "correct": 0,
+      "explanation": "Arbeidskrachten nodig",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-9-119",
+      "topic": "de-geschiedenis-van-nederland",
+      "chapter": 9,
+      "scenario": "Hoofdstuk 9 - Gastarbeiders en migratie",
+      "question": "Veel gastarbeiders bleven later in Nederland wonen. Wat was een gevolg?",
+      "type": "choice",
+      "answers": [
+        "Hun gezinnen en volgende generaties werden onderdeel van de Nederlandse samenleving",
+        "Iedereen vertrok meteen weer",
+        "Nederland had daarna geen migratie meer",
+        "Zij mochten nooit gezinnen vormen"
+      ],
+      "correct": 0,
+      "explanation": "Blijvende gemeenschappen",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-9-120",
+      "topic": "de-geschiedenis-van-nederland",
+      "chapter": 9,
+      "scenario": "Hoofdstuk 9 - Gastarbeiders en migratie",
+      "question": "Een leerling vraagt waarom in grote steden veel Nederlanders met Turkse of Marokkaanse familieachtergrond wonen. Welke geschiedenis helpt dit verklaren?",
+      "type": "choice",
+      "answers": [
+        "Arbeidsmigratie vanaf de jaren 1960/1970",
+        "De Romeinse tijd",
+        "De Middeleeuwen",
+        "De watersnoodramp"
+      ],
+      "correct": 0,
+      "explanation": "Arbeidsmigratie 60/70s",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-9-121",
+      "topic": "de-geschiedenis-van-nederland",
+      "chapter": 9,
+      "scenario": "Hoofdstuk 9 - Gastarbeiders en migratie",
+      "question": "De regels voor inburgering zijn in de loop van de tijd veranderd. Wat moet je voor KNM vooral onthouden?",
+      "type": "choice",
+      "answers": [
+        "Migratie en integratie zijn belangrijke onderdelen van de moderne Nederlandse geschiedenis",
+        "Alleen één oud taalniveau uit een oud boek",
+        "Dat er nooit regels veranderen",
+        "Dat gastarbeiders allemaal tijdelijk zijn gebleven"
+      ],
+      "correct": 0,
+      "explanation": "Migratie/integratie als modern thema",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-9-122",
+      "topic": "de-geschiedenis-van-nederland",
+      "chapter": 9,
+      "scenario": "Hoofdstuk 9 - Gastarbeiders en migratie",
+      "question": "Waar of niet waar: Arbeidsmigratie uit Turkije en Marokko heeft invloed gehad op de huidige Nederlandse samenleving.",
+      "type": "choice",
+      "answers": [
+        "Waar",
+        "Niet waar"
+      ],
+      "correct": 0,
+      "explanation": "Grote maatschappelijke invloed",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-9-123",
+      "topic": "de-geschiedenis-van-nederland",
+      "chapter": 9,
+      "scenario": "Hoofdstuk 9 - Gemengde KNM-situatievragen",
+      "question": "Noor bezoekt Leiden op 3 oktober en ziet overal feest. Waarom?",
+      "type": "choice",
+      "answers": [
+        "Leiden herdenkt de bevrijding van de Spaanse belegering",
+        "Het is Bevrijdingsdag",
+        "Het is Koningsdag",
+        "De euro werd ingevoerd"
+      ],
+      "correct": 0,
+      "explanation": "3 oktober = Leidens Ontzet",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-9-124",
+      "topic": "de-geschiedenis-van-nederland",
+      "chapter": 9,
+      "scenario": "Hoofdstuk 9 - Gemengde KNM-situatievragen",
+      "question": "Peter bezoekt Amsterdam en ziet veel 17e-eeuwse grachtenhuizen. Welke geschiedenis hoort daarbij?",
+      "type": "choice",
+      "answers": [
+        "Handel en rijkdom van de 17e eeuw",
+        "Alleen wederopbouw na 1945",
+        "Alleen Romeinse geschiedenis",
+        "Gastarbeid"
+      ],
+      "correct": 0,
+      "explanation": "Grachtenhuizen 17e eeuw",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-9-125",
+      "topic": "de-geschiedenis-van-nederland",
+      "chapter": 9,
+      "scenario": "Hoofdstuk 9 - Gemengde KNM-situatievragen",
+      "question": "Karim vraagt waarom Nederlandse supporters vaak oranje dragen. Wat is het beste historische antwoord?",
+      "type": "choice",
+      "answers": [
+        "Oranje verwijst naar het Huis van Oranje",
+        "Oranje was de kleur van de VOC-vlag als enige reden",
+        "Oranje komt van de EU",
+        "Oranje verwijst naar de Romeinen"
+      ],
+      "correct": 0,
+      "explanation": "Oranje ↔ Huis van Oranje",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-9-126",
+      "topic": "de-geschiedenis-van-nederland",
+      "chapter": 9,
+      "scenario": "Hoofdstuk 9 - Gemengde KNM-situatievragen",
+      "question": "Emma bezoekt Rotterdam en vraagt waarom het centrum relatief weinig gebouwen uit vóór 1940 heeft. Wat leg je uit?",
+      "type": "choice",
+      "answers": [
+        "Een groot deel van het centrum werd in 1940 gebombardeerd",
+        "Rotterdam bestond pas sinds 1970",
+        "De stad werd in 1953 volledig overstroomd",
+        "De stad was tot 2002 een dorp"
+      ],
+      "correct": 0,
+      "explanation": "Bombardement 1940",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-9-127",
+      "topic": "de-geschiedenis-van-nederland",
+      "chapter": 9,
+      "scenario": "Hoofdstuk 9 - Gemengde KNM-situatievragen",
+      "question": "Het is 4 mei om 19.58 uur. Sofia geeft thuis een feestje met harde muziek. Wat past het beste?",
+      "type": "choice",
+      "answers": [
+        "De muziek om 20.00 uur zachter zetten en de herdenking respecteren",
+        "Extra hard muziek draaien",
+        "Vuurwerk afsteken",
+        "Iedereen laten zingen"
+      ],
+      "correct": 0,
+      "explanation": "4 mei stilte respecteren",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-9-128",
+      "topic": "de-geschiedenis-van-nederland",
+      "chapter": 9,
+      "scenario": "Hoofdstuk 9 - Gemengde KNM-situatievragen",
+      "question": "Het is 5 mei. Ahmed ziet festivals en Nederlandse vlaggen. Waarom?",
+      "type": "choice",
+      "answers": [
+        "Nederland viert vrijheid en bevrijding",
+        "Nederland herdenkt de Romeinen",
+        "Het is een religieuze feestdag",
+        "Het is de start van de Eerste Wereldoorlog"
+      ],
+      "correct": 0,
+      "explanation": "5 mei vrijheid vieren",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-9-129",
+      "topic": "de-geschiedenis-van-nederland",
+      "chapter": 9,
+      "scenario": "Hoofdstuk 9 - Gemengde KNM-situatievragen",
+      "question": "Lina bezoekt het Anne Frank Huis. Welke geschiedenis staat daar centraal?",
+      "type": "choice",
+      "answers": [
+        "Jodenvervolging, onderduiken en Holocaust",
+        "VOC-handel",
+        "Watersnoodramp",
+        "Industrialisatie"
+      ],
+      "correct": 0,
+      "explanation": "Anne Frank/Holocaust",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-9-130",
+      "topic": "de-geschiedenis-van-nederland",
+      "chapter": 9,
+      "scenario": "Hoofdstuk 9 - Gemengde KNM-situatievragen",
+      "question": "Een leerling ziet een oude foto van vrouwen die actievoeren voor stemrecht. Welke historische ontwikkeling past daarbij?",
+      "type": "choice",
+      "answers": [
+        "Emancipatie en uitbreiding van het kiesrecht",
+        "Tachtigjarige Oorlog",
+        "Deltawerken",
+        "Gastarbeid"
+      ],
+      "correct": 0,
+      "explanation": "Vrouwenkiesrecht/emancipatie",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-9-131",
+      "topic": "de-geschiedenis-van-nederland",
+      "chapter": 9,
+      "scenario": "Hoofdstuk 9 - Gemengde KNM-situatievragen",
+      "question": "Een leerling leest over kinderen die vroeger in fabrieken werkten. Welke latere ontwikkeling veranderde dit?",
+      "type": "choice",
+      "answers": [
+        "Kinderarbeid werd beperkt en leerplicht werd ingevoerd",
+        "Kinderen moesten langer werken",
+        "Scholen werden verboden",
+        "Iedereen moest boer worden"
+      ],
+      "correct": 0,
+      "explanation": "Kinderarbeid beperkt + leerplicht",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-9-132",
+      "topic": "de-geschiedenis-van-nederland",
+      "chapter": 9,
+      "scenario": "Hoofdstuk 9 - Gemengde KNM-situatievragen",
+      "question": "Een toerist ziet Deltawerken in Zeeland. Wat vertelt een gids?",
+      "type": "choice",
+      "answers": [
+        "Ze zijn gebouwd om Nederland beter tegen overstromingen te beschermen",
+        "Ze zijn gebouwd voor de VOC",
+        "Ze zijn een Romeins aquaduct",
+        "Ze zijn gebouwd om België onafhankelijk te maken"
+      ],
+      "correct": 0,
+      "explanation": "Deltawerken beschermen",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-9-133",
+      "topic": "de-geschiedenis-van-nederland",
+      "chapter": 9,
+      "scenario": "Hoofdstuk 9 - Gemengde KNM-situatievragen",
+      "question": "Een student vraagt waarom 1848 belangrijk is. Welk antwoord is juist?",
+      "type": "choice",
+      "answers": [
+        "Een grote grondwetsherziening versterkte de parlementaire democratie",
+        "Nederland werd door Duitsland bezet",
+        "De euro werd ingevoerd",
+        "De Tachtigjarige Oorlog begon"
+      ],
+      "correct": 0,
+      "explanation": "1848 grondwet",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-9-134",
+      "topic": "de-geschiedenis-van-nederland",
+      "chapter": 9,
+      "scenario": "Hoofdstuk 9 - Gemengde KNM-situatievragen",
+      "question": "Een leerling vraagt waarom 1648 belangrijk is. Wat antwoord je?",
+      "type": "choice",
+      "answers": [
+        "De Tachtigjarige Oorlog eindigde en de Republiek werd internationaal erkend als onafhankelijk",
+        "De Tweede Wereldoorlog eindigde",
+        "De AOW werd ingevoerd",
+        "België werd onafhankelijk"
+      ],
+      "correct": 0,
+      "explanation": "1648 einde Tachtigjarige Oorlog",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-9-135",
+      "topic": "de-geschiedenis-van-nederland",
+      "chapter": 9,
+      "scenario": "Hoofdstuk 9 - Gemengde KNM-situatievragen",
+      "question": "Een docent bespreekt 1919. Welke ontwikkeling hoort daarbij?",
+      "type": "choice",
+      "answers": [
+        "Vrouwen kregen actief kiesrecht",
+        "Nederland werd een republiek",
+        "Duitsland bezette Nederland",
+        "De VOC werd opgericht"
+      ],
+      "correct": 0,
+      "explanation": "1919 vrouwenkiesrecht",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-9-136",
+      "topic": "de-geschiedenis-van-nederland",
+      "chapter": 9,
+      "scenario": "Hoofdstuk 9 - Gemengde KNM-situatievragen",
+      "question": "Een gezin bezoekt een museum over slavernij. Met welke Nederlandse geschiedenis heeft dit ook te maken?",
+      "type": "choice",
+      "answers": [
+        "Koloniale handel in de 17e en 18e eeuw",
+        "Alleen de Watersnoodramp",
+        "Alleen de Eerste Wereldoorlog",
+        "Alleen de Romeinen"
+      ],
+      "correct": 0,
+      "explanation": "Koloniale handel/slavernij",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-9-137",
+      "topic": "de-geschiedenis-van-nederland",
+      "chapter": 9,
+      "scenario": "Hoofdstuk 9 - Gemengde KNM-situatievragen",
+      "question": "Een oudere man vertelt dat Nederland na de oorlog veel moest herstellen. Welke term past?",
+      "type": "choice",
+      "answers": [
+        "Wederopbouw",
+        "Reformatie",
+        "Onderduiken",
+        "Naturalisatie"
+      ],
+      "correct": 0,
+      "explanation": "Wederopbouw",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-9-138",
+      "topic": "de-geschiedenis-van-nederland",
+      "chapter": 9,
+      "scenario": "Hoofdstuk 9 - Gemengde KNM-situatievragen",
+      "question": "Een leerling vraagt waarom Nederland na 1945 Europese samenwerking belangrijk vond. Wat is een logisch antwoord?",
+      "type": "choice",
+      "answers": [
+        "Voor vrede en economische samenwerking",
+        "Om Spanje opnieuw te bestrijden",
+        "Om een nieuwe Tachtigjarige Oorlog te beginnen",
+        "Om de gulden overal verplicht te maken"
+      ],
+      "correct": 0,
+      "explanation": "Vrede + economie",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-9-139",
+      "topic": "de-geschiedenis-van-nederland",
+      "chapter": 9,
+      "scenario": "Hoofdstuk 9 - Gemengde KNM-situatievragen",
+      "question": "Een jongere vraagt waarom Nederland tegenwoordig cultureel divers is. Welke ontwikkeling hoort daar onder andere bij?",
+      "type": "choice",
+      "answers": [
+        "Arbeidsmigratie en latere gezinsmigratie",
+        "Alleen de Romeinse tijd",
+        "Alleen de Middeleeuwen",
+        "Alleen de Gouden Eeuw"
+      ],
+      "correct": 0,
+      "explanation": "Arbeids-/gezinsmigratie",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-9-140",
+      "topic": "de-geschiedenis-van-nederland",
+      "chapter": 9,
+      "scenario": "Hoofdstuk 9 - Gemengde KNM-situatievragen",
+      "question": "Een leraar vraagt welke volgorde chronologisch juist is.",
+      "type": "choice",
+      "answers": [
+        "Romeinen → Middeleeuwen → Tachtigjarige Oorlog → Gouden Eeuw → Tweede Wereldoorlog",
+        "Tweede Wereldoorlog → Romeinen → Middeleeuwen → Gouden Eeuw",
+        "Gouden Eeuw → Romeinen → 1953 → Middeleeuwen",
+        "Euro → Romeinen → Tachtigjarige Oorlog → Middeleeuwen"
+      ],
+      "correct": 0,
+      "explanation": "Juiste chronologische volgorde",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-10-001",
+      "topic": "politiek-in-nederland",
+      "chapter": 10,
+      "scenario": "Hoofdstuk 10 - Regering, kabinet en ministers",
+      "question": "Fatima hoort op het nieuws het woord regering. Wie horen bij de regering?",
+      "type": "choice",
+      "answers": [
+        "Alleen de Tweede Kamerleden",
+        "De koning en de ministers",
+        "Alleen de ministers en staatssecretarissen",
+        "Alleen de koning"
+      ],
+      "correct": 1,
+      "explanation": "Regering = koning + ministers",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-10-002",
+      "topic": "politiek-in-nederland",
+      "chapter": 10,
+      "scenario": "Hoofdstuk 10 - Regering, kabinet en ministers",
+      "question": "Peter leest over het kabinet. Wie horen daarbij?",
+      "type": "choice",
+      "answers": [
+        "De koning en de rechters",
+        "De Eerste en Tweede Kamer",
+        "Ministers en staatssecretarissen",
+        "Burgemeesters en wethouders"
+      ],
+      "correct": 2,
+      "explanation": "Kabinet = ministers + staatssecretarissen",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-10-003",
+      "topic": "politiek-in-nederland",
+      "chapter": 10,
+      "scenario": "Hoofdstuk 10 - Regering, kabinet en ministers",
+      "question": "Een journalist zegt dat de minister-president de vergaderingen van de ministers leidt. Welke rol heeft de minister-president?",
+      "type": "choice",
+      "answers": [
+        "Voorzitter van de ministerraad",
+        "Voorzitter van de Eerste Kamer",
+        "Leider van alle rechters",
+        "Burgemeester van Den Haag"
+      ],
+      "correct": 0,
+      "explanation": "Minister-president leidt ministerraad",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-10-004",
+      "topic": "politiek-in-nederland",
+      "chapter": 10,
+      "scenario": "Hoofdstuk 10 - Regering, kabinet en ministers",
+      "question": "Een schooldirecteur wil weten welke minister zich vooral met landelijk onderwijsbeleid bezighoudt. Welke minister past daarbij?",
+      "type": "choice",
+      "answers": [
+        "Minister van Buitenlandse Zaken",
+        "Minister van Onderwijs",
+        "Minister van Financiën",
+        "Minister van Infrastructuur"
+      ],
+      "correct": 1,
+      "explanation": "Onderwijs → minister Onderwijs",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-10-005",
+      "topic": "politiek-in-nederland",
+      "chapter": 10,
+      "scenario": "Hoofdstuk 10 - Regering, kabinet en ministers",
+      "question": "Nederland onderhandelt met een ander land. Welke minister heeft daar vooral mee te maken?",
+      "type": "choice",
+      "answers": [
+        "Minister van Buitenlandse Zaken",
+        "Minister van Onderwijs",
+        "Minister van Financiën",
+        "Minister van Volksgezondheid"
+      ],
+      "correct": 0,
+      "explanation": "Buitenlandse Zaken",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-10-006",
+      "topic": "politiek-in-nederland",
+      "chapter": 10,
+      "scenario": "Hoofdstuk 10 - Regering, kabinet en ministers",
+      "question": "De regering bespreekt de rijksbegroting. Welke minister is vooral verantwoordelijk voor de financiën van het Rijk?",
+      "type": "choice",
+      "answers": [
+        "Minister van Onderwijs",
+        "Minister van Buitenlandse Zaken",
+        "Minister van Financiën",
+        "Minister van Justitie"
+      ],
+      "correct": 2,
+      "explanation": "Financiën",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-10-007",
+      "topic": "politiek-in-nederland",
+      "chapter": 10,
+      "scenario": "Hoofdstuk 10 - Regering, kabinet en ministers",
+      "question": "Waar of niet waar: Iedere minister heeft altijd precies één staatssecretaris.",
+      "type": "choice",
+      "answers": [
+        "Waar",
+        "Niet waar"
+      ],
+      "correct": 1,
+      "explanation": "Niet iedere minister heeft precies één staatssecretaris",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-10-008",
+      "topic": "politiek-in-nederland",
+      "chapter": 10,
+      "scenario": "Hoofdstuk 10 - Regering, kabinet en ministers",
+      "question": "Waar of niet waar: Staatssecretarissen kunnen een deel van het werk van een ministerie uitvoeren.",
+      "type": "choice",
+      "answers": [
+        "Waar",
+        "Niet waar"
+      ],
+      "correct": 0,
+      "explanation": "Staatssecretaris ondersteunt ministerie",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-10-009",
+      "topic": "politiek-in-nederland",
+      "chapter": 10,
+      "scenario": "Hoofdstuk 10 - Koninkrijk en koning",
+      "question": "Mei vraagt waarom Nederland geen president als staatshoofd heeft. Wat is het juiste antwoord?",
+      "type": "choice",
+      "answers": [
+        "Nederland is een monarchie met een koning",
+        "Nederland heeft helemaal geen staatshoofd",
+        "De burgemeester is staatshoofd",
+        "De voorzitter van de Tweede Kamer is koning"
+      ],
+      "correct": 0,
+      "explanation": "Nederland = constitutionele monarchie",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-10-010",
+      "topic": "politiek-in-nederland",
+      "chapter": 10,
+      "scenario": "Hoofdstuk 10 - Koninkrijk en koning",
+      "question": "Welke vier landen vormen samen het Koninkrijk der Nederlanden?",
+      "type": "choice",
+      "answers": [
+        "Nederland, België, Luxemburg en Duitsland",
+        "Nederland, Aruba, Curaçao en Sint Maarten",
+        "Nederland, Bonaire, België en Aruba",
+        "Nederland, Frankrijk, Aruba en Curaçao"
+      ],
+      "correct": 1,
+      "explanation": "NL + Aruba + Curaçao + Sint Maarten",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-10-011",
+      "topic": "politiek-in-nederland",
+      "chapter": 10,
+      "scenario": "Hoofdstuk 10 - Koninkrijk en koning",
+      "question": "Wie is het staatshoofd van het Koninkrijk der Nederlanden?",
+      "type": "choice",
+      "answers": [
+        "De minister-president",
+        "De koning",
+        "De voorzitter van de Tweede Kamer",
+        "De burgemeester van Amsterdam"
+      ],
+      "correct": 1,
+      "explanation": "Koning = staatshoofd",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-10-012",
+      "topic": "politiek-in-nederland",
+      "chapter": 10,
+      "scenario": "Hoofdstuk 10 - Koninkrijk en koning",
+      "question": "Een leerling vraagt hoeveel politieke macht de koning heeft. Wat is het beste antwoord?",
+      "type": "choice",
+      "answers": [
+        "De koning beslist zelfstandig over alle wetten",
+        "De koning heeft een constitutionele rol; ministers en parlement nemen de politieke besluiten",
+        "De koning benoemt zelf alle Tweede Kamerleden",
+        "De koning kan rechters vertellen hoe zij moeten beslissen"
+      ],
+      "correct": 1,
+      "explanation": "Koning beperkte constitutionele politieke rol",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-10-013",
+      "topic": "politiek-in-nederland",
+      "chapter": 10,
+      "scenario": "Hoofdstuk 10 - Koninkrijk en koning",
+      "question": "Waar woont en werkt de koning volgens de leerstof in de buurt van?",
+      "type": "choice",
+      "answers": [
+        "Den Haag",
+        "Maastricht",
+        "Groningen",
+        "Eindhoven"
+      ],
+      "correct": 0,
+      "explanation": "Den Haag",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-10-014",
+      "topic": "politiek-in-nederland",
+      "chapter": 10,
+      "scenario": "Hoofdstuk 10 - Koninkrijk en koning",
+      "question": "Waar of niet waar: Nederland is een koninkrijk én een democratie.",
+      "type": "choice",
+      "answers": [
+        "Waar",
+        "Niet waar"
+      ],
+      "correct": 0,
+      "explanation": "Koninkrijk + democratie",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-10-015",
+      "topic": "politiek-in-nederland",
+      "chapter": 10,
+      "scenario": "Hoofdstuk 10 - Prinsjesdag en troonrede",
+      "question": "Het is september. Noor ziet op televisie dat de koning een officiële toespraak voorleest over de plannen van de regering. Welke dag is dit?",
+      "type": "choice",
+      "answers": [
+        "Koningsdag",
+        "Bevrijdingsdag",
+        "Prinsjesdag",
+        "Dodenherdenking"
+      ],
+      "correct": 2,
+      "explanation": "Prinsjesdag",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-10-016",
+      "topic": "politiek-in-nederland",
+      "chapter": 10,
+      "scenario": "Hoofdstuk 10 - Prinsjesdag en troonrede",
+      "question": "Hoe heet de toespraak die de koning op Prinsjesdag voorleest?",
+      "type": "choice",
+      "answers": [
+        "Regeerakkoord",
+        "Troonrede",
+        "Grondwet",
+        "Verkiezingsprogramma"
+      ],
+      "correct": 1,
+      "explanation": "Troonrede",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-10-017",
+      "topic": "politiek-in-nederland",
+      "chapter": 10,
+      "scenario": "Hoofdstuk 10 - Prinsjesdag en troonrede",
+      "question": "Van wie komen de politieke plannen die in de troonrede worden gepresenteerd?",
+      "type": "choice",
+      "answers": [
+        "Van het kabinet",
+        "Alleen van de koning persoonlijk",
+        "Alleen van de burgemeester van Den Haag",
+        "Van de rechters"
+      ],
+      "correct": 0,
+      "explanation": "Kabinetsbeleid",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-10-018",
+      "topic": "politiek-in-nederland",
+      "chapter": 10,
+      "scenario": "Hoofdstuk 10 - Prinsjesdag en troonrede",
+      "question": "Een leerling zegt: “De koning schrijft zelf alle plannen voor Nederland.” Is dat juist?",
+      "type": "choice",
+      "answers": [
+        "Ja",
+        "Nee, de politieke verantwoordelijkheid ligt bij de ministers",
+        "Alleen in verkiezingsjaren",
+        "Alleen voor onderwijs"
+      ],
+      "correct": 1,
+      "explanation": "Ministers politiek verantwoordelijk",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-10-019",
+      "topic": "politiek-in-nederland",
+      "chapter": 10,
+      "scenario": "Hoofdstuk 10 - Prinsjesdag en troonrede",
+      "question": "Waar of niet waar: Prinsjesdag vindt jaarlijks plaats.",
+      "type": "choice",
+      "answers": [
+        "Waar",
+        "Niet waar"
+      ],
+      "correct": 0,
+      "explanation": "Jaarlijks",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-10-020",
+      "topic": "politiek-in-nederland",
+      "chapter": 10,
+      "scenario": "Hoofdstuk 10 - Parlement, Tweede Kamer en Eerste Kamer",
+      "question": "Ahmed wil weten wat het Nederlandse parlement is. Wat hoort erbij?",
+      "type": "choice",
+      "answers": [
+        "Alleen de Tweede Kamer",
+        "Alleen de Eerste Kamer",
+        "Eerste Kamer en Tweede Kamer",
+        "Kabinet en koning"
+      ],
+      "correct": 2,
+      "explanation": "Parlement = Eerste + Tweede Kamer",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-10-021",
+      "topic": "politiek-in-nederland",
+      "chapter": 10,
+      "scenario": "Hoofdstuk 10 - Parlement, Tweede Kamer en Eerste Kamer",
+      "question": "Hoeveel zetels heeft de Tweede Kamer?",
+      "type": "choice",
+      "answers": [
+        "75",
+        "100",
+        "150",
+        "200"
+      ],
+      "correct": 2,
+      "explanation": "Tweede Kamer 150",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-10-022",
+      "topic": "politiek-in-nederland",
+      "chapter": 10,
+      "scenario": "Hoofdstuk 10 - Parlement, Tweede Kamer en Eerste Kamer",
+      "question": "Hoeveel leden heeft de Eerste Kamer?",
+      "type": "choice",
+      "answers": [
+        "50",
+        "75",
+        "100",
+        "150"
+      ],
+      "correct": 1,
+      "explanation": "Eerste Kamer 75",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-10-023",
+      "topic": "politiek-in-nederland",
+      "chapter": 10,
+      "scenario": "Hoofdstuk 10 - Parlement, Tweede Kamer en Eerste Kamer",
+      "question": "Sara wil een debat van de Tweede Kamer volgen. Kan dat in principe?",
+      "type": "choice",
+      "answers": [
+        "Nee, alle vergaderingen zijn geheim",
+        "Ja, veel vergaderingen zijn openbaar",
+        "Alleen als zij minister is",
+        "Alleen als zij journalist is"
+      ],
+      "correct": 1,
+      "explanation": "Debatten vaak openbaar",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-10-024",
+      "topic": "politiek-in-nederland",
+      "chapter": 10,
+      "scenario": "Hoofdstuk 10 - Parlement, Tweede Kamer en Eerste Kamer",
+      "question": "Wat is een belangrijke taak van de Tweede Kamer?",
+      "type": "choice",
+      "answers": [
+        "De regering controleren en over wetsvoorstellen stemmen",
+        "Paspoorten uitgeven",
+        "Rechters ontslaan als zij het oneens zijn",
+        "Gemeentelijke bibliotheken beheren"
+      ],
+      "correct": 0,
+      "explanation": "Controleren + wetgeving",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-10-025",
+      "topic": "politiek-in-nederland",
+      "chapter": 10,
+      "scenario": "Hoofdstuk 10 - Parlement, Tweede Kamer en Eerste Kamer",
+      "question": "Wat doet de Eerste Kamer vooral met wetsvoorstellen?",
+      "type": "choice",
+      "answers": [
+        "Zij beoordeelt wetsvoorstellen nadat de Tweede Kamer ermee heeft ingestemd",
+        "Zij schrijft alle wetten zonder Tweede Kamer",
+        "Zij organiseert gemeenteraadsverkiezingen",
+        "Zij kiest burgemeesters rechtstreeks"
+      ],
+      "correct": 0,
+      "explanation": "Eerste Kamer beoordeelt wetsvoorstellen",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-10-026",
+      "topic": "politiek-in-nederland",
+      "chapter": 10,
+      "scenario": "Hoofdstuk 10 - Parlement, Tweede Kamer en Eerste Kamer",
+      "question": "Wordt de Eerste Kamer rechtstreeks door alle Nederlandse kiezers gekozen?",
+      "type": "choice",
+      "answers": [
+        "Ja",
+        "Nee",
+        "Alleen door inwoners van Den Haag",
+        "Alleen door ministers"
+      ],
+      "correct": 1,
+      "explanation": "Eerste Kamer indirect gekozen",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-10-027",
+      "topic": "politiek-in-nederland",
+      "chapter": 10,
+      "scenario": "Hoofdstuk 10 - Parlement, Tweede Kamer en Eerste Kamer",
+      "question": "Waar of niet waar: De Tweede Kamer controleert het kabinet.",
+      "type": "choice",
+      "answers": [
+        "Waar",
+        "Niet waar"
+      ],
+      "correct": 0,
+      "explanation": "Kamer controleert kabinet",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-10-028",
+      "topic": "politiek-in-nederland",
+      "chapter": 10,
+      "scenario": "Hoofdstuk 10 - Parlement, Tweede Kamer en Eerste Kamer",
+      "question": "Waar of niet waar: De Eerste Kamer en Tweede Kamer samen vormen het parlement.",
+      "type": "choice",
+      "answers": [
+        "Waar",
+        "Niet waar"
+      ],
+      "correct": 0,
+      "explanation": "Beide Kamers = parlement",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-10-029",
+      "topic": "politiek-in-nederland",
+      "chapter": 10,
+      "scenario": "Hoofdstuk 10 - Hoe wordt een wet gemaakt?",
+      "question": "Een minister heeft een voorstel voor een nieuwe landelijke wet. Wat gebeurt daarna normaal gesproken?",
+      "type": "choice",
+      "answers": [
+        "De koning maakt de wet direct geldig",
+        "Het voorstel gaat naar het parlement",
+        "De burgemeester stemt er alleen over",
+        "De politie beslist"
+      ],
+      "correct": 1,
+      "explanation": "Voorstel naar parlement",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-10-030",
+      "topic": "politiek-in-nederland",
+      "chapter": 10,
+      "scenario": "Hoofdstuk 10 - Hoe wordt een wet gemaakt?",
+      "question": "De Tweede Kamer stemt vóór een wetsvoorstel. Is het voorstel dan altijd meteen definitief?",
+      "type": "choice",
+      "answers": [
+        "Ja",
+        "Nee, ook de Eerste Kamer moet het behandelen",
+        "Alleen als de burgemeester akkoord is",
+        "Alleen als een referendum volgt"
+      ],
+      "correct": 1,
+      "explanation": "Eerste Kamer volgt",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-10-031",
+      "topic": "politiek-in-nederland",
+      "chapter": 10,
+      "scenario": "Hoofdstuk 10 - Hoe wordt een wet gemaakt?",
+      "question": "Zowel Tweede Kamer als Eerste Kamer hebben een wetsvoorstel aangenomen. Wat gebeurt vervolgens formeel?",
+      "type": "choice",
+      "answers": [
+        "De wet wordt ondertekend en bekendgemaakt volgens de wettelijke procedure",
+        "De wet verdwijnt",
+        "De gemeente moet opnieuw stemmen",
+        "Burgers moeten allemaal individueel tekenen"
+      ],
+      "correct": 0,
+      "explanation": "Ondertekening/bekendmaking",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-10-032",
+      "topic": "politiek-in-nederland",
+      "chapter": 10,
+      "scenario": "Hoofdstuk 10 - Hoe wordt een wet gemaakt?",
+      "question": "Een burger zegt: “Alleen de regering maakt wetten.” Wat is het beste antwoord?",
+      "type": "choice",
+      "answers": [
+        "Juist",
+        "Onjuist; regering en parlement hebben samen een rol in wetgeving",
+        "Alleen de koning maakt wetten",
+        "Alleen rechters maken wetten"
+      ],
+      "correct": 1,
+      "explanation": "Regering + parlement",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-10-033",
+      "topic": "politiek-in-nederland",
+      "chapter": 10,
+      "scenario": "Hoofdstuk 10 - Hoe wordt een wet gemaakt?",
+      "question": "Waar of niet waar: De Eerste Kamer kan een wetsvoorstel aannemen of verwerpen.",
+      "type": "choice",
+      "answers": [
+        "Waar",
+        "Niet waar"
+      ],
+      "correct": 0,
+      "explanation": "Eerste Kamer ja/nee",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-10-034",
+      "topic": "politiek-in-nederland",
+      "chapter": 10,
+      "scenario": "Hoofdstuk 10 - Hoe wordt een wet gemaakt?",
+      "question": "Waar of niet waar: De Tweede Kamer bespreekt wetsvoorstellen vóór de Eerste Kamer.",
+      "type": "choice",
+      "answers": [
+        "Waar",
+        "Niet waar"
+      ],
+      "correct": 0,
+      "explanation": "Tweede Kamer eerst",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-10-035",
+      "topic": "politiek-in-nederland",
+      "chapter": 10,
+      "scenario": "Hoofdstuk 10 - Provincies en Provinciale Staten",
+      "question": "Lina woont in Noord-Holland en wil invloed op provinciaal beleid, bijvoorbeeld natuur en regionale wegen. Voor welk orgaan stemt zij?",
+      "type": "choice",
+      "answers": [
+        "Gemeenteraad",
+        "Provinciale Staten",
+        "Tweede Kamer",
+        "Europees Parlement"
+      ],
+      "correct": 1,
+      "explanation": "Provinciale Staten",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-10-036",
+      "topic": "politiek-in-nederland",
+      "chapter": 10,
+      "scenario": "Hoofdstuk 10 - Provincies en Provinciale Staten",
+      "question": "Hoeveel provincies heeft Nederland?",
+      "type": "choice",
+      "answers": [
+        "10",
+        "11",
+        "12",
+        "15"
+      ],
+      "correct": 2,
+      "explanation": "12 provincies",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-10-037",
+      "topic": "politiek-in-nederland",
+      "chapter": 10,
+      "scenario": "Hoofdstuk 10 - Provincies en Provinciale Staten",
+      "question": "Wie is voorzitter van het provinciebestuur en vertegenwoordigt de provincie onder andere?",
+      "type": "choice",
+      "answers": [
+        "Burgemeester",
+        "Commissaris van de Koning",
+        "Minister-president",
+        "Koning"
+      ],
+      "correct": 1,
+      "explanation": "Commissaris van de Koning",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-10-038",
+      "topic": "politiek-in-nederland",
+      "chapter": 10,
+      "scenario": "Hoofdstuk 10 - Provincies en Provinciale Staten",
+      "question": "Welke onderwerpen horen vaak bij de provincie?",
+      "type": "choice",
+      "answers": [
+        "Regionale ruimtelijke ordening, natuur en provinciale wegen",
+        "Alleen paspoorten",
+        "Alleen huisartsen",
+        "Alleen landelijke belastingen"
+      ],
+      "correct": 0,
+      "explanation": "Provinciale onderwerpen",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-10-039",
+      "topic": "politiek-in-nederland",
+      "chapter": 10,
+      "scenario": "Hoofdstuk 10 - Provincies en Provinciale Staten",
+      "question": "Waar of niet waar: Provinciale Staten worden periodiek gekozen.",
+      "type": "choice",
+      "answers": [
+        "Waar",
+        "Niet waar"
+      ],
+      "correct": 0,
+      "explanation": "Periodieke verkiezingen",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-10-040",
+      "topic": "politiek-in-nederland",
+      "chapter": 10,
+      "scenario": "Hoofdstuk 10 - Provincies en Provinciale Staten",
+      "question": "Een inwoner is ontevreden over een plan voor een provinciale weg. Welk bestuursniveau is dan relevant?",
+      "type": "choice",
+      "answers": [
+        "Provincie",
+        "Alleen Europese Unie",
+        "Alleen rechtbank",
+        "Alleen koning"
+      ],
+      "correct": 0,
+      "explanation": "Provincie",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-10-041",
+      "topic": "politiek-in-nederland",
+      "chapter": 10,
+      "scenario": "Hoofdstuk 10 - Gemeente en gemeenteraad",
+      "question": "In de straat van Omar wil de gemeente een nieuw park aanleggen. Welk bestuursniveau beslist over veel lokale zaken?",
+      "type": "choice",
+      "answers": [
+        "Gemeente",
+        "Europese Unie",
+        "Eerste Kamer",
+        "Koninklijk Huis"
+      ],
+      "correct": 0,
+      "explanation": "Lokale zaken → gemeente",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-10-042",
+      "topic": "politiek-in-nederland",
+      "chapter": 10,
+      "scenario": "Hoofdstuk 10 - Gemeente en gemeenteraad",
+      "question": "Welke gekozen vertegenwoordigers beslissen over veel gemeentelijke plannen?",
+      "type": "choice",
+      "answers": [
+        "Provinciale Staten",
+        "Gemeenteraad",
+        "Eerste Kamer",
+        "Raad van State"
+      ],
+      "correct": 1,
+      "explanation": "Gemeenteraad",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-10-043",
+      "topic": "politiek-in-nederland",
+      "chapter": 10,
+      "scenario": "Hoofdstuk 10 - Gemeente en gemeenteraad",
+      "question": "Wie is voorzitter van de gemeenteraad?",
+      "type": "choice",
+      "answers": [
+        "De burgemeester",
+        "De minister-president",
+        "De koning",
+        "De commissaris van de Koning"
+      ],
+      "correct": 0,
+      "explanation": "Burgemeester voorzitter raad",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-10-044",
+      "topic": "politiek-in-nederland",
+      "chapter": 10,
+      "scenario": "Hoofdstuk 10 - Gemeente en gemeenteraad",
+      "question": "Fatima wil invloed op plannen voor een nieuwe school of park in haar woonplaats. Welke verkiezing is daarvoor het meest direct relevant?",
+      "type": "choice",
+      "answers": [
+        "Gemeenteraadsverkiezingen",
+        "Europese verkiezingen",
+        "Alleen Tweede Kamerverkiezingen",
+        "Alleen Eerste Kamerverkiezingen"
+      ],
+      "correct": 0,
+      "explanation": "Gemeenteraadsverkiezing",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-10-045",
+      "topic": "politiek-in-nederland",
+      "chapter": 10,
+      "scenario": "Hoofdstuk 10 - Gemeente en gemeenteraad",
+      "question": "Welke onderwerpen kan een gemeente onder andere regelen?",
+      "type": "choice",
+      "answers": [
+        "Lokale wegen, voorzieningen, woningbouw en openbare ruimte",
+        "Oorlog verklaren aan andere landen",
+        "De Grondwet zelfstandig wijzigen",
+        "De euro vervangen"
+      ],
+      "correct": 0,
+      "explanation": "Lokale voorzieningen/ruimte",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-10-046",
+      "topic": "politiek-in-nederland",
+      "chapter": 10,
+      "scenario": "Hoofdstuk 10 - Gemeente en gemeenteraad",
+      "question": "Waar of niet waar: De gemeenteraad vertegenwoordigt inwoners op lokaal niveau.",
+      "type": "choice",
+      "answers": [
+        "Waar",
+        "Niet waar"
+      ],
+      "correct": 0,
+      "explanation": "Gemeenteraad vertegenwoordigt inwoners",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-10-047",
+      "topic": "politiek-in-nederland",
+      "chapter": 10,
+      "scenario": "Hoofdstuk 10 - Waterschappen",
+      "question": "Nederland heeft veel dijken en water. Welk bestuur houdt zich specifiek met regionaal waterbeheer bezig?",
+      "type": "choice",
+      "answers": [
+        "Waterschap",
+        "Ministerie van Onderwijs",
+        "Huurcommissie",
+        "UWV"
+      ],
+      "correct": 0,
+      "explanation": "Waterschap",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-10-048",
+      "topic": "politiek-in-nederland",
+      "chapter": 10,
+      "scenario": "Hoofdstuk 10 - Waterschappen",
+      "question": "Welke taak hoort bij een waterschap?",
+      "type": "choice",
+      "answers": [
+        "Waterpeil en waterveiligheid beheren",
+        "Paspoorten uitgeven",
+        "Scholen inspecteren",
+        "Strafzaken behandelen"
+      ],
+      "correct": 0,
+      "explanation": "Waterbeheer",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-10-049",
+      "topic": "politiek-in-nederland",
+      "chapter": 10,
+      "scenario": "Hoofdstuk 10 - Waterschappen",
+      "question": "Een inwoner stemt bij waterschapsverkiezingen. Waarover heeft dit bestuur vooral invloed?",
+      "type": "choice",
+      "answers": [
+        "Waterbeheer",
+        "Buitenlands beleid",
+        "Koninklijke opvolging",
+        "Europese munt"
+      ],
+      "correct": 0,
+      "explanation": "Waterpeil/veiligheid",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-10-050",
+      "topic": "politiek-in-nederland",
+      "chapter": 10,
+      "scenario": "Hoofdstuk 10 - Waterschappen",
+      "question": "Waar of niet waar: Waterschappen zijn belangrijk omdat waterbeheer in Nederland een grote rol speelt.",
+      "type": "choice",
+      "answers": [
+        "Waar",
+        "Niet waar"
+      ],
+      "correct": 0,
+      "explanation": "Waterbeheer belangrijk",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-10-051",
+      "topic": "politiek-in-nederland",
+      "chapter": 10,
+      "scenario": "Hoofdstuk 10 - Europese Unie en Europees Parlement",
+      "question": "Ahmed is EU-burger en wil invloed op Europese politiek. Voor welk orgaan kan hij stemmen als hij aan de voorwaarden voldoet?",
+      "type": "choice",
+      "answers": [
+        "Europees Parlement",
+        "Eerste Kamer rechtstreeks",
+        "Kabinet",
+        "Raad van State"
+      ],
+      "correct": 0,
+      "explanation": "Europees Parlement",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-10-052",
+      "topic": "politiek-in-nederland",
+      "chapter": 10,
+      "scenario": "Hoofdstuk 10 - Europese Unie en Europees Parlement",
+      "question": "Hoe vaak zijn verkiezingen voor het Europees Parlement normaal gesproken?",
+      "type": "choice",
+      "answers": [
+        "Elke 2 jaar",
+        "Elke 3 jaar",
+        "Elke 4 jaar",
+        "Elke 5 jaar"
+      ],
+      "correct": 3,
+      "explanation": "Europese verkiezingen elke 5 jaar",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-10-053",
+      "topic": "politiek-in-nederland",
+      "chapter": 10,
+      "scenario": "Hoofdstuk 10 - Europese Unie en Europees Parlement",
+      "question": "Waarom werkt Nederland samen binnen de Europese Unie?",
+      "type": "choice",
+      "answers": [
+        "Onder andere voor economie, veiligheid en gezamenlijke regels",
+        "Om Nederlandse gemeenten af te schaffen",
+        "Om verkiezingen te verbieden",
+        "Om de koning president te maken"
+      ],
+      "correct": 0,
+      "explanation": "Europese samenwerking",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-10-054",
+      "topic": "politiek-in-nederland",
+      "chapter": 10,
+      "scenario": "Hoofdstuk 10 - Europese Unie en Europees Parlement",
+      "question": "Een leerling zegt: “Het Europees Parlement beslist alleen over Nederlandse gemeentelijke parken.” Klopt dat?",
+      "type": "choice",
+      "answers": [
+        "Ja",
+        "Nee, het gaat om Europese onderwerpen",
+        "Alleen in Amsterdam",
+        "Alleen tijdens Prinsjesdag"
+      ],
+      "correct": 1,
+      "explanation": "Europees niveau",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-10-055",
+      "topic": "politiek-in-nederland",
+      "chapter": 10,
+      "scenario": "Hoofdstuk 10 - Europese Unie en Europees Parlement",
+      "question": "Waar of niet waar: Nederland is lid van de Europese Unie.",
+      "type": "choice",
+      "answers": [
+        "Waar",
+        "Niet waar"
+      ],
+      "correct": 0,
+      "explanation": "Nederland EU-lid",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-10-056",
+      "topic": "politiek-in-nederland",
+      "chapter": 10,
+      "scenario": "Hoofdstuk 10 - Verkiezingen en stemmen",
+      "question": "Emma krijgt een stempas voor de Tweede Kamerverkiezingen. Wat kan zij daarmee doen?",
+      "type": "choice",
+      "answers": [
+        "Een kandidaat kiezen",
+        "Een paspoort aanvragen",
+        "Een rechter benoemen",
+        "Een zorgtoeslag aanvragen"
+      ],
+      "correct": 0,
+      "explanation": "Stem uitbrengen",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-10-057",
+      "topic": "politiek-in-nederland",
+      "chapter": 10,
+      "scenario": "Hoofdstuk 10 - Verkiezingen en stemmen",
+      "question": "Wat moet een kiezer normaal meenemen naar het stembureau?",
+      "type": "choice",
+      "answers": [
+        "Alleen een bankpas",
+        "Stempas en geldig identiteitsdocument volgens de verkiezingsregels",
+        "Alleen huurcontract",
+        "Alleen zorgpas"
+      ],
+      "correct": 1,
+      "explanation": "Stempas + ID volgens regels",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-10-058",
+      "topic": "politiek-in-nederland",
+      "chapter": 10,
+      "scenario": "Hoofdstuk 10 - Verkiezingen en stemmen",
+      "question": "Bij het stemmen krijgt Peter een groot formulier met kandidaten. Hoe heet dit?",
+      "type": "choice",
+      "answers": [
+        "Stembiljet",
+        "Troonrede",
+        "Regeerakkoord",
+        "Grondwet"
+      ],
+      "correct": 0,
+      "explanation": "Stembiljet",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-10-059",
+      "topic": "politiek-in-nederland",
+      "chapter": 10,
+      "scenario": "Hoofdstuk 10 - Verkiezingen en stemmen",
+      "question": "Peter maakt één vakje rood bij een kandidaat. Waarvoor dient dit?",
+      "type": "choice",
+      "answers": [
+        "Om zijn stem uit te brengen",
+        "Om belasting te betalen",
+        "Om lid te worden van de partij",
+        "Om een referendum aan te vragen"
+      ],
+      "correct": 0,
+      "explanation": "Kandidaat kiezen",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-10-060",
+      "topic": "politiek-in-nederland",
+      "chapter": 10,
+      "scenario": "Hoofdstuk 10 - Verkiezingen en stemmen",
+      "question": "Waarom is stemmen belangrijk in een democratie?",
+      "type": "choice",
+      "answers": [
+        "Burgers kunnen zo invloed uitoefenen op het bestuur",
+        "Stemmen vervangt alle wetten",
+        "Alleen ministers mogen een mening hebben",
+        "Stemmen bepaalt wie rechter wordt in elke zaak"
+      ],
+      "correct": 0,
+      "explanation": "Politieke invloed",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-10-061",
+      "topic": "politiek-in-nederland",
+      "chapter": 10,
+      "scenario": "Hoofdstuk 10 - Verkiezingen en stemmen",
+      "question": "Een Nederlander is 17 jaar en wil stemmen voor de Tweede Kamer. Kan dat al?",
+      "type": "choice",
+      "answers": [
+        "Ja",
+        "Nee, voor landelijke verkiezingen moet je 18 jaar of ouder zijn",
+        "Alleen met toestemming van ouders",
+        "Alleen als hij werkt"
+      ],
+      "correct": 1,
+      "explanation": "Landelijk stemmen vanaf 18",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-10-062",
+      "topic": "politiek-in-nederland",
+      "chapter": 10,
+      "scenario": "Hoofdstuk 10 - Verkiezingen en stemmen",
+      "question": "Waar of niet waar: Voor verschillende verkiezingen kunnen verschillende regels over kiesgerechtigdheid gelden.",
+      "type": "choice",
+      "answers": [
+        "Waar",
+        "Niet waar"
+      ],
+      "correct": 0,
+      "explanation": "Regels verschillen per verkiezing",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-10-063",
+      "topic": "politiek-in-nederland",
+      "chapter": 10,
+      "scenario": "Hoofdstuk 10 - Actief en passief kiesrecht",
+      "question": "Maria mag zelf stemmen. Hoe heet dit recht?",
+      "type": "choice",
+      "answers": [
+        "Passief kiesrecht",
+        "Actief kiesrecht",
+        "Demonstratierecht",
+        "Stakingsrecht"
+      ],
+      "correct": 1,
+      "explanation": "Actief kiesrecht",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-10-064",
+      "topic": "politiek-in-nederland",
+      "chapter": 10,
+      "scenario": "Hoofdstuk 10 - Actief en passief kiesrecht",
+      "question": "Karim stelt zich kandidaat zodat andere mensen op hem kunnen stemmen. Hoe heet dit?",
+      "type": "choice",
+      "answers": [
+        "Actief kiesrecht",
+        "Passief kiesrecht",
+        "Vrijheid van onderwijs",
+        "Recht op zorg"
+      ],
+      "correct": 1,
+      "explanation": "Passief kiesrecht",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-10-065",
+      "topic": "politiek-in-nederland",
+      "chapter": 10,
+      "scenario": "Hoofdstuk 10 - Actief en passief kiesrecht",
+      "question": "Waar of niet waar: Actief kiesrecht betekent dat je zelf mag stemmen.",
+      "type": "choice",
+      "answers": [
+        "Waar",
+        "Niet waar"
+      ],
+      "correct": 0,
+      "explanation": "Zelf stemmen",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-10-066",
+      "topic": "politiek-in-nederland",
+      "chapter": 10,
+      "scenario": "Hoofdstuk 10 - Actief en passief kiesrecht",
+      "question": "Waar of niet waar: Passief kiesrecht betekent dat je kandidaat kunt zijn onder de geldende voorwaarden.",
+      "type": "choice",
+      "answers": [
+        "Waar",
+        "Niet waar"
+      ],
+      "correct": 0,
+      "explanation": "Kandidaat kunnen zijn",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-10-067",
+      "topic": "politiek-in-nederland",
+      "chapter": 10,
+      "scenario": "Hoofdstuk 10 - Politieke partijen",
+      "question": "Fatima sluit zich aan bij een politieke partij. Waarom doen mensen dat?",
+      "type": "choice",
+      "answers": [
+        "Omdat zij bepaalde politieke ideeën delen",
+        "Omdat ze dan geen belasting betalen",
+        "Omdat ze automatisch minister worden",
+        "Omdat ze dan altijd gelijk krijgen"
+      ],
+      "correct": 0,
+      "explanation": "Partij = gedeelde ideeën",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-10-068",
+      "topic": "politiek-in-nederland",
+      "chapter": 10,
+      "scenario": "Hoofdstuk 10 - Politieke partijen",
+      "question": "Wie is tijdens verkiezingen vaak het gezicht en de belangrijkste kandidaat van een partij?",
+      "type": "choice",
+      "answers": [
+        "Lijsttrekker",
+        "Burgemeester",
+        "Rechter",
+        "Commissaris van de Koning"
+      ],
+      "correct": 0,
+      "explanation": "Lijsttrekker",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-10-069",
+      "topic": "politiek-in-nederland",
+      "chapter": 10,
+      "scenario": "Hoofdstuk 10 - Politieke partijen",
+      "question": "Een politieke partij maakt vóór verkiezingen bekend wat zij wil veranderen. Hoe heet zo'n document meestal?",
+      "type": "choice",
+      "answers": [
+        "Verkiezingsprogramma",
+        "Loonstrook",
+        "Paspoort",
+        "Huurcontract"
+      ],
+      "correct": 0,
+      "explanation": "Verkiezingsprogramma",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-10-070",
+      "topic": "politiek-in-nederland",
+      "chapter": 10,
+      "scenario": "Hoofdstuk 10 - Politieke partijen",
+      "question": "Waarom voeren politieke partijen campagne?",
+      "type": "choice",
+      "answers": [
+        "Om kiezers te overtuigen",
+        "Om rechters te vervangen",
+        "Om de Grondwet buiten werking te stellen",
+        "Om gemeenten af te schaffen"
+      ],
+      "correct": 0,
+      "explanation": "Kiezers overtuigen",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-10-071",
+      "topic": "politiek-in-nederland",
+      "chapter": 10,
+      "scenario": "Hoofdstuk 10 - Politieke partijen",
+      "question": "Waar of niet waar: Politieke partijen kunnen verschillende ideeën hebben over economie, migratie, klimaat, zorg en onderwijs.",
+      "type": "choice",
+      "answers": [
+        "Waar",
+        "Niet waar"
+      ],
+      "correct": 0,
+      "explanation": "Partijen verschillen",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-10-072",
+      "topic": "politiek-in-nederland",
+      "chapter": 10,
+      "scenario": "Hoofdstuk 10 - Links en rechts",
+      "question": "Een partij wil dat inkomensverschillen kleiner worden en dat de overheid relatief veel sociale voorzieningen ondersteunt. Welke richting past daar vaak bij?",
+      "type": "choice",
+      "answers": [
+        "Links",
+        "Rechts",
+        "Alleen conservatief",
+        "Alleen Europees"
+      ],
+      "correct": 0,
+      "explanation": "Sociale herverdeling → vaak links",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-10-073",
+      "topic": "politiek-in-nederland",
+      "chapter": 10,
+      "scenario": "Hoofdstuk 10 - Links en rechts",
+      "question": "Een partij wil lagere belastingen en meer eigen verantwoordelijkheid voor burgers en bedrijven. Welke richting past daar vaak bij?",
+      "type": "choice",
+      "answers": [
+        "Links",
+        "Rechts",
+        "Alleen progressief",
+        "Alleen lokaal"
+      ],
+      "correct": 1,
+      "explanation": "Eigen verantwoordelijkheid/lager belasting → vaak rechts",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-10-074",
+      "topic": "politiek-in-nederland",
+      "chapter": 10,
+      "scenario": "Hoofdstuk 10 - Links en rechts",
+      "question": "Waar gaat het verschil tussen links en rechts vaak over?",
+      "type": "choice",
+      "answers": [
+        "Onder andere verdeling van geld, belasting en rol van overheid",
+        "Alleen religie",
+        "Alleen leeftijd",
+        "Alleen provincies"
+      ],
+      "correct": 0,
+      "explanation": "Sociaal-economische verdeling",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-10-075",
+      "topic": "politiek-in-nederland",
+      "chapter": 10,
+      "scenario": "Hoofdstuk 10 - Links en rechts",
+      "question": "Waar of niet waar: Een partij kan op sommige onderwerpen links en op andere onderwerpen rechts zijn.",
+      "type": "choice",
+      "answers": [
+        "Waar",
+        "Niet waar"
+      ],
+      "correct": 0,
+      "explanation": "Posities kunnen gemengd zijn",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-10-076",
+      "topic": "politiek-in-nederland",
+      "chapter": 10,
+      "scenario": "Hoofdstuk 10 - Progressief en conservatief",
+      "question": "Een partij vindt maatschappelijke verandering vaak positief en wil nieuwe regels aanpassen aan veranderende normen. Hoe wordt dat vaak genoemd?",
+      "type": "choice",
+      "answers": [
+        "Progressief",
+        "Conservatief",
+        "Monarchistisch",
+        "Provinciaal"
+      ],
+      "correct": 0,
+      "explanation": "Progressief",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-10-077",
+      "topic": "politiek-in-nederland",
+      "chapter": 10,
+      "scenario": "Hoofdstuk 10 - Progressief en conservatief",
+      "question": "Een partij wil traditionele normen en bestaande instituties sterker behouden. Welke term past?",
+      "type": "choice",
+      "answers": [
+        "Progressief",
+        "Conservatief",
+        "Europees",
+        "Gemeentelijk"
+      ],
+      "correct": 1,
+      "explanation": "Conservatief",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-10-078",
+      "topic": "politiek-in-nederland",
+      "chapter": 10,
+      "scenario": "Hoofdstuk 10 - Progressief en conservatief",
+      "question": "Wat is het belangrijkste verschil tussen links/rechts en progressief/conservatief?",
+      "type": "choice",
+      "answers": [
+        "Links/rechts gaat vooral over sociaal-economische keuzes; progressief/conservatief vooral over maatschappelijke verandering",
+        "Ze betekenen precies hetzelfde",
+        "Links/rechts gaat alleen over provincies",
+        "Progressief/conservatief gaat alleen over belastingen"
+      ],
+      "correct": 0,
+      "explanation": "Economisch vs maatschappelijk",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-10-079",
+      "topic": "politiek-in-nederland",
+      "chapter": 10,
+      "scenario": "Hoofdstuk 10 - Progressief en conservatief",
+      "question": "Waar of niet waar: Een partij kan economisch rechts en maatschappelijk progressief zijn.",
+      "type": "choice",
+      "answers": [
+        "Waar",
+        "Niet waar"
+      ],
+      "correct": 0,
+      "explanation": "Combinaties mogelijk",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-10-080",
+      "topic": "politiek-in-nederland",
+      "chapter": 10,
+      "scenario": "Hoofdstuk 10 - Zetels en verkiezingsuitslag",
+      "question": "De Tweede Kamer heeft 150 zetels. Een partij krijgt ongeveer 20% van de stemmen. Hoeveel zetels is dat ongeveer?",
+      "type": "choice",
+      "answers": [
+        "15",
+        "20",
+        "30",
+        "60"
+      ],
+      "correct": 2,
+      "explanation": "20% van 150 ≈ 30",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-10-081",
+      "topic": "politiek-in-nederland",
+      "chapter": 10,
+      "scenario": "Hoofdstuk 10 - Zetels en verkiezingsuitslag",
+      "question": "Wat is een zetel in de Tweede Kamer?",
+      "type": "choice",
+      "answers": [
+        "Een plaats voor een gekozen Kamerlid",
+        "Een ministerieel kantoor",
+        "Een stembiljet",
+        "Een rechtbank"
+      ],
+      "correct": 0,
+      "explanation": "Zetel = Kamerplaats",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-10-082",
+      "topic": "politiek-in-nederland",
+      "chapter": 10,
+      "scenario": "Hoofdstuk 10 - Zetels en verkiezingsuitslag",
+      "question": "Op verkiezingsavond worden de stemmen geteld. Wat ontstaat daarna?",
+      "type": "choice",
+      "answers": [
+        "Een verkiezingsuitslag",
+        "Een nieuwe Grondwet automatisch",
+        "Een nieuwe koning",
+        "Een nieuwe rechtbank"
+      ],
+      "correct": 0,
+      "explanation": "Uitslag",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-10-083",
+      "topic": "politiek-in-nederland",
+      "chapter": 10,
+      "scenario": "Hoofdstuk 10 - Zetels en verkiezingsuitslag",
+      "question": "Waar of niet waar: Hoe meer stemmen een partij krijgt, hoe meer zetels zij doorgaans krijgt.",
+      "type": "choice",
+      "answers": [
+        "Waar",
+        "Niet waar"
+      ],
+      "correct": 0,
+      "explanation": "Evenredige vertegenwoordiging",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-10-084",
+      "topic": "politiek-in-nederland",
+      "chapter": 10,
+      "scenario": "Hoofdstuk 10 - Coalitie, kabinet en regeerakkoord",
+      "question": "Geen enkele partij heeft alleen een meerderheid. Wat gebeurt er vaak?",
+      "type": "choice",
+      "answers": [
+        "Partijen proberen samen een coalitie te vormen",
+        "De koning regeert alleen",
+        "Er zijn geen verkiezingen meer",
+        "Alle partijen verdwijnen"
+      ],
+      "correct": 0,
+      "explanation": "Coalitie zoeken",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-10-085",
+      "topic": "politiek-in-nederland",
+      "chapter": 10,
+      "scenario": "Hoofdstuk 10 - Coalitie, kabinet en regeerakkoord",
+      "question": "Wat is een coalitie?",
+      "type": "choice",
+      "answers": [
+        "Partijen die samenwerken om een kabinet te steunen/vormen",
+        "Alle rechters samen",
+        "Alle burgemeesters samen",
+        "Alleen oppositiepartijen"
+      ],
+      "correct": 0,
+      "explanation": "Samenwerkende regeringspartijen",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-10-086",
+      "topic": "politiek-in-nederland",
+      "chapter": 10,
+      "scenario": "Hoofdstuk 10 - Coalitie, kabinet en regeerakkoord",
+      "question": "Partijen die samen willen regeren maken afspraken over hun beleid. Hoe heet zo'n akkoord vaak?",
+      "type": "choice",
+      "answers": [
+        "Troonrede",
+        "Regeerakkoord / coalitieakkoord",
+        "Stembiljet",
+        "Grondwet"
+      ],
+      "correct": 1,
+      "explanation": "Regeer-/coalitieakkoord",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-10-087",
+      "topic": "politiek-in-nederland",
+      "chapter": 10,
+      "scenario": "Hoofdstuk 10 - Coalitie, kabinet en regeerakkoord",
+      "question": "Wat gebeurt tijdens kabinetsformatie?",
+      "type": "choice",
+      "answers": [
+        "Er wordt geprobeerd een nieuw kabinet te vormen",
+        "Rechters worden gekozen",
+        "Gemeenten worden opgeheven",
+        "De koning wordt rechtstreeks gekozen"
+      ],
+      "correct": 0,
+      "explanation": "Kabinet vormen",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-10-088",
+      "topic": "politiek-in-nederland",
+      "chapter": 10,
+      "scenario": "Hoofdstuk 10 - Coalitie, kabinet en regeerakkoord",
+      "question": "Waar of niet waar: De grootste partij krijgt niet automatisch altijd alleen de macht.",
+      "type": "choice",
+      "answers": [
+        "Waar",
+        "Niet waar"
+      ],
+      "correct": 0,
+      "explanation": "Geen automatische alleenmacht",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-10-089",
+      "topic": "politiek-in-nederland",
+      "chapter": 10,
+      "scenario": "Hoofdstuk 10 - Oppositie",
+      "question": "Een partij zit niet in de regeringscoalitie. Hoe heet zo'n partij meestal?",
+      "type": "choice",
+      "answers": [
+        "Oppositiepartij",
+        "Ministerie",
+        "Rechtbank",
+        "Waterschap"
+      ],
+      "correct": 0,
+      "explanation": "Oppositie",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-10-090",
+      "topic": "politiek-in-nederland",
+      "chapter": 10,
+      "scenario": "Hoofdstuk 10 - Oppositie",
+      "question": "Wat doet de oppositie?",
+      "type": "choice",
+      "answers": [
+        "De regering kritisch volgen en alternatieven voorstellen",
+        "Alleen wetten uitvoeren",
+        "Rechters benoemen in elke zaak",
+        "Altijd met elk regeringsplan instemmen"
+      ],
+      "correct": 0,
+      "explanation": "Controleren/kritiseren/alternatieven",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-10-091",
+      "topic": "politiek-in-nederland",
+      "chapter": 10,
+      "scenario": "Hoofdstuk 10 - Oppositie",
+      "question": "Een oppositiepartij stemt tegen een regeringsvoorstel. Is dat mogelijk?",
+      "type": "choice",
+      "answers": [
+        "Ja",
+        "Nee",
+        "Alleen als de koning toestemming geeft",
+        "Alleen bij gemeenteraadsverkiezingen"
+      ],
+      "correct": 0,
+      "explanation": "Oppositie kan tegen stemmen",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-10-092",
+      "topic": "politiek-in-nederland",
+      "chapter": 10,
+      "scenario": "Hoofdstuk 10 - Oppositie",
+      "question": "Waar of niet waar: Oppositie is een normaal onderdeel van een democratie.",
+      "type": "choice",
+      "answers": [
+        "Waar",
+        "Niet waar"
+      ],
+      "correct": 0,
+      "explanation": "Normaal democratisch",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-10-093",
+      "topic": "politiek-in-nederland",
+      "chapter": 10,
+      "scenario": "Hoofdstuk 10 - Kabinet valt",
+      "question": "Coalitiepartijen kunnen het niet meer eens worden over een belangrijk onderwerp en stoppen met samenwerken. Wat kan er gebeuren?",
+      "type": "choice",
+      "answers": [
+        "Het kabinet kan vallen",
+        "De Grondwet verdwijnt",
+        "Nederland wordt automatisch een republiek",
+        "Gemeenten verdwijnen"
+      ],
+      "correct": 0,
+      "explanation": "Kabinet kan vallen",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-10-094",
+      "topic": "politiek-in-nederland",
+      "chapter": 10,
+      "scenario": "Hoofdstuk 10 - Kabinet valt",
+      "question": "Wat kan na de val van een kabinet volgen?",
+      "type": "choice",
+      "answers": [
+        "Nieuwe verkiezingen, afhankelijk van de politieke situatie",
+        "Automatisch afschaffing van het parlement",
+        "Automatisch een nieuwe koning",
+        "Geen enkel politiek proces meer"
+      ],
+      "correct": 0,
+      "explanation": "Nieuwe verkiezingen mogelijk",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-10-095",
+      "topic": "politiek-in-nederland",
+      "chapter": 10,
+      "scenario": "Hoofdstuk 10 - Kabinet valt",
+      "question": "Waar of niet waar: Een kabinet kan vallen vóórdat de normale zittingsperiode voorbij is.",
+      "type": "choice",
+      "answers": [
+        "Waar",
+        "Niet waar"
+      ],
+      "correct": 0,
+      "explanation": "Kan tussentijds",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-10-096",
+      "topic": "politiek-in-nederland",
+      "chapter": 10,
+      "scenario": "Hoofdstuk 10 - Grondwet en grondrechten",
+      "question": "Ahmed zegt op straat dat hij het niet eens is met de regering. Welk grondrecht is hierbij belangrijk?",
+      "type": "choice",
+      "answers": [
+        "Vrijheid van meningsuiting",
+        "Recht op gratis auto",
+        "Recht op vaste baan",
+        "Recht op een koophuis"
+      ],
+      "correct": 0,
+      "explanation": "Vrijheid van meningsuiting",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-10-097",
+      "topic": "politiek-in-nederland",
+      "chapter": 10,
+      "scenario": "Hoofdstuk 10 - Grondwet en grondrechten",
+      "question": "Fatima is moslim en haar buurman is christen. Welk grondrecht beschermt hun vrijheid om een geloof te hebben?",
+      "type": "choice",
+      "answers": [
+        "Vrijheid van godsdienst",
+        "Vrijheid van belasting",
+        "Vrijheid van huur",
+        "Vrijheid van rijbewijs"
+      ],
+      "correct": 0,
+      "explanation": "Vrijheid van godsdienst",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-10-098",
+      "topic": "politiek-in-nederland",
+      "chapter": 10,
+      "scenario": "Hoofdstuk 10 - Grondwet en grondrechten",
+      "question": "Een werkgever weigert iemand alleen vanwege afkomst. Welk grondbeginsel wordt geschonden?",
+      "type": "choice",
+      "answers": [
+        "Verbod op discriminatie / gelijke behandeling",
+        "Vrijheid van onderwijs",
+        "Kiesrecht",
+        "Stakingsrecht"
+      ],
+      "correct": 0,
+      "explanation": "Discriminatieverbod",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-10-099",
+      "topic": "politiek-in-nederland",
+      "chapter": 10,
+      "scenario": "Hoofdstuk 10 - Grondwet en grondrechten",
+      "question": "Ouders kiezen een school die bij hun overtuiging past. Welk grondrecht speelt hierbij?",
+      "type": "choice",
+      "answers": [
+        "Vrijheid van onderwijs",
+        "Recht op pensioen",
+        "Recht op hypotheek",
+        "Recht op bijstand"
+      ],
+      "correct": 0,
+      "explanation": "Vrijheid van onderwijs",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-10-100",
+      "topic": "politiek-in-nederland",
+      "chapter": 10,
+      "scenario": "Hoofdstuk 10 - Grondwet en grondrechten",
+      "question": "Wat is de Grondwet?",
+      "type": "choice",
+      "answers": [
+        "Een belangrijk document met basisregels en grondrechten",
+        "Een verkiezingsposter",
+        "Een cao",
+        "Een gemeentelijke afvalkalender"
+      ],
+      "correct": 0,
+      "explanation": "Grondwet",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-10-101",
+      "topic": "politiek-in-nederland",
+      "chapter": 10,
+      "scenario": "Hoofdstuk 10 - Grondwet en grondrechten",
+      "question": "Een religieuze organisatie vindt dat haar eigen regel belangrijker is dan de Nederlandse wet. Wat geldt?",
+      "type": "choice",
+      "answers": [
+        "De Nederlandse wet geldt voor iedereen",
+        "Religieuze regels staan altijd boven de wet",
+        "Alleen ministers hoeven zich aan de wet te houden",
+        "Alleen ongelovige mensen volgen de wet"
+      ],
+      "correct": 0,
+      "explanation": "Nederlandse wet geldt",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-10-102",
+      "topic": "politiek-in-nederland",
+      "chapter": 10,
+      "scenario": "Hoofdstuk 10 - Grondwet en grondrechten",
+      "question": "Waar of niet waar: Vrijheid van meningsuiting betekent niet dat alle andere wetten verdwijnen.",
+      "type": "choice",
+      "answers": [
+        "Waar",
+        "Niet waar"
+      ],
+      "correct": 0,
+      "explanation": "Vrijheid heeft wettelijke grenzen",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-10-103",
+      "topic": "politiek-in-nederland",
+      "chapter": 10,
+      "scenario": "Hoofdstuk 10 - Scheiding der machten",
+      "question": "Een minister wil een rechter vertellen welke uitspraak hij moet doen. Mag dat?",
+      "type": "choice",
+      "answers": [
+        "Ja",
+        "Nee",
+        "Alleen als het een belangrijke zaak is",
+        "Alleen met toestemming van de koning"
+      ],
+      "correct": 1,
+      "explanation": "Rechter onafhankelijk",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-10-104",
+      "topic": "politiek-in-nederland",
+      "chapter": 10,
+      "scenario": "Hoofdstuk 10 - Scheiding der machten",
+      "question": "Welke macht wordt vooral uitgeoefend door rechters?",
+      "type": "choice",
+      "answers": [
+        "Rechterlijke macht",
+        "Uitvoerende macht",
+        "Wetgevende macht",
+        "Gemeentelijke macht"
+      ],
+      "correct": 0,
+      "explanation": "Rechterlijke macht",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-10-105",
+      "topic": "politiek-in-nederland",
+      "chapter": 10,
+      "scenario": "Hoofdstuk 10 - Scheiding der machten",
+      "question": "Welke instellingen hebben samen een belangrijke rol bij het maken van landelijke wetten?",
+      "type": "choice",
+      "answers": [
+        "Regering en parlement",
+        "Alleen politie",
+        "Alleen rechters",
+        "Alleen gemeenten"
+      ],
+      "correct": 0,
+      "explanation": "Regering + parlement",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-10-106",
+      "topic": "politiek-in-nederland",
+      "chapter": 10,
+      "scenario": "Hoofdstuk 10 - Scheiding der machten",
+      "question": "Welke macht voert wetten en beleid uit?",
+      "type": "choice",
+      "answers": [
+        "Uitvoerende macht",
+        "Rechterlijke macht",
+        "Alleen Eerste Kamer",
+        "Alleen gemeenteraad"
+      ],
+      "correct": 0,
+      "explanation": "Uitvoerende macht",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-10-107",
+      "topic": "politiek-in-nederland",
+      "chapter": 10,
+      "scenario": "Hoofdstuk 10 - Scheiding der machten",
+      "question": "Waarom is de scheiding der machten belangrijk?",
+      "type": "choice",
+      "answers": [
+        "Om te voorkomen dat alle macht bij één instantie ligt",
+        "Om verkiezingen af te schaffen",
+        "Om rechters ministers te laten zijn",
+        "Om de koning alle macht te geven"
+      ],
+      "correct": 0,
+      "explanation": "Macht spreiden",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-10-108",
+      "topic": "politiek-in-nederland",
+      "chapter": 10,
+      "scenario": "Hoofdstuk 10 - Scheiding der machten",
+      "question": "Waar of niet waar: Rechters moeten onafhankelijk kunnen beslissen.",
+      "type": "choice",
+      "answers": [
+        "Waar",
+        "Niet waar"
+      ],
+      "correct": 0,
+      "explanation": "Onafhankelijke rechtspraak",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-10-109",
+      "topic": "politiek-in-nederland",
+      "chapter": 10,
+      "scenario": "Hoofdstuk 10 - Protest, demonstratie en petitie",
+      "question": "De gemeente wil een zwembad sluiten. Veel inwoners zijn tegen. Wat kunnen zij op een vreedzame manier doen?",
+      "type": "choice",
+      "answers": [
+        "Handtekeningen verzamelen",
+        "Het gemeentehuis vernielen",
+        "Dreigen met geweld",
+        "Rechters bedreigen"
+      ],
+      "correct": 0,
+      "explanation": "Petitie",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-10-110",
+      "topic": "politiek-in-nederland",
+      "chapter": 10,
+      "scenario": "Hoofdstuk 10 - Protest, demonstratie en petitie",
+      "question": "Duizenden mensen zijn tegen een regeringsplan en lopen samen door een stad om hun mening te laten zien. Wat doen zij?",
+      "type": "choice",
+      "answers": [
+        "Demonstreren",
+        "Stemmen in de Eerste Kamer",
+        "Een cao maken",
+        "Een kabinet vormen"
+      ],
+      "correct": 0,
+      "explanation": "Demonstratie",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-10-111",
+      "topic": "politiek-in-nederland",
+      "chapter": 10,
+      "scenario": "Hoofdstuk 10 - Protest, demonstratie en petitie",
+      "question": "Mag je in een democratie protesteren tegen plannen van de regering?",
+      "type": "choice",
+      "answers": [
+        "In principe wel, binnen de regels van de wet",
+        "Nooit",
+        "Alleen als je minister bent",
+        "Alleen op Prinsjesdag"
+      ],
+      "correct": 0,
+      "explanation": "Protestrecht binnen wet",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-10-112",
+      "topic": "politiek-in-nederland",
+      "chapter": 10,
+      "scenario": "Hoofdstuk 10 - Protest, demonstratie en petitie",
+      "question": "Wat is een petitie?",
+      "type": "choice",
+      "answers": [
+        "Een verzoek of protest waarvoor mensen handtekeningen kunnen verzamelen",
+        "Een straf van de rechter",
+        "Een belastingformulier",
+        "Een stembiljet"
+      ],
+      "correct": 0,
+      "explanation": "Petitie = handtekeningen/verzoek",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-10-113",
+      "topic": "politiek-in-nederland",
+      "chapter": 10,
+      "scenario": "Hoofdstuk 10 - Protest, demonstratie en petitie",
+      "question": "Waar of niet waar: Vreedzaam protest is een manier om je mening te laten horen.",
+      "type": "choice",
+      "answers": [
+        "Waar",
+        "Niet waar"
+      ],
+      "correct": 0,
+      "explanation": "Democratische participatie",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-10-114",
+      "topic": "politiek-in-nederland",
+      "chapter": 10,
+      "scenario": "Hoofdstuk 10 - Staking",
+      "question": "Leraren zijn ontevreden over hun arbeidsvoorwaarden en stoppen een dag met werken om druk uit te oefenen. Wat doen zij?",
+      "type": "choice",
+      "answers": [
+        "Ze staken",
+        "Ze stemmen",
+        "Ze naturaliseren",
+        "Ze vormen een gemeenteraad"
+      ],
+      "correct": 0,
+      "explanation": "Staken",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-10-115",
+      "topic": "politiek-in-nederland",
+      "chapter": 10,
+      "scenario": "Hoofdstuk 10 - Staking",
+      "question": "Wat is een staking?",
+      "type": "choice",
+      "answers": [
+        "Tijdelijk stoppen met werken als protestmiddel",
+        "Een politieke partij oprichten",
+        "Een nieuwe wet ondertekenen",
+        "Een rechtszaak beginnen"
+      ],
+      "correct": 0,
+      "explanation": "Werk tijdelijk stoppen",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-10-116",
+      "topic": "politiek-in-nederland",
+      "chapter": 10,
+      "scenario": "Hoofdstuk 10 - Staking",
+      "question": "Waar of niet waar: Een staking kan een vorm van collectief protest van werknemers zijn.",
+      "type": "choice",
+      "answers": [
+        "Waar",
+        "Niet waar"
+      ],
+      "correct": 0,
+      "explanation": "Collectief protest",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-10-117",
+      "topic": "politiek-in-nederland",
+      "chapter": 10,
+      "scenario": "Hoofdstuk 10 - Referendum",
+      "question": "In een gemeente wordt inwoners gevraagd rechtstreeks ja of nee te zeggen over een voorstel. Welk begrip past hierbij?",
+      "type": "choice",
+      "answers": [
+        "Referendum",
+        "Coalitie",
+        "Prinsjesdag",
+        "Troonrede"
+      ],
+      "correct": 0,
+      "explanation": "Referendum",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-10-118",
+      "topic": "politiek-in-nederland",
+      "chapter": 10,
+      "scenario": "Hoofdstuk 10 - Referendum",
+      "question": "Is een referendum hetzelfde als een gewone Tweede Kamerverkiezing?",
+      "type": "choice",
+      "answers": [
+        "Ja",
+        "Nee",
+        "Alleen bij 150 kandidaten",
+        "Alleen als de koning stemt"
+      ],
+      "correct": 1,
+      "explanation": "Niet hetzelfde als verkiezing",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-10-119",
+      "topic": "politiek-in-nederland",
+      "chapter": 10,
+      "scenario": "Hoofdstuk 10 - Referendum",
+      "question": "Waar of niet waar: Bij een referendum stemmen mensen over een concreet voorstel in plaats van alleen over kandidaten.",
+      "type": "choice",
+      "answers": [
+        "Waar",
+        "Niet waar"
+      ],
+      "correct": 0,
+      "explanation": "Concrete vraag/voorstel",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-10-120",
+      "topic": "politiek-in-nederland",
+      "chapter": 10,
+      "scenario": "Hoofdstuk 10 - Gemengde KNM-situatievragen",
+      "question": "Nora is boos omdat haar gemeente een park wil bebouwen. Wat kan zij democratisch doen?",
+      "type": "choice",
+      "answers": [
+        "Een petitie starten of de gemeenteraad benaderen",
+        "Het gemeentehuis beschadigen",
+        "De rechter bedreigen",
+        "Niets, burgers hebben geen invloed"
+      ],
+      "correct": 0,
+      "explanation": "Gemeente benaderen/petitie",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-10-121",
+      "topic": "politiek-in-nederland",
+      "chapter": 10,
+      "scenario": "Hoofdstuk 10 - Gemengde KNM-situatievragen",
+      "question": "Peter wil invloed op het landelijke beleid over zorg en belastingen. Welke verkiezing is het meest direct relevant?",
+      "type": "choice",
+      "answers": [
+        "Tweede Kamerverkiezingen",
+        "Alleen waterschapsverkiezingen",
+        "Alleen gemeenteraadsverkiezingen",
+        "Alleen verkiezing voor Provinciale Staten"
+      ],
+      "correct": 0,
+      "explanation": "Landelijk → Tweede Kamer",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-10-122",
+      "topic": "politiek-in-nederland",
+      "chapter": 10,
+      "scenario": "Hoofdstuk 10 - Gemengde KNM-situatievragen",
+      "question": "Sofia wil invloed op lokale woningbouw en voorzieningen. Welke vertegenwoordigers zijn het meest relevant?",
+      "type": "choice",
+      "answers": [
+        "Gemeenteraad",
+        "Europees Parlement",
+        "Eerste Kamer",
+        "Alleen koning"
+      ],
+      "correct": 0,
+      "explanation": "Lokaal → gemeenteraad",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-10-123",
+      "topic": "politiek-in-nederland",
+      "chapter": 10,
+      "scenario": "Hoofdstuk 10 - Gemengde KNM-situatievragen",
+      "question": "Ahmed wil invloed op provinciale natuur- en verkeersplannen. Waar stemt hij voor?",
+      "type": "choice",
+      "answers": [
+        "Provinciale Staten",
+        "Gemeenteraad",
+        "Tweede Kamer",
+        "Kabinet"
+      ],
+      "correct": 0,
+      "explanation": "Provinciaal → Provinciale Staten",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-10-124",
+      "topic": "politiek-in-nederland",
+      "chapter": 10,
+      "scenario": "Hoofdstuk 10 - Gemengde KNM-situatievragen",
+      "question": "Maria maakt zich zorgen over dijken en waterpeil in haar regio. Welk bestuur past hierbij?",
+      "type": "choice",
+      "answers": [
+        "Waterschap",
+        "Tweede Kamer alleen",
+        "Koninklijk Huis",
+        "UWV"
+      ],
+      "correct": 0,
+      "explanation": "Water → waterschap",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-10-125",
+      "topic": "politiek-in-nederland",
+      "chapter": 10,
+      "scenario": "Hoofdstuk 10 - Gemengde KNM-situatievragen",
+      "question": "Het is verkiezingsdag. Ali heeft zijn stempas maar geen geldig identiteitsdocument bij zich. Wat moet hij doen?",
+      "type": "choice",
+      "answers": [
+        "De geldende stemregels volgen en een geldig ID regelen/meenemen",
+        "Zonder controle stemmen onder een andere naam",
+        "De stembus zelf openen",
+        "Een andere kiezer zijn stem laten gebruiken zonder regels"
+      ],
+      "correct": 0,
+      "explanation": "Correcte stemprocedure volgen",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-10-126",
+      "topic": "politiek-in-nederland",
+      "chapter": 10,
+      "scenario": "Hoofdstuk 10 - Gemengde KNM-situatievragen",
+      "question": "Een partij krijgt veel zetels maar niet genoeg voor een meerderheid. Wat gebeurt waarschijnlijk?",
+      "type": "choice",
+      "answers": [
+        "Zij zoekt samenwerking met andere partijen",
+        "Zij krijgt automatisch alle ministersposten",
+        "De Tweede Kamer wordt afgeschaft",
+        "Rechters vormen het kabinet"
+      ],
+      "correct": 0,
+      "explanation": "Coalitievorming",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-10-127",
+      "topic": "politiek-in-nederland",
+      "chapter": 10,
+      "scenario": "Hoofdstuk 10 - Gemengde KNM-situatievragen",
+      "question": "Een partij zit niet in het kabinet en bekritiseert het regeringsbeleid. Welke rol heeft zij?",
+      "type": "choice",
+      "answers": [
+        "Oppositie",
+        "Rechterlijke macht",
+        "Koninklijke familie",
+        "Waterschap"
+      ],
+      "correct": 0,
+      "explanation": "Oppositie",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-10-128",
+      "topic": "politiek-in-nederland",
+      "chapter": 10,
+      "scenario": "Hoofdstuk 10 - Gemengde KNM-situatievragen",
+      "question": "Een werknemer zegt: “Ik mag stemmen, maar ik wil me ook kandidaat stellen.” Welk tweede recht bedoelt hij?",
+      "type": "choice",
+      "answers": [
+        "Passief kiesrecht",
+        "Alleen demonstratierecht",
+        "Recht op AOW",
+        "Recht op huurtoeslag"
+      ],
+      "correct": 0,
+      "explanation": "Passief kiesrecht",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-10-129",
+      "topic": "politiek-in-nederland",
+      "chapter": 10,
+      "scenario": "Hoofdstuk 10 - Gemengde KNM-situatievragen",
+      "question": "Een journalist vraagt een politicus of hij progressief of conservatief is. Waar gaat dit vooral over?",
+      "type": "choice",
+      "answers": [
+        "Houding tegenover maatschappelijke verandering",
+        "Alleen belastingtarieven",
+        "Alleen gemeentelijke afvalinzameling",
+        "Alleen Europees waterbeheer"
+      ],
+      "correct": 0,
+      "explanation": "Maatschappelijke verandering",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-10-130",
+      "topic": "politiek-in-nederland",
+      "chapter": 10,
+      "scenario": "Hoofdstuk 10 - Gemengde KNM-situatievragen",
+      "question": "Twee partijen discussiëren over hogere belastingen voor hoge inkomens en meer sociale voorzieningen. Welke politieke tegenstelling speelt hier vaak?",
+      "type": "choice",
+      "answers": [
+        "Links versus rechts",
+        "Eerste Kamer versus rechter",
+        "Provincie versus gemeente",
+        "Koning versus burgemeester"
+      ],
+      "correct": 0,
+      "explanation": "Links/rechts",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-10-131",
+      "topic": "politiek-in-nederland",
+      "chapter": 10,
+      "scenario": "Hoofdstuk 10 - Gemengde KNM-situatievragen",
+      "question": "De regering wil een nieuwe wet. Wat moet er gebeuren?",
+      "type": "choice",
+      "answers": [
+        "Het wetsvoorstel moet via de parlementaire procedure",
+        "Alleen de koning hoeft akkoord te zijn",
+        "Alleen de burgemeester stemt",
+        "De politie maakt de wet"
+      ],
+      "correct": 0,
+      "explanation": "Parlementaire wetgevingsprocedure",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-10-132",
+      "topic": "politiek-in-nederland",
+      "chapter": 10,
+      "scenario": "Hoofdstuk 10 - Gemengde KNM-situatievragen",
+      "question": "Een rechter doet een uitspraak die de regering niet leuk vindt. Mag een minister de uitspraak veranderen?",
+      "type": "choice",
+      "answers": [
+        "Nee, rechters zijn onafhankelijk",
+        "Ja, altijd",
+        "Alleen bij verkiezingen",
+        "Alleen als de Tweede Kamer 150 stemmen heeft"
+      ],
+      "correct": 0,
+      "explanation": "Rechter onafhankelijk",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-10-133",
+      "topic": "politiek-in-nederland",
+      "chapter": 10,
+      "scenario": "Hoofdstuk 10 - Gemengde KNM-situatievragen",
+      "question": "Een burger is het niet eens met een nieuwe landelijke maatregel. Wat kan hij in een democratie doen?",
+      "type": "choice",
+      "answers": [
+        "Zijn mening uiten, demonstreren of politieke vertegenwoordigers benaderen binnen de wet",
+        "Geweld gebruiken",
+        "De rechter bedreigen",
+        "Stemmen van anderen vernietigen"
+      ],
+      "correct": 0,
+      "explanation": "Democratisch protest/vertegenwoordiging",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-10-134",
+      "topic": "politiek-in-nederland",
+      "chapter": 10,
+      "scenario": "Hoofdstuk 10 - Gemengde KNM-situatievragen",
+      "question": "Fatima hoort op Prinsjesdag de koning spreken over regeringsplannen. Hoe heet deze toespraak?",
+      "type": "choice",
+      "answers": [
+        "Troonrede",
+        "Cao",
+        "Motie",
+        "Referendum"
+      ],
+      "correct": 0,
+      "explanation": "Troonrede",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-10-135",
+      "topic": "politiek-in-nederland",
+      "chapter": 10,
+      "scenario": "Hoofdstuk 10 - Gemengde KNM-situatievragen",
+      "question": "Een kiezer wil weten wie het gezicht van een partij is tijdens de verkiezingscampagne. Wie zoekt hij?",
+      "type": "choice",
+      "answers": [
+        "Lijsttrekker",
+        "Commissaris van de Koning",
+        "Rechter",
+        "Burgemeester van elke gemeente"
+      ],
+      "correct": 0,
+      "explanation": "Lijsttrekker",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-10-136",
+      "topic": "politiek-in-nederland",
+      "chapter": 10,
+      "scenario": "Hoofdstuk 10 - Gemengde KNM-situatievragen",
+      "question": "Een partij wil meeregeren en onderhandelt met andere partijen over gezamenlijke plannen. Wat proberen zij te vormen?",
+      "type": "choice",
+      "answers": [
+        "Coalitie",
+        "Rechtbank",
+        "Waterschap",
+        "Vakbond"
+      ],
+      "correct": 0,
+      "explanation": "Coalitie",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-10-137",
+      "topic": "politiek-in-nederland",
+      "chapter": 10,
+      "scenario": "Hoofdstuk 10 - Gemengde KNM-situatievragen",
+      "question": "Een Nederlander wil weten welke basisrechten hij heeft. Waar kijkt hij?",
+      "type": "choice",
+      "answers": [
+        "Grondwet",
+        "Alleen verkiezingsprogramma",
+        "Alleen regeerakkoord",
+        "Alleen cao"
+      ],
+      "correct": 0,
+      "explanation": "Grondwet",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-10-138",
+      "topic": "politiek-in-nederland",
+      "chapter": 10,
+      "scenario": "Hoofdstuk 10 - Gemengde KNM-situatievragen",
+      "question": "Een inwoner wil een openbaar debat van de Tweede Kamer volgen. Kan dat meestal?",
+      "type": "choice",
+      "answers": [
+        "Ja",
+        "Nee, het parlement is altijd gesloten",
+        "Alleen ministers mogen kijken",
+        "Alleen rechters mogen kijken"
+      ],
+      "correct": 0,
+      "explanation": "Openbaar parlement",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-10-139",
+      "topic": "politiek-in-nederland",
+      "chapter": 10,
+      "scenario": "Hoofdstuk 10 - Gemengde KNM-situatievragen",
+      "question": "Een burger ziet op televisie dat een kabinet is gevallen. Betekent dat dat Nederland geen democratie meer is?",
+      "type": "choice",
+      "answers": [
+        "Nee, dit kan binnen een parlementaire democratie gebeuren",
+        "Ja, democratie stopt dan direct",
+        "Ja, de koning krijgt dan alle macht",
+        "Ja, rechters nemen het bestuur over"
+      ],
+      "correct": 0,
+      "explanation": "Kabinetsval hoort bij systeem",
+      "source": "原创场景模拟题"
+    },
+    {
+      "id": "scenario-10-140",
+      "topic": "politiek-in-nederland",
+      "chapter": 10,
+      "scenario": "Hoofdstuk 10 - Gemengde KNM-situatievragen",
+      "question": "Wat is de beste samenvatting van democratie in Nederland?",
+      "type": "choice",
+      "answers": [
+        "Burgers kiezen vertegenwoordigers, bestuurders worden gecontroleerd en grondrechten worden beschermd",
+        "De koning neemt alle politieke beslissingen alleen",
+        "Rechters maken alle politieke plannen",
+        "Burgers hebben alleen tijdens Prinsjesdag invloed"
+      ],
+      "correct": 0,
+      "explanation": "Representatie + controle + rechten",
+      "source": "原创场景模拟题"
     },
     {
       "id": "fullstudy-h1-p1-u1",
