@@ -850,16 +850,79 @@ select {
 }
 
 .glossary-term {
+  position: relative;
+  display: inline-block;
   border-bottom: 2px dotted rgba(15, 118, 110, 0.45);
   color: var(--teal-dark);
+  cursor: help;
   font-weight: 800;
   text-decoration: none;
   text-underline-offset: 3px;
 }
 
-.glossary-term:hover {
+.glossary-term:hover,
+.glossary-term:focus,
+.glossary-term:focus-visible {
   border-bottom-color: var(--yellow);
   background: #fff8df;
+  outline: none;
+}
+
+.glossary-term::after {
+  content: attr(data-tooltip);
+  position: absolute;
+  left: 50%;
+  bottom: calc(100% + 8px);
+  z-index: 30;
+  width: max-content;
+  max-width: min(280px, calc(100vw - 36px));
+  transform: translateX(-50%) translateY(4px);
+  border: 1px solid rgba(15, 118, 110, 0.24);
+  border-radius: 8px;
+  background: #fff;
+  box-shadow: 0 14px 36px rgba(21, 40, 50, 0.18);
+  color: var(--ink);
+  font-size: 13px;
+  font-weight: 700;
+  line-height: 1.45;
+  opacity: 0;
+  padding: 9px 10px;
+  pointer-events: none;
+  text-align: left;
+  transition: opacity 0.12s ease, transform 0.12s ease;
+  white-space: pre-line;
+}
+
+.glossary-term::before {
+  content: "";
+  position: absolute;
+  left: 50%;
+  bottom: calc(100% + 3px);
+  z-index: 31;
+  width: 9px;
+  height: 9px;
+  transform: translateX(-50%) rotate(45deg);
+  border-right: 1px solid rgba(15, 118, 110, 0.24);
+  border-bottom: 1px solid rgba(15, 118, 110, 0.24);
+  background: #fff;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.12s ease;
+}
+
+.glossary-term:hover::after,
+.glossary-term:hover::before,
+.glossary-term:focus::after,
+.glossary-term:focus::before,
+.glossary-term:focus-visible::after,
+.glossary-term:focus-visible::before {
+  opacity: 1;
+}
+
+.glossary-term:hover::after,
+.glossary-term:focus::after,
+.glossary-term:focus-visible::after {
+  transform: translateX(-50%) translateY(0);
 }
 
 .answer-btn:hover {

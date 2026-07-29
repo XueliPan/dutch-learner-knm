@@ -1187,7 +1187,8 @@ function renderGlossaryText(value) {
     if (!entry) continue;
 
     html += renderText(text.slice(lastIndex, termStart));
-    html += `<span class="glossary-term" title="中文：${escapeHtml(entry.zh)}&#10;English: ${escapeHtml(entry.en)}">${escapeHtml(text.slice(termStart, termStart + term.length))}</span>`;
+    const tooltip = `中文：${entry.zh}\nEnglish: ${entry.en}`;
+    html += `<span class="glossary-term" tabindex="0" title="${escapeHtml(tooltip)}" aria-label="${escapeHtml(tooltip)}" data-tooltip="${escapeHtml(tooltip)}">${escapeHtml(text.slice(termStart, termStart + term.length))}</span>`;
     lastIndex = match.index + fullMatch.length;
   }
 
