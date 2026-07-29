@@ -4,6 +4,7 @@ import path from "node:path";
 const root = process.cwd();
 const questionsDir = "/Users/sherrypan/Library/Mobile Documents/com~apple~CloudDocs/Dutch-A2/questions";
 const outputPath = path.join(root, "content", "generated-mock-questions.json");
+const translationsPath = path.join(root, "content", "scenario-question-translations.json");
 
 const chapterFiles = [
   [1, "KNM_Hoofdstuk_1_Nederland_leren_kennen_scenario_simulatievragen_met_antwoorden.md"],
@@ -30,6 +31,13 @@ const topicByChapter = {
   9: { id: "de-geschiedenis-van-nederland", title: "De geschiedenis van Nederland" },
   10: { id: "politiek-in-nederland", title: "Politiek in Nederland" },
 };
+
+function readTranslationCache() {
+  if (!fs.existsSync(translationsPath)) return {};
+  return JSON.parse(fs.readFileSync(translationsPath, "utf8"));
+}
+
+const translationCache = readTranslationCache();
 
 function stripMarkdown(value) {
   return String(value || "")
@@ -169,8 +177,10 @@ function toChoiceQuestion({ chapter, topic, item, answer }) {
     scenario: item.part ? `Hoofdstuk ${chapter} - ${item.part}` : `Hoofdstuk ${chapter} - ${topic.title}`,
     zhScenario: item.partZh || topic.title,
     question: item.question,
+    zhQuestion: translationCache[item.question] || "",
     type: "choice",
     answers,
+    zhAnswers: answers.map((option) => translationCache[option] || ""),
     correct,
     explanation: answer.explanation || `${answerValue}: ${answers[correct]}`,
     source: "原创场景模拟题",

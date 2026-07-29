@@ -637,9 +637,11 @@ const translations = {
     correctFeedback: "答对了",
     wrongFeedback: "这题要再看一眼",
     chineseQuestionTitle: "中文理解",
+    fullQuestionTranslation: "完整题目",
     chineseQuestionContext: "本题知识点",
     chineseQuestionFocus: "题目在问",
     optionExplanationTitle: "选项解析",
+    optionTranslation: "中文",
     optionCorrectReason: "正确。核心依据：",
     optionSelectedWrongReason: "你选择了这一项，但它不符合本题核心依据：",
     optionDistractorReason: "干扰项。本题核心依据是：",
@@ -792,9 +794,11 @@ const translations = {
     correctFeedback: "Correct",
     wrongFeedback: "Review this one again",
     chineseQuestionTitle: "Chinese Understanding",
+    fullQuestionTranslation: "Full question",
     chineseQuestionContext: "Knowledge point",
     chineseQuestionFocus: "Question focus",
     optionExplanationTitle: "Option Notes",
+    optionTranslation: "Chinese",
     optionCorrectReason: "Correct. Key reason:",
     optionSelectedWrongReason: "You chose this option, but it does not match the key reason:",
     optionDistractorReason: "Distractor. The key reason is:",
@@ -1239,6 +1243,14 @@ function dutchToChineseHint(value) {
   return `${result}（原文：${text}）`;
 }
 
+function chineseQuestionText(question) {
+  return question.zhQuestion || dutchToChineseHint(question.question);
+}
+
+function chineseAnswerText(question, index) {
+  return question.zhAnswers?.[index] || dutchToChineseHint(question.answers?.[index] || "");
+}
+
 function checkQuestionAnswer(question, response) {
   if (question.type === "short") {
     const submitted = normalizeAnswer(response);
@@ -1647,6 +1659,7 @@ function renderOptionExplanation(question, selected) {
             return `
               <li class="${isCorrect ? "is-correct" : ""} ${isSelectedWrong ? "is-wrong" : ""}">
                 <span>${String.fromCharCode(65 + index)}. ${renderGlossaryText(answer)}</span>
+                <p class="option-translation"><span>${t("optionTranslation")}：</span>${renderText(chineseAnswerText(question, index))}</p>
                 <small>${reason} ${renderText(keyReason)}</small>
               </li>
             `;
@@ -1664,6 +1677,7 @@ function renderChineseStudyExplanation(question) {
   return `
     <div class="study-explanation">
       <strong>${t("chineseQuestionTitle")}</strong>
+      <p><span>${t("fullQuestionTranslation")}：</span>${renderText(chineseQuestionText(question))}</p>
       <p><span>${t("chineseQuestionContext")}：</span>${renderText(context)}</p>
       <p><span>${t("chineseQuestionFocus")}：</span>${renderText(focus)}</p>
     </div>
