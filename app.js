@@ -576,6 +576,7 @@ const translations = {
     topicSelectAria: "选择练习主题",
     practiceHint: "悬浮荷兰语关键词看中英文释义；选择答案后查看中文理解和选项解析。",
     resetPractice: "重开本主题",
+    shufflePractice: "随机顺序",
     speakQuestionAria: "播放本题荷兰语发音",
     nextQuestion: "下一题",
     prevQuestion: "上一题",
@@ -732,6 +733,7 @@ const translations = {
     topicSelectAria: "Choose a practice theme",
     practiceHint: "Hover over Dutch keywords for Chinese and English meanings; answer to see Chinese study notes and option explanations.",
     resetPractice: "Restart This Theme",
+    shufflePractice: "Shuffle Questions",
     speakQuestionAria: "Play Dutch pronunciation for this question",
     nextQuestion: "Next Question",
     prevQuestion: "Previous Question",
@@ -868,6 +870,8 @@ const state = {
   activeWordTopic: "all",
   mockSource: "duo-1",
   practiceIndex: 0,
+  practiceOrderTopic: "",
+  practiceOrder: [],
   practiceAnswered: false,
   mock: {
     active: false,
@@ -1275,6 +1279,20 @@ function shuffle(items) {
   return [...items].sort(() => Math.random() - 0.5);
 }
 
+function resetPracticeOrder(randomize = false) {
+  const list = topicQuestions(state.activeTopic);
+  state.practiceOrder = randomize ? shuffle(list) : [...list];
+  state.practiceOrderTopic = state.activeTopic;
+  state.practiceIndex = 0;
+}
+
+function practiceQuestions() {
+  if (state.practiceOrderTopic !== state.activeTopic || state.practiceOrder.length !== topicQuestions(state.activeTopic).length) {
+    resetPracticeOrder(false);
+  }
+  return state.practiceOrder;
+}
+
 function showView(view) {
   stopDutchSpeech();
   state.view = view;
@@ -1566,7 +1584,7 @@ function renderWordTopicFilters() {
 function renderPractice() {
   renderTopicSelect();
   const topic = getTopic(state.activeTopic);
-  const list = topicQuestions(state.activeTopic);
+  const list = practiceQuestions();
   const question = list[state.practiceIndex % list.length];
   if (!question) return;
   state.practiceAnswered = false;
@@ -1700,7 +1718,7 @@ function showFeedback(container, question, isCorrect, selected = null) {
 }
 
 function nextPractice() {
-  const list = topicQuestions(state.activeTopic);
+  const list = practiceQuestions();
   state.practiceIndex = (state.practiceIndex + 1) % list.length;
   renderPractice();
 }
@@ -1796,7 +1814,7 @@ function renderMockIntro() {
 
 function goPracticeTopic(topicId) {
   state.activeTopic = topicId;
-  state.practiceIndex = 0;
+  resetPracticeOrder(false);
   renderPractice();
   showView("practice");
 }
@@ -2104,7 +2122,7 @@ function bindEvents() {
   });
   $("#topicSelect").addEventListener("change", (event) => {
     state.activeTopic = event.target.value;
-    state.practiceIndex = 0;
+    resetPracticeOrder(false);
     renderPractice();
   });
   $("#mockSourceSelect").addEventListener("change", (event) => {
@@ -2118,7 +2136,11 @@ function bindEvents() {
   });
   $("#nextPractice").addEventListener("click", nextPractice);
   $("#resetPractice").addEventListener("click", () => {
-    state.practiceIndex = 0;
+    resetPracticeOrder(false);
+    renderPractice();
+  });
+  $("#shufflePractice").addEventListener("click", () => {
+    resetPracticeOrder(true);
     renderPractice();
   });
   $("#shuffleWords").addEventListener("click", renderWords);

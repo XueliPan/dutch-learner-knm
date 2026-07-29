@@ -749,6 +749,10 @@ h3 {
   top: 92px;
 }
 
+.quiz-side .full + .full {
+  margin-top: 10px;
+}
+
 select {
   min-height: 44px;
   border: 1px solid var(--line);
