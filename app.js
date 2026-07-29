@@ -1138,7 +1138,7 @@ function englishForTerm(value) {
 
 function addGlossaryEntry(entries, term, item) {
   const normalized = normalizeTerm(term);
-  const english = englishForTerm(normalized);
+  const english = item.english || englishForTerm(normalized);
   if (!normalized || normalized.length < 3 || !english) return;
   if (!/[a-z]/i.test(normalized)) return;
 
@@ -1158,6 +1158,11 @@ function addGlossaryVariants(entries, rawTerm, item) {
   addGlossaryEntry(entries, term, item);
   if (term.endsWith("ie")) addGlossaryEntry(entries, `${term.slice(0, -2)}ies`, item);
   if (!term.endsWith("s")) addGlossaryEntry(entries, `${term}s`, item);
+  String(item.variants || "")
+    .split(";")
+    .map((variant) => variant.trim())
+    .filter(Boolean)
+    .forEach((variant) => addGlossaryEntry(entries, variant, item));
 }
 
 function buildGlossaryTerms(items) {

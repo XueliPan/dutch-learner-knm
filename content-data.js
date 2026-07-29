@@ -40959,7 +40959,9 @@ export const KNM_CONTENT = {
       "note": "行政区域",
       "importance": "高频",
       "topic": "Nederland leren kennen",
-      "topicId": "nederland-leren-kennen"
+      "topicId": "nederland-leren-kennen",
+      "variants": "provincies",
+      "english": "province"
     },
     {
       "word": "de hoofdstad",
@@ -40968,7 +40970,9 @@ export const KNM_CONTENT = {
       "note": "可指国家首都或省会",
       "importance": "高频",
       "topic": "Nederland leren kennen",
-      "topicId": "nederland-leren-kennen"
+      "topicId": "nederland-leren-kennen",
+      "variants": "hoofdsteden",
+      "english": "capital"
     },
     {
       "word": "de Randstad",
@@ -40977,7 +40981,9 @@ export const KNM_CONTENT = {
       "note": "西部大城市圈",
       "importance": "高频",
       "topic": "Nederland leren kennen",
-      "topicId": "nederland-leren-kennen"
+      "topicId": "nederland-leren-kennen",
+      "variants": "",
+      "english": "Randstad conurbation"
     },
     {
       "word": "de dijk",
@@ -40986,7 +40992,9 @@ export const KNM_CONTENT = {
       "note": "水利核心词",
       "importance": "高频",
       "topic": "Nederland leren kennen",
-      "topicId": "nederland-leren-kennen"
+      "topicId": "nederland-leren-kennen",
+      "variants": "dijken",
+      "english": "dike"
     },
     {
       "word": "de polder",
@@ -40995,7 +41003,9 @@ export const KNM_CONTENT = {
       "note": "从水中造出的土地",
       "importance": "高频",
       "topic": "Nederland leren kennen",
-      "topicId": "nederland-leren-kennen"
+      "topicId": "nederland-leren-kennen",
+      "variants": "polders",
+      "english": "polder / reclaimed land"
     },
     {
       "word": "wisselvallig",
@@ -41004,7 +41014,9 @@ export const KNM_CONTENT = {
       "note": "常形容天气",
       "importance": "中频",
       "topic": "Nederland leren kennen",
-      "topicId": "nederland-leren-kennen"
+      "topicId": "nederland-leren-kennen",
+      "variants": "wisselvallige",
+      "english": "changeable"
     },
     {
       "word": "dichtbevolkt",
@@ -41013,7 +41025,9 @@ export const KNM_CONTENT = {
       "note": "社会地理词",
       "importance": "高频",
       "topic": "Nederland leren kennen",
-      "topicId": "nederland-leren-kennen"
+      "topicId": "nederland-leren-kennen",
+      "variants": "",
+      "english": "densely populated"
     },
     {
       "word": "de democratie",
@@ -41022,7 +41036,9 @@ export const KNM_CONTENT = {
       "note": "政治基础词",
       "importance": "高频",
       "topic": "Nederland leren kennen",
-      "topicId": "nederland-leren-kennen"
+      "topicId": "nederland-leren-kennen",
+      "variants": "democratieën",
+      "english": "democracy"
     },
     {
       "word": "de afspraak",
@@ -41031,7 +41047,9 @@ export const KNM_CONTENT = {
       "note": "荷兰生活核心规则",
       "importance": "高频",
       "topic": "De mensen in Nederland",
-      "topicId": "de-mensen-in-nederland"
+      "topicId": "de-mensen-in-nederland",
+      "variants": "afspraken; een afspraak maken / afzeggen",
+      "english": "appointment"
     },
     {
       "word": "formeel",
@@ -41040,7 +41058,9 @@ export const KNM_CONTENT = {
       "note": "用 u、meneer/mevrouw",
       "importance": "高频",
       "topic": "De mensen in Nederland",
-      "topicId": "de-mensen-in-nederland"
+      "topicId": "de-mensen-in-nederland",
+      "variants": "formele",
+      "english": "formal"
     },
     {
       "word": "informeel",
@@ -41049,7 +41069,9 @@ export const KNM_CONTENT = {
       "note": "用 jij/je、名字",
       "importance": "高频",
       "topic": "De mensen in Nederland",
-      "topicId": "de-mensen-in-nederland"
+      "topicId": "de-mensen-in-nederland",
+      "variants": "informele",
+      "english": "informal"
     },
     {
       "word": "feliciteren",
@@ -41058,7 +41080,9 @@ export const KNM_CONTENT = {
       "note": "动词",
       "importance": "高频",
       "topic": "De mensen in Nederland",
-      "topicId": "de-mensen-in-nederland"
+      "topicId": "de-mensen-in-nederland",
+      "variants": "",
+      "english": ""
     },
     {
       "word": "gecondoleerd",
@@ -41067,7 +41091,9 @@ export const KNM_CONTENT = {
       "note": "丧事用语",
       "importance": "高频",
       "topic": "De mensen in Nederland",
-      "topicId": "de-mensen-in-nederland"
+      "topicId": "de-mensen-in-nederland",
+      "variants": "",
+      "english": "condolences"
     },
     {
       "word": "op je beurt wachten",
@@ -41076,7 +41102,9 @@ export const KNM_CONTENT = {
       "note": "排队文化",
       "importance": "高频",
       "topic": "De mensen in Nederland",
-      "topicId": "de-mensen-in-nederland"
+      "topicId": "de-mensen-in-nederland",
+      "variants": "",
+      "english": ""
     },
     {
       "word": "het openbaar vervoer",
@@ -41094,7 +41122,9 @@ export const KNM_CONTENT = {
       "note": "规则后果",
       "importance": "高频",
       "topic": "De mensen in Nederland",
-      "topicId": "de-mensen-in-nederland"
+      "topicId": "de-mensen-in-nederland",
+      "variants": "",
+      "english": ""
     },
     {
       "word": "de huisarts",
@@ -41103,7 +41133,9 @@ export const KNM_CONTENT = {
       "note": "医疗入口",
       "importance": "高频",
       "topic": "Gezondheid en gezondheidszorg in Nederland",
-      "topicId": "gezondheid-en-gezondheidszorg-in-nederland"
+      "topicId": "gezondheid-en-gezondheidszorg-in-nederland",
+      "variants": "huisartsen",
+      "english": "general practitioner (GP)"
     },
     {
       "word": "de klacht",
@@ -41112,7 +41144,9 @@ export const KNM_CONTENT = {
       "note": "医生问诊常用",
       "importance": "高频",
       "topic": "Gezondheid en gezondheidszorg in Nederland",
-      "topicId": "gezondheid-en-gezondheidszorg-in-nederland"
+      "topicId": "gezondheid-en-gezondheidszorg-in-nederland",
+      "variants": "klachten",
+      "english": "symptom / complaint"
     },
     {
       "word": "het recept",
@@ -41121,7 +41155,9 @@ export const KNM_CONTENT = {
       "note": "开药凭证",
       "importance": "高频",
       "topic": "Gezondheid en gezondheidszorg in Nederland",
-      "topicId": "gezondheid-en-gezondheidszorg-in-nederland"
+      "topicId": "gezondheid-en-gezondheidszorg-in-nederland",
+      "variants": "recepten",
+      "english": "prescription"
     },
     {
       "word": "de apotheek",
@@ -41130,7 +41166,9 @@ export const KNM_CONTENT = {
       "note": "处方药地点",
       "importance": "高频",
       "topic": "Gezondheid en gezondheidszorg in Nederland",
-      "topicId": "gezondheid-en-gezondheidszorg-in-nederland"
+      "topicId": "gezondheid-en-gezondheidszorg-in-nederland",
+      "variants": "apotheken",
+      "english": "pharmacy"
     },
     {
       "word": "doorverwijzen",
@@ -41139,7 +41177,9 @@ export const KNM_CONTENT = {
       "note": "去专科前常见",
       "importance": "高频",
       "topic": "Gezondheid en gezondheidszorg in Nederland",
-      "topicId": "gezondheid-en-gezondheidszorg-in-nederland"
+      "topicId": "gezondheid-en-gezondheidszorg-in-nederland",
+      "variants": "",
+      "english": ""
     },
     {
       "word": "de zorgverzekering",
@@ -41148,7 +41188,9 @@ export const KNM_CONTENT = {
       "note": "强制保险",
       "importance": "高频",
       "topic": "Gezondheid en gezondheidszorg in Nederland",
-      "topicId": "gezondheid-en-gezondheidszorg-in-nederland"
+      "topicId": "gezondheid-en-gezondheidszorg-in-nederland",
+      "variants": "zorgverzekeringen",
+      "english": "health insurance"
     },
     {
       "word": "het eigen risico",
@@ -41157,7 +41199,9 @@ export const KNM_CONTENT = {
       "note": "金额会变",
       "importance": "高频",
       "topic": "Gezondheid en gezondheidszorg in Nederland",
-      "topicId": "gezondheid-en-gezondheidszorg-in-nederland"
+      "topicId": "gezondheid-en-gezondheidszorg-in-nederland",
+      "variants": "",
+      "english": "deductible / excess"
     },
     {
       "word": "de zorgtoeslag",
@@ -41166,7 +41210,9 @@ export const KNM_CONTENT = {
       "note": "Belastingdienst",
       "importance": "高频",
       "topic": "Gezondheid en gezondheidszorg in Nederland",
-      "topicId": "gezondheid-en-gezondheidszorg-in-nederland"
+      "topicId": "gezondheid-en-gezondheidszorg-in-nederland",
+      "variants": "",
+      "english": "healthcare allowance"
     },
     {
       "word": "de hypotheek",
@@ -41175,7 +41221,9 @@ export const KNM_CONTENT = {
       "note": "买房贷款",
       "importance": "高频",
       "topic": "Wonen in Nederland",
-      "topicId": "wonen-in-nederland"
+      "topicId": "wonen-in-nederland",
+      "variants": "",
+      "english": ""
     },
     {
       "word": "de makelaar",
@@ -41184,7 +41232,9 @@ export const KNM_CONTENT = {
       "note": "买房租房都可能用",
       "importance": "高频",
       "topic": "Wonen in Nederland",
-      "topicId": "wonen-in-nederland"
+      "topicId": "wonen-in-nederland",
+      "variants": "",
+      "english": ""
     },
     {
       "word": "de sociale huurwoning",
@@ -41193,7 +41243,9 @@ export const KNM_CONTENT = {
       "note": "低收入住房",
       "importance": "高频",
       "topic": "Wonen in Nederland",
-      "topicId": "wonen-in-nederland"
+      "topicId": "wonen-in-nederland",
+      "variants": "",
+      "english": ""
     },
     {
       "word": "de vrije sector",
@@ -41202,7 +41254,9 @@ export const KNM_CONTENT = {
       "note": "租金较高",
       "importance": "高频",
       "topic": "Wonen in Nederland",
-      "topicId": "wonen-in-nederland"
+      "topicId": "wonen-in-nederland",
+      "variants": "",
+      "english": ""
     },
     {
       "word": "de verhuurder",
@@ -41211,7 +41265,9 @@ export const KNM_CONTENT = {
       "note": "也叫 huisbaas",
       "importance": "高频",
       "topic": "Wonen in Nederland",
-      "topicId": "wonen-in-nederland"
+      "topicId": "wonen-in-nederland",
+      "variants": "",
+      "english": ""
     },
     {
       "word": "de huurtoeslag",
@@ -41220,7 +41276,9 @@ export const KNM_CONTENT = {
       "note": "低收入可能申请",
       "importance": "高频",
       "topic": "Wonen in Nederland",
-      "topicId": "wonen-in-nederland"
+      "topicId": "wonen-in-nederland",
+      "variants": "",
+      "english": ""
     },
     {
       "word": "afval scheiden",
@@ -41229,7 +41287,9 @@ export const KNM_CONTENT = {
       "note": "环保和规则",
       "importance": "高频",
       "topic": "Wonen in Nederland",
-      "topicId": "wonen-in-nederland"
+      "topicId": "wonen-in-nederland",
+      "variants": "",
+      "english": ""
     },
     {
       "word": "de meterstand",
@@ -41238,7 +41298,9 @@ export const KNM_CONTENT = {
       "note": "水电气账单",
       "importance": "高频",
       "topic": "Wonen in Nederland",
-      "topicId": "wonen-in-nederland"
+      "topicId": "wonen-in-nederland",
+      "variants": "",
+      "english": ""
     },
     {
       "word": "het identiteitsbewijs",
@@ -41247,7 +41309,9 @@ export const KNM_CONTENT = {
       "note": "ID/护照/驾照等",
       "importance": "高频",
       "topic": "Dienstverlening in Nederland",
-      "topicId": "dienstverlening-in-nederland"
+      "topicId": "dienstverlening-in-nederland",
+      "variants": "identiteitsbewijzen",
+      "english": "identity document"
     },
     {
       "word": "aangifte doen",
@@ -41256,7 +41320,9 @@ export const KNM_CONTENT = {
       "note": "被盗、丢证件等",
       "importance": "高频",
       "topic": "Dienstverlening in Nederland",
-      "topicId": "dienstverlening-in-nederland"
+      "topicId": "dienstverlening-in-nederland",
+      "variants": "doet aangifte; deed aangifte; heeft aangifte gedaan",
+      "english": "to report to the police"
     },
     {
       "word": "de gemeente",
@@ -41265,7 +41331,9 @@ export const KNM_CONTENT = {
       "note": "居民登记和证件",
       "importance": "高频",
       "topic": "Dienstverlening in Nederland",
-      "topicId": "dienstverlening-in-nederland"
+      "topicId": "dienstverlening-in-nederland",
+      "variants": "gemeenten",
+      "english": "municipality"
     },
     {
       "word": "het BSN",
@@ -41274,7 +41342,9 @@ export const KNM_CONTENT = {
       "note": "9 位号码",
       "importance": "高频",
       "topic": "Dienstverlening in Nederland",
-      "topicId": "dienstverlening-in-nederland"
+      "topicId": "dienstverlening-in-nederland",
+      "variants": "burgerservicenummer",
+      "english": "citizen service number"
     },
     {
       "word": "de belastingaangifte",
@@ -41283,7 +41353,9 @@ export const KNM_CONTENT = {
       "note": "每年申报",
       "importance": "高频",
       "topic": "Dienstverlening in Nederland",
-      "topicId": "dienstverlening-in-nederland"
+      "topicId": "dienstverlening-in-nederland",
+      "variants": "",
+      "english": ""
     },
     {
       "word": "DigiD",
@@ -41292,7 +41364,9 @@ export const KNM_CONTENT = {
       "note": "非常实用",
       "importance": "高频",
       "topic": "Dienstverlening in Nederland",
-      "topicId": "dienstverlening-in-nederland"
+      "topicId": "dienstverlening-in-nederland",
+      "variants": "",
+      "english": "Dutch digital identity"
     },
     {
       "word": "de verblijfsvergunning",
@@ -41301,7 +41375,9 @@ export const KNM_CONTENT = {
       "note": "移民核心词",
       "importance": "高频",
       "topic": "Dienstverlening in Nederland",
-      "topicId": "dienstverlening-in-nederland"
+      "topicId": "dienstverlening-in-nederland",
+      "variants": "",
+      "english": ""
     },
     {
       "word": "het Juridisch Loket",
@@ -41310,7 +41386,9 @@ export const KNM_CONTENT = {
       "note": "初步法律帮助",
       "importance": "中高频",
       "topic": "Dienstverlening in Nederland",
-      "topicId": "dienstverlening-in-nederland"
+      "topicId": "dienstverlening-in-nederland",
+      "variants": "",
+      "english": "Legal Services Counter"
     },
     {
       "word": "de verloskundige",
@@ -41319,7 +41397,9 @@ export const KNM_CONTENT = {
       "note": "怀孕生产",
       "importance": "高频",
       "topic": "Opvoeding en onderwijs in Nederland",
-      "topicId": "opvoeding-en-onderwijs-in-nederland"
+      "topicId": "opvoeding-en-onderwijs-in-nederland",
+      "variants": "verloskundigen",
+      "english": "midwife"
     },
     {
       "word": "het consultatiebureau",
@@ -41328,7 +41408,9 @@ export const KNM_CONTENT = {
       "note": "0-4 岁",
       "importance": "高频",
       "topic": "Opvoeding en onderwijs in Nederland",
-      "topicId": "opvoeding-en-onderwijs-in-nederland"
+      "topicId": "opvoeding-en-onderwijs-in-nederland",
+      "variants": "consultatiebureaus",
+      "english": "child health clinic"
     },
     {
       "word": "de ontwikkeling",
@@ -41337,7 +41419,9 @@ export const KNM_CONTENT = {
       "note": "儿童成长",
       "importance": "高频",
       "topic": "Opvoeding en onderwijs in Nederland",
-      "topicId": "opvoeding-en-onderwijs-in-nederland"
+      "topicId": "opvoeding-en-onderwijs-in-nederland",
+      "variants": "",
+      "english": ""
     },
     {
       "word": "de kinderopvang",
@@ -41346,7 +41430,9 @@ export const KNM_CONTENT = {
       "note": "父母工作时",
       "importance": "高频",
       "topic": "Opvoeding en onderwijs in Nederland",
-      "topicId": "opvoeding-en-onderwijs-in-nederland"
+      "topicId": "opvoeding-en-onderwijs-in-nederland",
+      "variants": "",
+      "english": "childcare"
     },
     {
       "word": "de kinderbijslag",
@@ -41355,7 +41441,9 @@ export const KNM_CONTENT = {
       "note": "SVB 发放",
       "importance": "高频",
       "topic": "Opvoeding en onderwijs in Nederland",
-      "topicId": "opvoeding-en-onderwijs-in-nederland"
+      "topicId": "opvoeding-en-onderwijs-in-nederland",
+      "variants": "",
+      "english": "child benefit"
     },
     {
       "word": "de leerplicht",
@@ -41364,7 +41452,9 @@ export const KNM_CONTENT = {
       "note": "学校义务",
       "importance": "高频",
       "topic": "Opvoeding en onderwijs in Nederland",
-      "topicId": "opvoeding-en-onderwijs-in-nederland"
+      "topicId": "opvoeding-en-onderwijs-in-nederland",
+      "variants": "",
+      "english": "compulsory education"
     },
     {
       "word": "de basisschool",
@@ -41373,7 +41463,9 @@ export const KNM_CONTENT = {
       "note": "groep 1-8",
       "importance": "高频",
       "topic": "Opvoeding en onderwijs in Nederland",
-      "topicId": "opvoeding-en-onderwijs-in-nederland"
+      "topicId": "opvoeding-en-onderwijs-in-nederland",
+      "variants": "basisscholen",
+      "english": "primary school"
     },
     {
       "word": "het voortgezet onderwijs",
@@ -41382,7 +41474,9 @@ export const KNM_CONTENT = {
       "note": "VMBO/HAVO/VWO",
       "importance": "高频",
       "topic": "Opvoeding en onderwijs in Nederland",
-      "topicId": "opvoeding-en-onderwijs-in-nederland"
+      "topicId": "opvoeding-en-onderwijs-in-nederland",
+      "variants": "",
+      "english": ""
     },
     {
       "word": "solliciteren",
@@ -41391,7 +41485,9 @@ export const KNM_CONTENT = {
       "note": "找工作核心词",
       "importance": "高频",
       "topic": "Werken in Nederland",
-      "topicId": "werken-in-nederland"
+      "topicId": "werken-in-nederland",
+      "variants": "solliciteert; solliciteerde; heeft gesolliciteerd",
+      "english": "to apply for a job"
     },
     {
       "word": "de vacature",
@@ -41400,7 +41496,9 @@ export const KNM_CONTENT = {
       "note": "招聘信息",
       "importance": "高频",
       "topic": "Werken in Nederland",
-      "topicId": "werken-in-nederland"
+      "topicId": "werken-in-nederland",
+      "variants": "vacatures",
+      "english": "job vacancy"
     },
     {
       "word": "het CV",
@@ -41409,7 +41507,9 @@ export const KNM_CONTENT = {
       "note": "申请材料",
       "importance": "高频",
       "topic": "Werken in Nederland",
-      "topicId": "werken-in-nederland"
+      "topicId": "werken-in-nederland",
+      "variants": "cv's",
+      "english": "CV / résumé"
     },
     {
       "word": "de sollicitatiebrief",
@@ -41418,7 +41518,9 @@ export const KNM_CONTENT = {
       "note": "申请材料",
       "importance": "高频",
       "topic": "Werken in Nederland",
-      "topicId": "werken-in-nederland"
+      "topicId": "werken-in-nederland",
+      "variants": "sollicitatiebrieven",
+      "english": "cover letter"
     },
     {
       "word": "het contract",
@@ -41427,7 +41529,9 @@ export const KNM_CONTENT = {
       "note": "工作开始",
       "importance": "高频",
       "topic": "Werken in Nederland",
-      "topicId": "werken-in-nederland"
+      "topicId": "werken-in-nederland",
+      "variants": "",
+      "english": ""
     },
     {
       "word": "de proeftijd",
@@ -41436,7 +41540,9 @@ export const KNM_CONTENT = {
       "note": "合同条款",
       "importance": "高频",
       "topic": "Werken in Nederland",
-      "topicId": "werken-in-nederland"
+      "topicId": "werken-in-nederland",
+      "variants": "proeftijden",
+      "english": "probation period"
     },
     {
       "word": "bruto",
@@ -41445,7 +41551,9 @@ export const KNM_CONTENT = {
       "note": "工资概念",
       "importance": "高频",
       "topic": "Werken in Nederland",
-      "topicId": "werken-in-nederland"
+      "topicId": "werken-in-nederland",
+      "variants": "",
+      "english": "gross"
     },
     {
       "word": "netto",
@@ -41454,7 +41562,9 @@ export const KNM_CONTENT = {
       "note": "工资概念",
       "importance": "高频",
       "topic": "Werken in Nederland",
-      "topicId": "werken-in-nederland"
+      "topicId": "werken-in-nederland",
+      "variants": "",
+      "english": "net"
     },
     {
       "word": "samenwonen",
@@ -41463,7 +41573,9 @@ export const KNM_CONTENT = {
       "note": "不一定结婚",
       "importance": "高频",
       "topic": "Samenleven in Nederland",
-      "topicId": "samenleven-in-nederland"
+      "topicId": "samenleven-in-nederland",
+      "variants": "",
+      "english": ""
     },
     {
       "word": "scheiden",
@@ -41472,7 +41584,9 @@ export const KNM_CONTENT = {
       "note": "家庭形式",
       "importance": "中高频",
       "topic": "Samenleven in Nederland",
-      "topicId": "samenleven-in-nederland"
+      "topicId": "samenleven-in-nederland",
+      "variants": "",
+      "english": ""
     },
     {
       "word": "homoseksueel",
@@ -41481,7 +41595,9 @@ export const KNM_CONTENT = {
       "note": "平等权利",
       "importance": "高频",
       "topic": "Samenleven in Nederland",
-      "topicId": "samenleven-in-nederland"
+      "topicId": "samenleven-in-nederland",
+      "variants": "",
+      "english": ""
     },
     {
       "word": "de gelijkheid",
@@ -41490,7 +41606,9 @@ export const KNM_CONTENT = {
       "note": "法律价值",
       "importance": "高频",
       "topic": "Samenleven in Nederland",
-      "topicId": "samenleven-in-nederland"
+      "topicId": "samenleven-in-nederland",
+      "variants": "",
+      "english": ""
     },
     {
       "word": "discriminatie",
@@ -41499,7 +41617,9 @@ export const KNM_CONTENT = {
       "note": "可投诉/报案",
       "importance": "高频",
       "topic": "Samenleven in Nederland",
-      "topicId": "samenleven-in-nederland"
+      "topicId": "samenleven-in-nederland",
+      "variants": "",
+      "english": ""
     },
     {
       "word": "geweld",
@@ -41508,7 +41628,9 @@ export const KNM_CONTENT = {
       "note": "安全法律",
       "importance": "高频",
       "topic": "Samenleven in Nederland",
-      "topicId": "samenleven-in-nederland"
+      "topicId": "samenleven-in-nederland",
+      "variants": "",
+      "english": ""
     },
     {
       "word": "mishandeling",
@@ -41517,7 +41639,9 @@ export const KNM_CONTENT = {
       "note": "家庭和社会安全",
       "importance": "高频",
       "topic": "Samenleven in Nederland",
-      "topicId": "samenleven-in-nederland"
+      "topicId": "samenleven-in-nederland",
+      "variants": "",
+      "english": ""
     },
     {
       "word": "de gewoonte",
@@ -41535,7 +41659,9 @@ export const KNM_CONTENT = {
       "note": "历史时间",
       "importance": "高频",
       "topic": "De geschiedenis van Nederland",
-      "topicId": "de-geschiedenis-van-nederland"
+      "topicId": "de-geschiedenis-van-nederland",
+      "variants": "",
+      "english": ""
     },
     {
       "word": "de Middeleeuwen",
@@ -41544,7 +41670,9 @@ export const KNM_CONTENT = {
       "note": "历史时期",
       "importance": "中频",
       "topic": "De geschiedenis van Nederland",
-      "topicId": "de-geschiedenis-van-nederland"
+      "topicId": "de-geschiedenis-van-nederland",
+      "variants": "",
+      "english": ""
     },
     {
       "word": "de oorlog",
@@ -41553,7 +41681,9 @@ export const KNM_CONTENT = {
       "note": "历史核心词",
       "importance": "高频",
       "topic": "De geschiedenis van Nederland",
-      "topicId": "de-geschiedenis-van-nederland"
+      "topicId": "de-geschiedenis-van-nederland",
+      "variants": "",
+      "english": ""
     },
     {
       "word": "bevrijden",
@@ -41562,7 +41692,9 @@ export const KNM_CONTENT = {
       "note": "二战",
       "importance": "高频",
       "topic": "De geschiedenis van Nederland",
-      "topicId": "de-geschiedenis-van-nederland"
+      "topicId": "de-geschiedenis-van-nederland",
+      "variants": "",
+      "english": ""
     },
     {
       "word": "onderduiken",
@@ -41571,7 +41703,9 @@ export const KNM_CONTENT = {
       "note": "二战高频",
       "importance": "高频",
       "topic": "De geschiedenis van Nederland",
-      "topicId": "de-geschiedenis-van-nederland"
+      "topicId": "de-geschiedenis-van-nederland",
+      "variants": "",
+      "english": ""
     },
     {
       "word": "de grondwet",
@@ -41580,7 +41714,9 @@ export const KNM_CONTENT = {
       "note": "历史和政治",
       "importance": "高频",
       "topic": "De geschiedenis van Nederland",
-      "topicId": "de-geschiedenis-van-nederland"
+      "topicId": "de-geschiedenis-van-nederland",
+      "variants": "",
+      "english": ""
     },
     {
       "word": "de overstroming",
@@ -41589,7 +41725,9 @@ export const KNM_CONTENT = {
       "note": "水利历史",
       "importance": "高频",
       "topic": "De geschiedenis van Nederland",
-      "topicId": "de-geschiedenis-van-nederland"
+      "topicId": "de-geschiedenis-van-nederland",
+      "variants": "",
+      "english": ""
     },
     {
       "word": "de gastarbeider",
@@ -41598,7 +41736,9 @@ export const KNM_CONTENT = {
       "note": "移民史",
       "importance": "高频",
       "topic": "De geschiedenis van Nederland",
-      "topicId": "de-geschiedenis-van-nederland"
+      "topicId": "de-geschiedenis-van-nederland",
+      "variants": "",
+      "english": ""
     },
     {
       "word": "de regering",
@@ -41607,7 +41747,9 @@ export const KNM_CONTENT = {
       "note": "执政层",
       "importance": "高频",
       "topic": "Politiek in Nederland",
-      "topicId": "politiek-in-nederland"
+      "topicId": "politiek-in-nederland",
+      "variants": "",
+      "english": ""
     },
     {
       "word": "het kabinet",
@@ -41616,7 +41758,9 @@ export const KNM_CONTENT = {
       "note": "不等同议会",
       "importance": "高频",
       "topic": "Politiek in Nederland",
-      "topicId": "politiek-in-nederland"
+      "topicId": "politiek-in-nederland",
+      "variants": "",
+      "english": ""
     },
     {
       "word": "het parlement",
@@ -41625,7 +41769,9 @@ export const KNM_CONTENT = {
       "note": "两院组成",
       "importance": "高频",
       "topic": "Politiek in Nederland",
-      "topicId": "politiek-in-nederland"
+      "topicId": "politiek-in-nederland",
+      "variants": "",
+      "english": ""
     },
     {
       "word": "stemmen",
@@ -41643,7 +41789,9 @@ export const KNM_CONTENT = {
       "note": "政治核心",
       "importance": "高频",
       "topic": "Politiek in Nederland",
-      "topicId": "politiek-in-nederland"
+      "topicId": "politiek-in-nederland",
+      "variants": "",
+      "english": ""
     },
     {
       "word": "de zetel",
@@ -41652,7 +41800,9 @@ export const KNM_CONTENT = {
       "note": "选举结果",
       "importance": "高频",
       "topic": "Politiek in Nederland",
-      "topicId": "politiek-in-nederland"
+      "topicId": "politiek-in-nederland",
+      "variants": "",
+      "english": ""
     },
     {
       "word": "de grondwet",
@@ -41661,7 +41811,9 @@ export const KNM_CONTENT = {
       "note": "基本权利",
       "importance": "高频",
       "topic": "Politiek in Nederland",
-      "topicId": "politiek-in-nederland"
+      "topicId": "politiek-in-nederland",
+      "variants": "",
+      "english": ""
     },
     {
       "word": "de staking",
@@ -41670,7 +41822,9 @@ export const KNM_CONTENT = {
       "note": "抗议方式",
       "importance": "中高频",
       "topic": "Politiek in Nederland",
-      "topicId": "politiek-in-nederland"
+      "topicId": "politiek-in-nederland",
+      "variants": "",
+      "english": ""
     },
     {
       "word": "liggen",
@@ -41686,21 +41840,25 @@ export const KNM_CONTENT = {
       "word": "de Noordzee",
       "meaning": "北海",
       "example": "Nederland ligt aan de Noordzee.",
-      "note": "",
+      "note": "荷兰地理、天气与社会",
       "importance": "本章核心",
       "topic": "Nederland leren kennen",
       "topicId": "nederland-leren-kennen",
-      "source": "Full chapter core vocabulary"
+      "source": "Full chapter core vocabulary",
+      "variants": "",
+      "english": "North Sea"
     },
     {
       "word": "het buurland",
       "meaning": "邻国",
       "example": "Duitsland is een buurland.",
-      "note": "",
+      "note": "荷兰地理、天气与社会",
       "importance": "本章核心",
       "topic": "Nederland leren kennen",
       "topicId": "nederland-leren-kennen",
-      "source": "Full chapter core vocabulary"
+      "source": "Full chapter core vocabulary",
+      "variants": "buurlanden",
+      "english": "neighbouring country"
     },
     {
       "word": "het oosten",
@@ -41756,41 +41914,49 @@ export const KNM_CONTENT = {
       "word": "de inwoner",
       "meaning": "居民",
       "example": "Er wonen veel inwoners.",
-      "note": "",
+      "note": "荷兰地理、天气与社会",
       "importance": "本章核心",
       "topic": "Nederland leren kennen",
       "topicId": "nederland-leren-kennen",
-      "source": "Full chapter core vocabulary"
+      "source": "Full chapter core vocabulary",
+      "variants": "inwoners",
+      "english": "inhabitant"
     },
     {
       "word": "het vliegveld",
       "meaning": "机场",
       "example": "Schiphol is een vliegveld.",
-      "note": "",
+      "note": "荷兰地理、天气与社会",
       "importance": "本章核心",
       "topic": "Nederland leren kennen",
       "topicId": "nederland-leren-kennen",
-      "source": "Full chapter core vocabulary"
+      "source": "Full chapter core vocabulary",
+      "variants": "vliegvelden",
+      "english": "airport"
     },
     {
       "word": "de haven",
       "meaning": "港口",
       "example": "Rotterdam heeft een grote haven.",
-      "note": "",
+      "note": "荷兰地理、天气与社会",
       "importance": "本章核心",
       "topic": "Nederland leren kennen",
       "topicId": "nederland-leren-kennen",
-      "source": "Full chapter core vocabulary"
+      "source": "Full chapter core vocabulary",
+      "variants": "havens",
+      "english": "harbour / port"
     },
     {
       "word": "de regering",
       "meaning": "政府",
       "example": "De regering is in Den Haag.",
-      "note": "",
+      "note": "社会、历史与政治",
       "importance": "本章核心",
       "topic": "Nederland leren kennen",
       "topicId": "nederland-leren-kennen",
-      "source": "Full chapter core vocabulary"
+      "source": "Full chapter core vocabulary",
+      "variants": "regeringen",
+      "english": "government"
     },
     {
       "word": "de snelweg",
@@ -41856,21 +42022,25 @@ export const KNM_CONTENT = {
       "word": "de rivier",
       "meaning": "河流",
       "example": "De Rijn is een rivier.",
-      "note": "",
+      "note": "荷兰地理、天气与社会",
       "importance": "本章核心",
       "topic": "Nederland leren kennen",
       "topicId": "nederland-leren-kennen",
-      "source": "Full chapter core vocabulary"
+      "source": "Full chapter core vocabulary",
+      "variants": "rivieren",
+      "english": "river"
     },
     {
       "word": "het meer",
       "meaning": "湖",
       "example": "Het IJsselmeer is een meer.",
-      "note": "",
+      "note": "荷兰地理、天气与社会",
       "importance": "本章核心",
       "topic": "Nederland leren kennen",
       "topicId": "nederland-leren-kennen",
-      "source": "Full chapter core vocabulary"
+      "source": "Full chapter core vocabulary",
+      "variants": "meren",
+      "english": "lake"
     },
     {
       "word": "het eiland",
@@ -41916,11 +42086,13 @@ export const KNM_CONTENT = {
       "word": "beschermen",
       "meaning": "保护",
       "example": "Dijken beschermen Nederland.",
-      "note": "",
+      "note": "荷兰地理、天气与社会",
       "importance": "本章核心",
       "topic": "Nederland leren kennen",
       "topicId": "nederland-leren-kennen",
-      "source": "Full chapter core vocabulary"
+      "source": "Full chapter core vocabulary",
+      "variants": "beschermt; beschermde; heeft beschermd",
+      "english": "to protect"
     },
     {
       "word": "het seizoen",
@@ -41936,41 +42108,49 @@ export const KNM_CONTENT = {
       "word": "de lente",
       "meaning": "春天",
       "example": "In de lente groeien bladeren.",
-      "note": "",
+      "note": "荷兰地理、天气与社会",
       "importance": "本章核心",
       "topic": "Nederland leren kennen",
       "topicId": "nederland-leren-kennen",
-      "source": "Full chapter core vocabulary"
+      "source": "Full chapter core vocabulary",
+      "variants": "",
+      "english": "spring"
     },
     {
       "word": "de zomer",
       "meaning": "夏天",
       "example": "In de zomer is het lang licht.",
-      "note": "",
+      "note": "荷兰地理、天气与社会",
       "importance": "本章核心",
       "topic": "Nederland leren kennen",
       "topicId": "nederland-leren-kennen",
-      "source": "Full chapter core vocabulary"
+      "source": "Full chapter core vocabulary",
+      "variants": "zomers",
+      "english": "summer"
     },
     {
       "word": "de herfst",
       "meaning": "秋天",
       "example": "In de herfst vallen bladeren.",
-      "note": "",
+      "note": "荷兰地理、天气与社会",
       "importance": "本章核心",
       "topic": "Nederland leren kennen",
       "topicId": "nederland-leren-kennen",
-      "source": "Full chapter core vocabulary"
+      "source": "Full chapter core vocabulary",
+      "variants": "",
+      "english": "autumn"
     },
     {
       "word": "de winter",
       "meaning": "冬天",
       "example": "In de winter kan het vriezen.",
-      "note": "",
+      "note": "荷兰地理、天气与社会",
       "importance": "本章核心",
       "topic": "Nederland leren kennen",
       "topicId": "nederland-leren-kennen",
-      "source": "Full chapter core vocabulary"
+      "source": "Full chapter core vocabulary",
+      "variants": "winters",
+      "english": "winter"
     },
     {
       "word": "geboren",
@@ -41986,51 +42166,61 @@ export const KNM_CONTENT = {
       "word": "de buitenlander",
       "meaning": "外国人",
       "example": "Veel buitenlanders wonen in steden.",
-      "note": "",
+      "note": "移民、语言与身份",
       "importance": "本章核心",
       "topic": "Nederland leren kennen",
       "topicId": "nederland-leren-kennen",
-      "source": "Full chapter core vocabulary"
+      "source": "Full chapter core vocabulary",
+      "variants": "buitenlanders",
+      "english": "foreigner"
     },
     {
       "word": "de nationaliteit",
       "meaning": "国籍",
       "example": "Zij heeft de Nederlandse nationaliteit.",
-      "note": "",
+      "note": "移民、语言与身份",
       "importance": "本章核心",
       "topic": "Nederland leren kennen",
       "topicId": "nederland-leren-kennen",
-      "source": "Full chapter core vocabulary"
+      "source": "Full chapter core vocabulary",
+      "variants": "nationaliteiten",
+      "english": "nationality"
     },
     {
       "word": "de gastarbeider",
       "meaning": "外来劳工",
       "example": "Gastarbeiders kwamen om te werken.",
-      "note": "",
+      "note": "移民、语言与身份",
       "importance": "本章核心",
       "topic": "Nederland leren kennen",
       "topicId": "nederland-leren-kennen",
-      "source": "Full chapter core vocabulary"
+      "source": "Full chapter core vocabulary",
+      "variants": "gastarbeiders",
+      "english": "guest worker"
     },
     {
       "word": "de vluchteling",
       "meaning": "难民",
       "example": "Vluchtelingen verlaten hun land.",
-      "note": "",
+      "note": "移民、语言与身份",
       "importance": "本章核心",
       "topic": "Nederland leren kennen",
       "topicId": "nederland-leren-kennen",
-      "source": "Full chapter core vocabulary"
+      "source": "Full chapter core vocabulary",
+      "variants": "vluchtelingen",
+      "english": "refugee"
     },
     {
       "word": "de verblijfsvergunning",
       "meaning": "居留许可",
       "example": "Niet iedereen heeft een verblijfsvergunning.",
-      "note": "",
+      "note": "移民、语言与身份",
       "importance": "本章核心",
       "topic": "Nederland leren kennen",
       "topicId": "nederland-leren-kennen",
-      "source": "Full chapter core vocabulary"
+      "source": "Full chapter core vocabulary",
+      "variants": "verblijfsvergunningen",
+      "english": "residence permit"
     },
     {
       "word": "de taal",
@@ -42046,41 +42236,49 @@ export const KNM_CONTENT = {
       "word": "het dialect",
       "meaning": "方言",
       "example": "Er zijn verschillende dialecten.",
-      "note": "",
+      "note": "移民、语言与身份",
       "importance": "本章核心",
       "topic": "Nederland leren kennen",
       "topicId": "nederland-leren-kennen",
-      "source": "Full chapter core vocabulary"
+      "source": "Full chapter core vocabulary",
+      "variants": "dialecten",
+      "english": "dialect"
     },
     {
       "word": "de koning",
       "meaning": "国王",
       "example": "Nederland heeft een koning.",
-      "note": "",
+      "note": "社会、历史与政治",
       "importance": "本章核心",
       "topic": "Nederland leren kennen",
       "topicId": "nederland-leren-kennen",
-      "source": "Full chapter core vocabulary"
+      "source": "Full chapter core vocabulary",
+      "variants": "koningen",
+      "english": "king"
     },
     {
       "word": "het parlement",
       "meaning": "议会",
       "example": "Mensen kiezen het parlement.",
-      "note": "",
+      "note": "社会、历史与政治",
       "importance": "本章核心",
       "topic": "Nederland leren kennen",
       "topicId": "nederland-leren-kennen",
-      "source": "Full chapter core vocabulary"
+      "source": "Full chapter core vocabulary",
+      "variants": "parlementen",
+      "english": "parliament"
     },
     {
       "word": "stemmen",
       "meaning": "投票",
       "example": "Nederlanders stemmen om de vier jaar.",
-      "note": "",
+      "note": "社会、历史与政治",
       "importance": "本章核心",
       "topic": "Nederland leren kennen",
       "topicId": "nederland-leren-kennen",
-      "source": "Full chapter core vocabulary"
+      "source": "Full chapter core vocabulary",
+      "variants": "stemt; stemde; heeft gestemd",
+      "english": "to vote"
     },
     {
       "word": "het geloof",
@@ -42145,12 +42343,14 @@ export const KNM_CONTENT = {
     {
       "word": "de feestdag",
       "meaning": "节日",
-      "example": "",
+      "example": "een nationale feestdag",
       "note": "",
       "importance": "本章核心",
       "topic": "De mensen in Nederland",
       "topicId": "de-mensen-in-nederland",
-      "source": "Full chapter core vocabulary"
+      "source": "Full chapter core vocabulary",
+      "variants": "",
+      "english": ""
     },
     {
       "word": "vieren",
@@ -42165,12 +42365,14 @@ export const KNM_CONTENT = {
     {
       "word": "herdenken",
       "meaning": "纪念",
-      "example": "",
+      "example": "de slachtoffers herdenken",
       "note": "",
       "importance": "本章核心",
       "topic": "De mensen in Nederland",
       "topicId": "de-mensen-in-nederland",
-      "source": "Full chapter core vocabulary"
+      "source": "Full chapter core vocabulary",
+      "variants": "",
+      "english": ""
     },
     {
       "word": "de stilte",
@@ -42186,41 +42388,49 @@ export const KNM_CONTENT = {
       "word": "de verjaardag",
       "meaning": "生日",
       "example": "",
-      "note": "",
+      "note": "日常生活与社交",
       "importance": "本章核心",
       "topic": "De mensen in Nederland",
       "topicId": "de-mensen-in-nederland",
-      "source": "Full chapter core vocabulary"
+      "source": "Full chapter core vocabulary",
+      "variants": "verjaardagen; jarig zijn",
+      "english": "birthday"
     },
     {
       "word": "trakteren",
       "meaning": "请别人吃东西",
       "example": "",
-      "note": "",
+      "note": "礼仪、交流与日常生活",
       "importance": "本章核心",
       "topic": "De mensen in Nederland",
       "topicId": "de-mensen-in-nederland",
-      "source": "Full chapter core vocabulary"
+      "source": "Full chapter core vocabulary",
+      "variants": "",
+      "english": ""
     },
     {
       "word": "de bruiloft",
       "meaning": "婚礼",
-      "example": "",
-      "note": "",
+      "example": "een bruiloft vieren",
+      "note": "礼仪、交流与日常生活",
       "importance": "本章核心",
       "topic": "De mensen in Nederland",
       "topicId": "de-mensen-in-nederland",
-      "source": "Full chapter core vocabulary"
+      "source": "Full chapter core vocabulary",
+      "variants": "",
+      "english": ""
     },
     {
       "word": "de uitnodiging",
       "meaning": "邀请函",
-      "example": "",
-      "note": "",
+      "example": "een uitnodiging sturen",
+      "note": "礼仪、交流与日常生活",
       "importance": "本章核心",
       "topic": "De mensen in Nederland",
       "topicId": "de-mensen-in-nederland",
-      "source": "Full chapter core vocabulary"
+      "source": "Full chapter core vocabulary",
+      "variants": "",
+      "english": ""
     },
     {
       "word": "samenwonen",
@@ -42256,11 +42466,13 @@ export const KNM_CONTENT = {
       "word": "beschuit met muisjes",
       "meaning": "荷兰庆祝新生儿的甜点",
       "example": "",
-      "note": "",
+      "note": "礼仪、交流与日常生活",
       "importance": "本章核心",
       "topic": "De mensen in Nederland",
       "topicId": "de-mensen-in-nederland",
-      "source": "Full chapter core vocabulary"
+      "source": "Full chapter core vocabulary",
+      "variants": "",
+      "english": ""
     },
     {
       "word": "slagen",
@@ -42276,21 +42488,25 @@ export const KNM_CONTENT = {
       "word": "overlijden",
       "meaning": "去世",
       "example": "",
-      "note": "",
+      "note": "日常生活与社交",
       "importance": "本章核心",
       "topic": "De mensen in Nederland",
       "topicId": "de-mensen-in-nederland",
-      "source": "Full chapter core vocabulary"
+      "source": "Full chapter core vocabulary",
+      "variants": "overlijdt; overleed; is overleden",
+      "english": "to pass away"
     },
     {
       "word": "de begrafenis",
       "meaning": "土葬葬礼",
       "example": "",
-      "note": "",
+      "note": "礼仪、交流与日常生活",
       "importance": "本章核心",
       "topic": "De mensen in Nederland",
       "topicId": "de-mensen-in-nederland",
-      "source": "Full chapter core vocabulary"
+      "source": "Full chapter core vocabulary",
+      "variants": "begrafenissen",
+      "english": "funeral / burial"
     },
     {
       "word": "de crematie",
@@ -42306,31 +42522,37 @@ export const KNM_CONTENT = {
       "word": "beterschap",
       "meaning": "早日康复",
       "example": "",
-      "note": "",
+      "note": "礼仪、交流与日常生活",
       "importance": "本章核心",
       "topic": "De mensen in Nederland",
       "topicId": "de-mensen-in-nederland",
-      "source": "Full chapter core vocabulary"
+      "source": "Full chapter core vocabulary",
+      "variants": "",
+      "english": "get well soon"
     },
     {
       "word": "kennismaken",
       "meaning": "认识、初次见面",
       "example": "",
-      "note": "",
+      "note": "礼仪、交流与日常生活",
       "importance": "本章核心",
       "topic": "De mensen in Nederland",
       "topicId": "de-mensen-in-nederland",
-      "source": "Full chapter core vocabulary"
+      "source": "Full chapter core vocabulary",
+      "variants": "maakt kennis; maakte kennis; heeft kennisgemaakt",
+      "english": "to get acquainted"
     },
     {
       "word": "de agenda",
       "meaning": "日程本",
       "example": "",
-      "note": "",
+      "note": "礼仪、交流与日常生活",
       "importance": "本章核心",
       "topic": "De mensen in Nederland",
       "topicId": "de-mensen-in-nederland",
-      "source": "Full chapter core vocabulary"
+      "source": "Full chapter core vocabulary",
+      "variants": "",
+      "english": ""
     },
     {
       "word": "op bezoek gaan",
@@ -42376,41 +42598,49 @@ export const KNM_CONTENT = {
       "word": "direct",
       "meaning": "直接的",
       "example": "",
-      "note": "",
+      "note": "日常生活与社交",
       "importance": "本章核心",
       "topic": "De mensen in Nederland",
       "topicId": "de-mensen-in-nederland",
-      "source": "Full chapter core vocabulary"
+      "source": "Full chapter core vocabulary",
+      "variants": "directe",
+      "english": "direct / straightforward"
     },
     {
       "word": "rustig",
       "meaning": "冷静的",
       "example": "",
-      "note": "",
+      "note": "日常生活与社交",
       "importance": "本章核心",
       "topic": "De mensen in Nederland",
       "topicId": "de-mensen-in-nederland",
-      "source": "Full chapter core vocabulary"
+      "source": "Full chapter core vocabulary",
+      "variants": "rustige; rustiger",
+      "english": "calm / quiet"
     },
     {
       "word": "vriendelijk",
       "meaning": "友好的",
       "example": "",
-      "note": "",
+      "note": "日常生活与社交",
       "importance": "本章核心",
       "topic": "De mensen in Nederland",
       "topicId": "de-mensen-in-nederland",
-      "source": "Full chapter core vocabulary"
+      "source": "Full chapter core vocabulary",
+      "variants": "vriendelijke; vriendelijker",
+      "english": "friendly"
     },
     {
       "word": "in de rij staan",
       "meaning": "排队",
       "example": "",
-      "note": "",
+      "note": "礼仪、交流与日常生活",
       "importance": "本章核心",
       "topic": "De mensen in Nederland",
       "topicId": "de-mensen-in-nederland",
-      "source": "Full chapter core vocabulary"
+      "source": "Full chapter core vocabulary",
+      "variants": "",
+      "english": ""
     },
     {
       "word": "een nummertje trekken",
@@ -42435,22 +42665,26 @@ export const KNM_CONTENT = {
     {
       "word": "inchecken",
       "meaning": "刷入、签到",
-      "example": "",
+      "example": "inchecken met de OV-chipkaart",
       "note": "",
       "importance": "本章核心",
       "topic": "De mensen in Nederland",
       "topicId": "de-mensen-in-nederland",
-      "source": "Full chapter core vocabulary"
+      "source": "Full chapter core vocabulary",
+      "variants": "",
+      "english": ""
     },
     {
       "word": "uitchecken",
       "meaning": "刷出、签出",
-      "example": "",
+      "example": "niet vergeten uit te checken",
       "note": "",
       "importance": "本章核心",
       "topic": "De mensen in Nederland",
       "topicId": "de-mensen-in-nederland",
-      "source": "Full chapter core vocabulary"
+      "source": "Full chapter core vocabulary",
+      "variants": "",
+      "english": ""
     },
     {
       "word": "zwartreizen",
@@ -42506,41 +42740,49 @@ export const KNM_CONTENT = {
       "word": "de specialist",
       "meaning": "专科医生",
       "example": "",
-      "note": "",
+      "note": "医疗与健康",
       "importance": "本章核心",
       "topic": "Gezondheid en gezondheidszorg in Nederland",
       "topicId": "gezondheid-en-gezondheidszorg-in-nederland",
-      "source": "Full chapter core vocabulary"
+      "source": "Full chapter core vocabulary",
+      "variants": "specialisten",
+      "english": "specialist"
     },
     {
       "word": "de assistente",
       "meaning": "医疗助理/前台",
       "example": "",
-      "note": "",
+      "note": "医疗与健康",
       "importance": "本章核心",
       "topic": "Gezondheid en gezondheidszorg in Nederland",
       "topicId": "gezondheid-en-gezondheidszorg-in-nederland",
-      "source": "Full chapter core vocabulary"
+      "source": "Full chapter core vocabulary",
+      "variants": "assistentes",
+      "english": "medical assistant / receptionist"
     },
     {
       "word": "de behandeling",
       "meaning": "治疗",
-      "example": "",
-      "note": "",
+      "example": "De arts bespreekt de behandeling.",
+      "note": "金融、医疗与常用动词",
       "importance": "本章核心",
       "topic": "Gezondheid en gezondheidszorg in Nederland",
       "topicId": "gezondheid-en-gezondheidszorg-in-nederland",
-      "source": "Full chapter core vocabulary"
+      "source": "Full chapter core vocabulary",
+      "variants": "",
+      "english": ""
     },
     {
       "word": "de verwijsbrief",
       "meaning": "转诊信",
       "example": "",
-      "note": "",
+      "note": "金融、医疗与常用动词",
       "importance": "本章核心",
       "topic": "Gezondheid en gezondheidszorg in Nederland",
       "topicId": "gezondheid-en-gezondheidszorg-in-nederland",
-      "source": "Full chapter core vocabulary"
+      "source": "Full chapter core vocabulary",
+      "variants": "verwijsbrieven",
+      "english": "referral letter"
     },
     {
       "word": "het huisbezoek",
@@ -42576,21 +42818,25 @@ export const KNM_CONTENT = {
       "word": "het etiket",
       "meaning": "标签",
       "example": "",
-      "note": "",
+      "note": "医疗与健康",
       "importance": "本章核心",
       "topic": "Gezondheid en gezondheidszorg in Nederland",
       "topicId": "gezondheid-en-gezondheidszorg-in-nederland",
-      "source": "Full chapter core vocabulary"
+      "source": "Full chapter core vocabulary",
+      "variants": "etiketten",
+      "english": "label"
     },
     {
       "word": "de bijsluiter",
       "meaning": "药品说明书",
-      "example": "",
-      "note": "",
+      "example": "Lees de bijsluiter.",
+      "note": "金融、医疗与常用动词",
       "importance": "本章核心",
       "topic": "Gezondheid en gezondheidszorg in Nederland",
       "topicId": "gezondheid-en-gezondheidszorg-in-nederland",
-      "source": "Full chapter core vocabulary"
+      "source": "Full chapter core vocabulary",
+      "variants": "bijsluiters",
+      "english": "patient information leaflet"
     },
     {
       "word": "bewaren",
@@ -42605,102 +42851,122 @@ export const KNM_CONTENT = {
     {
       "word": "de wachtlijst",
       "meaning": "等候名单",
-      "example": "",
+      "example": "Er is een wachtlijst.",
       "note": "",
       "importance": "本章核心",
       "topic": "Gezondheid en gezondheidszorg in Nederland",
       "topicId": "gezondheid-en-gezondheidszorg-in-nederland",
-      "source": "Full chapter core vocabulary"
+      "source": "Full chapter core vocabulary",
+      "variants": "",
+      "english": ""
     },
     {
       "word": "de polikliniek",
       "meaning": "医院门诊科室",
       "example": "",
-      "note": "",
+      "note": "金融、医疗与常用动词",
       "importance": "本章核心",
       "topic": "Gezondheid en gezondheidszorg in Nederland",
       "topicId": "gezondheid-en-gezondheidszorg-in-nederland",
-      "source": "Full chapter core vocabulary"
+      "source": "Full chapter core vocabulary",
+      "variants": "",
+      "english": ""
     },
     {
       "word": "de opname",
       "meaning": "住院",
       "example": "",
-      "note": "",
+      "note": "金融、医疗与常用动词",
       "importance": "本章核心",
       "topic": "Gezondheid en gezondheidszorg in Nederland",
       "topicId": "gezondheid-en-gezondheidszorg-in-nederland",
-      "source": "Full chapter core vocabulary"
+      "source": "Full chapter core vocabulary",
+      "variants": "",
+      "english": ""
     },
     {
       "word": "de fysiotherapeut",
       "meaning": "理疗师",
       "example": "",
-      "note": "",
+      "note": "医疗与健康",
       "importance": "本章核心",
       "topic": "Gezondheid en gezondheidszorg in Nederland",
       "topicId": "gezondheid-en-gezondheidszorg-in-nederland",
-      "source": "Full chapter core vocabulary"
+      "source": "Full chapter core vocabulary",
+      "variants": "fysiotherapeuten",
+      "english": "physiotherapist"
     },
     {
       "word": "de tandarts",
       "meaning": "牙医",
       "example": "",
-      "note": "",
+      "note": "医疗与健康",
       "importance": "本章核心",
       "topic": "Gezondheid en gezondheidszorg in Nederland",
       "topicId": "gezondheid-en-gezondheidszorg-in-nederland",
-      "source": "Full chapter core vocabulary"
+      "source": "Full chapter core vocabulary",
+      "variants": "tandartsen",
+      "english": "dentist"
     },
     {
       "word": "de huisartsenpost",
       "meaning": "夜间/周末家庭医生值班点",
       "example": "",
-      "note": "",
+      "note": "医疗与健康",
       "importance": "本章核心",
       "topic": "Gezondheid en gezondheidszorg in Nederland",
       "topicId": "gezondheid-en-gezondheidszorg-in-nederland",
-      "source": "Full chapter core vocabulary"
+      "source": "Full chapter core vocabulary",
+      "variants": "huisartsenposten",
+      "english": "out-of-hours GP service"
     },
     {
       "word": "de SEH",
       "meaning": "急诊科",
       "example": "",
-      "note": "",
+      "note": "医疗与健康",
       "importance": "本章核心",
       "topic": "Gezondheid en gezondheidszorg in Nederland",
       "topicId": "gezondheid-en-gezondheidszorg-in-nederland",
-      "source": "Full chapter core vocabulary"
+      "source": "Full chapter core vocabulary",
+      "variants": "Spoedeisende Hulp",
+      "english": "emergency department"
     },
     {
       "word": "de premie",
       "meaning": "保费",
       "example": "",
-      "note": "",
+      "note": "医疗与健康",
       "importance": "本章核心",
       "topic": "Gezondheid en gezondheidszorg in Nederland",
       "topicId": "gezondheid-en-gezondheidszorg-in-nederland",
-      "source": "Full chapter core vocabulary"
+      "source": "Full chapter core vocabulary",
+      "variants": "premies",
+      "english": "insurance premium"
     },
     {
       "word": "de basisverzekering",
       "meaning": "基础保险",
       "example": "",
-      "note": "",
+      "note": "医疗与健康",
       "importance": "本章核心",
       "topic": "Gezondheid en gezondheidszorg in Nederland",
       "topicId": "gezondheid-en-gezondheidszorg-in-nederland",
-      "source": "Full chapter core vocabulary"
+      "source": "Full chapter core vocabulary",
+      "variants": "basisverzekeringen",
+      "english": "basic health insurance"
     },
     {
       "word": "de aanvullende verzekering",
       "meaning": "附加保险",
       "example": "",
-      "note": "",
+      "note": "医疗与健康",
       "importance": "本章核心",
       "topic": "Gezondheid en gezondheidszorg in Nederland",
       "topicId": "gezondheid-en-gezondheidszorg-in-nederland",
-      "source": "Full chapter core vocabulary"
+      "source": "Full chapter core vocabulary",
+      "variants": "aanvullende verzekeringen",
+      "english": "supplementary insurance"
     },
     {
       "word": "de eigen bijdrage",
@@ -42726,11 +42992,13 @@ export const KNM_CONTENT = {
       "word": "verslaafd",
       "meaning": "上瘾的",
       "example": "",
-      "note": "",
+      "note": "金融、医疗与常用动词",
       "importance": "本章核心",
       "topic": "Gezondheid en gezondheidszorg in Nederland",
       "topicId": "gezondheid-en-gezondheidszorg-in-nederland",
-      "source": "Full chapter core vocabulary"
+      "source": "Full chapter core vocabulary",
+      "variants": "",
+      "english": ""
     },
     {
       "word": "meeroken",
@@ -42836,11 +43104,13 @@ export const KNM_CONTENT = {
       "word": "de rente",
       "meaning": "利息",
       "example": "",
-      "note": "",
+      "note": "居留、住房、税费与保险",
       "importance": "本章核心",
       "topic": "Wonen in Nederland",
       "topicId": "wonen-in-nederland",
-      "source": "Full chapter core vocabulary"
+      "source": "Full chapter core vocabulary",
+      "variants": "",
+      "english": ""
     },
     {
       "word": "de bezichtiging",
@@ -42875,22 +43145,26 @@ export const KNM_CONTENT = {
     {
       "word": "het onderhoud",
       "meaning": "维护",
-      "example": "",
+      "example": "groot onderhoud",
       "note": "",
       "importance": "本章核心",
       "topic": "Wonen in Nederland",
       "topicId": "wonen-in-nederland",
-      "source": "Full chapter core vocabulary"
+      "source": "Full chapter core vocabulary",
+      "variants": "",
+      "english": ""
     },
     {
       "word": "huren",
       "meaning": "租赁",
-      "example": "",
+      "example": "een woning huren",
       "note": "",
       "importance": "本章核心",
       "topic": "Wonen in Nederland",
       "topicId": "wonen-in-nederland",
-      "source": "Full chapter core vocabulary"
+      "source": "Full chapter core vocabulary",
+      "variants": "",
+      "english": ""
     },
     {
       "word": "inschrijven",
@@ -42916,21 +43190,25 @@ export const KNM_CONTENT = {
       "word": "de urgentieverklaring",
       "meaning": "紧急住房优先证明",
       "example": "",
-      "note": "",
+      "note": "居留、住房、税费与保险",
       "importance": "本章核心",
       "topic": "Wonen in Nederland",
       "topicId": "wonen-in-nederland",
-      "source": "Full chapter core vocabulary"
+      "source": "Full chapter core vocabulary",
+      "variants": "",
+      "english": ""
     },
     {
       "word": "het huurcontract",
       "meaning": "租赁合同",
-      "example": "",
+      "example": "een huurcontract tekenen",
       "note": "",
       "importance": "本章核心",
       "topic": "Wonen in Nederland",
       "topicId": "wonen-in-nederland",
-      "source": "Full chapter core vocabulary"
+      "source": "Full chapter core vocabulary",
+      "variants": "",
+      "english": ""
     },
     {
       "word": "de huurder",
@@ -43015,22 +43293,26 @@ export const KNM_CONTENT = {
     {
       "word": "de vergunning",
       "meaning": "许可证",
-      "example": "",
+      "example": "een vergunning aanvragen",
       "note": "",
       "importance": "本章核心",
       "topic": "Wonen in Nederland",
       "topicId": "wonen-in-nederland",
-      "source": "Full chapter core vocabulary"
+      "source": "Full chapter core vocabulary",
+      "variants": "",
+      "english": ""
     },
     {
       "word": "het grofvuil",
       "meaning": "大件垃圾",
       "example": "",
-      "note": "",
+      "note": "居留、住房、税费与保险",
       "importance": "本章核心",
       "topic": "Wonen in Nederland",
       "topicId": "wonen-in-nederland",
-      "source": "Full chapter core vocabulary"
+      "source": "Full chapter core vocabulary",
+      "variants": "",
+      "english": ""
     },
     {
       "word": "de jaarafrekening",
@@ -43046,11 +43328,13 @@ export const KNM_CONTENT = {
       "word": "zuinig",
       "meaning": "节约的",
       "example": "",
-      "note": "",
+      "note": "居留、住房、税费与保险",
       "importance": "本章核心",
       "topic": "Wonen in Nederland",
       "topicId": "wonen-in-nederland",
-      "source": "Full chapter core vocabulary"
+      "source": "Full chapter core vocabulary",
+      "variants": "",
+      "english": ""
     },
     {
       "word": "het abonnement",
@@ -43076,41 +43360,49 @@ export const KNM_CONTENT = {
       "word": "de premie",
       "meaning": "保费",
       "example": "",
-      "note": "",
+      "note": "居留、住房、税费与保险",
       "importance": "本章核心",
       "topic": "Wonen in Nederland",
       "topicId": "wonen-in-nederland",
-      "source": "Full chapter core vocabulary"
+      "source": "Full chapter core vocabulary",
+      "variants": "",
+      "english": ""
     },
     {
       "word": "de polis",
       "meaning": "保单",
       "example": "",
-      "note": "",
+      "note": "居留、住房、税费与保险",
       "importance": "本章核心",
       "topic": "Wonen in Nederland",
       "topicId": "wonen-in-nederland",
-      "source": "Full chapter core vocabulary"
+      "source": "Full chapter core vocabulary",
+      "variants": "",
+      "english": ""
     },
     {
       "word": "de schade",
       "meaning": "损失",
-      "example": "",
-      "note": "",
+      "example": "schade melden",
+      "note": "居留、住房、税费与保险",
       "importance": "本章核心",
       "topic": "Wonen in Nederland",
       "topicId": "wonen-in-nederland",
-      "source": "Full chapter core vocabulary"
+      "source": "Full chapter core vocabulary",
+      "variants": "",
+      "english": ""
     },
     {
       "word": "de dienstverlening",
       "meaning": "公共/专业服务",
       "example": "",
-      "note": "",
+      "note": "地理、社会与公共服务",
       "importance": "本章核心",
       "topic": "Dienstverlening in Nederland",
       "topicId": "dienstverlening-in-nederland",
-      "source": "Full chapter core vocabulary"
+      "source": "Full chapter core vocabulary",
+      "variants": "",
+      "english": ""
     },
     {
       "word": "de diefstal",
@@ -43146,21 +43438,25 @@ export const KNM_CONTENT = {
       "word": "de bekeuring",
       "meaning": "罚单",
       "example": "",
-      "note": "",
+      "note": "地理、社会与公共服务",
       "importance": "本章核心",
       "topic": "Dienstverlening in Nederland",
       "topicId": "dienstverlening-in-nederland",
-      "source": "Full chapter core vocabulary"
+      "source": "Full chapter core vocabulary",
+      "variants": "",
+      "english": ""
     },
     {
       "word": "inschrijven",
       "meaning": "登记",
       "example": "",
-      "note": "",
+      "note": "住房与日常行政",
       "importance": "本章核心",
       "topic": "Dienstverlening in Nederland",
       "topicId": "dienstverlening-in-nederland",
-      "source": "Full chapter core vocabulary"
+      "source": "Full chapter core vocabulary",
+      "variants": "schrijft in; schreef in; heeft ingeschreven",
+      "english": "to register"
     },
     {
       "word": "het uittreksel",
@@ -43186,11 +43482,13 @@ export const KNM_CONTENT = {
       "word": "bezwaar maken",
       "meaning": "提出异议",
       "example": "",
-      "note": "",
+      "note": "政府服务、银行与法律",
       "importance": "本章核心",
       "topic": "Dienstverlening in Nederland",
       "topicId": "dienstverlening-in-nederland",
-      "source": "Full chapter core vocabulary"
+      "source": "Full chapter core vocabulary",
+      "variants": "maakt bezwaar; heeft bezwaar gemaakt",
+      "english": "to lodge an objection"
     },
     {
       "word": "in termijnen betalen",
@@ -43206,11 +43504,13 @@ export const KNM_CONTENT = {
       "word": "de toeslag",
       "meaning": "补贴",
       "example": "",
-      "note": "",
+      "note": "政府服务、银行与法律",
       "importance": "本章核心",
       "topic": "Dienstverlening in Nederland",
       "topicId": "dienstverlening-in-nederland",
-      "source": "Full chapter core vocabulary"
+      "source": "Full chapter core vocabulary",
+      "variants": "toeslagen",
+      "english": "allowance / benefit"
     },
     {
       "word": "de kinderbijslag",
@@ -43226,11 +43526,13 @@ export const KNM_CONTENT = {
       "word": "de bankrekening",
       "meaning": "银行账户",
       "example": "",
-      "note": "",
+      "note": "政府服务、银行与法律",
       "importance": "本章核心",
       "topic": "Dienstverlening in Nederland",
       "topicId": "dienstverlening-in-nederland",
-      "source": "Full chapter core vocabulary"
+      "source": "Full chapter core vocabulary",
+      "variants": "bankrekeningen",
+      "english": "bank account"
     },
     {
       "word": "rood staan",
@@ -43255,12 +43557,14 @@ export const KNM_CONTENT = {
     {
       "word": "de machtiging",
       "meaning": "授权",
-      "example": "",
-      "note": "",
+      "example": "Een machtiging voor automatische incasso.",
+      "note": "政府服务、银行与法律",
       "importance": "本章核心",
       "topic": "Dienstverlening in Nederland",
       "topicId": "dienstverlening-in-nederland",
-      "source": "Full chapter core vocabulary"
+      "source": "Full chapter core vocabulary",
+      "variants": "machtigingen",
+      "english": "authorisation"
     },
     {
       "word": "blokkeren",
@@ -43276,11 +43580,13 @@ export const KNM_CONTENT = {
       "word": "de IND",
       "meaning": "荷兰移民归化局",
       "example": "",
-      "note": "",
+      "note": "政府服务、银行与法律",
       "importance": "本章核心",
       "topic": "Dienstverlening in Nederland",
       "topicId": "dienstverlening-in-nederland",
-      "source": "Full chapter core vocabulary"
+      "source": "Full chapter core vocabulary",
+      "variants": "Immigratie- en Naturalisatiedienst",
+      "english": "Immigration and Naturalisation Service"
     },
     {
       "word": "de MVV",
@@ -43305,12 +43611,14 @@ export const KNM_CONTENT = {
     {
       "word": "naturalisatie",
       "meaning": "入籍",
-      "example": "",
+      "example": "Naturalisatie betekent Nederlander worden.",
       "note": "",
       "importance": "本章核心",
       "topic": "Dienstverlening in Nederland",
       "topicId": "dienstverlening-in-nederland",
-      "source": "Full chapter core vocabulary"
+      "source": "Full chapter core vocabulary",
+      "variants": "",
+      "english": ""
     },
     {
       "word": "de nationaliteit",
@@ -43366,21 +43674,25 @@ export const KNM_CONTENT = {
       "word": "de advocaat",
       "meaning": "律师",
       "example": "",
-      "note": "",
+      "note": "政府服务、银行与法律",
       "importance": "本章核心",
       "topic": "Dienstverlening in Nederland",
       "topicId": "dienstverlening-in-nederland",
-      "source": "Full chapter core vocabulary"
+      "source": "Full chapter core vocabulary",
+      "variants": "advocaten",
+      "english": "lawyer"
     },
     {
       "word": "de rechtszaak",
       "meaning": "诉讼",
       "example": "",
-      "note": "",
+      "note": "政府服务、银行与法律",
       "importance": "本章核心",
       "topic": "Dienstverlening in Nederland",
       "topicId": "dienstverlening-in-nederland",
-      "source": "Full chapter core vocabulary"
+      "source": "Full chapter core vocabulary",
+      "variants": "rechtszaken",
+      "english": "court case"
     },
     {
       "word": "de rechter",
@@ -43406,11 +43718,13 @@ export const KNM_CONTENT = {
       "word": "de GGZ",
       "meaning": "心理健康服务",
       "example": "",
-      "note": "",
+      "note": "政府服务、银行与法律",
       "importance": "本章核心",
       "topic": "Dienstverlening in Nederland",
       "topicId": "dienstverlening-in-nederland",
-      "source": "Full chapter core vocabulary"
+      "source": "Full chapter core vocabulary",
+      "variants": "geestelijke gezondheidszorg",
+      "english": "mental healthcare"
     },
     {
       "word": "opvoeden",
@@ -43426,51 +43740,61 @@ export const KNM_CONTENT = {
       "word": "de opvoeding",
       "meaning": "育儿、家庭教育",
       "example": "",
-      "note": "",
+      "note": "家庭、教育与社会关系",
       "importance": "本章核心",
       "topic": "Opvoeding en onderwijs in Nederland",
       "topicId": "opvoeding-en-onderwijs-in-nederland",
-      "source": "Full chapter core vocabulary"
+      "source": "Full chapter core vocabulary",
+      "variants": "",
+      "english": "upbringing / parenting"
     },
     {
       "word": "zwanger",
       "meaning": "怀孕的",
-      "example": "",
-      "note": "",
+      "example": "Zij is zwanger.",
+      "note": "家庭、教育与社会关系",
       "importance": "本章核心",
       "topic": "Opvoeding en onderwijs in Nederland",
       "topicId": "opvoeding-en-onderwijs-in-nederland",
-      "source": "Full chapter core vocabulary"
+      "source": "Full chapter core vocabulary",
+      "variants": "zwangere",
+      "english": "pregnant"
     },
     {
       "word": "bevallen",
       "meaning": "分娩",
-      "example": "",
-      "note": "",
+      "example": "Zij gaat in het ziekenhuis bevallen.",
+      "note": "家庭、教育与社会关系",
       "importance": "本章核心",
       "topic": "Opvoeding en onderwijs in Nederland",
       "topicId": "opvoeding-en-onderwijs-in-nederland",
-      "source": "Full chapter core vocabulary"
+      "source": "Full chapter core vocabulary",
+      "variants": "",
+      "english": ""
     },
     {
       "word": "de bevalling",
       "meaning": "分娩",
       "example": "",
-      "note": "",
+      "note": "育儿与教育",
       "importance": "本章核心",
       "topic": "Opvoeding en onderwijs in Nederland",
       "topicId": "opvoeding-en-onderwijs-in-nederland",
-      "source": "Full chapter core vocabulary"
+      "source": "Full chapter core vocabulary",
+      "variants": "bevallingen",
+      "english": "childbirth"
     },
     {
       "word": "de kraamzorg",
       "meaning": "产后居家照护",
       "example": "",
-      "note": "",
+      "note": "育儿与教育",
       "importance": "本章核心",
       "topic": "Opvoeding en onderwijs in Nederland",
       "topicId": "opvoeding-en-onderwijs-in-nederland",
-      "source": "Full chapter core vocabulary"
+      "source": "Full chapter core vocabulary",
+      "variants": "",
+      "english": "maternity care"
     },
     {
       "word": "het zwangerschapsverlof",
@@ -43485,22 +43809,26 @@ export const KNM_CONTENT = {
     {
       "word": "de vaccinatie",
       "meaning": "疫苗接种",
-      "example": "",
+      "example": "Het kind krijgt een vaccinatie.",
       "note": "",
       "importance": "本章核心",
       "topic": "Opvoeding en onderwijs in Nederland",
       "topicId": "opvoeding-en-onderwijs-in-nederland",
-      "source": "Full chapter core vocabulary"
+      "source": "Full chapter core vocabulary",
+      "variants": "",
+      "english": ""
     },
     {
       "word": "de oppas",
       "meaning": "保姆",
       "example": "",
-      "note": "",
+      "note": "家庭、教育与社会关系",
       "importance": "本章核心",
       "topic": "Opvoeding en onderwijs in Nederland",
       "topicId": "opvoeding-en-onderwijs-in-nederland",
-      "source": "Full chapter core vocabulary"
+      "source": "Full chapter core vocabulary",
+      "variants": "",
+      "english": ""
     },
     {
       "word": "de gastouder",
@@ -43516,11 +43844,13 @@ export const KNM_CONTENT = {
       "word": "het kinderdagverblijf",
       "meaning": "日托中心",
       "example": "",
-      "note": "",
+      "note": "育儿与教育",
       "importance": "本章核心",
       "topic": "Opvoeding en onderwijs in Nederland",
       "topicId": "opvoeding-en-onderwijs-in-nederland",
-      "source": "Full chapter core vocabulary"
+      "source": "Full chapter core vocabulary",
+      "variants": "kinderdagverblijven",
+      "english": "daycare centre"
     },
     {
       "word": "de buitenschoolse opvang",
@@ -43536,31 +43866,37 @@ export const KNM_CONTENT = {
       "word": "de kinderopvangtoeslag",
       "meaning": "托儿补贴",
       "example": "",
-      "note": "",
+      "note": "育儿与教育",
       "importance": "本章核心",
       "topic": "Opvoeding en onderwijs in Nederland",
       "topicId": "opvoeding-en-onderwijs-in-nederland",
-      "source": "Full chapter core vocabulary"
+      "source": "Full chapter core vocabulary",
+      "variants": "",
+      "english": "childcare allowance"
     },
     {
       "word": "het kindgebonden budget",
       "meaning": "儿童相关收入补贴",
       "example": "",
-      "note": "",
+      "note": "家庭、教育与社会关系",
       "importance": "本章核心",
       "topic": "Opvoeding en onderwijs in Nederland",
       "topicId": "opvoeding-en-onderwijs-in-nederland",
-      "source": "Full chapter core vocabulary"
+      "source": "Full chapter core vocabulary",
+      "variants": "",
+      "english": ""
     },
     {
       "word": "de jeugdhulp",
       "meaning": "青少年帮助",
       "example": "",
-      "note": "",
+      "note": "育儿与教育",
       "importance": "本章核心",
       "topic": "Opvoeding en onderwijs in Nederland",
       "topicId": "opvoeding-en-onderwijs-in-nederland",
-      "source": "Full chapter core vocabulary"
+      "source": "Full chapter core vocabulary",
+      "variants": "jeugdzorg",
+      "english": "youth care"
     },
     {
       "word": "de kindermishandeling",
@@ -43586,11 +43922,13 @@ export const KNM_CONTENT = {
       "word": "de voorschool",
       "meaning": "学前语言与发展支持",
       "example": "",
-      "note": "",
+      "note": "家庭、教育与社会关系",
       "importance": "本章核心",
       "topic": "Opvoeding en onderwijs in Nederland",
       "topicId": "opvoeding-en-onderwijs-in-nederland",
-      "source": "Full chapter core vocabulary"
+      "source": "Full chapter core vocabulary",
+      "variants": "voorscholen",
+      "english": "preschool programme"
     },
     {
       "word": "de wachtlijst",
@@ -43605,22 +43943,26 @@ export const KNM_CONTENT = {
     {
       "word": "het rapport",
       "meaning": "成绩报告",
-      "example": "",
-      "note": "",
+      "example": "Het kind krijgt een rapport.",
+      "note": "育儿与教育",
       "importance": "本章核心",
       "topic": "Opvoeding en onderwijs in Nederland",
       "topicId": "opvoeding-en-onderwijs-in-nederland",
-      "source": "Full chapter core vocabulary"
+      "source": "Full chapter core vocabulary",
+      "variants": "rapporten",
+      "english": "school report"
     },
     {
       "word": "de ouderavond",
       "meaning": "家长会",
-      "example": "",
-      "note": "",
+      "example": "De school organiseert een ouderavond.",
+      "note": "家庭、教育与社会关系",
       "importance": "本章核心",
       "topic": "Opvoeding en onderwijs in Nederland",
       "topicId": "opvoeding-en-onderwijs-in-nederland",
-      "source": "Full chapter core vocabulary"
+      "source": "Full chapter core vocabulary",
+      "variants": "",
+      "english": ""
     },
     {
       "word": "de doorstroomtoets",
@@ -43636,31 +43978,37 @@ export const KNM_CONTENT = {
       "word": "overblijven",
       "meaning": "午间留校",
       "example": "",
-      "note": "",
+      "note": "家庭、教育与社会关系",
       "importance": "本章核心",
       "topic": "Opvoeding en onderwijs in Nederland",
       "topicId": "opvoeding-en-onderwijs-in-nederland",
-      "source": "Full chapter core vocabulary"
+      "source": "Full chapter core vocabulary",
+      "variants": "",
+      "english": ""
     },
     {
       "word": "het speciaal onderwijs",
       "meaning": "特殊教育",
       "example": "",
-      "note": "",
+      "note": "育儿与教育",
       "importance": "本章核心",
       "topic": "Opvoeding en onderwijs in Nederland",
       "topicId": "opvoeding-en-onderwijs-in-nederland",
-      "source": "Full chapter core vocabulary"
+      "source": "Full chapter core vocabulary",
+      "variants": "",
+      "english": "special education"
     },
     {
       "word": "de middelbare school",
       "meaning": "中学",
       "example": "",
-      "note": "",
+      "note": "育儿与教育",
       "importance": "本章核心",
       "topic": "Opvoeding en onderwijs in Nederland",
       "topicId": "opvoeding-en-onderwijs-in-nederland",
-      "source": "Full chapter core vocabulary"
+      "source": "Full chapter core vocabulary",
+      "variants": "middelbare scholen",
+      "english": "secondary school"
     },
     {
       "word": "de brugklas",
@@ -43676,51 +44024,61 @@ export const KNM_CONTENT = {
       "word": "het VMBO",
       "meaning": "中等职业预备教育",
       "example": "",
-      "note": "",
+      "note": "育儿与教育",
       "importance": "本章核心",
       "topic": "Opvoeding en onderwijs in Nederland",
       "topicId": "opvoeding-en-onderwijs-in-nederland",
-      "source": "Full chapter core vocabulary"
+      "source": "Full chapter core vocabulary",
+      "variants": "",
+      "english": "pre-vocational secondary education"
     },
     {
       "word": "de HAVO",
       "meaning": "高级普通中等教育",
       "example": "",
-      "note": "",
+      "note": "育儿与教育",
       "importance": "本章核心",
       "topic": "Opvoeding en onderwijs in Nederland",
       "topicId": "opvoeding-en-onderwijs-in-nederland",
-      "source": "Full chapter core vocabulary"
+      "source": "Full chapter core vocabulary",
+      "variants": "",
+      "english": "senior general secondary education"
     },
     {
       "word": "het VWO",
       "meaning": "大学预科教育",
       "example": "",
-      "note": "",
+      "note": "育儿与教育",
       "importance": "本章核心",
       "topic": "Opvoeding en onderwijs in Nederland",
       "topicId": "opvoeding-en-onderwijs-in-nederland",
-      "source": "Full chapter core vocabulary"
+      "source": "Full chapter core vocabulary",
+      "variants": "",
+      "english": "pre-university education"
     },
     {
       "word": "het MBO",
       "meaning": "中等职业教育",
       "example": "",
-      "note": "",
+      "note": "育儿与教育",
       "importance": "本章核心",
       "topic": "Opvoeding en onderwijs in Nederland",
       "topicId": "opvoeding-en-onderwijs-in-nederland",
-      "source": "Full chapter core vocabulary"
+      "source": "Full chapter core vocabulary",
+      "variants": "",
+      "english": "secondary vocational education"
     },
     {
       "word": "het HBO",
       "meaning": "应用科学高等教育",
       "example": "",
-      "note": "",
+      "note": "育儿与教育",
       "importance": "本章核心",
       "topic": "Opvoeding en onderwijs in Nederland",
       "topicId": "opvoeding-en-onderwijs-in-nederland",
-      "source": "Full chapter core vocabulary"
+      "source": "Full chapter core vocabulary",
+      "variants": "",
+      "english": "higher professional education"
     },
     {
       "word": "de universiteit",
@@ -43736,11 +44094,13 @@ export const KNM_CONTENT = {
       "word": "de ouderbijdrage",
       "meaning": "家长自愿缴费",
       "example": "",
-      "note": "",
+      "note": "家庭、教育与社会关系",
       "importance": "本章核心",
       "topic": "Opvoeding en onderwijs in Nederland",
       "topicId": "opvoeding-en-onderwijs-in-nederland",
-      "source": "Full chapter core vocabulary"
+      "source": "Full chapter core vocabulary",
+      "variants": "",
+      "english": ""
     },
     {
       "word": "de baan",
@@ -43756,31 +44116,37 @@ export const KNM_CONTENT = {
       "word": "het vrijwilligerswerk",
       "meaning": "志愿工作",
       "example": "",
-      "note": "",
+      "note": "工作与职业",
       "importance": "本章核心",
       "topic": "Werken in Nederland",
       "topicId": "werken-in-nederland",
-      "source": "Full chapter core vocabulary"
+      "source": "Full chapter core vocabulary",
+      "variants": "",
+      "english": "voluntary work"
     },
     {
       "word": "tijdelijk",
       "meaning": "临时的",
       "example": "",
-      "note": "",
+      "note": "工作",
       "importance": "本章核心",
       "topic": "Werken in Nederland",
       "topicId": "werken-in-nederland",
-      "source": "Full chapter core vocabulary"
+      "source": "Full chapter core vocabulary",
+      "variants": "tijdelijke",
+      "english": "temporary"
     },
     {
       "word": "vast",
       "meaning": "固定的",
       "example": "",
-      "note": "",
+      "note": "工作",
       "importance": "本章核心",
       "topic": "Werken in Nederland",
       "topicId": "werken-in-nederland",
-      "source": "Full chapter core vocabulary"
+      "source": "Full chapter core vocabulary",
+      "variants": "vaste",
+      "english": "permanent / fixed"
     },
     {
       "word": "flexibel",
@@ -43796,11 +44162,13 @@ export const KNM_CONTENT = {
       "word": "het uitzendbureau",
       "meaning": "劳务派遣公司",
       "example": "",
-      "note": "",
+      "note": "工作与职业",
       "importance": "本章核心",
       "topic": "Werken in Nederland",
       "topicId": "werken-in-nederland",
-      "source": "Full chapter core vocabulary"
+      "source": "Full chapter core vocabulary",
+      "variants": "uitzendbureaus",
+      "english": "employment agency"
     },
     {
       "word": "de zelfstandige",
@@ -43816,51 +44184,61 @@ export const KNM_CONTENT = {
       "word": "zwart werken",
       "meaning": "黑工/不报税工作",
       "example": "",
-      "note": "",
+      "note": "工作",
       "importance": "本章核心",
       "topic": "Werken in Nederland",
       "topicId": "werken-in-nederland",
-      "source": "Full chapter core vocabulary"
+      "source": "Full chapter core vocabulary",
+      "variants": "werkt zwart; heeft zwart gewerkt",
+      "english": "to work off the books"
     },
     {
       "word": "parttime",
       "meaning": "兼职",
       "example": "",
-      "note": "",
+      "note": "工作",
       "importance": "本章核心",
       "topic": "Werken in Nederland",
       "topicId": "werken-in-nederland",
-      "source": "Full chapter core vocabulary"
+      "source": "Full chapter core vocabulary",
+      "variants": "",
+      "english": "part-time"
     },
     {
       "word": "fulltime",
       "meaning": "全职",
       "example": "",
-      "note": "",
+      "note": "工作",
       "importance": "本章核心",
       "topic": "Werken in Nederland",
       "topicId": "werken-in-nederland",
-      "source": "Full chapter core vocabulary"
+      "source": "Full chapter core vocabulary",
+      "variants": "",
+      "english": "full-time"
     },
     {
       "word": "de werkgever",
       "meaning": "雇主",
-      "example": "",
-      "note": "",
+      "example": "De werkgever betaalt loon.",
+      "note": "工作",
       "importance": "本章核心",
       "topic": "Werken in Nederland",
       "topicId": "werken-in-nederland",
-      "source": "Full chapter core vocabulary"
+      "source": "Full chapter core vocabulary",
+      "variants": "werkgevers",
+      "english": "employer"
     },
     {
       "word": "de werknemer",
       "meaning": "雇员",
-      "example": "",
-      "note": "",
+      "example": "De werknemer heeft rechten en plichten.",
+      "note": "工作",
       "importance": "本章核心",
       "topic": "Werken in Nederland",
       "topicId": "werken-in-nederland",
-      "source": "Full chapter core vocabulary"
+      "source": "Full chapter core vocabulary",
+      "variants": "werknemers",
+      "english": "employee"
     },
     {
       "word": "de dienstensector",
@@ -43876,41 +44254,49 @@ export const KNM_CONTENT = {
       "word": "het diploma",
       "meaning": "文凭",
       "example": "",
-      "note": "",
+      "note": "工作",
       "importance": "本章核心",
       "topic": "Werken in Nederland",
       "topicId": "werken-in-nederland",
-      "source": "Full chapter core vocabulary"
+      "source": "Full chapter core vocabulary",
+      "variants": "diploma's",
+      "english": "diploma"
     },
     {
       "word": "diploma waarderen",
       "meaning": "学历评估",
       "example": "",
-      "note": "",
+      "note": "工作与职业",
       "importance": "本章核心",
       "topic": "Werken in Nederland",
       "topicId": "werken-in-nederland",
-      "source": "Full chapter core vocabulary"
+      "source": "Full chapter core vocabulary",
+      "variants": "",
+      "english": ""
     },
     {
       "word": "ongeschoold werk",
       "meaning": "无学历要求工作",
       "example": "",
-      "note": "",
+      "note": "工作与职业",
       "importance": "本章核心",
       "topic": "Werken in Nederland",
       "topicId": "werken-in-nederland",
-      "source": "Full chapter core vocabulary"
+      "source": "Full chapter core vocabulary",
+      "variants": "",
+      "english": ""
     },
     {
       "word": "de opleiding",
       "meaning": "教育/职业培训",
       "example": "",
-      "note": "",
+      "note": "工作",
       "importance": "本章核心",
       "topic": "Werken in Nederland",
       "topicId": "werken-in-nederland",
-      "source": "Full chapter core vocabulary"
+      "source": "Full chapter core vocabulary",
+      "variants": "opleidingen",
+      "english": "education / training"
     },
     {
       "word": "de cursus",
@@ -43926,11 +44312,13 @@ export const KNM_CONTENT = {
       "word": "de stage",
       "meaning": "实习",
       "example": "",
-      "note": "",
+      "note": "工作",
       "importance": "本章核心",
       "topic": "Werken in Nederland",
       "topicId": "werken-in-nederland",
-      "source": "Full chapter core vocabulary"
+      "source": "Full chapter core vocabulary",
+      "variants": "stages",
+      "english": "internship"
     },
     {
       "word": "de bijscholing",
@@ -43956,11 +44344,13 @@ export const KNM_CONTENT = {
       "word": "de kwaliteit",
       "meaning": "优点、能力",
       "example": "",
-      "note": "",
+      "note": "工作与职业",
       "importance": "本章核心",
       "topic": "Werken in Nederland",
       "topicId": "werken-in-nederland",
-      "source": "Full chapter core vocabulary"
+      "source": "Full chapter core vocabulary",
+      "variants": "",
+      "english": ""
     },
     {
       "word": "de motivatie",
@@ -43976,11 +44366,13 @@ export const KNM_CONTENT = {
       "word": "de ervaring",
       "meaning": "经验",
       "example": "",
-      "note": "",
+      "note": "工作",
       "importance": "本章核心",
       "topic": "Werken in Nederland",
       "topicId": "werken-in-nederland",
-      "source": "Full chapter core vocabulary"
+      "source": "Full chapter core vocabulary",
+      "variants": "ervaringen",
+      "english": "experience"
     },
     {
       "word": "werkzoekend",
@@ -43995,22 +44387,26 @@ export const KNM_CONTENT = {
     {
       "word": "werkloos",
       "meaning": "失业的",
-      "example": "",
-      "note": "",
+      "example": "zich inschrijven als werkzoekende",
+      "note": "工作与职业",
       "importance": "本章核心",
       "topic": "Werken in Nederland",
       "topicId": "werken-in-nederland",
-      "source": "Full chapter core vocabulary"
+      "source": "Full chapter core vocabulary",
+      "variants": "",
+      "english": ""
     },
     {
       "word": "de uitkering",
       "meaning": "福利待遇",
-      "example": "",
+      "example": "een uitkering aanvragen",
       "note": "",
       "importance": "本章核心",
       "topic": "Werken in Nederland",
       "topicId": "werken-in-nederland",
-      "source": "Full chapter core vocabulary"
+      "source": "Full chapter core vocabulary",
+      "variants": "",
+      "english": ""
     },
     {
       "word": "de werkcoach",
@@ -44026,31 +44422,37 @@ export const KNM_CONTENT = {
       "word": "de WW",
       "meaning": "失业保险待遇",
       "example": "",
-      "note": "",
+      "note": "工作",
       "importance": "本章核心",
       "topic": "Werken in Nederland",
       "topicId": "werken-in-nederland",
-      "source": "Full chapter core vocabulary"
+      "source": "Full chapter core vocabulary",
+      "variants": "werkloosheidsuitkering",
+      "english": "unemployment benefit"
     },
     {
       "word": "de WIA",
       "meaning": "劳动能力丧失待遇",
       "example": "",
-      "note": "",
+      "note": "工作",
       "importance": "本章核心",
       "topic": "Werken in Nederland",
       "topicId": "werken-in-nederland",
-      "source": "Full chapter core vocabulary"
+      "source": "Full chapter core vocabulary",
+      "variants": "",
+      "english": "disability benefit scheme"
     },
     {
       "word": "de bijstand",
       "meaning": "最低生活保障",
       "example": "",
-      "note": "",
+      "note": "工作",
       "importance": "本章核心",
       "topic": "Werken in Nederland",
       "topicId": "werken-in-nederland",
-      "source": "Full chapter core vocabulary"
+      "source": "Full chapter core vocabulary",
+      "variants": "",
+      "english": "social assistance"
     },
     {
       "word": "de functie-eis",
@@ -44066,71 +44468,85 @@ export const KNM_CONTENT = {
       "word": "het sollicitatiegesprek",
       "meaning": "面试",
       "example": "",
-      "note": "",
+      "note": "工作",
       "importance": "本章核心",
       "topic": "Werken in Nederland",
       "topicId": "werken-in-nederland",
-      "source": "Full chapter core vocabulary"
+      "source": "Full chapter core vocabulary",
+      "variants": "sollicitatiegesprekken",
+      "english": "job interview"
     },
     {
       "word": "de arbeidsvoorwaarden",
       "meaning": "劳动条件",
       "example": "",
-      "note": "",
+      "note": "工作与职业",
       "importance": "本章核心",
       "topic": "Werken in Nederland",
       "topicId": "werken-in-nederland",
-      "source": "Full chapter core vocabulary"
+      "source": "Full chapter core vocabulary",
+      "variants": "",
+      "english": "employment conditions"
     },
     {
       "word": "ontslag nemen",
       "meaning": "辞职",
-      "example": "",
-      "note": "",
+      "example": "zelf stoppen met werken",
+      "note": "工作与职业",
       "importance": "本章核心",
       "topic": "Werken in Nederland",
       "topicId": "werken-in-nederland",
-      "source": "Full chapter core vocabulary"
+      "source": "Full chapter core vocabulary",
+      "variants": "",
+      "english": ""
     },
     {
       "word": "ontslag krijgen",
       "meaning": "被解雇",
-      "example": "",
-      "note": "",
+      "example": "de werkgever beëindigt het werk",
+      "note": "工作与职业",
       "importance": "本章核心",
       "topic": "Werken in Nederland",
       "topicId": "werken-in-nederland",
-      "source": "Full chapter core vocabulary"
+      "source": "Full chapter core vocabulary",
+      "variants": "",
+      "english": ""
     },
     {
       "word": "de CAO",
       "meaning": "集体劳动协议",
       "example": "",
-      "note": "",
+      "note": "工作",
       "importance": "本章核心",
       "topic": "Werken in Nederland",
       "topicId": "werken-in-nederland",
-      "source": "Full chapter core vocabulary"
+      "source": "Full chapter core vocabulary",
+      "variants": "cao's; collectieve arbeidsovereenkomst",
+      "english": "collective labour agreement"
     },
     {
       "word": "de ondernemer",
       "meaning": "企业家/自雇者",
-      "example": "",
-      "note": "",
+      "example": "een eigen bedrijf beginnen",
+      "note": "工作与职业",
       "importance": "本章核心",
       "topic": "Werken in Nederland",
       "topicId": "werken-in-nederland",
-      "source": "Full chapter core vocabulary"
+      "source": "Full chapter core vocabulary",
+      "variants": "",
+      "english": ""
     },
     {
       "word": "het ondernemingsplan",
       "meaning": "商业计划",
       "example": "",
-      "note": "",
+      "note": "工作与职业",
       "importance": "本章核心",
       "topic": "Werken in Nederland",
       "topicId": "werken-in-nederland",
-      "source": "Full chapter core vocabulary"
+      "source": "Full chapter core vocabulary",
+      "variants": "",
+      "english": ""
     },
     {
       "word": "de Kamer van Koophandel",
@@ -44146,51 +44562,61 @@ export const KNM_CONTENT = {
       "word": "de loonstrook",
       "meaning": "工资单",
       "example": "",
-      "note": "",
+      "note": "工作",
       "importance": "本章核心",
       "topic": "Werken in Nederland",
       "topicId": "werken-in-nederland",
-      "source": "Full chapter core vocabulary"
+      "source": "Full chapter core vocabulary",
+      "variants": "loonstroken",
+      "english": "payslip"
     },
     {
       "word": "de jaaropgave",
       "meaning": "年度工资汇总",
       "example": "",
-      "note": "",
+      "note": "工作与职业",
       "importance": "本章核心",
       "topic": "Werken in Nederland",
       "topicId": "werken-in-nederland",
-      "source": "Full chapter core vocabulary"
+      "source": "Full chapter core vocabulary",
+      "variants": "jaaropgaven",
+      "english": "annual income statement"
     },
     {
       "word": "de vakbond",
       "meaning": "工会",
       "example": "",
-      "note": "",
+      "note": "工作与职业",
       "importance": "本章核心",
       "topic": "Werken in Nederland",
       "topicId": "werken-in-nederland",
-      "source": "Full chapter core vocabulary"
+      "source": "Full chapter core vocabulary",
+      "variants": "vakbonden",
+      "english": "trade union"
     },
     {
       "word": "de ondernemingsraad",
       "meaning": "企业职工委员会",
       "example": "",
-      "note": "",
+      "note": "工作与职业",
       "importance": "本章核心",
       "topic": "Werken in Nederland",
       "topicId": "werken-in-nederland",
-      "source": "Full chapter core vocabulary"
+      "source": "Full chapter core vocabulary",
+      "variants": "ondernemingsraden; OR",
+      "english": "works council"
     },
     {
       "word": "de Arbowet",
       "meaning": "工作安全健康法",
       "example": "",
-      "note": "",
+      "note": "工作",
       "importance": "本章核心",
       "topic": "Werken in Nederland",
       "topicId": "werken-in-nederland",
-      "source": "Full chapter core vocabulary"
+      "source": "Full chapter core vocabulary",
+      "variants": "",
+      "english": "Working Conditions Act"
     },
     {
       "word": "de collega",
@@ -44246,11 +44672,13 @@ export const KNM_CONTENT = {
       "word": "kritiek",
       "meaning": "批评、反馈",
       "example": "",
-      "note": "",
+      "note": "工作与职业",
       "importance": "本章核心",
       "topic": "Werken in Nederland",
       "topicId": "werken-in-nederland",
-      "source": "Full chapter core vocabulary"
+      "source": "Full chapter core vocabulary",
+      "variants": "",
+      "english": ""
     },
     {
       "word": "het functioneringsgesprek",
@@ -44276,11 +44704,13 @@ export const KNM_CONTENT = {
       "word": "discriminatie",
       "meaning": "歧视",
       "example": "",
-      "note": "",
+      "note": "工作",
       "importance": "本章核心",
       "topic": "Werken in Nederland",
       "topicId": "werken-in-nederland",
-      "source": "Full chapter core vocabulary"
+      "source": "Full chapter core vocabulary",
+      "variants": "",
+      "english": "discrimination"
     },
     {
       "word": "alleen wonen",
@@ -44345,12 +44775,14 @@ export const KNM_CONTENT = {
     {
       "word": "seksuele voorlichting",
       "meaning": "性教育",
-      "example": "",
+      "example": "informatie over lichaam, relaties en veiligheid",
       "note": "",
       "importance": "本章核心",
       "topic": "Samenleven in Nederland",
       "topicId": "samenleven-in-nederland",
-      "source": "Full chapter core vocabulary"
+      "source": "Full chapter core vocabulary",
+      "variants": "",
+      "english": ""
     },
     {
       "word": "homo",
@@ -44455,12 +44887,14 @@ export const KNM_CONTENT = {
     {
       "word": "respect",
       "meaning": "尊重",
-      "example": "",
+      "example": "respect voor verschillen",
       "note": "",
       "importance": "本章核心",
       "topic": "Samenleven in Nederland",
       "topicId": "samenleven-in-nederland",
-      "source": "Full chapter core vocabulary"
+      "source": "Full chapter core vocabulary",
+      "variants": "",
+      "english": ""
     },
     {
       "word": "de toestemming",
@@ -44586,11 +45020,13 @@ export const KNM_CONTENT = {
       "word": "het kasteel",
       "meaning": "城堡",
       "example": "",
-      "note": "",
+      "note": "历史",
       "importance": "本章核心",
       "topic": "De geschiedenis van Nederland",
       "topicId": "de-geschiedenis-van-nederland",
-      "source": "Full chapter core vocabulary"
+      "source": "Full chapter core vocabulary",
+      "variants": "",
+      "english": ""
     },
     {
       "word": "katholiek",
@@ -44646,11 +45082,13 @@ export const KNM_CONTENT = {
       "word": "doodschieten",
       "meaning": "枪杀",
       "example": "",
-      "note": "",
+      "note": "历史",
       "importance": "本章核心",
       "topic": "De geschiedenis van Nederland",
       "topicId": "de-geschiedenis-van-nederland",
-      "source": "Full chapter core vocabulary"
+      "source": "Full chapter core vocabulary",
+      "variants": "",
+      "english": ""
     },
     {
       "word": "de republiek",
@@ -44675,12 +45113,14 @@ export const KNM_CONTENT = {
     {
       "word": "de handel",
       "meaning": "贸易",
-      "example": "",
+      "example": "handel over zee",
       "note": "",
       "importance": "本章核心",
       "topic": "De geschiedenis van Nederland",
       "topicId": "de-geschiedenis-van-nederland",
-      "source": "Full chapter core vocabulary"
+      "source": "Full chapter core vocabulary",
+      "variants": "",
+      "english": ""
     },
     {
       "word": "de Gouden Eeuw",
@@ -44696,11 +45136,13 @@ export const KNM_CONTENT = {
       "word": "de specerij",
       "meaning": "香料",
       "example": "",
-      "note": "",
+      "note": "历史",
       "importance": "本章核心",
       "topic": "De geschiedenis van Nederland",
       "topicId": "de-geschiedenis-van-nederland",
-      "source": "Full chapter core vocabulary"
+      "source": "Full chapter core vocabulary",
+      "variants": "",
+      "english": ""
     },
     {
       "word": "de slavernij",
@@ -44806,11 +45248,13 @@ export const KNM_CONTENT = {
       "word": "bombarderen",
       "meaning": "轰炸",
       "example": "",
-      "note": "",
+      "note": "历史",
       "importance": "本章核心",
       "topic": "De geschiedenis van Nederland",
       "topicId": "de-geschiedenis-van-nederland",
-      "source": "Full chapter core vocabulary"
+      "source": "Full chapter core vocabulary",
+      "variants": "",
+      "english": ""
     },
     {
       "word": "de Jood",
@@ -44955,12 +45399,14 @@ export const KNM_CONTENT = {
     {
       "word": "de meerderheid",
       "meaning": "多数",
-      "example": "",
-      "note": "",
+      "example": "meer dan de helft",
+      "note": "政治、法律与民主",
       "importance": "本章核心",
       "topic": "Politiek in Nederland",
       "topicId": "politiek-in-nederland",
-      "source": "Full chapter core vocabulary"
+      "source": "Full chapter core vocabulary",
+      "variants": "",
+      "english": ""
     },
     {
       "word": "de Tweede Kamer",
@@ -45016,11 +45462,13 @@ export const KNM_CONTENT = {
       "word": "de troonrede",
       "meaning": "王座演说",
       "example": "",
-      "note": "",
+      "note": "政治、法律与民主",
       "importance": "本章核心",
       "topic": "Politiek in Nederland",
       "topicId": "politiek-in-nederland",
-      "source": "Full chapter core vocabulary"
+      "source": "Full chapter core vocabulary",
+      "variants": "",
+      "english": ""
     },
     {
       "word": "de Provinciale Staten",
@@ -45056,11 +45504,13 @@ export const KNM_CONTENT = {
       "word": "de gemeenteraad",
       "meaning": "市议会",
       "example": "",
-      "note": "",
+      "note": "政治、法律与民主",
       "importance": "本章核心",
       "topic": "Politiek in Nederland",
       "topicId": "politiek-in-nederland",
-      "source": "Full chapter core vocabulary"
+      "source": "Full chapter core vocabulary",
+      "variants": "",
+      "english": ""
     },
     {
       "word": "de burgemeester",
@@ -45136,11 +45586,13 @@ export const KNM_CONTENT = {
       "word": "de uitslag",
       "meaning": "结果",
       "example": "",
-      "note": "",
+      "note": "政治、法律与民主",
       "importance": "本章核心",
       "topic": "Politiek in Nederland",
       "topicId": "politiek-in-nederland",
-      "source": "Full chapter core vocabulary"
+      "source": "Full chapter core vocabulary",
+      "variants": "",
+      "english": ""
     },
     {
       "word": "de coalitie",
@@ -45165,12 +45617,14 @@ export const KNM_CONTENT = {
     {
       "word": "de oppositie",
       "meaning": "反对党",
-      "example": "",
+      "example": "partijen buiten het kabinet",
       "note": "",
       "importance": "本章核心",
       "topic": "Politiek in Nederland",
       "topicId": "politiek-in-nederland",
-      "source": "Full chapter core vocabulary"
+      "source": "Full chapter core vocabulary",
+      "variants": "",
+      "english": ""
     },
     {
       "word": "de godsdienstvrijheid",
@@ -45186,11 +45640,13 @@ export const KNM_CONTENT = {
       "word": "de vrijheid van meningsuiting",
       "meaning": "言论自由",
       "example": "",
-      "note": "",
+      "note": "政治、法律与民主",
       "importance": "本章核心",
       "topic": "Politiek in Nederland",
       "topicId": "politiek-in-nederland",
-      "source": "Full chapter core vocabulary"
+      "source": "Full chapter core vocabulary",
+      "variants": "",
+      "english": ""
     },
     {
       "word": "de scheiding van machten",
@@ -45205,12 +45661,14 @@ export const KNM_CONTENT = {
     {
       "word": "de rechter",
       "meaning": "法官",
-      "example": "",
-      "note": "",
+      "example": "onafhankelijk beslissen",
+      "note": "政治、法律与民主",
       "importance": "本章核心",
       "topic": "Politiek in Nederland",
       "topicId": "politiek-in-nederland",
-      "source": "Full chapter core vocabulary"
+      "source": "Full chapter core vocabulary",
+      "variants": "",
+      "english": ""
     },
     {
       "word": "protesteren",
@@ -45236,11 +45694,13 @@ export const KNM_CONTENT = {
       "word": "de demonstratie",
       "meaning": "示威",
       "example": "",
-      "note": "",
+      "note": "政治、法律与民主",
       "importance": "本章核心",
       "topic": "Politiek in Nederland",
       "topicId": "politiek-in-nederland",
-      "source": "Full chapter core vocabulary"
+      "source": "Full chapter core vocabulary",
+      "variants": "",
+      "english": ""
     },
     {
       "word": "bevrijding",
@@ -45256,11 +45716,13 @@ export const KNM_CONTENT = {
       "word": "spoed",
       "meaning": "紧急情况",
       "example": "Bij spoed bel je eerst.",
-      "note": "",
-      "importance": "",
+      "note": "医疗与健康",
+      "importance": "KNM 高频",
       "topic": "Gezondheid en gezondheidszorg in Nederland",
       "topicId": "gezondheid-en-gezondheidszorg-in-nederland",
-      "source": "KNM study guide chapter vocabulary"
+      "source": "KNM study guide chapter vocabulary",
+      "variants": "",
+      "english": "emergency / urgency"
     },
     {
       "word": "kopen",
@@ -45286,11 +45748,13 @@ export const KNM_CONTENT = {
       "word": "instantie",
       "meaning": "机构",
       "example": "De gemeente is een instantie.",
-      "note": "",
-      "importance": "",
+      "note": "地理、社会与公共服务",
+      "importance": "综合词汇",
       "topic": "Dienstverlening in Nederland",
       "topicId": "dienstverlening-in-nederland",
-      "source": "KNM study guide chapter vocabulary"
+      "source": "KNM study guide chapter vocabulary",
+      "variants": "",
+      "english": ""
     },
     {
       "word": "aangifte",
@@ -45306,31 +45770,37 @@ export const KNM_CONTENT = {
       "word": "bedreigen",
       "meaning": "威胁",
       "example": "Iemand heeft mij bedreigd.",
-      "note": "",
-      "importance": "",
+      "note": "地理、社会与公共服务",
+      "importance": "综合词汇",
       "topic": "Dienstverlening in Nederland",
       "topicId": "dienstverlening-in-nederland",
-      "source": "KNM study guide chapter vocabulary"
+      "source": "KNM study guide chapter vocabulary",
+      "variants": "",
+      "english": ""
     },
     {
       "word": "geldig",
       "meaning": "有效的",
       "example": "Neem een geldig identiteitsbewijs mee.",
-      "note": "",
-      "importance": "",
+      "note": "地理、社会与公共服务",
+      "importance": "综合词汇",
       "topic": "Dienstverlening in Nederland",
       "topicId": "dienstverlening-in-nederland",
-      "source": "KNM study guide chapter vocabulary"
+      "source": "KNM study guide chapter vocabulary",
+      "variants": "",
+      "english": ""
     },
     {
       "word": "doorgeven",
       "meaning": "告知/申报变更",
       "example": "Geef je nieuwe adres door.",
-      "note": "",
-      "importance": "",
+      "note": "地理、社会与公共服务",
+      "importance": "综合词汇",
       "topic": "Dienstverlening in Nederland",
       "topicId": "dienstverlening-in-nederland",
-      "source": "KNM study guide chapter vocabulary"
+      "source": "KNM study guide chapter vocabulary",
+      "variants": "geeft door; gaf door; heeft doorgegeven",
+      "english": "to notify / pass on"
     },
     {
       "word": "bezwaar",
@@ -45356,21 +45826,25 @@ export const KNM_CONTENT = {
       "word": "werkervaring",
       "meaning": "工作经验",
       "example": "relevante werkervaring",
-      "note": "",
-      "importance": "",
+      "note": "工作与职业",
+      "importance": "综合词汇",
       "topic": "Werken in Nederland",
       "topicId": "werken-in-nederland",
-      "source": "KNM study guide chapter vocabulary"
+      "source": "KNM study guide chapter vocabulary",
+      "variants": "",
+      "english": ""
     },
     {
       "word": "arbeidscontract",
       "meaning": "劳动合同",
       "example": "een contract tekenen",
-      "note": "",
-      "importance": "",
+      "note": "工作",
+      "importance": "KNM 高频",
       "topic": "Werken in Nederland",
       "topicId": "werken-in-nederland",
-      "source": "KNM study guide chapter vocabulary"
+      "source": "KNM study guide chapter vocabulary",
+      "variants": "arbeidscontracten",
+      "english": "employment contract"
     },
     {
       "word": "opstand / verzet",
@@ -45396,21 +45870,25 @@ export const KNM_CONTENT = {
       "word": "bezetten",
       "meaning": "占领",
       "example": "Nederland werd bezet",
-      "note": "",
-      "importance": "",
+      "note": "历史",
+      "importance": "综合词汇",
       "topic": "De geschiedenis van Nederland",
       "topicId": "de-geschiedenis-van-nederland",
-      "source": "KNM study guide chapter vocabulary"
+      "source": "KNM study guide chapter vocabulary",
+      "variants": "",
+      "english": ""
     },
     {
       "word": "voorstel",
       "meaning": "提案",
       "example": "een wetsvoorstel",
-      "note": "",
-      "importance": "",
+      "note": "政治、法律与民主",
+      "importance": "综合词汇",
       "topic": "Politiek in Nederland",
       "topicId": "politiek-in-nederland",
-      "source": "KNM study guide chapter vocabulary"
+      "source": "KNM study guide chapter vocabulary",
+      "variants": "",
+      "english": ""
     },
     {
       "word": "meningsuiting",
@@ -45600,7 +46078,9 @@ export const KNM_CONTENT = {
       "importance": "综合词汇",
       "topic": "地理、社会与公共服务",
       "topicId": "dienstverlening-in-nederland",
-      "source": "KNM study guide comprehensive vocabulary"
+      "source": "KNM study guide comprehensive vocabulary",
+      "variants": "verhuist; verhuisde; is verhuisd",
+      "english": "to move house"
     },
     {
       "word": "burgerservicenummer (BSN)",
@@ -45640,7 +46120,9 @@ export const KNM_CONTENT = {
       "importance": "综合词汇",
       "topic": "地理、社会与公共服务",
       "topicId": "dienstverlening-in-nederland",
-      "source": "KNM study guide comprehensive vocabulary"
+      "source": "KNM study guide comprehensive vocabulary",
+      "variants": "vergunningen",
+      "english": "permit"
     },
     {
       "word": "verblijf",
@@ -45770,7 +46252,9 @@ export const KNM_CONTENT = {
       "importance": "综合词汇",
       "topic": "礼仪、交流与日常生活",
       "topicId": "de-mensen-in-nederland",
-      "source": "KNM study guide comprehensive vocabulary"
+      "source": "KNM study guide comprehensive vocabulary",
+      "variants": "trouwt; trouwde; is/heeft getrouwd",
+      "english": "to marry"
     },
     {
       "word": "pak",
@@ -45800,7 +46284,9 @@ export const KNM_CONTENT = {
       "importance": "综合词汇",
       "topic": "礼仪、交流与日常生活",
       "topicId": "de-mensen-in-nederland",
-      "source": "KNM study guide comprehensive vocabulary"
+      "source": "KNM study guide comprehensive vocabulary",
+      "variants": "",
+      "english": "wishing you strength"
     },
     {
       "word": "aardig",
@@ -47460,7 +47946,9 @@ export const KNM_CONTENT = {
       "importance": "综合词汇",
       "topic": "金融、医疗与常用动词",
       "topicId": "gezondheid-en-gezondheidszorg-in-nederland",
-      "source": "KNM study guide comprehensive vocabulary"
+      "source": "KNM study guide comprehensive vocabulary",
+      "variants": "verwijst; verwees; heeft verwezen",
+      "english": "to refer"
     },
     {
       "word": "hoge koorts",
@@ -47691,6 +48179,6462 @@ export const KNM_CONTENT = {
       "topic": "金融、医疗与常用动词",
       "topicId": "gezondheid-en-gezondheidszorg-in-nederland",
       "source": "KNM study guide comprehensive vocabulary"
+    },
+    {
+      "word": "afzeggen",
+      "variants": "zegt af; zei af; heeft afgezegd",
+      "english": "to cancel",
+      "meaning": "取消",
+      "example": "",
+      "note": "日常生活与社交",
+      "importance": "KNM 高频",
+      "topic": "De mensen in Nederland",
+      "topicId": "de-mensen-in-nederland",
+      "source": "KNM A1 supplemental vocabulary"
+    },
+    {
+      "word": "op tijd",
+      "variants": "",
+      "english": "on time",
+      "meaning": "准时",
+      "example": "",
+      "note": "日常生活与社交",
+      "importance": "KNM 高频",
+      "topic": "De mensen in Nederland",
+      "topicId": "de-mensen-in-nederland",
+      "source": "KNM A1 supplemental vocabulary"
+    },
+    {
+      "word": "te laat",
+      "variants": "",
+      "english": "late / too late",
+      "meaning": "迟到、太晚",
+      "example": "",
+      "note": "日常生活与社交",
+      "importance": "KNM 高频",
+      "topic": "De mensen in Nederland",
+      "topicId": "de-mensen-in-nederland",
+      "source": "KNM A1 supplemental vocabulary"
+    },
+    {
+      "word": "wachten",
+      "variants": "wacht; wachtte; heeft gewacht",
+      "english": "to wait",
+      "meaning": "等待",
+      "example": "",
+      "note": "日常生活与社交",
+      "importance": "KNM 高频",
+      "topic": "De mensen in Nederland",
+      "topicId": "de-mensen-in-nederland",
+      "source": "KNM A1 supplemental vocabulary"
+    },
+    {
+      "word": "de beurt",
+      "variants": "beurten; aan de beurt zijn",
+      "english": "turn",
+      "meaning": "轮到、顺序",
+      "example": "",
+      "note": "日常生活与社交",
+      "importance": "KNM 高频",
+      "topic": "De mensen in Nederland",
+      "topicId": "de-mensen-in-nederland",
+      "source": "KNM A1 supplemental vocabulary"
+    },
+    {
+      "word": "de rij",
+      "variants": "rijen; in de rij staan",
+      "english": "queue / line",
+      "meaning": "队伍、排队",
+      "example": "",
+      "note": "日常生活与社交",
+      "importance": "KNM 高频",
+      "topic": "De mensen in Nederland",
+      "topicId": "de-mensen-in-nederland",
+      "source": "KNM A1 supplemental vocabulary"
+    },
+    {
+      "word": "u",
+      "variants": "uw",
+      "english": "you / your (formal)",
+      "meaning": "您 / 您的",
+      "example": "",
+      "note": "日常生活与社交",
+      "importance": "KNM 高频",
+      "topic": "De mensen in Nederland",
+      "topicId": "de-mensen-in-nederland",
+      "source": "KNM A1 supplemental vocabulary"
+    },
+    {
+      "word": "jij",
+      "variants": "je; jou; jouw",
+      "english": "you / your (informal)",
+      "meaning": "你 / 你的",
+      "example": "",
+      "note": "日常生活与社交",
+      "importance": "KNM 高频",
+      "topic": "De mensen in Nederland",
+      "topicId": "de-mensen-in-nederland",
+      "source": "KNM A1 supplemental vocabulary"
+    },
+    {
+      "word": "gefeliciteerd",
+      "variants": "",
+      "english": "congratulations",
+      "meaning": "恭喜",
+      "example": "",
+      "note": "日常生活与社交",
+      "importance": "KNM 高频",
+      "topic": "De mensen in Nederland",
+      "topicId": "de-mensen-in-nederland",
+      "source": "KNM A1 supplemental vocabulary"
+    },
+    {
+      "word": "Nederland",
+      "variants": "",
+      "english": "the Netherlands",
+      "meaning": "荷兰",
+      "example": "",
+      "note": "荷兰地理、天气与社会",
+      "importance": "KNM 高频",
+      "topic": "Nederland leren kennen",
+      "topicId": "nederland-leren-kennen",
+      "source": "KNM A1 supplemental vocabulary"
+    },
+    {
+      "word": "Europa",
+      "variants": "",
+      "english": "Europe",
+      "meaning": "欧洲",
+      "example": "",
+      "note": "荷兰地理、天气与社会",
+      "importance": "KNM 高频",
+      "topic": "Nederland leren kennen",
+      "topicId": "nederland-leren-kennen",
+      "source": "KNM A1 supplemental vocabulary"
+    },
+    {
+      "word": "de Rijn",
+      "variants": "",
+      "english": "Rhine",
+      "meaning": "莱茵河",
+      "example": "",
+      "note": "荷兰地理、天气与社会",
+      "importance": "KNM 高频",
+      "topic": "Nederland leren kennen",
+      "topicId": "nederland-leren-kennen",
+      "source": "KNM A1 supplemental vocabulary"
+    },
+    {
+      "word": "de Maas",
+      "variants": "",
+      "english": "Meuse",
+      "meaning": "马斯河",
+      "example": "",
+      "note": "荷兰地理、天气与社会",
+      "importance": "KNM 高频",
+      "topic": "Nederland leren kennen",
+      "topicId": "nederland-leren-kennen",
+      "source": "KNM A1 supplemental vocabulary"
+    },
+    {
+      "word": "de duinen",
+      "variants": "duin; duinen",
+      "english": "dunes",
+      "meaning": "沙丘",
+      "example": "",
+      "note": "荷兰地理、天气与社会",
+      "importance": "KNM 高频",
+      "topic": "Nederland leren kennen",
+      "topicId": "nederland-leren-kennen",
+      "source": "KNM A1 supplemental vocabulary"
+    },
+    {
+      "word": "de zeespiegel",
+      "variants": "",
+      "english": "sea level",
+      "meaning": "海平面",
+      "example": "",
+      "note": "荷兰地理、天气与社会",
+      "importance": "KNM 高频",
+      "topic": "Nederland leren kennen",
+      "topicId": "nederland-leren-kennen",
+      "source": "KNM A1 supplemental vocabulary"
+    },
+    {
+      "word": "de overstroming",
+      "variants": "overstromingen",
+      "english": "flood",
+      "meaning": "洪水、洪灾",
+      "example": "",
+      "note": "荷兰地理、天气与社会",
+      "importance": "KNM 高频",
+      "topic": "Nederland leren kennen",
+      "topicId": "nederland-leren-kennen",
+      "source": "KNM A1 supplemental vocabulary"
+    },
+    {
+      "word": "het weer",
+      "variants": "",
+      "english": "weather",
+      "meaning": "天气",
+      "example": "",
+      "note": "荷兰地理、天气与社会",
+      "importance": "KNM 高频",
+      "topic": "Nederland leren kennen",
+      "topicId": "nederland-leren-kennen",
+      "source": "KNM A1 supplemental vocabulary"
+    },
+    {
+      "word": "vriezen",
+      "variants": "vriest; vroor; heeft gevroren",
+      "english": "to freeze",
+      "meaning": "结冰、零度以下",
+      "example": "",
+      "note": "荷兰地理、天气与社会",
+      "importance": "KNM 高频",
+      "topic": "Nederland leren kennen",
+      "topicId": "nederland-leren-kennen",
+      "source": "KNM A1 supplemental vocabulary"
+    },
+    {
+      "word": "inburgeren",
+      "variants": "burgert in; burgerde in; is ingeburgerd",
+      "english": "to complete civic integration",
+      "meaning": "融入荷兰社会",
+      "example": "",
+      "note": "移民、语言与身份",
+      "importance": "KNM 高频",
+      "topic": "Nederland leren kennen",
+      "topicId": "nederland-leren-kennen",
+      "source": "KNM A1 supplemental vocabulary"
+    },
+    {
+      "word": "de inburgering",
+      "variants": "",
+      "english": "civic integration",
+      "meaning": "融入制度",
+      "example": "",
+      "note": "移民、语言与身份",
+      "importance": "KNM 高频",
+      "topic": "Nederland leren kennen",
+      "topicId": "nederland-leren-kennen",
+      "source": "KNM A1 supplemental vocabulary"
+    },
+    {
+      "word": "Nederlands",
+      "variants": "",
+      "english": "Dutch language",
+      "meaning": "荷兰语",
+      "example": "",
+      "note": "移民、语言与身份",
+      "importance": "KNM 高频",
+      "topic": "Nederland leren kennen",
+      "topicId": "nederland-leren-kennen",
+      "source": "KNM A1 supplemental vocabulary"
+    },
+    {
+      "word": "Fries",
+      "variants": "",
+      "english": "Frisian",
+      "meaning": "弗里斯语",
+      "example": "",
+      "note": "移民、语言与身份",
+      "importance": "KNM 高频",
+      "topic": "Nederland leren kennen",
+      "topicId": "nederland-leren-kennen",
+      "source": "KNM A1 supplemental vocabulary"
+    },
+    {
+      "word": "de Nederlandse nationaliteit",
+      "variants": "",
+      "english": "Dutch nationality",
+      "meaning": "荷兰国籍",
+      "example": "",
+      "note": "移民、语言与身份",
+      "importance": "KNM 高频",
+      "topic": "Nederland leren kennen",
+      "topicId": "nederland-leren-kennen",
+      "source": "KNM A1 supplemental vocabulary"
+    },
+    {
+      "word": "naturaliseren",
+      "variants": "naturaliseert; naturaliseerde; is genaturaliseerd",
+      "english": "to naturalise",
+      "meaning": "入籍",
+      "example": "",
+      "note": "移民、语言与身份",
+      "importance": "KNM 高频",
+      "topic": "Nederland leren kennen",
+      "topicId": "nederland-leren-kennen",
+      "source": "KNM A1 supplemental vocabulary"
+    },
+    {
+      "word": "de pijn",
+      "variants": "",
+      "english": "pain",
+      "meaning": "疼痛",
+      "example": "",
+      "note": "医疗与健康",
+      "importance": "KNM 高频",
+      "topic": "Gezondheid en gezondheidszorg in Nederland",
+      "topicId": "gezondheid-en-gezondheidszorg-in-nederland",
+      "source": "KNM A1 supplemental vocabulary"
+    },
+    {
+      "word": "ziek",
+      "variants": "zieke; zieker",
+      "english": "sick",
+      "meaning": "生病的",
+      "example": "",
+      "note": "医疗与健康",
+      "importance": "KNM 高频",
+      "topic": "Gezondheid en gezondheidszorg in Nederland",
+      "topicId": "gezondheid-en-gezondheidszorg-in-nederland",
+      "source": "KNM A1 supplemental vocabulary"
+    },
+    {
+      "word": "de koorts",
+      "variants": "",
+      "english": "fever",
+      "meaning": "发烧",
+      "example": "",
+      "note": "医疗与健康",
+      "importance": "KNM 高频",
+      "topic": "Gezondheid en gezondheidszorg in Nederland",
+      "topicId": "gezondheid-en-gezondheidszorg-in-nederland",
+      "source": "KNM A1 supplemental vocabulary"
+    },
+    {
+      "word": "het ziekenhuis",
+      "variants": "ziekenhuizen",
+      "english": "hospital",
+      "meaning": "医院",
+      "example": "",
+      "note": "医疗与健康",
+      "importance": "KNM 高频",
+      "topic": "Gezondheid en gezondheidszorg in Nederland",
+      "topicId": "gezondheid-en-gezondheidszorg-in-nederland",
+      "source": "KNM A1 supplemental vocabulary"
+    },
+    {
+      "word": "het medicijn",
+      "variants": "medicijnen",
+      "english": "medicine",
+      "meaning": "药物",
+      "example": "",
+      "note": "医疗与健康",
+      "importance": "KNM 高频",
+      "topic": "Gezondheid en gezondheidszorg in Nederland",
+      "topicId": "gezondheid-en-gezondheidszorg-in-nederland",
+      "source": "KNM A1 supplemental vocabulary"
+    },
+    {
+      "word": "de zorgverzekeraar",
+      "variants": "zorgverzekeraars",
+      "english": "health insurer",
+      "meaning": "医疗保险公司",
+      "example": "",
+      "note": "医疗与健康",
+      "importance": "KNM 高频",
+      "topic": "Gezondheid en gezondheidszorg in Nederland",
+      "topicId": "gezondheid-en-gezondheidszorg-in-nederland",
+      "source": "KNM A1 supplemental vocabulary"
+    },
+    {
+      "word": "gezond",
+      "variants": "gezonde; gezonder",
+      "english": "healthy",
+      "meaning": "健康的",
+      "example": "",
+      "note": "医疗与健康",
+      "importance": "KNM 高频",
+      "topic": "Gezondheid en gezondheidszorg in Nederland",
+      "topicId": "gezondheid-en-gezondheidszorg-in-nederland",
+      "source": "KNM A1 supplemental vocabulary"
+    },
+    {
+      "word": "bewegen",
+      "variants": "beweegt; bewoog; heeft bewogen",
+      "english": "to exercise / move",
+      "meaning": "运动、活动",
+      "example": "",
+      "note": "医疗与健康",
+      "importance": "KNM 高频",
+      "topic": "Gezondheid en gezondheidszorg in Nederland",
+      "topicId": "gezondheid-en-gezondheidszorg-in-nederland",
+      "source": "KNM A1 supplemental vocabulary"
+    },
+    {
+      "word": "de woning",
+      "variants": "woningen",
+      "english": "dwelling / home",
+      "meaning": "住房",
+      "example": "",
+      "note": "住房与日常行政",
+      "importance": "KNM 高频",
+      "topic": "Dienstverlening in Nederland",
+      "topicId": "dienstverlening-in-nederland",
+      "source": "KNM A1 supplemental vocabulary"
+    },
+    {
+      "word": "de huurwoning",
+      "variants": "huurwoningen",
+      "english": "rental home",
+      "meaning": "出租住房",
+      "example": "",
+      "note": "住房与日常行政",
+      "importance": "KNM 高频",
+      "topic": "Dienstverlening in Nederland",
+      "topicId": "dienstverlening-in-nederland",
+      "source": "KNM A1 supplemental vocabulary"
+    },
+    {
+      "word": "de koopwoning",
+      "variants": "koopwoningen",
+      "english": "owner-occupied home",
+      "meaning": "自有住房",
+      "example": "",
+      "note": "住房与日常行政",
+      "importance": "KNM 高频",
+      "topic": "Dienstverlening in Nederland",
+      "topicId": "dienstverlening-in-nederland",
+      "source": "KNM A1 supplemental vocabulary"
+    },
+    {
+      "word": "huren",
+      "variants": "huurt; huurde; heeft gehuurd",
+      "english": "to rent",
+      "meaning": "租",
+      "example": "",
+      "note": "住房与日常行政",
+      "importance": "KNM 高频",
+      "topic": "Dienstverlening in Nederland",
+      "topicId": "dienstverlening-in-nederland",
+      "source": "KNM A1 supplemental vocabulary"
+    },
+    {
+      "word": "de verhuurder",
+      "variants": "verhuurders",
+      "english": "landlord",
+      "meaning": "房东、出租方",
+      "example": "",
+      "note": "住房与日常行政",
+      "importance": "KNM 高频",
+      "topic": "Dienstverlening in Nederland",
+      "topicId": "dienstverlening-in-nederland",
+      "source": "KNM A1 supplemental vocabulary"
+    },
+    {
+      "word": "de huurder",
+      "variants": "huurders",
+      "english": "tenant",
+      "meaning": "租客",
+      "example": "",
+      "note": "住房与日常行政",
+      "importance": "KNM 高频",
+      "topic": "Dienstverlening in Nederland",
+      "topicId": "dienstverlening-in-nederland",
+      "source": "KNM A1 supplemental vocabulary"
+    },
+    {
+      "word": "het huurcontract",
+      "variants": "huurcontracten",
+      "english": "rental contract",
+      "meaning": "租房合同",
+      "example": "",
+      "note": "住房与日常行政",
+      "importance": "KNM 高频",
+      "topic": "Dienstverlening in Nederland",
+      "topicId": "dienstverlening-in-nederland",
+      "source": "KNM A1 supplemental vocabulary"
+    },
+    {
+      "word": "de huur",
+      "variants": "",
+      "english": "rent",
+      "meaning": "房租",
+      "example": "",
+      "note": "住房与日常行政",
+      "importance": "KNM 高频",
+      "topic": "Dienstverlening in Nederland",
+      "topicId": "dienstverlening-in-nederland",
+      "source": "KNM A1 supplemental vocabulary"
+    },
+    {
+      "word": "de servicekosten",
+      "variants": "",
+      "english": "service charges",
+      "meaning": "物业/服务费",
+      "example": "",
+      "note": "住房与日常行政",
+      "importance": "KNM 高频",
+      "topic": "Dienstverlening in Nederland",
+      "topicId": "dienstverlening-in-nederland",
+      "source": "KNM A1 supplemental vocabulary"
+    },
+    {
+      "word": "de sociale huurwoning",
+      "variants": "sociale huurwoningen",
+      "english": "social housing",
+      "meaning": "社会住房",
+      "example": "",
+      "note": "住房与日常行政",
+      "importance": "KNM 高频",
+      "topic": "Dienstverlening in Nederland",
+      "topicId": "dienstverlening-in-nederland",
+      "source": "KNM A1 supplemental vocabulary"
+    },
+    {
+      "word": "de vrije sector",
+      "variants": "",
+      "english": "private rental sector",
+      "meaning": "自由市场租房",
+      "example": "",
+      "note": "住房与日常行政",
+      "importance": "KNM 高频",
+      "topic": "Dienstverlening in Nederland",
+      "topicId": "dienstverlening-in-nederland",
+      "source": "KNM A1 supplemental vocabulary"
+    },
+    {
+      "word": "de wachtlijst",
+      "variants": "wachtlijsten",
+      "english": "waiting list",
+      "meaning": "等候名单",
+      "example": "",
+      "note": "住房与日常行政",
+      "importance": "KNM 高频",
+      "topic": "Dienstverlening in Nederland",
+      "topicId": "dienstverlening-in-nederland",
+      "source": "KNM A1 supplemental vocabulary"
+    },
+    {
+      "word": "de urgentieverklaring",
+      "variants": "urgentieverklaringen",
+      "english": "priority housing declaration",
+      "meaning": "紧急住房证明",
+      "example": "",
+      "note": "住房与日常行政",
+      "importance": "KNM 高频",
+      "topic": "Dienstverlening in Nederland",
+      "topicId": "dienstverlening-in-nederland",
+      "source": "KNM A1 supplemental vocabulary"
+    },
+    {
+      "word": "de huurtoeslag",
+      "variants": "",
+      "english": "housing allowance",
+      "meaning": "房租补贴",
+      "example": "",
+      "note": "住房与日常行政",
+      "importance": "KNM 高频",
+      "topic": "Dienstverlening in Nederland",
+      "topicId": "dienstverlening-in-nederland",
+      "source": "KNM A1 supplemental vocabulary"
+    },
+    {
+      "word": "de Huurcommissie",
+      "variants": "",
+      "english": "Rent Tribunal",
+      "meaning": "租赁委员会",
+      "example": "",
+      "note": "住房与日常行政",
+      "importance": "KNM 高频",
+      "topic": "Dienstverlening in Nederland",
+      "topicId": "dienstverlening-in-nederland",
+      "source": "KNM A1 supplemental vocabulary"
+    },
+    {
+      "word": "de hypotheek",
+      "variants": "hypotheken",
+      "english": "mortgage",
+      "meaning": "房贷",
+      "example": "",
+      "note": "住房与日常行政",
+      "importance": "KNM 高频",
+      "topic": "Dienstverlening in Nederland",
+      "topicId": "dienstverlening-in-nederland",
+      "source": "KNM A1 supplemental vocabulary"
+    },
+    {
+      "word": "de rente",
+      "variants": "rentes",
+      "english": "interest",
+      "meaning": "利息",
+      "example": "",
+      "note": "住房与日常行政",
+      "importance": "KNM 高频",
+      "topic": "Dienstverlening in Nederland",
+      "topicId": "dienstverlening-in-nederland",
+      "source": "KNM A1 supplemental vocabulary"
+    },
+    {
+      "word": "de makelaar",
+      "variants": "makelaars",
+      "english": "estate agent",
+      "meaning": "房产中介",
+      "example": "",
+      "note": "住房与日常行政",
+      "importance": "KNM 高频",
+      "topic": "Dienstverlening in Nederland",
+      "topicId": "dienstverlening-in-nederland",
+      "source": "KNM A1 supplemental vocabulary"
+    },
+    {
+      "word": "de notaris",
+      "variants": "notarissen",
+      "english": "civil-law notary",
+      "meaning": "公证员",
+      "example": "",
+      "note": "住房与日常行政",
+      "importance": "KNM 高频",
+      "topic": "Dienstverlening in Nederland",
+      "topicId": "dienstverlening-in-nederland",
+      "source": "KNM A1 supplemental vocabulary"
+    },
+    {
+      "word": "het afval",
+      "variants": "",
+      "english": "waste",
+      "meaning": "垃圾",
+      "example": "",
+      "note": "住房与日常行政",
+      "importance": "KNM 高频",
+      "topic": "Dienstverlening in Nederland",
+      "topicId": "dienstverlening-in-nederland",
+      "source": "KNM A1 supplemental vocabulary"
+    },
+    {
+      "word": "afval scheiden",
+      "variants": "scheidt afval; heeft afval gescheiden",
+      "english": "to separate waste",
+      "meaning": "垃圾分类",
+      "example": "",
+      "note": "住房与日常行政",
+      "importance": "KNM 高频",
+      "topic": "Dienstverlening in Nederland",
+      "topicId": "dienstverlening-in-nederland",
+      "source": "KNM A1 supplemental vocabulary"
+    },
+    {
+      "word": "de boete",
+      "variants": "boetes",
+      "english": "fine",
+      "meaning": "罚款",
+      "example": "",
+      "note": "住房与日常行政",
+      "importance": "KNM 高频",
+      "topic": "Dienstverlening in Nederland",
+      "topicId": "dienstverlening-in-nederland",
+      "source": "KNM A1 supplemental vocabulary"
+    },
+    {
+      "word": "de meterstand",
+      "variants": "meterstanden",
+      "english": "meter reading",
+      "meaning": "表数",
+      "example": "",
+      "note": "住房与日常行政",
+      "importance": "KNM 高频",
+      "topic": "Dienstverlening in Nederland",
+      "topicId": "dienstverlening-in-nederland",
+      "source": "KNM A1 supplemental vocabulary"
+    },
+    {
+      "word": "de jaarrekening",
+      "variants": "jaarrekeningen",
+      "english": "annual bill / statement",
+      "meaning": "年度账单",
+      "example": "",
+      "note": "住房与日常行政",
+      "importance": "KNM 高频",
+      "topic": "Dienstverlening in Nederland",
+      "topicId": "dienstverlening-in-nederland",
+      "source": "KNM A1 supplemental vocabulary"
+    },
+    {
+      "word": "de aansprakelijkheidsverzekering",
+      "variants": "aansprakelijkheidsverzekeringen",
+      "english": "personal liability insurance",
+      "meaning": "个人责任险",
+      "example": "",
+      "note": "住房与日常行政",
+      "importance": "KNM 高频",
+      "topic": "Dienstverlening in Nederland",
+      "topicId": "dienstverlening-in-nederland",
+      "source": "KNM A1 supplemental vocabulary"
+    },
+    {
+      "word": "de inboedelverzekering",
+      "variants": "inboedelverzekeringen",
+      "english": "contents insurance",
+      "meaning": "家庭财产险",
+      "example": "",
+      "note": "住房与日常行政",
+      "importance": "KNM 高频",
+      "topic": "Dienstverlening in Nederland",
+      "topicId": "dienstverlening-in-nederland",
+      "source": "KNM A1 supplemental vocabulary"
+    },
+    {
+      "word": "de opstalverzekering",
+      "variants": "opstalverzekeringen",
+      "english": "buildings insurance",
+      "meaning": "房屋建筑险",
+      "example": "",
+      "note": "住房与日常行政",
+      "importance": "KNM 高频",
+      "topic": "Dienstverlening in Nederland",
+      "topicId": "dienstverlening-in-nederland",
+      "source": "KNM A1 supplemental vocabulary"
+    },
+    {
+      "word": "de politie",
+      "variants": "",
+      "english": "police",
+      "meaning": "警察",
+      "example": "",
+      "note": "政府服务、银行与法律",
+      "importance": "KNM 高频",
+      "topic": "Dienstverlening in Nederland",
+      "topicId": "dienstverlening-in-nederland",
+      "source": "KNM A1 supplemental vocabulary"
+    },
+    {
+      "word": "het paspoort",
+      "variants": "paspoorten",
+      "english": "passport",
+      "meaning": "护照",
+      "example": "",
+      "note": "政府服务、银行与法律",
+      "importance": "KNM 高频",
+      "topic": "Dienstverlening in Nederland",
+      "topicId": "dienstverlening-in-nederland",
+      "source": "KNM A1 supplemental vocabulary"
+    },
+    {
+      "word": "het rijbewijs",
+      "variants": "rijbewijzen",
+      "english": "driving licence",
+      "meaning": "驾照",
+      "example": "",
+      "note": "政府服务、银行与法律",
+      "importance": "KNM 高频",
+      "topic": "Dienstverlening in Nederland",
+      "topicId": "dienstverlening-in-nederland",
+      "source": "KNM A1 supplemental vocabulary"
+    },
+    {
+      "word": "de Belastingdienst",
+      "variants": "",
+      "english": "Tax Administration",
+      "meaning": "荷兰税务局",
+      "example": "",
+      "note": "政府服务、银行与法律",
+      "importance": "KNM 高频",
+      "topic": "Dienstverlening in Nederland",
+      "topicId": "dienstverlening-in-nederland",
+      "source": "KNM A1 supplemental vocabulary"
+    },
+    {
+      "word": "belastingaangifte doen",
+      "variants": "doet aangifte; heeft aangifte gedaan",
+      "english": "to file a tax return",
+      "meaning": "报税",
+      "example": "",
+      "note": "政府服务、银行与法律",
+      "importance": "KNM 高频",
+      "topic": "Dienstverlening in Nederland",
+      "topicId": "dienstverlening-in-nederland",
+      "source": "KNM A1 supplemental vocabulary"
+    },
+    {
+      "word": "de pinpas",
+      "variants": "pinpassen",
+      "english": "debit card",
+      "meaning": "银行卡",
+      "example": "",
+      "note": "政府服务、银行与法律",
+      "importance": "KNM 高频",
+      "topic": "Dienstverlening in Nederland",
+      "topicId": "dienstverlening-in-nederland",
+      "source": "KNM A1 supplemental vocabulary"
+    },
+    {
+      "word": "contactloos betalen",
+      "variants": "betaalt contactloos; heeft contactloos betaald",
+      "english": "to pay contactless",
+      "meaning": "非接触支付",
+      "example": "",
+      "note": "政府服务、银行与法律",
+      "importance": "KNM 高频",
+      "topic": "Dienstverlening in Nederland",
+      "topicId": "dienstverlening-in-nederland",
+      "source": "KNM A1 supplemental vocabulary"
+    },
+    {
+      "word": "de automatische incasso",
+      "variants": "automatische incasso's",
+      "english": "direct debit",
+      "meaning": "自动扣款",
+      "example": "",
+      "note": "政府服务、银行与法律",
+      "importance": "KNM 高频",
+      "topic": "Dienstverlening in Nederland",
+      "topicId": "dienstverlening-in-nederland",
+      "source": "KNM A1 supplemental vocabulary"
+    },
+    {
+      "word": "de zwangerschap",
+      "variants": "zwangerschappen",
+      "english": "pregnancy",
+      "meaning": "怀孕",
+      "example": "",
+      "note": "育儿与教育",
+      "importance": "KNM 高频",
+      "topic": "Opvoeding en onderwijs in Nederland",
+      "topicId": "opvoeding-en-onderwijs-in-nederland",
+      "source": "KNM A1 supplemental vocabulary"
+    },
+    {
+      "word": "de gynaecoloog",
+      "variants": "gynaecologen",
+      "english": "gynaecologist",
+      "meaning": "妇科医生",
+      "example": "",
+      "note": "育儿与教育",
+      "importance": "KNM 高频",
+      "topic": "Opvoeding en onderwijs in Nederland",
+      "topicId": "opvoeding-en-onderwijs-in-nederland",
+      "source": "KNM A1 supplemental vocabulary"
+    },
+    {
+      "word": "de BSO",
+      "variants": "buitenschoolse opvang",
+      "english": "after-school care",
+      "meaning": "课后托管",
+      "example": "",
+      "note": "育儿与教育",
+      "importance": "KNM 高频",
+      "topic": "Opvoeding en onderwijs in Nederland",
+      "topicId": "opvoeding-en-onderwijs-in-nederland",
+      "source": "KNM A1 supplemental vocabulary"
+    },
+    {
+      "word": "de SVB",
+      "variants": "Sociale Verzekeringsbank",
+      "english": "Social Insurance Bank",
+      "meaning": "社会保险银行",
+      "example": "",
+      "note": "育儿与教育",
+      "importance": "KNM 高频",
+      "topic": "Opvoeding en onderwijs in Nederland",
+      "topicId": "opvoeding-en-onderwijs-in-nederland",
+      "source": "KNM A1 supplemental vocabulary"
+    },
+    {
+      "word": "het schooladvies",
+      "variants": "schooladviezen",
+      "english": "secondary-school recommendation",
+      "meaning": "升学建议",
+      "example": "",
+      "note": "育儿与教育",
+      "importance": "KNM 高频",
+      "topic": "Opvoeding en onderwijs in Nederland",
+      "topicId": "opvoeding-en-onderwijs-in-nederland",
+      "source": "KNM A1 supplemental vocabulary"
+    },
+    {
+      "word": "DUO",
+      "variants": "Dienst Uitvoering Onderwijs",
+      "english": "Education Executive Agency",
+      "meaning": "荷兰教育执行局",
+      "example": "",
+      "note": "育儿与教育",
+      "importance": "KNM 高频",
+      "topic": "Opvoeding en onderwijs in Nederland",
+      "topicId": "opvoeding-en-onderwijs-in-nederland",
+      "source": "KNM A1 supplemental vocabulary"
+    },
+    {
+      "word": "het salaris",
+      "variants": "salarissen",
+      "english": "salary",
+      "meaning": "工资",
+      "example": "",
+      "note": "工作",
+      "importance": "KNM 高频",
+      "topic": "Werken in Nederland",
+      "topicId": "werken-in-nederland",
+      "source": "KNM A1 supplemental vocabulary"
+    },
+    {
+      "word": "het UWV",
+      "variants": "",
+      "english": "Employee Insurance Agency",
+      "meaning": "员工保险局",
+      "example": "",
+      "note": "工作",
+      "importance": "KNM 高频",
+      "topic": "Werken in Nederland",
+      "topicId": "werken-in-nederland",
+      "source": "KNM A1 supplemental vocabulary"
+    },
+    {
+      "word": "de KVK",
+      "variants": "Kamer van Koophandel",
+      "english": "Chamber of Commerce",
+      "meaning": "荷兰商会",
+      "example": "",
+      "note": "工作",
+      "importance": "KNM 高频",
+      "topic": "Werken in Nederland",
+      "topicId": "werken-in-nederland",
+      "source": "KNM A1 supplemental vocabulary"
+    },
+    {
+      "word": "gelijke rechten",
+      "variants": "",
+      "english": "equal rights",
+      "meaning": "平等权利",
+      "example": "",
+      "note": "社会、历史与政治",
+      "importance": "KNM 高频",
+      "topic": "Nederland leren kennen",
+      "topicId": "nederland-leren-kennen",
+      "source": "KNM A1 supplemental vocabulary"
+    },
+    {
+      "word": "respecteren",
+      "variants": "respecteert; respecteerde; heeft gerespecteerd",
+      "english": "to respect",
+      "meaning": "尊重",
+      "example": "",
+      "note": "社会、历史与政治",
+      "importance": "KNM 高频",
+      "topic": "Nederland leren kennen",
+      "topicId": "nederland-leren-kennen",
+      "source": "KNM A1 supplemental vocabulary"
+    },
+    {
+      "word": "de vrijheid",
+      "variants": "vrijheden",
+      "english": "freedom",
+      "meaning": "自由",
+      "example": "",
+      "note": "社会、历史与政治",
+      "importance": "KNM 高频",
+      "topic": "Nederland leren kennen",
+      "topicId": "nederland-leren-kennen",
+      "source": "KNM A1 supplemental vocabulary"
+    },
+    {
+      "word": "de toestemming",
+      "variants": "toestemmingen",
+      "english": "consent / permission",
+      "meaning": "同意、许可",
+      "example": "",
+      "note": "社会、历史与政治",
+      "importance": "KNM 高频",
+      "topic": "Nederland leren kennen",
+      "topicId": "nederland-leren-kennen",
+      "source": "KNM A1 supplemental vocabulary"
+    },
+    {
+      "word": "de mishandeling",
+      "variants": "mishandelingen",
+      "english": "abuse / assault",
+      "meaning": "虐待、伤害",
+      "example": "",
+      "note": "社会、历史与政治",
+      "importance": "KNM 高频",
+      "topic": "Nederland leren kennen",
+      "topicId": "nederland-leren-kennen",
+      "source": "KNM A1 supplemental vocabulary"
+    },
+    {
+      "word": "het geweld",
+      "variants": "",
+      "english": "violence",
+      "meaning": "暴力",
+      "example": "",
+      "note": "社会、历史与政治",
+      "importance": "KNM 高频",
+      "topic": "Nederland leren kennen",
+      "topicId": "nederland-leren-kennen",
+      "source": "KNM A1 supplemental vocabulary"
+    },
+    {
+      "word": "de geschiedenis",
+      "variants": "",
+      "english": "history",
+      "meaning": "历史",
+      "example": "",
+      "note": "社会、历史与政治",
+      "importance": "KNM 高频",
+      "topic": "Nederland leren kennen",
+      "topicId": "nederland-leren-kennen",
+      "source": "KNM A1 supplemental vocabulary"
+    },
+    {
+      "word": "de Middeleeuwen",
+      "variants": "",
+      "english": "Middle Ages",
+      "meaning": "中世纪",
+      "example": "",
+      "note": "社会、历史与政治",
+      "importance": "KNM 高频",
+      "topic": "Nederland leren kennen",
+      "topicId": "nederland-leren-kennen",
+      "source": "KNM A1 supplemental vocabulary"
+    },
+    {
+      "word": "de Tachtigjarige Oorlog",
+      "variants": "",
+      "english": "Eighty Years' War",
+      "meaning": "八十年战争",
+      "example": "",
+      "note": "社会、历史与政治",
+      "importance": "KNM 高频",
+      "topic": "Nederland leren kennen",
+      "topicId": "nederland-leren-kennen",
+      "source": "KNM A1 supplemental vocabulary"
+    },
+    {
+      "word": "Willem van Oranje",
+      "variants": "",
+      "english": "William of Orange",
+      "meaning": "威廉·奥兰治",
+      "example": "",
+      "note": "社会、历史与政治",
+      "importance": "KNM 高频",
+      "topic": "Nederland leren kennen",
+      "topicId": "nederland-leren-kennen",
+      "source": "KNM A1 supplemental vocabulary"
+    },
+    {
+      "word": "de republiek",
+      "variants": "republieken",
+      "english": "republic",
+      "meaning": "共和国",
+      "example": "",
+      "note": "社会、历史与政治",
+      "importance": "KNM 高频",
+      "topic": "Nederland leren kennen",
+      "topicId": "nederland-leren-kennen",
+      "source": "KNM A1 supplemental vocabulary"
+    },
+    {
+      "word": "de onafhankelijkheid",
+      "variants": "",
+      "english": "independence",
+      "meaning": "独立",
+      "example": "",
+      "note": "社会、历史与政治",
+      "importance": "KNM 高频",
+      "topic": "Nederland leren kennen",
+      "topicId": "nederland-leren-kennen",
+      "source": "KNM A1 supplemental vocabulary"
+    },
+    {
+      "word": "de Gouden Eeuw",
+      "variants": "",
+      "english": "Dutch Golden Age",
+      "meaning": "荷兰黄金时代",
+      "example": "",
+      "note": "社会、历史与政治",
+      "importance": "KNM 高频",
+      "topic": "Nederland leren kennen",
+      "topicId": "nederland-leren-kennen",
+      "source": "KNM A1 supplemental vocabulary"
+    },
+    {
+      "word": "de VOC",
+      "variants": "Verenigde Oost-Indische Compagnie",
+      "english": "Dutch East India Company",
+      "meaning": "荷兰东印度公司",
+      "example": "",
+      "note": "社会、历史与政治",
+      "importance": "KNM 高频",
+      "topic": "Nederland leren kennen",
+      "topicId": "nederland-leren-kennen",
+      "source": "KNM A1 supplemental vocabulary"
+    },
+    {
+      "word": "de slavernij",
+      "variants": "",
+      "english": "slavery",
+      "meaning": "奴隶制",
+      "example": "",
+      "note": "社会、历史与政治",
+      "importance": "KNM 高频",
+      "topic": "Nederland leren kennen",
+      "topicId": "nederland-leren-kennen",
+      "source": "KNM A1 supplemental vocabulary"
+    },
+    {
+      "word": "de grondwet",
+      "variants": "grondwetten",
+      "english": "constitution",
+      "meaning": "宪法",
+      "example": "",
+      "note": "社会、历史与政治",
+      "importance": "KNM 高频",
+      "topic": "Nederland leren kennen",
+      "topicId": "nederland-leren-kennen",
+      "source": "KNM A1 supplemental vocabulary"
+    },
+    {
+      "word": "de Eerste Wereldoorlog",
+      "variants": "",
+      "english": "First World War",
+      "meaning": "第一次世界大战",
+      "example": "",
+      "note": "社会、历史与政治",
+      "importance": "KNM 高频",
+      "topic": "Nederland leren kennen",
+      "topicId": "nederland-leren-kennen",
+      "source": "KNM A1 supplemental vocabulary"
+    },
+    {
+      "word": "de Tweede Wereldoorlog",
+      "variants": "",
+      "english": "Second World War",
+      "meaning": "第二次世界大战",
+      "example": "",
+      "note": "社会、历史与政治",
+      "importance": "KNM 高频",
+      "topic": "Nederland leren kennen",
+      "topicId": "nederland-leren-kennen",
+      "source": "KNM A1 supplemental vocabulary"
+    },
+    {
+      "word": "de bezetting",
+      "variants": "bezettingen",
+      "english": "occupation",
+      "meaning": "占领",
+      "example": "",
+      "note": "社会、历史与政治",
+      "importance": "KNM 高频",
+      "topic": "Nederland leren kennen",
+      "topicId": "nederland-leren-kennen",
+      "source": "KNM A1 supplemental vocabulary"
+    },
+    {
+      "word": "de Holocaust",
+      "variants": "Shoah",
+      "english": "Holocaust",
+      "meaning": "大屠杀",
+      "example": "",
+      "note": "社会、历史与政治",
+      "importance": "KNM 高频",
+      "topic": "Nederland leren kennen",
+      "topicId": "nederland-leren-kennen",
+      "source": "KNM A1 supplemental vocabulary"
+    },
+    {
+      "word": "onderduiken",
+      "variants": "duikt onder; dook onder; is ondergedoken",
+      "english": "to go into hiding",
+      "meaning": "躲藏、隐匿",
+      "example": "",
+      "note": "社会、历史与政治",
+      "importance": "KNM 高频",
+      "topic": "Nederland leren kennen",
+      "topicId": "nederland-leren-kennen",
+      "source": "KNM A1 supplemental vocabulary"
+    },
+    {
+      "word": "de wederopbouw",
+      "variants": "",
+      "english": "post-war reconstruction",
+      "meaning": "战后重建",
+      "example": "",
+      "note": "社会、历史与政治",
+      "importance": "KNM 高频",
+      "topic": "Nederland leren kennen",
+      "topicId": "nederland-leren-kennen",
+      "source": "KNM A1 supplemental vocabulary"
+    },
+    {
+      "word": "de Watersnoodramp",
+      "variants": "",
+      "english": "North Sea flood disaster",
+      "meaning": "1953年北海洪灾",
+      "example": "",
+      "note": "社会、历史与政治",
+      "importance": "KNM 高频",
+      "topic": "Nederland leren kennen",
+      "topicId": "nederland-leren-kennen",
+      "source": "KNM A1 supplemental vocabulary"
+    },
+    {
+      "word": "de Deltawerken",
+      "variants": "",
+      "english": "Delta Works",
+      "meaning": "三角洲工程",
+      "example": "",
+      "note": "社会、历史与政治",
+      "importance": "KNM 高频",
+      "topic": "Nederland leren kennen",
+      "topicId": "nederland-leren-kennen",
+      "source": "KNM A1 supplemental vocabulary"
+    },
+    {
+      "word": "het kabinet",
+      "variants": "kabinetten",
+      "english": "cabinet",
+      "meaning": "内阁",
+      "example": "",
+      "note": "社会、历史与政治",
+      "importance": "KNM 高频",
+      "topic": "Nederland leren kennen",
+      "topicId": "nederland-leren-kennen",
+      "source": "KNM A1 supplemental vocabulary"
+    },
+    {
+      "word": "de minister",
+      "variants": "ministers",
+      "english": "minister",
+      "meaning": "部长",
+      "example": "",
+      "note": "社会、历史与政治",
+      "importance": "KNM 高频",
+      "topic": "Nederland leren kennen",
+      "topicId": "nederland-leren-kennen",
+      "source": "KNM A1 supplemental vocabulary"
+    },
+    {
+      "word": "de minister-president",
+      "variants": "minister-presidenten",
+      "english": "prime minister",
+      "meaning": "首相",
+      "example": "",
+      "note": "社会、历史与政治",
+      "importance": "KNM 高频",
+      "topic": "Nederland leren kennen",
+      "topicId": "nederland-leren-kennen",
+      "source": "KNM A1 supplemental vocabulary"
+    },
+    {
+      "word": "de Tweede Kamer",
+      "variants": "",
+      "english": "House of Representatives",
+      "meaning": "议会二院",
+      "example": "",
+      "note": "社会、历史与政治",
+      "importance": "KNM 高频",
+      "topic": "Nederland leren kennen",
+      "topicId": "nederland-leren-kennen",
+      "source": "KNM A1 supplemental vocabulary"
+    },
+    {
+      "word": "de Eerste Kamer",
+      "variants": "",
+      "english": "Senate",
+      "meaning": "议会一院",
+      "example": "",
+      "note": "社会、历史与政治",
+      "importance": "KNM 高频",
+      "topic": "Nederland leren kennen",
+      "topicId": "nederland-leren-kennen",
+      "source": "KNM A1 supplemental vocabulary"
+    },
+    {
+      "word": "de verkiezing",
+      "variants": "verkiezingen",
+      "english": "election",
+      "meaning": "选举",
+      "example": "",
+      "note": "社会、历史与政治",
+      "importance": "KNM 高频",
+      "topic": "Nederland leren kennen",
+      "topicId": "nederland-leren-kennen",
+      "source": "KNM A1 supplemental vocabulary"
+    },
+    {
+      "word": "de politieke partij",
+      "variants": "politieke partijen",
+      "english": "political party",
+      "meaning": "政党",
+      "example": "",
+      "note": "社会、历史与政治",
+      "importance": "KNM 高频",
+      "topic": "Nederland leren kennen",
+      "topicId": "nederland-leren-kennen",
+      "source": "KNM A1 supplemental vocabulary"
+    },
+    {
+      "word": "de coalitie",
+      "variants": "coalities",
+      "english": "coalition",
+      "meaning": "执政联盟",
+      "example": "",
+      "note": "社会、历史与政治",
+      "importance": "KNM 高频",
+      "topic": "Nederland leren kennen",
+      "topicId": "nederland-leren-kennen",
+      "source": "KNM A1 supplemental vocabulary"
+    },
+    {
+      "word": "de oppositie",
+      "variants": "",
+      "english": "opposition",
+      "meaning": "反对党",
+      "example": "",
+      "note": "社会、历史与政治",
+      "importance": "KNM 高频",
+      "topic": "Nederland leren kennen",
+      "topicId": "nederland-leren-kennen",
+      "source": "KNM A1 supplemental vocabulary"
+    },
+    {
+      "word": "de wet",
+      "variants": "wetten",
+      "english": "law",
+      "meaning": "法律",
+      "example": "",
+      "note": "社会、历史与政治",
+      "importance": "KNM 高频",
+      "topic": "Nederland leren kennen",
+      "topicId": "nederland-leren-kennen",
+      "source": "KNM A1 supplemental vocabulary"
+    },
+    {
+      "word": "de rechter",
+      "variants": "rechters",
+      "english": "judge",
+      "meaning": "法官",
+      "example": "",
+      "note": "社会、历史与政治",
+      "importance": "KNM 高频",
+      "topic": "Nederland leren kennen",
+      "topicId": "nederland-leren-kennen",
+      "source": "KNM A1 supplemental vocabulary"
+    },
+    {
+      "word": "de vrijheid van meningsuiting",
+      "variants": "",
+      "english": "freedom of expression",
+      "meaning": "言论自由",
+      "example": "",
+      "note": "社会、历史与政治",
+      "importance": "KNM 高频",
+      "topic": "Nederland leren kennen",
+      "topicId": "nederland-leren-kennen",
+      "source": "KNM A1 supplemental vocabulary"
+    },
+    {
+      "word": "de vrijheid van godsdienst",
+      "variants": "",
+      "english": "freedom of religion",
+      "meaning": "宗教自由",
+      "example": "",
+      "note": "社会、历史与政治",
+      "importance": "KNM 高频",
+      "topic": "Nederland leren kennen",
+      "topicId": "nederland-leren-kennen",
+      "source": "KNM A1 supplemental vocabulary"
+    },
+    {
+      "word": "de demonstratie",
+      "variants": "demonstraties",
+      "english": "demonstration",
+      "meaning": "示威",
+      "example": "",
+      "note": "社会、历史与政治",
+      "importance": "KNM 高频",
+      "topic": "Nederland leren kennen",
+      "topicId": "nederland-leren-kennen",
+      "source": "KNM A1 supplemental vocabulary"
+    },
+    {
+      "word": "de petitie",
+      "variants": "petities",
+      "english": "petition",
+      "meaning": "请愿",
+      "example": "",
+      "note": "社会、历史与政治",
+      "importance": "KNM 高频",
+      "topic": "Nederland leren kennen",
+      "topicId": "nederland-leren-kennen",
+      "source": "KNM A1 supplemental vocabulary"
+    },
+    {
+      "word": "staken",
+      "variants": "staakt; staakte; heeft gestaakt",
+      "english": "to strike",
+      "meaning": "罢工",
+      "example": "",
+      "note": "社会、历史与政治",
+      "importance": "KNM 高频",
+      "topic": "Nederland leren kennen",
+      "topicId": "nederland-leren-kennen",
+      "source": "KNM A1 supplemental vocabulary"
+    },
+    {
+      "word": "ik",
+      "variants": "mij/me; mijn",
+      "english": "I / me / my",
+      "meaning": "我 / 我（宾格）/ 我的",
+      "example": "",
+      "note": "代词、冠词、疑问词与连接词",
+      "importance": "KNM 高频",
+      "topic": "Nederland leren kennen",
+      "topicId": "nederland-leren-kennen",
+      "source": "KNM A1 supplemental vocabulary"
+    },
+    {
+      "word": "jij",
+      "variants": "je; jou; jouw",
+      "english": "you / your (informal)",
+      "meaning": "你 / 你的",
+      "example": "",
+      "note": "代词、冠词、疑问词与连接词",
+      "importance": "KNM 高频",
+      "topic": "Nederland leren kennen",
+      "topicId": "nederland-leren-kennen",
+      "source": "KNM A1 supplemental vocabulary"
+    },
+    {
+      "word": "u",
+      "variants": "uw",
+      "english": "you / your (formal)",
+      "meaning": "您 / 您的",
+      "example": "",
+      "note": "代词、冠词、疑问词与连接词",
+      "importance": "KNM 高频",
+      "topic": "Nederland leren kennen",
+      "topicId": "nederland-leren-kennen",
+      "source": "KNM A1 supplemental vocabulary"
+    },
+    {
+      "word": "hij",
+      "variants": "hem; zijn",
+      "english": "he / him / his",
+      "meaning": "他 / 他的",
+      "example": "",
+      "note": "代词、冠词、疑问词与连接词",
+      "importance": "KNM 高频",
+      "topic": "Nederland leren kennen",
+      "topicId": "nederland-leren-kennen",
+      "source": "KNM A1 supplemental vocabulary"
+    },
+    {
+      "word": "zij",
+      "variants": "ze; haar",
+      "english": "she / her",
+      "meaning": "她 / 她的",
+      "example": "",
+      "note": "代词、冠词、疑问词与连接词",
+      "importance": "KNM 高频",
+      "topic": "Nederland leren kennen",
+      "topicId": "nederland-leren-kennen",
+      "source": "KNM A1 supplemental vocabulary"
+    },
+    {
+      "word": "het",
+      "variants": "",
+      "english": "it / the",
+      "meaning": "它；定冠词 het",
+      "example": "",
+      "note": "代词、冠词、疑问词与连接词",
+      "importance": "KNM 高频",
+      "topic": "Nederland leren kennen",
+      "topicId": "nederland-leren-kennen",
+      "source": "KNM A1 supplemental vocabulary"
+    },
+    {
+      "word": "wij",
+      "variants": "we; ons; onze",
+      "english": "we / us / our",
+      "meaning": "我们 / 我们的",
+      "example": "",
+      "note": "代词、冠词、疑问词与连接词",
+      "importance": "KNM 高频",
+      "topic": "Nederland leren kennen",
+      "topicId": "nederland-leren-kennen",
+      "source": "KNM A1 supplemental vocabulary"
+    },
+    {
+      "word": "jullie",
+      "variants": "",
+      "english": "you (plural)",
+      "meaning": "你们",
+      "example": "",
+      "note": "代词、冠词、疑问词与连接词",
+      "importance": "KNM 高频",
+      "topic": "Nederland leren kennen",
+      "topicId": "nederland-leren-kennen",
+      "source": "KNM A1 supplemental vocabulary"
+    },
+    {
+      "word": "zij (meervoud)",
+      "variants": "ze; hun; hen",
+      "english": "they / their / them",
+      "meaning": "他们 / 她们 / 它们",
+      "example": "",
+      "note": "代词、冠词、疑问词与连接词",
+      "importance": "KNM 高频",
+      "topic": "Nederland leren kennen",
+      "topicId": "nederland-leren-kennen",
+      "source": "KNM A1 supplemental vocabulary"
+    },
+    {
+      "word": "de",
+      "variants": "",
+      "english": "the",
+      "meaning": "定冠词 de",
+      "example": "",
+      "note": "代词、冠词、疑问词与连接词",
+      "importance": "KNM 高频",
+      "topic": "Nederland leren kennen",
+      "topicId": "nederland-leren-kennen",
+      "source": "KNM A1 supplemental vocabulary"
+    },
+    {
+      "word": "een",
+      "variants": "",
+      "english": "a / an",
+      "meaning": "一个、不定冠词",
+      "example": "",
+      "note": "代词、冠词、疑问词与连接词",
+      "importance": "KNM 高频",
+      "topic": "Nederland leren kennen",
+      "topicId": "nederland-leren-kennen",
+      "source": "KNM A1 supplemental vocabulary"
+    },
+    {
+      "word": "dit",
+      "variants": "deze",
+      "english": "this",
+      "meaning": "这个",
+      "example": "",
+      "note": "代词、冠词、疑问词与连接词",
+      "importance": "KNM 高频",
+      "topic": "Nederland leren kennen",
+      "topicId": "nederland-leren-kennen",
+      "source": "KNM A1 supplemental vocabulary"
+    },
+    {
+      "word": "dat",
+      "variants": "die",
+      "english": "that",
+      "meaning": "那个",
+      "example": "",
+      "note": "代词、冠词、疑问词与连接词",
+      "importance": "KNM 高频",
+      "topic": "Nederland leren kennen",
+      "topicId": "nederland-leren-kennen",
+      "source": "KNM A1 supplemental vocabulary"
+    },
+    {
+      "word": "wie",
+      "variants": "",
+      "english": "who",
+      "meaning": "谁",
+      "example": "",
+      "note": "代词、冠词、疑问词与连接词",
+      "importance": "KNM 高频",
+      "topic": "Nederland leren kennen",
+      "topicId": "nederland-leren-kennen",
+      "source": "KNM A1 supplemental vocabulary"
+    },
+    {
+      "word": "wat",
+      "variants": "",
+      "english": "what",
+      "meaning": "什么",
+      "example": "",
+      "note": "代词、冠词、疑问词与连接词",
+      "importance": "KNM 高频",
+      "topic": "Nederland leren kennen",
+      "topicId": "nederland-leren-kennen",
+      "source": "KNM A1 supplemental vocabulary"
+    },
+    {
+      "word": "waar",
+      "variants": "",
+      "english": "where",
+      "meaning": "哪里",
+      "example": "",
+      "note": "代词、冠词、疑问词与连接词",
+      "importance": "KNM 高频",
+      "topic": "Nederland leren kennen",
+      "topicId": "nederland-leren-kennen",
+      "source": "KNM A1 supplemental vocabulary"
+    },
+    {
+      "word": "wanneer",
+      "variants": "",
+      "english": "when",
+      "meaning": "什么时候",
+      "example": "",
+      "note": "代词、冠词、疑问词与连接词",
+      "importance": "KNM 高频",
+      "topic": "Nederland leren kennen",
+      "topicId": "nederland-leren-kennen",
+      "source": "KNM A1 supplemental vocabulary"
+    },
+    {
+      "word": "waarom",
+      "variants": "",
+      "english": "why",
+      "meaning": "为什么",
+      "example": "",
+      "note": "代词、冠词、疑问词与连接词",
+      "importance": "KNM 高频",
+      "topic": "Nederland leren kennen",
+      "topicId": "nederland-leren-kennen",
+      "source": "KNM A1 supplemental vocabulary"
+    },
+    {
+      "word": "hoe",
+      "variants": "",
+      "english": "how",
+      "meaning": "怎么、如何",
+      "example": "",
+      "note": "代词、冠词、疑问词与连接词",
+      "importance": "KNM 高频",
+      "topic": "Nederland leren kennen",
+      "topicId": "nederland-leren-kennen",
+      "source": "KNM A1 supplemental vocabulary"
+    },
+    {
+      "word": "welk",
+      "variants": "welke",
+      "english": "which",
+      "meaning": "哪个",
+      "example": "",
+      "note": "代词、冠词、疑问词与连接词",
+      "importance": "KNM 高频",
+      "topic": "Nederland leren kennen",
+      "topicId": "nederland-leren-kennen",
+      "source": "KNM A1 supplemental vocabulary"
+    },
+    {
+      "word": "geen",
+      "variants": "",
+      "english": "no / not any",
+      "meaning": "没有、不",
+      "example": "",
+      "note": "代词、冠词、疑问词与连接词",
+      "importance": "KNM 高频",
+      "topic": "Nederland leren kennen",
+      "topicId": "nederland-leren-kennen",
+      "source": "KNM A1 supplemental vocabulary"
+    },
+    {
+      "word": "niet",
+      "variants": "",
+      "english": "not",
+      "meaning": "不、不是",
+      "example": "",
+      "note": "代词、冠词、疑问词与连接词",
+      "importance": "KNM 高频",
+      "topic": "Nederland leren kennen",
+      "topicId": "nederland-leren-kennen",
+      "source": "KNM A1 supplemental vocabulary"
+    },
+    {
+      "word": "ook",
+      "variants": "",
+      "english": "also",
+      "meaning": "也",
+      "example": "",
+      "note": "代词、冠词、疑问词与连接词",
+      "importance": "KNM 高频",
+      "topic": "Nederland leren kennen",
+      "topicId": "nederland-leren-kennen",
+      "source": "KNM A1 supplemental vocabulary"
+    },
+    {
+      "word": "nog",
+      "variants": "",
+      "english": "still / yet / another",
+      "meaning": "还、仍然",
+      "example": "",
+      "note": "代词、冠词、疑问词与连接词",
+      "importance": "KNM 高频",
+      "topic": "Nederland leren kennen",
+      "topicId": "nederland-leren-kennen",
+      "source": "KNM A1 supplemental vocabulary"
+    },
+    {
+      "word": "al",
+      "variants": "",
+      "english": "already",
+      "meaning": "已经",
+      "example": "",
+      "note": "代词、冠词、疑问词与连接词",
+      "importance": "KNM 高频",
+      "topic": "Nederland leren kennen",
+      "topicId": "nederland-leren-kennen",
+      "source": "KNM A1 supplemental vocabulary"
+    },
+    {
+      "word": "wel",
+      "variants": "",
+      "english": "indeed / affirmative emphasis",
+      "meaning": "确实、肯定强调",
+      "example": "",
+      "note": "代词、冠词、疑问词与连接词",
+      "importance": "KNM 高频",
+      "topic": "Nederland leren kennen",
+      "topicId": "nederland-leren-kennen",
+      "source": "KNM A1 supplemental vocabulary"
+    },
+    {
+      "word": "maar",
+      "variants": "",
+      "english": "but / only",
+      "meaning": "但是；只",
+      "example": "",
+      "note": "代词、冠词、疑问词与连接词",
+      "importance": "KNM 高频",
+      "topic": "Nederland leren kennen",
+      "topicId": "nederland-leren-kennen",
+      "source": "KNM A1 supplemental vocabulary"
+    },
+    {
+      "word": "en",
+      "variants": "",
+      "english": "and",
+      "meaning": "和",
+      "example": "",
+      "note": "代词、冠词、疑问词与连接词",
+      "importance": "KNM 高频",
+      "topic": "Nederland leren kennen",
+      "topicId": "nederland-leren-kennen",
+      "source": "KNM A1 supplemental vocabulary"
+    },
+    {
+      "word": "of",
+      "variants": "",
+      "english": "or / whether",
+      "meaning": "或者；是否",
+      "example": "",
+      "note": "代词、冠词、疑问词与连接词",
+      "importance": "KNM 高频",
+      "topic": "Nederland leren kennen",
+      "topicId": "nederland-leren-kennen",
+      "source": "KNM A1 supplemental vocabulary"
+    },
+    {
+      "word": "want",
+      "variants": "",
+      "english": "because",
+      "meaning": "因为",
+      "example": "",
+      "note": "代词、冠词、疑问词与连接词",
+      "importance": "KNM 高频",
+      "topic": "Nederland leren kennen",
+      "topicId": "nederland-leren-kennen",
+      "source": "KNM A1 supplemental vocabulary"
+    },
+    {
+      "word": "omdat",
+      "variants": "",
+      "english": "because",
+      "meaning": "因为",
+      "example": "",
+      "note": "代词、冠词、疑问词与连接词",
+      "importance": "KNM 高频",
+      "topic": "Nederland leren kennen",
+      "topicId": "nederland-leren-kennen",
+      "source": "KNM A1 supplemental vocabulary"
+    },
+    {
+      "word": "dus",
+      "variants": "",
+      "english": "so / therefore",
+      "meaning": "所以",
+      "example": "",
+      "note": "代词、冠词、疑问词与连接词",
+      "importance": "KNM 高频",
+      "topic": "Nederland leren kennen",
+      "topicId": "nederland-leren-kennen",
+      "source": "KNM A1 supplemental vocabulary"
+    },
+    {
+      "word": "als",
+      "variants": "",
+      "english": "if / when / as",
+      "meaning": "如果；当……时；像",
+      "example": "",
+      "note": "代词、冠词、疑问词与连接词",
+      "importance": "KNM 高频",
+      "topic": "Nederland leren kennen",
+      "topicId": "nederland-leren-kennen",
+      "source": "KNM A1 supplemental vocabulary"
+    },
+    {
+      "word": "dan",
+      "variants": "",
+      "english": "then / than",
+      "meaning": "然后；比",
+      "example": "",
+      "note": "代词、冠词、疑问词与连接词",
+      "importance": "KNM 高频",
+      "topic": "Nederland leren kennen",
+      "topicId": "nederland-leren-kennen",
+      "source": "KNM A1 supplemental vocabulary"
+    },
+    {
+      "word": "om",
+      "variants": "",
+      "english": "at / around / in order to",
+      "meaning": "在（时间）；为了",
+      "example": "",
+      "note": "代词、冠词、疑问词与连接词",
+      "importance": "KNM 高频",
+      "topic": "Nederland leren kennen",
+      "topicId": "nederland-leren-kennen",
+      "source": "KNM A1 supplemental vocabulary"
+    },
+    {
+      "word": "voor",
+      "variants": "",
+      "english": "for / in front of",
+      "meaning": "为了；在……前面",
+      "example": "",
+      "note": "代词、冠词、疑问词与连接词",
+      "importance": "KNM 高频",
+      "topic": "Nederland leren kennen",
+      "topicId": "nederland-leren-kennen",
+      "source": "KNM A1 supplemental vocabulary"
+    },
+    {
+      "word": "achter",
+      "variants": "",
+      "english": "behind",
+      "meaning": "在……后面",
+      "example": "",
+      "note": "代词、冠词、疑问词与连接词",
+      "importance": "KNM 高频",
+      "topic": "Nederland leren kennen",
+      "topicId": "nederland-leren-kennen",
+      "source": "KNM A1 supplemental vocabulary"
+    },
+    {
+      "word": "naast",
+      "variants": "",
+      "english": "next to",
+      "meaning": "在……旁边",
+      "example": "",
+      "note": "代词、冠词、疑问词与连接词",
+      "importance": "KNM 高频",
+      "topic": "Nederland leren kennen",
+      "topicId": "nederland-leren-kennen",
+      "source": "KNM A1 supplemental vocabulary"
+    },
+    {
+      "word": "tussen",
+      "variants": "",
+      "english": "between",
+      "meaning": "在……之间",
+      "example": "",
+      "note": "代词、冠词、疑问词与连接词",
+      "importance": "KNM 高频",
+      "topic": "Nederland leren kennen",
+      "topicId": "nederland-leren-kennen",
+      "source": "KNM A1 supplemental vocabulary"
+    },
+    {
+      "word": "tegenover",
+      "variants": "",
+      "english": "opposite",
+      "meaning": "在……对面",
+      "example": "",
+      "note": "代词、冠词、疑问词与连接词",
+      "importance": "KNM 高频",
+      "topic": "Nederland leren kennen",
+      "topicId": "nederland-leren-kennen",
+      "source": "KNM A1 supplemental vocabulary"
+    },
+    {
+      "word": "in",
+      "variants": "",
+      "english": "in",
+      "meaning": "在……里面",
+      "example": "",
+      "note": "代词、冠词、疑问词与连接词",
+      "importance": "KNM 高频",
+      "topic": "Nederland leren kennen",
+      "topicId": "nederland-leren-kennen",
+      "source": "KNM A1 supplemental vocabulary"
+    },
+    {
+      "word": "op",
+      "variants": "",
+      "english": "on",
+      "meaning": "在……上面",
+      "example": "",
+      "note": "代词、冠词、疑问词与连接词",
+      "importance": "KNM 高频",
+      "topic": "Nederland leren kennen",
+      "topicId": "nederland-leren-kennen",
+      "source": "KNM A1 supplemental vocabulary"
+    },
+    {
+      "word": "onder",
+      "variants": "",
+      "english": "under",
+      "meaning": "在……下面",
+      "example": "",
+      "note": "代词、冠词、疑问词与连接词",
+      "importance": "KNM 高频",
+      "topic": "Nederland leren kennen",
+      "topicId": "nederland-leren-kennen",
+      "source": "KNM A1 supplemental vocabulary"
+    },
+    {
+      "word": "bij",
+      "variants": "",
+      "english": "at / with / near",
+      "meaning": "在……那里；和；靠近",
+      "example": "",
+      "note": "代词、冠词、疑问词与连接词",
+      "importance": "KNM 高频",
+      "topic": "Nederland leren kennen",
+      "topicId": "nederland-leren-kennen",
+      "source": "KNM A1 supplemental vocabulary"
+    },
+    {
+      "word": "naar",
+      "variants": "",
+      "english": "to",
+      "meaning": "去、向",
+      "example": "",
+      "note": "代词、冠词、疑问词与连接词",
+      "importance": "KNM 高频",
+      "topic": "Nederland leren kennen",
+      "topicId": "nederland-leren-kennen",
+      "source": "KNM A1 supplemental vocabulary"
+    },
+    {
+      "word": "van",
+      "variants": "",
+      "english": "from / of",
+      "meaning": "从；……的",
+      "example": "",
+      "note": "代词、冠词、疑问词与连接词",
+      "importance": "KNM 高频",
+      "topic": "Nederland leren kennen",
+      "topicId": "nederland-leren-kennen",
+      "source": "KNM A1 supplemental vocabulary"
+    },
+    {
+      "word": "met",
+      "variants": "",
+      "english": "with",
+      "meaning": "和、用",
+      "example": "",
+      "note": "代词、冠词、疑问词与连接词",
+      "importance": "KNM 高频",
+      "topic": "Nederland leren kennen",
+      "topicId": "nederland-leren-kennen",
+      "source": "KNM A1 supplemental vocabulary"
+    },
+    {
+      "word": "zonder",
+      "variants": "",
+      "english": "without",
+      "meaning": "没有、不带",
+      "example": "",
+      "note": "代词、冠词、疑问词与连接词",
+      "importance": "KNM 高频",
+      "topic": "Nederland leren kennen",
+      "topicId": "nederland-leren-kennen",
+      "source": "KNM A1 supplemental vocabulary"
+    },
+    {
+      "word": "over",
+      "variants": "",
+      "english": "about / over",
+      "meaning": "关于；越过",
+      "example": "",
+      "note": "代词、冠词、疑问词与连接词",
+      "importance": "KNM 高频",
+      "topic": "Nederland leren kennen",
+      "topicId": "nederland-leren-kennen",
+      "source": "KNM A1 supplemental vocabulary"
+    },
+    {
+      "word": "door",
+      "variants": "",
+      "english": "through / by",
+      "meaning": "穿过；由",
+      "example": "",
+      "note": "代词、冠词、疑问词与连接词",
+      "importance": "KNM 高频",
+      "topic": "Nederland leren kennen",
+      "topicId": "nederland-leren-kennen",
+      "source": "KNM A1 supplemental vocabulary"
+    },
+    {
+      "word": "tot",
+      "variants": "",
+      "english": "until / to",
+      "meaning": "直到、到",
+      "example": "",
+      "note": "代词、冠词、疑问词与连接词",
+      "importance": "KNM 高频",
+      "topic": "Nederland leren kennen",
+      "topicId": "nederland-leren-kennen",
+      "source": "KNM A1 supplemental vocabulary"
+    },
+    {
+      "word": "nu",
+      "variants": "",
+      "english": "now",
+      "meaning": "现在",
+      "example": "",
+      "note": "时间、频率与日期",
+      "importance": "KNM 高频",
+      "topic": "Nederland leren kennen",
+      "topicId": "nederland-leren-kennen",
+      "source": "KNM A1 supplemental vocabulary"
+    },
+    {
+      "word": "straks",
+      "variants": "",
+      "english": "later / shortly",
+      "meaning": "一会儿、稍后",
+      "example": "",
+      "note": "时间、频率与日期",
+      "importance": "KNM 高频",
+      "topic": "Nederland leren kennen",
+      "topicId": "nederland-leren-kennen",
+      "source": "KNM A1 supplemental vocabulary"
+    },
+    {
+      "word": "vandaag",
+      "variants": "",
+      "english": "today",
+      "meaning": "今天",
+      "example": "",
+      "note": "时间、频率与日期",
+      "importance": "KNM 高频",
+      "topic": "Nederland leren kennen",
+      "topicId": "nederland-leren-kennen",
+      "source": "KNM A1 supplemental vocabulary"
+    },
+    {
+      "word": "morgen",
+      "variants": "",
+      "english": "tomorrow",
+      "meaning": "明天",
+      "example": "",
+      "note": "时间、频率与日期",
+      "importance": "KNM 高频",
+      "topic": "Nederland leren kennen",
+      "topicId": "nederland-leren-kennen",
+      "source": "KNM A1 supplemental vocabulary"
+    },
+    {
+      "word": "gisteren",
+      "variants": "",
+      "english": "yesterday",
+      "meaning": "昨天",
+      "example": "",
+      "note": "时间、频率与日期",
+      "importance": "KNM 高频",
+      "topic": "Nederland leren kennen",
+      "topicId": "nederland-leren-kennen",
+      "source": "KNM A1 supplemental vocabulary"
+    },
+    {
+      "word": "altijd",
+      "variants": "",
+      "english": "always",
+      "meaning": "总是",
+      "example": "",
+      "note": "时间、频率与日期",
+      "importance": "KNM 高频",
+      "topic": "Nederland leren kennen",
+      "topicId": "nederland-leren-kennen",
+      "source": "KNM A1 supplemental vocabulary"
+    },
+    {
+      "word": "vaak",
+      "variants": "",
+      "english": "often",
+      "meaning": "经常",
+      "example": "",
+      "note": "时间、频率与日期",
+      "importance": "KNM 高频",
+      "topic": "Nederland leren kennen",
+      "topicId": "nederland-leren-kennen",
+      "source": "KNM A1 supplemental vocabulary"
+    },
+    {
+      "word": "soms",
+      "variants": "",
+      "english": "sometimes",
+      "meaning": "有时",
+      "example": "",
+      "note": "时间、频率与日期",
+      "importance": "KNM 高频",
+      "topic": "Nederland leren kennen",
+      "topicId": "nederland-leren-kennen",
+      "source": "KNM A1 supplemental vocabulary"
+    },
+    {
+      "word": "nooit",
+      "variants": "",
+      "english": "never",
+      "meaning": "从不",
+      "example": "",
+      "note": "时间、频率与日期",
+      "importance": "KNM 高频",
+      "topic": "Nederland leren kennen",
+      "topicId": "nederland-leren-kennen",
+      "source": "KNM A1 supplemental vocabulary"
+    },
+    {
+      "word": "vroeg",
+      "variants": "vroege; vroeger",
+      "english": "early",
+      "meaning": "早",
+      "example": "",
+      "note": "时间、频率与日期",
+      "importance": "KNM 高频",
+      "topic": "Nederland leren kennen",
+      "topicId": "nederland-leren-kennen",
+      "source": "KNM A1 supplemental vocabulary"
+    },
+    {
+      "word": "laat",
+      "variants": "late; later",
+      "english": "late",
+      "meaning": "晚、迟",
+      "example": "",
+      "note": "时间、频率与日期",
+      "importance": "KNM 高频",
+      "topic": "Nederland leren kennen",
+      "topicId": "nederland-leren-kennen",
+      "source": "KNM A1 supplemental vocabulary"
+    },
+    {
+      "word": "de tijd",
+      "variants": "tijden",
+      "english": "time",
+      "meaning": "时间",
+      "example": "",
+      "note": "时间、频率与日期",
+      "importance": "KNM 高频",
+      "topic": "Nederland leren kennen",
+      "topicId": "nederland-leren-kennen",
+      "source": "KNM A1 supplemental vocabulary"
+    },
+    {
+      "word": "het uur",
+      "variants": "uren",
+      "english": "hour / o'clock",
+      "meaning": "小时；点钟",
+      "example": "",
+      "note": "时间、频率与日期",
+      "importance": "KNM 高频",
+      "topic": "Nederland leren kennen",
+      "topicId": "nederland-leren-kennen",
+      "source": "KNM A1 supplemental vocabulary"
+    },
+    {
+      "word": "de minuut",
+      "variants": "minuten",
+      "english": "minute",
+      "meaning": "分钟",
+      "example": "",
+      "note": "时间、频率与日期",
+      "importance": "KNM 高频",
+      "topic": "Nederland leren kennen",
+      "topicId": "nederland-leren-kennen",
+      "source": "KNM A1 supplemental vocabulary"
+    },
+    {
+      "word": "de ochtend",
+      "variants": "ochtenden",
+      "english": "morning",
+      "meaning": "早上",
+      "example": "",
+      "note": "时间、频率与日期",
+      "importance": "KNM 高频",
+      "topic": "Nederland leren kennen",
+      "topicId": "nederland-leren-kennen",
+      "source": "KNM A1 supplemental vocabulary"
+    },
+    {
+      "word": "de middag",
+      "variants": "middagen",
+      "english": "afternoon",
+      "meaning": "下午",
+      "example": "",
+      "note": "时间、频率与日期",
+      "importance": "KNM 高频",
+      "topic": "Nederland leren kennen",
+      "topicId": "nederland-leren-kennen",
+      "source": "KNM A1 supplemental vocabulary"
+    },
+    {
+      "word": "de avond",
+      "variants": "avonden",
+      "english": "evening",
+      "meaning": "晚上",
+      "example": "",
+      "note": "时间、频率与日期",
+      "importance": "KNM 高频",
+      "topic": "Nederland leren kennen",
+      "topicId": "nederland-leren-kennen",
+      "source": "KNM A1 supplemental vocabulary"
+    },
+    {
+      "word": "de nacht",
+      "variants": "nachten",
+      "english": "night",
+      "meaning": "夜晚",
+      "example": "",
+      "note": "时间、频率与日期",
+      "importance": "KNM 高频",
+      "topic": "Nederland leren kennen",
+      "topicId": "nederland-leren-kennen",
+      "source": "KNM A1 supplemental vocabulary"
+    },
+    {
+      "word": "maandag",
+      "variants": "maandagen",
+      "english": "Monday",
+      "meaning": "星期一",
+      "example": "",
+      "note": "时间、频率与日期",
+      "importance": "KNM 高频",
+      "topic": "Nederland leren kennen",
+      "topicId": "nederland-leren-kennen",
+      "source": "KNM A1 supplemental vocabulary"
+    },
+    {
+      "word": "dinsdag",
+      "variants": "dinsdagen",
+      "english": "Tuesday",
+      "meaning": "星期二",
+      "example": "",
+      "note": "时间、频率与日期",
+      "importance": "KNM 高频",
+      "topic": "Nederland leren kennen",
+      "topicId": "nederland-leren-kennen",
+      "source": "KNM A1 supplemental vocabulary"
+    },
+    {
+      "word": "woensdag",
+      "variants": "woensdagen",
+      "english": "Wednesday",
+      "meaning": "星期三",
+      "example": "",
+      "note": "时间、频率与日期",
+      "importance": "KNM 高频",
+      "topic": "Nederland leren kennen",
+      "topicId": "nederland-leren-kennen",
+      "source": "KNM A1 supplemental vocabulary"
+    },
+    {
+      "word": "donderdag",
+      "variants": "donderdagen",
+      "english": "Thursday",
+      "meaning": "星期四",
+      "example": "",
+      "note": "时间、频率与日期",
+      "importance": "KNM 高频",
+      "topic": "Nederland leren kennen",
+      "topicId": "nederland-leren-kennen",
+      "source": "KNM A1 supplemental vocabulary"
+    },
+    {
+      "word": "vrijdag",
+      "variants": "vrijdagen",
+      "english": "Friday",
+      "meaning": "星期五",
+      "example": "",
+      "note": "时间、频率与日期",
+      "importance": "KNM 高频",
+      "topic": "Nederland leren kennen",
+      "topicId": "nederland-leren-kennen",
+      "source": "KNM A1 supplemental vocabulary"
+    },
+    {
+      "word": "zaterdag",
+      "variants": "zaterdagen",
+      "english": "Saturday",
+      "meaning": "星期六",
+      "example": "",
+      "note": "时间、频率与日期",
+      "importance": "KNM 高频",
+      "topic": "Nederland leren kennen",
+      "topicId": "nederland-leren-kennen",
+      "source": "KNM A1 supplemental vocabulary"
+    },
+    {
+      "word": "zondag",
+      "variants": "zondagen",
+      "english": "Sunday",
+      "meaning": "星期日",
+      "example": "",
+      "note": "时间、频率与日期",
+      "importance": "KNM 高频",
+      "topic": "Nederland leren kennen",
+      "topicId": "nederland-leren-kennen",
+      "source": "KNM A1 supplemental vocabulary"
+    },
+    {
+      "word": "januari",
+      "variants": "",
+      "english": "January",
+      "meaning": "一月",
+      "example": "",
+      "note": "时间、频率与日期",
+      "importance": "KNM 高频",
+      "topic": "Nederland leren kennen",
+      "topicId": "nederland-leren-kennen",
+      "source": "KNM A1 supplemental vocabulary"
+    },
+    {
+      "word": "februari",
+      "variants": "",
+      "english": "February",
+      "meaning": "二月",
+      "example": "",
+      "note": "时间、频率与日期",
+      "importance": "KNM 高频",
+      "topic": "Nederland leren kennen",
+      "topicId": "nederland-leren-kennen",
+      "source": "KNM A1 supplemental vocabulary"
+    },
+    {
+      "word": "maart",
+      "variants": "",
+      "english": "March",
+      "meaning": "三月",
+      "example": "",
+      "note": "时间、频率与日期",
+      "importance": "KNM 高频",
+      "topic": "Nederland leren kennen",
+      "topicId": "nederland-leren-kennen",
+      "source": "KNM A1 supplemental vocabulary"
+    },
+    {
+      "word": "april",
+      "variants": "",
+      "english": "April",
+      "meaning": "四月",
+      "example": "",
+      "note": "时间、频率与日期",
+      "importance": "KNM 高频",
+      "topic": "Nederland leren kennen",
+      "topicId": "nederland-leren-kennen",
+      "source": "KNM A1 supplemental vocabulary"
+    },
+    {
+      "word": "mei",
+      "variants": "",
+      "english": "May",
+      "meaning": "五月",
+      "example": "",
+      "note": "时间、频率与日期",
+      "importance": "KNM 高频",
+      "topic": "Nederland leren kennen",
+      "topicId": "nederland-leren-kennen",
+      "source": "KNM A1 supplemental vocabulary"
+    },
+    {
+      "word": "juni",
+      "variants": "",
+      "english": "June",
+      "meaning": "六月",
+      "example": "",
+      "note": "时间、频率与日期",
+      "importance": "KNM 高频",
+      "topic": "Nederland leren kennen",
+      "topicId": "nederland-leren-kennen",
+      "source": "KNM A1 supplemental vocabulary"
+    },
+    {
+      "word": "juli",
+      "variants": "",
+      "english": "July",
+      "meaning": "七月",
+      "example": "",
+      "note": "时间、频率与日期",
+      "importance": "KNM 高频",
+      "topic": "Nederland leren kennen",
+      "topicId": "nederland-leren-kennen",
+      "source": "KNM A1 supplemental vocabulary"
+    },
+    {
+      "word": "augustus",
+      "variants": "",
+      "english": "August",
+      "meaning": "八月",
+      "example": "",
+      "note": "时间、频率与日期",
+      "importance": "KNM 高频",
+      "topic": "Nederland leren kennen",
+      "topicId": "nederland-leren-kennen",
+      "source": "KNM A1 supplemental vocabulary"
+    },
+    {
+      "word": "september",
+      "variants": "",
+      "english": "September",
+      "meaning": "九月",
+      "example": "",
+      "note": "时间、频率与日期",
+      "importance": "KNM 高频",
+      "topic": "Nederland leren kennen",
+      "topicId": "nederland-leren-kennen",
+      "source": "KNM A1 supplemental vocabulary"
+    },
+    {
+      "word": "oktober",
+      "variants": "",
+      "english": "October",
+      "meaning": "十月",
+      "example": "",
+      "note": "时间、频率与日期",
+      "importance": "KNM 高频",
+      "topic": "Nederland leren kennen",
+      "topicId": "nederland-leren-kennen",
+      "source": "KNM A1 supplemental vocabulary"
+    },
+    {
+      "word": "november",
+      "variants": "",
+      "english": "November",
+      "meaning": "十一月",
+      "example": "",
+      "note": "时间、频率与日期",
+      "importance": "KNM 高频",
+      "topic": "Nederland leren kennen",
+      "topicId": "nederland-leren-kennen",
+      "source": "KNM A1 supplemental vocabulary"
+    },
+    {
+      "word": "december",
+      "variants": "",
+      "english": "December",
+      "meaning": "十二月",
+      "example": "",
+      "note": "时间、频率与日期",
+      "importance": "KNM 高频",
+      "topic": "Nederland leren kennen",
+      "topicId": "nederland-leren-kennen",
+      "source": "KNM A1 supplemental vocabulary"
+    },
+    {
+      "word": "nul",
+      "variants": "",
+      "english": "zero",
+      "meaning": "零",
+      "example": "",
+      "note": "数字与数量",
+      "importance": "KNM 高频",
+      "topic": "Nederland leren kennen",
+      "topicId": "nederland-leren-kennen",
+      "source": "KNM A1 supplemental vocabulary"
+    },
+    {
+      "word": "één",
+      "variants": "eerste",
+      "english": "one / first",
+      "meaning": "一 / 第一",
+      "example": "",
+      "note": "数字与数量",
+      "importance": "KNM 高频",
+      "topic": "Nederland leren kennen",
+      "topicId": "nederland-leren-kennen",
+      "source": "KNM A1 supplemental vocabulary"
+    },
+    {
+      "word": "twee",
+      "variants": "tweede",
+      "english": "two / second",
+      "meaning": "二 / 第二",
+      "example": "",
+      "note": "数字与数量",
+      "importance": "KNM 高频",
+      "topic": "Nederland leren kennen",
+      "topicId": "nederland-leren-kennen",
+      "source": "KNM A1 supplemental vocabulary"
+    },
+    {
+      "word": "drie",
+      "variants": "derde",
+      "english": "three / third",
+      "meaning": "三 / 第三",
+      "example": "",
+      "note": "数字与数量",
+      "importance": "KNM 高频",
+      "topic": "Nederland leren kennen",
+      "topicId": "nederland-leren-kennen",
+      "source": "KNM A1 supplemental vocabulary"
+    },
+    {
+      "word": "vier",
+      "variants": "vierde",
+      "english": "four / fourth",
+      "meaning": "四 / 第四",
+      "example": "",
+      "note": "数字与数量",
+      "importance": "KNM 高频",
+      "topic": "Nederland leren kennen",
+      "topicId": "nederland-leren-kennen",
+      "source": "KNM A1 supplemental vocabulary"
+    },
+    {
+      "word": "vijf",
+      "variants": "vijfde",
+      "english": "five / fifth",
+      "meaning": "五 / 第五",
+      "example": "",
+      "note": "数字与数量",
+      "importance": "KNM 高频",
+      "topic": "Nederland leren kennen",
+      "topicId": "nederland-leren-kennen",
+      "source": "KNM A1 supplemental vocabulary"
+    },
+    {
+      "word": "zes",
+      "variants": "zesde",
+      "english": "six / sixth",
+      "meaning": "六 / 第六",
+      "example": "",
+      "note": "数字与数量",
+      "importance": "KNM 高频",
+      "topic": "Nederland leren kennen",
+      "topicId": "nederland-leren-kennen",
+      "source": "KNM A1 supplemental vocabulary"
+    },
+    {
+      "word": "zeven",
+      "variants": "zevende",
+      "english": "seven / seventh",
+      "meaning": "七 / 第七",
+      "example": "",
+      "note": "数字与数量",
+      "importance": "KNM 高频",
+      "topic": "Nederland leren kennen",
+      "topicId": "nederland-leren-kennen",
+      "source": "KNM A1 supplemental vocabulary"
+    },
+    {
+      "word": "acht",
+      "variants": "achtste",
+      "english": "eight / eighth",
+      "meaning": "八 / 第八",
+      "example": "",
+      "note": "数字与数量",
+      "importance": "KNM 高频",
+      "topic": "Nederland leren kennen",
+      "topicId": "nederland-leren-kennen",
+      "source": "KNM A1 supplemental vocabulary"
+    },
+    {
+      "word": "negen",
+      "variants": "negende",
+      "english": "nine / ninth",
+      "meaning": "九 / 第九",
+      "example": "",
+      "note": "数字与数量",
+      "importance": "KNM 高频",
+      "topic": "Nederland leren kennen",
+      "topicId": "nederland-leren-kennen",
+      "source": "KNM A1 supplemental vocabulary"
+    },
+    {
+      "word": "tien",
+      "variants": "tiende",
+      "english": "ten / tenth",
+      "meaning": "十 / 第十",
+      "example": "",
+      "note": "数字与数量",
+      "importance": "KNM 高频",
+      "topic": "Nederland leren kennen",
+      "topicId": "nederland-leren-kennen",
+      "source": "KNM A1 supplemental vocabulary"
+    },
+    {
+      "word": "honderd",
+      "variants": "honderden",
+      "english": "hundred",
+      "meaning": "一百",
+      "example": "",
+      "note": "数字与数量",
+      "importance": "KNM 高频",
+      "topic": "Nederland leren kennen",
+      "topicId": "nederland-leren-kennen",
+      "source": "KNM A1 supplemental vocabulary"
+    },
+    {
+      "word": "duizend",
+      "variants": "duizenden",
+      "english": "thousand",
+      "meaning": "一千",
+      "example": "",
+      "note": "数字与数量",
+      "importance": "KNM 高频",
+      "topic": "Nederland leren kennen",
+      "topicId": "nederland-leren-kennen",
+      "source": "KNM A1 supplemental vocabulary"
+    },
+    {
+      "word": "veel",
+      "variants": "meer; meest",
+      "english": "much / many",
+      "meaning": "很多",
+      "example": "",
+      "note": "数字与数量",
+      "importance": "KNM 高频",
+      "topic": "Nederland leren kennen",
+      "topicId": "nederland-leren-kennen",
+      "source": "KNM A1 supplemental vocabulary"
+    },
+    {
+      "word": "weinig",
+      "variants": "minder; minst",
+      "english": "little / few",
+      "meaning": "少",
+      "example": "",
+      "note": "数字与数量",
+      "importance": "KNM 高频",
+      "topic": "Nederland leren kennen",
+      "topicId": "nederland-leren-kennen",
+      "source": "KNM A1 supplemental vocabulary"
+    },
+    {
+      "word": "genoeg",
+      "variants": "",
+      "english": "enough",
+      "meaning": "足够",
+      "example": "",
+      "note": "数字与数量",
+      "importance": "KNM 高频",
+      "topic": "Nederland leren kennen",
+      "topicId": "nederland-leren-kennen",
+      "source": "KNM A1 supplemental vocabulary"
+    },
+    {
+      "word": "alles",
+      "variants": "",
+      "english": "everything",
+      "meaning": "所有东西",
+      "example": "",
+      "note": "数字与数量",
+      "importance": "KNM 高频",
+      "topic": "Nederland leren kennen",
+      "topicId": "nederland-leren-kennen",
+      "source": "KNM A1 supplemental vocabulary"
+    },
+    {
+      "word": "iets",
+      "variants": "",
+      "english": "something",
+      "meaning": "某物、一些东西",
+      "example": "",
+      "note": "数字与数量",
+      "importance": "KNM 高频",
+      "topic": "Nederland leren kennen",
+      "topicId": "nederland-leren-kennen",
+      "source": "KNM A1 supplemental vocabulary"
+    },
+    {
+      "word": "niets",
+      "variants": "",
+      "english": "nothing",
+      "meaning": "什么都没有",
+      "example": "",
+      "note": "数字与数量",
+      "importance": "KNM 高频",
+      "topic": "Nederland leren kennen",
+      "topicId": "nederland-leren-kennen",
+      "source": "KNM A1 supplemental vocabulary"
+    },
+    {
+      "word": "zijn",
+      "variants": "ben; bent; is; was/waren; is geweest",
+      "english": "to be",
+      "meaning": "是、在",
+      "example": "",
+      "note": "A1 核心动词",
+      "importance": "KNM 高频",
+      "topic": "Werken in Nederland",
+      "topicId": "werken-in-nederland",
+      "source": "KNM A1 supplemental vocabulary"
+    },
+    {
+      "word": "hebben",
+      "variants": "heb; hebt; heeft; had/hadden; heeft gehad",
+      "english": "to have",
+      "meaning": "有",
+      "example": "",
+      "note": "A1 核心动词",
+      "importance": "KNM 高频",
+      "topic": "Werken in Nederland",
+      "topicId": "werken-in-nederland",
+      "source": "KNM A1 supplemental vocabulary"
+    },
+    {
+      "word": "gaan",
+      "variants": "ga; gaat; ging/gingen; is gegaan",
+      "english": "to go",
+      "meaning": "去",
+      "example": "",
+      "note": "A1 核心动词",
+      "importance": "KNM 高频",
+      "topic": "Werken in Nederland",
+      "topicId": "werken-in-nederland",
+      "source": "KNM A1 supplemental vocabulary"
+    },
+    {
+      "word": "komen",
+      "variants": "kom; komt; kwam/kwamen; is gekomen",
+      "english": "to come",
+      "meaning": "来",
+      "example": "",
+      "note": "A1 核心动词",
+      "importance": "KNM 高频",
+      "topic": "Werken in Nederland",
+      "topicId": "werken-in-nederland",
+      "source": "KNM A1 supplemental vocabulary"
+    },
+    {
+      "word": "doen",
+      "variants": "doe; doet; deed/deden; heeft gedaan",
+      "english": "to do",
+      "meaning": "做",
+      "example": "",
+      "note": "A1 核心动词",
+      "importance": "KNM 高频",
+      "topic": "Werken in Nederland",
+      "topicId": "werken-in-nederland",
+      "source": "KNM A1 supplemental vocabulary"
+    },
+    {
+      "word": "maken",
+      "variants": "maak; maakt; maakte; heeft gemaakt",
+      "english": "to make",
+      "meaning": "制作、做",
+      "example": "",
+      "note": "A1 核心动词",
+      "importance": "KNM 高频",
+      "topic": "Werken in Nederland",
+      "topicId": "werken-in-nederland",
+      "source": "KNM A1 supplemental vocabulary"
+    },
+    {
+      "word": "kunnen",
+      "variants": "kan/kunt; kon/konden; heeft gekund",
+      "english": "can / to be able to",
+      "meaning": "能、可以",
+      "example": "",
+      "note": "A1 核心动词",
+      "importance": "KNM 高频",
+      "topic": "Werken in Nederland",
+      "topicId": "werken-in-nederland",
+      "source": "KNM A1 supplemental vocabulary"
+    },
+    {
+      "word": "moeten",
+      "variants": "moet; moest/moesten; heeft gemoeten",
+      "english": "must / have to",
+      "meaning": "必须、得",
+      "example": "",
+      "note": "A1 核心动词",
+      "importance": "KNM 高频",
+      "topic": "Werken in Nederland",
+      "topicId": "werken-in-nederland",
+      "source": "KNM A1 supplemental vocabulary"
+    },
+    {
+      "word": "willen",
+      "variants": "wil/wilt; wilde/wilden; heeft gewild",
+      "english": "to want",
+      "meaning": "想要",
+      "example": "",
+      "note": "A1 核心动词",
+      "importance": "KNM 高频",
+      "topic": "Werken in Nederland",
+      "topicId": "werken-in-nederland",
+      "source": "KNM A1 supplemental vocabulary"
+    },
+    {
+      "word": "mogen",
+      "variants": "mag; mocht/mochten; heeft gemogen",
+      "english": "may / be allowed to",
+      "meaning": "可以、被允许",
+      "example": "",
+      "note": "A1 核心动词",
+      "importance": "KNM 高频",
+      "topic": "Werken in Nederland",
+      "topicId": "werken-in-nederland",
+      "source": "KNM A1 supplemental vocabulary"
+    },
+    {
+      "word": "weten",
+      "variants": "weet; wist/wisten; heeft geweten",
+      "english": "to know a fact",
+      "meaning": "知道",
+      "example": "",
+      "note": "A1 核心动词",
+      "importance": "KNM 高频",
+      "topic": "Werken in Nederland",
+      "topicId": "werken-in-nederland",
+      "source": "KNM A1 supplemental vocabulary"
+    },
+    {
+      "word": "kennen",
+      "variants": "ken; kent; kende; heeft gekend",
+      "english": "to know / be familiar with",
+      "meaning": "认识、熟悉",
+      "example": "",
+      "note": "A1 核心动词",
+      "importance": "KNM 高频",
+      "topic": "Werken in Nederland",
+      "topicId": "werken-in-nederland",
+      "source": "KNM A1 supplemental vocabulary"
+    },
+    {
+      "word": "denken",
+      "variants": "denk; denkt; dacht/dachten; heeft gedacht",
+      "english": "to think",
+      "meaning": "想、认为",
+      "example": "",
+      "note": "A1 核心动词",
+      "importance": "KNM 高频",
+      "topic": "Werken in Nederland",
+      "topicId": "werken-in-nederland",
+      "source": "KNM A1 supplemental vocabulary"
+    },
+    {
+      "word": "vinden",
+      "variants": "vind; vindt; vond/vonden; heeft gevonden",
+      "english": "to find / think",
+      "meaning": "找到；认为",
+      "example": "",
+      "note": "A1 核心动词",
+      "importance": "KNM 高频",
+      "topic": "Werken in Nederland",
+      "topicId": "werken-in-nederland",
+      "source": "KNM A1 supplemental vocabulary"
+    },
+    {
+      "word": "zeggen",
+      "variants": "zeg; zegt; zei/zeiden; heeft gezegd",
+      "english": "to say",
+      "meaning": "说",
+      "example": "",
+      "note": "A1 核心动词",
+      "importance": "KNM 高频",
+      "topic": "Werken in Nederland",
+      "topicId": "werken-in-nederland",
+      "source": "KNM A1 supplemental vocabulary"
+    },
+    {
+      "word": "praten",
+      "variants": "praat; praatte; heeft gepraat",
+      "english": "to talk",
+      "meaning": "说话、交谈",
+      "example": "",
+      "note": "A1 核心动词",
+      "importance": "KNM 高频",
+      "topic": "Werken in Nederland",
+      "topicId": "werken-in-nederland",
+      "source": "KNM A1 supplemental vocabulary"
+    },
+    {
+      "word": "vragen",
+      "variants": "vraag; vraagt; vroeg/vroegen; heeft gevraagd",
+      "english": "to ask",
+      "meaning": "问",
+      "example": "",
+      "note": "A1 核心动词",
+      "importance": "KNM 高频",
+      "topic": "Werken in Nederland",
+      "topicId": "werken-in-nederland",
+      "source": "KNM A1 supplemental vocabulary"
+    },
+    {
+      "word": "antwoorden",
+      "variants": "antwoordt; antwoordde; heeft geantwoord",
+      "english": "to answer",
+      "meaning": "回答",
+      "example": "",
+      "note": "A1 核心动词",
+      "importance": "KNM 高频",
+      "topic": "Werken in Nederland",
+      "topicId": "werken-in-nederland",
+      "source": "KNM A1 supplemental vocabulary"
+    },
+    {
+      "word": "luisteren",
+      "variants": "luistert; luisterde; heeft geluisterd",
+      "english": "to listen",
+      "meaning": "听",
+      "example": "",
+      "note": "A1 核心动词",
+      "importance": "KNM 高频",
+      "topic": "Werken in Nederland",
+      "topicId": "werken-in-nederland",
+      "source": "KNM A1 supplemental vocabulary"
+    },
+    {
+      "word": "horen",
+      "variants": "hoor; hoort; hoorde; heeft gehoord",
+      "english": "to hear",
+      "meaning": "听见",
+      "example": "",
+      "note": "A1 核心动词",
+      "importance": "KNM 高频",
+      "topic": "Werken in Nederland",
+      "topicId": "werken-in-nederland",
+      "source": "KNM A1 supplemental vocabulary"
+    },
+    {
+      "word": "zien",
+      "variants": "zie; ziet; zag/zagen; heeft gezien",
+      "english": "to see",
+      "meaning": "看见",
+      "example": "",
+      "note": "A1 核心动词",
+      "importance": "KNM 高频",
+      "topic": "Werken in Nederland",
+      "topicId": "werken-in-nederland",
+      "source": "KNM A1 supplemental vocabulary"
+    },
+    {
+      "word": "kijken",
+      "variants": "kijkt; keek/keken; heeft gekeken",
+      "english": "to look / watch",
+      "meaning": "看",
+      "example": "",
+      "note": "A1 核心动词",
+      "importance": "KNM 高频",
+      "topic": "Werken in Nederland",
+      "topicId": "werken-in-nederland",
+      "source": "KNM A1 supplemental vocabulary"
+    },
+    {
+      "word": "lezen",
+      "variants": "lees; leest; las/lazen; heeft gelezen",
+      "english": "to read",
+      "meaning": "读",
+      "example": "",
+      "note": "A1 核心动词",
+      "importance": "KNM 高频",
+      "topic": "Werken in Nederland",
+      "topicId": "werken-in-nederland",
+      "source": "KNM A1 supplemental vocabulary"
+    },
+    {
+      "word": "schrijven",
+      "variants": "schrijf; schrijft; schreef/schreven; heeft geschreven",
+      "english": "to write",
+      "meaning": "写",
+      "example": "",
+      "note": "A1 核心动词",
+      "importance": "KNM 高频",
+      "topic": "Werken in Nederland",
+      "topicId": "werken-in-nederland",
+      "source": "KNM A1 supplemental vocabulary"
+    },
+    {
+      "word": "spreken",
+      "variants": "spreek; spreekt; sprak/spraken; heeft gesproken",
+      "english": "to speak",
+      "meaning": "说、讲",
+      "example": "",
+      "note": "A1 核心动词",
+      "importance": "KNM 高频",
+      "topic": "Werken in Nederland",
+      "topicId": "werken-in-nederland",
+      "source": "KNM A1 supplemental vocabulary"
+    },
+    {
+      "word": "leren",
+      "variants": "leer; leert; leerde; heeft geleerd",
+      "english": "to learn",
+      "meaning": "学习",
+      "example": "",
+      "note": "A1 核心动词",
+      "importance": "KNM 高频",
+      "topic": "Werken in Nederland",
+      "topicId": "werken-in-nederland",
+      "source": "KNM A1 supplemental vocabulary"
+    },
+    {
+      "word": "begrijpen",
+      "variants": "begrijp; begrijpt; begreep/begrepen; heeft begrepen",
+      "english": "to understand",
+      "meaning": "理解",
+      "example": "",
+      "note": "A1 核心动词",
+      "importance": "KNM 高频",
+      "topic": "Werken in Nederland",
+      "topicId": "werken-in-nederland",
+      "source": "KNM A1 supplemental vocabulary"
+    },
+    {
+      "word": "werken",
+      "variants": "werk; werkt; werkte; heeft gewerkt",
+      "english": "to work",
+      "meaning": "工作",
+      "example": "",
+      "note": "A1 核心动词",
+      "importance": "KNM 高频",
+      "topic": "Werken in Nederland",
+      "topicId": "werken-in-nederland",
+      "source": "KNM A1 supplemental vocabulary"
+    },
+    {
+      "word": "wonen",
+      "variants": "woon; woont; woonde; heeft gewoond",
+      "english": "to live / reside",
+      "meaning": "居住",
+      "example": "",
+      "note": "A1 核心动词",
+      "importance": "KNM 高频",
+      "topic": "Werken in Nederland",
+      "topicId": "werken-in-nederland",
+      "source": "KNM A1 supplemental vocabulary"
+    },
+    {
+      "word": "leven",
+      "variants": "leef; leeft; leefde; heeft geleefd",
+      "english": "to live",
+      "meaning": "生活、活着",
+      "example": "",
+      "note": "A1 核心动词",
+      "importance": "KNM 高频",
+      "topic": "Werken in Nederland",
+      "topicId": "werken-in-nederland",
+      "source": "KNM A1 supplemental vocabulary"
+    },
+    {
+      "word": "eten",
+      "variants": "eet; at/aten; heeft gegeten",
+      "english": "to eat",
+      "meaning": "吃",
+      "example": "",
+      "note": "A1 核心动词",
+      "importance": "KNM 高频",
+      "topic": "Werken in Nederland",
+      "topicId": "werken-in-nederland",
+      "source": "KNM A1 supplemental vocabulary"
+    },
+    {
+      "word": "drinken",
+      "variants": "drink; dronk/dronken; heeft gedronken",
+      "english": "to drink",
+      "meaning": "喝",
+      "example": "",
+      "note": "A1 核心动词",
+      "importance": "KNM 高频",
+      "topic": "Werken in Nederland",
+      "topicId": "werken-in-nederland",
+      "source": "KNM A1 supplemental vocabulary"
+    },
+    {
+      "word": "koken",
+      "variants": "kook; kookt; kookte; heeft gekookt",
+      "english": "to cook",
+      "meaning": "做饭",
+      "example": "",
+      "note": "A1 核心动词",
+      "importance": "KNM 高频",
+      "topic": "Werken in Nederland",
+      "topicId": "werken-in-nederland",
+      "source": "KNM A1 supplemental vocabulary"
+    },
+    {
+      "word": "kopen",
+      "variants": "koop; koopt; kocht/kochten; heeft gekocht",
+      "english": "to buy",
+      "meaning": "买",
+      "example": "",
+      "note": "A1 核心动词",
+      "importance": "KNM 高频",
+      "topic": "Werken in Nederland",
+      "topicId": "werken-in-nederland",
+      "source": "KNM A1 supplemental vocabulary"
+    },
+    {
+      "word": "betalen",
+      "variants": "betaal; betaalt; betaalde; heeft betaald",
+      "english": "to pay",
+      "meaning": "付款",
+      "example": "",
+      "note": "A1 核心动词",
+      "importance": "KNM 高频",
+      "topic": "Werken in Nederland",
+      "topicId": "werken-in-nederland",
+      "source": "KNM A1 supplemental vocabulary"
+    },
+    {
+      "word": "kosten",
+      "variants": "kost; kostte; heeft gekost",
+      "english": "to cost",
+      "meaning": "花费、价值",
+      "example": "",
+      "note": "A1 核心动词",
+      "importance": "KNM 高频",
+      "topic": "Werken in Nederland",
+      "topicId": "werken-in-nederland",
+      "source": "KNM A1 supplemental vocabulary"
+    },
+    {
+      "word": "geven",
+      "variants": "geef; geeft; gaf/gaven; heeft gegeven",
+      "english": "to give",
+      "meaning": "给",
+      "example": "",
+      "note": "A1 核心动词",
+      "importance": "KNM 高频",
+      "topic": "Werken in Nederland",
+      "topicId": "werken-in-nederland",
+      "source": "KNM A1 supplemental vocabulary"
+    },
+    {
+      "word": "krijgen",
+      "variants": "krijg; krijgt; kreeg/kregen; heeft gekregen",
+      "english": "to get / receive",
+      "meaning": "得到、收到",
+      "example": "",
+      "note": "A1 核心动词",
+      "importance": "KNM 高频",
+      "topic": "Werken in Nederland",
+      "topicId": "werken-in-nederland",
+      "source": "KNM A1 supplemental vocabulary"
+    },
+    {
+      "word": "nemen",
+      "variants": "neem; neemt; nam/namen; heeft genomen",
+      "english": "to take",
+      "meaning": "拿、乘坐",
+      "example": "",
+      "note": "A1 核心动词",
+      "importance": "KNM 高频",
+      "topic": "Werken in Nederland",
+      "topicId": "werken-in-nederland",
+      "source": "KNM A1 supplemental vocabulary"
+    },
+    {
+      "word": "brengen",
+      "variants": "breng; brengt; bracht/brachten; heeft gebracht",
+      "english": "to bring",
+      "meaning": "带来、送",
+      "example": "",
+      "note": "A1 核心动词",
+      "importance": "KNM 高频",
+      "topic": "Werken in Nederland",
+      "topicId": "werken-in-nederland",
+      "source": "KNM A1 supplemental vocabulary"
+    },
+    {
+      "word": "halen",
+      "variants": "haal; haalt; haalde; heeft gehaald",
+      "english": "to get / pick up",
+      "meaning": "取、拿、接",
+      "example": "",
+      "note": "A1 核心动词",
+      "importance": "KNM 高频",
+      "topic": "Werken in Nederland",
+      "topicId": "werken-in-nederland",
+      "source": "KNM A1 supplemental vocabulary"
+    },
+    {
+      "word": "openen",
+      "variants": "opent; opende; heeft geopend",
+      "english": "to open",
+      "meaning": "打开",
+      "example": "",
+      "note": "A1 核心动词",
+      "importance": "KNM 高频",
+      "topic": "Werken in Nederland",
+      "topicId": "werken-in-nederland",
+      "source": "KNM A1 supplemental vocabulary"
+    },
+    {
+      "word": "sluiten",
+      "variants": "sluit; sloot/sloten; heeft gesloten",
+      "english": "to close",
+      "meaning": "关闭",
+      "example": "",
+      "note": "A1 核心动词",
+      "importance": "KNM 高频",
+      "topic": "Werken in Nederland",
+      "topicId": "werken-in-nederland",
+      "source": "KNM A1 supplemental vocabulary"
+    },
+    {
+      "word": "beginnen",
+      "variants": "begin; begint; begon/begonnen; is begonnen",
+      "english": "to begin",
+      "meaning": "开始",
+      "example": "",
+      "note": "A1 核心动词",
+      "importance": "KNM 高频",
+      "topic": "Werken in Nederland",
+      "topicId": "werken-in-nederland",
+      "source": "KNM A1 supplemental vocabulary"
+    },
+    {
+      "word": "stoppen",
+      "variants": "stop; stopt; stopte; is/heeft gestopt",
+      "english": "to stop",
+      "meaning": "停止",
+      "example": "",
+      "note": "A1 核心动词",
+      "importance": "KNM 高频",
+      "topic": "Werken in Nederland",
+      "topicId": "werken-in-nederland",
+      "source": "KNM A1 supplemental vocabulary"
+    },
+    {
+      "word": "blijven",
+      "variants": "blijf; blijft; bleef/bleven; is gebleven",
+      "english": "to stay",
+      "meaning": "停留、保持",
+      "example": "",
+      "note": "A1 核心动词",
+      "importance": "KNM 高频",
+      "topic": "Werken in Nederland",
+      "topicId": "werken-in-nederland",
+      "source": "KNM A1 supplemental vocabulary"
+    },
+    {
+      "word": "zitten",
+      "variants": "zit; zat/zaten; heeft gezeten",
+      "english": "to sit",
+      "meaning": "坐",
+      "example": "",
+      "note": "A1 核心动词",
+      "importance": "KNM 高频",
+      "topic": "Werken in Nederland",
+      "topicId": "werken-in-nederland",
+      "source": "KNM A1 supplemental vocabulary"
+    },
+    {
+      "word": "staan",
+      "variants": "sta; staat; stond/stonden; heeft gestaan",
+      "english": "to stand",
+      "meaning": "站",
+      "example": "",
+      "note": "A1 核心动词",
+      "importance": "KNM 高频",
+      "topic": "Werken in Nederland",
+      "topicId": "werken-in-nederland",
+      "source": "KNM A1 supplemental vocabulary"
+    },
+    {
+      "word": "liggen",
+      "variants": "lig; ligt; lag/lagen; heeft gelegen",
+      "english": "to lie / be located",
+      "meaning": "躺；位于",
+      "example": "",
+      "note": "A1 核心动词",
+      "importance": "KNM 高频",
+      "topic": "Werken in Nederland",
+      "topicId": "werken-in-nederland",
+      "source": "KNM A1 supplemental vocabulary"
+    },
+    {
+      "word": "lopen",
+      "variants": "loop; loopt; liep/liepen; heeft gelopen",
+      "english": "to walk",
+      "meaning": "走路",
+      "example": "",
+      "note": "A1 核心动词",
+      "importance": "KNM 高频",
+      "topic": "Werken in Nederland",
+      "topicId": "werken-in-nederland",
+      "source": "KNM A1 supplemental vocabulary"
+    },
+    {
+      "word": "fietsen",
+      "variants": "fiets; fietst; fietste; heeft gefietst",
+      "english": "to cycle",
+      "meaning": "骑自行车",
+      "example": "",
+      "note": "A1 核心动词",
+      "importance": "KNM 高频",
+      "topic": "Werken in Nederland",
+      "topicId": "werken-in-nederland",
+      "source": "KNM A1 supplemental vocabulary"
+    },
+    {
+      "word": "rijden",
+      "variants": "rijd; rijdt; reed/reden; heeft/is gereden",
+      "english": "to drive / ride",
+      "meaning": "开车、行驶",
+      "example": "",
+      "note": "A1 核心动词",
+      "importance": "KNM 高频",
+      "topic": "Werken in Nederland",
+      "topicId": "werken-in-nederland",
+      "source": "KNM A1 supplemental vocabulary"
+    },
+    {
+      "word": "reizen",
+      "variants": "reis; reist; reisde; heeft/is gereisd",
+      "english": "to travel",
+      "meaning": "旅行、出行",
+      "example": "",
+      "note": "A1 核心动词",
+      "importance": "KNM 高频",
+      "topic": "Werken in Nederland",
+      "topicId": "werken-in-nederland",
+      "source": "KNM A1 supplemental vocabulary"
+    },
+    {
+      "word": "wachten",
+      "variants": "wacht; wachtte; heeft gewacht",
+      "english": "to wait",
+      "meaning": "等待",
+      "example": "",
+      "note": "A1 核心动词",
+      "importance": "KNM 高频",
+      "topic": "Werken in Nederland",
+      "topicId": "werken-in-nederland",
+      "source": "KNM A1 supplemental vocabulary"
+    },
+    {
+      "word": "helpen",
+      "variants": "help; helpt; hielp/hielpen; heeft geholpen",
+      "english": "to help",
+      "meaning": "帮助",
+      "example": "",
+      "note": "A1 核心动词",
+      "importance": "KNM 高频",
+      "topic": "Werken in Nederland",
+      "topicId": "werken-in-nederland",
+      "source": "KNM A1 supplemental vocabulary"
+    },
+    {
+      "word": "bellen",
+      "variants": "bel; belt; belde; heeft gebeld",
+      "english": "to call",
+      "meaning": "打电话",
+      "example": "",
+      "note": "A1 核心动词",
+      "importance": "KNM 高频",
+      "topic": "Werken in Nederland",
+      "topicId": "werken-in-nederland",
+      "source": "KNM A1 supplemental vocabulary"
+    },
+    {
+      "word": "sturen",
+      "variants": "stuur; stuurt; stuurde; heeft gestuurd",
+      "english": "to send",
+      "meaning": "发送",
+      "example": "",
+      "note": "A1 核心动词",
+      "importance": "KNM 高频",
+      "topic": "Werken in Nederland",
+      "topicId": "werken-in-nederland",
+      "source": "KNM A1 supplemental vocabulary"
+    },
+    {
+      "word": "zoeken",
+      "variants": "zoek; zoekt; zocht/zochten; heeft gezocht",
+      "english": "to search / look for",
+      "meaning": "寻找",
+      "example": "",
+      "note": "A1 核心动词",
+      "importance": "KNM 高频",
+      "topic": "Werken in Nederland",
+      "topicId": "werken-in-nederland",
+      "source": "KNM A1 supplemental vocabulary"
+    },
+    {
+      "word": "gebruiken",
+      "variants": "gebruik; gebruikt; gebruikte; heeft gebruikt",
+      "english": "to use",
+      "meaning": "使用",
+      "example": "",
+      "note": "A1 核心动词",
+      "importance": "KNM 高频",
+      "topic": "Werken in Nederland",
+      "topicId": "werken-in-nederland",
+      "source": "KNM A1 supplemental vocabulary"
+    },
+    {
+      "word": "nodig hebben",
+      "variants": "heb nodig; had nodig; heeft nodig gehad",
+      "english": "to need",
+      "meaning": "需要",
+      "example": "",
+      "note": "A1 核心动词",
+      "importance": "KNM 高频",
+      "topic": "Werken in Nederland",
+      "topicId": "werken-in-nederland",
+      "source": "KNM A1 supplemental vocabulary"
+    },
+    {
+      "word": "proberen",
+      "variants": "probeert; probeerde; heeft geprobeerd",
+      "english": "to try",
+      "meaning": "尝试",
+      "example": "",
+      "note": "A1 核心动词",
+      "importance": "KNM 高频",
+      "topic": "Werken in Nederland",
+      "topicId": "werken-in-nederland",
+      "source": "KNM A1 supplemental vocabulary"
+    },
+    {
+      "word": "kiezen",
+      "variants": "kies; kiest; koos/kozen; heeft gekozen",
+      "english": "to choose",
+      "meaning": "选择",
+      "example": "",
+      "note": "A1 核心动词",
+      "importance": "KNM 高频",
+      "topic": "Werken in Nederland",
+      "topicId": "werken-in-nederland",
+      "source": "KNM A1 supplemental vocabulary"
+    },
+    {
+      "word": "vergeten",
+      "variants": "vergeet; vergat/vergaten; is/heeft vergeten",
+      "english": "to forget",
+      "meaning": "忘记",
+      "example": "",
+      "note": "A1 核心动词",
+      "importance": "KNM 高频",
+      "topic": "Werken in Nederland",
+      "topicId": "werken-in-nederland",
+      "source": "KNM A1 supplemental vocabulary"
+    },
+    {
+      "word": "onthouden",
+      "variants": "onthoud; onthoudt; onthield; heeft onthouden",
+      "english": "to remember",
+      "meaning": "记住",
+      "example": "",
+      "note": "A1 核心动词",
+      "importance": "KNM 高频",
+      "topic": "Werken in Nederland",
+      "topicId": "werken-in-nederland",
+      "source": "KNM A1 supplemental vocabulary"
+    },
+    {
+      "word": "wassen",
+      "variants": "was; wast; waste; heeft gewassen",
+      "english": "to wash",
+      "meaning": "洗",
+      "example": "",
+      "note": "A1 核心动词",
+      "importance": "KNM 高频",
+      "topic": "Werken in Nederland",
+      "topicId": "werken-in-nederland",
+      "source": "KNM A1 supplemental vocabulary"
+    },
+    {
+      "word": "douchen",
+      "variants": "douche; doucht; douchte; heeft gedoucht",
+      "english": "to shower",
+      "meaning": "洗澡",
+      "example": "",
+      "note": "A1 核心动词",
+      "importance": "KNM 高频",
+      "topic": "Werken in Nederland",
+      "topicId": "werken-in-nederland",
+      "source": "KNM A1 supplemental vocabulary"
+    },
+    {
+      "word": "slapen",
+      "variants": "slaap; slaapt; sliep/sliepen; heeft geslapen",
+      "english": "to sleep",
+      "meaning": "睡觉",
+      "example": "",
+      "note": "A1 核心动词",
+      "importance": "KNM 高频",
+      "topic": "Werken in Nederland",
+      "topicId": "werken-in-nederland",
+      "source": "KNM A1 supplemental vocabulary"
+    },
+    {
+      "word": "wakker worden",
+      "variants": "word wakker; werd wakker; is wakker geworden",
+      "english": "to wake up",
+      "meaning": "醒来",
+      "example": "",
+      "note": "A1 核心动词",
+      "importance": "KNM 高频",
+      "topic": "Werken in Nederland",
+      "topicId": "werken-in-nederland",
+      "source": "KNM A1 supplemental vocabulary"
+    },
+    {
+      "word": "aankleden",
+      "variants": "kleedt aan; kleedde aan; heeft aangekleed",
+      "english": "to get dressed",
+      "meaning": "穿衣服",
+      "example": "",
+      "note": "A1 核心动词",
+      "importance": "KNM 高频",
+      "topic": "Werken in Nederland",
+      "topicId": "werken-in-nederland",
+      "source": "KNM A1 supplemental vocabulary"
+    },
+    {
+      "word": "schoonmaken",
+      "variants": "maakt schoon; maakte schoon; heeft schoongemaakt",
+      "english": "to clean",
+      "meaning": "打扫",
+      "example": "",
+      "note": "A1 核心动词",
+      "importance": "KNM 高频",
+      "topic": "Werken in Nederland",
+      "topicId": "werken-in-nederland",
+      "source": "KNM A1 supplemental vocabulary"
+    },
+    {
+      "word": "studeren",
+      "variants": "studeert; studeerde; heeft gestudeerd",
+      "english": "to study",
+      "meaning": "学习、读书",
+      "example": "",
+      "note": "A1 核心动词",
+      "importance": "KNM 高频",
+      "topic": "Werken in Nederland",
+      "topicId": "werken-in-nederland",
+      "source": "KNM A1 supplemental vocabulary"
+    },
+    {
+      "word": "spelen",
+      "variants": "speelt; speelde; heeft gespeeld",
+      "english": "to play",
+      "meaning": "玩",
+      "example": "",
+      "note": "A1 核心动词",
+      "importance": "KNM 高频",
+      "topic": "Werken in Nederland",
+      "topicId": "werken-in-nederland",
+      "source": "KNM A1 supplemental vocabulary"
+    },
+    {
+      "word": "sporten",
+      "variants": "sport; sportte; heeft gesport",
+      "english": "to exercise / do sport",
+      "meaning": "运动",
+      "example": "",
+      "note": "A1 核心动词",
+      "importance": "KNM 高频",
+      "topic": "Werken in Nederland",
+      "topicId": "werken-in-nederland",
+      "source": "KNM A1 supplemental vocabulary"
+    },
+    {
+      "word": "zwemmen",
+      "variants": "zwemt; zwom/zwommen; heeft gezwommen",
+      "english": "to swim",
+      "meaning": "游泳",
+      "example": "",
+      "note": "A1 核心动词",
+      "importance": "KNM 高频",
+      "topic": "Werken in Nederland",
+      "topicId": "werken-in-nederland",
+      "source": "KNM A1 supplemental vocabulary"
+    },
+    {
+      "word": "bezoeken",
+      "variants": "bezoekt; bezocht; heeft bezocht",
+      "english": "to visit",
+      "meaning": "拜访、参观",
+      "example": "",
+      "note": "A1 核心动词",
+      "importance": "KNM 高频",
+      "topic": "Werken in Nederland",
+      "topicId": "werken-in-nederland",
+      "source": "KNM A1 supplemental vocabulary"
+    },
+    {
+      "word": "ontmoeten",
+      "variants": "ontmoet; ontmoette; heeft ontmoet",
+      "english": "to meet",
+      "meaning": "见面",
+      "example": "",
+      "note": "A1 核心动词",
+      "importance": "KNM 高频",
+      "topic": "Werken in Nederland",
+      "topicId": "werken-in-nederland",
+      "source": "KNM A1 supplemental vocabulary"
+    },
+    {
+      "word": "houden van",
+      "variants": "houd/houdt van; hield van; heeft gehouden van",
+      "english": "to love / like",
+      "meaning": "喜欢、爱",
+      "example": "",
+      "note": "A1 核心动词",
+      "importance": "KNM 高频",
+      "topic": "Werken in Nederland",
+      "topicId": "werken-in-nederland",
+      "source": "KNM A1 supplemental vocabulary"
+    },
+    {
+      "word": "missen",
+      "variants": "mist; miste; heeft gemist",
+      "english": "to miss",
+      "meaning": "想念；错过",
+      "example": "",
+      "note": "A1 核心动词",
+      "importance": "KNM 高频",
+      "topic": "Werken in Nederland",
+      "topicId": "werken-in-nederland",
+      "source": "KNM A1 supplemental vocabulary"
+    },
+    {
+      "word": "de man",
+      "variants": "mannen",
+      "english": "man",
+      "meaning": "男人、丈夫",
+      "example": "",
+      "note": "人物与家庭",
+      "importance": "KNM 高频",
+      "topic": "Opvoeding en onderwijs in Nederland",
+      "topicId": "opvoeding-en-onderwijs-in-nederland",
+      "source": "KNM A1 supplemental vocabulary"
+    },
+    {
+      "word": "de vrouw",
+      "variants": "vrouwen",
+      "english": "woman / wife",
+      "meaning": "女人、妻子",
+      "example": "",
+      "note": "人物与家庭",
+      "importance": "KNM 高频",
+      "topic": "Opvoeding en onderwijs in Nederland",
+      "topicId": "opvoeding-en-onderwijs-in-nederland",
+      "source": "KNM A1 supplemental vocabulary"
+    },
+    {
+      "word": "het kind",
+      "variants": "kinderen",
+      "english": "child",
+      "meaning": "孩子",
+      "example": "",
+      "note": "人物与家庭",
+      "importance": "KNM 高频",
+      "topic": "Opvoeding en onderwijs in Nederland",
+      "topicId": "opvoeding-en-onderwijs-in-nederland",
+      "source": "KNM A1 supplemental vocabulary"
+    },
+    {
+      "word": "de jongen",
+      "variants": "jongens",
+      "english": "boy",
+      "meaning": "男孩",
+      "example": "",
+      "note": "人物与家庭",
+      "importance": "KNM 高频",
+      "topic": "Opvoeding en onderwijs in Nederland",
+      "topicId": "opvoeding-en-onderwijs-in-nederland",
+      "source": "KNM A1 supplemental vocabulary"
+    },
+    {
+      "word": "het meisje",
+      "variants": "meisjes",
+      "english": "girl",
+      "meaning": "女孩",
+      "example": "",
+      "note": "人物与家庭",
+      "importance": "KNM 高频",
+      "topic": "Opvoeding en onderwijs in Nederland",
+      "topicId": "opvoeding-en-onderwijs-in-nederland",
+      "source": "KNM A1 supplemental vocabulary"
+    },
+    {
+      "word": "de baby",
+      "variants": "baby's",
+      "english": "baby",
+      "meaning": "婴儿",
+      "example": "",
+      "note": "人物与家庭",
+      "importance": "KNM 高频",
+      "topic": "Opvoeding en onderwijs in Nederland",
+      "topicId": "opvoeding-en-onderwijs-in-nederland",
+      "source": "KNM A1 supplemental vocabulary"
+    },
+    {
+      "word": "de familie",
+      "variants": "families",
+      "english": "family",
+      "meaning": "家庭、亲属",
+      "example": "",
+      "note": "人物与家庭",
+      "importance": "KNM 高频",
+      "topic": "Opvoeding en onderwijs in Nederland",
+      "topicId": "opvoeding-en-onderwijs-in-nederland",
+      "source": "KNM A1 supplemental vocabulary"
+    },
+    {
+      "word": "het gezin",
+      "variants": "gezinnen",
+      "english": "household / family unit",
+      "meaning": "家庭（核心家庭）",
+      "example": "",
+      "note": "人物与家庭",
+      "importance": "KNM 高频",
+      "topic": "Opvoeding en onderwijs in Nederland",
+      "topicId": "opvoeding-en-onderwijs-in-nederland",
+      "source": "KNM A1 supplemental vocabulary"
+    },
+    {
+      "word": "de vader",
+      "variants": "vaders",
+      "english": "father",
+      "meaning": "父亲",
+      "example": "",
+      "note": "人物与家庭",
+      "importance": "KNM 高频",
+      "topic": "Opvoeding en onderwijs in Nederland",
+      "topicId": "opvoeding-en-onderwijs-in-nederland",
+      "source": "KNM A1 supplemental vocabulary"
+    },
+    {
+      "word": "de moeder",
+      "variants": "moeders",
+      "english": "mother",
+      "meaning": "母亲",
+      "example": "",
+      "note": "人物与家庭",
+      "importance": "KNM 高频",
+      "topic": "Opvoeding en onderwijs in Nederland",
+      "topicId": "opvoeding-en-onderwijs-in-nederland",
+      "source": "KNM A1 supplemental vocabulary"
+    },
+    {
+      "word": "de ouders",
+      "variants": "ouder",
+      "english": "parents",
+      "meaning": "父母",
+      "example": "",
+      "note": "人物与家庭",
+      "importance": "KNM 高频",
+      "topic": "Opvoeding en onderwijs in Nederland",
+      "topicId": "opvoeding-en-onderwijs-in-nederland",
+      "source": "KNM A1 supplemental vocabulary"
+    },
+    {
+      "word": "de zoon",
+      "variants": "zonen",
+      "english": "son",
+      "meaning": "儿子",
+      "example": "",
+      "note": "人物与家庭",
+      "importance": "KNM 高频",
+      "topic": "Opvoeding en onderwijs in Nederland",
+      "topicId": "opvoeding-en-onderwijs-in-nederland",
+      "source": "KNM A1 supplemental vocabulary"
+    },
+    {
+      "word": "de dochter",
+      "variants": "dochters",
+      "english": "daughter",
+      "meaning": "女儿",
+      "example": "",
+      "note": "人物与家庭",
+      "importance": "KNM 高频",
+      "topic": "Opvoeding en onderwijs in Nederland",
+      "topicId": "opvoeding-en-onderwijs-in-nederland",
+      "source": "KNM A1 supplemental vocabulary"
+    },
+    {
+      "word": "de broer",
+      "variants": "broers",
+      "english": "brother",
+      "meaning": "兄弟",
+      "example": "",
+      "note": "人物与家庭",
+      "importance": "KNM 高频",
+      "topic": "Opvoeding en onderwijs in Nederland",
+      "topicId": "opvoeding-en-onderwijs-in-nederland",
+      "source": "KNM A1 supplemental vocabulary"
+    },
+    {
+      "word": "de zus",
+      "variants": "zussen",
+      "english": "sister",
+      "meaning": "姐妹",
+      "example": "",
+      "note": "人物与家庭",
+      "importance": "KNM 高频",
+      "topic": "Opvoeding en onderwijs in Nederland",
+      "topicId": "opvoeding-en-onderwijs-in-nederland",
+      "source": "KNM A1 supplemental vocabulary"
+    },
+    {
+      "word": "de opa",
+      "variants": "opa's",
+      "english": "grandfather",
+      "meaning": "爷爷、外公",
+      "example": "",
+      "note": "人物与家庭",
+      "importance": "KNM 高频",
+      "topic": "Opvoeding en onderwijs in Nederland",
+      "topicId": "opvoeding-en-onderwijs-in-nederland",
+      "source": "KNM A1 supplemental vocabulary"
+    },
+    {
+      "word": "de oma",
+      "variants": "oma's",
+      "english": "grandmother",
+      "meaning": "奶奶、外婆",
+      "example": "",
+      "note": "人物与家庭",
+      "importance": "KNM 高频",
+      "topic": "Opvoeding en onderwijs in Nederland",
+      "topicId": "opvoeding-en-onderwijs-in-nederland",
+      "source": "KNM A1 supplemental vocabulary"
+    },
+    {
+      "word": "de vriend",
+      "variants": "vrienden",
+      "english": "male friend / boyfriend",
+      "meaning": "男性朋友、男友",
+      "example": "",
+      "note": "人物与家庭",
+      "importance": "KNM 高频",
+      "topic": "Opvoeding en onderwijs in Nederland",
+      "topicId": "opvoeding-en-onderwijs-in-nederland",
+      "source": "KNM A1 supplemental vocabulary"
+    },
+    {
+      "word": "de vriendin",
+      "variants": "vriendinnen",
+      "english": "female friend / girlfriend",
+      "meaning": "女性朋友、女友",
+      "example": "",
+      "note": "人物与家庭",
+      "importance": "KNM 高频",
+      "topic": "Opvoeding en onderwijs in Nederland",
+      "topicId": "opvoeding-en-onderwijs-in-nederland",
+      "source": "KNM A1 supplemental vocabulary"
+    },
+    {
+      "word": "de partner",
+      "variants": "partners",
+      "english": "partner",
+      "meaning": "伴侣",
+      "example": "",
+      "note": "人物与家庭",
+      "importance": "KNM 高频",
+      "topic": "Opvoeding en onderwijs in Nederland",
+      "topicId": "opvoeding-en-onderwijs-in-nederland",
+      "source": "KNM A1 supplemental vocabulary"
+    },
+    {
+      "word": "de buurman",
+      "variants": "buurmannen",
+      "english": "male neighbour",
+      "meaning": "男邻居",
+      "example": "",
+      "note": "人物与家庭",
+      "importance": "KNM 高频",
+      "topic": "Opvoeding en onderwijs in Nederland",
+      "topicId": "opvoeding-en-onderwijs-in-nederland",
+      "source": "KNM A1 supplemental vocabulary"
+    },
+    {
+      "word": "de buurvrouw",
+      "variants": "buurvrouwen",
+      "english": "female neighbour",
+      "meaning": "女邻居",
+      "example": "",
+      "note": "人物与家庭",
+      "importance": "KNM 高频",
+      "topic": "Opvoeding en onderwijs in Nederland",
+      "topicId": "opvoeding-en-onderwijs-in-nederland",
+      "source": "KNM A1 supplemental vocabulary"
+    },
+    {
+      "word": "de collega",
+      "variants": "collega's",
+      "english": "colleague",
+      "meaning": "同事",
+      "example": "",
+      "note": "人物与家庭",
+      "importance": "KNM 高频",
+      "topic": "Opvoeding en onderwijs in Nederland",
+      "topicId": "opvoeding-en-onderwijs-in-nederland",
+      "source": "KNM A1 supplemental vocabulary"
+    },
+    {
+      "word": "de baas",
+      "variants": "bazen",
+      "english": "boss",
+      "meaning": "老板、上司",
+      "example": "",
+      "note": "人物与家庭",
+      "importance": "KNM 高频",
+      "topic": "Opvoeding en onderwijs in Nederland",
+      "topicId": "opvoeding-en-onderwijs-in-nederland",
+      "source": "KNM A1 supplemental vocabulary"
+    },
+    {
+      "word": "de klant",
+      "variants": "klanten",
+      "english": "customer",
+      "meaning": "顾客",
+      "example": "",
+      "note": "人物与家庭",
+      "importance": "KNM 高频",
+      "topic": "Opvoeding en onderwijs in Nederland",
+      "topicId": "opvoeding-en-onderwijs-in-nederland",
+      "source": "KNM A1 supplemental vocabulary"
+    },
+    {
+      "word": "het huis",
+      "variants": "huizen",
+      "english": "house",
+      "meaning": "房子",
+      "example": "",
+      "note": "家、日常物品与通讯",
+      "importance": "KNM 高频",
+      "topic": "Dienstverlening in Nederland",
+      "topicId": "dienstverlening-in-nederland",
+      "source": "KNM A1 supplemental vocabulary"
+    },
+    {
+      "word": "de kamer",
+      "variants": "kamers",
+      "english": "room",
+      "meaning": "房间",
+      "example": "",
+      "note": "家、日常物品与通讯",
+      "importance": "KNM 高频",
+      "topic": "Dienstverlening in Nederland",
+      "topicId": "dienstverlening-in-nederland",
+      "source": "KNM A1 supplemental vocabulary"
+    },
+    {
+      "word": "de woonkamer",
+      "variants": "woonkamers",
+      "english": "living room",
+      "meaning": "客厅",
+      "example": "",
+      "note": "家、日常物品与通讯",
+      "importance": "KNM 高频",
+      "topic": "Dienstverlening in Nederland",
+      "topicId": "dienstverlening-in-nederland",
+      "source": "KNM A1 supplemental vocabulary"
+    },
+    {
+      "word": "de slaapkamer",
+      "variants": "slaapkamers",
+      "english": "bedroom",
+      "meaning": "卧室",
+      "example": "",
+      "note": "家、日常物品与通讯",
+      "importance": "KNM 高频",
+      "topic": "Dienstverlening in Nederland",
+      "topicId": "dienstverlening-in-nederland",
+      "source": "KNM A1 supplemental vocabulary"
+    },
+    {
+      "word": "de keuken",
+      "variants": "keukens",
+      "english": "kitchen",
+      "meaning": "厨房",
+      "example": "",
+      "note": "家、日常物品与通讯",
+      "importance": "KNM 高频",
+      "topic": "Dienstverlening in Nederland",
+      "topicId": "dienstverlening-in-nederland",
+      "source": "KNM A1 supplemental vocabulary"
+    },
+    {
+      "word": "de badkamer",
+      "variants": "badkamers",
+      "english": "bathroom",
+      "meaning": "浴室",
+      "example": "",
+      "note": "家、日常物品与通讯",
+      "importance": "KNM 高频",
+      "topic": "Dienstverlening in Nederland",
+      "topicId": "dienstverlening-in-nederland",
+      "source": "KNM A1 supplemental vocabulary"
+    },
+    {
+      "word": "het toilet",
+      "variants": "toiletten",
+      "english": "toilet",
+      "meaning": "厕所",
+      "example": "",
+      "note": "家、日常物品与通讯",
+      "importance": "KNM 高频",
+      "topic": "Dienstverlening in Nederland",
+      "topicId": "dienstverlening-in-nederland",
+      "source": "KNM A1 supplemental vocabulary"
+    },
+    {
+      "word": "de deur",
+      "variants": "deuren",
+      "english": "door",
+      "meaning": "门",
+      "example": "",
+      "note": "家、日常物品与通讯",
+      "importance": "KNM 高频",
+      "topic": "Dienstverlening in Nederland",
+      "topicId": "dienstverlening-in-nederland",
+      "source": "KNM A1 supplemental vocabulary"
+    },
+    {
+      "word": "het raam",
+      "variants": "ramen",
+      "english": "window",
+      "meaning": "窗户",
+      "example": "",
+      "note": "家、日常物品与通讯",
+      "importance": "KNM 高频",
+      "topic": "Dienstverlening in Nederland",
+      "topicId": "dienstverlening-in-nederland",
+      "source": "KNM A1 supplemental vocabulary"
+    },
+    {
+      "word": "de tafel",
+      "variants": "tafels",
+      "english": "table",
+      "meaning": "桌子",
+      "example": "",
+      "note": "家、日常物品与通讯",
+      "importance": "KNM 高频",
+      "topic": "Dienstverlening in Nederland",
+      "topicId": "dienstverlening-in-nederland",
+      "source": "KNM A1 supplemental vocabulary"
+    },
+    {
+      "word": "de stoel",
+      "variants": "stoelen",
+      "english": "chair",
+      "meaning": "椅子",
+      "example": "",
+      "note": "家、日常物品与通讯",
+      "importance": "KNM 高频",
+      "topic": "Dienstverlening in Nederland",
+      "topicId": "dienstverlening-in-nederland",
+      "source": "KNM A1 supplemental vocabulary"
+    },
+    {
+      "word": "het bed",
+      "variants": "bedden",
+      "english": "bed",
+      "meaning": "床",
+      "example": "",
+      "note": "家、日常物品与通讯",
+      "importance": "KNM 高频",
+      "topic": "Dienstverlening in Nederland",
+      "topicId": "dienstverlening-in-nederland",
+      "source": "KNM A1 supplemental vocabulary"
+    },
+    {
+      "word": "de kast",
+      "variants": "kasten",
+      "english": "cupboard / wardrobe",
+      "meaning": "柜子、衣柜",
+      "example": "",
+      "note": "家、日常物品与通讯",
+      "importance": "KNM 高频",
+      "topic": "Dienstverlening in Nederland",
+      "topicId": "dienstverlening-in-nederland",
+      "source": "KNM A1 supplemental vocabulary"
+    },
+    {
+      "word": "de lamp",
+      "variants": "lampen",
+      "english": "lamp",
+      "meaning": "灯",
+      "example": "",
+      "note": "家、日常物品与通讯",
+      "importance": "KNM 高频",
+      "topic": "Dienstverlening in Nederland",
+      "topicId": "dienstverlening-in-nederland",
+      "source": "KNM A1 supplemental vocabulary"
+    },
+    {
+      "word": "de sleutel",
+      "variants": "sleutels",
+      "english": "key",
+      "meaning": "钥匙",
+      "example": "",
+      "note": "家、日常物品与通讯",
+      "importance": "KNM 高频",
+      "topic": "Dienstverlening in Nederland",
+      "topicId": "dienstverlening-in-nederland",
+      "source": "KNM A1 supplemental vocabulary"
+    },
+    {
+      "word": "de telefoon",
+      "variants": "telefoons",
+      "english": "telephone / phone",
+      "meaning": "电话、手机",
+      "example": "",
+      "note": "家、日常物品与通讯",
+      "importance": "KNM 高频",
+      "topic": "Dienstverlening in Nederland",
+      "topicId": "dienstverlening-in-nederland",
+      "source": "KNM A1 supplemental vocabulary"
+    },
+    {
+      "word": "de computer",
+      "variants": "computers",
+      "english": "computer",
+      "meaning": "电脑",
+      "example": "",
+      "note": "家、日常物品与通讯",
+      "importance": "KNM 高频",
+      "topic": "Dienstverlening in Nederland",
+      "topicId": "dienstverlening-in-nederland",
+      "source": "KNM A1 supplemental vocabulary"
+    },
+    {
+      "word": "de televisie",
+      "variants": "televisies / tv's",
+      "english": "television",
+      "meaning": "电视",
+      "example": "",
+      "note": "家、日常物品与通讯",
+      "importance": "KNM 高频",
+      "topic": "Dienstverlening in Nederland",
+      "topicId": "dienstverlening-in-nederland",
+      "source": "KNM A1 supplemental vocabulary"
+    },
+    {
+      "word": "het internet",
+      "variants": "",
+      "english": "internet",
+      "meaning": "互联网",
+      "example": "",
+      "note": "家、日常物品与通讯",
+      "importance": "KNM 高频",
+      "topic": "Dienstverlening in Nederland",
+      "topicId": "dienstverlening-in-nederland",
+      "source": "KNM A1 supplemental vocabulary"
+    },
+    {
+      "word": "de brief",
+      "variants": "brieven",
+      "english": "letter",
+      "meaning": "信",
+      "example": "",
+      "note": "家、日常物品与通讯",
+      "importance": "KNM 高频",
+      "topic": "Dienstverlening in Nederland",
+      "topicId": "dienstverlening-in-nederland",
+      "source": "KNM A1 supplemental vocabulary"
+    },
+    {
+      "word": "het formulier",
+      "variants": "formulieren",
+      "english": "form",
+      "meaning": "表格",
+      "example": "",
+      "note": "家、日常物品与通讯",
+      "importance": "KNM 高频",
+      "topic": "Dienstverlening in Nederland",
+      "topicId": "dienstverlening-in-nederland",
+      "source": "KNM A1 supplemental vocabulary"
+    },
+    {
+      "word": "de foto",
+      "variants": "foto's",
+      "english": "photo",
+      "meaning": "照片",
+      "example": "",
+      "note": "家、日常物品与通讯",
+      "importance": "KNM 高频",
+      "topic": "Dienstverlening in Nederland",
+      "topicId": "dienstverlening-in-nederland",
+      "source": "KNM A1 supplemental vocabulary"
+    },
+    {
+      "word": "het boek",
+      "variants": "boeken",
+      "english": "book",
+      "meaning": "书",
+      "example": "",
+      "note": "家、日常物品与通讯",
+      "importance": "KNM 高频",
+      "topic": "Dienstverlening in Nederland",
+      "topicId": "dienstverlening-in-nederland",
+      "source": "KNM A1 supplemental vocabulary"
+    },
+    {
+      "word": "de krant",
+      "variants": "kranten",
+      "english": "newspaper",
+      "meaning": "报纸",
+      "example": "",
+      "note": "家、日常物品与通讯",
+      "importance": "KNM 高频",
+      "topic": "Dienstverlening in Nederland",
+      "topicId": "dienstverlening-in-nederland",
+      "source": "KNM A1 supplemental vocabulary"
+    },
+    {
+      "word": "de tas",
+      "variants": "tassen",
+      "english": "bag",
+      "meaning": "包",
+      "example": "",
+      "note": "家、日常物品与通讯",
+      "importance": "KNM 高频",
+      "topic": "Dienstverlening in Nederland",
+      "topicId": "dienstverlening-in-nederland",
+      "source": "KNM A1 supplemental vocabulary"
+    },
+    {
+      "word": "het eten",
+      "variants": "",
+      "english": "food",
+      "meaning": "食物",
+      "example": "",
+      "note": "食物与饮料",
+      "importance": "KNM 高频",
+      "topic": "De mensen in Nederland",
+      "topicId": "de-mensen-in-nederland",
+      "source": "KNM A1 supplemental vocabulary"
+    },
+    {
+      "word": "het brood",
+      "variants": "broden",
+      "english": "bread",
+      "meaning": "面包",
+      "example": "",
+      "note": "食物与饮料",
+      "importance": "KNM 高频",
+      "topic": "De mensen in Nederland",
+      "topicId": "de-mensen-in-nederland",
+      "source": "KNM A1 supplemental vocabulary"
+    },
+    {
+      "word": "de boter",
+      "variants": "",
+      "english": "butter",
+      "meaning": "黄油",
+      "example": "",
+      "note": "食物与饮料",
+      "importance": "KNM 高频",
+      "topic": "De mensen in Nederland",
+      "topicId": "de-mensen-in-nederland",
+      "source": "KNM A1 supplemental vocabulary"
+    },
+    {
+      "word": "de kaas",
+      "variants": "kazen",
+      "english": "cheese",
+      "meaning": "奶酪",
+      "example": "",
+      "note": "食物与饮料",
+      "importance": "KNM 高频",
+      "topic": "De mensen in Nederland",
+      "topicId": "de-mensen-in-nederland",
+      "source": "KNM A1 supplemental vocabulary"
+    },
+    {
+      "word": "het ei",
+      "variants": "eieren",
+      "english": "egg",
+      "meaning": "鸡蛋",
+      "example": "",
+      "note": "食物与饮料",
+      "importance": "KNM 高频",
+      "topic": "De mensen in Nederland",
+      "topicId": "de-mensen-in-nederland",
+      "source": "KNM A1 supplemental vocabulary"
+    },
+    {
+      "word": "het vlees",
+      "variants": "",
+      "english": "meat",
+      "meaning": "肉",
+      "example": "",
+      "note": "食物与饮料",
+      "importance": "KNM 高频",
+      "topic": "De mensen in Nederland",
+      "topicId": "de-mensen-in-nederland",
+      "source": "KNM A1 supplemental vocabulary"
+    },
+    {
+      "word": "de vis",
+      "variants": "vissen",
+      "english": "fish",
+      "meaning": "鱼",
+      "example": "",
+      "note": "食物与饮料",
+      "importance": "KNM 高频",
+      "topic": "De mensen in Nederland",
+      "topicId": "de-mensen-in-nederland",
+      "source": "KNM A1 supplemental vocabulary"
+    },
+    {
+      "word": "de kip",
+      "variants": "kippen",
+      "english": "chicken",
+      "meaning": "鸡肉、鸡",
+      "example": "",
+      "note": "食物与饮料",
+      "importance": "KNM 高频",
+      "topic": "De mensen in Nederland",
+      "topicId": "de-mensen-in-nederland",
+      "source": "KNM A1 supplemental vocabulary"
+    },
+    {
+      "word": "de groente",
+      "variants": "groenten",
+      "english": "vegetables",
+      "meaning": "蔬菜",
+      "example": "",
+      "note": "食物与饮料",
+      "importance": "KNM 高频",
+      "topic": "De mensen in Nederland",
+      "topicId": "de-mensen-in-nederland",
+      "source": "KNM A1 supplemental vocabulary"
+    },
+    {
+      "word": "het fruit",
+      "variants": "",
+      "english": "fruit",
+      "meaning": "水果",
+      "example": "",
+      "note": "食物与饮料",
+      "importance": "KNM 高频",
+      "topic": "De mensen in Nederland",
+      "topicId": "de-mensen-in-nederland",
+      "source": "KNM A1 supplemental vocabulary"
+    },
+    {
+      "word": "de appel",
+      "variants": "appels",
+      "english": "apple",
+      "meaning": "苹果",
+      "example": "",
+      "note": "食物与饮料",
+      "importance": "KNM 高频",
+      "topic": "De mensen in Nederland",
+      "topicId": "de-mensen-in-nederland",
+      "source": "KNM A1 supplemental vocabulary"
+    },
+    {
+      "word": "de banaan",
+      "variants": "bananen",
+      "english": "banana",
+      "meaning": "香蕉",
+      "example": "",
+      "note": "食物与饮料",
+      "importance": "KNM 高频",
+      "topic": "De mensen in Nederland",
+      "topicId": "de-mensen-in-nederland",
+      "source": "KNM A1 supplemental vocabulary"
+    },
+    {
+      "word": "de aardappel",
+      "variants": "aardappelen / aardappels",
+      "english": "potato",
+      "meaning": "土豆",
+      "example": "",
+      "note": "食物与饮料",
+      "importance": "KNM 高频",
+      "topic": "De mensen in Nederland",
+      "topicId": "de-mensen-in-nederland",
+      "source": "KNM A1 supplemental vocabulary"
+    },
+    {
+      "word": "de rijst",
+      "variants": "",
+      "english": "rice",
+      "meaning": "米饭、大米",
+      "example": "",
+      "note": "食物与饮料",
+      "importance": "KNM 高频",
+      "topic": "De mensen in Nederland",
+      "topicId": "de-mensen-in-nederland",
+      "source": "KNM A1 supplemental vocabulary"
+    },
+    {
+      "word": "de soep",
+      "variants": "soepen",
+      "english": "soup",
+      "meaning": "汤",
+      "example": "",
+      "note": "食物与饮料",
+      "importance": "KNM 高频",
+      "topic": "De mensen in Nederland",
+      "topicId": "de-mensen-in-nederland",
+      "source": "KNM A1 supplemental vocabulary"
+    },
+    {
+      "word": "de salade",
+      "variants": "salades",
+      "english": "salad",
+      "meaning": "沙拉",
+      "example": "",
+      "note": "食物与饮料",
+      "importance": "KNM 高频",
+      "topic": "De mensen in Nederland",
+      "topicId": "de-mensen-in-nederland",
+      "source": "KNM A1 supplemental vocabulary"
+    },
+    {
+      "word": "het ontbijt",
+      "variants": "ontbijten",
+      "english": "breakfast",
+      "meaning": "早餐",
+      "example": "",
+      "note": "食物与饮料",
+      "importance": "KNM 高频",
+      "topic": "De mensen in Nederland",
+      "topicId": "de-mensen-in-nederland",
+      "source": "KNM A1 supplemental vocabulary"
+    },
+    {
+      "word": "de lunch",
+      "variants": "lunches",
+      "english": "lunch",
+      "meaning": "午餐",
+      "example": "",
+      "note": "食物与饮料",
+      "importance": "KNM 高频",
+      "topic": "De mensen in Nederland",
+      "topicId": "de-mensen-in-nederland",
+      "source": "KNM A1 supplemental vocabulary"
+    },
+    {
+      "word": "het avondeten",
+      "variants": "",
+      "english": "dinner",
+      "meaning": "晚餐",
+      "example": "",
+      "note": "食物与饮料",
+      "importance": "KNM 高频",
+      "topic": "De mensen in Nederland",
+      "topicId": "de-mensen-in-nederland",
+      "source": "KNM A1 supplemental vocabulary"
+    },
+    {
+      "word": "het water",
+      "variants": "",
+      "english": "water",
+      "meaning": "水",
+      "example": "",
+      "note": "食物与饮料",
+      "importance": "KNM 高频",
+      "topic": "De mensen in Nederland",
+      "topicId": "de-mensen-in-nederland",
+      "source": "KNM A1 supplemental vocabulary"
+    },
+    {
+      "word": "de koffie",
+      "variants": "",
+      "english": "coffee",
+      "meaning": "咖啡",
+      "example": "",
+      "note": "食物与饮料",
+      "importance": "KNM 高频",
+      "topic": "De mensen in Nederland",
+      "topicId": "de-mensen-in-nederland",
+      "source": "KNM A1 supplemental vocabulary"
+    },
+    {
+      "word": "de thee",
+      "variants": "",
+      "english": "tea",
+      "meaning": "茶",
+      "example": "",
+      "note": "食物与饮料",
+      "importance": "KNM 高频",
+      "topic": "De mensen in Nederland",
+      "topicId": "de-mensen-in-nederland",
+      "source": "KNM A1 supplemental vocabulary"
+    },
+    {
+      "word": "de melk",
+      "variants": "",
+      "english": "milk",
+      "meaning": "牛奶",
+      "example": "",
+      "note": "食物与饮料",
+      "importance": "KNM 高频",
+      "topic": "De mensen in Nederland",
+      "topicId": "de-mensen-in-nederland",
+      "source": "KNM A1 supplemental vocabulary"
+    },
+    {
+      "word": "het sap",
+      "variants": "sappen",
+      "english": "juice",
+      "meaning": "果汁",
+      "example": "",
+      "note": "食物与饮料",
+      "importance": "KNM 高频",
+      "topic": "De mensen in Nederland",
+      "topicId": "de-mensen-in-nederland",
+      "source": "KNM A1 supplemental vocabulary"
+    },
+    {
+      "word": "de fles",
+      "variants": "flessen",
+      "english": "bottle",
+      "meaning": "瓶子",
+      "example": "",
+      "note": "食物与饮料",
+      "importance": "KNM 高频",
+      "topic": "De mensen in Nederland",
+      "topicId": "de-mensen-in-nederland",
+      "source": "KNM A1 supplemental vocabulary"
+    },
+    {
+      "word": "het glas",
+      "variants": "glazen",
+      "english": "glass",
+      "meaning": "玻璃杯",
+      "example": "",
+      "note": "食物与饮料",
+      "importance": "KNM 高频",
+      "topic": "De mensen in Nederland",
+      "topicId": "de-mensen-in-nederland",
+      "source": "KNM A1 supplemental vocabulary"
+    },
+    {
+      "word": "de kop",
+      "variants": "koppen",
+      "english": "cup",
+      "meaning": "杯子",
+      "example": "",
+      "note": "食物与饮料",
+      "importance": "KNM 高频",
+      "topic": "De mensen in Nederland",
+      "topicId": "de-mensen-in-nederland",
+      "source": "KNM A1 supplemental vocabulary"
+    },
+    {
+      "word": "lekker",
+      "variants": "lekkere; lekkerder",
+      "english": "tasty / nice",
+      "meaning": "好吃的、不错的",
+      "example": "",
+      "note": "食物与饮料",
+      "importance": "KNM 高频",
+      "topic": "De mensen in Nederland",
+      "topicId": "de-mensen-in-nederland",
+      "source": "KNM A1 supplemental vocabulary"
+    },
+    {
+      "word": "honger hebben",
+      "variants": "heb honger; had honger",
+      "english": "to be hungry",
+      "meaning": "饿",
+      "example": "",
+      "note": "食物与饮料",
+      "importance": "KNM 高频",
+      "topic": "De mensen in Nederland",
+      "topicId": "de-mensen-in-nederland",
+      "source": "KNM A1 supplemental vocabulary"
+    },
+    {
+      "word": "dorst hebben",
+      "variants": "heb dorst; had dorst",
+      "english": "to be thirsty",
+      "meaning": "渴",
+      "example": "",
+      "note": "食物与饮料",
+      "importance": "KNM 高频",
+      "topic": "De mensen in Nederland",
+      "topicId": "de-mensen-in-nederland",
+      "source": "KNM A1 supplemental vocabulary"
+    },
+    {
+      "word": "de winkel",
+      "variants": "winkels",
+      "english": "shop",
+      "meaning": "商店",
+      "example": "",
+      "note": "购物与金钱",
+      "importance": "KNM 高频",
+      "topic": "Dienstverlening in Nederland",
+      "topicId": "dienstverlening-in-nederland",
+      "source": "KNM A1 supplemental vocabulary"
+    },
+    {
+      "word": "de supermarkt",
+      "variants": "supermarkten",
+      "english": "supermarket",
+      "meaning": "超市",
+      "example": "",
+      "note": "购物与金钱",
+      "importance": "KNM 高频",
+      "topic": "Dienstverlening in Nederland",
+      "topicId": "dienstverlening-in-nederland",
+      "source": "KNM A1 supplemental vocabulary"
+    },
+    {
+      "word": "de markt",
+      "variants": "markten",
+      "english": "market",
+      "meaning": "市场",
+      "example": "",
+      "note": "购物与金钱",
+      "importance": "KNM 高频",
+      "topic": "Dienstverlening in Nederland",
+      "topicId": "dienstverlening-in-nederland",
+      "source": "KNM A1 supplemental vocabulary"
+    },
+    {
+      "word": "de prijs",
+      "variants": "prijzen",
+      "english": "price",
+      "meaning": "价格",
+      "example": "",
+      "note": "购物与金钱",
+      "importance": "KNM 高频",
+      "topic": "Dienstverlening in Nederland",
+      "topicId": "dienstverlening-in-nederland",
+      "source": "KNM A1 supplemental vocabulary"
+    },
+    {
+      "word": "goedkoop",
+      "variants": "goedkope; goedkoper",
+      "english": "cheap",
+      "meaning": "便宜的",
+      "example": "",
+      "note": "购物与金钱",
+      "importance": "KNM 高频",
+      "topic": "Dienstverlening in Nederland",
+      "topicId": "dienstverlening-in-nederland",
+      "source": "KNM A1 supplemental vocabulary"
+    },
+    {
+      "word": "duur",
+      "variants": "dure; duurder",
+      "english": "expensive",
+      "meaning": "贵的",
+      "example": "",
+      "note": "购物与金钱",
+      "importance": "KNM 高频",
+      "topic": "Dienstverlening in Nederland",
+      "topicId": "dienstverlening-in-nederland",
+      "source": "KNM A1 supplemental vocabulary"
+    },
+    {
+      "word": "het geld",
+      "variants": "",
+      "english": "money",
+      "meaning": "钱",
+      "example": "",
+      "note": "购物与金钱",
+      "importance": "KNM 高频",
+      "topic": "Dienstverlening in Nederland",
+      "topicId": "dienstverlening-in-nederland",
+      "source": "KNM A1 supplemental vocabulary"
+    },
+    {
+      "word": "de euro",
+      "variants": "euro's",
+      "english": "euro",
+      "meaning": "欧元",
+      "example": "",
+      "note": "购物与金钱",
+      "importance": "KNM 高频",
+      "topic": "Dienstverlening in Nederland",
+      "topicId": "dienstverlening-in-nederland",
+      "source": "KNM A1 supplemental vocabulary"
+    },
+    {
+      "word": "de cent",
+      "variants": "centen",
+      "english": "cent",
+      "meaning": "欧分",
+      "example": "",
+      "note": "购物与金钱",
+      "importance": "KNM 高频",
+      "topic": "Dienstverlening in Nederland",
+      "topicId": "dienstverlening-in-nederland",
+      "source": "KNM A1 supplemental vocabulary"
+    },
+    {
+      "word": "de rekening",
+      "variants": "rekeningen",
+      "english": "bill / account",
+      "meaning": "账单",
+      "example": "",
+      "note": "购物与金钱",
+      "importance": "KNM 高频",
+      "topic": "Dienstverlening in Nederland",
+      "topicId": "dienstverlening-in-nederland",
+      "source": "KNM A1 supplemental vocabulary"
+    },
+    {
+      "word": "de kassabon",
+      "variants": "kassabonnen",
+      "english": "receipt",
+      "meaning": "购物小票",
+      "example": "",
+      "note": "购物与金钱",
+      "importance": "KNM 高频",
+      "topic": "Dienstverlening in Nederland",
+      "topicId": "dienstverlening-in-nederland",
+      "source": "KNM A1 supplemental vocabulary"
+    },
+    {
+      "word": "de kassa",
+      "variants": "kassa's",
+      "english": "checkout / till",
+      "meaning": "收银台",
+      "example": "",
+      "note": "购物与金钱",
+      "importance": "KNM 高频",
+      "topic": "Dienstverlening in Nederland",
+      "topicId": "dienstverlening-in-nederland",
+      "source": "KNM A1 supplemental vocabulary"
+    },
+    {
+      "word": "contant",
+      "variants": "",
+      "english": "cash / in cash",
+      "meaning": "现金（支付）",
+      "example": "",
+      "note": "购物与金钱",
+      "importance": "KNM 高频",
+      "topic": "Dienstverlening in Nederland",
+      "topicId": "dienstverlening-in-nederland",
+      "source": "KNM A1 supplemental vocabulary"
+    },
+    {
+      "word": "pinnen",
+      "variants": "pint; pinde; heeft gepind",
+      "english": "to pay by debit card / withdraw cash",
+      "meaning": "刷卡；取现",
+      "example": "",
+      "note": "购物与金钱",
+      "importance": "KNM 高频",
+      "topic": "Dienstverlening in Nederland",
+      "topicId": "dienstverlening-in-nederland",
+      "source": "KNM A1 supplemental vocabulary"
+    },
+    {
+      "word": "wisselen",
+      "variants": "wisselt; wisselde; heeft gewisseld",
+      "english": "to exchange / change",
+      "meaning": "兑换、更换",
+      "example": "",
+      "note": "购物与金钱",
+      "importance": "KNM 高频",
+      "topic": "Dienstverlening in Nederland",
+      "topicId": "dienstverlening-in-nederland",
+      "source": "KNM A1 supplemental vocabulary"
+    },
+    {
+      "word": "passen",
+      "variants": "past; paste; heeft gepast",
+      "english": "to fit / try on",
+      "meaning": "合身；试穿",
+      "example": "",
+      "note": "购物与金钱",
+      "importance": "KNM 高频",
+      "topic": "Dienstverlening in Nederland",
+      "topicId": "dienstverlening-in-nederland",
+      "source": "KNM A1 supplemental vocabulary"
+    },
+    {
+      "word": "de maat",
+      "variants": "maten",
+      "english": "size",
+      "meaning": "尺码",
+      "example": "",
+      "note": "购物与金钱",
+      "importance": "KNM 高频",
+      "topic": "Dienstverlening in Nederland",
+      "topicId": "dienstverlening-in-nederland",
+      "source": "KNM A1 supplemental vocabulary"
+    },
+    {
+      "word": "de straat",
+      "variants": "straten",
+      "english": "street",
+      "meaning": "街道",
+      "example": "",
+      "note": "交通与城市",
+      "importance": "KNM 高频",
+      "topic": "Nederland leren kennen",
+      "topicId": "nederland-leren-kennen",
+      "source": "KNM A1 supplemental vocabulary"
+    },
+    {
+      "word": "de weg",
+      "variants": "wegen",
+      "english": "road / way",
+      "meaning": "道路",
+      "example": "",
+      "note": "交通与城市",
+      "importance": "KNM 高频",
+      "topic": "Nederland leren kennen",
+      "topicId": "nederland-leren-kennen",
+      "source": "KNM A1 supplemental vocabulary"
+    },
+    {
+      "word": "het station",
+      "variants": "stations",
+      "english": "station",
+      "meaning": "车站",
+      "example": "",
+      "note": "交通与城市",
+      "importance": "KNM 高频",
+      "topic": "Nederland leren kennen",
+      "topicId": "nederland-leren-kennen",
+      "source": "KNM A1 supplemental vocabulary"
+    },
+    {
+      "word": "de halte",
+      "variants": "haltes",
+      "english": "stop (bus/tram)",
+      "meaning": "公交/电车站",
+      "example": "",
+      "note": "交通与城市",
+      "importance": "KNM 高频",
+      "topic": "Nederland leren kennen",
+      "topicId": "nederland-leren-kennen",
+      "source": "KNM A1 supplemental vocabulary"
+    },
+    {
+      "word": "de trein",
+      "variants": "treinen",
+      "english": "train",
+      "meaning": "火车",
+      "example": "",
+      "note": "交通与城市",
+      "importance": "KNM 高频",
+      "topic": "Nederland leren kennen",
+      "topicId": "nederland-leren-kennen",
+      "source": "KNM A1 supplemental vocabulary"
+    },
+    {
+      "word": "de bus",
+      "variants": "bussen",
+      "english": "bus",
+      "meaning": "公交车",
+      "example": "",
+      "note": "交通与城市",
+      "importance": "KNM 高频",
+      "topic": "Nederland leren kennen",
+      "topicId": "nederland-leren-kennen",
+      "source": "KNM A1 supplemental vocabulary"
+    },
+    {
+      "word": "de tram",
+      "variants": "trams",
+      "english": "tram",
+      "meaning": "有轨电车",
+      "example": "",
+      "note": "交通与城市",
+      "importance": "KNM 高频",
+      "topic": "Nederland leren kennen",
+      "topicId": "nederland-leren-kennen",
+      "source": "KNM A1 supplemental vocabulary"
+    },
+    {
+      "word": "de metro",
+      "variants": "metro's",
+      "english": "metro",
+      "meaning": "地铁",
+      "example": "",
+      "note": "交通与城市",
+      "importance": "KNM 高频",
+      "topic": "Nederland leren kennen",
+      "topicId": "nederland-leren-kennen",
+      "source": "KNM A1 supplemental vocabulary"
+    },
+    {
+      "word": "de taxi",
+      "variants": "taxi's",
+      "english": "taxi",
+      "meaning": "出租车",
+      "example": "",
+      "note": "交通与城市",
+      "importance": "KNM 高频",
+      "topic": "Nederland leren kennen",
+      "topicId": "nederland-leren-kennen",
+      "source": "KNM A1 supplemental vocabulary"
+    },
+    {
+      "word": "het vliegtuig",
+      "variants": "vliegtuigen",
+      "english": "airplane",
+      "meaning": "飞机",
+      "example": "",
+      "note": "交通与城市",
+      "importance": "KNM 高频",
+      "topic": "Nederland leren kennen",
+      "topicId": "nederland-leren-kennen",
+      "source": "KNM A1 supplemental vocabulary"
+    },
+    {
+      "word": "de luchthaven",
+      "variants": "luchthavens",
+      "english": "airport",
+      "meaning": "机场",
+      "example": "",
+      "note": "交通与城市",
+      "importance": "KNM 高频",
+      "topic": "Nederland leren kennen",
+      "topicId": "nederland-leren-kennen",
+      "source": "KNM A1 supplemental vocabulary"
+    },
+    {
+      "word": "het kaartje",
+      "variants": "kaartjes",
+      "english": "ticket",
+      "meaning": "票",
+      "example": "",
+      "note": "交通与城市",
+      "importance": "KNM 高频",
+      "topic": "Nederland leren kennen",
+      "topicId": "nederland-leren-kennen",
+      "source": "KNM A1 supplemental vocabulary"
+    },
+    {
+      "word": "de reis",
+      "variants": "reizen",
+      "english": "journey / trip",
+      "meaning": "旅程",
+      "example": "",
+      "note": "交通与城市",
+      "importance": "KNM 高频",
+      "topic": "Nederland leren kennen",
+      "topicId": "nederland-leren-kennen",
+      "source": "KNM A1 supplemental vocabulary"
+    },
+    {
+      "word": "vertrekken",
+      "variants": "vertrekt; vertrok; is vertrokken",
+      "english": "to depart",
+      "meaning": "出发",
+      "example": "",
+      "note": "交通与城市",
+      "importance": "KNM 高频",
+      "topic": "Nederland leren kennen",
+      "topicId": "nederland-leren-kennen",
+      "source": "KNM A1 supplemental vocabulary"
+    },
+    {
+      "word": "aankomen",
+      "variants": "komt aan; kwam aan; is aangekomen",
+      "english": "to arrive",
+      "meaning": "到达",
+      "example": "",
+      "note": "交通与城市",
+      "importance": "KNM 高频",
+      "topic": "Nederland leren kennen",
+      "topicId": "nederland-leren-kennen",
+      "source": "KNM A1 supplemental vocabulary"
+    },
+    {
+      "word": "instappen",
+      "variants": "stapt in; stapte in; is ingestapt",
+      "english": "to get on",
+      "meaning": "上车",
+      "example": "",
+      "note": "交通与城市",
+      "importance": "KNM 高频",
+      "topic": "Nederland leren kennen",
+      "topicId": "nederland-leren-kennen",
+      "source": "KNM A1 supplemental vocabulary"
+    },
+    {
+      "word": "uitstappen",
+      "variants": "stapt uit; stapte uit; is uitgestapt",
+      "english": "to get off",
+      "meaning": "下车",
+      "example": "",
+      "note": "交通与城市",
+      "importance": "KNM 高频",
+      "topic": "Nederland leren kennen",
+      "topicId": "nederland-leren-kennen",
+      "source": "KNM A1 supplemental vocabulary"
+    },
+    {
+      "word": "overstappen",
+      "variants": "stapt over; stapte over; is overgestapt",
+      "english": "to transfer",
+      "meaning": "换乘",
+      "example": "",
+      "note": "交通与城市",
+      "importance": "KNM 高频",
+      "topic": "Nederland leren kennen",
+      "topicId": "nederland-leren-kennen",
+      "source": "KNM A1 supplemental vocabulary"
+    },
+    {
+      "word": "links",
+      "variants": "",
+      "english": "left",
+      "meaning": "左边",
+      "example": "",
+      "note": "交通与城市",
+      "importance": "KNM 高频",
+      "topic": "Nederland leren kennen",
+      "topicId": "nederland-leren-kennen",
+      "source": "KNM A1 supplemental vocabulary"
+    },
+    {
+      "word": "rechts",
+      "variants": "",
+      "english": "right",
+      "meaning": "右边",
+      "example": "",
+      "note": "交通与城市",
+      "importance": "KNM 高频",
+      "topic": "Nederland leren kennen",
+      "topicId": "nederland-leren-kennen",
+      "source": "KNM A1 supplemental vocabulary"
+    },
+    {
+      "word": "rechtdoor",
+      "variants": "",
+      "english": "straight ahead",
+      "meaning": "直走",
+      "example": "",
+      "note": "交通与城市",
+      "importance": "KNM 高频",
+      "topic": "Nederland leren kennen",
+      "topicId": "nederland-leren-kennen",
+      "source": "KNM A1 supplemental vocabulary"
+    },
+    {
+      "word": "dichtbij",
+      "variants": "dichterbij",
+      "english": "nearby",
+      "meaning": "附近",
+      "example": "",
+      "note": "交通与城市",
+      "importance": "KNM 高频",
+      "topic": "Nederland leren kennen",
+      "topicId": "nederland-leren-kennen",
+      "source": "KNM A1 supplemental vocabulary"
+    },
+    {
+      "word": "ver",
+      "variants": "verder",
+      "english": "far",
+      "meaning": "远",
+      "example": "",
+      "note": "交通与城市",
+      "importance": "KNM 高频",
+      "topic": "Nederland leren kennen",
+      "topicId": "nederland-leren-kennen",
+      "source": "KNM A1 supplemental vocabulary"
+    },
+    {
+      "word": "de kaart",
+      "variants": "kaarten",
+      "english": "map / card",
+      "meaning": "地图；卡片",
+      "example": "",
+      "note": "交通与城市",
+      "importance": "KNM 高频",
+      "topic": "Nederland leren kennen",
+      "topicId": "nederland-leren-kennen",
+      "source": "KNM A1 supplemental vocabulary"
+    },
+    {
+      "word": "de plaats",
+      "variants": "plaatsen",
+      "english": "place",
+      "meaning": "地方",
+      "example": "",
+      "note": "交通与城市",
+      "importance": "KNM 高频",
+      "topic": "Nederland leren kennen",
+      "topicId": "nederland-leren-kennen",
+      "source": "KNM A1 supplemental vocabulary"
+    },
+    {
+      "word": "de stad",
+      "variants": "steden",
+      "english": "city",
+      "meaning": "城市",
+      "example": "",
+      "note": "交通与城市",
+      "importance": "KNM 高频",
+      "topic": "Nederland leren kennen",
+      "topicId": "nederland-leren-kennen",
+      "source": "KNM A1 supplemental vocabulary"
+    },
+    {
+      "word": "het dorp",
+      "variants": "dorpen",
+      "english": "village",
+      "meaning": "村镇",
+      "example": "",
+      "note": "交通与城市",
+      "importance": "KNM 高频",
+      "topic": "Nederland leren kennen",
+      "topicId": "nederland-leren-kennen",
+      "source": "KNM A1 supplemental vocabulary"
+    },
+    {
+      "word": "het lichaam",
+      "variants": "lichamen",
+      "english": "body",
+      "meaning": "身体",
+      "example": "",
+      "note": "身体与健康",
+      "importance": "KNM 高频",
+      "topic": "Gezondheid en gezondheidszorg in Nederland",
+      "topicId": "gezondheid-en-gezondheidszorg-in-nederland",
+      "source": "KNM A1 supplemental vocabulary"
+    },
+    {
+      "word": "het hoofd",
+      "variants": "hoofden",
+      "english": "head",
+      "meaning": "头",
+      "example": "",
+      "note": "身体与健康",
+      "importance": "KNM 高频",
+      "topic": "Gezondheid en gezondheidszorg in Nederland",
+      "topicId": "gezondheid-en-gezondheidszorg-in-nederland",
+      "source": "KNM A1 supplemental vocabulary"
+    },
+    {
+      "word": "het haar",
+      "variants": "haren",
+      "english": "hair",
+      "meaning": "头发",
+      "example": "",
+      "note": "身体与健康",
+      "importance": "KNM 高频",
+      "topic": "Gezondheid en gezondheidszorg in Nederland",
+      "topicId": "gezondheid-en-gezondheidszorg-in-nederland",
+      "source": "KNM A1 supplemental vocabulary"
+    },
+    {
+      "word": "het oog",
+      "variants": "ogen",
+      "english": "eye",
+      "meaning": "眼睛",
+      "example": "",
+      "note": "身体与健康",
+      "importance": "KNM 高频",
+      "topic": "Gezondheid en gezondheidszorg in Nederland",
+      "topicId": "gezondheid-en-gezondheidszorg-in-nederland",
+      "source": "KNM A1 supplemental vocabulary"
+    },
+    {
+      "word": "het oor",
+      "variants": "oren",
+      "english": "ear",
+      "meaning": "耳朵",
+      "example": "",
+      "note": "身体与健康",
+      "importance": "KNM 高频",
+      "topic": "Gezondheid en gezondheidszorg in Nederland",
+      "topicId": "gezondheid-en-gezondheidszorg-in-nederland",
+      "source": "KNM A1 supplemental vocabulary"
+    },
+    {
+      "word": "de neus",
+      "variants": "neuzen",
+      "english": "nose",
+      "meaning": "鼻子",
+      "example": "",
+      "note": "身体与健康",
+      "importance": "KNM 高频",
+      "topic": "Gezondheid en gezondheidszorg in Nederland",
+      "topicId": "gezondheid-en-gezondheidszorg-in-nederland",
+      "source": "KNM A1 supplemental vocabulary"
+    },
+    {
+      "word": "de mond",
+      "variants": "monden",
+      "english": "mouth",
+      "meaning": "嘴",
+      "example": "",
+      "note": "身体与健康",
+      "importance": "KNM 高频",
+      "topic": "Gezondheid en gezondheidszorg in Nederland",
+      "topicId": "gezondheid-en-gezondheidszorg-in-nederland",
+      "source": "KNM A1 supplemental vocabulary"
+    },
+    {
+      "word": "de tand",
+      "variants": "tanden",
+      "english": "tooth",
+      "meaning": "牙齿",
+      "example": "",
+      "note": "身体与健康",
+      "importance": "KNM 高频",
+      "topic": "Gezondheid en gezondheidszorg in Nederland",
+      "topicId": "gezondheid-en-gezondheidszorg-in-nederland",
+      "source": "KNM A1 supplemental vocabulary"
+    },
+    {
+      "word": "de hand",
+      "variants": "handen",
+      "english": "hand",
+      "meaning": "手",
+      "example": "",
+      "note": "身体与健康",
+      "importance": "KNM 高频",
+      "topic": "Gezondheid en gezondheidszorg in Nederland",
+      "topicId": "gezondheid-en-gezondheidszorg-in-nederland",
+      "source": "KNM A1 supplemental vocabulary"
+    },
+    {
+      "word": "de arm",
+      "variants": "armen",
+      "english": "arm",
+      "meaning": "胳膊",
+      "example": "",
+      "note": "身体与健康",
+      "importance": "KNM 高频",
+      "topic": "Gezondheid en gezondheidszorg in Nederland",
+      "topicId": "gezondheid-en-gezondheidszorg-in-nederland",
+      "source": "KNM A1 supplemental vocabulary"
+    },
+    {
+      "word": "het been",
+      "variants": "benen",
+      "english": "leg",
+      "meaning": "腿",
+      "example": "",
+      "note": "身体与健康",
+      "importance": "KNM 高频",
+      "topic": "Gezondheid en gezondheidszorg in Nederland",
+      "topicId": "gezondheid-en-gezondheidszorg-in-nederland",
+      "source": "KNM A1 supplemental vocabulary"
+    },
+    {
+      "word": "de voet",
+      "variants": "voeten",
+      "english": "foot",
+      "meaning": "脚",
+      "example": "",
+      "note": "身体与健康",
+      "importance": "KNM 高频",
+      "topic": "Gezondheid en gezondheidszorg in Nederland",
+      "topicId": "gezondheid-en-gezondheidszorg-in-nederland",
+      "source": "KNM A1 supplemental vocabulary"
+    },
+    {
+      "word": "de rug",
+      "variants": "ruggen",
+      "english": "back",
+      "meaning": "背部",
+      "example": "",
+      "note": "身体与健康",
+      "importance": "KNM 高频",
+      "topic": "Gezondheid en gezondheidszorg in Nederland",
+      "topicId": "gezondheid-en-gezondheidszorg-in-nederland",
+      "source": "KNM A1 supplemental vocabulary"
+    },
+    {
+      "word": "de buik",
+      "variants": "buiken",
+      "english": "belly / abdomen",
+      "meaning": "肚子",
+      "example": "",
+      "note": "身体与健康",
+      "importance": "KNM 高频",
+      "topic": "Gezondheid en gezondheidszorg in Nederland",
+      "topicId": "gezondheid-en-gezondheidszorg-in-nederland",
+      "source": "KNM A1 supplemental vocabulary"
+    },
+    {
+      "word": "de dokter",
+      "variants": "dokters",
+      "english": "doctor",
+      "meaning": "医生",
+      "example": "",
+      "note": "身体与健康",
+      "importance": "KNM 高频",
+      "topic": "Gezondheid en gezondheidszorg in Nederland",
+      "topicId": "gezondheid-en-gezondheidszorg-in-nederland",
+      "source": "KNM A1 supplemental vocabulary"
+    },
+    {
+      "word": "de afspraak",
+      "variants": "afspraken",
+      "english": "appointment",
+      "meaning": "预约",
+      "example": "",
+      "note": "身体与健康",
+      "importance": "KNM 高频",
+      "topic": "Gezondheid en gezondheidszorg in Nederland",
+      "topicId": "gezondheid-en-gezondheidszorg-in-nederland",
+      "source": "KNM A1 supplemental vocabulary"
+    },
+    {
+      "word": "beterschap",
+      "variants": "",
+      "english": "get well soon",
+      "meaning": "早日康复",
+      "example": "",
+      "note": "身体与健康",
+      "importance": "KNM 高频",
+      "topic": "Gezondheid en gezondheidszorg in Nederland",
+      "topicId": "gezondheid-en-gezondheidszorg-in-nederland",
+      "source": "KNM A1 supplemental vocabulary"
+    },
+    {
+      "word": "de school",
+      "variants": "scholen",
+      "english": "school",
+      "meaning": "学校",
+      "example": "",
+      "note": "学校与工作",
+      "importance": "KNM 高频",
+      "topic": "Opvoeding en onderwijs in Nederland",
+      "topicId": "opvoeding-en-onderwijs-in-nederland",
+      "source": "KNM A1 supplemental vocabulary"
+    },
+    {
+      "word": "de klas",
+      "variants": "klassen",
+      "english": "class",
+      "meaning": "班级",
+      "example": "",
+      "note": "学校与工作",
+      "importance": "KNM 高频",
+      "topic": "Opvoeding en onderwijs in Nederland",
+      "topicId": "opvoeding-en-onderwijs-in-nederland",
+      "source": "KNM A1 supplemental vocabulary"
+    },
+    {
+      "word": "de les",
+      "variants": "lessen",
+      "english": "lesson",
+      "meaning": "课程",
+      "example": "",
+      "note": "学校与工作",
+      "importance": "KNM 高频",
+      "topic": "Opvoeding en onderwijs in Nederland",
+      "topicId": "opvoeding-en-onderwijs-in-nederland",
+      "source": "KNM A1 supplemental vocabulary"
+    },
+    {
+      "word": "de taal",
+      "variants": "talen",
+      "english": "language",
+      "meaning": "语言",
+      "example": "",
+      "note": "学校与工作",
+      "importance": "KNM 高频",
+      "topic": "Opvoeding en onderwijs in Nederland",
+      "topicId": "opvoeding-en-onderwijs-in-nederland",
+      "source": "KNM A1 supplemental vocabulary"
+    },
+    {
+      "word": "het woord",
+      "variants": "woorden",
+      "english": "word",
+      "meaning": "单词",
+      "example": "",
+      "note": "学校与工作",
+      "importance": "KNM 高频",
+      "topic": "Opvoeding en onderwijs in Nederland",
+      "topicId": "opvoeding-en-onderwijs-in-nederland",
+      "source": "KNM A1 supplemental vocabulary"
+    },
+    {
+      "word": "de vraag",
+      "variants": "vragen",
+      "english": "question",
+      "meaning": "问题",
+      "example": "",
+      "note": "学校与工作",
+      "importance": "KNM 高频",
+      "topic": "Opvoeding en onderwijs in Nederland",
+      "topicId": "opvoeding-en-onderwijs-in-nederland",
+      "source": "KNM A1 supplemental vocabulary"
+    },
+    {
+      "word": "het antwoord",
+      "variants": "antwoorden",
+      "english": "answer",
+      "meaning": "答案",
+      "example": "",
+      "note": "学校与工作",
+      "importance": "KNM 高频",
+      "topic": "Opvoeding en onderwijs in Nederland",
+      "topicId": "opvoeding-en-onderwijs-in-nederland",
+      "source": "KNM A1 supplemental vocabulary"
+    },
+    {
+      "word": "de oefening",
+      "variants": "oefeningen",
+      "english": "exercise",
+      "meaning": "练习",
+      "example": "",
+      "note": "学校与工作",
+      "importance": "KNM 高频",
+      "topic": "Opvoeding en onderwijs in Nederland",
+      "topicId": "opvoeding-en-onderwijs-in-nederland",
+      "source": "KNM A1 supplemental vocabulary"
+    },
+    {
+      "word": "de toets",
+      "variants": "toetsen",
+      "english": "test",
+      "meaning": "测验",
+      "example": "",
+      "note": "学校与工作",
+      "importance": "KNM 高频",
+      "topic": "Opvoeding en onderwijs in Nederland",
+      "topicId": "opvoeding-en-onderwijs-in-nederland",
+      "source": "KNM A1 supplemental vocabulary"
+    },
+    {
+      "word": "het examen",
+      "variants": "examens",
+      "english": "exam",
+      "meaning": "考试",
+      "example": "",
+      "note": "学校与工作",
+      "importance": "KNM 高频",
+      "topic": "Opvoeding en onderwijs in Nederland",
+      "topicId": "opvoeding-en-onderwijs-in-nederland",
+      "source": "KNM A1 supplemental vocabulary"
+    },
+    {
+      "word": "de opleiding",
+      "variants": "opleidingen",
+      "english": "course of study / training",
+      "meaning": "教育、培训",
+      "example": "",
+      "note": "学校与工作",
+      "importance": "KNM 高频",
+      "topic": "Opvoeding en onderwijs in Nederland",
+      "topicId": "opvoeding-en-onderwijs-in-nederland",
+      "source": "KNM A1 supplemental vocabulary"
+    },
+    {
+      "word": "het werk",
+      "variants": "",
+      "english": "work",
+      "meaning": "工作",
+      "example": "",
+      "note": "学校与工作",
+      "importance": "KNM 高频",
+      "topic": "Opvoeding en onderwijs in Nederland",
+      "topicId": "opvoeding-en-onderwijs-in-nederland",
+      "source": "KNM A1 supplemental vocabulary"
+    },
+    {
+      "word": "de baan",
+      "variants": "banen",
+      "english": "job",
+      "meaning": "工作岗位",
+      "example": "",
+      "note": "学校与工作",
+      "importance": "KNM 高频",
+      "topic": "Opvoeding en onderwijs in Nederland",
+      "topicId": "opvoeding-en-onderwijs-in-nederland",
+      "source": "KNM A1 supplemental vocabulary"
+    },
+    {
+      "word": "het kantoor",
+      "variants": "kantoren",
+      "english": "office",
+      "meaning": "办公室",
+      "example": "",
+      "note": "学校与工作",
+      "importance": "KNM 高频",
+      "topic": "Opvoeding en onderwijs in Nederland",
+      "topicId": "opvoeding-en-onderwijs-in-nederland",
+      "source": "KNM A1 supplemental vocabulary"
+    },
+    {
+      "word": "het bedrijf",
+      "variants": "bedrijven",
+      "english": "company",
+      "meaning": "公司",
+      "example": "",
+      "note": "学校与工作",
+      "importance": "KNM 高频",
+      "topic": "Opvoeding en onderwijs in Nederland",
+      "topicId": "opvoeding-en-onderwijs-in-nederland",
+      "source": "KNM A1 supplemental vocabulary"
+    },
+    {
+      "word": "de vergadering",
+      "variants": "vergaderingen",
+      "english": "meeting",
+      "meaning": "会议",
+      "example": "",
+      "note": "学校与工作",
+      "importance": "KNM 高频",
+      "topic": "Opvoeding en onderwijs in Nederland",
+      "topicId": "opvoeding-en-onderwijs-in-nederland",
+      "source": "KNM A1 supplemental vocabulary"
+    },
+    {
+      "word": "de pauze",
+      "variants": "pauzes",
+      "english": "break",
+      "meaning": "休息时间",
+      "example": "",
+      "note": "学校与工作",
+      "importance": "KNM 高频",
+      "topic": "Opvoeding en onderwijs in Nederland",
+      "topicId": "opvoeding-en-onderwijs-in-nederland",
+      "source": "KNM A1 supplemental vocabulary"
+    },
+    {
+      "word": "het salaris",
+      "variants": "salarissen",
+      "english": "salary",
+      "meaning": "工资",
+      "example": "",
+      "note": "学校与工作",
+      "importance": "KNM 高频",
+      "topic": "Opvoeding en onderwijs in Nederland",
+      "topicId": "opvoeding-en-onderwijs-in-nederland",
+      "source": "KNM A1 supplemental vocabulary"
+    },
+    {
+      "word": "de vakantie",
+      "variants": "vakanties",
+      "english": "holiday / vacation",
+      "meaning": "假期",
+      "example": "",
+      "note": "学校与工作",
+      "importance": "KNM 高频",
+      "topic": "Opvoeding en onderwijs in Nederland",
+      "topicId": "opvoeding-en-onderwijs-in-nederland",
+      "source": "KNM A1 supplemental vocabulary"
+    },
+    {
+      "word": "vrij",
+      "variants": "vrije",
+      "english": "free / off work",
+      "meaning": "自由的；休息的",
+      "example": "",
+      "note": "学校与工作",
+      "importance": "KNM 高频",
+      "topic": "Opvoeding en onderwijs in Nederland",
+      "topicId": "opvoeding-en-onderwijs-in-nederland",
+      "source": "KNM A1 supplemental vocabulary"
+    },
+    {
+      "word": "goed",
+      "variants": "goede; beter; best",
+      "english": "good",
+      "meaning": "好的",
+      "example": "",
+      "note": "高频形容词",
+      "importance": "KNM 高频",
+      "topic": "Werken in Nederland",
+      "topicId": "werken-in-nederland",
+      "source": "KNM A1 supplemental vocabulary"
+    },
+    {
+      "word": "slecht",
+      "variants": "slechte; slechter; slechtst",
+      "english": "bad",
+      "meaning": "坏的",
+      "example": "",
+      "note": "高频形容词",
+      "importance": "KNM 高频",
+      "topic": "Werken in Nederland",
+      "topicId": "werken-in-nederland",
+      "source": "KNM A1 supplemental vocabulary"
+    },
+    {
+      "word": "mooi",
+      "variants": "mooie; mooier; mooist",
+      "english": "beautiful / nice",
+      "meaning": "漂亮的、好的",
+      "example": "",
+      "note": "高频形容词",
+      "importance": "KNM 高频",
+      "topic": "Werken in Nederland",
+      "topicId": "werken-in-nederland",
+      "source": "KNM A1 supplemental vocabulary"
+    },
+    {
+      "word": "lelijk",
+      "variants": "lelijke; lelijker",
+      "english": "ugly",
+      "meaning": "难看的",
+      "example": "",
+      "note": "高频形容词",
+      "importance": "KNM 高频",
+      "topic": "Werken in Nederland",
+      "topicId": "werken-in-nederland",
+      "source": "KNM A1 supplemental vocabulary"
+    },
+    {
+      "word": "nieuw",
+      "variants": "nieuwe; nieuwer",
+      "english": "new",
+      "meaning": "新的",
+      "example": "",
+      "note": "高频形容词",
+      "importance": "KNM 高频",
+      "topic": "Werken in Nederland",
+      "topicId": "werken-in-nederland",
+      "source": "KNM A1 supplemental vocabulary"
+    },
+    {
+      "word": "oud",
+      "variants": "oude; ouder",
+      "english": "old",
+      "meaning": "旧的、年老的",
+      "example": "",
+      "note": "高频形容词",
+      "importance": "KNM 高频",
+      "topic": "Werken in Nederland",
+      "topicId": "werken-in-nederland",
+      "source": "KNM A1 supplemental vocabulary"
+    },
+    {
+      "word": "jong",
+      "variants": "jonge; jonger",
+      "english": "young",
+      "meaning": "年轻的",
+      "example": "",
+      "note": "高频形容词",
+      "importance": "KNM 高频",
+      "topic": "Werken in Nederland",
+      "topicId": "werken-in-nederland",
+      "source": "KNM A1 supplemental vocabulary"
+    },
+    {
+      "word": "lang",
+      "variants": "lange; langer",
+      "english": "long / tall",
+      "meaning": "长的、高的",
+      "example": "",
+      "note": "高频形容词",
+      "importance": "KNM 高频",
+      "topic": "Werken in Nederland",
+      "topicId": "werken-in-nederland",
+      "source": "KNM A1 supplemental vocabulary"
+    },
+    {
+      "word": "kort",
+      "variants": "korte; korter",
+      "english": "short",
+      "meaning": "短的",
+      "example": "",
+      "note": "高频形容词",
+      "importance": "KNM 高频",
+      "topic": "Werken in Nederland",
+      "topicId": "werken-in-nederland",
+      "source": "KNM A1 supplemental vocabulary"
+    },
+    {
+      "word": "hoog",
+      "variants": "hoge; hoger",
+      "english": "high / tall",
+      "meaning": "高的",
+      "example": "",
+      "note": "高频形容词",
+      "importance": "KNM 高频",
+      "topic": "Werken in Nederland",
+      "topicId": "werken-in-nederland",
+      "source": "KNM A1 supplemental vocabulary"
+    },
+    {
+      "word": "laag",
+      "variants": "lage; lager",
+      "english": "low",
+      "meaning": "低的",
+      "example": "",
+      "note": "高频形容词",
+      "importance": "KNM 高频",
+      "topic": "Werken in Nederland",
+      "topicId": "werken-in-nederland",
+      "source": "KNM A1 supplemental vocabulary"
+    },
+    {
+      "word": "dik",
+      "variants": "dikke; dikker",
+      "english": "thick / fat",
+      "meaning": "厚的、胖的",
+      "example": "",
+      "note": "高频形容词",
+      "importance": "KNM 高频",
+      "topic": "Werken in Nederland",
+      "topicId": "werken-in-nederland",
+      "source": "KNM A1 supplemental vocabulary"
+    },
+    {
+      "word": "dun",
+      "variants": "dunne; dunner",
+      "english": "thin",
+      "meaning": "薄的、瘦的",
+      "example": "",
+      "note": "高频形容词",
+      "importance": "KNM 高频",
+      "topic": "Werken in Nederland",
+      "topicId": "werken-in-nederland",
+      "source": "KNM A1 supplemental vocabulary"
+    },
+    {
+      "word": "warm",
+      "variants": "warme; warmer",
+      "english": "warm",
+      "meaning": "温暖的",
+      "example": "",
+      "note": "高频形容词",
+      "importance": "KNM 高频",
+      "topic": "Werken in Nederland",
+      "topicId": "werken-in-nederland",
+      "source": "KNM A1 supplemental vocabulary"
+    },
+    {
+      "word": "koud",
+      "variants": "koude; kouder",
+      "english": "cold",
+      "meaning": "冷的",
+      "example": "",
+      "note": "高频形容词",
+      "importance": "KNM 高频",
+      "topic": "Werken in Nederland",
+      "topicId": "werken-in-nederland",
+      "source": "KNM A1 supplemental vocabulary"
+    },
+    {
+      "word": "heet",
+      "variants": "hete; heter",
+      "english": "hot",
+      "meaning": "热的",
+      "example": "",
+      "note": "高频形容词",
+      "importance": "KNM 高频",
+      "topic": "Werken in Nederland",
+      "topicId": "werken-in-nederland",
+      "source": "KNM A1 supplemental vocabulary"
+    },
+    {
+      "word": "licht",
+      "variants": "lichte; lichter",
+      "english": "light",
+      "meaning": "轻的；明亮的",
+      "example": "",
+      "note": "高频形容词",
+      "importance": "KNM 高频",
+      "topic": "Werken in Nederland",
+      "topicId": "werken-in-nederland",
+      "source": "KNM A1 supplemental vocabulary"
+    },
+    {
+      "word": "donker",
+      "variants": "donkere; donkerder",
+      "english": "dark",
+      "meaning": "黑暗的",
+      "example": "",
+      "note": "高频形容词",
+      "importance": "KNM 高频",
+      "topic": "Werken in Nederland",
+      "topicId": "werken-in-nederland",
+      "source": "KNM A1 supplemental vocabulary"
+    },
+    {
+      "word": "snel",
+      "variants": "snelle; sneller",
+      "english": "fast",
+      "meaning": "快的",
+      "example": "",
+      "note": "高频形容词",
+      "importance": "KNM 高频",
+      "topic": "Werken in Nederland",
+      "topicId": "werken-in-nederland",
+      "source": "KNM A1 supplemental vocabulary"
+    },
+    {
+      "word": "langzaam",
+      "variants": "langzame; langzamer",
+      "english": "slow",
+      "meaning": "慢的",
+      "example": "",
+      "note": "高频形容词",
+      "importance": "KNM 高频",
+      "topic": "Werken in Nederland",
+      "topicId": "werken-in-nederland",
+      "source": "KNM A1 supplemental vocabulary"
+    },
+    {
+      "word": "makkelijk",
+      "variants": "makkelijke; makkelijker",
+      "english": "easy",
+      "meaning": "容易的",
+      "example": "",
+      "note": "高频形容词",
+      "importance": "KNM 高频",
+      "topic": "Werken in Nederland",
+      "topicId": "werken-in-nederland",
+      "source": "KNM A1 supplemental vocabulary"
+    },
+    {
+      "word": "moeilijk",
+      "variants": "moeilijke; moeilijker",
+      "english": "difficult",
+      "meaning": "困难的",
+      "example": "",
+      "note": "高频形容词",
+      "importance": "KNM 高频",
+      "topic": "Werken in Nederland",
+      "topicId": "werken-in-nederland",
+      "source": "KNM A1 supplemental vocabulary"
+    },
+    {
+      "word": "belangrijk",
+      "variants": "belangrijke; belangrijker",
+      "english": "important",
+      "meaning": "重要的",
+      "example": "",
+      "note": "高频形容词",
+      "importance": "KNM 高频",
+      "topic": "Werken in Nederland",
+      "topicId": "werken-in-nederland",
+      "source": "KNM A1 supplemental vocabulary"
+    },
+    {
+      "word": "druk",
+      "variants": "drukke; drukker",
+      "english": "busy",
+      "meaning": "忙的、拥挤的",
+      "example": "",
+      "note": "高频形容词",
+      "importance": "KNM 高频",
+      "topic": "Werken in Nederland",
+      "topicId": "werken-in-nederland",
+      "source": "KNM A1 supplemental vocabulary"
+    },
+    {
+      "word": "rustig",
+      "variants": "rustige; rustiger",
+      "english": "quiet / calm",
+      "meaning": "安静的、冷静的",
+      "example": "",
+      "note": "高频形容词",
+      "importance": "KNM 高频",
+      "topic": "Werken in Nederland",
+      "topicId": "werken-in-nederland",
+      "source": "KNM A1 supplemental vocabulary"
+    },
+    {
+      "word": "blij",
+      "variants": "blije; blijer",
+      "english": "happy",
+      "meaning": "开心的",
+      "example": "",
+      "note": "高频形容词",
+      "importance": "KNM 高频",
+      "topic": "Werken in Nederland",
+      "topicId": "werken-in-nederland",
+      "source": "KNM A1 supplemental vocabulary"
+    },
+    {
+      "word": "boos",
+      "variants": "boze; bozer",
+      "english": "angry",
+      "meaning": "生气的",
+      "example": "",
+      "note": "高频形容词",
+      "importance": "KNM 高频",
+      "topic": "Werken in Nederland",
+      "topicId": "werken-in-nederland",
+      "source": "KNM A1 supplemental vocabulary"
+    },
+    {
+      "word": "verdrietig",
+      "variants": "verdrietige",
+      "english": "sad",
+      "meaning": "伤心的",
+      "example": "",
+      "note": "高频形容词",
+      "importance": "KNM 高频",
+      "topic": "Werken in Nederland",
+      "topicId": "werken-in-nederland",
+      "source": "KNM A1 supplemental vocabulary"
+    },
+    {
+      "word": "moe",
+      "variants": "",
+      "english": "tired",
+      "meaning": "累的",
+      "example": "",
+      "note": "高频形容词",
+      "importance": "KNM 高频",
+      "topic": "Werken in Nederland",
+      "topicId": "werken-in-nederland",
+      "source": "KNM A1 supplemental vocabulary"
+    },
+    {
+      "word": "bang",
+      "variants": "bange; banger",
+      "english": "afraid",
+      "meaning": "害怕的",
+      "example": "",
+      "note": "高频形容词",
+      "importance": "KNM 高频",
+      "topic": "Werken in Nederland",
+      "topicId": "werken-in-nederland",
+      "source": "KNM A1 supplemental vocabulary"
+    },
+    {
+      "word": "vriendelijk",
+      "variants": "vriendelijke",
+      "english": "friendly",
+      "meaning": "友好的",
+      "example": "",
+      "note": "高频形容词",
+      "importance": "KNM 高频",
+      "topic": "Werken in Nederland",
+      "topicId": "werken-in-nederland",
+      "source": "KNM A1 supplemental vocabulary"
+    },
+    {
+      "word": "aardig",
+      "variants": "aardige; aardiger",
+      "english": "nice / kind",
+      "meaning": "友善的",
+      "example": "",
+      "note": "高频形容词",
+      "importance": "KNM 高频",
+      "topic": "Werken in Nederland",
+      "topicId": "werken-in-nederland",
+      "source": "KNM A1 supplemental vocabulary"
+    },
+    {
+      "word": "leuk",
+      "variants": "leuke; leuker",
+      "english": "nice / fun",
+      "meaning": "有趣的、不错的",
+      "example": "",
+      "note": "高频形容词",
+      "importance": "KNM 高频",
+      "topic": "Werken in Nederland",
+      "topicId": "werken-in-nederland",
+      "source": "KNM A1 supplemental vocabulary"
+    },
+    {
+      "word": "interessant",
+      "variants": "interessante",
+      "english": "interesting",
+      "meaning": "有趣的",
+      "example": "",
+      "note": "高频形容词",
+      "importance": "KNM 高频",
+      "topic": "Werken in Nederland",
+      "topicId": "werken-in-nederland",
+      "source": "KNM A1 supplemental vocabulary"
+    },
+    {
+      "word": "klaar",
+      "variants": "",
+      "english": "ready / finished",
+      "meaning": "准备好的；完成的",
+      "example": "",
+      "note": "高频形容词",
+      "importance": "KNM 高频",
+      "topic": "Werken in Nederland",
+      "topicId": "werken-in-nederland",
+      "source": "KNM A1 supplemental vocabulary"
+    },
+    {
+      "word": "open",
+      "variants": "",
+      "english": "open",
+      "meaning": "开着的",
+      "example": "",
+      "note": "高频形容词",
+      "importance": "KNM 高频",
+      "topic": "Werken in Nederland",
+      "topicId": "werken-in-nederland",
+      "source": "KNM A1 supplemental vocabulary"
+    },
+    {
+      "word": "dicht",
+      "variants": "",
+      "english": "closed",
+      "meaning": "关着的",
+      "example": "",
+      "note": "高频形容词",
+      "importance": "KNM 高频",
+      "topic": "Werken in Nederland",
+      "topicId": "werken-in-nederland",
+      "source": "KNM A1 supplemental vocabulary"
+    },
+    {
+      "word": "vol",
+      "variants": "volle",
+      "english": "full",
+      "meaning": "满的",
+      "example": "",
+      "note": "高频形容词",
+      "importance": "KNM 高频",
+      "topic": "Werken in Nederland",
+      "topicId": "werken-in-nederland",
+      "source": "KNM A1 supplemental vocabulary"
+    },
+    {
+      "word": "leeg",
+      "variants": "lege",
+      "english": "empty",
+      "meaning": "空的",
+      "example": "",
+      "note": "高频形容词",
+      "importance": "KNM 高频",
+      "topic": "Werken in Nederland",
+      "topicId": "werken-in-nederland",
+      "source": "KNM A1 supplemental vocabulary"
+    },
+    {
+      "word": "schoon",
+      "variants": "schone; schoner",
+      "english": "clean",
+      "meaning": "干净的",
+      "example": "",
+      "note": "高频形容词",
+      "importance": "KNM 高频",
+      "topic": "Werken in Nederland",
+      "topicId": "werken-in-nederland",
+      "source": "KNM A1 supplemental vocabulary"
+    },
+    {
+      "word": "vies",
+      "variants": "vieze; viezer",
+      "english": "dirty",
+      "meaning": "脏的",
+      "example": "",
+      "note": "高频形容词",
+      "importance": "KNM 高频",
+      "topic": "Werken in Nederland",
+      "topicId": "werken-in-nederland",
+      "source": "KNM A1 supplemental vocabulary"
+    },
+    {
+      "word": "hetzelfde",
+      "variants": "dezelfde",
+      "english": "the same",
+      "meaning": "相同的",
+      "example": "",
+      "note": "高频形容词",
+      "importance": "KNM 高频",
+      "topic": "Werken in Nederland",
+      "topicId": "werken-in-nederland",
+      "source": "KNM A1 supplemental vocabulary"
+    },
+    {
+      "word": "anders",
+      "variants": "andere",
+      "english": "different / otherwise",
+      "meaning": "不同的、另外",
+      "example": "",
+      "note": "高频形容词",
+      "importance": "KNM 高频",
+      "topic": "Werken in Nederland",
+      "topicId": "werken-in-nederland",
+      "source": "KNM A1 supplemental vocabulary"
+    },
+    {
+      "word": "de zon",
+      "variants": "",
+      "english": "sun",
+      "meaning": "太阳",
+      "example": "",
+      "note": "天气与自然",
+      "importance": "KNM 高频",
+      "topic": "Nederland leren kennen",
+      "topicId": "nederland-leren-kennen",
+      "source": "KNM A1 supplemental vocabulary"
+    },
+    {
+      "word": "de regen",
+      "variants": "",
+      "english": "rain",
+      "meaning": "雨",
+      "example": "",
+      "note": "天气与自然",
+      "importance": "KNM 高频",
+      "topic": "Nederland leren kennen",
+      "topicId": "nederland-leren-kennen",
+      "source": "KNM A1 supplemental vocabulary"
+    },
+    {
+      "word": "de wind",
+      "variants": "winden",
+      "english": "wind",
+      "meaning": "风",
+      "example": "",
+      "note": "天气与自然",
+      "importance": "KNM 高频",
+      "topic": "Nederland leren kennen",
+      "topicId": "nederland-leren-kennen",
+      "source": "KNM A1 supplemental vocabulary"
+    },
+    {
+      "word": "de sneeuw",
+      "variants": "",
+      "english": "snow",
+      "meaning": "雪",
+      "example": "",
+      "note": "天气与自然",
+      "importance": "KNM 高频",
+      "topic": "Nederland leren kennen",
+      "topicId": "nederland-leren-kennen",
+      "source": "KNM A1 supplemental vocabulary"
+    },
+    {
+      "word": "de wolk",
+      "variants": "wolken",
+      "english": "cloud",
+      "meaning": "云",
+      "example": "",
+      "note": "天气与自然",
+      "importance": "KNM 高频",
+      "topic": "Nederland leren kennen",
+      "topicId": "nederland-leren-kennen",
+      "source": "KNM A1 supplemental vocabulary"
+    },
+    {
+      "word": "regenen",
+      "variants": "regent; regende; heeft geregend",
+      "english": "to rain",
+      "meaning": "下雨",
+      "example": "",
+      "note": "天气与自然",
+      "importance": "KNM 高频",
+      "topic": "Nederland leren kennen",
+      "topicId": "nederland-leren-kennen",
+      "source": "KNM A1 supplemental vocabulary"
+    },
+    {
+      "word": "waaien",
+      "variants": "waait; waaide; heeft gewaaid",
+      "english": "to blow / be windy",
+      "meaning": "刮风",
+      "example": "",
+      "note": "天气与自然",
+      "importance": "KNM 高频",
+      "topic": "Nederland leren kennen",
+      "topicId": "nederland-leren-kennen",
+      "source": "KNM A1 supplemental vocabulary"
+    },
+    {
+      "word": "schijnen",
+      "variants": "schijnt; scheen; heeft geschenen",
+      "english": "to shine",
+      "meaning": "照耀",
+      "example": "",
+      "note": "天气与自然",
+      "importance": "KNM 高频",
+      "topic": "Nederland leren kennen",
+      "topicId": "nederland-leren-kennen",
+      "source": "KNM A1 supplemental vocabulary"
+    },
+    {
+      "word": "hallo",
+      "variants": "",
+      "english": "hello",
+      "meaning": "你好",
+      "example": "",
+      "note": "A1 日常固定表达",
+      "importance": "KNM 高频",
+      "topic": "De mensen in Nederland",
+      "topicId": "de-mensen-in-nederland",
+      "source": "KNM A1 supplemental vocabulary"
+    },
+    {
+      "word": "hoi",
+      "variants": "",
+      "english": "hi",
+      "meaning": "嗨",
+      "example": "",
+      "note": "A1 日常固定表达",
+      "importance": "KNM 高频",
+      "topic": "De mensen in Nederland",
+      "topicId": "de-mensen-in-nederland",
+      "source": "KNM A1 supplemental vocabulary"
+    },
+    {
+      "word": "goedemorgen",
+      "variants": "",
+      "english": "good morning",
+      "meaning": "早上好",
+      "example": "",
+      "note": "A1 日常固定表达",
+      "importance": "KNM 高频",
+      "topic": "De mensen in Nederland",
+      "topicId": "de-mensen-in-nederland",
+      "source": "KNM A1 supplemental vocabulary"
+    },
+    {
+      "word": "goedemiddag",
+      "variants": "",
+      "english": "good afternoon",
+      "meaning": "下午好",
+      "example": "",
+      "note": "A1 日常固定表达",
+      "importance": "KNM 高频",
+      "topic": "De mensen in Nederland",
+      "topicId": "de-mensen-in-nederland",
+      "source": "KNM A1 supplemental vocabulary"
+    },
+    {
+      "word": "goedenavond",
+      "variants": "",
+      "english": "good evening",
+      "meaning": "晚上好",
+      "example": "",
+      "note": "A1 日常固定表达",
+      "importance": "KNM 高频",
+      "topic": "De mensen in Nederland",
+      "topicId": "de-mensen-in-nederland",
+      "source": "KNM A1 supplemental vocabulary"
+    },
+    {
+      "word": "tot ziens",
+      "variants": "",
+      "english": "goodbye",
+      "meaning": "再见",
+      "example": "",
+      "note": "A1 日常固定表达",
+      "importance": "KNM 高频",
+      "topic": "De mensen in Nederland",
+      "topicId": "de-mensen-in-nederland",
+      "source": "KNM A1 supplemental vocabulary"
+    },
+    {
+      "word": "doei",
+      "variants": "",
+      "english": "bye",
+      "meaning": "拜拜",
+      "example": "",
+      "note": "A1 日常固定表达",
+      "importance": "KNM 高频",
+      "topic": "De mensen in Nederland",
+      "topicId": "de-mensen-in-nederland",
+      "source": "KNM A1 supplemental vocabulary"
+    },
+    {
+      "word": "dank je wel",
+      "variants": "dank u wel",
+      "english": "thank you",
+      "meaning": "谢谢",
+      "example": "",
+      "note": "A1 日常固定表达",
+      "importance": "KNM 高频",
+      "topic": "De mensen in Nederland",
+      "topicId": "de-mensen-in-nederland",
+      "source": "KNM A1 supplemental vocabulary"
+    },
+    {
+      "word": "alstublieft",
+      "variants": "alsjeblieft",
+      "english": "please / here you are",
+      "meaning": "请；给你",
+      "example": "",
+      "note": "A1 日常固定表达",
+      "importance": "KNM 高频",
+      "topic": "De mensen in Nederland",
+      "topicId": "de-mensen-in-nederland",
+      "source": "KNM A1 supplemental vocabulary"
+    },
+    {
+      "word": "sorry",
+      "variants": "",
+      "english": "sorry",
+      "meaning": "对不起",
+      "example": "",
+      "note": "A1 日常固定表达",
+      "importance": "KNM 高频",
+      "topic": "De mensen in Nederland",
+      "topicId": "de-mensen-in-nederland",
+      "source": "KNM A1 supplemental vocabulary"
+    },
+    {
+      "word": "pardon",
+      "variants": "",
+      "english": "excuse me",
+      "meaning": "不好意思、请问",
+      "example": "",
+      "note": "A1 日常固定表达",
+      "importance": "KNM 高频",
+      "topic": "De mensen in Nederland",
+      "topicId": "de-mensen-in-nederland",
+      "source": "KNM A1 supplemental vocabulary"
+    },
+    {
+      "word": "geen probleem",
+      "variants": "",
+      "english": "no problem",
+      "meaning": "没问题",
+      "example": "",
+      "note": "A1 日常固定表达",
+      "importance": "KNM 高频",
+      "topic": "De mensen in Nederland",
+      "topicId": "de-mensen-in-nederland",
+      "source": "KNM A1 supplemental vocabulary"
+    },
+    {
+      "word": "graag",
+      "variants": "",
+      "english": "gladly / please",
+      "meaning": "乐意；请",
+      "example": "",
+      "note": "A1 日常固定表达",
+      "importance": "KNM 高频",
+      "topic": "De mensen in Nederland",
+      "topicId": "de-mensen-in-nederland",
+      "source": "KNM A1 supplemental vocabulary"
+    },
+    {
+      "word": "graag gedaan",
+      "variants": "",
+      "english": "you're welcome",
+      "meaning": "不客气",
+      "example": "",
+      "note": "A1 日常固定表达",
+      "importance": "KNM 高频",
+      "topic": "De mensen in Nederland",
+      "topicId": "de-mensen-in-nederland",
+      "source": "KNM A1 supplemental vocabulary"
+    },
+    {
+      "word": "welkom",
+      "variants": "",
+      "english": "welcome",
+      "meaning": "欢迎",
+      "example": "",
+      "note": "A1 日常固定表达",
+      "importance": "KNM 高频",
+      "topic": "De mensen in Nederland",
+      "topicId": "de-mensen-in-nederland",
+      "source": "KNM A1 supplemental vocabulary"
+    },
+    {
+      "word": "succes",
+      "variants": "",
+      "english": "good luck",
+      "meaning": "祝顺利",
+      "example": "",
+      "note": "A1 日常固定表达",
+      "importance": "KNM 高频",
+      "topic": "De mensen in Nederland",
+      "topicId": "de-mensen-in-nederland",
+      "source": "KNM A1 supplemental vocabulary"
+    },
+    {
+      "word": "eet smakelijk",
+      "variants": "",
+      "english": "enjoy your meal",
+      "meaning": "用餐愉快",
+      "example": "",
+      "note": "A1 日常固定表达",
+      "importance": "KNM 高频",
+      "topic": "De mensen in Nederland",
+      "topicId": "de-mensen-in-nederland",
+      "source": "KNM A1 supplemental vocabulary"
+    },
+    {
+      "word": "proost",
+      "variants": "",
+      "english": "cheers",
+      "meaning": "干杯",
+      "example": "",
+      "note": "A1 日常固定表达",
+      "importance": "KNM 高频",
+      "topic": "De mensen in Nederland",
+      "topicId": "de-mensen-in-nederland",
+      "source": "KNM A1 supplemental vocabulary"
+    },
+    {
+      "word": "hoe gaat het?",
+      "variants": "hoe is het?",
+      "english": "how are you?",
+      "meaning": "你好吗？",
+      "example": "",
+      "note": "A1 日常固定表达",
+      "importance": "KNM 高频",
+      "topic": "De mensen in Nederland",
+      "topicId": "de-mensen-in-nederland",
+      "source": "KNM A1 supplemental vocabulary"
+    },
+    {
+      "word": "het gaat goed",
+      "variants": "gaat goed",
+      "english": "I'm fine / it's going well",
+      "meaning": "我很好 / 一切顺利",
+      "example": "",
+      "note": "A1 日常固定表达",
+      "importance": "KNM 高频",
+      "topic": "De mensen in Nederland",
+      "topicId": "de-mensen-in-nederland",
+      "source": "KNM A1 supplemental vocabulary"
+    },
+    {
+      "word": "ik begrijp het niet",
+      "variants": "begrijp ik niet",
+      "english": "I don't understand",
+      "meaning": "我不明白",
+      "example": "",
+      "note": "A1 日常固定表达",
+      "importance": "KNM 高频",
+      "topic": "De mensen in Nederland",
+      "topicId": "de-mensen-in-nederland",
+      "source": "KNM A1 supplemental vocabulary"
+    },
+    {
+      "word": "kunt u dat herhalen?",
+      "variants": "kun je dat herhalen?",
+      "english": "can you repeat that?",
+      "meaning": "您/你能再说一遍吗？",
+      "example": "",
+      "note": "A1 日常固定表达",
+      "importance": "KNM 高频",
+      "topic": "De mensen in Nederland",
+      "topicId": "de-mensen-in-nederland",
+      "source": "KNM A1 supplemental vocabulary"
+    },
+    {
+      "word": "wat betekent dat?",
+      "variants": "",
+      "english": "what does that mean?",
+      "meaning": "那是什么意思？",
+      "example": "",
+      "note": "A1 日常固定表达",
+      "importance": "KNM 高频",
+      "topic": "De mensen in Nederland",
+      "topicId": "de-mensen-in-nederland",
+      "source": "KNM A1 supplemental vocabulary"
+    },
+    {
+      "word": "waar is ...?",
+      "variants": "",
+      "english": "where is ...?",
+      "meaning": "……在哪里？",
+      "example": "",
+      "note": "A1 日常固定表达",
+      "importance": "KNM 高频",
+      "topic": "De mensen in Nederland",
+      "topicId": "de-mensen-in-nederland",
+      "source": "KNM A1 supplemental vocabulary"
+    },
+    {
+      "word": "hoeveel kost het?",
+      "variants": "wat kost het?",
+      "english": "how much is it?",
+      "meaning": "多少钱？",
+      "example": "",
+      "note": "A1 日常固定表达",
+      "importance": "KNM 高频",
+      "topic": "De mensen in Nederland",
+      "topicId": "de-mensen-in-nederland",
+      "source": "KNM A1 supplemental vocabulary"
     }
   ],
   "grammar": [

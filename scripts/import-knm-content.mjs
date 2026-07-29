@@ -7,6 +7,7 @@ const notesPath =
 const questionsPath =
   "/Users/sherrypan/Library/Mobile Documents/com~apple~CloudDocs/Dutch-A2/knm/KNM-practice-questions.zh-CN.md";
 const guidePath = "/Users/sherrypan/Downloads/KNM_study_guide_CN_NL.md";
+const supplementalVocabularyPath = "/Users/sherrypan/Downloads/荷兰语_KNM_A1_高频词汇大全_NL_EN_CN.md";
 const fullChapterTwoToTenDir =
   "/Users/sherrypan/Downloads/KNM_Hoofdstukken_2-10_studiepakket/KNM_Hoofdstukken_2-10";
 const duoQuestionsPath = path.join(root, "content", "duo-practice-questions.json");
@@ -16,6 +17,7 @@ const outputPath = path.join(root, "content-data.js");
 const notes = fs.readFileSync(notesPath, "utf8");
 const practice = fs.readFileSync(questionsPath, "utf8");
 const guide = fs.existsSync(guidePath) ? fs.readFileSync(guidePath, "utf8") : "";
+const supplementalVocabulary = fs.existsSync(supplementalVocabularyPath) ? fs.readFileSync(supplementalVocabularyPath, "utf8") : "";
 
 const colorSet = ["#0f766e", "#2d6cdf", "#c2413d", "#e0a928", "#6f5cc2", "#138a45", "#d25f27", "#8b5d33", "#2f6f8f", "#8a4f93"];
 
@@ -369,15 +371,28 @@ function normalizeWord(value) {
 }
 
 function dedupeWords(items, { scopeByTopic = false } = {}) {
-  const seen = new Set();
-  return items.filter((item) => {
+  const seen = new Map();
+  for (const item of items) {
     const normalized = normalizeWord(item.word);
-    if (!normalized) return false;
+    if (!normalized) continue;
     const key = scopeByTopic ? `${item.topicId || ""}:${normalized}` : normalized;
-    if (seen.has(key)) return false;
-    seen.add(key);
-    return true;
-  });
+    const existing = seen.get(key);
+    if (!existing) {
+      seen.set(key, { ...item });
+      continue;
+    }
+
+    seen.set(key, {
+      ...existing,
+      variants: existing.variants || item.variants || "",
+      english: existing.english || item.english || "",
+      example: existing.example || item.example || "",
+      note: existing.note || item.note || "",
+      importance: existing.importance || item.importance || "",
+    });
+  }
+
+  return [...seen.values()];
 }
 
 function parseGuideChapterWords(markdown, lessonByChapter) {
@@ -428,6 +443,67 @@ function parseGuideComprehensiveWords(markdown) {
         source: "KNM study guide comprehensive vocabulary",
       }));
   });
+}
+
+function topicForSupplementalVocabulary(category) {
+  const value = category.toLowerCase();
+  if (/(日常生活|社交|饮食|食物|日常固定表达)/i.test(value)) return "de-mensen-in-nederland";
+  if (/(geografie|weer|社会|地理|移民|语言|身份|交通|城市|tijd|日期|数字|数量|表达|代词|冠词|疑问词|连接词)/i.test(value)) {
+    return "nederland-leren-kennen";
+  }
+  if (/(医疗|健康|身体|zorg|gezondheid)/i.test(value)) return "gezondheid-en-gezondheidszorg-in-nederland";
+  if (/(住房|行政|家、日常物品|通讯|购物|金钱|银行|法律|政府服务)/i.test(value)) return "dienstverlening-in-nederland";
+  if (/(育儿|教育|学校|家庭|人物)/i.test(value)) return "opvoeding-en-onderwijs-in-nederland";
+  if (/(工作|核心动词|形容词)/i.test(value)) return "werken-in-nederland";
+  if (/(社会、历史|历史)/i.test(value)) return "de-geschiedenis-van-nederland";
+  if (/(政治)/i.test(value)) return "politiek-in-nederland";
+  return "nederland-leren-kennen";
+}
+
+function parseSupplementalVocabulary(markdown, topicsById) {
+  if (!markdown) return [];
+  const lines = markdown.split("\n");
+  const words = [];
+  let category = "";
+
+  for (let index = 0; index < lines.length; index += 1) {
+    const line = lines[index].trim();
+    const heading = line.match(/^##\s+\d+\.\s+(.+)/);
+    if (heading) {
+      category = stripMarkdown(heading[1]);
+      continue;
+    }
+
+    if (!line.startsWith("|") || !line.includes("English explanation") || !line.includes("中文解释")) continue;
+    index += 2;
+
+    while (index < lines.length && lines[index].trim().startsWith("|")) {
+      const cells = lines[index]
+        .split("|")
+        .map((cell) => stripMarkdown(cell.trim()))
+        .filter(Boolean);
+      if (cells.length >= 4) {
+        const topicId = topicForSupplementalVocabulary(category);
+        const topic = topicsById.get(topicId);
+        words.push({
+          word: cells[0],
+          variants: cells[1] === "—" ? "" : cells[1],
+          english: cells[2],
+          meaning: cells[3],
+          example: "",
+          note: category,
+          importance: markdown.slice(0, lines[index].length).includes("A1 高频词汇表") ? "A1 高频" : "KNM 高频",
+          topic: topic?.title || category,
+          topicId,
+          source: "KNM A1 supplemental vocabulary",
+        });
+      }
+      index += 1;
+    }
+    index -= 1;
+  }
+
+  return words;
 }
 
 function parseGuideGrammar(markdown) {
@@ -816,7 +892,9 @@ const guideQuestions = [...guideChapterQuestions, ...guideMockQuestions];
 const questions = [...duoQuestions, ...generatedQuestions];
 const guideWords = [...parseGuideChapterWords(guide, lessonByChapter), ...parseGuideComprehensiveWords(guide)];
 const fullStudyWords = fullStudyCoreWords(topics);
-const words = dedupeWords([...topics.flatMap((topic) => topic.vocabulary), ...fullStudyWords, ...guideWords], { scopeByTopic: true });
+const topicsById = new Map(topics.map((topic) => [topic.id, topic]));
+const supplementalWords = parseSupplementalVocabulary(supplementalVocabulary, topicsById);
+const words = dedupeWords([...topics.flatMap((topic) => topic.vocabulary), ...fullStudyWords, ...guideWords, ...supplementalWords], { scopeByTopic: true });
 const grammar = parseGuideGrammar(guide);
 const cheatSheet = parseGuideCheatSheet(guide);
 
