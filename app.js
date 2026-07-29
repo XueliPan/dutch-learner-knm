@@ -366,6 +366,168 @@ const FEEDBACK_FORM_URL =
 const MOCK_QUESTION_COUNT = 40;
 const MOCK_DURATION_MINUTES = 45;
 const LANGUAGE_KEY = "knm-cn-language-v1";
+const DUTCH_TERM_EN = {
+  afspraak: "appointment",
+  apotheek: "pharmacy",
+  arbeidscontract: "employment contract",
+  antwoordt: "answers",
+  belasting: "tax",
+  belastingaangifte: "tax return",
+  belastingen: "taxes",
+  belgië: "Belgium",
+  bereikbaarheid: "accessibility",
+  beroep: "profession",
+  bescherming: "protection",
+  bevrijding: "liberation",
+  bijstand: "social assistance",
+  boete: "fine",
+  brief: "letter",
+  burgemeester: "mayor",
+  burger: "citizen",
+  burgers: "citizens",
+  buren: "neighbors",
+  buurman: "neighbor",
+  buurland: "neighboring country",
+  buurlanden: "neighboring countries",
+  cao: "collective labor agreement",
+  consultatiebureau: "child health clinic",
+  contract: "contract",
+  democratie: "democracy",
+  digid: "DigiD",
+  dijk: "dike",
+  dijken: "dikes",
+  diploma: "diploma",
+  discriminatie: "discrimination",
+  dokter: "doctor",
+  doorverwijzen: "refer",
+  duinen: "dunes",
+  duitsland: "Germany",
+  europa: "Europe",
+  familie: "family",
+  "eigen risico": "deductible",
+  gemeente: "municipality",
+  gemeenteraad: "municipal council",
+  gecondoleerd: "condolences",
+  gefeliciteerd: "congratulations",
+  gelijk: "equal",
+  "gelijke rechten": "equal rights",
+  gezondheidszorg: "healthcare",
+  geboorteakte: "birth certificate",
+  grondrechten: "fundamental rights",
+  grondwet: "constitution",
+  huisarts: "general practitioner",
+  huur: "rent",
+  huurder: "tenant",
+  huurcontract: "rental contract",
+  huurtoeslag: "rent benefit",
+  inkomen: "income",
+  inburgering: "civic integration",
+  inchecken: "check in",
+  ind: "Immigration and Naturalisation Service",
+  informeel: "informal",
+  kinderopvang: "childcare",
+  klacht: "complaint or symptom",
+  koning: "king",
+  koningin: "queen",
+  koningsdag: "King's Day",
+  kust: "coast",
+  land: "country",
+  landen: "countries",
+  leerplicht: "compulsory education",
+  ligt: "is located",
+  loon: "wage",
+  loonstrook: "payslip",
+  maatschappij: "society",
+  mantelzorg: "informal care",
+  mbo: "secondary vocational education",
+  mening: "opinion",
+  minister: "minister",
+  nederland: "the Netherlands",
+  noordzee: "North Sea",
+  onderwijs: "education",
+  oosten: "east",
+  "openbaar vervoer": "public transport",
+  oudergesprek: "parent-teacher meeting",
+  parlement: "parliament",
+  paspoort: "passport",
+  pensioen: "pension",
+  polder: "polder",
+  politie: "police",
+  provincie: "province",
+  provincies: "provinces",
+  randstad: "Randstad",
+  recept: "prescription",
+  rechter: "judge",
+  regering: "government",
+  rekening: "bill or account",
+  rijbewijs: "driving licence",
+  schoolarts: "school doctor",
+  "sociale huur": "social housing rent",
+  sollicitatie: "job application",
+  sollicitatiegesprek: "job interview",
+  spoed: "emergency",
+  stemmen: "vote",
+  uitchecken: "check out",
+  uitkering: "benefit",
+  uwv: "employee insurance agency",
+  vacature: "job vacancy",
+  verhuurder: "landlord",
+  verklaring: "certificate or statement",
+  verkiezingen: "elections",
+  verzekering: "insurance",
+  verkeersregels: "traffic rules",
+  verhuist: "moves house",
+  vraagt: "asks",
+  vrijwilligerswerk: "volunteer work",
+  woning: "home",
+  woningcorporatie: "housing association",
+  werelddeel: "continent",
+  zee: "sea",
+  zorgtoeslag: "healthcare benefit",
+  zorgverzekering: "health insurance",
+  zuiden: "south",
+};
+const DUTCH_TERM_ZH = {
+  antwoordt: "回答",
+  belgië: "比利时",
+  buurland: "邻国",
+  buurlanden: "邻国",
+  duitsland: "德国",
+  europa: "欧洲",
+  familie: "家人/家庭",
+  kust: "海岸",
+  land: "国家",
+  landen: "国家",
+  ligt: "位于",
+  nederland: "荷兰",
+  noordzee: "北海",
+  oosten: "东方",
+  verhuist: "搬家/迁居",
+  vraagt: "询问",
+  werelddeel: "大洲",
+  zee: "海",
+  zuiden: "南方",
+};
+const DUTCH_REASON_ZH = {
+  "Nederland ligt in Europa": "荷兰位于欧洲。",
+  "Nederland ligt aan de Noordzee": "荷兰靠近北海。",
+  "Duitsland ligt oostelijk": "德国在荷兰东边。",
+  "België ligt zuidelijk": "比利时在荷兰南边。",
+  "Buurlanden = Duitsland + België": "荷兰的邻国是德国和比利时。",
+  "Duitsland ten oosten": "德国在东边。",
+  "België ligt ten zuiden": "比利时在南边。",
+  "China veel groter": "中国比荷兰大得多。",
+  "Nederland ≈ 40.000 km²": "荷兰面积约 4 万平方公里。",
+  "Nederland is ongeveer 300 km lang": "荷兰南北长度约 300 公里。",
+  "Nederland is ongeveer 180 km breed": "荷兰东西宽度约 180 公里。",
+  "Nederland heeft 12 provincies": "荷兰有 12 个省。",
+  "Amsterdam is de hoofdstad": "阿姆斯特丹是首都。",
+  "Den Haag = regering": "海牙是政府所在地。",
+  "Rotterdam = haven": "鹿特丹以港口闻名。",
+  "Utrecht ligt centraal": "乌得勒支位于荷兰中部。",
+};
+const glossaryTerms = buildGlossaryTerms(words);
+const glossaryTermMap = new Map(glossaryTerms.map((item) => [item.term, item]));
 const translations = {
   zh: {
     pageTitle: "荷兰 KNM 中文备考练习 | Dutch Learner KNM",
@@ -412,7 +574,7 @@ const translations = {
     lessonFiltersAria: "主题筛选",
     practiceTitle: "按主题刷题",
     topicSelectAria: "选择练习主题",
-    practiceHint: "选择一个答案后查看中文解析。",
+    practiceHint: "悬浮荷兰语关键词看中英文释义；选择答案后查看中文理解和选项解析。",
     resetPractice: "重开本主题",
     speakQuestionAria: "播放本题荷兰语发音",
     nextQuestion: "下一题",
@@ -474,6 +636,13 @@ const translations = {
     referenceAnswer: "参考答案",
     correctFeedback: "答对了",
     wrongFeedback: "这题要再看一眼",
+    chineseQuestionTitle: "中文理解",
+    chineseQuestionContext: "本题知识点",
+    chineseQuestionFocus: "题目在问",
+    optionExplanationTitle: "选项解析",
+    optionCorrectReason: "正确。核心依据：",
+    optionSelectedWrongReason: "你选择了这一项，但它不符合本题核心依据：",
+    optionDistractorReason: "干扰项。本题核心依据是：",
     mockReady: "准备开始",
     mockIntroSite: "按真实节奏练习：45 分钟完成 40 题，每题大约 1 分钟。",
     mockIntroDuo: (label) => `${label}：按官方练习套题顺序完成 40 题。`,
@@ -559,7 +728,7 @@ const translations = {
     lessonFiltersAria: "Theme filters",
     practiceTitle: "Chapter Practice",
     topicSelectAria: "Choose a practice theme",
-    practiceHint: "Choose one answer to view the explanation.",
+    practiceHint: "Hover over Dutch keywords for Chinese and English meanings; answer to see Chinese study notes and option explanations.",
     resetPractice: "Restart This Theme",
     speakQuestionAria: "Play Dutch pronunciation for this question",
     nextQuestion: "Next Question",
@@ -622,6 +791,13 @@ const translations = {
     referenceAnswer: "Reference answer",
     correctFeedback: "Correct",
     wrongFeedback: "Review this one again",
+    chineseQuestionTitle: "Chinese Understanding",
+    chineseQuestionContext: "Knowledge point",
+    chineseQuestionFocus: "Question focus",
+    optionExplanationTitle: "Option Notes",
+    optionCorrectReason: "Correct. Key reason:",
+    optionSelectedWrongReason: "You chose this option, but it does not match the key reason:",
+    optionDistractorReason: "Distractor. The key reason is:",
     mockReady: "Ready to start",
     mockIntroSite: "Practice at exam pace: 40 questions in 45 minutes, about one minute per question.",
     mockIntroDuo: (label) => `${label}: complete the 40 questions in the official practice order.`,
@@ -933,6 +1109,133 @@ function escapeHtml(value) {
 
 function renderText(value) {
   return escapeHtml(value).replace(/\n/g, "<br>");
+}
+
+function escapeRegExp(value) {
+  return String(value).replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+}
+
+function normalizeTerm(value) {
+  return String(value || "")
+    .toLowerCase()
+    .replace(/[’']/g, "")
+    .replace(/\s+/g, " ")
+    .trim();
+}
+
+function stripDutchArticle(value) {
+  return normalizeTerm(value).replace(/^(de|het|een)\s+/, "");
+}
+
+function englishForTerm(value) {
+  const normalized = normalizeTerm(value);
+  return DUTCH_TERM_EN[normalized] || DUTCH_TERM_EN[stripDutchArticle(normalized)] || "";
+}
+
+function addGlossaryEntry(entries, term, item) {
+  const normalized = normalizeTerm(term);
+  const english = englishForTerm(normalized);
+  if (!normalized || normalized.length < 3 || !english) return;
+  if (!/[a-z]/i.test(normalized)) return;
+
+  const existing = entries.get(normalized);
+  if (!existing || item.meaning.length > existing.zh.length) {
+    entries.set(normalized, {
+      term: normalized,
+      zh: item.meaning,
+      en: english,
+    });
+  }
+}
+
+function addGlossaryVariants(entries, rawTerm, item) {
+  const term = stripDutchArticle(rawTerm);
+  addGlossaryEntry(entries, rawTerm, item);
+  addGlossaryEntry(entries, term, item);
+  if (term.endsWith("ie")) addGlossaryEntry(entries, `${term.slice(0, -2)}ies`, item);
+  if (!term.endsWith("s")) addGlossaryEntry(entries, `${term}s`, item);
+}
+
+function buildGlossaryTerms(items) {
+  const entries = new Map();
+  items.forEach((item) => {
+    if (!item.word || !item.meaning) return;
+    addGlossaryVariants(entries, item.word, item);
+  });
+  Object.entries(DUTCH_TERM_ZH).forEach(([term, meaning]) => {
+    addGlossaryVariants(entries, term, { word: term, meaning });
+  });
+
+  return [...entries.values()].sort((a, b) => b.term.length - a.term.length);
+}
+
+function renderGlossaryText(value) {
+  const text = String(value == null ? "" : value);
+  if (!glossaryTerms.length) return renderText(text);
+
+  const pattern = glossaryTerms.map((item) => escapeRegExp(item.term)).join("|");
+  const matcher = new RegExp(`(^|[^\\p{L}\\p{N}])(${pattern})(?=$|[^\\p{L}\\p{N}])`, "giu");
+  let html = "";
+  let lastIndex = 0;
+  let match;
+
+  while ((match = matcher.exec(text))) {
+    const [fullMatch, prefix, term] = match;
+    const termStart = match.index + prefix.length;
+    const key = normalizeTerm(term);
+    const entry = glossaryTermMap.get(key);
+    if (!entry) continue;
+
+    html += renderText(text.slice(lastIndex, termStart));
+    html += `<span class="glossary-term" title="中文：${escapeHtml(entry.zh)}&#10;English: ${escapeHtml(entry.en)}">${escapeHtml(text.slice(termStart, termStart + term.length))}</span>`;
+    lastIndex = match.index + fullMatch.length;
+  }
+
+  html += renderText(text.slice(lastIndex));
+  return html;
+}
+
+function glossaryChineseForTerm(value) {
+  const key = normalizeTerm(value);
+  return DUTCH_TERM_ZH[key] || glossaryTermMap.get(key)?.zh || "";
+}
+
+function dutchToChineseHint(value) {
+  const text = String(value || "").trim();
+  if (!text) return "";
+  if (DUTCH_REASON_ZH[text]) return DUTCH_REASON_ZH[text];
+
+  const pattern = glossaryTerms.map((item) => escapeRegExp(item.term)).join("|");
+  const matcher = new RegExp(`(^|[^\\p{L}\\p{N}])(${pattern})(?=$|[^\\p{L}\\p{N}])`, "giu");
+  let result = "";
+  let lastIndex = 0;
+  let replacements = 0;
+  let match;
+
+  while ((match = matcher.exec(text))) {
+    const [fullMatch, prefix, term] = match;
+    const termStart = match.index + prefix.length;
+    const zh = glossaryChineseForTerm(term);
+    if (!zh) continue;
+    result += text.slice(lastIndex, termStart);
+    result += zh;
+    lastIndex = match.index + fullMatch.length;
+    replacements += 1;
+  }
+
+  result += text.slice(lastIndex);
+  result = result
+    .replace(/\bligt in\b/gi, "位于")
+    .replace(/\bligt aan\b/gi, "靠近")
+    .replace(/\bten oosten van\b/gi, "在……东边")
+    .replace(/\bten zuiden van\b/gi, "在……南边")
+    .replace(/\bis\b/gi, "是")
+    .replace(/\ben\b/gi, "和")
+    .replace(/\s+/g, " ")
+    .trim();
+
+  if (!replacements && result === text) return text;
+  return `${result}（原文：${text}）`;
 }
 
 function checkQuestionAnswer(question, response) {
@@ -1253,7 +1556,7 @@ function renderPractice() {
   $("#practiceTopicPill").textContent = `${topic.title} | ${topic.zhTitle}`;
   $("#practiceProgress").textContent = t("questionProgress", state.practiceIndex + 1, list.length);
   $("#practiceScenario").textContent = question.scenario;
-  $("#practiceQuestion").textContent = question.question;
+  $("#practiceQuestion").innerHTML = renderGlossaryText(question.question);
   $("#speakPracticeQuestion").dataset.speech = questionSpeechText(question);
   $("#practiceMeter").style.width = `${(state.practiceIndex / list.length) * 100}%`;
   $("#practiceFeedback").hidden = true;
@@ -1270,13 +1573,13 @@ function renderPractice() {
     } else {
       showAnswerResult($("#practiceAnswers"), question, choice);
     }
-    showFeedback($("#practiceFeedback"), question, isCorrect);
+    showFeedback($("#practiceFeedback"), question, isCorrect, choice);
     $("#nextPractice").disabled = false;
     button?.focus();
-  });
+  }, null, false, { glossary: true });
 }
 
-function renderAnswers(container, question, onSelect, selected = null, reveal = false) {
+function renderAnswers(container, question, onSelect, selected = null, reveal = false, options = {}) {
   if (question.type === "short") {
     renderShortAnswer(container, question, onSelect, selected, reveal);
     return;
@@ -1286,7 +1589,9 @@ function renderAnswers(container, question, onSelect, selected = null, reveal = 
     const button = document.createElement("button");
     button.className = "answer-btn";
     button.type = "button";
-    button.textContent = `${String.fromCharCode(65 + index)}. ${answer}`;
+    button.innerHTML = `<span class="answer-letter">${String.fromCharCode(65 + index)}.</span> ${
+      options.glossary ? renderGlossaryText(answer) : renderText(answer)
+    }`;
     if (selected === index) button.classList.add("is-selected");
     if (reveal && index === question.correct) button.classList.add("is-correct");
     if (reveal && selected === index && selected !== question.correct) button.classList.add("is-wrong");
@@ -1322,12 +1627,55 @@ function showAnswerResult(container, question, selected) {
   });
 }
 
-function showFeedback(container, question, isCorrect) {
+function renderOptionExplanation(question, selected) {
+  if (question.type === "short") return "";
+  const keyReason = dutchToChineseHint(question.explanation || correctAnswerText(question));
+  return `
+    <div class="option-explanations">
+      <strong>${t("optionExplanationTitle")}</strong>
+      <ul>
+        ${(question.answers || [])
+          .map((answer, index) => {
+            const isCorrect = index === question.correct;
+            const isSelectedWrong = selected === index && selected !== question.correct;
+            const reason = isCorrect
+              ? t("optionCorrectReason")
+              : isSelectedWrong
+                ? t("optionSelectedWrongReason")
+                : t("optionDistractorReason");
+            return `
+              <li class="${isCorrect ? "is-correct" : ""} ${isSelectedWrong ? "is-wrong" : ""}">
+                <span>${String.fromCharCode(65 + index)}. ${renderGlossaryText(answer)}</span>
+                <small>${reason} ${renderText(keyReason)}</small>
+              </li>
+            `;
+          })
+          .join("")}
+      </ul>
+    </div>
+  `;
+}
+
+function renderChineseStudyExplanation(question) {
+  const topic = getTopic(question.topic);
+  const context = question.zhScenario || topic.zhTitle || topic.title || question.scenario;
+  const focus = dutchToChineseHint(question.explanation || correctAnswerText(question));
+  return `
+    <div class="study-explanation">
+      <strong>${t("chineseQuestionTitle")}</strong>
+      <p><span>${t("chineseQuestionContext")}：</span>${renderText(context)}</p>
+      <p><span>${t("chineseQuestionFocus")}：</span>${renderText(focus)}</p>
+    </div>
+  `;
+}
+
+function showFeedback(container, question, isCorrect, selected = null) {
   container.hidden = false;
   container.classList.toggle("is-wrong", !isCorrect);
   container.innerHTML = `
     <strong>${isCorrect ? t("correctFeedback") : t("wrongFeedback")}</strong>
-    <p>${question.explanation}</p>
+    ${renderChineseStudyExplanation(question)}
+    ${renderOptionExplanation(question, selected)}
   `;
 }
 

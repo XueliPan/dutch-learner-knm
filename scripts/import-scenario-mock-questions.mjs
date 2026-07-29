@@ -94,6 +94,7 @@ function parseQuestionSection(markdown) {
   const questions = [];
   let current = null;
   let currentPart = "";
+  let currentPartZh = "";
 
   function pushCurrent() {
     if (!current) return;
@@ -105,11 +106,18 @@ function parseQuestionSection(markdown) {
   for (const rawLine of lines) {
     const line = rawLine.trim();
     const partMatch = line.match(/^# Deel \d+\s+[–-]\s+(.+)/);
+    const chineseHeadingMatch = line.match(/^##\s+(.+)/);
     const questionMatch = line.match(/^###\s+(\d+)\.\s+(.+)/);
     const optionMatch = line.match(/^([A-D])\.\s+(.+?)(?:\s{2,})?$/);
 
     if (partMatch) {
       currentPart = stripMarkdown(partMatch[1]);
+      currentPartZh = "";
+      continue;
+    }
+
+    if (chineseHeadingMatch && /[\u4e00-\u9fff]/.test(chineseHeadingMatch[1])) {
+      currentPartZh = stripMarkdown(chineseHeadingMatch[1]);
       continue;
     }
 
@@ -120,6 +128,7 @@ function parseQuestionSection(markdown) {
         questionLines: [questionMatch[2]],
         answers: [],
         part: currentPart,
+        partZh: currentPartZh,
       };
       continue;
     }
@@ -158,6 +167,7 @@ function toChoiceQuestion({ chapter, topic, item, answer }) {
     topic: topic.id,
     chapter,
     scenario: item.part ? `Hoofdstuk ${chapter} - ${item.part}` : `Hoofdstuk ${chapter} - ${topic.title}`,
+    zhScenario: item.partZh || topic.title,
     question: item.question,
     type: "choice",
     answers,
