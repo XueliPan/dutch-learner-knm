@@ -13520,8 +13520,8 @@ export const KNM_CONTENT = {
         "Geert Wilders.",
         "Rob Jetten."
       ],
-      "correct": 0,
-      "explanation": "DUO oefenexamen 2：正确答案是 1。",
+      "correct": 2,
+      "explanation": "DUO oefenexamen 2：正确答案是 3。",
       "source": "DUO oefenexamen 2",
       "isOfficialPractice": true
     },
