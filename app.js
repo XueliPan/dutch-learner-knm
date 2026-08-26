@@ -1188,24 +1188,34 @@ async function syncProgressFromCloud() {
   await saveCloudState();
 }
 
-async function applyAuthSession(session) {
+function applyAuthSession(session) {
   authState.session = session;
   authState.user = session?.user || null;
+  if (authState.user) closeAuthModal();
   renderAuthControls();
+  renderDashboard();
   if (!authState.user) return;
   if (authState.lastSyncedUserId === authState.user.id) return;
   authState.lastSyncedUserId = authState.user.id;
-  await syncProgressFromCloud();
+  window.setTimeout(() => {
+    syncProgressFromCloud().catch(() => setAuthMessage("authSyncFailed"));
+  }, 0);
 }
 
 async function initAuth() {
   renderAuthControls();
   if (!supabase) return;
-  const { data } = await supabase.auth.getSession();
+  const { data, error } = await supabase.auth.getSession();
   authState.initialized = true;
-  await applyAuthSession(data.session);
+  if (error) {
+    setAuthMessage("authSyncFailed");
+    return;
+  }
+  applyAuthSession(data.session);
   supabase.auth.onAuthStateChange((_event, session) => {
-    applyAuthSession(session);
+    window.setTimeout(() => {
+      applyAuthSession(session);
+    }, 0);
   });
 }
 
@@ -1234,7 +1244,7 @@ async function handleEmailAuth(mode) {
     return;
   }
   if (data.session) {
-    await applyAuthSession(data.session);
+    applyAuthSession(data.session);
     closeAuthModal();
   } else {
     setAuthMessage("authCheckEmail");
@@ -1246,10 +1256,14 @@ async function handleGoogleAuth() {
     setAuthMessage("authNotConfigured");
     return;
   }
-  await supabase.auth.signInWithOAuth({
+  const { error } = await supabase.auth.signInWithOAuth({
     provider: "google",
     options: { redirectTo: SUPABASE_REDIRECT_URL },
   });
+  if (error) {
+    authState.messageKey = "authSyncFailed";
+    $("#authModalStatus").textContent = error.message;
+  }
 }
 
 async function signOut() {
