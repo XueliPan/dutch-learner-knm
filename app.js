@@ -373,7 +373,12 @@ const SUPABASE_URL = import.meta.env.VITE_SUPABASE_URL || DEFAULT_SUPABASE_URL;
 const SUPABASE_ANON_KEY = import.meta.env.VITE_SUPABASE_ANON_KEY || DEFAULT_SUPABASE_ANON_KEY;
 const SUPABASE_REDIRECT_URL = window.location.origin + window.location.pathname;
 const supabase = SUPABASE_URL && SUPABASE_ANON_KEY
-  ? createClient(SUPABASE_URL, SUPABASE_ANON_KEY)
+  ? createClient(SUPABASE_URL, SUPABASE_ANON_KEY, {
+      auth: {
+        detectSessionInUrl: false,
+        flowType: "pkce",
+      },
+    })
   : null;
 const DUTCH_TERM_EN = {
   afspraak: "appointment",
@@ -1130,12 +1135,14 @@ function renderAuthControls() {
 
 function openAuthModal() {
   renderAuthControls();
-  $("#authModal")?.removeAttribute("hidden");
+  const modal = $("#authModal");
+  if (modal) modal.hidden = false;
   $("#authEmail")?.focus();
 }
 
 function closeAuthModal() {
-  $("#authModal")?.setAttribute("hidden", "");
+  const modal = $("#authModal");
+  if (modal) modal.hidden = true;
 }
 
 async function saveCloudState() {
@@ -1202,21 +1209,66 @@ function applyAuthSession(session) {
   }, 0);
 }
 
+function cleanAuthRedirectUrl() {
+  const url = new URL(window.location.href);
+  ["code", "state", "error", "error_code", "error_description"].forEach((key) => {
+    url.searchParams.delete(key);
+  });
+  const cleanHash = url.hash || `#${state.view || "dashboard"}`;
+  const cleanSearch = url.searchParams.toString();
+  window.history.replaceState(
+    null,
+    "",
+    `${url.pathname}${cleanSearch ? `?${cleanSearch}` : ""}${cleanHash}`,
+  );
+}
+
+async function handleAuthRedirect() {
+  if (!supabase) return false;
+  const url = new URL(window.location.href);
+  const callbackError = url.searchParams.get("error_description") || url.searchParams.get("error");
+  if (callbackError) {
+    cleanAuthRedirectUrl();
+    authState.messageKey = "authSyncFailed";
+    renderAuthControls();
+    const modalStatus = $("#authModalStatus");
+    if (modalStatus) modalStatus.textContent = callbackError;
+    return true;
+  }
+
+  const code = url.searchParams.get("code");
+  if (!code) return false;
+  setAuthMessage("authSigningIn");
+  const { data, error } = await supabase.auth.exchangeCodeForSession(code);
+  cleanAuthRedirectUrl();
+  if (error) {
+    authState.messageKey = "authSyncFailed";
+    renderAuthControls();
+    const modalStatus = $("#authModalStatus");
+    if (modalStatus) modalStatus.textContent = error.message;
+    return true;
+  }
+  applyAuthSession(data.session);
+  return true;
+}
+
 async function initAuth() {
   renderAuthControls();
   if (!supabase) return;
-  const { data, error } = await supabase.auth.getSession();
-  authState.initialized = true;
-  if (error) {
-    setAuthMessage("authSyncFailed");
-    return;
-  }
-  applyAuthSession(data.session);
   supabase.auth.onAuthStateChange((_event, session) => {
     window.setTimeout(() => {
       applyAuthSession(session);
     }, 0);
   });
+  const handledRedirect = await handleAuthRedirect();
+  const { data, error } = await supabase.auth.getSession();
+  authState.initialized = true;
+  if (handledRedirect) return;
+  if (error) {
+    setAuthMessage("authSyncFailed");
+    return;
+  }
+  applyAuthSession(data.session);
 }
 
 async function handleEmailAuth(mode) {
