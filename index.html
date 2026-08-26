@@ -73,9 +73,13 @@
         <button class="tab" data-view="words" data-i18n="tabWords" type="button">词卡</button>
         <button class="tab" data-view="grammar" data-i18n="tabGrammar" type="button">语法/速记</button>
       </nav>
-      <button class="language-toggle" id="languageToggle" type="button" aria-label="Switch to English">
-        English
-      </button>
+      <div class="topbar-actions">
+        <button class="auth-toggle" id="authButton" type="button" data-i18n="authOpen">登录/同步</button>
+        <small class="auth-status" id="authStatus">游客模式</small>
+        <button class="language-toggle" id="languageToggle" type="button" aria-label="Switch to English">
+          English
+        </button>
+      </div>
     </header>
 
     <main>
@@ -99,7 +103,7 @@
           <article class="stat-block">
             <span data-i18n="statAnswered">已答题</span>
             <strong id="answeredCount">0</strong>
-            <small data-i18n="statAnsweredHint">本浏览器自动保存</small>
+            <small id="answeredHint" data-i18n="statAnsweredHint">本浏览器自动保存</small>
           </article>
           <article class="stat-block">
             <span data-i18n="statAccuracy">正确率</span>
@@ -332,6 +336,40 @@
       <span data-i18n="footerMade">Made for Chinese KNM learners.</span>
       <span data-i18n="footerDuo">请用官方 DUO 材料确认最新考试要求。</span>
     </footer>
+
+    <div class="modal-backdrop" id="authModal" hidden>
+      <section class="auth-modal" role="dialog" aria-modal="true" aria-labelledby="authModalTitle">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow">Account</p>
+            <h2 id="authModalTitle" data-i18n="authTitle">登录同步学习进度</h2>
+            <p data-i18n="authCopy">登录后可以把答题进度、错题本和模拟考试记录保存到云端。未登录时仍会保存在本浏览器。</p>
+          </div>
+          <button class="icon-action" id="authClose" type="button" aria-label="关闭" data-i18n-aria-label="authClose">×</button>
+        </div>
+        <p class="sync-status" id="authModalStatus">支持邮箱密码和 Google 登录。</p>
+        <p class="auth-user-line" id="authUserLine">游客模式</p>
+        <div class="auth-form" id="authForm">
+          <label>
+            <span data-i18n="authEmail">邮箱</span>
+            <input id="authEmail" type="email" autocomplete="email" />
+          </label>
+          <label>
+            <span data-i18n="authPassword">密码</span>
+            <input id="authPassword" type="password" autocomplete="current-password" minlength="6" />
+          </label>
+          <div class="card-actions">
+            <button class="primary-action" id="authSignIn" type="button" data-i18n="authSignIn">登录</button>
+            <button class="secondary-action" id="authSignUp" type="button" data-i18n="authSignUp">注册</button>
+          </div>
+        </div>
+        <button class="secondary-action full" id="authGoogle" type="button" data-i18n="authGoogle">用 Google 登录</button>
+        <div class="auth-signed-in-actions" id="authSignedInActions" hidden>
+          <button class="secondary-action" id="authSyncNow" type="button" data-i18n="authSyncNow">立即同步</button>
+          <button class="secondary-action" id="authSignOut" type="button" data-i18n="authSignOut">退出登录</button>
+        </div>
+      </section>
+    </div>
 
     <button class="feedback-button" id="feedbackButton" type="button" aria-label="发现问题或反馈建议" data-i18n="feedbackButton" data-i18n-aria-label="feedbackAria">发现问题</button>
 

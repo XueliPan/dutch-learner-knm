@@ -1,3 +1,4 @@
+import { createClient } from "@supabase/supabase-js";
 import { KNM_CONTENT } from "./content-data.js";
 
 const importedContent = KNM_CONTENT || {};
@@ -366,6 +367,12 @@ const FEEDBACK_FORM_URL =
 const MOCK_QUESTION_COUNT = 40;
 const MOCK_DURATION_MINUTES = 45;
 const LANGUAGE_KEY = "knm-cn-language-v1";
+const SUPABASE_URL = import.meta.env.VITE_SUPABASE_URL || "";
+const SUPABASE_ANON_KEY = import.meta.env.VITE_SUPABASE_ANON_KEY || "";
+const SUPABASE_REDIRECT_URL = window.location.origin + window.location.pathname;
+const supabase = SUPABASE_URL && SUPABASE_ANON_KEY
+  ? createClient(SUPABASE_URL, SUPABASE_ANON_KEY)
+  : null;
 const DUTCH_TERM_EN = {
   afspraak: "appointment",
   apotheek: "pharmacy",
@@ -544,6 +551,28 @@ const translations = {
     tabGrammar: "语法/速记",
     languageToggle: "English",
     languageToggleAria: "Switch to English",
+    authOpen: "登录/同步",
+    authSignedIn: "已同步",
+    authGuest: "游客模式",
+    authTitle: "登录同步学习进度",
+    authCopy: "登录后可以把答题进度、错题本和模拟考试记录保存到云端。未登录时仍会保存在本浏览器。",
+    authEmail: "邮箱",
+    authPassword: "密码",
+    authSignIn: "登录",
+    authSignUp: "注册",
+    authGoogle: "用 Google 登录",
+    authSignOut: "退出登录",
+    authSyncNow: "立即同步",
+    authClose: "关闭",
+    authNotConfigured: "登录功能还没有配置 Supabase 项目，当前使用游客模式。",
+    authConfiguredHint: "支持邮箱密码和 Google 登录。",
+    authNeedEmailPassword: "请输入邮箱和至少 6 位密码。",
+    authCheckEmail: "注册成功，请根据邮箱提示完成确认后再登录。",
+    authSigningIn: "正在登录...",
+    authSyncing: "正在同步学习进度...",
+    authSynced: "学习进度已同步到云端。",
+    authSyncFailed: "同步失败，已先保存在本浏览器。",
+    authSignedOut: "已退出登录，之后会继续使用游客模式。",
     heroTitle: "用中文理解荷兰社会，用荷兰语通过 KNM。",
     heroCopy: "按主题学习常见生活场景，记住核心荷兰语关键词，并用考试风格选择题训练判断速度。",
     heroPrimary: "开始刷题",
@@ -551,6 +580,7 @@ const translations = {
     statsAria: "学习进度",
     statAnswered: "已答题",
     statAnsweredHint: "本浏览器自动保存",
+    statAnsweredHintSynced: "已登录，云端同步",
     statAccuracy: "正确率",
     statAccuracyHint: "包含刷题和模拟",
     statStreak: "连续学习",
@@ -700,6 +730,28 @@ const translations = {
     tabGrammar: "Grammar",
     languageToggle: "中文",
     languageToggleAria: "Switch to Chinese",
+    authOpen: "Sign in / Sync",
+    authSignedIn: "Synced",
+    authGuest: "Guest mode",
+    authTitle: "Sign in to sync progress",
+    authCopy: "After signing in, your practice progress, mistake review, and mock exam summaries can sync to the cloud. Without sign-in, progress stays in this browser.",
+    authEmail: "Email",
+    authPassword: "Password",
+    authSignIn: "Sign In",
+    authSignUp: "Sign Up",
+    authGoogle: "Continue with Google",
+    authSignOut: "Sign Out",
+    authSyncNow: "Sync Now",
+    authClose: "Close",
+    authNotConfigured: "Supabase is not configured yet, so the app is currently using guest mode.",
+    authConfiguredHint: "Email/password and Google sign-in are supported.",
+    authNeedEmailPassword: "Enter an email and a password with at least 6 characters.",
+    authCheckEmail: "Sign-up succeeded. Check your email to confirm the account, then sign in.",
+    authSigningIn: "Signing in...",
+    authSyncing: "Syncing learning progress...",
+    authSynced: "Learning progress synced to the cloud.",
+    authSyncFailed: "Sync failed. Progress is still saved in this browser.",
+    authSignedOut: "Signed out. The app will continue in guest mode.",
     heroTitle: "A bilingual KNM study app for Chinese-speaking learners.",
     heroCopy:
       "Learn Dutch society topics through Chinese explanations, Dutch keywords, pronunciation, chapter practice, DUO mock sets, and a timed exam mode.",
@@ -708,6 +760,7 @@ const translations = {
     statsAria: "Study progress",
     statAnswered: "Answered",
     statAnsweredHint: "Saved in this browser",
+    statAnsweredHintSynced: "Signed in, cloud sync on",
     statAccuracy: "Accuracy",
     statAccuracyHint: "Practice and mock exams",
     statStreak: "Study Streak",
@@ -886,6 +939,17 @@ const state = {
   progress: loadProgress(),
 };
 
+const authState = {
+  configured: Boolean(supabase),
+  initialized: false,
+  session: null,
+  user: null,
+  syncing: false,
+  messageKey: supabase ? "authConfiguredHint" : "authNotConfigured",
+  lastSyncedUserId: null,
+  saveTimer: null,
+};
+
 const $ = (selector) => document.querySelector(selector);
 const $$ = (selector) => Array.from(document.querySelectorAll(selector));
 let currentAudio = null;
@@ -917,11 +981,13 @@ function applyI18n() {
     toggle.textContent = t("languageToggle");
     toggle.setAttribute("aria-label", t("languageToggleAria"));
   }
+  renderAuthControls();
 }
 
 function setLanguage(language) {
   state.language = language === "en" ? "en" : "zh";
   localStorage.setItem(LANGUAGE_KEY, state.language);
+  queueCloudProgressSave();
   applyI18n();
   renderLessonFilters();
   renderWordTopicFilters();
@@ -969,10 +1035,259 @@ function loadProgress() {
   }
 }
 
-function saveProgress() {
+function mergeProgress(localProgress, cloudProgress) {
+  const fallback = loadProgress();
+  const local = { ...fallback, ...(localProgress || {}) };
+  const cloud = { ...fallback, ...(cloudProgress || {}) };
+  const topicIds = new Set([...Object.keys(local.byTopic || {}), ...Object.keys(cloud.byTopic || {})]);
+  const byTopic = {};
+  topicIds.forEach((topicId) => {
+    const localStats = local.byTopic?.[topicId] || { answered: 0, correct: 0 };
+    const cloudStats = cloud.byTopic?.[topicId] || { answered: 0, correct: 0 };
+    byTopic[topicId] = {
+      answered: Math.max(localStats.answered || 0, cloudStats.answered || 0),
+      correct: Math.max(localStats.correct || 0, cloudStats.correct || 0),
+    };
+  });
+
+  const wrongAnswers = { ...(cloud.wrongAnswers || {}) };
+  Object.entries(local.wrongAnswers || {}).forEach(([key, localEntry]) => {
+    const cloudEntry = wrongAnswers[key];
+    if (!cloudEntry) {
+      wrongAnswers[key] = localEntry;
+      return;
+    }
+    wrongAnswers[key] = {
+      ...cloudEntry,
+      ...localEntry,
+      mistakes: Math.max(localEntry.mistakes || 0, cloudEntry.mistakes || 0),
+      lastWrongAt:
+        new Date(localEntry.lastWrongAt || 0) > new Date(cloudEntry.lastWrongAt || 0)
+          ? localEntry.lastWrongAt
+          : cloudEntry.lastWrongAt,
+      lastResponse:
+        new Date(localEntry.lastWrongAt || 0) > new Date(cloudEntry.lastWrongAt || 0)
+          ? localEntry.lastResponse
+          : cloudEntry.lastResponse,
+    };
+  });
+
+  return {
+    ...fallback,
+    ...cloud,
+    ...local,
+    answered: Math.max(local.answered || 0, cloud.answered || 0),
+    correct: Math.max(local.correct || 0, cloud.correct || 0),
+    byTopic,
+    wrongAnswers,
+    lastVisit: [local.lastVisit, cloud.lastVisit].filter(Boolean).sort().pop() || fallback.lastVisit,
+    streak: Math.max(local.streak || 1, cloud.streak || 1),
+  };
+}
+
+function persistLocalProgress() {
   localStorage.setItem(STORAGE_KEY, JSON.stringify(state.progress));
+}
+
+function saveProgress() {
+  persistLocalProgress();
   renderDashboard();
   if (state.view === "wrongbook") renderWrongbook();
+  queueCloudProgressSave();
+}
+
+function setAuthMessage(messageKey) {
+  authState.messageKey = messageKey;
+  renderAuthControls();
+}
+
+function renderAuthControls() {
+  const authButton = $("#authButton");
+  const authStatus = $("#authStatus");
+  if (!authButton || !authStatus) return;
+
+  authButton.textContent = authState.user ? t("authSignedIn") : t("authOpen");
+  authButton.classList.toggle("is-synced", Boolean(authState.user));
+  authStatus.textContent = authState.user
+    ? authState.user.email || t("authSignedIn")
+    : authState.configured
+      ? t("authGuest")
+      : t("authGuest");
+
+  const modalStatus = $("#authModalStatus");
+  if (modalStatus) modalStatus.textContent = t(authState.messageKey);
+  const userLine = $("#authUserLine");
+  if (userLine) userLine.textContent = authState.user?.email || t("authGuest");
+  const signedInActions = $("#authSignedInActions");
+  if (signedInActions) signedInActions.hidden = !authState.user;
+  const form = $("#authForm");
+  if (form) form.hidden = Boolean(authState.user) || !authState.configured;
+  const googleButton = $("#authGoogle");
+  if (googleButton) googleButton.hidden = Boolean(authState.user) || !authState.configured;
+}
+
+function openAuthModal() {
+  renderAuthControls();
+  $("#authModal")?.removeAttribute("hidden");
+  $("#authEmail")?.focus();
+}
+
+function closeAuthModal() {
+  $("#authModal")?.setAttribute("hidden", "");
+}
+
+async function saveCloudState() {
+  if (!supabase || !authState.user) return;
+  authState.syncing = true;
+  setAuthMessage("authSyncing");
+  const { error } = await supabase.from("user_learning_state").upsert({
+    user_id: authState.user.id,
+    progress: state.progress,
+    language: state.language,
+    updated_at: new Date().toISOString(),
+  });
+  authState.syncing = false;
+  setAuthMessage(error ? "authSyncFailed" : "authSynced");
+}
+
+function queueCloudProgressSave() {
+  if (!supabase || !authState.user) return;
+  clearTimeout(authState.saveTimer);
+  authState.saveTimer = setTimeout(() => {
+    saveCloudState();
+  }, 600);
+}
+
+async function syncProgressFromCloud() {
+  if (!supabase || !authState.user) return;
+  authState.syncing = true;
+  setAuthMessage("authSyncing");
+  const { data, error } = await supabase
+    .from("user_learning_state")
+    .select("progress, language")
+    .eq("user_id", authState.user.id)
+    .maybeSingle();
+
+  if (error) {
+    authState.syncing = false;
+    setAuthMessage("authSyncFailed");
+    return;
+  }
+
+  if (data?.progress) {
+    state.progress = mergeProgress(state.progress, data.progress);
+    if (data.language === "zh" || data.language === "en") state.language = data.language;
+  }
+  persistLocalProgress();
+  localStorage.setItem(LANGUAGE_KEY, state.language);
+  renderDashboard();
+  renderWrongbook();
+  applyI18n();
+  await saveCloudState();
+}
+
+async function applyAuthSession(session) {
+  authState.session = session;
+  authState.user = session?.user || null;
+  renderAuthControls();
+  if (!authState.user) return;
+  if (authState.lastSyncedUserId === authState.user.id) return;
+  authState.lastSyncedUserId = authState.user.id;
+  await syncProgressFromCloud();
+}
+
+async function initAuth() {
+  renderAuthControls();
+  if (!supabase) return;
+  const { data } = await supabase.auth.getSession();
+  authState.initialized = true;
+  await applyAuthSession(data.session);
+  supabase.auth.onAuthStateChange((_event, session) => {
+    applyAuthSession(session);
+  });
+}
+
+async function handleEmailAuth(mode) {
+  if (!supabase) {
+    setAuthMessage("authNotConfigured");
+    return;
+  }
+  const email = $("#authEmail")?.value.trim();
+  const password = $("#authPassword")?.value;
+  if (!email || !password || password.length < 6) {
+    setAuthMessage("authNeedEmailPassword");
+    return;
+  }
+
+  setAuthMessage("authSigningIn");
+  const action = mode === "sign-up" ? supabase.auth.signUp : supabase.auth.signInWithPassword;
+  const { data, error } = await action.call(supabase.auth, {
+    email,
+    password,
+    options: mode === "sign-up" ? { emailRedirectTo: SUPABASE_REDIRECT_URL } : undefined,
+  });
+  if (error) {
+    authState.messageKey = "authSyncFailed";
+    $("#authModalStatus").textContent = error.message;
+    return;
+  }
+  if (data.session) {
+    await applyAuthSession(data.session);
+    closeAuthModal();
+  } else {
+    setAuthMessage("authCheckEmail");
+  }
+}
+
+async function handleGoogleAuth() {
+  if (!supabase) {
+    setAuthMessage("authNotConfigured");
+    return;
+  }
+  await supabase.auth.signInWithOAuth({
+    provider: "google",
+    options: { redirectTo: SUPABASE_REDIRECT_URL },
+  });
+}
+
+async function signOut() {
+  if (!supabase) return;
+  await supabase.auth.signOut();
+  authState.session = null;
+  authState.user = null;
+  authState.lastSyncedUserId = null;
+  setAuthMessage("authSignedOut");
+  renderAuthControls();
+}
+
+async function saveMockAttempt(result) {
+  if (!supabase || !authState.user) return;
+  const summary = {
+    sourceLabel: result.sourceLabel,
+    total: result.total,
+    correct: result.correct,
+    percentage: result.percentage,
+    unanswered: result.unanswered,
+    elapsedMs: result.elapsedMs,
+    topics: result.topics,
+    wrongItems: result.items
+      .filter((item) => !item.isCorrect)
+      .map((item) => ({
+        id: questionKey(item.question),
+        response: item.response,
+        answered: item.answered,
+      })),
+  };
+  await supabase.from("mock_attempts").insert({
+    user_id: authState.user.id,
+    source_label: result.sourceLabel,
+    score: result.percentage,
+    correct_count: result.correct,
+    total_count: result.total,
+    unanswered_count: result.unanswered,
+    elapsed_ms: result.elapsedMs,
+    result: summary,
+  });
 }
 
 function questionKey(question) {
@@ -1313,6 +1628,7 @@ function renderDashboard() {
   })[0];
 
   $("#answeredCount").textContent = answered;
+  $("#answeredHint").textContent = authState.user ? t("statAnsweredHintSynced") : t("statAnsweredHint");
   $("#accuracyRate").textContent = answered ? `${Math.round((correct / answered) * 100)}%` : "0%";
   $("#streakDays").textContent = `${streak || 1} ${t("day")}`;
   $("#nextTopic").textContent = weakTopic.title;
@@ -2084,6 +2400,7 @@ function finishMock() {
     recordAnswer(item.question, item.isCorrect, item.response, "mock", false);
   });
   saveProgress();
+  saveMockAttempt(result).catch(() => setAuthMessage("authSyncFailed"));
 
   $("#mockTimer").textContent = t("completed");
   $("#mockCount").textContent = t("correctCount", result.correct, result.total);
@@ -2167,6 +2484,19 @@ function bindEvents() {
     }
     window.open(FEEDBACK_FORM_URL, "_blank", "noopener,noreferrer");
   });
+  $("#authButton").addEventListener("click", openAuthModal);
+  $("#authClose").addEventListener("click", closeAuthModal);
+  $("#authModal").addEventListener("click", (event) => {
+    if (event.target === event.currentTarget) closeAuthModal();
+  });
+  $("#authSignIn").addEventListener("click", () => handleEmailAuth("sign-in"));
+  $("#authSignUp").addEventListener("click", () => handleEmailAuth("sign-up"));
+  $("#authGoogle").addEventListener("click", handleGoogleAuth);
+  $("#authSyncNow").addEventListener("click", saveCloudState);
+  $("#authSignOut").addEventListener("click", signOut);
+  window.addEventListener("keydown", (event) => {
+    if (event.key === "Escape" && !$("#authModal").hidden) closeAuthModal();
+  });
   $("#startMock").addEventListener("click", startMock);
   $("#prevMock").addEventListener("click", () => {
     state.mock.index = Math.max(0, state.mock.index - 1);
@@ -2193,6 +2523,7 @@ function init() {
   renderWrongbook();
   renderMockIntro();
   bindEvents();
+  initAuth();
   showView(state.view);
 }
 
