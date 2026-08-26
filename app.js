@@ -367,8 +367,10 @@ const FEEDBACK_FORM_URL =
 const MOCK_QUESTION_COUNT = 40;
 const MOCK_DURATION_MINUTES = 45;
 const LANGUAGE_KEY = "knm-cn-language-v1";
-const SUPABASE_URL = import.meta.env.VITE_SUPABASE_URL || "";
-const SUPABASE_ANON_KEY = import.meta.env.VITE_SUPABASE_ANON_KEY || "";
+const DEFAULT_SUPABASE_URL = "https://ywaamiepijeagtocqhpw.supabase.co";
+const DEFAULT_SUPABASE_ANON_KEY = "sb_publishable_IvYN26YJvO9GvpC7v8wIlg_PYH5UFmO";
+const SUPABASE_URL = import.meta.env.VITE_SUPABASE_URL || DEFAULT_SUPABASE_URL;
+const SUPABASE_ANON_KEY = import.meta.env.VITE_SUPABASE_ANON_KEY || DEFAULT_SUPABASE_ANON_KEY;
 const SUPABASE_REDIRECT_URL = window.location.origin + window.location.pathname;
 const supabase = SUPABASE_URL && SUPABASE_ANON_KEY
   ? createClient(SUPABASE_URL, SUPABASE_ANON_KEY)
