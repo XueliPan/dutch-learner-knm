@@ -19,5 +19,6 @@ The website helps learners understand Dutch society topics in Chinese while prac
 - Mock exam result page
 - Grammar notes and one-page pre-exam review
 - Chinese / English interface switch for portfolio and job-search presentation
+- User reviews with 1-5 star ratings and public comments
 
 Official exam information should always be checked with DUO.
