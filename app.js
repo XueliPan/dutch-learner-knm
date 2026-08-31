@@ -362,11 +362,11 @@ const words = importedContent.words?.length
 );
 const grammar = importedContent.grammar || [];
 const cheatSheet = importedContent.cheatSheet || [];
-const FEEDBACK_FORM_URL =
-  "https://docs.google.com/forms/d/e/1FAIpQLSfy8fkoTYjD7vSWajsO_lBNmqO_EuLCr1kGr0YSrCEFujwYDA/viewform?usp=publish-editor";
 const MOCK_QUESTION_COUNT = 40;
 const MOCK_DURATION_MINUTES = 45;
 const LANGUAGE_KEY = "knm-cn-language-v1";
+const COMMENT_NAME_KEY = "knm-comment-name-v1";
+const COMMENT_LIMIT = 30;
 const DEFAULT_SUPABASE_URL = "https://ywaamiepijeagtocqhpw.supabase.co";
 const DEFAULT_SUPABASE_ANON_KEY = "sb_publishable_IvYN26YJvO9GvpC7v8wIlg_PYH5UFmO";
 const SUPABASE_URL = import.meta.env.VITE_SUPABASE_URL || DEFAULT_SUPABASE_URL;
@@ -635,8 +635,27 @@ const translations = {
     cheatSheetTitle: "考前一页速记",
     footerMade: "Made for Chinese KNM learners.",
     footerDuo: "请用官方 DUO 材料确认最新考试要求。",
-    feedbackButton: "发现问题",
-    feedbackAria: "发现问题或反馈建议",
+    feedbackButton: "用户评论",
+    feedbackAria: "查看和发布用户评论",
+    commentsTitle: "用户评论",
+    commentsCopy: "欢迎留下你的使用感受、纠错建议或备考经验。",
+    commentNameLabel: "显示名称",
+    commentRatingLabel: "评分",
+    commentRatingAria: "选择评分",
+    commentTextLabel: "评论",
+    commentSubmit: "发布评论",
+    commentsLoading: "正在加载评论...",
+    commentsEmpty: "还没有评论，欢迎留下第一条。",
+    commentsNotConfigured: "评论功能还没有连接到 Supabase。",
+    commentsLoadFailed: "暂时无法加载评论，请稍后再试。",
+    commentsSubmitFailed: "评论提交失败，请稍后再试。",
+    commentsSubmitting: "正在发布评论...",
+    commentsSubmitted: "评论已发布，谢谢你的反馈。",
+    commentsNeedName: "请输入显示名称。",
+    commentsNeedText: "请输入评论内容。",
+    commentsAverage: (rating, count) => `${rating} / 5 · ${count} 条评论`,
+    commentsNoRating: "暂无评分",
+    commentsAnonymous: "KNM 学习者",
     siteMockLabel: "网站综合模拟题",
     siteMockDescription: "随机抽取新版 10 章原创场景题，不混入 DUO 官方套题。",
     duo1Description: "使用第 1 套 DUO 官方模拟练习题，按原套题顺序完成 40 题。",
@@ -815,8 +834,27 @@ const translations = {
     cheatSheetTitle: "One-Page Exam Notes",
     footerMade: "Built as a bilingual study tool for Chinese KNM learners.",
     footerDuo: "Always verify official exam requirements with DUO.",
-    feedbackButton: "Feedback",
-    feedbackAria: "Report an issue or send feedback",
+    feedbackButton: "Reviews",
+    feedbackAria: "Read and publish user reviews",
+    commentsTitle: "User Reviews",
+    commentsCopy: "Share your experience, corrections, or KNM study tips.",
+    commentNameLabel: "Display name",
+    commentRatingLabel: "Rating",
+    commentRatingAria: "Choose a rating",
+    commentTextLabel: "Comment",
+    commentSubmit: "Post Review",
+    commentsLoading: "Loading reviews...",
+    commentsEmpty: "No reviews yet. You can be the first to share one.",
+    commentsNotConfigured: "Reviews are not connected to Supabase yet.",
+    commentsLoadFailed: "Could not load reviews. Please try again later.",
+    commentsSubmitFailed: "Could not post the review. Please try again later.",
+    commentsSubmitting: "Posting review...",
+    commentsSubmitted: "Review posted. Thank you for the feedback.",
+    commentsNeedName: "Enter a display name.",
+    commentsNeedText: "Enter a comment.",
+    commentsAverage: (rating, count) => `${rating} / 5 · ${count} review${count === 1 ? "" : "s"}`,
+    commentsNoRating: "No ratings yet",
+    commentsAnonymous: "KNM learner",
     siteMockLabel: "Site Comprehensive Mock",
     siteMockDescription:
       "Randomly draws from the updated 10-chapter original scenario questions, while keeping DUO official sets separate.",
@@ -957,6 +995,15 @@ const authState = {
   saveTimer: null,
 };
 
+const commentsState = {
+  items: [],
+  loading: false,
+  submitting: false,
+  rating: 5,
+  loaded: false,
+  messageKey: "commentsLoading",
+};
+
 const $ = (selector) => document.querySelector(selector);
 const $$ = (selector) => Array.from(document.querySelectorAll(selector));
 let currentAudio = null;
@@ -1004,6 +1051,7 @@ function setLanguage(language) {
   renderGrammarGuide();
   renderDashboard();
   renderWrongbook();
+  renderComments();
   if (state.mock.active) {
     $("#mockSourcePill").textContent = mockSourceConfig().label;
     $("#startMock").textContent = t("restartMock");
@@ -1143,6 +1191,183 @@ function openAuthModal() {
 function closeAuthModal() {
   const modal = $("#authModal");
   if (modal) modal.hidden = true;
+}
+
+function formatCommentDate(value) {
+  try {
+    return new Intl.DateTimeFormat(state.language === "en" ? "en" : "zh-CN", {
+      year: "numeric",
+      month: "short",
+      day: "numeric",
+    }).format(new Date(value));
+  } catch {
+    return "";
+  }
+}
+
+function renderRatingStars(rating) {
+  return Array.from({ length: 5 }, (_, index) => (index < rating ? "★" : "☆")).join("");
+}
+
+function renderCommentStars() {
+  const starPicker = $("#commentStars");
+  if (!starPicker) return;
+  starPicker.innerHTML = Array.from({ length: 5 }, (_, index) => {
+    const rating = index + 1;
+    return `
+      <button
+        class="star-button ${rating <= commentsState.rating ? "is-active" : ""}"
+        type="button"
+        data-rating="${rating}"
+        aria-label="${rating} / 5"
+        aria-pressed="${rating === commentsState.rating}"
+      >★</button>
+    `;
+  }).join("");
+}
+
+function renderComments() {
+  renderCommentStars();
+  const average = $("#commentsAverage");
+  if (average) {
+    if (commentsState.items.length) {
+      const rating =
+        commentsState.items.reduce((total, item) => total + Number(item.rating || 0), 0) /
+        commentsState.items.length;
+      average.textContent = t("commentsAverage", rating.toFixed(1), commentsState.items.length);
+    } else {
+      average.textContent = t("commentsNoRating");
+    }
+  }
+
+  const status = $("#commentsStatus");
+  if (status) {
+    status.textContent = t(commentsState.messageKey);
+    status.hidden =
+      (!commentsState.loading && commentsState.messageKey === "commentsLoading") ||
+      (!commentsState.loading && commentsState.messageKey === "commentsEmpty") ||
+      (commentsState.items.length > 0 &&
+        !commentsState.loading &&
+        !commentsState.submitting &&
+        commentsState.messageKey !== "commentsSubmitted");
+  }
+
+  const submitButton = $("#commentSubmit");
+  if (submitButton) {
+    submitButton.disabled = commentsState.submitting;
+  }
+
+  const list = $("#commentsList");
+  if (!list) return;
+  if (!commentsState.items.length && !commentsState.loading) {
+    list.innerHTML = `<section class="empty-state"><strong>${t("commentsEmpty")}</strong></section>`;
+    return;
+  }
+  list.innerHTML = commentsState.items.map((item) => `
+    <article class="comment-item">
+      <div>
+        <strong>${escapeHtml(item.display_name || t("commentsAnonymous"))}</strong>
+        <span>${escapeHtml(formatCommentDate(item.created_at))}</span>
+      </div>
+      <span class="comment-rating" aria-label="${Number(item.rating || 0)} / 5">${renderRatingStars(Number(item.rating || 0))}</span>
+      <p>${escapeHtml(item.comment)}</p>
+    </article>
+  `).join("");
+}
+
+async function fetchSiteComments() {
+  if (!supabase) {
+    commentsState.messageKey = "commentsNotConfigured";
+    renderComments();
+    return;
+  }
+  commentsState.loading = true;
+  commentsState.messageKey = "commentsLoading";
+  renderComments();
+  const { data, error } = await supabase
+    .from("site_comments")
+    .select("id, display_name, rating, comment, created_at")
+    .eq("is_public", true)
+    .order("created_at", { ascending: false })
+    .limit(COMMENT_LIMIT);
+  commentsState.loading = false;
+  commentsState.loaded = true;
+  if (error) {
+    commentsState.messageKey = "commentsLoadFailed";
+    renderComments();
+    return;
+  }
+  commentsState.items = data || [];
+  commentsState.messageKey = commentsState.items.length ? "commentsLoading" : "commentsEmpty";
+  renderComments();
+}
+
+function openCommentsModal() {
+  const nameInput = $("#commentName");
+  if (nameInput && !nameInput.value) {
+    nameInput.value =
+      localStorage.getItem(COMMENT_NAME_KEY) ||
+      authState.user?.user_metadata?.full_name ||
+      "";
+  }
+  renderComments();
+  const modal = $("#commentsModal");
+  if (modal) modal.hidden = false;
+  if (!commentsState.loaded && !commentsState.loading) {
+    fetchSiteComments();
+  }
+}
+
+function closeCommentsModal() {
+  const modal = $("#commentsModal");
+  if (modal) modal.hidden = true;
+}
+
+function setCommentMessage(messageKey) {
+  commentsState.messageKey = messageKey;
+  renderComments();
+}
+
+async function submitComment(event) {
+  event.preventDefault();
+  if (!supabase) {
+    setCommentMessage("commentsNotConfigured");
+    return;
+  }
+  const nameInput = $("#commentName");
+  const textInput = $("#commentText");
+  const displayName = nameInput?.value.trim() || "";
+  const comment = textInput?.value.trim() || "";
+  if (!displayName) {
+    setCommentMessage("commentsNeedName");
+    nameInput?.focus();
+    return;
+  }
+  if (!comment) {
+    setCommentMessage("commentsNeedText");
+    textInput?.focus();
+    return;
+  }
+
+  commentsState.submitting = true;
+  setCommentMessage("commentsSubmitting");
+  const { error } = await supabase.from("site_comments").insert({
+    user_id: authState.user?.id || null,
+    display_name: displayName.slice(0, 40),
+    rating: commentsState.rating,
+    comment: comment.slice(0, 500),
+    is_public: true,
+  });
+  commentsState.submitting = false;
+  if (error) {
+    setCommentMessage("commentsSubmitFailed");
+    return;
+  }
+  localStorage.setItem(COMMENT_NAME_KEY, displayName.slice(0, 40));
+  if (textInput) textInput.value = "";
+  commentsState.rating = 5;
+  await fetchSiteComments();
+  setCommentMessage("commentsSubmitted");
 }
 
 async function saveCloudState() {
@@ -2545,13 +2770,18 @@ function bindEvents() {
     const button = event.target instanceof Element ? event.target.closest("[data-speak-grammar]") : null;
     if (button) speakDutch(button.dataset.speakGrammar);
   });
-  $("#feedbackButton").addEventListener("click", () => {
-    if (!FEEDBACK_FORM_URL) {
-      window.alert(t("feedbackPending"));
-      return;
-    }
-    window.open(FEEDBACK_FORM_URL, "_blank", "noopener,noreferrer");
+  $("#feedbackButton").addEventListener("click", openCommentsModal);
+  $("#commentsClose").addEventListener("click", closeCommentsModal);
+  $("#commentsModal").addEventListener("click", (event) => {
+    if (event.target === event.currentTarget) closeCommentsModal();
   });
+  $("#commentStars").addEventListener("click", (event) => {
+    const button = event.target instanceof Element ? event.target.closest("[data-rating]") : null;
+    if (!button) return;
+    commentsState.rating = Number(button.dataset.rating) || 5;
+    renderComments();
+  });
+  $("#commentForm").addEventListener("submit", submitComment);
   $("#authButton").addEventListener("click", openAuthModal);
   $("#authClose").addEventListener("click", closeAuthModal);
   $("#authModal").addEventListener("click", (event) => {
@@ -2564,6 +2794,7 @@ function bindEvents() {
   $("#authSignOut").addEventListener("click", signOut);
   window.addEventListener("keydown", (event) => {
     if (event.key === "Escape" && !$("#authModal").hidden) closeAuthModal();
+    if (event.key === "Escape" && !$("#commentsModal").hidden) closeCommentsModal();
   });
   $("#startMock").addEventListener("click", startMock);
   $("#prevMock").addEventListener("click", () => {

@@ -371,7 +371,41 @@
       </section>
     </div>
 
-    <button class="feedback-button" id="feedbackButton" type="button" aria-label="发现问题或反馈建议" data-i18n="feedbackButton" data-i18n-aria-label="feedbackAria">发现问题</button>
+    <div class="modal-backdrop" id="commentsModal" hidden>
+      <section class="comment-modal" role="dialog" aria-modal="true" aria-labelledby="commentsModalTitle">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow">Community</p>
+            <h2 id="commentsModalTitle" data-i18n="commentsTitle">用户评论</h2>
+            <p data-i18n="commentsCopy">欢迎留下你的使用感受、纠错建议或备考经验。</p>
+          </div>
+          <button class="icon-action" id="commentsClose" type="button" aria-label="关闭" data-i18n-aria-label="authClose">×</button>
+        </div>
+
+        <div class="comment-summary" id="commentsAverage">暂无评分</div>
+        <form class="comment-form" id="commentForm">
+          <label>
+            <span data-i18n="commentNameLabel">显示名称</span>
+            <input id="commentName" type="text" maxlength="40" autocomplete="nickname" required />
+          </label>
+          <fieldset>
+            <legend data-i18n="commentRatingLabel">评分</legend>
+            <div class="star-picker" id="commentStars" aria-label="选择评分" data-i18n-aria-label="commentRatingAria"></div>
+          </fieldset>
+          <label>
+            <span data-i18n="commentTextLabel">评论</span>
+            <textarea id="commentText" maxlength="500" rows="4" required></textarea>
+          </label>
+          <div class="card-actions">
+            <button class="primary-action" id="commentSubmit" type="submit" data-i18n="commentSubmit">发布评论</button>
+          </div>
+        </form>
+        <p class="sync-status" id="commentsStatus" data-i18n="commentsLoading">正在加载评论...</p>
+        <div class="comments-list" id="commentsList"></div>
+      </section>
+    </div>
+
+    <button class="feedback-button" id="feedbackButton" type="button" aria-label="查看和发布用户评论" data-i18n="feedbackButton" data-i18n-aria-label="feedbackAria">用户评论</button>
 
     <script type="module" src="/app.js"></script>
     <!-- Cloudflare Web Analytics -->
