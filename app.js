@@ -1591,6 +1591,45 @@ function findQuestionByKey(key) {
   return questions.find((question) => questionKey(question) === key);
 }
 
+function questionSnapshot(question) {
+  return {
+    id: question.id,
+    topic: question.topic,
+    source: question.source,
+    scenario: question.scenario || "",
+    zhScenario: question.zhScenario || "",
+    question: question.question || "",
+    zhQuestion: question.zhQuestion || "",
+    answers: Array.isArray(question.answers) ? question.answers : [],
+    zhAnswers: Array.isArray(question.zhAnswers) ? question.zhAnswers : [],
+    correct: question.correct,
+    correctText: question.correctText || "",
+    explanation: question.explanation || "",
+    type: question.type || "choice",
+  };
+}
+
+function questionFromWrongEntry(entry) {
+  const latestQuestion = findQuestionByKey(entry.id);
+  if (latestQuestion) return latestQuestion;
+  if (entry.questionData && typeof entry.questionData === "object") return entry.questionData;
+  if (entry.question && typeof entry.question === "object") return entry.question;
+  return {
+    id: entry.id,
+    topic: entry.topic,
+    scenario: entry.scenario || "",
+    zhScenario: entry.zhScenario || "",
+    question: typeof entry.question === "string" ? entry.question : "",
+    zhQuestion: entry.zhQuestion || "",
+    answers: Array.isArray(entry.answers) ? entry.answers : [],
+    zhAnswers: Array.isArray(entry.zhAnswers) ? entry.zhAnswers : [],
+    correct: entry.correct,
+    correctText: entry.correctText || "",
+    explanation: entry.explanation || "",
+    type: entry.type || "choice",
+  };
+}
+
 function selectedAnswerText(question, response) {
   if (!hasQuestionResponse(question, response)) return t("notAnswered");
   if (question.type === "short") return String(response);
@@ -1607,15 +1646,8 @@ function addWrongAnswer(question, response, source) {
   const wrongAnswers = state.progress.wrongAnswers || {};
   const existing = wrongAnswers[key] || {};
   wrongAnswers[key] = {
+    ...questionSnapshot(question),
     id: key,
-    topic: question.topic,
-    scenario: question.scenario,
-    question: question.question,
-    answers: question.answers || [],
-    correct: question.correct,
-    correctText: question.correctText || "",
-    explanation: question.explanation,
-    type: question.type || "choice",
     lastResponse: response,
     lastSource: source,
     mistakes: (existing.mistakes || 0) + 1,
@@ -1637,7 +1669,7 @@ function clearWrongAnswers() {
 
 function wrongAnswerEntries() {
   return Object.values(state.progress.wrongAnswers || {})
-    .map((entry) => ({ ...entry, questionData: findQuestionByKey(entry.id) || entry }))
+    .map((entry) => ({ ...entry, questionData: questionFromWrongEntry(entry) }))
     .sort((a, b) => new Date(b.lastWrongAt || 0) - new Date(a.lastWrongAt || 0));
 }
 
@@ -2604,7 +2636,7 @@ function renderReviewAnswerList(question, response) {
 }
 
 function renderWrongQuestionCard(item, options = {}) {
-  const question = item.question || item.questionData || item;
+  const question = item.questionData || questionFromWrongEntry(item);
   const topic = getTopic(question.topic);
   const response = Object.prototype.hasOwnProperty.call(item, "response") ? item.response : item.lastResponse;
   const key = item.id || questionKey(question);
